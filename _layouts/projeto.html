@@ -1,0 +1,18 @@
+{% include head.html %}
+
+{% include header.html %}
+
+<section  class="secao">
+    <span class="prefixo">C:\entreblogs\{{ page.type | capitalize }}\</span>
+</section>
+
+<main>
+<h3>{{ page.title }}</h3>
+       {{ content }}
+</main>
+
+{% include footer.html %}
+
+</div> <!-- Fechando a div do container -->
+</body>
+</html>

@@ -1,0 +1,34 @@
+title: Entreblogs
+description: Um espaço para compartilhar perspectivas sobre os mesmos temas, cada um do seu jeitinho e no seu próprio blog.
+url: "https://coletivoentreblogs.netlify.app/"
+
+markdown: kramdown
+
+excerpt_separator: "<!--more-->"
+
+pagination:
+  enabled: true
+  per_page: 9
+
+permalink: :slug/
+future: false
+
+defaults:
+  - scope:
+      path: "tags"
+      type: pages
+    values:
+      permalink: /:slug/
+
+plugins:
+  - jekyll-analytics
+
+jekyll_analytics:
+  CounterDotDev:
+    user: "4b082bc3-c047-46b4-9794-036e15bd1cde" # seu ID do counter.dev
+    domain: "historiasparaler.netlify.app"       # só o domínio, sem https://
+
+
+exclude:
+- README.md
+- LICENSE.md

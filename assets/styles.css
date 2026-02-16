@@ -1,0 +1,525 @@
+/* --- INÍCIO RESET E VARIÁVEIS --- */
+*, *::before, *::after { box-sizing: border-box; }
+
+:root {
+ --cor-moldura: #000000;
+ --cor-destaque: #000000;
+ --cor-azul: #B8DDFF;
+ --cor-rosa: #FCD6E4;
+ --cor-amarelo: #FFD358;
+ --cor-fundo: #ffffff;
+ --cor-link: #454545;
+ --cor-linha: #c0c0c05d;
+ --cor-texto: #000000;
+ --fonte-geral: monospace;
+}
+/* --- FINAL RESET E VARIÁVEIS --- */
+
+html {
+  scroll-behavior: smooth; /* Para rolagem suave */
+  min-height: 100vh;
+  width: calc(100% - 5px); /* Ajuste conforme necessário */
+}
+
+body {
+ background-color: var(--cor-moldura); /* A cor que contorna tudo */
+ display: flex;
+ flex-direction: column;
+ margin: clamp(0.5rem, 1vw, 1rem); /* 8–16px */
+ color: var(--color-text);
+ font-size: clamp(1.06rem, 1.5vw, 1.1rem); /* 16–17.6px */
+ line-height: clamp(1.5rem, 2vw, 1.7rem); /* 24–27.2px */
+ font-family: var(--fonte-geral);
+}
+
+.site-container {
+ background-color: var(--cor-fundo);
+ padding: 0 5px 0 5px;
+}
+
+header, footer, .secao{
+ background-color: var(--cor-fundo);
+ padding: 20px; /* Padding padrão para todos */
+}
+
+header {
+ display: block;
+ width: 100%; /* Ocupa toda a largura */
+ padding-bottom: 20px;
+ text-align: center;
+}
+
+nav {
+ display: block;
+ text-align: center;
+ border-top: var(--cor-linha) 1px solid;
+ border-bottom: var(--cor-linha) 1px solid;
+ padding: 10px 0;
+ flex-wrap: wrap; /* Caso o conteúdo precise quebrar em telas pequenas */
+ font-size: clamp(0.88rem, 0.8vw, 0.94rem); /* 14–15px */
+}
+
+footer {
+ display: block;
+ text-align: center;
+ flex-wrap: wrap; /* Caso o conteúdo precise quebrar em telas pequenas */
+ font-size: clamp(0.88rem, 0.8vw, 0.94rem); /* 14–15px */
+ width: 100%; /* Ajuste conforme necessário */
+}
+
+main {
+ margin: 0px auto 0px auto;
+ padding: 0;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ overflow-wrap: break-word;
+ max-width: 49rem;
+ background-color: var(--cor-fundo);
+}
+
+.logo {
+ width: 120px;
+ height: auto;
+ margin-bottom: 10px;
+}
+
+/* INÍCIO dos Estilos de títulos */
+.secao {
+ font-size: clamp(1.5rem, 3vw, 2.7rem); /* mínimo 35px → 40px */
+ line-height: clamp(1.6rem, 1vw, 1.8rem); /* 32–35px */
+}
+
+.secao {
+ display: block;
+ word-break: keep-all;
+ overflow-wrap: normal; 
+ white-space: normal;
+ background-color: var(--cor-fundo);
+ margin: 1.5rem auto 2rem auto;
+ max-width: 60rem;
+ font-weight: bold;
+ padding: 10px 5px;
+}
+
+.prefixo {
+display: inline;
+ user-select: none;
+ -webkit-user-select: none;
+ cursor: default; /* Mantém a seta do mouse em vez da barra de seleção de texto */
+}
+
+.nome-da-secao {
+display: inline;
+ margin: 0;
+ padding: 0;
+}
+
+/* -- INÍCIO Gracinha do cursor piscando -- */
+.secao::after {
+ content: "|"; /* O caractere do cursor */
+ display: inline; /* Cursor vira "uma letra" do texto */
+ margin-left: 0px;
+ color: var(--cor-texto); /* Cor do cursor - pode mudar para a cor do seu tema */
+ animation: blink 1s step-end infinite;
+ vertical-align: middle;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: inherit; /* Aparece na cor do texto */
+  }
+}
+/* -- FINAL Gracinha do cursor piscando -- */
+
+h1 { /* ENTREBLOGS */
+ font-size: clamp(2rem, 3vw, 2.3rem); /* 24–30px */
+ font-weight: 700;
+ white-space: nowrap; /* Evita quebra de linha no nome */
+ display: inline;
+ margin: 0 0 0 5px;
+}
+
+.h1-menor { /* subtítulo do cabeçalho */
+ font-size: .88rem;
+ font-weight: normal;
+ font-style: italic;
+ line-height: 1rem; /* 32–35px */
+ margin-left: 10px;
+}
+
+h2 { /* cabeçalho de saudação */
+ font-size: clamp(2.4rem, 4vw, 2.7rem); /* mínimo 35px → 40px */
+ line-height: clamp(2rem, 3vw, 2.19rem); /* 32–35px */
+ margin: 0; 
+}
+
+h3 { /* A criadora e a criatura */
+ font-size: clamp(1.8rem, 3vw, 2rem); /* 27px → 27px */
+ text-align: center;
+ font-weight: normal;
+ line-height: clamp(2rem, 3vw, 2.19rem); /* 32–35px */
+ text-wrap: balance;
+ margin-top: 3rem; /* 10px */
+ margin-bottom: 0.63rem; /* 10px */
+}
+
+h4 { /* Títulos de postagem e outros títulos de página */
+ font-size: clamp(1.5rem, 2.5vw, 1.8rem); /* 24px → 27px */
+ text-align: left;
+ font-weight: normal;
+ line-height: clamp(1.8rem, 2.5vw, 2rem); /* 27–30px */
+ text-wrap: balance;
+ margin-top: 3rem; /* 10px */
+ margin-bottom: 0.63rem; /* 10px */
+}
+/* FINAL dos Estilos de títulos */
+
+/* INÍCIO estilos de citação */
+blockquote {
+ border-left: 7px solid var(--cor-destaque);
+ margin: 1rem 20px;
+ padding: 1rem .6rem;
+ font-style: italic;
+}
+
+.fleabag {
+ font-size: clamp(1rem, 1.5vw, 1.06rem);
+ line-height: clamp(1.5rem, 2vw, 1.7rem);
+ font-style: italic;
+ text-wrap: balance;
+ color: var(--cor-texto);
+ max-width: 95%; 
+ background-color: var(--cor-destaque);
+ border-radius: 0.5rem 0.5rem 0.5rem 0;
+ padding: 0.5rem 0.5rem;
+ position: relative; 
+ display: inline-block;
+}
+
+/* A Seta do Balão */
+.fleabag::after {
+ content: "";
+ position: absolute;
+ bottom: 0px;
+ left: -15px; 
+ /* 3. Aplicamos a cor transparente aqui também */
+ border-right: 15px solid var(--cor-destaque);
+ border-top: 10px solid transparent;
+}
+/* FINAL estilos de citação */
+
+/* INÍCIO estilos LISTAS */
+.link-temas {
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ gap: 7px;
+ list-style: none;
+}
+
+.link-temas li {
+ list-style: none;
+ padding-left: 0;
+ background-color: var(--cor-destaque);
+ text-align: center;
+ border: var(--cor-destaque) 1px solid;
+ border-radius: 5px;
+ padding: 5px;
+}
+
+/* INÍCIO estilos LISTA DOS LIVROS */
+.listas-livros {
+ width: 100%;
+ display: block;
+ align-items: center;
+}
+
+.listas-livros ul.link-livros {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ column-gap: 2rem;
+ row-gap: 20px; /* Aumentamos para dar espaço para legendas grandes */
+ align-items: start;
+ padding: 0;
+ margin: 0;
+}
+
+.listas-livros ul.link-livros > li {
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start; /* alinhamento pelo topo */
+ padding: 0;
+ margin: 0;
+ height: 100%;
+}
+
+.capa-do-livro {
+ width: 100%;
+ display: flex;
+ flex-direction: column; /* Empilha a imagem e a legenda */
+ align-items: center;    /* Centraliza os itens horizontalmente */
+ position: relative;     /* Para ajudar no controle do texto transbordando */
+}
+
+.capa-do-livro img {
+ width: 100%;
+ height: auto;
+ display: block;
+}
+
+.capa-do-livro figcaption {
+ width: 100%;            /* Garante que o texto tenha espaço para alinhar */
+ text-align: center;     /* Centraliza o texto */
+ font-size: clamp(0.8rem, 1vw, 0.9rem); /* 12–14px */
+ margin-top: 10px;       /* Espaço entre a capa e o texto */
+ height: auto; 
+ display: block;
+}
+
+.capa-do-livro::after {
+ content: attr(livro-numero);
+ position: absolute;
+ top: 5px;      /* Distância do topo da imagem */
+ right: 10px;     /* Distância da esquerda da imagem */
+ z-index: 10;    /* Garante que fique em cima da foto */
+ /* Estilização do Selo */
+ background-color: var(--cor-texto);
+ color: var(--cor-fundo);
+ font-size: 0.7rem;
+ font-weight: bold;
+ padding: 5px 8px;
+ border-radius: 50%; 
+ font-family: var(--fonte-geral);
+}
+/* FINAL estilos LISTA DOS LIVROS */
+/* FINAL estilos LISTAS */
+
+/* INÍCIO estilos LINKS */
+a:link,
+a:visited,
+a:active {
+ padding: 1px 3px;
+ border-radius: 5px; /* opcional: cantos arredondados */
+ color: var(--cor-link) solid; /* borda = cor do link */;
+ font-weight: bold;
+ transition: all 0.3s ease;
+ white-space: nowrap; /* impede quebra em "Na estante" */
+}
+
+a:hover {
+ background-color: var(--cor-link); /* fundo muda no hover */
+ color: var(--cor-fundo);      /* mantém contraste */
+}
+
+.fleabag a:hover, ul a:hover {
+ background-color: var(--cor-moldura); /* fundo muda no hover */
+ color: var(--cor-texto);      /* mantém contraste */
+}
+
+a:has(img) {
+  background: none !important;
+  padding: 0 !important;
+  transition: none !important; /* Importante para não haver delay na troca de cor */
+  background-image: none !important;
+}
+/* FINAL estilos LINKS */
+
+/* INÍCIO estilos gerais */
+time {
+ display: inline-block; /* Agora ele aceita margens verticais */
+ font-style: italic;
+ color: var(--cor-texto);
+ margin-bottom: 10px; /* Agora isso vai funcionar! */
+}
+
+aside {
+ background-color: var(--cor-destaque);
+ border-radius: 5px;
+ color: var(--cor-texto);
+ font-weight: 700;
+ padding: 5px;
+ margin: 20px 0;
+}
+
+figure img {
+ display: block;
+ width: 40%;
+ margin: 0 auto; /* Centraliza a imagem dentro da figure */
+ max-width: 100%; /* Garante que ela não escape da largura da figure */
+}
+
+figcaption {
+ width: 100%;            /* Garante que o texto tenha espaço para alinhar */
+ text-align: center;     /* Centraliza o texto */
+ font-size: clamp(0.8rem, 1vw, 0.9rem); /* 12–14px */
+ margin-top: 10px;       /* Espaço entre a capa e o texto */
+ height: auto; 
+ display: block;
+}
+/* FINAL estilos gerais */
+
+/* INÍCIO do formulario */
+.form-terminal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.campo label {
+  font-weight: bold;
+}
+
+.campo input, .campo textarea {
+  background: transparent;
+  border: 1px solid var(--cor-texto);
+  color: var(--cor-texto);
+  font-family: var(--fonte-geral);
+  padding: 10px;
+  outline: none;
+}
+
+.campo input:focus, .campo textarea:focus {
+  background-color: var(--cor-destaque);
+}
+
+.btn-terminal {
+  background-color: var(--cor-destaque);
+  color: var(--cor-texto);
+  border: none;
+  padding: 10px;
+  font-family: var(--fonte-geral);
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.btn-terminal:hover {
+  opacity: 0.8;
+}
+
+.mensagem-conteudo {
+  line-height: 1.5; /* Controla a distância exata entre as linhas */
+}
+
+/* O filtro newline_to_br cria tags <br>. 
+   Vamos garantir que elas não tenham altura extra. */
+.mensagem-conteudo br {
+  display: block;
+  content: "";
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* FINAL do formulario */
+
+/* FINAL de Código para selos */
+.bloco-lateral {
+  display: flex;
+  flex-direction: row; /* Coloca um ao lado do outro */
+  align-items: flex-start; /* Alinha o topo da imagem com o topo da caixa */
+  justify-content: center; /* Centraliza o conjunto todo na página */
+  gap: 2px; /* Espaço entre a imagem e a caixa */
+  max-width: 60rem; /* Um pouco maior que a caixa para caber a imagem */
+  margin: 1rem auto;
+}
+
+.selo-lateral {
+  margin: 0;
+  padding-top: 30px;
+  flex-shrink: 0; /* Impede que a imagem "esmague" se a tela diminuir */
+}
+
+.selo-lateral img {
+  display: block;
+  max-height: 250px; /* Ajuste o tamanho da imagem aqui */
+  height: auto;
+}
+
+.container-codigo {
+  flex-grow: 1; /* Faz a caixa ocupar o resto do espaço */
+  max-width: 49rem;
+  border: 1px solid var(--cor-texto);
+  background-color: var(--cor-fundo);
+}
+
+.topo-caixa {
+  background-color: var(--cor-texto);
+  color: var(--cor-fundo);
+  padding: 5px 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+#codigoParaCopiar {
+  width: 100%;
+  height: 100px;
+  background: transparent;
+  color: var(--cor-texto);
+  border: none;
+  padding: 5px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  resize: none; /* Impede o usuário de redimensionar a caixa */
+  outline: none;
+}
+
+.btn-terminal {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--cor-destaque);
+  color: var(--cor-texto);
+  border: none;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.feedback {
+  display: none;
+  font-size: 0.8rem;
+  padding: 5px;
+  text-align: center;
+  color: #28a745; /* Verde de sucesso */
+}
+/* FINAL de Código para selos */
+
+/* Ajustes para telas menores */
+@media only screen and (max-width: 40rem) {
+
+.listas-livros ul.link-livros {
+    grid-template-columns: 1fr; /* Uma coluna só */
+    justify-items: center;      /* Centraliza o conteúdo da coluna */
+    row-gap: 20px;
+    padding: 0;
+  }
+
+  .listas-livros ul.link-livros > li {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Garante que o LI centralize seu conteúdo */
+  }
+
+  /* Ajuste crucial na Figure */
+  .capa-do-livro {
+    max-width: 60%; /* Impede que o livro fique gigante e descentralizado */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+/* Ajuste bloco de compartilhamento de código */
+   .bloco-lateral {
+    flex-direction: column;
+    align-items: center;
+  }
+}

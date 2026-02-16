@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<!-- Meta Tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Um espaço para compartilhar perspectivas sobre os mesmos temas, cada um do seu jeitinho e no seu próprio blog.">
+  <meta name="robots" content="index,follow">
+<!-- Meta Tags -->
+
+<!-- Title Tags -->
+{% if page.title == 'Entreblogs'%}
+ <title>{{ site.title }}</title>
+{% elsif page.title == 'erro'%}
+ <title>Erro 404</title>
+{% else %}
+ <title>{{ page.title | truncate: 45, "…"}} • {{ site.title }}</title>
+{% endif %}
+<!-- Title Tags -->
+
+<!-- Links -->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.0.0/css/all.css">
+ <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/selo_1.0_amarelo.png">
+ <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/selo_1.0_amarelo.png">
+ <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/selo_1.0_amarelo.png">
+ <link rel="preconnect" href="https://fonts.bunny.net">
+ <link href="https://fonts.bunny.net/css?family=monospace" rel="stylesheet" />
+ <link rel="stylesheet" href="/assets/styles.css">
+<!-- Links -->
+
+<!-- Troca a cor aleatoriamente -->
+{% include moldura-aleatoria.html %}
+{% include destaque-aleatorio.html %}
+<!-- Troca a cor aleatoriamente -->
+</head>
+<body>
+  <div class="site-container">

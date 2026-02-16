@@ -1,0 +1,9 @@
+<script>
+  (function() {
+    const cores = ['#FCD6E4', '#B8DDFF', '#FFD358'];
+    const corSorteada = cores[Math.floor(Math.random() * cores.length)];
+    
+    const root = document.documentElement;
+    root.style.setProperty('--cor-destaque', corSorteada);
+  })();
+</script>

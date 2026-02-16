@@ -1,0 +1,13 @@
+<script>
+function copiarTexto() {
+  const textoArea = document.getElementById("codigoParaCopiar");
+  const aviso = document.getElementById("avisoCopiado");
+
+  navigator.clipboard.writeText(textoArea.value).then(() => {
+    aviso.style.display = "block";
+    setTimeout(() => {
+      aviso.style.display = "none";
+    }, 2000);
+  });
+}
+</script>
