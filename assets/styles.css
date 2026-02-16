@@ -30,6 +30,10 @@ body {
  font-size: clamp(1.06rem, 1.5vw, 1.1rem); /* 16–17.6px */
  line-height: clamp(1.5rem, 2vw, 1.7rem); /* 24–27.2px */
  font-family: var(--fonte-geral);
+ text-wrap: balance;
+ overflow-wrap: break-word; /* Força a quebra de palavras longas se necessário */
+ overflow-wrap: normal !important;    /* Compatibilidade com navegadores antigos */
+ word-wrap: normal !important;       /* Permite que o texto mude de linha naturalmente */
 }
 
 .site-container {
@@ -45,6 +49,7 @@ header, footer, .secao{
 header {
  display: block;
  width: 100%; /* Ocupa toda a largura */
+ margin: 0 auto;
  padding-bottom: 20px;
  text-align: center;
 }
@@ -85,59 +90,62 @@ main {
 }
 
 /* INÍCIO dos Estilos de títulos */
+/* --- ESTILO DA SEÇÃO (CORRIGIDO) --- */
 .secao {
- font-size: clamp(1.5rem, 3vw, 2.7rem); /* mínimo 35px → 40px */
- line-height: clamp(1.6rem, 1vw, 1.8rem); /* 32–35px */
-}
+  display: block;
+  background-color: var(--cor-fundo);
+  margin: 1.5rem auto 2rem auto;
+  max-width: 60rem;
+  padding: 10px 5px;
+  
+  font-family: var(--fonte-geral);
+  font-weight: bold;
+  font-size: clamp(1.5rem, 3vw, 2.7rem);
+  line-height: 1.2;
+  text-align: left;
 
-.secao {
- display: block;
- word-break: keep-all;
- overflow-wrap: normal; 
- white-space: normal;
- background-color: var(--cor-fundo);
- margin: 1.5rem auto 2rem auto;
- max-width: 60rem;
- font-weight: bold;
- padding: 10px 5px;
+  /* Força a quebra apenas entre palavras e limpa os 'break-word' do body */
+  word-break: keep-all; 
+  overflow-wrap: anywhere; 
+  white-space: normal; 
 }
 
 .prefixo {
-display: inline;
- user-select: none;
- -webkit-user-select: none;
- cursor: default; /* Mantém a seta do mouse em vez da barra de seleção de texto */
+  display: inline;
+  white-space: nowrap; /* Impede o C:\ de quebrar sozinho */
+  user-select: none;
 }
 
 .nome-da-secao {
-display: inline;
- margin: 0;
- padding: 0;
+  display: inline;
+  /* Remove qualquer herança de quebra forçada */
+  word-break: keep-all;
 }
 
-/* -- INÍCIO Gracinha do cursor piscando -- */
+/* -- CURSOR PISCANTE (O TRUQUE FINAL) -- */
 .secao::after {
- content: "|"; /* O caractere do cursor */
- display: inline; /* Cursor vira "uma letra" do texto */
- margin-left: 0px;
- color: var(--cor-texto); /* Cor do cursor - pode mudar para a cor do seu tema */
- animation: blink 1s step-end infinite;
- vertical-align: middle;
+  content: "|";
+  display: inline-block;
+  margin-left: 2px;
+  color: var(--cor-texto);
+  animation: blink 1s step-end infinite;
+  vertical-align: baseline;
+  
+  /* Isso aqui impede o cursor de cair sozinho para a próxima linha */
+  /* Ele agora se comporta como um caractere colado na última palavra */
+  overflow-wrap: normal;
 }
 
 @keyframes blink {
-  from, to {
-    color: transparent;
-  }
-  50% {
-    color: inherit; /* Aparece na cor do texto */
-  }
+  from, to { color: transparent; }
+  50% { color: inherit; }
 }
 /* -- FINAL Gracinha do cursor piscando -- */
 
 h1 { /* ENTREBLOGS */
- font-size: clamp(2rem, 3vw, 2.3rem); /* 24–30px */
+ font-size: clamp(1.5rem, 3vw, 2.3rem); /* 24–30px */
  font-weight: 700;
+ text-align: center;
  letter-spacing: 20px;
  white-space: nowrap; /* Evita quebra de linha no nome */
  display: inline;
@@ -219,16 +227,28 @@ blockquote {
  grid-template-columns: repeat(2, 1fr);
  gap: 7px;
  list-style: none;
+ padding: 0;           /* Remove o recuo padrão da lista */
+ margin: 2rem auto;    /* Centraliza o container da lista */
+ width: 100%;
+ max-width: 100%;      /* Garante que o grid use o espaço do <main> */
 }
 
 .link-temas li {
- list-style: none;
- padding-left: 0;
  background-color: var(--cor-destaque);
- text-align: center;
  border: var(--cor-destaque) 1px solid;
+ text-align: center;
  border-radius: 5px;
  padding: 5px;
+ text-align: center;
+ display: flex;         /* Ajuda a alinhar o link interno */
+ justify-content: center;
+ align-items: center;
+ min-height: 50px;      /* Altura mínima para manter padrão */
+}
+
+.link-temas li a {
+  width: 100%;           /* Faz o link ocupar o botão todo */
+  display: block;
 }
 
 /* INÍCIO estilos LISTA DOS LIVROS */
@@ -304,10 +324,9 @@ a:visited,
 a:active {
  padding: 1px 3px;
  border-radius: 5px; /* opcional: cantos arredondados */
- color: var(--cor-link) solid; /* borda = cor do link */;
+ color: var(--cor-link);
  font-weight: bold;
  transition: all 0.3s ease;
- white-space: nowrap; /* impede quebra em "Na estante" */
 }
 
 a:hover {
@@ -325,6 +344,12 @@ a:has(img) {
   padding: 0 !important;
   transition: none !important; /* Importante para não haver delay na troca de cor */
   background-image: none !important;
+}
+
+a {
+  display: inline-block;     /* Permite que o link se comporte melhor com quebras */
+  max-width: 100%;           /* Garante que o link nunca seja maior que a tela */
+  vertical-align: top;       /* Alinha corretamente se quebrar no meio de uma frase */
 }
 /* FINAL estilos LINKS */
 
@@ -495,6 +520,15 @@ figcaption {
 
 /* Ajustes para telas menores */
 @media only screen and (max-width: 40rem) {
+
+h1 { /* ENTREBLOGS */
+ letter-spacing: 15px;
+}
+
+.link-temas {
+ grid-template-columns: 1fr; /* Vira uma coluna só */
+ padding: 0 10px;            /* Pequena margem para não encostar na borda */
+}
 
 .listas-livros ul.link-livros {
     grid-template-columns: 1fr; /* Uma coluna só */

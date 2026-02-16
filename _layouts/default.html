@@ -5,10 +5,11 @@
 {% if page.title == 'Entreblogs'%}
   <section  class="secao">
     <span class="prefixo">C:\entreblogs\</span></section>
-    {% else %}
+  {% else %}
 <section  class="secao">
-      <span class="prefixo">C:\entreblogs\</span><span class="nome-da-secao">{{ page.title }}</span></section>
-      {% endif %}
+      <span class="prefixo">C:\entreblogs\</span><span class="nome-da-secao">{{ page.title }}</span>
+</section>
+{% endif %}
 
 <main>
        {{ content }}

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: TAGS
+title: Tags
 description: Participe dessa corrente.
 ---
 | #002 [ENTREBLOGS](/tag/entreblogs) |
