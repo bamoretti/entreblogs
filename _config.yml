@@ -1,6 +1,6 @@
 title: Entreblogs
 description: Um espaço para compartilhar perspectivas sobre os mesmos temas, cada um do seu jeitinho e no seu próprio blog.
-url: "https://entreblogs.netlify.app/"
+url: "https://entreblogs.netlify.app"
 
 markdown: kramdown
 
