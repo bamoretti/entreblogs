@@ -4,9 +4,9 @@ title: Livro de visitas
 description: Deixe sua mensagem para a comunidade.
 ---
 <main>
-  {% for visita in site.data.visitas %}
-<div style="margin-bottom: 2rem; border-left: 7px solid var(--cor-destaque); padding-left: 15px;">
+  {% for visita in site.data.livro-de-visitas %}
 
+<div style="margin-bottom: 2rem; border-left: 7px solid var(--cor-destaque); padding-left: 15px;">
 {% if visita.site %}
   <a href="{{ visita.site }}">
     <strong>{{ visita.nome }}</strong>
