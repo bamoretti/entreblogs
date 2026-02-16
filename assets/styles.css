@@ -11,7 +11,7 @@
  --cor-link: #454545;
  --cor-linha: #c0c0c05d;
  --cor-texto: #000000;
- --fonte-geral: monospace;
+ --fonte-geral: 'Roboto Mono';
 }
 /* --- FINAL RESET E VARIÁVEIS --- */
 
@@ -138,6 +138,7 @@ display: inline;
 h1 { /* ENTREBLOGS */
  font-size: clamp(2rem, 3vw, 2.3rem); /* 24–30px */
  font-weight: 700;
+ letter-spacing: 20px;
  white-space: nowrap; /* Evita quebra de linha no nome */
  display: inline;
  margin: 0 0 0 5px;
