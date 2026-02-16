@@ -19,10 +19,11 @@ Veja os [livros anteriores](/clube-de-leitura).
 <h4>Blogs participantes:</h4>
 
 <ul class="link-temas">
-<li><a href="https://blogdoth.com.br/resenha-a-cabeca-do-santo/">Blog do th</a></li>
-<li><a href="https://withsarti.blogspot.com/2026/02/coragem-perdao-amor.html">With Sarti</a></li>
-<li><a href="https://nyrtais.blogspot.com/2026/02/ultimas-leituras-1.html">Nyartais</a></li>
-<li><a href="https://www.estantedapipoca.com/2026/02/resenha-a-cabeca-do-santo.html">Estante da Pipoca</a></li>
-<li><a href="https://falacatarina.com/2026/02/15/o-tempo-de-sonhar-e-em-cima-da-terra/">Fala Catarina</a></li>
-<li><a href="https://www.inventandoassunto.com/2026/02/clube-de-leitura-cabeca-do-santo.html">Inventando Assunto</a></li>
+  {% assign posts_filtrados = site.data.leitura | where: "livro", page.title %}
+  
+  {% for item in posts_filtrados %}
+    <li>
+      <a href="{{ item.url }}">{{ item.nome }}</a>
+    </li>
+  {% endfor %}
 </ul>
