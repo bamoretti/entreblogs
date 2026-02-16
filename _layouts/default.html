@@ -2,13 +2,14 @@
 
 {% include header.html %}
 
-{% if page.title == 'Entreblogs'%}
-  <section  class="secao">
-    <span class="prefixo">C:\entreblogs\</span></section>
-  {% else %}
-<section  class="secao">
-      <span class="prefixo">C:\entreblogs\</span><span class="nome-da-secao">{{ page.title }}</span>
-</section>
+{% if page.title == 'Entreblogs' %}
+  <section class="secao">
+    <span class="prefixo">C:\entreblogs\</span><span class="nome-da-secao"></span>
+  </section>
+{% else %}
+  <section class="secao">
+    <span class="prefixo">C:\entreblogs\</span><span class="nome-da-secao">{{ page.title }}</span>
+  </section>
 {% endif %}
 
 <main>

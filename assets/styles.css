@@ -31,8 +31,7 @@ body {
  line-height: clamp(1.5rem, 2vw, 1.7rem); /* 24–27.2px */
  font-family: var(--fonte-geral);
  text-wrap: balance;
- overflow-wrap: break-word; /* Força a quebra de palavras longas se necessário */
- overflow-wrap: normal !important;    /* Compatibilidade com navegadores antigos */
+ overflow-wrap: normal !important ;    /* Compatibilidade com navegadores antigos */
  word-wrap: normal !important;       /* Permite que o texto mude de linha naturalmente */
 }
 
@@ -90,55 +89,52 @@ main {
 }
 
 /* INÍCIO dos Estilos de títulos */
-/* --- ESTILO DA SEÇÃO (CORRIGIDO) --- */
+/* --- ESTILO DA SEÇÃO (FORÇA BRUTA CONTRA QUEBRA DE PALAVRAS) --- */
 .secao {
-  display: block;
-  background-color: var(--cor-fundo);
-  margin: 1.5rem auto 2rem auto;
-  max-width: 60rem;
-  padding: 10px 5px;
-  
-  font-family: var(--fonte-geral);
-  font-weight: bold;
-  font-size: clamp(1.5rem, 3vw, 2.7rem);
-  line-height: 1.2;
-  text-align: left;
-
-  /* Força a quebra apenas entre palavras e limpa os 'break-word' do body */
-  word-break: keep-all; 
-  overflow-wrap: anywhere; 
-  white-space: normal; 
+ display: block;
+ background-color: var(--cor-fundo);
+ margin: 1.5rem auto 2rem auto;
+ max-width: 60rem;
+ padding: 10px 5px;
+ font-family: var(--fonte-geral);
+ font-weight: bold;
+ font-size: clamp(1.5rem, 3vw, 2.7rem);
+ line-height: 1.3;
+ text-align: left;
+ /* RESET RADICAL: Forçamos o navegador a NÃO quebrar letras */
+ word-break: keep-all !important;
+ overflow-wrap: normal !important;
+ word-wrap: normal !important;
 }
 
 .prefixo {
-  display: inline;
-  white-space: nowrap; /* Impede o C:\ de quebrar sozinho */
-  user-select: none;
+ display: inline-block; /* Tratado como um bloco sólido */
+ white-space: nowrap;
 }
 
 .nome-da-secao {
-  display: inline;
-  /* Remove qualquer herança de quebra forçada */
-  word-break: keep-all;
+ display: inline; /* Permite que o conteúdo flua */
 }
 
-/* -- CURSOR PISCANTE (O TRUQUE FINAL) -- */
+/* O TRUQUE: Aplicar regras de "não quebra" diretamente no texto */
+.nome-da-secao {
+ white-space: normal;
+}
+
+/* -- CURSOR PISCANTE (AJUSTADO) -- */
 .secao::after {
-  content: "|";
-  display: inline-block;
-  margin-left: 2px;
-  color: var(--cor-texto);
-  animation: blink 1s step-end infinite;
-  vertical-align: baseline;
-  
-  /* Isso aqui impede o cursor de cair sozinho para a próxima linha */
-  /* Ele agora se comporta como um caractere colado na última palavra */
-  overflow-wrap: normal;
+ content: "|";
+ display: inline-block;
+ margin-left: -18px; /* PROXIMIDADE: Diminua para encostar mais, ou use valor negativo se precisar */
+ transform: translateY(-5px); /* ALTURA: Use valores em 'px' ou 'em' para subir o cursor.  Valores positivos descem, negativos sobem. */
+ color: var(--cor-texto);
+ animation: blink 1s step-end infinite;
+ vertical-align: middle; /* Garante que ele use a mesma base da fonte mas aceite o deslocamento */
 }
 
 @keyframes blink {
-  from, to { color: transparent; }
-  50% { color: inherit; }
+ from, to { color: transparent; }
+ 50% { color: inherit; }
 }
 /* -- FINAL Gracinha do cursor piscando -- */
 
