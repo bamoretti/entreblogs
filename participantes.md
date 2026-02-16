@@ -4,7 +4,7 @@ title: Participantes
 description: Listagem dos blogs participantes da comunidade.
 ---
 
-<ul class="lista-participantes">
+<ul style="list-style:none;">
   {% for blog in site.data.participantes %}
     <li>
       <a href="{{ blog.url }}">{{ blog.nome }}</a>
