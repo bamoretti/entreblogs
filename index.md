@@ -25,6 +25,6 @@ não precisa participar de todos os temas e subprojetos
 <h3>CRIADORA</h3>
 **BARBARA** do blog [BMRTT](https://bamoretti.com), quase duas décadas compartilhando aleatoriedades da minha vida na blogosfera. não satisfeita, acreditei que o projeto seria mais um jeitinho de fazer mais pessoas compartilharem suas coisinhas e criarem conexões sem deixar a blogosfera morrer.  
 
-a vida muda mas o blog persiste.  
+A vida muda mas o blog persiste.  
 
-**a blogosfera persiste.**
+**A blogosfera persiste.**
