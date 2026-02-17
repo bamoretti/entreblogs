@@ -1,6 +1,6 @@
 // Lista dos blogs (adicione as URLs aqui)
 var sites = [
-  "https://bamoretti.com/",
+  "https://www.bamoretti.com/",
   "https://www.igormedeiroz.com/",
   "https://nyrtais.blogspot.com/",
   "https://petalasdemaioblog.wordpress.com/",
