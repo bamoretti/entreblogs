@@ -33,11 +33,15 @@ HTML
   </nav>
 
   <div class="entreblogs-footer">
+<<<<<<< Updated upstream
     <a class="eb-info" href="https://github.com/dalbo1201/entreblogs-webring">O que é isso?</a>
+=======
+    <a class="eb-info" href="https://pt.wikipedia.org/wiki/Webring">O que é isso?</a>
+>>>>>>> Stashed changes
   </div>
 
-  <script src="https://dalbo1201.github.io/entreblogs-webring/onionring-variables.js"></script>
-  <script src="https://dalbo1201.github.io/entreblogs-webring/onionring-widget.js"></script>
+  <script src="https://entreblogs.netlify.app/webrings/onionring-variables.js"></script>
+  <script src="https://entreblogs.netlify.app/webrings/onionring-widget.js"></script>
 </section>
 ```
 
@@ -110,7 +114,7 @@ Para garantir a integridade do webring e o funcionamento em todos os blogs, resp
 O widget só funcionará plenamente (ativando os links de Anterior/Próximo) quando o seu domínio estiver cadastrado no banco de dados central do projeto.
 
 1.  **Instale o código:** Certifique-se de que o HTML e os Scripts já estão inseridos no seu blog.
-2.  **Solicite a inclusão:** Entre em contacto com o pessoal na Comunidade do WhatsApp, no grupo **C:\Users\Tech**.
+2.  **Solicite a inclusão:** Entre em contacto com o pessoal na Comunidade do WhatsApp, no grupo **C:\Users\Tech**, ou pelo [email do coletivo](mailto:coletivoentreblogs@gmail.com?subject=Também quero participar da comunidade).
 3.  **Aguarde a atualização:** Assim que o seu site for aprovado e fundido ao repositório principal, o widget passará a reconhecer a sua URL e a navegação circular será ativada automaticamente no seu blog.
 
 ---
