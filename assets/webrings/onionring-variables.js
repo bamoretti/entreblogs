@@ -30,12 +30,12 @@ var sites = [
   "https://amandamoresco.substack.com/",
   "https://www.heyimwiththeband.com.br/",
   "https://falaserioemi.blogspot.com/",
-  "https://www.prazerwillian.blogspot.com/",
+  "https://prazerwillian.blogspot.com/",
   "https://pedro.dalbo.me/",
   "https://www.mulhervitrola.com.br/blog/",
   "https://oeunaoobstante.bearblog.dev/",
-  "https://www.oieuoshi.blogspot.com/",
-  "https://www.jhoteotonio.blogspot.com/"
+  "https://oieuoshi.blogspot.com/",
+  "https://jhoteotonio.blogspot.com/"
 ];
 
 // Configurações visuais e de texto
