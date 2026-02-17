@@ -129,3 +129,7 @@
 - nome: "MULHER VITROLA"
   url: "https://mulhervitrola.com.br/blog/"
   feed: "https://mulhervitrola.com.br/feed/"
+
+- nome: "O (EU) NÃO OBSTANTE"
+  url: "https://oeunaoobstante.bearblog.dev/"
+  feed: "https://oeunaoobstante.bearblog.dev/feed/"

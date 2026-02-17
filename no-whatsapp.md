@@ -21,11 +21,9 @@ A comunidade no whatsapp é divida em alguns grupos:
 > Espaço para compartilhamos nossas participações dos temas e também outros posts que quisermos.
 
 <h4>Tech</h4>
-> Esse grupo serve principalmente para o pessoal se ajudar com dúvidas de códigos, configurações das plataformas, alguma ajuda em HTML, CSS...
->
->Mas aqui também falamos sobre os projetos do site da comunidade e outras frentes como [o nosso webring](/tutorial-webring).
+> espaço para papearmos sobre ferramentas, tutorais e qualquer troca que nos ajude a aperfeiçoar nossas casinhas virtuais. vale pedir socorro e vale ajudar os colegas também.
 
-<h4>Suguestões</h4>
+<h4>Sugestões</h4>
 > Nesse subgrupo trocamos ideias sobre próximos temas, melhorias para o projeto e projetos paralelos.  
 > 
 > Fique a vontade para ajudar a alimentar as listas de sugestões que correm assim como de sugerir novas ideais.  

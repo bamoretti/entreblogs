@@ -138,6 +138,7 @@ main {
 }
 /* -- FINAL Gracinha do cursor piscando -- */
 
+/* -- INÍCIO estilos de tírulos -- */
 h1 { /* ENTREBLOGS */
  font-size: clamp(1.5rem, 3vw, 2.3rem); /* 24–30px */
  font-weight: 700;
@@ -181,7 +182,7 @@ h4 { /* Títulos de postagem e outros títulos de página */
  margin-top: 3rem; /* 10px */
  margin-bottom: 0.63rem; /* 10px */
 }
-/* FINAL dos Estilos de títulos */
+/* -- FINAL estilos de tírulos -- */
 
 /* INÍCIO estilos de citação */
 blockquote {
@@ -217,7 +218,7 @@ blockquote {
 }
 /* FINAL estilos de citação */
 
-/* INÍCIO estilos LISTAS */
+/* INÍCIO estilos LISTAS para os participantes de temas, TAGS e leituras */
 .link-temas {
  display: grid;
  grid-template-columns: repeat(2, 1fr);
@@ -312,7 +313,7 @@ blockquote {
  font-family: var(--fonte-geral);
 }
 /* FINAL estilos LISTA DOS LIVROS */
-/* FINAL estilos LISTAS */
+/* FINAL estilos LISTAS para os participantes de temas, TAGS e leituras */
 
 /* INÍCIO estilos LINKS */
 a:link,
@@ -380,6 +381,10 @@ figcaption {
  margin-top: 10px;       /* Espaço entre a capa e o texto */
  height: auto; 
  display: block;
+}
+
+ul {
+ list-style: none;
 }
 /* FINAL estilos gerais */
 
@@ -461,7 +466,7 @@ pre {
 }
 /* FINAL do formulario */
 
-/* FINAL de Código para selos */
+/* INÍCIO de Código para selos */
 .bloco-lateral {
   display: flex;
   flex-direction: row; /* Coloca um ao lado do outro */
@@ -545,12 +550,11 @@ pre {
   display: inline-block;
   padding: 10px 20px;
   background-color: var(--cor-destaque); /* Amarelo */
-  color: #000 !important;    /* Texto preto para contraste */
+  color: var(--cor-texto) !important;    /* Texto preto para contraste */
   text-decoration: none;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  border: 2px solid #000;
-  
+  border: 2px solid var(--cor-texto);
   transition: all 0.2s;
 }
 
@@ -560,6 +564,49 @@ pre {
   background-color: var(--cor-destaque);
 }
 /* Final botão de download OPML */
+
+/* INÍCIO estilos LISTAS para os participantes de temas, TAGS e leituras */
+.indice-alfabetico{
+ margin-bottom: 30px;
+ text-align: center;
+ font-family: var(--fonte-geral);
+ border-bottom: 1px solid var(--cor-linha);
+ padding-bottom: 10px;
+ line-height: 2.5;
+}
+
+.link-indice {
+ font-weight: bold;
+ margin: 0 5px;
+}
+
+.link-nao-indice {
+margin: 0 5px;
+color: var(--cor-linha);
+cursor: default;
+font-weight: normal;
+}
+
+.seta-topo {
+ text-decoration: none;
+ font-size: 0.95rem;
+ margin-left: 8px;
+}
+
+.blog-letra {
+margin-top: 40px;
+font-weight: bold;
+border-bottom: 2px solid var(--cor-linha);
+font-family: var(--fonte-geral);
+color: var(--cor-texto);
+padding-bottom: 5px;
+}
+
+.blog-rss {
+font-size: 0.8rem;
+opacity: 0.7;
+margin-left: 5px;
+}
 
 /* Ajustes para telas menores */
 @media only screen and (max-width: 40rem) {
