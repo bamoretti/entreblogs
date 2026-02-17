@@ -3,7 +3,7 @@ layout: default
 title: Comunidade no WhatsApp
 description: Onde as coisas são decididas.
 ---
-Parece que agora você é um membro do ENTREBLOGS!!!!!!! Te damos as boas-vindas!  
+Parece que agora você é um membro do ENTREBLOGS!!! Te damos as boas-vindas!  
 
 A comunidade no whatsapp é dividida em alguns grupos:
 
