@@ -383,6 +383,24 @@ figcaption {
 }
 /* FINAL estilos gerais */
 
+/* INÍCIO impede que blocos de código quebrem o layout no mobile */
+pre, code {
+  white-space: pre-wrap;       /* Faz o código quebrar a linha se necessário */
+  word-wrap: break-word;      /* Força a quebra de palavras longas */
+  max-width: 100%;            /* Garante que não passe da largura do pai */
+  overflow-x: auto;           /* Adiciona rolagem horizontal se o pre-wrap for desativado */
+}
+
+/* Se você usa blocos de código com cercas (```html) */
+pre {
+  padding: 1rem;
+  background: var(--cor-linha); /* Usa a cor de linha que você já tem */
+  border-radius: 4px;
+  overflow-x: auto; 
+  display: block;
+}
+/* FINAL impede que blocos de código quebrem o layout no mobile */
+
 /* INÍCIO do formulario */
 .form-terminal {
   display: flex;
