@@ -34,7 +34,7 @@ var sites = [
   "https://pedro.dalbo.me/",
   "https://www.mulhervitrola.com.br/blog/",
   "https://oeunaoobstante.bearblog.dev/",
-  "https://www.oieuoshi.blogspot.com/"
+  "https://www.oieuoshi.blogspot.com/",
   "https://www.jhoteotonio.blogspot.com/"
 ];
 
