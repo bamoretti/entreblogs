@@ -14,13 +14,18 @@ A comunidade no whatsapp é divida em alguns grupos:
 >
 > A gente se empolga com bastante frequência. 🙂‍↕️  
 
-<h4>Suguestões</h4>
-> nesse subgrupo trocamos ideias sobre próximos temas, melhorias para o projeto e projetos paralelos.  
-> 
-> fique a vontade para ajudar a alimentar as listas de sugestões que correm assim como de sugerir novas ideais.  
-
 <h4>Clube de leitura</h4>
 > Já nesse conversamos sobre próximas leituras e alimentamos a lista de sugestões de livros para o clube.  
 
 <h4>Posts</h4>
 > Espaço para compartilhamos nossas participações dos temas e também outros posts que quisermos.
+
+<h4>Tech</h4>
+> Esse grupo serve principalmente para o pessoal se ajudar com dúvidas de códigos, configurações das plataformas, alguma ajuda em HTML, CSS...
+>
+>Mas aqui também falamos sobre os projetos do site da comunidade e outras frentes como [o nosso webring](/tutorial-webring).
+
+<h4>Suguestões</h4>
+> Nesse subgrupo trocamos ideias sobre próximos temas, melhorias para o projeto e projetos paralelos.  
+> 
+> Fique a vontade para ajudar a alimentar as listas de sugestões que correm assim como de sugerir novas ideais.  
