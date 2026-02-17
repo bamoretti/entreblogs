@@ -32,10 +32,9 @@ HTML
     <a href="#" class="eb-next nav-anterior">Próximo »</a>
   </nav>
 
-  <div class="entreblogs-footer">
-
+<div class="entreblogs-footer">
     <a class="eb-info" href="https://pt.wikipedia.org/wiki/Webring">O que é isso?</a>
-
+</div>
 
   <script src="https://entreblogs.netlify.app/assets/webrings/onionring-variables.js"></script>
   <script src="https://entreblogs.netlify.app/assets/webrings/onionring-widget.js"></script>
