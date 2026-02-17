@@ -6,7 +6,7 @@ window.addEventListener('load', function () {
 
   // Busca o site na lista (com suporte a localhost para você)
   for (var i = 0; i < sites.length; i++) {
-    if (thisSite.includes(sites[i]) || thisSite.includes("localhost")) {
+    if (thisSite.includes(sites[i]) || thisSite.includes("localhost") || thisSite.includes("127.0.0.1:4000/")) {
       thisIndex = i;
       break;
     }
