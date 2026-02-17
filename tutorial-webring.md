@@ -35,7 +35,11 @@ HTML
   <div class="entreblogs-footer">
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <a class="eb-info" href="https://github.com/dalbo1201/entreblogs-webring">O que é isso?</a>
+=======
+    <a class="eb-info" href="https://pt.wikipedia.org/wiki/Webring">O que é isso?</a>
+>>>>>>> Stashed changes
 =======
     <a class="eb-info" href="https://pt.wikipedia.org/wiki/Webring">O que é isso?</a>
 >>>>>>> Stashed changes
