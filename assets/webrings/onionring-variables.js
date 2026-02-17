@@ -32,7 +32,8 @@ var sites = [
   "https://falaserioemi.blogspot.com/",
   "https://prazerwillian.blogspot.com/",
   "https://pedro.dalbo.me/",
-  "https://mulhervitrola.com.br/blog/"
+  "https://mulhervitrola.com.br/blog/",
+  "https://oeunaoobstante.bearblog.dev/"
 ];
 
 // Configurações visuais e de texto
