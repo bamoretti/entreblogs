@@ -37,8 +37,8 @@ HTML
     <a class="eb-info" href="https://pt.wikipedia.org/wiki/Webring">O que é isso?</a>
 
 
-  <script src="https://entreblogs.netlify.app/webrings/onionring-variables.js"></script>
-  <script src="https://entreblogs.netlify.app/webrings/onionring-widget.js"></script>
+  <script src="https://entreblogs.netlify.app/assets/webrings/onionring-variables.js"></script>
+  <script src="https://entreblogs.netlify.app/assets/webrings/onionring-widget.js"></script>
 </section>
 ```
 
