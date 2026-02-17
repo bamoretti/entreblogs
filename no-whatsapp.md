@@ -5,7 +5,7 @@ description: Onde as coisas são decididas.
 ---
 Parece que agora você é um membro do ENTREBLOGS!!!!!!! Te damos as boas-vindas!  
 
-A comunidade no whatsapp é divida em alguns grupos:
+A comunidade no whatsapp é dividida em alguns grupos:
 
 <blockquote class="fleabag">Se quiser divulgar sua participação na comunidade, temos <a href="/selos">os selos para colocar no seu blog</a>, escolha o que melhor se adequa a ele.</blockquote>
 
