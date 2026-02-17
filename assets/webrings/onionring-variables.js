@@ -16,10 +16,10 @@ var sites = [
   "https://www.estantedapipoca.com/",
   "http://www.apenasleiteepimenta.com.br/",
   "https://www.jeniffergeraldine.com/",
-  "https://www.nicolledulce.wordpress.com/",
+  "https://nicolledulce.wordpress.com/",
   "http://www.withsarti.blogspot.com/",
   "https://www.meudiariodespretensioso.blogspot.com/",
-  "https://www.blogdoth.com.br/",
+  "https://blogdoth.com.br/",
   "https://www.lizsaless.blogspot.com/",
   "https://inventandoassunto.com/",
   "https://www.quaseaurora.blogspot.com/",
@@ -33,7 +33,9 @@ var sites = [
   "https://www.prazerwillian.blogspot.com/",
   "https://pedro.dalbo.me/",
   "https://www.mulhervitrola.com.br/blog/",
-  "https://oeunaoobstante.bearblog.dev/"
+  "https://oeunaoobstante.bearblog.dev/",
+  "https://www.oieuoshi.blogspot.com/"
+  "https://www.jhoteotonio.blogspot.com/"
 ];
 
 // Configurações visuais e de texto
