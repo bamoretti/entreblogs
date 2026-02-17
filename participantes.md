@@ -53,7 +53,7 @@ description: Listagem dos blogs participantes da comunidade.
       {% assign grupo_atual = grupo_item %}
     {% endif %}
 
-    <li style="margin-left: 15px; line-height: 1.8; border-bottom: 1px solid var(--cor-linha);">
+  <li class="blog-nome">
   <a href="{{ blog.url }}">{{ blog.nome }}</a>
       {% if blog.feed and blog.feed != "" %}
   <a href="{{ blog.feed }}" title="Feed RSS" class="blog-rss"> (RSS)</a>
