@@ -33,7 +33,7 @@ HTML
   </nav>
 
   <div class="entreblogs-footer">
-    <a class="eb-info" href="https://github.com/dalbo1201/entreblogs-webring" target="_blank">O que é isso?</a>
+    <a class="eb-info" href="https://github.com/dalbo1201/entreblogs-webring">O que é isso?</a>
   </div>
 
   <script src="https://dalbo1201.github.io/entreblogs-webring/onionring-variables.js"></script>
