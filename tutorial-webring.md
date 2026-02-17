@@ -19,31 +19,70 @@ O webring funciona de forma centralizada para a lógica e descentralizada para o
 ---
 
 ### 2. Copie o Código HTML
-Escolha o local onde deseja que o widget apareça (recomendamos o arquivo de rodapé ou `footer.html`) e cole o código abaixo:
+Escolha o local onde deseja que o widget apareça (recomendamos o arquivo de rodapé ou `footer.html`):
 
-HTML  
-```html
-<section id="entreblogs-webring">
-  <div class="entreblogs-title">Webring do ENTREBLOGS</div>
+<details><summary>Blogs em Jekyll</summary>
+<p>Em blogs ou sites em Jekyll você só precisa escolher e colocar o código que criará a barra de navegação e o <code>script</code> que chama os dados onde quiser que ela fique.</p>
 
-  <nav class="pagination">
-    <a href="#" class="eb-prev nav-recente">« Anterior</a>
-    <a href="#" class="eb-random nav-topo">Aleatório</a>
-    <a href="#" class="eb-next nav-anterior">Próximo »</a>
+<code><pre>
+
+&lt;section id="entreblogs-webring">
+  &lt;div class="entreblogs-title">Webring do ENTREBLOGS</div>
+
+  &lt;nav class="pagination">
+    &lt;a href="#" class="eb-prev nav-recente">« Anterior</a>
+    &lt;a href="#" class="eb-random nav-topo">Aleatório</a>
+    &lt;a href="#" class="eb-next nav-anterior">Próximo »</a>
   </nav>
 
-<div class="entreblogs-footer">
-    <a class="eb-info" href="https://pt.wikipedia.org/wiki/Webring">O que é isso?</a>
+&lt;div class="entreblogs-footer">
+    &lt;a class="eb-info" href="https://pt.wikipedia.org/wiki/Webring">O que é isso?</a>
 </div>
 
-  <script src="https://entreblogs.netlify.app/assets/webrings/onionring-variables.js"></script>
-  <script src="https://entreblogs.netlify.app/assets/webrings/onionring-widget.js"></script>
-</section>
-```
+  &lt;script src="https://entreblogs.netlify.app/assets/webrings/onionring-variables.js"></script>
+  &lt;script src="https://entreblogs.netlify.app/assets/webrings/onionring-widget.js"></script>
+</section&gt;
 
+</pre></code>
+</details>
+
+<details><summary>Blogs no Blogger</summary>
+<p>Para blogs contruídos na plataforma do BLogger precisamos colocar parte do código na antes da tag <code></head></code> e colocar o código que criará a barra de navegação onde quiser que ela fique.</p>
+
+<p>Código para colocar antes do <code></head></code>, que é o <code>script</code> que chama os dados:</p>
+<code><pre>
+
+  &lt;script src="https://entreblogs.netlify.app/assets/webrings/onionring-variables.js"></script&gt;
+  &lt;script src="https://entreblogs.netlify.app/assets/webrings/onionring-widget.js"></script&gt;
+
+</pre></code>
+
+O código da barra de navegação que você coloca onde quiser que ela apareça:
+<code><pre>
+
+&lt;section id="entreblogs-webring">
+  &lt;div class="entreblogs-title">Webring do ENTREBLOGS</div>
+
+  &lt;nav class="pagination">
+    &lt;a href="#" class="eb-prev nav-recente">« Anterior</a>
+    &lt;a href="#" class="eb-random nav-topo">Aleatório</a>
+    &lt;a href="#" class="eb-next nav-anterior">Próximo »</a>
+  </nav>
+
+&lt;div class="entreblogs-footer">
+    &lt;a class="eb-info" href="https://pt.wikipedia.org/wiki/Webring">O que é isso?</a>
+</div>
+</section&gt;
+
+</pre></code>
+</details>
 
 ### 3. Personalize o Visual (CSS)
-Para que o webring combine com o design do seu blog, adicione o código abaixo ao seu arquivo de estilos (`.css` ou `.scss`). **Você deve alterar as variáveis de cores para as que o seu site utiliza.**
+Para que o webring combine com o design do seu blog, adicione o código abaixo ao seu arquivo de estilos (`.css` ou `.scss`).  
+
+Você deve alterar as variáveis de cores, distâncias, fontes e afins para as que o seu site utiliza.  
+
+**Não altere o nome das classes, o <code>script</code> usa estas classes exatas para identificar onde injetar as URL.**
 
 CSS  
 ```CSS  
@@ -101,7 +140,7 @@ Para garantir a integridade do webring e o funcionamento em todos os blogs, resp
 | **Estilos (Cores, Fontes, Bordas)** | ✅ Sim | Sinta-se livre para adaptar totalmente ao seu layout usando CSS. |
 | **Texto dos Links** | ✅ Sim | Pode mudar "Anterior" para "Voltar", "Aleatório" para "Sorteio", etc. |
 | **Classes HTML** (`eb-prev`, etc) | ❌ **Não** | O script usa estas classes exatas para identificar onde injetar as URLs. |
-| **Scripts JS** | ❌ **Não** | Devem carregar do GitHub oficial para manter a lista de membros sempre atualizada. |
+| **Scripts JS** | ❌ **Não** | Devem carregar da página do _ENTREBLOGS_ para manter a lista de membros sempre atualizada. |
 
 ---
 
