@@ -30,7 +30,7 @@ description: Dicas dos blogueiros.
   <li class="blog-nome">
   <a href="{{ blog.url }}">{{ blog.tutorial }}</a>
       {% if blog.criador and blog.criador != "" %}
-  <span class="blog-rss"> {{ blog.criador }}</span>
+  <span class="blog-rss"> por @{{ blog.criador }}</span>
       {% endif %}
     </li>
   {% endfor %}
