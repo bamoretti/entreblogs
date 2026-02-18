@@ -22,7 +22,7 @@ Escolha o que melhor se adequa a ele.</blockquote>
 > Espaço para compartilhamos nossas participações dos temas e também outros posts que quisermos.
 
 <h4>Tech</h4>
-> Espaço para papearmos sobre ferramentas, tutorais e qualquer troca que nos ajude a aperfeiçoar nossas casinhas virtuais. vale pedir socorro e vale ajudar os colegas também.
+> Espaço para papearmos sobre ferramentas, tutorais e qualquer troca que nos ajude a aperfeiçoar nossas casinhas virtuais. Vale pedir socorro e vale ajudar os colegas também.
 
 <h4>Sugestões</h4>
 > Nesse subgrupo trocamos ideias sobre próximos temas, melhorias para o projeto e projetos paralelos.  
