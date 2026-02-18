@@ -4,12 +4,34 @@ title: Tutoriais
 description: Dicas dos blogueiros.
 ---
 
-<ul style="list-style:none;">
-  <li><a href="https://porce-lana.blogspot.com/2025/06/tutorial-de-como-fazer-uma-pagina.html">Como fazer uma página estática no Blooger</a> @Porce-lana</li>
-  <li><a href="https://prazerwillian.blogspot.com/2025/03/feed-de-imagens-tipo-carrossel-no-blog.html">Carrossel nas postagens do Blog</a>@Prazer Willian</li>
-  <li><a href="https://prazerwillian.blogspot.com/2026/02/fotolog-no-blogger.html">Fotolog no Blogger</a> @Prazer Willian</li>
-  <li><a href="https://pedro.dalbo.me/dicas-do-blog/montando-seu-fotolog">Fotolog no BearBlog e em Jekyll</a> @dalbo1201</li> 
-  <li><a href="https://lulylage.com/o-que-e-rss-feed-e-como-usar-o-feeder-para-acompanhar-blogs-no-chrome/">Feeder para acompanhar RSS no Chrome</a> @Luly Lage</li> 
-  <li><a href="https://lulylage.com/criei-meu-proprio-linktree-usando-o-elementor/">Criar Linktree próprio no Elementor (WP)</a> @Luly Lage</li>
-  <li><a href="https://lulylage.com/abrindo-mei-como-criador-de-conteudo/">MEI para criadores de conteúdo</a> @Luly Lage</li> 
+{% assign tutoriais_ordenados = site.data.tutoriais | sort: "tutorial" %}
+
+<ul>
+  {% assign grupo_atual = "" %}
+
+  {% for blog in tutoriais_ordenados %}
+    {% assign char = blog.tutorial | slice: 0 | upcase %}
+    {% assign alfabeto_string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" %}
+    
+    {% if alfabeto_string contains char %}
+      {% assign grupo_item = char %}
+    {% else %}
+      {% assign grupo_item = "#" %}
+    {% endif %}
+
+    {% if grupo_item != grupo_atual %}
+<li id="letra-{{ grupo_item }}" class="blog-letra">
+        {{ grupo_item }}
+  <a href="#topo" class="seta-topo" title="Voltar ao topo">&#x2191;</a>
+</li>
+      {% assign grupo_atual = grupo_item %}
+    {% endif %}
+
+  <li class="blog-nome">
+  <a href="{{ blog.url }}">{{ blog.tutorial }}</a>
+      {% if blog.criador and blog.criador != "" %}
+  <span class="blog-rss"> {{ blog.criador }}</span>
+      {% endif %}
+    </li>
+  {% endfor %}
 </ul>

@@ -1,3 +1,33 @@
+# --- INÍCIO TEMA Museu ---
+- tema: "Museu"
+  nome: "HEY I'M WITH THE BAND"
+  url: "https://www.heyimwiththeband.com.br/2026/02/uma-tarde-no-museu.html"
+
+- tema: "Museu"
+  nome: "Prazer! Willian"
+  url: "https://prazerwillian.blogspot.com/2026/02/entreblogs-museu-bebedouro-sp-junho-de.html"
+  
+- tema: "Museu"
+  nome: "Blog do Th"
+  url: "https://blogdoth.com.br/vik-muniz-sao-paulo-farol-santander/"
+    
+- tema: "Museu"
+  nome: "Jeniffer Geraldine"
+  url: "https://jeniffergeraldine.com/casa-do-carnaval-da-bahia/"
+
+- tema: "Museu"
+  nome: "Luly Lage"
+  url: "https://lulylage.com/tbt-exposicao-a-ecologia-de-monet-no-masp/"
+  
+- tema: "Museu"
+  nome: "BMRTT"
+  url: "https://www.bamoretti.com/2026/02/museu-oscar-niemeyer-mon.html"
+
+- tema: "Museu"
+  nome: "Quase Aurora"
+  url: "https://quaseaurora.blogspot.com/2026/02/museudehistoriadaparaiba.html"
+# --- FINAL TEMA Museu ---
+
 # --- INÍCIO TEMA Recap 2025 ---
 - tema: "Recap 2025"
   nome: "Nicolle Dulce"
@@ -44,32 +74,3 @@
   url: "https://falacatarina.com/2026/01/26/recap-2025/"
 
 # --- FINAL TEMA Recap 2025 ---
-
-# --- INÍCIO TEMA Museu ---
-- tema: "Museu"
-  nome: "HEY I'M WITH THE BAND"
-  url: "https://www.heyimwiththeband.com.br/2026/02/uma-tarde-no-museu.html"
-
-- tema: "Museu"
-  nome: "Prazer! Willian"
-  url: "https://prazerwillian.blogspot.com/2026/02/entreblogs-museu-bebedouro-sp-junho-de.html"
-  
-- tema: "Museu"
-  nome: "Blog do Th"
-  url: "https://blogdoth.com.br/vik-muniz-sao-paulo-farol-santander/"
-    
-- tema: "Museu"
-  nome: "Jeniffer Geraldine"
-  url: "https://jeniffergeraldine.com/casa-do-carnaval-da-bahia/"
-
-- tema: "Museu"
-  nome: "Luly Lage"
-  url: "https://lulylage.com/tbt-exposicao-a-ecologia-de-monet-no-masp/"
-  
-- tema: "Museu"
-  nome: "BMRTT"
-  url: "https://www.bamoretti.com/2026/02/museu-oscar-niemeyer-mon.html"
-
-- tema: "Museu"
-  nome: "Quase Aurora"
-  url: "https://quaseaurora.blogspot.com/2026/02/museudehistoriadaparaiba.html"
