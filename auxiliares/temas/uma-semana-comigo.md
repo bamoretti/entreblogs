@@ -5,7 +5,7 @@ title: Uma semana comigo
 description: Tema de março/2026.
 permalink: /temas/uma-semana-comigo
 ---
-<time>março</time>  
+<time>01 de março 2026</time>  
 O tema do mês de março é escrever sobre o último ano, 2025. 
 
 As conquistas, as coisas que te atravessaram, as melhores leituras, as fotos que todo mundo merece ver... Não há limitações e nem formatos!  
