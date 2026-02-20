@@ -9,6 +9,8 @@ O clube de leitura é um projeto paralelo onde escolhemos um livro por mês para
 
 <section class="listas-livros">
 <ul class="link-livros">
+  <li><figure class="capa-do-livro" livro-numero="003"><a href="/clube-de-leitura/a-vegetariana-han-kang"><img src="/assets/livros/a-vegetariana-han-kang.jpg"></a><figcaption>A Vegetariana • Han Kang (livro de março)
+</figcaption></figure></li>
   <li><figure class="capa-do-livro" livro-numero="002"><a href="/clube-de-leitura/tres-valerie-perrin"><img src="/assets/livros/tres-valerie-perrin.jpg"></a><figcaption>Três • Valérie Perrin (em leitura)
 </figcaption></figure></li>
   <li><figure class="capa-do-livro" livro-numero="001"><a href="/clube-de-leitura/a-cabeca-do-santo-socorro-acioli"><img src="/assets/livros/a-cabeca-do-santo-socorro-acioli.jpg"></a><figcaption>A Cabça do Santo • Socorro Acioli
