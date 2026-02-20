@@ -5,7 +5,7 @@ title: A Vegetariana • Han Kang
 description: Livro de março.
 permalink: /clube-de-leitura/a-vegetariana-han-kang
 ---
-<figure><img src="/assets/livros/a-vegetariana-han-kang.jpg"><figcaption>Três • Valérie Perrin (em leitura)
+<figure><img src="/assets/livros/a-vegetariana-han-kang.jpg"><figcaption>A Vegetariana • Han Kang (livro de março)
 </figcaption></figure>
 
 
