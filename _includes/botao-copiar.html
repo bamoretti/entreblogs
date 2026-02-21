@@ -1,7 +1,8 @@
 <script>
-function copiarTexto() {
-  const textoArea = document.getElementById("codigoParaCopiar");
-  const aviso = document.getElementById("avisoCopiado");
+function copiarTexto(botao) {
+  const container = botao.closest('.container-codigo');
+  const textoArea = container.querySelector('textarea');
+  const aviso = container.querySelector('.feedback');
 
   navigator.clipboard.writeText(textoArea.value).then(() => {
     aviso.style.display = "block";
