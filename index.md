@@ -20,7 +20,7 @@ clube do livro #subprojeto →
 diário & carta viajante #subprojeto →  
 não precisa participar de todos os temas e subprojetos  
 
-<blockquote class="fleabag"># boooora participar → só enviar um e-mail para <a href="mailto:coletivoentreblogs@gmail.com?subject=Também quero participar da comunidade">o email do coletivo</a> que disponibilizaremos o link do grupinho para você. E para saber mais sobre a nossa comunidade <a href="/no-whatsapp">clique aqui</a>.</blockquote>
+<blockquote class="fleabag"># boooora participar → só enviar um e-mail para <a href="mailto:coletivoentreblogs@gmail.com?subject=Também quero participar da comunidade">coletivoentreblogs@gmail.com</a> que disponibilizaremos o link do grupinho para você. E para saber mais sobre a nossa comunidade <a href="/no-whatsapp">clique aqui</a>.</blockquote>
 
 <h3>CRIADORA</h3>
 **BARBARA** do blog [BMRTT](https://bamoretti.com), quase duas décadas compartilhando aleatoriedades da minha vida na blogosfera. não satisfeita, acreditei que o projeto seria mais um jeitinho de fazer mais pessoas compartilharem suas coisinhas e criarem conexões sem deixar a blogosfera morrer.  
