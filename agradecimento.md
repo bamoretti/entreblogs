@@ -1,5 +1,5 @@
 ---
-layout: projeto
+layout: default
 type: agradecimento
 title: Agradecemos o comentário
 description: Quem é o blog e o blogueiro?

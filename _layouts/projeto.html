@@ -2,10 +2,10 @@
 
 {% include header.html %}
 
-<section  class="secao">
-    <span class="prefixo">C:\entreblogs\{{ page.type | capitalize }}\</span>
-</section>
-
+<section class="secao">
+    <span class="prefixo">C:\entreblogs\</span><span class="nome-da-secao">{{ page.type }}\{{ page.title }}</span>
+  </section>
+ 
 <main>
 <h3>{{ page.title }}</h3>
        {{ content }}
