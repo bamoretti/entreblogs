@@ -1,4 +1,15 @@
-# --- ADICIONE SEMPRE NO COMEÇO PARA FACILITAR, NÃO FAZ DIFERENÇA JÁ QUE A PÁGINA É EM ORDEM ALFABÉTICA ---
+# --- ADICIONE SEMPRE NO COMEÇO PARA FACILITAR, NÃO FAZ DIFERENÇA JÁ QUE A PÁGINA É EM ORDEM ALFABÉTICA – 
+- nome: Carolina Botelho
+  url: https://carolinabotelhoemsenhoritaagridoce.blogspot.com/
+  feed: https://carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default
+
+- nome: Leandro Maciel 
+  url: “https://leandromaciel.blog”
+  feed: “https://leandromaciel.blog/feed/”
+
+- nome: "Deniac e sua vida Low-Tech"
+  url: "https://deniac.com"
+  feed: "http://deniac.com/feed/"
 
 - nome: "BMRTT"
   url: "https://bamoretti.com"
@@ -72,10 +83,6 @@
   url: "http://withsarti.blogspot.com"
   feed: "https://withsarti.blogspot.com/feeds/posts/default"
 
-- nome: "MEU DIARIO DESPRETENSIOSO"
-  url: "https://meudiariodespretensioso.blogspot.com"
-  feed: ""
-
 - nome: "BLOG DO TH"
   url: "https://blogdoth.com.br"
   feed: "https://blogdoth.com.br/feedrss/"
@@ -97,8 +104,8 @@
   feed: "https://www.mairanamba.com/feed/"
 
 - nome: "TECHDEMO"
-  url: "https://techdemo.bearblog.dev/"
-  feed: "https://techdemo.bearblog.dev/feed/"
+  url: "https://techdemo.com.br/"
+  feed: "https://www.techdemo.com.br/feed/"
 
 - nome: "PEQUENOS RETALHOS"
   url: "https://www.pequenosretalhos.com/"
@@ -124,7 +131,7 @@
   url: "https://prazerwillian.blogspot.com/"
   feed: "https://prazerwillian.blogspot.com/feeds/posts/default"
 
-- nome: "ONDEANDO"
+- nome: "Ondeando"
   url: "https://pedro.dalbo.me/"
   feed: "https://pedro.dalbo.me/feed.xml"
 
@@ -143,3 +150,11 @@
 - nome: "CADERNINHO"
   url: "https://jhoteotonio.blogspot.com/"
   feed: "https://jhoteotonio.blogspot.com/feeds/posts/default"
+
+- nome: "In(ex)trospectum"
+  url: "https://inextrospectum.com.br/"
+  feed: "https://inextrospectum.com.br/feed/"
+
+- nome: "TRISTEZINHAS COTIDIANAS"
+  url: "https://tristezinhascotidianas.com.br/"
+  feed: "https://tristezinhascotidianas.com.br/feeds/posts/default"

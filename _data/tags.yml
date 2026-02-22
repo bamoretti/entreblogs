@@ -1,7 +1,7 @@
 # --- INÍCIO TAG meu fluxo de trabalho ---
 - tags: "Meu fluxo de trabalho no blog"
   nome: "Blog do Th"
-  url: "https://blogdoth.com.br/meu-fluxo-de-trabalho-no-blog/?pedro.dalbo.me"
+  url: "https://blogdoth.com.br/meu-fluxo-de-trabalho-no-blog"
 
 - tags: "Meu fluxo de trabalho no blog"
   nome: "Ondeando"
@@ -13,6 +13,10 @@
 # --- FINAL TAG ENTREBLOGS ---
 
 # --- INÍCIO TAG Conheça o blogueiro ---
+- tags: "Conheça o blogueiro"
+  nome: "Deniac"
+  url: "https://deniac.com/2026/02/21/conheca-o-blogueiro/"
+
 - tags: "Conheça o blogueiro"
   nome: "Igor Medeiroz"
   url: "https://www.igormedeiroz.com/conheca-o-blogueiro"
@@ -64,5 +68,8 @@
 - tags: "Conheça o blogueiro"
   nome: "BMRTT"
   url: "https://www.bamoretti.com/2026/02/conheca-blogueira.html"
-
+  
+- tags: "Conheça o blogueiro"
+  nome: "Inventando Assunto"
+  url: "https://www.inventandoassunto.com/2026/02/tag-conheca-a-blogueira.html"
 # --- FINAL TAG Conheça o blogueiro ---
