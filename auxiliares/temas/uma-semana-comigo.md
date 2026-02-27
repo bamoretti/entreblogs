@@ -6,9 +6,10 @@ description: Tema de março/2026.
 permalink: /temas/uma-semana-comigo
 ---
 <time>01 de março 2026</time>  
-O tema do mês de março é escrever sobre o último ano, 2025. 
+O tema do mês é escrever sobre alguma semana de março. 
 
-As conquistas, as coisas que te atravessaram, as melhores leituras, as fotos que todo mundo merece ver... Não há limitações e nem formatos!  
+O Importante é ser criativo, por que não escrever sobre todas as refeições que teve durante a semana? Ou registrar tudo em fotos e fazer um álbum? Quais foram as músicas da semana?
+Como já sabem, não há limites!
 
 Veja os temas de [meses anteriores](/temas).  
 
