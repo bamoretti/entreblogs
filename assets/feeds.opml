@@ -13,8 +13,8 @@ layout: null
         {% if blog.feed and blog.feed != "" %}
         <outline 
           type="rss" 
-          text="{{ blog.nome | xml_escape }}" 
-          title="{{ blog.nome | xml_escape }}" 
+          text="{{ blog.blog | xml_escape }}" 
+          title="{{ blog.blog | xml_escape }}" 
           xmlUrl="{{ blog.feed | xml_escape }}" 
           htmlUrl="{{ blog.url | xml_escape }}"/>
         {% endif %}

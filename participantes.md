@@ -4,14 +4,14 @@ title: Participantes
 description: Listagem dos blogs participantes da comunidade.
 ---
 
-{% assign participantes_ordenados = site.data.participantes | sort: "nome" %}
+{% assign participantes_ordenados = site.data.participantes | sort: "blog" %}
 
 <div id="topo" class="indice-alfabetico">
   
   {% comment %} Captura as letras existentes de forma mais segura {% endcomment %}
   {% assign letras_existentes = "" %}
   {% for blog in participantes_ordenados %}
-    {% assign primeira = blog.nome | slice: 0 | upcase %}
+    {% assign primeira = blog.blog | slice: 0 | upcase %}
     {% assign alfabeto_string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" %}
     
     {% if alfabeto_string contains primeira %}
@@ -36,7 +36,7 @@ description: Listagem dos blogs participantes da comunidade.
   {% assign grupo_atual = "" %}
 
   {% for blog in participantes_ordenados %}
-    {% assign char = blog.nome | slice: 0 | upcase %}
+    {% assign char = blog.blog | slice: 0 | upcase %}
     {% assign alfabeto_string = "ABCDEFGHIJKLMNOPQRSTUVWXYZ" %}
     
     {% if alfabeto_string contains char %}
@@ -53,8 +53,8 @@ description: Listagem dos blogs participantes da comunidade.
       {% assign grupo_atual = grupo_item %}
     {% endif %}
 
-  <li class="blog-nome">
-  <a href="{{ blog.url }}">{{ blog.nome }}</a>
+  <li class="blog-blog">
+  <a href="{{ blog.url }}">{{ blog.blog }}</a>
       {% if blog.feed and blog.feed != "" %}
   <a href="{{ blog.feed }}" title="Feed RSS" class="blog-rss"> (RSS)</a>
       {% endif %}
