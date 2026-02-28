@@ -1,11 +1,16 @@
 # --- ADICIONE SEMPRE NO COMEÇO PARA FACILITAR, NÃO FAZ DIFERENÇA JÁ QUE A PÁGINA É EM ORDEM ALFABÉTICA – 
+
+- blog: "MISCELÂNEA" 
+  url: "https://miscelanea.pagecord.com/"
+  feed: "https://miscelanea.pagecord.com/feed.xml"
+
 - blog: Carolina Botelho
-  url: https://carolinabotelhoemsenhoritaagridoce.blogspot.com/
-  feed: https://carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default
+  url: "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/"
+  feed: "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default"
 
 - blog: Leandro Maciel 
-  url: “https://leandromaciel.blog”
-  feed: “https://leandromaciel.blog/feed/”
+  url: "https://leandromaciel.blog"
+  feed: "https://leandromaciel.blog/feed/"
 
 - blog: "Deniac e sua vida Low-Tech"
   url: "https://deniac.com"
@@ -83,6 +88,10 @@
   url: "http://withsarti.blogspot.com"
   feed: "https://withsarti.blogspot.com/feeds/posts/default"
 
+- blog: "MEU DIARIO DESPRETENSIOSO"
+  url: "https://meudiariodespretensioso.blogspot.com"
+  feed: ""
+
 - blog: "BLOG DO TH"
   url: "https://blogdoth.com.br"
   feed: "https://blogdoth.com.br/feedrss/"
@@ -157,4 +166,8 @@
 
 - blog: "TRISTEZINHAS COTIDIANAS"
   url: "https://tristezinhascotidianas.com.br/"
-  feed: "https://tristezinhascotidianas.com.br/feeds/posts/default"
+  feed: "https://www.tristezinhascotidianas.com.br/feeds/posts/default"
+
+- blog: "PorceLana"
+  url: "https://porce-lana.blogspot.com/"
+  feed: "https://porce-lana.blogspot.com/feeds/posts/default"

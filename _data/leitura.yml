@@ -1,6 +1,6 @@
 # --- INÍCIO Três ---
 
-# --- INÍCIO final ---
+# --- FINAL Três ---
 
 # --- INÍCIO A Cabeça do Santo • Socorro Acioli ---
 - livro: "A Cabeça do Santo • Socorro Acioli"
@@ -26,5 +26,9 @@
 - livro: "A Cabeça do Santo • Socorro Acioli"
   nome: "Inventando Assunto"
   url: "https://www.inventandoassunto.com/2026/02/clube-de-leitura-cabeca-do-santo.html"
+
+- livro: "A Cabeça do Santo • Socorro Acioli"
+  nome: "Luly Lage"
+  url: "https://lulylage.com/a-cabeca-do-santo-socorro-acioli/"
   
-# --- FINAL Primeiro Livro ---
+# --- FINAL A Cabeça do Santo ---
