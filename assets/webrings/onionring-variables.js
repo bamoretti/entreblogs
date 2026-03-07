@@ -1,6 +1,6 @@
 // Lista dos blogs (adicione as URLs aqui)
 var websites = [
-  "https://www.entreblogs.netlify.app",
+  "https://entreblogs.netlify.app",
   "https://kakumei-blog.blogspot.com",
   "https://miscelanea.pagecord.com/",
   "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/",
