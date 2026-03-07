@@ -36,6 +36,9 @@ description: Listagem dos blogs participantes da comunidade.
   Somos <strong>{{ participantes_ordenados | size }}</strong> participantes na comunidade!
 </p>
 
+{% include webring.html %}
+
+
 <ul>
   {% assign grupo_atual = "" %}
 

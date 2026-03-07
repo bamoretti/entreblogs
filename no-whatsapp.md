@@ -28,3 +28,8 @@ Escolha o que melhor se adequa a ele.</blockquote>
 > Nesse subgrupo trocamos ideias sobre próximos temas, melhorias para o projeto e projetos paralelos.  
 > 
 > Fique a vontade para ajudar a alimentar as listas de sugestões que correm assim como de sugerir novas ideais.  
+
+<h4>Webring</h4>
+> Esse não é um grupo na comunidade, mas uma feature que ganhamos de brinde.  
+> 
+> Você adiciona [o webring](/webring) no seu blog e ajuda a compartilhar a comunidade diretamente blog a blog.  
