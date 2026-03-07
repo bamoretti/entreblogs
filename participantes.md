@@ -33,7 +33,7 @@ description: Listagem dos blogs participantes da comunidade.
 </div>
 
 <p class="contador-participantes">
-  Já somos <strong>{{ participantes_ordenados | size }}</strong> participantes na comunidade!
+  Somos <strong>{{ participantes_ordenados | size }}</strong> participantes na comunidade!
 </p>
 
 <ul>

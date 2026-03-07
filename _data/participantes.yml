@@ -1,4 +1,8 @@
 # --- ADICIONE SEMPRE NO COMEÇO PARA FACILITAR, NÃO FAZ DIFERENÇA JÁ QUE A PÁGINA É EM ORDEM ALFABÉTICA – 
+- blog: "KAKUMEI"
+  url: "https://kakumei-blog.blogspot.com"
+  feed: "https://kakumei-blog.blogspot.com/feeds/posts/default"
+
 
 - blog: "MISCELÂNEA" 
   url: "https://miscelanea.pagecord.com/"
