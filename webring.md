@@ -2,7 +2,7 @@
 layout: default
 title: "entreblogs-webring"
 description: Como adicionar o webring ao seu blog
-permalink: /tutorial-webring/
+permalink: /webring/
 ---
 
 O **Webring do ENTREBLOGS** é uma iniciativa para conectar blogs independentes através de uma rede de navegação mútua. Ao instalar este widget, você cria uma ponte entre os seus leitores e outros produtores de conteúdo da nossa comunidade.
