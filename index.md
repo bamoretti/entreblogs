@@ -17,14 +17,15 @@ Não gostou do tema? Não deu tempo de participar? Quer participar de um tema an
 A vida já é cheia de cobranças e obrigações demais para tornarmos esse projeto mais um 😉  
 
 > 01 tema por mês, sem data específica de postagem  
-comunidade no whatsapp 🔗 [acesse aqui](/no-whatsapp)  
 clube do livro #subprojeto  
-diário & carta viajante #subprojeto 
+diário & carta viajante #subprojeto  
 não precisa participar de todos os temas e subprojetos  
 
-> selos 🔗 [acesse aqui](/selos) 
+> comunidade no whatsapp 🔗 [acesse aqui para saber mais](/no-whatsapp)  
+selos 🔗 [acesse aqui](/selos) 
 
-<blockquote class="fleabag"># boooora participar → Só enviar um e-mail para <a href="mailto:coletivoentreblogs@gmail.com?subject=Também quero participar da comunidade">coletivoentreblogs@gmail.com</a> que disponibilizaremos o link do grupinho para você. E para saber mais sobre a nossa comunidade <a href="/no-whatsapp">clique aqui</a>.</blockquote>
+**BOOOORA PARTICIPAR**  
+<blockquote class="fleabag"> Só enviar um e-mail para <a href="mailto:coletivoentreblogs@gmail.com?subject=Também quero participar da comunidade">coletivoentreblogs@gmail.com</a> que disponibilizaremos o link do grupinho para você.</blockquote>
 
 <h3>CRIADORA</h3>
 **BARBARA** do blog [BMRTT](https://bamoretti.com), quase duas décadas compartilhando aleatoriedades da minha vida na blogosfera. Não satisfeita, acreditei que o projeto seria mais um jeitinho de fazer mais pessoas compartilharem suas coisinhas e criarem conexões sem deixar a blogosfera morrer.  
