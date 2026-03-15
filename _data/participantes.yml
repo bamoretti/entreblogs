@@ -1,18 +1,33 @@
 # --- ADICIONE SEMPRE NO COMEÇO PARA FACILITAR, NÃO FAZ DIFERENÇA JÁ QUE A PÁGINA É EM ORDEM ALFABÉTICA – 
-- blog: "KAKUMEI"
-  url: "https://kakumei-blog.blogspot.com"
-  feed: "https://kakumei-blog.blogspot.com/feeds/posts/default"
+- blog: Garota de Canela
+  url: "https://garotadecanela.blogspot.com/"
+  feed: "https://garotadecanela.blogspot.com/"
 
+- blog: "COSMOLIKO"
+  url: "https://cosmoliko.com/"
+  feed: "https://cosmoliko.com/rss/"
+
+- blog: "PorceLana"
+  url: "https://porce-lana.blogspot.com/"
+  feed: "https://porce-lana.blogspot.com/feeds/posts/default"
+
+- blog: "Nostalgia Gamer"
+  url: "https://oblognostalgiagamer.blogspot.com/"
+  feed: "https://oblognostalgiagamer.blogspot.com/feeds/posts/default"
+
+- blog: "KAKUMEI"
+  url: "http://kakumei-blog.blogspot.com"
+  feed: "https://kakumei-blog.blogspot.com/feeds/posts/default"
 
 - blog: "MISCELÂNEA" 
   url: "https://miscelanea.pagecord.com/"
   feed: "https://miscelanea.pagecord.com/feed.xml"
 
-- blog: Carolina Botelho
+- blog: "Carolina Botelho"
   url: "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/"
-  feed: "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default"
+  feed: "carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default"
 
-- blog: Leandro Maciel 
+- blog: "Leandro Maciel" 
   url: "https://leandromaciel.blog"
   feed: "https://leandromaciel.blog/feed/"
 
@@ -57,8 +72,8 @@
   feed: "https://meumuseuparticular.blogspot.com/feeds/posts/default"
 
 - blog: "CLANDESTINI"
-  url: "http://clandestini.org"
-  feed: "http://clandestini.org/feed"
+  url: "https://clandestini.org"
+  feed: "https://clandestini.org/feed"
 
 - blog: "DAILY SOH"
   url: "https://dailysoh.blogspot.com"
@@ -160,7 +175,7 @@
   url: "https://oieuoshi.blogspot.com/"
   feed: "https://oieuoshi.blogspot.com/feeds/posts/default"
 
-- blog: "CADERNINHO"
+- blog: "caderninho"
   url: "https://jhoteotonio.blogspot.com/"
   feed: "https://jhoteotonio.blogspot.com/feeds/posts/default"
 
@@ -172,6 +187,3 @@
   url: "https://tristezinhascotidianas.com.br/"
   feed: "https://www.tristezinhascotidianas.com.br/feeds/posts/default"
 
-- blog: "PorceLana"
-  url: "https://porce-lana.blogspot.com/"
-  feed: "https://porce-lana.blogspot.com/feeds/posts/default"
