@@ -8,10 +8,6 @@ markdown: kramdown
 
 excerpt_separator: "<!--more-->"
 
-pagination:
-  enabled: true
-  per_page: 9
-
 permalink: :slug/
 future: false
 
@@ -21,16 +17,6 @@ defaults:
       type: pages
     values:
       permalink: /:slug/
-
-# ⚠️ REMOVIDO (não funciona no GitHub Pages)
-# plugins:
-#   - jekyll-analytics
-
-# ⚠️ REMOVIDO (dependia do plugin)
-# jekyll_analytics:
-#   CounterDotDev:
-#     user: "..."
-#     domain: "..."
 
 exclude:
 - README.md
