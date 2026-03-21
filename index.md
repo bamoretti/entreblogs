@@ -6,7 +6,6 @@ description: Um espaço para compartilhar perspectivas sobre os mesmos temas, ca
 
 <h2> Boas-vindas;)</h2>
 
-
 <h3>CRIATURA</h3>
 **ENTREBLOGS** é um projeto de _blogagem coletiva_ feito para compartilhar nossas perspectivas sobre os mesmos temas, cada um do seu jeitinho e no seu próprio blog.  
 
@@ -21,8 +20,8 @@ clube do livro #subprojeto
 diário & carta viajante #subprojeto  
 não precisa participar de todos os temas e subprojetos  
 
-> comunidade no whatsapp 🔗 [acesse aqui para saber mais](/no-whatsapp)  
-selos 🔗 [acesse aqui](/selos) 
+> comunidade no whatsapp 🔗 [acesse aqui para saber mais]({{ site.baseurl }}/no-whatsapp)  
+selos 🔗 [acesse aqui]({{ site.baseurl }}/selos) 
 
 **BOOOORA PARTICIPAR**  
 <blockquote class="fleabag"> Só enviar um e-mail para <a href="mailto:coletivoentreblogs@gmail.com?subject=Também quero participar da comunidade">coletivoentreblogs@gmail.com</a> que disponibilizaremos o link do grupinho para você.</blockquote>
