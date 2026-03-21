@@ -26,7 +26,7 @@ body {
  display: flex;
  flex-direction: column;
  margin: clamp(0.5rem, 1vw, 1rem); /* 8–16px */
- color: var(--color-text);
+ color: var(--cor-text);
  font-size: clamp(1.06rem, 1.5vw, 1.1rem); /* 16–17.6px */
  line-height: clamp(1.5rem, 2vw, 1.7rem); /* 24–27.2px */
  font-family: var(--fonte-geral);
