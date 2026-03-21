@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: Tags
 description: Participe dessa corrente.
