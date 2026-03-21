@@ -8,24 +8,32 @@
   <meta name="robots" content="index,follow">
 <!-- Meta Tags -->
 
+<!-- SEO -->
+<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+<!-- SEO -->
+
 <!-- Title Tags -->
-{% if page.title == 'Entreblogs'%}
- <title>{{ site.title }}</title>
-{% elsif page.title == 'erro'%}
- <title>Erro 404</title>
+{% if page.url == "/" %}
+  <title>{{ site.title }}</title>
+{% elsif page.title == 'erro' %}
+  <title>Erro 404</title>
 {% else %}
- <title>{{ page.title | truncate: 45, "…"}} • {{ site.title }}</title>
+  <title>{{ page.title | truncate: 45, "…" }} • {{ site.title }}</title>
 {% endif %}
 <!-- Title Tags -->
 
 <!-- Links -->
- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.0.0/css/all.css">
- <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicon/selo_1_amarelo.png">
- <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicon/selo_1_amarelo.png">
- <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicon/selo_1_amarelo.png">
- <link rel="preconnect" href="https://fonts.bunny.net">
- <link href="https://fonts.bunny.net/css?family=Roboto+Mono" rel="stylesheet" />
- <link rel="stylesheet" href="{{ site.baseurl }}/assets/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicon/selo_1_amarelo.png">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicon/selo_1_amarelo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicon/selo_1_amarelo.png">
+
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link href="https://fonts.bunny.net/css?family=Roboto+Mono" rel="stylesheet" />
+
+<!-- CSS PRINCIPAL (CORRIGIDO) -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/styles.css">
 <!-- Links -->
 
 <!-- Troca a cor aleatoriamente -->
@@ -33,7 +41,12 @@
 {% include destaque-aleatorio.html %}
 <!-- Troca a cor aleatoriamente -->
 
-<script src="https://cdn.counter.dev/script.js" data-id="4b082bc3-c047-46b4-9794-036e15bd1cde" data-utcoffset="-3"></script></script>
+<!-- Analytics (sem plugin, compatível com GitHub Pages) -->
+<script src="https://cdn.counter.dev/script.js"
+        data-id="4b082bc3-c047-46b4-9794-036e15bd1cde"
+        data-utcoffset="-3">
+</script>
+
 </head>
 <body>
   <div class="site-container">
