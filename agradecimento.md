@@ -3,7 +3,7 @@ layout: default
 type: agradecimento
 title: Agradecemos o comentário
 description: Quem é o blog e o blogueiro?
-permalink: /agradecimento
+permalink: /agradecimento/
 ---
 
 Agradecemos o comentário aqui no nosso livro de visitas.  
