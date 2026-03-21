@@ -1,6 +1,8 @@
 title: Entreblogs
 description: Um espaço para compartilhar perspectivas sobre os mesmos temas, cada um do seu jeitinho e no seu próprio blog.
-url: "https://entreblogs.netlify.app"
+
+url: "https://bamoretti.github.io"
+baseurl: "/entreblogs"
 
 markdown: kramdown
 
@@ -20,14 +22,15 @@ defaults:
     values:
       permalink: /:slug/
 
-plugins:
-  - jekyll-analytics
+# ⚠️ REMOVIDO (não funciona no GitHub Pages)
+# plugins:
+#   - jekyll-analytics
 
-jekyll_analytics:
-  CounterDotDev:
-    user: "4b082bc3-c047-46b4-9794-036e15bd1cde" # seu ID do counter.dev
-    domain: "entreblogs.netlify.app"       # só o domínio, sem https://
-
+# ⚠️ REMOVIDO (dependia do plugin)
+# jekyll_analytics:
+#   CounterDotDev:
+#     user: "..."
+#     domain: "..."
 
 exclude:
 - README.md
