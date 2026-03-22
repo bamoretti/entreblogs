@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Update dos Docs
+title: Como aparecer no site
 description: Atualização de participação.
 permalink: /como-atualizar/
 ---
