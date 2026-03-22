@@ -187,8 +187,8 @@ h4 { /* Títulos de postagem e outros títulos de página */
 /* INÍCIO estilos de citação */
 blockquote {
  border-left: 7px solid var(--cor-destaque);
- margin: 1rem 20px;
- padding: 1rem .6rem;
+ margin: 10px 20px;
+ padding: 1px 10px;
  font-style: italic;
 }
 
