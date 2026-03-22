@@ -17,7 +17,7 @@ Indique um ou mais blogs e compartilhe o que mais gosta neles.
 
 Se você pudesse recomendar apenas uma coisa, o que recomendaria? (fazer um hobby, viagem favorita, livro que te marcou muito) 
 
-Veja [outras TAGS](/entreblogs/tag). 
+Veja [outras TAGS]({{ site.baseurl }}/tag). 
 
 <h4>Blogs participantes:</h4>
 
