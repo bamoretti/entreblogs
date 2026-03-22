@@ -226,6 +226,15 @@ blockquote {
 }
 /* FINAL estilos de citação */
 
+/* qualquer texto em itálico usa monospace */
+*:where([style*="italic"], em, i),
+blockquote,
+blockquote *,
+.fleabag,
+.fleabag * {
+  font-family: monospace;
+}
+
 /* INÍCIO estilos LISTAS para os participantes de temas, TAGS e leituras */
 .link-temas {
  display: grid;
