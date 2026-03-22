@@ -33,15 +33,19 @@ Você não precisa montar isso do zero.
 
 **Onde colar**
 
-No começo da lista, conforme aviso dentro do documento, para os documentos:
+Documentos (bloco único):
 - partipantes
 - tags
 - tutoriais
 
-Dentro do bloco do assunto correspondente, para os documentos:
+Para os documentos acima você irá colar seus dados no começo da lista. O próprio documento tem um aviso explicando esse detalhe.
+
+Documentos (separados por blocos):
 - temas
 - leituras
 - tags
+
+Para os documentos acima você ira colar seus dados dentro do bloco do assunto correspondente. 
 
 **Cuidados importantes**
 >- não apagar participações já existentes
