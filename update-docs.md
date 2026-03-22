@@ -5,13 +5,13 @@ description: Atualização de participação.
 permalink: /como-atualizar/
 ---
 
-Nosso site é estático e utilizamos o Google docs para reunir as informações e atualizar nosso repositório semanalmente (geralmente aos finais de semana) com os links de participações.
+Nosso site é estático e utilizamos o Google docs para reunir as informações alimentadas pelos próprios participantes e atualizar nosso repositório semanalmente (geralmente aos finais de semana).
 
->LEITURA
-PARTICIPANTES
-TAGS
-TEMAS
-TUTORIAIS
+>leitura
+>participantes
+>tags
+>temas
+>tutoriais
 
 **É novo integrante da comunidade ou já participou de algum tema?**
 
