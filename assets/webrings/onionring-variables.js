@@ -1,6 +1,6 @@
 // Lista dos blogs
 var websites = [
-  "https://bamoretti.github.io/entreblogs/",
+  "https://entreblogs.com.br/",
   "https://kakumei-blog.blogspot.com/",
   "https://miscelanea.pagecord.com/",
   "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/",
