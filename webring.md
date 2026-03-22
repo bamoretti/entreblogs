@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "entreblogs-webring"
+title: "Entreblogs-Webring"
 description: Como adicionar o webring ao seu blog
 permalink: /webring/
 ---
