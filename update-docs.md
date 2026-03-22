@@ -15,7 +15,7 @@ Nosso site é estático e utilizamos o Google docs para reunir as informações 
 
 **É novo integrante da comunidade ou já participou de algum tema?**
 
-<blockquote><a href="https://tinyurl.com/docsentreblogs">Acesse nosso Drive<a></a> e atualize o documento em questão para que sua participação apareça na próxima atualização.</blockquote>
+<blockquote class="fleabag"><a href="https://tinyurl.com/docsentreblogs">Acesse nosso Drive<a></a> e atualize o documento em questão para que sua participação apareça na próxima atualização.</blockquote>
 
 ---
 
