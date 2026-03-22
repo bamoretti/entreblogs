@@ -3,7 +3,7 @@ layout: projeto
 type: tags
 title: Conheça o blogueiro
 description: Quem é o blog e o blogueiro?
-permalink: /tag/conheça-o-blogueiro/
+permalink: /tag/conheca-o-blogueiro/
 ---
 Conte um pouco do porquê você fez seu blog, o que te motiva e alimenta sua vontade de blogar!
 
