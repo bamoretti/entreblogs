@@ -42,15 +42,17 @@ Você só precisa:
 
 Um bloco é apenas um pequeno trecho já formatado, como este:
 
-- tema: "Nome do tema"
+```- tema: "Nome do tema"
   nome: "Nome do seu blog"
   url: "https://link-da-sua-postagem.com"
+```
 
 Ou este:
 
-- blog: "Nome do blog"
+```- blog: "Nome do blog"
   url: "https://seudominio.com/"
   feed: "https://seudominio.com/feed/"
+```
 
 Você não precisa montar isso do zero.
 É só copiar e substituir o que está entre aspas.
@@ -59,9 +61,10 @@ Você não precisa montar isso do zero.
 
 Use este bloco:
 
-- blog: "Nome do blog"
+```- blog: "Nome do blog"
   url: "https://seudominio.com/"
   feed: "https://seudominio.com/feed/"
+```
 <h4>Passo a passo</h4>
 
 1. Abra o documento de participantes.
@@ -75,17 +78,21 @@ Use este bloco:
 nome do blog
 link do blog
 link do feed
+
 <h4>Exemplo preenchido</h4>
-- blog: "Meu Blog"
+
+```- blog: "Meu Blog"
   url: "https://meublog.com/"
   feed: "https://meublog.com/feed/"
+```
 <h4>2. Para adicionar sua postagem em um tema</h4>
 
 Use este bloco:
 
-- tema: "Nome do tema"
+```- tema: "Nome do tema"
   nome: "Nome do seu blog"
   url: "https://link-da-sua-postagem.com"
+```
 <h4>Passo a passo</h4>
 
 1. Abra o documento de temas.
@@ -94,9 +101,10 @@ Use este bloco:
 
 Você verá algo assim:
 
-# --- INÍCIO TEMA Nome do tema ---
+```# --- INÍCIO TEMA Nome do tema ---
 ...
 # --- FINAL TEMA Nome do tema ---
+```
 
 3. Cole sua participação entre o início e o final do tema.
 
@@ -105,10 +113,14 @@ Você verá algo assim:
 nome do tema
 nome do blog
 link da postagem
+
 <h4>Exemplo preenchido</h4>
-- tema: "Uma semana comigo"
+
+```- tema: "Uma semana comigo"
   nome: "Meu Blog"
   url: "https://meublog.com/uma-semana-comigo"
+```
+
 <h4>Onde colar</h4>
 
 Na lista de participantes: cole no começo da lista.
@@ -125,14 +137,16 @@ usar o link completo, começando com https://
 
 Participantes
 
-- blog: "Nome do blog"
+```- blog: "Nome do blog"
   url: "https://seudominio.com/"
   feed: "https://seudominio.com/feed/"
+```
 
 Temas
 
-- tema: "Nome do tema"
+```- tema: "Nome do tema"
   nome: "Nome do seu blog"
   url: "https://link-da-sua-postagem.com"
+```
 
 Você só precisa copiar, colar no lugar certo e substituir as informações.
