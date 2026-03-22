@@ -15,7 +15,7 @@ Assim que você entra na comunidade irá atualizar o _doc_ **participantes** com
 
 Feito isso, quando atualizarmos o repositório com as informações alimentadas nesse documento, seu blog será considerado na atualização da página de participantes. 
 
-**Já participou de algum tema, tag ou clube de leitura?**
+**Já participou de algum tema, tag ou clube de leitura do Entreblogs?**
 
 Ao abrir o documento escolhido, você verá que ele é separado em blocos (com início e fim de tema/livro/assunto). 
 
