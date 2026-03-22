@@ -46,7 +46,7 @@ Sua participação deve ser adicionada **entre o INÍCIO e o FINAL do livro corr
 
 ---
 
-# Modelo de participação
+<h4>Modelo de participação</h4>
 
 Copie o modelo abaixo:
 
@@ -64,7 +64,7 @@ Substitua apenas o que está entre aspas:
 
 ---
 
-# Passo a passo
+<h4>Passo a passo</h4>
 
 ### 1. Localize o livro
 
@@ -114,7 +114,7 @@ Exemplo final:
 
 ---
 
-# Regras importantes
+<h4>Regras importantes</h4>
 
 * adicionar sua participação **somente dentro do bloco do livro**
 * manter a formatação igual ao modelo
@@ -125,7 +125,7 @@ Exemplo final:
 
 ---
 
-# Resumindo
+<h4>Resumindo</h4>
 
 Você só precisa:
 
