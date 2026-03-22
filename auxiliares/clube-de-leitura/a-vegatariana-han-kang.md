@@ -10,7 +10,7 @@ permalink: /clube-de-leitura/a-vegetariana-han-kang/
 
 A vegetariana conta a história dessa mulher comum que, pela simples decisão de não comer mais carne, transforma uma vida aparentemente sem maiores atrativos em um pesadelo perturbador e transgressivo. Narrado a três vozes, o romance apresenta o distanciamento progressivo da condição humana de uma mulher que decidiu deixar de ser aquilo que marido e família a pressionaram a ser a vida inteira.
 
-Veja os [livros anteriores](/entreblogs/clube-de-leitura).
+Veja os [livros anteriores]({{ site.baseurl }}/clube-de-leitura).
 
 <h4>Blogs participantes:</h4>
 
