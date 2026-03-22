@@ -17,10 +17,11 @@ Assim, quando atualizamos o repositório com as informações alimentadas nesse 
 
 **Já participou de algum tema, tag ou clube de leitura?**
 
-Ao abrir o documento escolhido, você verá que ele é separado em blocos (com início e fim). 
+Ao abrir o documento escolhido, você verá que ele é separado em blocos (com início e fim de tema/livro/assunto). 
 
 Exemplo:
-```# --- INÍCIO TEMA Nome do tema ---
+```
+# --- INÍCIO TEMA Nome do tema ---
 - tema: "Nome do tema"
   nome: "Nome do seu blog"
   url: "https://link-da-sua-postagem.com"
