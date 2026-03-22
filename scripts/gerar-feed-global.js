@@ -131,7 +131,7 @@ ${itens}
   </channel>
 </rss>`;
 
-  const outputPath = path.join(__dirname, '..', 'feed-global.xml');
+  const outputPath = path.join(__dirname, '..', 'feed-entreblogs.xml');
   fs.writeFileSync(outputPath, xml, 'utf8');
   console.log(`Feed global gerado em: ${outputPath}`);
 }
