@@ -1,0 +1,14 @@
+{
+  "name": "entreblogs-feed-global",
+  "version": "1.0.0",
+  "description": "Gerador de feed global do Entreblogs",
+  "type": "module",
+  "scripts": {
+    "gerar-feed": "node scripts/gerar-feed-global.js"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.3.6",
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
