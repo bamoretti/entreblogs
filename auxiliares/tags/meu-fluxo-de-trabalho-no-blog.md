@@ -3,7 +3,7 @@ layout: projeto
 type: tags
 title: Meu fluxo de trabalho no blog
 description: Como a gente faz os textos aparecerem.
-permalink: /tag/meu-fluxo-de-trabalho-no-blog
+permalink: /tag/meu-fluxo-de-trabalho-no-blog/
 ---
 Como a _magia_ acontece nos nossos blogs?  
 Qual é o processo criativo, de escrita de cada um?  
