@@ -10,7 +10,7 @@ Qual é o processo criativo, de escrita de cada um?
 
 Hoje, no ENTREBLOGS.
 
-Veja [outras TAGS](/tag). 
+Veja [outras TAGS](/entreblogs/tag). 
 
 <h4>Blogs participantes:</h4>
 
