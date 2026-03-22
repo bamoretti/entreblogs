@@ -4,7 +4,8 @@ title: Participantes
 description: Listagem dos blogs participantes da comunidade.
 ---
 
-{% assign participantes_ordenados = site.data.participantes | sort: "blog" %}
+{% assign participantes_ordenados = site.data.participantes %}
+{% assign participantes_ordenados = participantes_ordenados | sort_natural: "blog" %}
 
 <div id="topo" class="indice-alfabetico">
   
@@ -69,14 +70,12 @@ description: Listagem dos blogs participantes da comunidade.
   {% endfor %}
 </ul>
 
-Se você quiser acompanhar todos os blogs de uma vez disponibilizamos abaixo um arquivo OPML onde você pode adicionar todos os blogs no seu leitor de RSS.  
+Se você quiser acompanhar todos os blogs de uma vez disponibilizamos o feed global do ENTREBLOGS onde você pode adicionar todos os blogs no seu leitor de RSS.  
 
 Divirta-se!
 
 <div class="rss-box">
   <p></p>
-  <a href="{{ 'assets/feeds.opml' | relative_url }}" download class="btn-terminal">
-    DOWNLOAD OPML FEED
-  </a>
+    <b>https://entreblogs.com.br/feed-entreblogs.xml</b>
   <p><small>Importe no seu leitor de RSS favorito.</small></p>
 </div>

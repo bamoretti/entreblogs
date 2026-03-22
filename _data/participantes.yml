@@ -1,6 +1,12 @@
 # --- ADICIONE SEMPRE NO COMEÇO PARA FACILITAR, NÃO FAZ DIFERENÇA JÁ QUE A PÁGINA É EM ORDEM ALFABÉTICA – 
+# --- A PARTIR DE AGORA, ADICIONE O CAMPO "added:" COM A DATA DE ENTRADA (formato: YYYY-MM-DD) ---
+# --- EXEMPLO DE NOVO PARTICIPANTE COM O CAMPO added: ---
+# - blog: "Nome do Blog"
+#   url: "https://exemplo.com"
+#   feed: "https://exemplo.com/feed"
+#   added: "2025-03-22"
 
-- blog: "j u l i e ’ s"
+- blog: "j u l i e ' s"
   url: "https://julietheblog.blogspot.com/"
   feed: "https://julietheblog.blogspot.com/feeds/posts/default"
 
@@ -33,8 +39,8 @@
   feed: "https://oblognostalgiagamer.blogspot.com/feeds/posts/default"
 
 - blog: "KAKUMEI"
-  URL: "http://kakumei-blog.blogspot.com"
-  Feed: ""
+  url: "http://kakumei-blog.blogspot.com"
+  feed: ""
 
 - blog: "MISCELÂNEA" 
   url: "https://miscelanea.pagecord.com/"
