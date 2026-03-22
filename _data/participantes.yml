@@ -42,7 +42,7 @@
 
 - blog: "Carolina Botelho"
   url: "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/"
-  feed: "carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default"
+  feed: "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default"
 
 - blog: "Leandro Maciel" 
   url: "https://leandromaciel.blog"
