@@ -11,7 +11,7 @@ O tema do mês é escrever sobre alguma semana de março.
 O Importante é ser criativo, por que não escrever sobre todas as refeições que teve durante a semana? Ou registrar tudo em fotos e fazer um álbum? Quais foram as músicas da semana?
 Como já sabem, não há limites!
 
-Veja os temas de [meses anteriores](/entreblogs/temas).  
+Veja os temas de [meses anteriores](/temas).  
 
 <h4>Blogs participantes:</h4>
 
