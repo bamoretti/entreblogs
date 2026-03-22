@@ -34,16 +34,16 @@ Você não precisa montar isso do zero.
 **Onde colar**
 
 📄 Documentos (bloco único):
-_- partipantes_
-_- tags_
-_- tutoriais_
+- partipantes
+- tags
+- tutoriais
 
 Para os documentos acima você irá colar seus dados no começo da lista. 
 
 📄 Documentos (separados por blocos):
-_- temas_
-_- leituras_
-_- tags_
+- temas
+- leituras
+- tags
 
 Para os documentos acima você ira colar seus dados dentro do bloco do assunto correspondente. 
 
