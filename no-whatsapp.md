@@ -26,7 +26,7 @@ Escolha o que melhor se adequa a ele.</blockquote>
 >
 > Web-encontros são uma possibilidade divertida não obrigatória. 
 >
-> Ah, quer fofocar enquanto lê o livro da vez? Temos também um outro grupinho de fofocas para compartilhar todo seu acernal de figruinhas, demonstrar o tanto de raiva que passou, personagens que quis desviver, lágrimas derramadas por personagens que não existe. 
+> Ah, quer fofocar enquanto lê o livro da vez? Temos também um outro grupinho de fofocas para compartilhar todo seu estoque de figruinhas, demonstrar o tanto de raiva que passou, personagens que quis desviver, lágrimas derramadas por personagens que não existe. 
 
 <h4>Posts</h4>
 > Espaço para compartilhamos nossas participações dos temas e também outros posts que quisermos. 
