@@ -5,7 +5,7 @@ title: A Cabeça do Santo • Socorro Acioli
 description: Livro de fevereiro.
 permalink: /clube-de-leitura/a-cabeca-do-santo-socorro-acioli/
 ---
-<figure><img src="/assets/livros/a-cabeca-do-santo-socorro-acioli.jpg"><figcaption>A Cabeça do Santo • Socorro Acioli
+<figure><img src="{{ site.baseurl }}/assets/livros/a-cabeca-do-santo-socorro-acioli.jpg"><figcaption>A Cabeça do Santo • Socorro Acioli
 </figcaption></figure>
 
 Pouco antes de morrer, a mãe de Samuel lhe faz um último pedido: que ele vá encontrar a avó e o pai que nunca conheceu. Mesmo contrariado, o rapaz cumpre a promessa e faz a pé o caminho de Juazeiro do Norte até a pequena cidade de Candeia, sofrendo todas as agruras do sol impiedoso do sertão do Ceará.  
