@@ -54,4 +54,4 @@ Para os documentos acima você ira colar seus dados dentro do bloco do assunto c
 - manter as aspas
 - usar o link completo, começando com https://
 
-Seguiu as orientações e mesmo assim tem receio de clicar em autodestruição automática do site? Chama a gente no grupo **_C:\Users\Tech_** que te ajudamos 😉
+_Seguiu as orientações e mesmo assim tem receio de clicar em autodestruição automática do site? Chama a gente no grupo **C:\Users\Tech** que te ajudamos_ 😉
