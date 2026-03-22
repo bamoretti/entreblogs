@@ -37,8 +37,10 @@ Na lista de participantes e tutoriais: cole no começo da lista.
 Na lista de temas, livros e tags: cole dentro do bloco do tema correspondente.
 
 **Cuidados importantes**
-não apagar participações já existentes
-não alterar os títulos dos blocos
-manter os espaços e as quebras de linha
-manter as aspas
-usar o link completo, começando com https://
+> não apagar participações já existentes
+> não alterar os títulos dos blocos
+> manter os espaços e as quebras de linha
+> manter as aspas
+> usar o link completo, começando com https://
+
+Seguiu as orientações e mesmo assim tem receio de clicar em autodestruição automática do site? Chama a gente no grupo _C:\Users\Tech_ que te ajudamos 😉
