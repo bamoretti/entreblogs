@@ -3,7 +3,7 @@ layout: projeto
 type: clube de leitura
 title: A Cabeça do Santo • Socorro Acioli
 description: Livro de fevereiro.
-permalink: /clube-de-leitura/a-cabeca-do-santo-socorro-acioli
+permalink: /clube-de-leitura/a-cabeca-do-santo-socorro-acioli/
 ---
 <figure><img src="/assets/livros/a-cabeca-do-santo-socorro-acioli.jpg"><figcaption>A Cabeça do Santo • Socorro Acioli
 </figcaption></figure>
@@ -14,7 +14,7 @@ Ao chegar àquela cidade quase fantasma, ele encontra abrigo num lugar curioso: 
 
 Seu primeiro contato na cidade será com Francisco, um rapaz de quem logo fica amigo e que resolve ajudá-lo a explorar comercialmente o seu dom da escuta, promovendo casamentos e outras artimanhas amorosas. Antes parada no tempo, a cidade aos poucos volta à vida, à medida que vai sendo tomada por fiéis de todos os cantos, atraídos pelo poder inaudito de Samuel. Em meio a esse tumulto, ele ainda irá se apaixonar por uma voz misteriosa que se destaca entre as tantas outras que ecoam na cabeça do santo.
 
-Veja os [livros anteriores](/clube-de-leitura). 
+Veja os [livros anteriores](/entreblogs/clube-de-leitura). 
 
 <h4>Blogs participantes:</h4>
 
