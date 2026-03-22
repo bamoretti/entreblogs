@@ -33,9 +33,9 @@ Você não precisa montar isso do zero.
 
 <h4>Onde colar</h4>
 
-Na lista de participantes: cole no começo da lista.
+Na lista de participantes e tutoriais: cole no começo da lista.
 
-Na lista de temas: cole dentro do bloco do tema correspondente.
+Na lista de temas, livros e tags: cole dentro do bloco do tema correspondente.
 
 **Cuidados importantes**
 não apagar participações já existentes
