@@ -13,6 +13,14 @@
  --cor-texto: #000000;
  --fonte-geral: 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
+
+/* italico usa apenas monospace */
+em,
+i {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-style: italic;
+}
+
 /* --- FINAL RESET E VARIÁVEIS --- */
 
 html {
