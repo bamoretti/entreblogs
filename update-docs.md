@@ -43,4 +43,4 @@ Na lista de temas, livros e tags: cole dentro do bloco do tema correspondente.
 > manter as aspas
 > usar o link completo, começando com https://
 
-Seguiu as orientações e mesmo assim tem receio de clicar em autodestruição automática do site? Chama a gente no grupo _C:\Users\Tech_ que te ajudamos 😉
+Seguiu as orientações e mesmo assim tem receio de clicar em autodestruição automática do site? Chama a gente no grupo **_C:\Users\Tech_** que te ajudamos 😉
