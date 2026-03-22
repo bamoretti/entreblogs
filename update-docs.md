@@ -26,7 +26,6 @@ Basta copiar um bloco pronto, colar no lugar certo e trocar as informações.
 ---
 
 <h4>Antes de começar</h4>
-
 Cada documento segue um modelo.
 
 Você só precisa:
@@ -39,7 +38,6 @@ Você só precisa:
 ---
 
 <h4>Bloco = modelo pronto</h4>
-
 Um bloco é apenas um pequeno trecho já formatado, como este:
 
 ```- tema: "Nome do tema"
@@ -48,7 +46,6 @@ Um bloco é apenas um pequeno trecho já formatado, como este:
 ```
 
 Ou este:
-
 ```- blog: "Nome do blog"
   url: "https://seudominio.com/"
   feed: "https://seudominio.com/feed/"
@@ -58,9 +55,7 @@ Você não precisa montar isso do zero.
 É só copiar e substituir o que está entre aspas.
 
 <h4>1. Para adicionar seu blog na lista de participantes</h4>
-
 Use este bloco:
-
 ```- blog: "Nome do blog"
   url: "https://seudominio.com/"
   feed: "https://seudominio.com/feed/"
@@ -80,7 +75,6 @@ link do blog
 link do feed
 
 <h4>Exemplo preenchido</h4>
-
 ```- blog: "Meu Blog"
   url: "https://meublog.com/"
   feed: "https://meublog.com/feed/"
@@ -88,7 +82,6 @@ link do feed
 <h4>2. Para adicionar sua postagem em um tema</h4>
 
 Use este bloco:
-
 ```- tema: "Nome do tema"
   nome: "Nome do seu blog"
   url: "https://link-da-sua-postagem.com"
@@ -100,7 +93,6 @@ Use este bloco:
 2. Procure o bloco do tema em que você participou.
 
 Você verá algo assim:
-
 ```# --- INÍCIO TEMA Nome do tema ---
 ...
 # --- FINAL TEMA Nome do tema ---
