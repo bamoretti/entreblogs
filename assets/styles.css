@@ -17,7 +17,7 @@
 /* italico usa apenas monospace */
 em,
 i {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-family: monospace;
   font-style: italic;
 }
 
