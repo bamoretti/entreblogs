@@ -56,6 +56,7 @@ Você não precisa montar isso do zero.
 
 <h4>1. Para adicionar seu blog na lista de participantes</h4>
 Use este bloco:
+
 ```- blog: "Nome do blog"
   url: "https://seudominio.com/"
   feed: "https://seudominio.com/feed/"
@@ -75,6 +76,7 @@ link do blog
 link do feed
 
 <h4>Exemplo preenchido</h4>
+
 ```- blog: "Meu Blog"
   url: "https://meublog.com/"
   feed: "https://meublog.com/feed/"
