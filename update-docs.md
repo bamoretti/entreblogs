@@ -7,7 +7,7 @@ permalink: /como-atualizar/
 
 Nosso site é estático e, para organizar as participações da comunidade, utilizamos documentos compartilhados no Google Docs como um banco de dados colaborativo.
 
-Cada participante alimentará esses documentos com seus links, seguindo um modelo simples, e a partir disso atualizaremos o repositório do site semanalmente (geralmente aos finais de semana). Por isso não estranhe se, assim que atualizar o arquivo, o seu link não aparecer na página esperada. 
+Cada participante alimentará esses documentos com seus links, seguindo um modelo simples, e a partir disso atualizaremos o repositório do site semanalmente (geralmente aos finais de semana).  
 
 **É novo integrante da comunidade ou já participou de algum tema?**
 
@@ -15,119 +15,166 @@ Cada participante alimentará esses documentos com seus links, seguindo um model
 
 ---
 
-<h4>Como adicionar seu link de participação</h4>
+Como atualizar os documentos
 
-Este arquivo é apenas uma lista organizada com:
+Utilizamos documentos compartilhados como uma base de dados colaborativa para atualizar o site.
+Você não precisa saber programação nem conhecer YAML para participar. Basta copiar um modelo pronto, colar no lugar certo e trocar apenas algumas informações.
 
-* o **nome do livro**
-* o **nome do blog participante**
-* o **link da postagem**
+Temos tipos diferentes de listas. Abaixo está o passo a passo para cada uma.
 
-O formato utilizado chama-se **YAML**, mas você **não precisa conhecer YAML** nem saber programar para editar.
-Basta **copiar um modelo pronto** e substituir apenas algumas informações.
+1. Lista de participantes
 
----
+Essa lista reúne os blogs participantes da comunidade.
 
-<h4>Estrutura do arquivo</h4>
+Cada item contém:
 
-Cada livro possui um bloco próprio:
+blog → nome do blog
+url → link principal do blog
+feed → link do feed do blog
+Modelo
+- blog: "Nome do blog"
+  url: "https://seudominio.com/"
+  feed: "https://seudominio.com/feed/"
+Onde adicionar
 
-```yaml
-# --- INÍCIO Nome do Livro ---
-...
-# --- FINAL Nome do Livro ---
-```
+Na lista de participantes, adicione sempre no começo do documento, logo abaixo do aviso inicial.
 
-Sua participação deve ser adicionada **entre o INÍCIO e o FINAL do livro correspondente**.
+Isso é pedido apenas para facilitar a organização do arquivo.
+Na página do site, a ordem final continua sendo alfabética.
 
----
+Passo a passo
+1. Abra o documento de participantes
 
-<h4>Modelo de participação</h4>
+Localize a lista onde estão os blogs já cadastrados.
 
-Copie o modelo abaixo:
+2. Vá até o começo da lista
 
-```yaml
-- livro: "Nome do Livro • Nome da autora"
-  nome: "Nome do seu blog"
-  url: "https://link-da-sua-postagem.com"
-```
+Adicione seu blog no início, antes dos demais itens.
 
-Substitua apenas o que está entre aspas:
-
-* **Nome do Livro • Nome da autora**
-* **Nome do seu blog**
-* **link da sua postagem**
-
----
-
-<h4>Passo a passo</h4>
-
-### 1. Localize o livro
-
-Procure no arquivo o bloco com o nome do livro da sua leitura:
-
-```yaml
-# --- INÍCIO Nome do Livro ---
-```
-
-### 2. Copie o modelo de participação
-
-Use este modelo:
-
-```yaml
-- livro: "Nome do Livro • Nome da autora"
-  nome: "Nome do seu blog"
-  url: "https://link-da-sua-postagem.com"
-```
-
-### 3. Preencha suas informações
+3. Copie este modelo
+- blog: "Nome do blog"
+  url: "https://seudominio.com/"
+  feed: "https://seudominio.com/feed/"
+4. Preencha com seus dados
 
 Exemplo:
 
-```yaml
-- livro: "Nome do Livro • Nome da autora"
+- blog: "Meu Blog"
+  url: "https://meublog.com/"
+  feed: "https://meublog.com/feed/"
+5. Confira a formatação
+
+Mantenha:
+
+o hífen - no começo
+as aspas
+os espaços antes de url e feed
+Exemplo visual
+Antes
+# --- ADICIONE SEMPRE NO COMEÇO PARA FACILITAR, NÃO FAZ DIFERENÇA JÁ QUE A PÁGINA É EM ORDEM ALFABÉTICA – 
+
+- blog: "BMRTT"
+  url: "https://bamoretti.com"
+  feed: "https://feeds.feedburner.com/bamoretti"
+
+- blog: "IGOR MEDEIROZ"
+  url: "http://igormedeiroz.blogspot.com"
+  feed: "https://feeds.feedburner.com/igormedeiroz"
+Depois
+# --- ADICIONE SEMPRE NO COMEÇO PARA FACILITAR, NÃO FAZ DIFERENÇA JÁ QUE A PÁGINA É EM ORDEM ALFABÉTICA – 
+
+- blog: "Meu Blog"
+  url: "https://meublog.com/"
+  feed: "https://meublog.com/feed/"
+
+- blog: "BMRTT"
+  url: "https://bamoretti.com"
+  feed: "https://feeds.feedburner.com/bamoretti"
+
+- blog: "IGOR MEDEIROZ"
+  url: "http://igormedeiroz.blogspot.com"
+  feed: "https://feeds.feedburner.com/igormedeiroz"
+2. Lista de temas
+
+Essa lista reúne os links publicados em cada tema da comunidade.
+
+Cada item contém:
+
+tema → nome do tema
+nome → nome do blog participante
+url → link da postagem
+Estrutura do documento
+
+Cada tema possui um bloco próprio, marcado por início e final.
+
+Exemplo:
+
+# --- INÍCIO TEMA Uma semana comigo ---
+- tema: "Uma semana comigo"
+  nome: "Caderninho"
+  url: "https://jhoteotonio.blogspot.com/2026/03/uma-semana-comigo.html"
+
+# --- FINAL TEMA Uma semana comigo ---
+
+Sua participação deve ser adicionada dentro do bloco do tema correspondente.
+
+Modelo
+- tema: "Nome do tema"
+  nome: "Nome do seu blog"
+  url: "https://link-da-sua-postagem.com"
+Passo a passo
+1. Abra o documento de temas
+
+Procure o tema em que você participou.
+
+2. Localize o bloco correto
+
+Você deve encontrar algo assim:
+
+# --- INÍCIO TEMA Nome do tema ---
+
+e mais abaixo:
+
+# --- FINAL TEMA Nome do tema ---
+3. Copie este modelo
+- tema: "Nome do tema"
+  nome: "Nome do seu blog"
+  url: "https://link-da-sua-postagem.com"
+4. Preencha com seus dados
+
+Exemplo:
+
+- tema: "Uma semana comigo"
   nome: "Meu Blog"
-  url: "https://meublog.com/minha-postagem"
-```
+  url: "https://meublog.com/uma-semana-comigo"
+5. Cole dentro do bloco do tema
 
-### 4. Cole dentro do bloco do livro
+Adicione sua participação entre o início e o final do tema.
 
-Exemplo final:
+Exemplo visual
+Antes
+# --- INÍCIO TEMA Uma semana comigo ---
+- tema: "Uma semana comigo"
+  nome: "Caderninho"
+  url: "https://jhoteotonio.blogspot.com/2026/03/uma-semana-comigo.html"
 
-```yaml
-# --- INÍCIO Nome do Livro ---
+# --- FINAL TEMA Uma semana comigo ---
+Depois
+# --- INÍCIO TEMA Uma semana comigo ---
+- tema: "Uma semana comigo"
+  nome: "Caderninho"
+  url: "https://jhoteotonio.blogspot.com/2026/03/uma-semana-comigo.html"
 
-- livro: "Nome do Livro • Nome da autora"
-  nome: "Blog Exemplo"
-  url: "https://exemplo.com/post"
-
-- livro: "Nome do Livro • Nome da autora"
+- tema: "Uma semana comigo"
   nome: "Meu Blog"
-  url: "https://meublog.com/minha-postagem"
+  url: "https://meublog.com/uma-semana-comigo"
 
-# --- FINAL Nome do Livro ---
-```
+# --- FINAL TEMA Uma semana comigo ---
 
----
-
-<h4>Regras importantes</h4>
-
-* adicionar sua participação **somente dentro do bloco do livro**
-* manter a formatação igual ao modelo
-* não alterar participações já existentes
-* não remover as aspas `" "`
-* usar o link completo (começando com `https://`)
-* manter os espaços antes de `nome` e `url`
-
----
-
-<h4>Resumindo</h4>
-
-Você só precisa:
-
-1. encontrar o livro correto
-2. copiar o modelo
-3. trocar nome e link
-4. colar dentro do bloco do livro
-
-Não é necessário conhecimento em YAML ou programação.
+Regras importantes para qualquer documento
+copie sempre um modelo já pronto
+troque apenas as informações entre aspas
+não apague participações já existentes
+não altere títulos de blocos ou avisos do arquivo
+mantenha os espaços e quebras de linha
+use o link completo, começando com https://
