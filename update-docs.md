@@ -13,7 +13,7 @@ Calma, **você não precisa saber YAML nem programação**.
 
 Assim que você entra na comunidade irá atualizar o _doc_ **participantes** com seu blog.
 
-Assim, quando atualizamos o repositório com as informações alimentadas nesse documento, seu blog será considerado na atualização da página de participantes. 
+Feito isso, quando atualizarmos o repositório com as informações alimentadas nesse documento, seu blog será considerado na atualização da página de participantes. 
 
 **Já participou de algum tema, tag ou clube de leitura?**
 
@@ -31,10 +31,9 @@ Exemplo:
 Você não precisa montar isso do zero.
 É só copiar e substituir o que está entre aspas.
 
-<h4>Onde colar</h4>
+**Onde colar**
 
 Na lista de participantes e tutoriais: cole no começo da lista.
-
 Na lista de temas, livros e tags: cole dentro do bloco do tema correspondente.
 
 **Cuidados importantes**
