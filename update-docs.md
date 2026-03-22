@@ -15,11 +15,11 @@ TUTORIAIS
 
 **É novo integrante da comunidade ou já participou de algum tema?**
 
-<blockquote>[Acesse nosso Drive](https://tinyurl.com/docsentreblogs) e atualize o documento em questão para que sua participação apareça na próxima atualização.</blockquote>
+<blockquote><a href="https://tinyurl.com/docsentreblogs">Acesse nosso Drive<a></a> e atualize o documento em questão para que sua participação apareça na próxima atualização.</blockquote>
 
 ---
 
-# Como adicionar seu link de participação
+<h4>Como adicionar seu link de participação</h4>
 
 Este arquivo é apenas uma lista organizada com:
 
@@ -32,7 +32,7 @@ Basta **copiar um modelo pronto** e substituir apenas algumas informações.
 
 ---
 
-# Estrutura do arquivo
+<h4>Estrutura do arquivo</h4>
 
 Cada livro possui um bloco próprio:
 
