@@ -197,12 +197,14 @@ blockquote {
  border-left: 7px solid var(--cor-destaque);
  margin: 10px 20px;
  padding: 1px 10px;
+ font-family: monospace !important;
  font-style: italic;
 }
 
 .fleabag {
  font-size: clamp(1rem, 1.5vw, 1.06rem);
  line-height: clamp(1.5rem, 2vw, 1.7rem);
+ font-family: monospace !important;
  font-style: italic;
  text-wrap: balance;
  color: var(--cor-texto);
@@ -225,15 +227,6 @@ blockquote {
  border-top: 10px solid transparent;
 }
 /* FINAL estilos de citação */
-
-/* qualquer texto em itálico usa monospace */
-*:where([style*="italic"], em, i),
-blockquote,
-blockquote *,
-.fleabag,
-.fleabag * {
-  font-family: monospace;
-}
 
 /* INÍCIO estilos LISTAS para os participantes de temas, TAGS e leituras */
 .link-temas {
