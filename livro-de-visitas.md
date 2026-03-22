@@ -1,9 +1,8 @@
 ---
-
 layout: default
 title: Livro de visitas
 description: Deixe sua mensagem para a comunidade.
---------------------------------------------------
+---
 
 {% for visita in site.data.livro-de-visitas %}
 
