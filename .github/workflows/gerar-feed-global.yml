@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - '_data/participantes.yml'
+  schedule:
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 jobs:
