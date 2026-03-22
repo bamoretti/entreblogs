@@ -7,7 +7,7 @@ permalink: /tag/conheca-o-blogueiro/
 ---
 Conte um pouco do porquê você fez seu blog, o que te motiva e alimenta sua vontade de blogar!
 
-Veja [outras TAGS](/entreblogs/tag).  
+Veja [outras TAGS]({{ site.baseurl }}/tag).  
 
 <h4>Blogs participantes:</h4>
 
