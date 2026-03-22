@@ -5,17 +5,13 @@ description: Atualização de participação.
 permalink: /como-atualizar/
 ---
 
-Nosso site é estático e utilizamos o Google docs para reunir as informações alimentadas pelos próprios participantes e atualizar nosso repositório semanalmente (geralmente aos finais de semana).
+Nosso site é estático e, para organizar as participações da comunidade, utilizamos documentos compartilhados no Google Docs como um banco de dados colaborativo.
 
-- leitura
-- participantes
-- tags
-- temas
-- tutoriais
+Cada participante alimentará esses documentos com seus links, seguindo um modelo simples, e a partir disso atualizaremos o repositório do site semanalmente (geralmente aos finais de semana). Por isso não estranhe se, assim que atualizar o arquivo, o seu link não aparecer na página esperada. 
 
 **É novo integrante da comunidade ou já participou de algum tema?**
 
-<blockquote class="fleabag"><a href="https://tinyurl.com/docsentreblogs">Acesse nosso Drive</a> e atualize o documento em questão para que sua participação apareça na próxima atualização.</blockquote>
+<blockquote class="fleabag"><a href="https://tinyurl.com/docsentreblogs">Acesse nosso Drive</a> e atualize o documento que deseja para que sua participação apareça na próxima atualização conforme orientações abaixo.</blockquote>
 
 ---
 
