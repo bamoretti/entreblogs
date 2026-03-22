@@ -10,7 +10,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // --- CONFIGURAÇÕES ---
 const POSTS_POR_BLOG = 30; // Altere aqui para mudar o limite por blog
 const SITE_URL = 'https://entreblogs.com.br';
-const FEED_TITLE = 'Feed - Entreblogs';
+const FEED_TITLE = 'Entreblogs';
 const FEED_DESCRIPTION = 'Todas as postagens dos blogs participantes do Entreblogs';
 const TIMEOUT_MS = 10000; // 10 segundos por feed
 
