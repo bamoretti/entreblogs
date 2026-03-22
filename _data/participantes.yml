@@ -1,7 +1,24 @@
 # --- ADICIONE SEMPRE NO COMEÇO PARA FACILITAR, NÃO FAZ DIFERENÇA JÁ QUE A PÁGINA É EM ORDEM ALFABÉTICA – 
-- blog: Garota de Canela
+
+- blog: "j u l i e ’ s"
+  url: "https://julietheblog.blogspot.com/"
+  feed: "https://julietheblog.blogspot.com/feeds/posts/default"
+
+- blog: "galho da ararinha"
+  url: "https://ararinhaaazul.bearblog.de"
+  feed: "https://ararinhaaazul.bearblog.dev/feed/"
+
+- blog: "Post Literal"
+  url: "https://www.postliteral.com.br/"
+  feed: "https://www.postliteral.com.br/feeds/posts/default"
+
+- blog: "Garota de Canela"
   url: "https://garotadecanela.blogspot.com/"
   feed: "https://garotadecanela.blogspot.com/"
+
+- blog: "Vento do Leste"
+  url: "https://www.ventodoleste.com.br"
+  feed: "https://www.ventodoleste.com.br/feeds/posts/default"
 
 - blog: "COSMOLIKO"
   url: "https://cosmoliko.com/"
@@ -16,8 +33,8 @@
   feed: "https://oblognostalgiagamer.blogspot.com/feeds/posts/default"
 
 - blog: "KAKUMEI"
-  url: "http://kakumei-blog.blogspot.com"
-  feed: "https://kakumei-blog.blogspot.com/feeds/posts/default"
+  URL: "http://kakumei-blog.blogspot.com"
+  Feed: ""
 
 - blog: "MISCELÂNEA" 
   url: "https://miscelanea.pagecord.com/"
@@ -171,11 +188,11 @@
   url: "https://oeunaoobstante.bearblog.dev/"
   feed: "https://oeunaoobstante.bearblog.dev/feed/"
 
-- blog: "UOSHI"
-  url: "https://oieuoshi.blogspot.com/"
-  feed: "https://oieuoshi.blogspot.com/feeds/posts/default"
+- blog: "oieuoshi"
+  url: "https://oieuoshi.vercel.app/blog"
+  feed: "https://oieuoshi.vercel.app/feed.xml"
 
-- blog: "Caderninho"
+- blog: "caderninho"
   url: "https://jhoteotonio.blogspot.com/"
   feed: "https://jhoteotonio.blogspot.com/feeds/posts/default"
 
@@ -187,3 +204,10 @@
   url: "https://tristezinhascotidianas.com.br/"
   feed: "https://www.tristezinhascotidianas.com.br/feeds/posts/default"
 
+- blog: "Casarão De Histórias"
+  url: "https://casaraodehistorias.blogspot.com/"
+  feed: ""
+
+- blog: "Garota do 330"
+  url: "https://garotado330.com.br"
+  feed: ""
