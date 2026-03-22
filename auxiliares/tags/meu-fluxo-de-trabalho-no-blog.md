@@ -5,12 +5,13 @@ title: Meu fluxo de trabalho no blog
 description: Como a gente faz os textos aparecerem.
 permalink: /tag/meu-fluxo-de-trabalho-no-blog/
 ---
+
 Como a _magia_ acontece nos nossos blogs?  
 Qual é o processo criativo, de escrita de cada um?  
 
 Hoje, no ENTREBLOGS.
 
-Veja [outras TAGS](/entreblogs/tag). 
+Veja [outras TAGS]({{ site.baseurl }}/tag). 
 
 <h4>Blogs participantes:</h4>
 
