@@ -7,11 +7,11 @@ permalink: /como-atualizar/
 
 Nosso site é estático e utilizamos o Google docs para reunir as informações alimentadas pelos próprios participantes e atualizar nosso repositório semanalmente (geralmente aos finais de semana).
 
->leitura
->participantes
->tags
->temas
->tutoriais
+- leitura
+- participantes
+- tags
+- temas
+- tutoriais
 
 **É novo integrante da comunidade ou já participou de algum tema?**
 
