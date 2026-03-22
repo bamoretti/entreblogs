@@ -39,8 +39,8 @@ Escolha o local onde deseja que o widget apareça (recomendamos o arquivo de rod
     &lt;a class="eb-info" href="https://pt.wikipedia.org/wiki/Webring">O que é isso?</a>
 </div>
 
-  &lt;script src="https://bamoretti.github.io/entreblogs/assets/webrings/onionring-variables.js"></script>
-  &lt;script src="https://bamoretti.github.io/entreblogs/assets/webrings/onionring-widget.js"></script>
+  &lt;script src="https://entreblogs.com.br/assets/webrings/onionring-variables.js"></script>
+  &lt;script src="https://entreblogs.com.br//assets/webrings/onionring-widget.js"></script>
 </section&gt;
 
 </pre></code>
@@ -52,8 +52,8 @@ Escolha o local onde deseja que o widget apareça (recomendamos o arquivo de rod
 <p>Código para colocar antes do <code></head></code>, que é o <code>script</code> que chama os dados:</p>
 <code><pre>
 
-  &lt;script src="https://bamoretti.github.io/entreblogs/assets/webrings/onionring-variables.js"></script&gt;
-  &lt;script src="https://bamoretti.github.io/entreblogs/assets/webrings/onionring-widget.js"></script&gt;
+  &lt;script src="https://entreblogs.com.br/assets/webrings/onionring-variables.js"></script&gt;
+  &lt;script src="https://entreblogs.com.br/assets/webrings/onionring-widget.js"></script&gt;
 
 </pre></code>
 
