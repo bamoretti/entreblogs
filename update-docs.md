@@ -5,9 +5,9 @@ description: Atualização de participação.
 permalink: /como-atualizar/
 ---
 
-Nosso site é estático e, para organizar as participações da comunidade e manter o site atualizado, utilizamos documentos compartilhados no Google Docs como uma _base de dados colaborativa_. 
+Nosso site é estático e, para organizar as participações da comunidade e manter o site atualizado, utilizamos documentos compartilhados no Google Docs como uma _base de dados colaborativa_. Com esses dados é que atualizamos o nosso repositório. 
 
-Calma, **você não precisa saber YAML nem programação**.  
+Calma, **você não precisa saber programação**.  
 
 <blockquote class="fleabag"><a href="https://tinyurl.com/docsentreblogs">Acesse nosso Drive</a> e atualize o documento que deseja para que sua participação apareça na próxima atualização conforme orientações abaixo.</blockquote>
 
