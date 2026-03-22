@@ -33,9 +33,15 @@ Você não precisa montar isso do zero.
 
 **Onde colar**
 
-Na lista de participantes e tutoriais: cole no começo da lista.
+No começo da lista, conforme aviso dentro do documento, para os documentos:
+- partipantes
+- tags
+- tutoriais
 
-Na lista de temas, livros e tags: cole dentro do bloco do tema correspondente.
+Dentro do bloco do assunto correspondente, para os documentos:
+- temas
+- leituras
+- tags
 
 **Cuidados importantes**
 >- não apagar participações já existentes
