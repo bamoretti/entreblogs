@@ -11,7 +11,7 @@ A comunidade no whatsapp é dividida em alguns grupos:
 Escolha o que melhor se adequa a ele.</blockquote>
 
 <h4>Avisos</h4>
-#obrigatório
+<aside>#obrigatório</aside>
 > Único grupo da comunidade com participação automática e obrigatória. Nele centralizamos as enquetes, resultados das votações e outros avisos importantes sobre o projeto ENTREBLOGS.
 
 <h4>Chat</h4>
