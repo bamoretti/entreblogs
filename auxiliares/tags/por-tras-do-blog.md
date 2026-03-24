@@ -1,9 +1,9 @@
 ---
 layout: projeto
 type: tags
-title: ENTREBLOGS
+title: Por trás do blog
 description: Quem é você?.
-permalink: /tag/entreblogs/
+permalink: /tag/por-tras-do-blog/
 ---
 Quem é você fora do blog? 
 
