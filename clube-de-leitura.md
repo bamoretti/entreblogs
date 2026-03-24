@@ -12,11 +12,20 @@ O clube de leitura é um projeto paralelo onde escolhemos um livro por mês para
 <ul class="link-livros">
 
   <li>
+    <figure class="capa-do-livro" livro-numero="05/26">
+      <a href="{{ site.baseurl }}/clube-de-leitura/memorias-do-subsolo-fiodor-dostoievski">
+        <img src="{{ site.baseurl }}/assets/livros/memorias-do-subsolo-fiodor-dostoievski.jpg">
+      </a>
+      <figcaption>Memórias do Subsolo • Fiódor Dostoiévski</figcaption>
+    </figure>
+  </li>
+  
+  <li>
     <figure class="capa-do-livro" livro-numero="04/26">
       <a href="{{ site.baseurl }}/clube-de-leitura/a-vegetariana-han-kang">
         <img src="{{ site.baseurl }}/assets/livros/a-vegetariana-han-kang.jpg">
       </a>
-      <figcaption>A Vegetariana • Han Kang</figcaption>
+      <figcaption>A Vegetariana • Han Kang (leitura atual)</figcaption>
     </figure>
   </li>
 
@@ -25,7 +34,7 @@ O clube de leitura é um projeto paralelo onde escolhemos um livro por mês para
       <a href="{{ site.baseurl }}/clube-de-leitura/tres-valerie-perrin">
         <img src="{{ site.baseurl }}/assets/livros/tres-valerie-perrin.jpg">
       </a>
-      <figcaption>Três • Valérie Perrin (leitura atual)</figcaption>
+      <figcaption>Três • Valérie Perrin </figcaption>
     </figure>
   </li>
 
