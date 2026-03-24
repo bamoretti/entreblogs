@@ -5,6 +5,8 @@ title: Por trás do blog
 description: Quem é você?.
 permalink: /tag/por-tras-do-blog/
 ---
+Essa é a primeira tag do projeto, se você acabou de chegar, sinta-se a vontade para responder.
+
 Quem é você fora do blog? 
 
 Qual é a história por trás do seu blog? 
