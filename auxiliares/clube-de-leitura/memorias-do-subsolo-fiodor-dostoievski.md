@@ -14,6 +14,7 @@ Alienado da sociedade e paralisado pelo peso da própria insignificância, o nar
 Escrita em poucas semanas, esta novela arrebatadora explora, com a maestria única de Dostoiévski, as profundezas do desespero humano. 
 
 Tradução do russo, apresentação e notas de Rubens Figueiredo.
+
 Veja os [livros anteriores]({{ site.baseurl }}/clube-de-leitura). 
 
 <h4>Blogs participantes:</h4>
