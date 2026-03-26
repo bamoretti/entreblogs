@@ -59,7 +59,7 @@ function getLink(val) {
     const alt = val.find(l => l?.$ && l.$.rel === 'alternate');
     if (alt) return alt.$.href || '';
     const first = val[0];
-    if (first?.$ ) return first.$.href || '';
+    if (first?.$) return first.$.href || '';
     return getText(first);
   }
   if (val?.$?.href) return val.$.href;
@@ -69,7 +69,11 @@ function getLink(val) {
 async function buscarFeed(url) {
   try {
     const xml = await fetchUrl(url);
-    const data = await parseStringPromise(xml, { explicitArray: true, mergeAttrs: false });
+    // Remove DOCTYPE e entidades externas que causam o entity expansion error
+    const xmlLimpo = xml
+      .replace(/<!DOCTYPE[^>]*>/gi, '')
+      .replace(/<!ENTITY[^>]*>/gi, '');
+    const data = await parseStringPromise(xmlLimpo, { explicitArray: true, mergeAttrs: false });
 
     // RSS
     if (data?.rss?.channel) {
