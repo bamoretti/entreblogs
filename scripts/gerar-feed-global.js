@@ -12,12 +12,17 @@ const POSTS_POR_BLOG = 30; // Altere aqui para mudar o limite por blog
 const SITE_URL = 'https://entreblogs.com.br';
 const FEED_TITLE = 'Entreblogs';
 const FEED_DESCRIPTION = 'Todas as postagens dos blogs participantes do Entreblogs';
-const TIMEOUT_MS = 10000; // 10 segundos por feed
+const TIMEOUT_MS = 20000; // 20 segundos por feed
+
+const USER_AGENT = 'Mozilla/5.0 (compatible; Entreblogs Feed Aggregator; +https://entreblogs.com.br)';
 
 const parser = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: '@_',
   isArray: (name) => ['item', 'entry'].includes(name),
+  processEntities: true,
+  htmlEntities: true,
+  entityExpansionThreshold: 10000,
 });
 
 // Busca e parseia um feed RSS ou Atom
@@ -26,7 +31,10 @@ async function buscarFeed(url) {
   const timeout = setTimeout(() => controller.abort(), TIMEOUT_MS);
 
   try {
-    const res = await fetch(url, { signal: controller.signal });
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: { 'User-Agent': USER_AGENT },
+    });
     if (!res.ok) {
       console.warn(`  ✗ HTTP ${res.status}: ${url}`);
       return [];

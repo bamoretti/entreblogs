@@ -20,7 +20,7 @@
 
 - blog: "Garota de Canela"
   url: "https://garotadecanela.blogspot.com/"
-  feed: "https://garotadecanela.blogspot.com/"
+  feed: "https://garotadecanela.blogspot.com/feeds/posts/default"
 
 - blog: "Vento do Leste"
   url: "https://www.ventodoleste.com.br"
@@ -136,7 +136,7 @@
 
 - blog: "BLOG DO TH"
   url: "https://blogdoth.com.br"
-  feed: "https://blogdoth.com.br/feedrss/"
+  feed: "https://blogdoth.com.br/feed/"
 
 - blog: "LIZ"
   url: "https://lizsaless.blogspot.com/"
