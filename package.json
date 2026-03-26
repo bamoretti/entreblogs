@@ -7,8 +7,7 @@
     "gerar-feed": "node scripts/gerar-feed-global.js"
   },
   "dependencies": {
-    "fast-xml-parser": "^4.3.6",
     "js-yaml": "^4.1.0",
-    "node-fetch": "^3.3.2"
+    "rss-parser": "^3.13.0"
   }
 }
