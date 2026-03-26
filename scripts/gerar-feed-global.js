@@ -1,8 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import https from 'https';
+import http from 'http';
 import yaml from 'js-yaml';
-import Parser from 'rss-parser';
+import { parseStringPromise } from 'xml2js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -12,26 +14,89 @@ const SITE_URL = 'https://entreblogs.com.br';
 const FEED_TITLE = 'Entreblogs';
 const FEED_DESCRIPTION = 'Todas as postagens dos blogs participantes do Entreblogs';
 const TIMEOUT_MS = 20000;
+const USER_AGENT = 'Mozilla/5.0 (compatible; Entreblogs/1.0; +https://entreblogs.com.br)';
 
-const parser = new Parser({
-  timeout: TIMEOUT_MS,
-  headers: {
-    'User-Agent': 'Mozilla/5.0 (compatible; Entreblogs Feed Aggregator; +https://entreblogs.com.br)',
-    'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*',
-  },
-  maxRedirects: 5,
-});
+function fetchUrl(url, redirects = 0) {
+  return new Promise((resolve, reject) => {
+    if (redirects > 5) return reject(new Error('Too many redirects'));
+    const lib = url.startsWith('https') ? https : http;
+    const req = lib.get(url, {
+      headers: {
+        'User-Agent': USER_AGENT,
+        'Accept': 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*',
+      },
+      timeout: TIMEOUT_MS,
+    }, (res) => {
+      if ([301, 302, 303, 307, 308].includes(res.statusCode) && res.headers.location) {
+        return resolve(fetchUrl(res.headers.location, redirects + 1));
+      }
+      if (res.statusCode !== 200) {
+        res.resume();
+        return reject(new Error(`HTTP ${res.statusCode}`));
+      }
+      const chunks = [];
+      res.on('data', (chunk) => chunks.push(chunk));
+      res.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
+      res.on('error', reject);
+    });
+    req.on('timeout', () => { req.destroy(); reject(new Error('Timeout')); });
+    req.on('error', reject);
+  });
+}
+
+function getText(val) {
+  if (!val) return '';
+  if (typeof val === 'string') return val;
+  if (Array.isArray(val)) return getText(val[0]);
+  if (typeof val === 'object') return val._ || val.$t || '';
+  return String(val);
+}
+
+function getLink(val) {
+  if (!val) return '';
+  if (typeof val === 'string') return val;
+  if (Array.isArray(val)) {
+    const alt = val.find(l => l?.$ && l.$.rel === 'alternate');
+    if (alt) return alt.$.href || '';
+    const first = val[0];
+    if (first?.$ ) return first.$.href || '';
+    return getText(first);
+  }
+  if (val?.$?.href) return val.$.href;
+  return getText(val);
+}
 
 async function buscarFeed(url) {
   try {
-    const feed = await parser.parseURL(url);
-    return (feed.items || []).slice(0, POSTS_POR_BLOG).map((item) => ({
-      title: item.title || '',
-      link: item.link || item.guid || '',
-      date: item.pubDate || item.isoDate ? new Date(item.pubDate || item.isoDate) : new Date(0),
-      description: item.content || item.contentSnippet || item.summary || '',
-      blog: '',
-    }));
+    const xml = await fetchUrl(url);
+    const data = await parseStringPromise(xml, { explicitArray: true, mergeAttrs: false });
+
+    // RSS
+    if (data?.rss?.channel) {
+      const items = data.rss.channel[0]?.item || [];
+      return items.slice(0, POSTS_POR_BLOG).map((item) => ({
+        title: getText(item.title),
+        link: getText(item.link) || getText(item.guid),
+        date: item.pubDate ? new Date(getText(item.pubDate)) : new Date(0),
+        description: getText(item['content:encoded']) || getText(item.description),
+        blog: '',
+      }));
+    }
+
+    // Atom
+    if (data?.feed?.entry) {
+      const entries = data.feed.entry || [];
+      return entries.slice(0, POSTS_POR_BLOG).map((entry) => ({
+        title: getText(entry.title),
+        link: getLink(entry.link),
+        date: entry.updated ? new Date(getText(entry.updated)) : new Date(0),
+        description: getText(entry.content) || getText(entry.summary),
+        blog: '',
+      }));
+    }
+
+    console.warn(`  ✗ Formato não reconhecido: ${url}`);
+    return [];
   } catch (err) {
     console.warn(`  ✗ Falhou: ${url} — ${err.message}`);
     return [];
@@ -71,16 +136,14 @@ async function main() {
 
   const agora = new Date().toUTCString();
   const itens = todos
-    .map(
-      (post) => `
+    .map((post) => `
   <item>
     <title>${xmlEscape(post.blog)} — ${xmlEscape(post.title)}</title>
     <link>${xmlEscape(post.link)}</link>
     <guid isPermaLink="true">${xmlEscape(post.link)}</guid>
     <pubDate>${post.date.toUTCString()}</pubDate>
     <description><![CDATA[${post.description}]]></description>
-  </item>`
-    )
+  </item>`)
     .join('\n');
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
