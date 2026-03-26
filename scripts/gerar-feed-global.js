@@ -27,7 +27,10 @@ async function buscarFeed(url) {
 
   try {
     const res = await fetch(url, { signal: controller.signal });
-    if (!res.ok) return [];
+    if (!res.ok) {
+      console.warn(`  ✗ HTTP ${res.status}: ${url}`);
+      return [];
+    }
     const text = await res.text();
     const data = parser.parse(text);
 
@@ -39,7 +42,7 @@ async function buscarFeed(url) {
         link: item.link || '',
         date: item.pubDate ? new Date(item.pubDate) : new Date(0),
         description: item.description || '',
-        blog: '', // preenchido depois
+        blog: '',
       }));
     }
 
@@ -60,11 +63,12 @@ async function buscarFeed(url) {
       });
     }
 
-} catch (err) {
+    console.warn(`  ✗ Formato não reconhecido: ${url}`);
+    return [];
+  } catch (err) {
     console.warn(`  ✗ Falhou: ${url} — ${err.message}`);
     return [];
-  }
-    finally {
+  } finally {
     clearTimeout(timeout);
   }
 }
