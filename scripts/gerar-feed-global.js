@@ -60,10 +60,11 @@ async function buscarFeed(url) {
       });
     }
 
+} catch (err) {
+    console.warn(`  ✗ Falhou: ${url} — ${err.message}`);
     return [];
-  } catch {
-    return [];
-  } finally {
+  }
+    finally {
     clearTimeout(timeout);
   }
 }
