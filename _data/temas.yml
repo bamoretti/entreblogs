@@ -2,8 +2,16 @@
 - tema: "Uma semana comigo"
   nome: "Caderninho"
   url: "https://jhoteotonio.blogspot.com/2026/03/uma-semana-comigo.html"
-# --- FINAL TEMA Uma semana comigo ---
 
+- tema: "Uma semana comigo"
+  nome: "Estante da Pipoca"
+  url: "https://www.estantedapipoca.com/2026/03/uma-semana-comigo-entreblogs.html"
+
+- tema: "Uma semana comigo"
+  nome: "Vento do Leste"
+  url: "https://www.ventodoleste.com.br/2026/03/uma-semana-comigo.html"
+
+# --- FINAL TEMA Uma semana comigo ---
 
 # --- INÍCIO TEMA Museu ---
 - tema: "Museu"
@@ -51,14 +59,13 @@
   url: "https://nyrtais.blogspot.com/2026/03/life-under-communism.html?m=1"
 
 - tema: "Museu"
-  nome: "Caderninho"
+  nome: "caderninho"
   url: "https://www.jteotonio.com.br/2026/02/museus.html"
-
 - tema: "Museu"
   nome: "Maira Namba"
   url: "https://www.mairanamba.com/um-museu-na-italia/"
-# --- FINAL TEMA Museu ---
 
+# --- FINAL TEMA Museu ---
 
 # --- INÍCIO TEMA Recap 2025 ---
 - tema: "Recap 2025"
@@ -78,7 +85,7 @@
   url: "https://lulylage.com/favoritos-de-2025/"
 
 - tema: "Recap 2025"
-  nome: "BMRTT"
+  nome: "BMRTTi"
   url: "https://www.bamoretti.com/2026/01/just-remember-life-isnt-about-finding.html"
 
 - tema: "Recap 2025"
@@ -104,4 +111,5 @@
 - tema: "Recap 2025"
   nome: "Fala Catarina"
   url: "https://falacatarina.com/2026/01/26/recap-2025/"
+
 # --- FINAL TEMA Recap 2025 ---
