@@ -21,15 +21,15 @@ jobs:
           node-version: '20'
 
       - name: Instalar dependências
-        run: npm install
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install
 
       - name: Gerar feed global
         run: node scripts/gerar-feed-global.js
 
       - name: Commit e push do feed gerado
         run: |
-          echo "Arquivos na raiz:"
-          ls -la
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add feed-entreblogs.xml
