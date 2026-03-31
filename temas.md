@@ -4,7 +4,7 @@ title: Temas
 description: Temas que já passaram pela blogagem.
 ---
 
-| 2026/04 | #012 | [5 coisas (que não são necessariamente coisas) que me fazem feliz]({{ site.baseurl }}/temas/cinco-coisas-que-me-fazem-feliz) |
+| 2026/04 | #012 | [Cinco coisas que me fazem feliz]({{ site.baseurl }}/temas/cinco-coisas-que-me-fazem-feliz) |
 | 2026/03 | #011 | [Uma semana comigo]({{ site.baseurl }}/temas/uma-semana-comigo) |
 | 2026/02 | #010 | [Museu]({{ site.baseurl }}/temas/museu) |
 | 2026/01 | #009 | [Recap 2025]({{ site.baseurl }}/temas/recap_2025) |
