@@ -77,5 +77,6 @@ Divirta-se!
 <div class="rss-box">
   <p></p>
     <b>https://entreblogs.com.br/feed-entreblogs.xml</b>
-  <p><small>Importe no seu leitor de RSS favorito.</small></p>
+  <small><p>Importe no seu leitor de RSS favorito.</p>
+  <p>Não sabe o que é um feed? <a href="https://aboutfeeds-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp%20Traduzido%20para%20o%20portugu%C3%AAs">Descubra aqui.</a></p></small>
 </div>
