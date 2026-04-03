@@ -1,6 +1,15 @@
 // Lista dos blogs
 var websites = [
   "https://entreblogs.com.br/",
+  "https://diario-otome.blogspot.com/",
+  "https://julietheblog.blogspot.com/",
+  "https://ararinhaaazul.bearblog.dev/",
+  "https://www.postliteral.com.br/",
+  "https://garotadecanela.blogspot.com/",
+  "https://www.ventodoleste.com.br/",
+  "https://cosmoliko.com/",
+  "https://porce-lana.blogspot.com/",
+  "https://oblognostalgiagamer.blogspot.com/",
   "https://kakumei-blog.blogspot.com/",
   "https://miscelanea.pagecord.com/",
   "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/",
@@ -40,11 +49,13 @@ var websites = [
   "https://pedro.dalbo.me/",
   "https://mulhervitrola.com.br/blog/",
   "https://oeunaoobstante.bearblog.dev/",
-  "https://oieuoshi.blogspot.com/",
+  "https://oieuoshi.vercel.app/blog/",
   "https://jhoteotonio.blogspot.com/",
   "https://inextrospectum.com.br/",
   "https://tristezinhascotidianas.com.br/",
-  "https://porce-lana.blogspot.com/"
+  "https://casaraodehistorias.blogspot.com/",
+  "https://garotado330.com.br/",
+  "https://leozitoarts.bearblog.dev/"
 ];
 
 // Configurações visuais e de texto

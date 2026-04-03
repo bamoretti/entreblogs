@@ -11,6 +11,22 @@
   nome: "Vento do Leste"
   url: "https://www.ventodoleste.com.br/2026/03/uma-semana-comigo.html"
 
+- tema: "Uma semana comigo"
+  nome: "Cosmoliko"
+  url: "https://cosmoliko.com/uma-semana-comigo-por-dentro-das-minhas-anotacoes-diarias/"
+
+- tema: "Uma semana comigo"
+  nome: "TechDemo"
+  url: "https://techdemo.com.br/uma-semana-comigo-marco-2026/"
+
+- tema: "Uma semana comigo"
+  nome: "Kakumei Blog"
+  url: "https://kakumei-blog.blogspot.com/1969/12/e-n-t-r-e-b-l-o-g-s-uma-semana-comigo_01185982850.html"
+
+- tema: "Uma semana comigo"
+  nome: "BMRTT"
+  url: "https://www.bamoretti.com/2026/03/uma-semana-comigo.html"
+
 # --- FINAL TEMA Uma semana comigo ---
 
 # --- INÍCIO TEMA Museu ---
@@ -85,7 +101,7 @@
   url: "https://lulylage.com/favoritos-de-2025/"
 
 - tema: "Recap 2025"
-  nome: "BMRTTi"
+  nome: "BMRTT"
   url: "https://www.bamoretti.com/2026/01/just-remember-life-isnt-about-finding.html"
 
 - tema: "Recap 2025"
@@ -111,5 +127,9 @@
 - tema: "Recap 2025"
   nome: "Fala Catarina"
   url: "https://falacatarina.com/2026/01/26/recap-2025/"
+
+- tema: "Recap 2025"
+  nome: "TechDemo"
+  url: "https://techdemo.com.br/year-in-review-2025/"
 
 # --- FINAL TEMA Recap 2025 ---

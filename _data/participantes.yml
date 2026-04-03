@@ -1,4 +1,4 @@
-# --- ADICIONE SEMPRE NO COMEÇO PARA FACILITAR, NÃO FAZ DIFERENÇA JÁ QUE A PÁGINA É EM ORDEM ALFABÉTICA – 
+# --- ADICIONE SEMPRE NO COMEÇO PARA FACILITAR, NÃO FAZ DIFERENÇA JÁ QUE A PÁGINA É EM ORDEM ALFABÉTICA –
 # --- A PARTIR DE AGORA, ADICIONE O CAMPO "added:" COM A DATA DE ENTRADA (formato: YYYY-MM-DD) ---
 # --- EXEMPLO DE NOVO PARTICIPANTE COM O CAMPO added: ---
 # - blog: "Nome do Blog"
@@ -6,13 +6,18 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
-- blog: "j u l i e ' s"
+- blog: "Diário de Obsessões"
+  url: "https://diario-otome.blogspot.com/"
+  feed: "https://diario-otome.blogspot.com/feeds/posts/default"
+  added: "2026-04-01"
+
+- blog: "j u l i e ’ s"
   url: "https://julietheblog.blogspot.com/"
   feed: "https://julietheblog.blogspot.com/feeds/posts/default"
 
 - blog: "galho da ararinha"
-  url: "https://ararinhaaazul.bearblog.dev"
-  feed: "https://ararinhaaazul.bearblog.dev/feed/"
+  url: https://ararinhaaazul.bearblog.dev
+  feed: https://ararinhaaazul.bearblog.dev/feed/
 
 - blog: "Post Literal"
   url: "https://www.postliteral.com.br/"
@@ -20,7 +25,7 @@
 
 - blog: "Garota de Canela"
   url: "https://garotadecanela.blogspot.com/"
-  feed: "https://garotadecanela.blogspot.com/feeds/posts/default"
+  feed: "https://garotadecanela.blogspot.com/"
 
 - blog: "Vento do Leste"
   url: "https://www.ventodoleste.com.br"
@@ -40,7 +45,7 @@
 
 - blog: "KAKUMEI"
   url: "http://kakumei-blog.blogspot.com"
-  feed: ""
+  feed: "http://kakumei-blog.blogspot.com/feeds/posts/default"
 
 - blog: "MISCELÂNEA" 
   url: "https://miscelanea.pagecord.com/"
@@ -48,7 +53,7 @@
 
 - blog: "Carolina Botelho"
   url: "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/"
-  feed: "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default"
+  feed: "carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default"
 
 - blog: "Leandro Maciel" 
   url: "https://leandromaciel.blog"
@@ -132,11 +137,11 @@
 
 - blog: "MEU DIARIO DESPRETENSIOSO"
   url: "https://meudiariodespretensioso.blogspot.com"
-  feed: ""
+  feed: "https://meudiariodespretensioso.blogspot.com/feeds/posts/default"
 
 - blog: "BLOG DO TH"
   url: "https://blogdoth.com.br"
-  feed: "https://blogdoth.com.br/feed/"
+  feed: "https://blogdoth.com.br/feedrss/"
 
 - blog: "LIZ"
   url: "https://lizsaless.blogspot.com/"
@@ -212,8 +217,13 @@
 
 - blog: "Casarão De Histórias"
   url: "https://casaraodehistorias.blogspot.com/"
-  feed: ""
+  feed: "https://casaraodehistorias.blogspot.com/feeds/posts/default"
 
 - blog: "Garota do 330"
   url: "https://garotado330.com.br"
-  feed: ""
+  feed: "https://www.garotado330.com.br/feeds/posts/default"
+
+- blog: "A Arte de Ser"
+  url: "https://leozitoarts.bearblog.dev/"
+  feed: "https://leozitoarts.bearblog.dev/blog/"
+  added: "2026-04-02"

@@ -8,11 +8,9 @@
   url: "https://pedro.dalbo.me/blog/como-as-coisas-acontecem-por-aqui/"
 # --- FINAL TAG meu fluxo de trabalho ---
 
-
 # --- INÍCIO TAG ENTREBLOGS ---
-# (ainda vazio)
-# --- FINAL TAG ENTREBLOGS ---
 
+# --- FINAL TAG ENTREBLOGS ---
 
 # --- INÍCIO TAG Conheça o blogueiro ---
 - tags: "Conheça o blogueiro"
@@ -28,7 +26,7 @@
   url: "https://nyrtais.blogspot.com/2026/02/conheca-o-blogueiro.html"
 
 - tags: "Conheça o blogueiro"
-  nome: "Estante da Pipoca"
+  nome: "Estante de Pipoca"
   url: "https://www.estantedapipoca.com/2026/01/tag-conheca-a-blogueira.html"
 
 - tags: "Conheça o blogueiro"
@@ -44,11 +42,11 @@
   url: "https://withsarti.blogspot.com/2026/01/me-conhecendo-melhor.html"
 
 - tags: "Conheça o blogueiro"
-  nome: "Prazer! Willian"
+  nome: "Prazer!Willian"
   url: "https://prazerwillian.blogspot.com/2026/02/conheca-o-blogueiro.html"
 
 - tags: "Conheça o blogueiro"
-  nome: "O (Eu) Não Obstante"
+  nome: "Eu não Obstante"
   url: "https://oeunaoobstante.bearblog.dev/tag-conheca-o-blogueiro/"
 
 - tags: "Conheça o blogueiro"
@@ -60,7 +58,7 @@
   url: "https://jeniffergeraldine.com/conheca-a-blogueira/"
 
 - tags: "Conheça o blogueiro"
-  nome: "Daily Soh"
+  nome: "Dailysoh"
   url: "https://dailysoh.blogspot.com/2026/02/conhecendo-blogueira.html"
 
 - tags: "Conheça o blogueiro"
@@ -80,6 +78,11 @@
   url: "https://www.mairanamba.com/me-conheca/"
 
 - tags: "Conheça o blogueiro"
-  nome: "j u l i e ’ s"
+  nome: "j u l i e ‘ s"
   url: "https://julietheblog.blogspot.com/2026/03/conheca-blogueira.html"
+
+- tags: "Conheça o blogueiro"
+  nome: "Vento do Leste"
+  url: "https://www.ventodoleste.com.br/2026/03/tag-conhecendo-o-blogueiro.html"
+
 # --- FINAL TAG Conheça o blogueiro ---
