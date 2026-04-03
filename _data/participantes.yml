@@ -25,7 +25,7 @@
 
 - blog: "Garota de Canela"
   url: "https://garotadecanela.blogspot.com/"
-  feed: "https://garotadecanela.blogspot.com/"
+  feed: "https://garotadecanela.blogspot.com/feeds/posts/default"
 
 - blog: "Vento do Leste"
   url: "https://www.ventodoleste.com.br"
@@ -53,7 +53,7 @@
 
 - blog: "Carolina Botelho"
   url: "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/"
-  feed: "carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default"
+  feed: "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default"
 
 - blog: "Leandro Maciel" 
   url: "https://leandromaciel.blog"
@@ -141,7 +141,7 @@
 
 - blog: "BLOG DO TH"
   url: "https://blogdoth.com.br"
-  feed: "https://blogdoth.com.br/feedrss/"
+  feed: "https://blogdoth.com.br/feed/"
 
 - blog: "LIZ"
   url: "https://lizsaless.blogspot.com/"
@@ -225,5 +225,5 @@
 
 - blog: "A Arte de Ser"
   url: "https://leozitoarts.bearblog.dev/"
-  feed: "https://leozitoarts.bearblog.dev/blog/"
+  feed: "https://leozitoarts.bearblog.dev/feed/"
   added: "2026-04-02"
