@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Entreblogs/Boas vindas
+title: Entreblogs
 description: Um espaço para compartilhar perspectivas sobre os mesmos temas, cada um do seu jeitinho e no seu próprio blog.
 ---
 
