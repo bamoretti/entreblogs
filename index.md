@@ -1,24 +1,22 @@
 ---
 layout: default
-title: Entreblogs
+title: Entreblogs/Boas vindas
 description: Um espaço para compartilhar perspectivas sobre os mesmos temas, cada um do seu jeitinho e no seu próprio blog.
 ---
-
-<h2> Boas-vindas;)</h2>
 
 <h3>CRIATURA</h3>
 **ENTREBLOGS** é um projeto de **blogagem coletiva** feito para compartilhar nossas perspectivas sobre os mesmos temas, cada um do seu jeitinho e no seu próprio blog.  
 
 O intuito desse projeto ⭐ _além de manter a blogosfera viva_ ⭐ é criar um espaço aonde você se sinta confortável para conversar e participar sem cobrança.  
 
-Não gostou do tema? Não deu tempo de participar? Quer participar de um tema antigo? Não tem problema. Sinta-se livre pra participar quando puder, quando quiser e do que tiver interesse. Sua carteirinha de participante não será confiscada 🫰🏻  
+_Não gostou do tema? Não deu tempo de participar? Quer participar de um tema antigo? Não tem problema. Sinta-se livre pra participar quando puder, quando quiser e do que tiver interesse. Sua carteirinha de participante não será confiscada_ 🫰🏻  
 
 A vida já é cheia de cobranças e obrigações demais para tornarmos esse projeto mais um 😉  
 
-> 01 tema por mês, sem data específica de postagem  
-clube do livro #subprojeto  
-diário & carta viajante #subprojeto  
-não precisa participar de todos os temas e subprojetos  
+> 01 tema por mês, sem data específica de postagem;  
+clube do livro #subprojeto;  
+diário & carta viajante #subprojeto;  
+não precisa participar de todos os temas e subprojetos;  
 
 > comunidade no whatsapp 🔗 [acesse aqui para saber mais]({{ site.baseurl }}/no-whatsapp)  
 selos 🔗 [acesse aqui]({{ site.baseurl }}/selos) 
