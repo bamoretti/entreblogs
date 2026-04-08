@@ -86,7 +86,7 @@ footer {
 
 main {
  margin: 0px auto 0px auto;
- padding: 0;
+ padding: 20px;
  display: flex;
  flex-direction: column;
  justify-content: flex-start;
@@ -136,8 +136,18 @@ main {
  white-space: normal;
 }
 
-/* -- CURSOR PISCANTE (AJUSTADO) -- */
-.secao::after {
+/* -- TITULO PAGINA E CURSOR PISCANTE (AJUSTADO) -- */
+.titulo-pagina{
+ display: block;
+ border: 1px solid var(--cor-moldura);
+ margin: -32px auto 2rem auto;
+ max-width: 60rem;
+ padding: 20px;
+ font-size: 24px;
+	
+}
+
+.titulo-pagina::after {
  content: "|";
  display: inline-block;
  margin-left: -9px; /* PROXIMIDADE: Diminua para encostar mais, ou use valor negativo se precisar */
@@ -151,25 +161,16 @@ main {
  from, to { color: transparent; }
  50% { color: inherit; }
 }
-/* -- FINAL Gracinha do cursor piscando -- */
+/* -- FINAL TITULO PAGINA E Gracinha do cursor piscando -- */
 
 
 
 /* -- INÍCIO estilos de tírulos -- */
-.titulo-pagina{
- display: block;
- border: 1px solid var(--cor-moldura);
- margin: -32px auto 2rem auto;
- max-width: 60rem;
- padding: 20px;
- font-size: 24px;
-	
-}
 h1 { /* ENTREBLOGS */
  font-size: clamp(1.5rem, 3vw, 2.3rem); /* 24–30px */
  font-weight: 700;
  text-align: center;
- letter-spacing: 20px;
+ letter-spacing: 10px;
  white-space: nowrap; /* Evita quebra de linha no nome */
  display: inline;
  margin: 0 0 0 5px;
