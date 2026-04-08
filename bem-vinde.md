@@ -20,7 +20,7 @@ _Não gostou do tema? Não deu tempo de participar? Quer participar de um tema a
 A vida já é cheia de cobranças e obrigações demais para tornarmos esse projeto mais um 😉 
 
 COMO FUNCIONA?
-+ Somos uma comunidade no whatsapp (clique aqui para participar) com vários sub-grupos [(acesse aqui para saber mais)]({{ site.baseurl }}/no-whatsapp).
-+ [Saiba como a atualizar as páginas do site com seus links]({{ site.baseurl }}/como-atualizar)
-+ [Coloque algum selo de participante no seu blog]({{ site.baseurl }}/selos)
-+ [Participe do webrings]({{ site.baseurl }}/webring)
++ 💞 Somos uma comunidade no whatsapp (clique aqui para participar) com vários sub-grupos [(acesse aqui para saber mais)]({{ site.baseurl }}/no-whatsapp).
++ 📝 [Saiba como a atualizar as páginas do site com seus links]({{ site.baseurl }}/como-atualizar)
++ 📜 [Coloque algum selo de participante no seu blog]({{ site.baseurl }}/selos)
++ 🔮 [Participe do webrings]({{ site.baseurl }}/webring)
