@@ -105,20 +105,20 @@ main {
 /* --- ESTILO DA SEÇÃO (FORÇA BRUTA CONTRA QUEBRA DE PALAVRAS) --- */
 .secao {
  display: block;
- background-color: var(--cor-fundo);
- margin: 1.5rem auto 2rem auto;
+ background-color: var(--cor-moldura);
+ margin: 0rem auto 2rem auto;
  max-width: 60rem;
- padding: 10px 5px;
+ padding: 20px;
  font-family: var(--fonte-geral);
  font-weight: bold;
- font-size: clamp(1.5rem, 3vw, 2.7rem);
+ font-size: 12px;
  line-height: 1.3;
  text-align: left;
  /* RESET RADICAL: Forçamos o navegador a NÃO quebrar letras */
  word-break: keep-all !important;
  overflow-wrap: normal !important;
  word-wrap: normal !important;
- font-size: 12px;
+
 }
 
 .prefixo {
