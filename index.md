@@ -18,9 +18,6 @@ clube do livro #subprojeto;
 diário & carta viajante #subprojeto;  
 não precisa participar de todos os temas e subprojetos;  
 
-> comunidade no whatsapp 🔗 [acesse aqui para saber mais]({{ site.baseurl }}/no-whatsapp)  
-selos 🔗 [acesse aqui]({{ site.baseurl }}/selos) 
-
 **Quer participar?**  
 <blockquote class="fleabag"> Só enviar um e-mail para <a href="mailto:coletivoentreblogs@gmail.com?subject=Também quero participar da comunidade">coletivoentreblogs@gmail.com</a> que disponibilizaremos o link da nossa comunidade para você.</blockquote>
 
