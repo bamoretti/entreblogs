@@ -5,6 +5,7 @@ description: Participe dessa corrente.
 ---
 <blockquote class="fleabag"> As tags são postagens sem data específicas, podem ser postadas a qualquer momento, sinta-se a vontade em responder.</blockquote>
 
+
 | #003 | [Meu fluxo de trabalho no blog]({{ site.baseurl }}/tag/meu-fluxo-de-trabalho-no-blog/) |
 | #002 | [Por trás do blog (Entreblogs)]({{ site.baseurl }}/tag/por-tras-do-blog/) |
 | #001 | [Conheça o blogueiro]({{ site.baseurl }}/tag/conheca-o-blogueiro/) |
