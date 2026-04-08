@@ -150,8 +150,8 @@ main {
 .titulo-pagina::after {
  content: "|";
  display: inline-block;
- margin-left: -9px; /* PROXIMIDADE: Diminua para encostar mais, ou use valor negativo se precisar */
- transform: translateY(-5px); /* ALTURA: Use valores em 'px' ou 'em' para subir o cursor.  Valores positivos descem, negativos sobem. */
+ margin-left: -1px; /* PROXIMIDADE: Diminua para encostar mais, ou use valor negativo se precisar */
+ transform: translateY(-3x); /* ALTURA: Use valores em 'px' ou 'em' para subir o cursor.  Valores positivos descem, negativos sobem. */
  color: var(--cor-texto);
  animation: blink 1s step-end infinite;
  vertical-align: middle; /* Garante que ele use a mesma base da fonte mas aceite o deslocamento */
