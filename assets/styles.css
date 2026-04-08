@@ -118,6 +118,7 @@ main {
  word-break: keep-all !important;
  overflow-wrap: normal !important;
  word-wrap: normal !important;
+ font-size: 12px;
 }
 
 .prefixo {
@@ -177,7 +178,7 @@ h2 { /* cabeçalho de saudação */
 }
 
 h3 { /* A criadora e a criatura */
- font-size: clamp(1.8rem, 3vw, 2rem); /* 27px → 27px */
+ font-size: clamp(1.5rem, 1.5rem, 1.5rem); /* 24px → 24px */
  text-align: center;
  font-weight: normal;
  line-height: clamp(2rem, 3vw, 2.19rem); /* 32–35px */
