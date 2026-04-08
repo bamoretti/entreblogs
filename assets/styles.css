@@ -110,7 +110,8 @@ main {
  max-width: 60rem;
  padding: 20px;
  font-family: var(--fonte-geral);
- font-weight: bold;
+ font-weight: none;
+ text-transform: uppercase;
  font-size: 12px;
  line-height: 1.3;
  text-align: left;
@@ -158,7 +159,7 @@ main {
 .titulo-pagina{
  display: block;
  border: 1px solid var(--cor-moldura);
- margin: 0rem auto 2rem auto;
+ margin: -32px auto 2rem auto;
  max-width: 60rem;
  padding: 20px;
  font-size: 24px;
