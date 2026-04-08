@@ -149,7 +149,8 @@ main {
 
 .titulo-pagina::after {
  content: "|";
- display: inline-block;
+ display:none;
+ /* display: inline-block; */
  margin-left: -1px; /* PROXIMIDADE: Diminua para encostar mais, ou use valor negativo se precisar */
  transform: translateY(-3x); /* ALTURA: Use valores em 'px' ou 'em' para subir o cursor.  Valores positivos descem, negativos sobem. */
  color: var(--cor-texto);
