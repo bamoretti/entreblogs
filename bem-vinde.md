@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Entreblogs-Webring"
+title: "BEM-VINDE!!!!!!!!!111!"
 description: Bem-vinde!
 permalink: /bem-vinde/
 ---
