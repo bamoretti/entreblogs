@@ -139,7 +139,7 @@ main {
 .secao::after {
  content: "|";
  display: inline-block;
- margin-left: -18px; /* PROXIMIDADE: Diminua para encostar mais, ou use valor negativo se precisar */
+ margin-left: -12px; /* PROXIMIDADE: Diminua para encostar mais, ou use valor negativo se precisar */
  transform: translateY(-5px); /* ALTURA: Use valores em 'px' ou 'em' para subir o cursor.  Valores positivos descem, negativos sobem. */
  color: var(--cor-texto);
  animation: blink 1s step-end infinite;
@@ -152,7 +152,18 @@ main {
 }
 /* -- FINAL Gracinha do cursor piscando -- */
 
+
+
 /* -- INÍCIO estilos de tírulos -- */
+.titulo-pagina{
+ display: block;
+ border: 1px solid var(--cor-moldura);
+ margin: 0rem auto 2rem auto;
+ max-width: 60rem;
+ padding: 20px;
+ font-size: 24px;
+	
+}
 h1 { /* ENTREBLOGS */
  font-size: clamp(1.5rem, 3vw, 2.3rem); /* 24–30px */
  font-weight: 700;
