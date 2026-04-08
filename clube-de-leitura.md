@@ -1,10 +1,8 @@
 ---
 layout: default
 title: Clube de leitura
-description: Listagem dos blogs participantes da comunidade.
+description: lista com todos os livros lidos em grupo.
 ---
-
-<aside>#subprojeto</aside>
 
 O clube de leitura é um projeto paralelo onde escolhemos um livro por mês para depois de lido virar um post no seu blog contando como foi a experiência, o que achou, o que quiser compartilhar a respeito.
 
@@ -50,5 +48,5 @@ O clube de leitura é um projeto paralelo onde escolhemos um livro por mês para
 </ul>
 </section>
 
-**Prazo:** Votação é feita 45 dias antes para que o participante tenha tempo para comprar o livro, se assim preferir, e ler sem pressa.  
-45 dias após escolha + aproximadamente 30 dias do mês do livro para leitura e postagem.
+<blockquote class="fleabag"> **Prazo:** Votação é feita 45 dias antes para que o participante tenha tempo para comprar o livro, se assim preferir, e ler sem pressa.  
+45 dias após escolha + aproximadamente 30 dias do mês do livro para leitura e postagem.</blockquote>
