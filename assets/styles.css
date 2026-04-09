@@ -700,3 +700,12 @@ h1 { /* ENTREBLOGS */
     align-items: center;
   }
 }
+
+@media (max-width: 768px) {
+  .tabela-temas td:nth-child(1),
+  .tabela-temas td:nth-child(2),
+  .tabela-temas th:nth-child(1),
+  .tabela-temas th:nth-child(2) {
+    display: none;
+  }
+}
