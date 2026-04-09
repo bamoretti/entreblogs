@@ -11,8 +11,6 @@ Qual é o processo criativo, de escrita de cada um?
 
 Hoje, no ENTREBLOGS.
 
-Veja [outras TAGS]({{ site.baseurl }}/tag). 
-
 <h4>Blogs participantes:</h4>
 
 <ul class="link-temas">
