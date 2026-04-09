@@ -3,7 +3,7 @@ layout: default
 title: Temas
 description: Temas que já passaram pela blogagem.
 ---
-<div class="tabela-temas">
+
 | 2026/04 | #012 | [Cinco coisas que me fazem feliz]({{ site.baseurl }}/temas/cinco-coisas-que-me-fazem-feliz) |
 | 2026/03 | #011 | [Uma semana comigo]({{ site.baseurl }}/temas/uma-semana-comigo) |
 | 2026/02 | #010 | [Museu]({{ site.baseurl }}/temas/museu) |
@@ -17,4 +17,3 @@ description: Temas que já passaram pela blogagem.
 | 2025/01 | #002 | A palavra do ano |
 | 2024/12 | #001 | Christmas Feelings |
 
-</div>
