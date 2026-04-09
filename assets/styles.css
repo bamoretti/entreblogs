@@ -674,9 +674,13 @@ h1 { /* ENTREBLOGS */
     align-items: center;
   }
 
-  .capa-do-livro:hover {
-   opacity: 0.5;
-  }
+	.listas-livros {
+	  transition: transform 0.3s ease;
+	}
+
+	.listas-livros:hover {
+	  transform: translateY(-5px);
+	}
   
 /* Ajuste bloco de compartilhamento de código */
    .bloco-lateral {
