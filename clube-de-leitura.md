@@ -4,7 +4,7 @@ title: Clube de leitura
 description: lista com todos os livros lidos em grupo.
 ---
 
-O clube de leitura é um projeto paralelo onde escolhemos um livro por mês para depois de lido virar um post no seu blog contando como foi a experiência, o que achou, o que quiser compartilhar a respeito.
+O clube de leitura é um projeto paralelo onde escolhemos um livro por mês para depois de lido virar um post no seu blog contando como foi a experiência. **Clique** no livro abaixo para saber o que cada um achou a respeito:
 
 <section class="listas-livros">
 <ul class="link-livros">
