@@ -674,11 +674,11 @@ h1 { /* ENTREBLOGS */
     align-items: center;
   }
 
-	.listas-livros {
+	.listas-livros  ul.link-livros{
 	  transition: transform 0.3s ease;
 	}
 
-	.listas-livros:hover {
+	.listas-livros  ul.link-livros:hover {
 	  transform: translateY(-5px);
 	}
   
