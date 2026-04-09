@@ -15,8 +15,6 @@ Escrita em poucas semanas, esta novela arrebatadora explora, com a maestria úni
 
 Tradução do russo, apresentação e notas de Rubens Figueiredo.
 
-Veja os [livros anteriores]({{ site.baseurl }}/clube-de-leitura). 
-
 <h4>Blogs participantes:</h4>
 
 <ul class="link-temas">
