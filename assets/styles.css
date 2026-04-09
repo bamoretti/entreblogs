@@ -202,7 +202,7 @@ h3 { /* A criadora e a criatura */
 }
 
 h4 { /* Títulos de postagem e outros títulos de página */
- font-size: clamp(1.5rem, 2.5vw, 1.8rem); /* 24px → 27px */
+ font-size: clamp(1.2rem, 2vw, 1.3rem); /* varia entre 19.2px e 20.8px */
  text-align: left;
  font-weight: normal;
  line-height: clamp(1.8rem, 2.5vw, 2rem); /* 27–30px */
