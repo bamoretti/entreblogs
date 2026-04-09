@@ -338,6 +338,25 @@ blockquote {
  border-radius: 50%; 
  font-family: var(--fonte-geral);
 }
+
+/* Base */
+.listas-livros .capa-do-livro {
+  transition: all 0.3s ease;
+}
+
+/* Quando entra na lista inteira */
+.listas-livros:hover .capa-do-livro {
+  opacity: 0.4;
+  transform: scale(0.95);
+}
+
+/* Item específico em destaque */
+.listas-livros .capa-do-livro:hover {
+  opacity: 1;
+  transform: scale(1.1) rotate(-2deg);
+  z-index: 2;
+}
+
 /* FINAL estilos LISTA DOS LIVROS */
 /* FINAL estilos LISTAS para os participantes de temas, TAGS e leituras */
 
@@ -674,13 +693,6 @@ h1 { /* ENTREBLOGS */
     align-items: center;
   }
 
-	.listas-livros  figure{
-	  transition: transform 0.3s ease;
-	}
-
-	.listas-livros figure:hover {
-	  transform: translateY(-5px);
-	}
   
 /* Ajuste bloco de compartilhamento de código */
    .bloco-lateral {
