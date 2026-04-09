@@ -24,3 +24,4 @@ COMO FUNCIONA?
 + 📝 [Saiba como a atualizar as páginas do site com seus links]({{ site.baseurl }}/como-atualizar)
 + 📜 [Coloque algum selo de participante no seu blog]({{ site.baseurl }}/selos)
 + 🔮 [Participe do webrings]({{ site.baseurl }}/webring)
++ 💡 <a href="https://docs.google.com/spreadsheets/d/1-V4xs7yAF39Cpx8YRgqVPhF--iN-Dp28KXF89K51Hc4/edit?gid=757666198#gid=757666198">Deixe sua sugestão de tema ou leitura! </a>
