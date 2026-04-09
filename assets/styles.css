@@ -674,6 +674,10 @@ h1 { /* ENTREBLOGS */
     align-items: center;
   }
 
+  .capa-do-livro:hover {
+   opacity: 0.5;
+  }
+  
 /* Ajuste bloco de compartilhamento de código */
    .bloco-lateral {
     flex-direction: column;
