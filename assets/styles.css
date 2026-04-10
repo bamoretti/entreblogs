@@ -43,9 +43,9 @@ body {
  font-size: clamp(1.06rem, 1.5vw, 1.1rem); /* 16–17.6px */
  line-height: clamp(1.5rem, 2vw, 1.7rem); /* 24–27.2px */
  font-family: var(--fonte-geral);
- text-wrap: balance;
- overflow-wrap: normal !important ;    /* Compatibilidade com navegadores antigos */
- word-wrap: normal !important;       /* Permite que o texto mude de linha naturalmente */
+ /* text-wrap: balance; */
+ /*overflow-wrap: normal !important ;    /* Compatibilidade com navegadores antigos */
+ /*word-wrap: normal !important;       /* Permite que o texto mude de linha naturalmente */
 }
 
 .site-container {
