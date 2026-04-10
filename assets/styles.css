@@ -429,7 +429,7 @@ figcaption {
 }
 
 ul {
- list-style: none;
+ list-style: circle;
 }
 /* FINAL estilos gerais */
 
