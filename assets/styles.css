@@ -369,6 +369,7 @@ a:active {
  color: var(--cor-link);
  font-weight: bold;
  transition: all 0.3s ease;
+ display: inline;
 }
 
 a:hover {
