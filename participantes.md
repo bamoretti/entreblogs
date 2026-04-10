@@ -54,10 +54,10 @@ description: Listagem dos blogs participantes da comunidade.
     {% endif %}
 
     {% if grupo_item != grupo_atual %}
-<li id="letra-{{ grupo_item }}" class="blog-letra">
+<section id="letra-{{ grupo_item }}" class="blog-letra">
         {{ grupo_item }}
   <a href="#topo" class="seta-topo" title="Voltar ao topo">&#x2191;</a>
-</li>
+</section>
       {% assign grupo_atual = grupo_item %}
     {% endif %}
 
