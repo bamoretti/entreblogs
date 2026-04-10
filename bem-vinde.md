@@ -7,7 +7,7 @@ permalink: /bem-vinde/
 
 YAY!
 
-Parece que agora você é um membro do ENTREBLOGS!!! Te damos as boas-vindas! 
+Parece que agora você é um ENTREBLOGGER!!! Te damos as boas-vindas! 
 
 O Entreblogs é uma comunidade para trocar experiências e desafios mensais.
 

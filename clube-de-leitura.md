@@ -48,5 +48,5 @@ O clube de leitura é um projeto paralelo onde escolhemos um livro por mês para
 </ul>
 </section>
 
-<blockquote class="fleabag"> **Prazo:** Votação é feita 45 dias antes para que o participante tenha tempo para comprar o livro, se assim preferir, e ler sem pressa.  
+<blockquote class="fleabag"> *Prazo: Votação é feita 45 dias antes para que o participante tenha tempo para comprar o livro, se assim preferir, e ler sem pressa.  
 45 dias após escolha + aproximadamente 30 dias do mês do livro para leitura e postagem.</blockquote>
