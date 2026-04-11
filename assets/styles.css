@@ -672,6 +672,10 @@ h1 { /* ENTREBLOGS */
  padding: 0 10px;            /* Pequena margem para não encostar na borda */
 }
 
+main {
+  padding-inline: 2px;
+}
+
 .listas-livros ul.link-livros {
     grid-template-columns: 1fr; /* Uma coluna só */
     justify-items: center;      /* Centraliza o conteúdo da coluna */
