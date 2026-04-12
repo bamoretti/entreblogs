@@ -3,6 +3,15 @@
   nome: "Caderninho"
   url: "https://www.jteotonio.com.br/2026/04/5-coisas-que-me-fazem-feliz.html"
 
+- tema: "Cinco coisas que me fazem feliz"
+  nome: "Boletins Inúteis"
+  url: "https://www.igormedeiroz.com/2026/04/cinco-coisas-que-me-faz-feliz.html"
+
+- tema: "Cinco coisas que me fazem feliz"
+  nome: "Estante da Pipoca"
+  url: "https://www.estantedapipoca.com/2026/04/5-coisas-que-me-fazem-feliz.html"
+
+
 # --- FINAL TEMA Cinco coisas que me fazem feliz ---
 
 # --- INÍCIO TEMA Uma semana comigo ---
@@ -33,6 +42,15 @@
 - tema: "Uma semana comigo"
   nome: "BMRTT"
   url: "https://www.bamoretti.com/2026/03/uma-semana-comigo.html"
+
+- tema: "Uma semana comigo"
+  nome: "Inventando Assunto"
+  url: "https://www.inventandoassunto.com/2026/03/uma-semana-comigo.html"
+
+- tema: "Uma semana comigo"
+  nome: "A Menina da Janela"
+  url: "https://ameninadajanela.com/uma-semana-comigo-entreblogs/"
+
 
 # --- FINAL TEMA Uma semana comigo ---
 
@@ -108,7 +126,7 @@
   url: "https://lulylage.com/favoritos-de-2025/"
 
 - tema: "Recap 2025"
-  nome: "BMRTT"
+  nome: "BMRTTi"
   url: "https://www.bamoretti.com/2026/01/just-remember-life-isnt-about-finding.html"
 
 - tema: "Recap 2025"
@@ -140,3 +158,5 @@
   url: "https://techdemo.com.br/year-in-review-2025/"
 
 # --- FINAL TEMA Recap 2025 ---
+
+
