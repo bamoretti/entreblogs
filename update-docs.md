@@ -9,7 +9,7 @@ Nosso site é estático e, para organizar as participações da comunidade e man
 
 Calma, **você não precisa saber programação**.  
 
-<blockquote class="fleabag"><a href="https://tinyurl.com/docsentreblogs">Acesse nosso Drive</a> e atualize o documento que deseja para que sua participação apareça na próxima atualização conforme orientações abaixo.</blockquote>
+<blockquote class="fleabag"><a href="https://drive.google.com/drive/folders/1O7N1bQIH7QuMxZoZQ-ylC_k5To9vhBhc?usp=drive_link">Acesse nosso Drive</a> e atualize o documento que deseja para que sua participação apareça na próxima atualização conforme orientações abaixo.</blockquote>
 
 Assim que você entra na comunidade irá atualizar o _doc_ **participantes** com seu blog.
 
@@ -48,10 +48,10 @@ Para os documentos acima você irá colar seus dados no começo da lista.
 Para os documentos acima você ira colar seus dados dentro do bloco do assunto correspondente. 
 
 **Cuidados importantes**
->- não apagar participações já existentes
-- não alterar os títulos dos blocos
-- manter os espaços e as quebras de linha
-- manter as aspas
-- usar o link completo, começando com https://
+>- não apagar participações já existentes;
+- não alterar os títulos dos blocos;
+- manter os espaços e as quebras de linha;
+- manter as aspas;
+- usar o link completo, começando com **https://**
 
 _Seguiu as orientações e mesmo assim tem receio de clicar em autodestruição automática do site? Chama a gente no grupo **C:\Users\Tech** que te ajudamos_ 😉
