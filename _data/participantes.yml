@@ -6,6 +6,12 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
+
+- blog: "Margem Viva"
+  url: "https://margemviva.blogspot.com/"
+  feed: "https://margemviva.blogspot.com/feeds/posts/"
+  added: "2026-04-05"
+
 - blog: "Diário de Obsessões"
   url: "https://diario-otome.blogspot.com/"
   feed: "https://diario-otome.blogspot.com/feeds/posts/default"
@@ -16,8 +22,8 @@
   feed: "https://julietheblog.blogspot.com/feeds/posts/default"
 
 - blog: "galho da ararinha"
-  url: https://ararinhaaazul.bearblog.dev
-  feed: https://ararinhaaazul.bearblog.dev/feed/
+  url: "https://ararinhaaazul.bearblog.dev"
+  feed: "https://ararinhaaazul.bearblog.dev/feed/"
 
 - blog: "Post Literal"
   url: "https://www.postliteral.com.br/"
@@ -25,7 +31,7 @@
 
 - blog: "Garota de Canela"
   url: "https://garotadecanela.blogspot.com/"
-  feed: "https://garotadecanela.blogspot.com/feeds/posts/default"
+  feed: "https://garotadecanela.blogspot.com/"
 
 - blog: "Vento do Leste"
   url: "https://www.ventodoleste.com.br"
@@ -53,7 +59,7 @@
 
 - blog: "Carolina Botelho"
   url: "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/"
-  feed: "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default"
+  feed: "carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default"
 
 - blog: "Leandro Maciel" 
   url: "https://leandromaciel.blog"
@@ -67,7 +73,7 @@
   url: "https://bamoretti.com"
   feed: "https://feeds.feedburner.com/bamoretti"
 
-- blog: "IGOR MEDEIROZ"
+- blog: "Boletins Inúteis"
   url: "http://igormedeiroz.blogspot.com"
   feed: "https://feeds.feedburner.com/igormedeiroz"
 
@@ -75,7 +81,7 @@
   url: "https://nyrtais.blogspot.com"
   feed: "https://nyrtais.blogspot.com/feeds/posts/default"
 
-- blog: "PETALAS DE MAIO"
+- blog: "PÉTALAS DE MAIO"
   url: "https://petalasdemaioblog.wordpress.com"
   feed: "https://petalasdemaioblog.wordpress.com/feed"
 
@@ -141,7 +147,7 @@
 
 - blog: "BLOG DO TH"
   url: "https://blogdoth.com.br"
-  feed: "https://blogdoth.com.br/feed/"
+  feed: "https://blogdoth.com.br/feedrss/"
 
 - blog: "LIZ"
   url: "https://lizsaless.blogspot.com/"
@@ -225,5 +231,11 @@
 
 - blog: "A Arte de Ser"
   url: "https://leozitoarts.bearblog.dev/"
-  feed: "https://leozitoarts.bearblog.dev/feed/"
+  feed: "https://leozitoarts.bearblog.dev/blog/"
   added: "2026-04-02"
+
+- blog: "Quase Aurora"
+  url: "https://quaseaurora.blogspot.com/"
+  feed: "https://quaseaurora.blogspot.com/feeds/posts/default"
+  added: "2026-04-05"
+
