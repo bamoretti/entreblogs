@@ -3,7 +3,7 @@ layout: default
 title: Selos
 description: Divulgue o ENTREBLOS no seu blog.
 ---
-Segue abaixo gifs do projeto para você usar no seu blog se assim preferir. além deles temos outras imagens disponíveis [aqui](https://tinyurl.com/entreblogsdrive). 
+Segue abaixo gifs do projeto para você usar no seu blog se assim preferir. além deles temos outras imagens disponíveis [aqui](https://drive.google.com/drive/folders/1HQtNmKYVJUE4zGg-AC7eU657aqRivTU7?usp=drive_link). 
 
 <!-- selo 1 -->
 <div class="bloco-lateral">
