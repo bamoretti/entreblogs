@@ -30,15 +30,5 @@ A comunidade no whatsapp é dividida em alguns grupos:
 <h4>Tech</h4>
 > Espaço para papearmos sobre ferramentas, tutorais e qualquer troca que nos ajude a aperfeiçoar nossas casinhas virtuais. Vale pedir socorro e vale ajudar os colegas também.
 
-<h4>Sugestões</h4>
-> Nesse subgrupo trocamos ideias sobre próximos temas, melhorias para o projeto e projetos paralelos.  
-> 
-> Fique a vontade para ajudar a alimentar as listas de sugestões que correm assim como de sugerir novas ideais.  
-
 <h4>Indicações</h4>
 > Espaço para indicarmos filmes, séries, livros, eventos, cursos... O que quiser indicar aos amigos da comunidade vale 😉
-
-<h4>✨ Webring</h4>
-> Esse não é um grupo na comunidade, mas uma feature que ganhamos de brinde.  
-> 
-> Você adiciona [o webring](/webring) no seu blog e ajuda a compartilhar a comunidade diretamente blog a blog.  
