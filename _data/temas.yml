@@ -1,5 +1,21 @@
 # --- INÍCIO TEMA Cinco coisas que me fazem feliz ---
 - tema: "Cinco coisas que me fazem feliz"
+  nome: "Ondeando"
+  url: "https://pedro.dalbo.me/blog/cinco-coisas-que-me-fazem-feliz/"
+
+- tema: "Cinco coisas que me fazem feliz"
+  nome: "Manifestação Literária"
+  url: "https://manifestacaoliteraria.blogspot.com/2026/04/5-coisas-literarias-que-me-fazem-feliz.html"
+
+- tema: "Cinco coisas que me fazem feliz"
+  nome: "Blog do TH"
+  url: "https://blogdoth.bearblog.dev/cinco-coisas-que-me-fazem-feliz/"
+
+- tema: "Cinco coisas que me fazem feliz"
+  nome: "Diário de Obsessões"
+  url: "https://d-obs.blogspot.com/2026/04/5-coisas-que-me-fazem-feliz.html"
+
+- tema: "Cinco coisas que me fazem feliz"
   nome: "Caderninho"
   url: "https://www.jteotonio.com.br/2026/04/5-coisas-que-me-fazem-feliz.html"
 
@@ -9,9 +25,15 @@
 
 - tema: "Cinco coisas que me fazem feliz"
   nome: "Estante da Pipoca"
-  url: "https://www.estantedapipoca.com/2026/04/5-coisas-que-me-fazem-feliz.html"
+  url: "https://www.estantedapipoca.com/2026/04/5-coisas-que-me-fazem-feliz.html”
 
+- tema: "Cinco coisas que me fazem feliz"
+  nome: "Jeniffer Geraldine"
+  url: "https://jeniffergeraldine.com/5-coisas-que-me-fazem-feliz/”
 
+- tema: "Cinco coisas que me fazem feliz"
+  nome: "Hey! I’m With The Band"
+  url: "https://www.heyimwiththeband.com.br/2026/04/5-coisas-que-nao-sao-necessariamente.html”
 # --- FINAL TEMA Cinco coisas que me fazem feliz ---
 
 # --- INÍCIO TEMA Uma semana comigo ---
@@ -50,8 +72,6 @@
 - tema: "Uma semana comigo"
   nome: "A Menina da Janela"
   url: "https://ameninadajanela.com/uma-semana-comigo-entreblogs/"
-
-
 # --- FINAL TEMA Uma semana comigo ---
 
 # --- INÍCIO TEMA Museu ---
@@ -102,6 +122,7 @@
 - tema: "Museu"
   nome: "caderninho"
   url: "https://www.jteotonio.com.br/2026/02/museus.html"
+  
 - tema: "Museu"
   nome: "Maira Namba"
   url: "https://www.mairanamba.com/um-museu-na-italia/"
