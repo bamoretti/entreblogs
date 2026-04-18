@@ -6,16 +6,35 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
+- blog: "Pouco Genial"
+  url: "https://poucogenial.tumblr.com"
+  feed: "https://poucogenial.tumblr.com/rss"
+  added: "2026-04-16"
+
+- blog: "Excertos"
+  url: "https://rodrigo.ghed.in/blog"
+  feed: "https://rodrigo.ghed.in/feed.xml"
+  added: "2026-04-15"
+
+- blog: "Manifestação Literária"
+  url: "https://manifestacaoliteraria.blogspot.com"
+  feed: "https://manifestacaoliteraria.blogspot.com/feeds/posts/default"
+  added: "2026-04-15"
+
+- blog: "Imprevistos Musicais"
+  url: "https://imprevistosmusicais.com.br"
+  feed: "https://imprevistosmusicais.com.br/feed"
+  added: "2026-04-13"
+
+- blog: "Diário de Obsessões"
+  url: "https://d-obs.blogspot.com/"
+  feed: "https://d-obs.blogspot.com/feeds/posts/default"
+  added: "2026-04-13"
 
 - blog: "Margem Viva"
   url: "https://margemviva.blogspot.com/"
   feed: "https://margemviva.blogspot.com/feeds/posts/"
   added: "2026-04-05"
-
-- blog: "Diário de Obsessões"
-  url: "https://diario-otome.blogspot.com/"
-  feed: "https://diario-otome.blogspot.com/feeds/posts/default"
-  added: "2026-04-01"
 
 - blog: "j u l i e ’ s"
   url: "https://julietheblog.blogspot.com/"
