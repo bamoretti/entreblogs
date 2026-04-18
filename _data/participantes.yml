@@ -50,7 +50,7 @@
 
 - blog: "Garota de Canela"
   url: "https://garotadecanela.blogspot.com/"
-  feed: "https://garotadecanela.blogspot.com/"
+  feed: "https://garotadecanela.blogspot.com/feeds/posts/default"
 
 - blog: "Vento do Leste"
   url: "https://www.ventodoleste.com.br"
@@ -166,7 +166,7 @@
 
 - blog: "BLOG DO TH"
   url: "https://blogdoth.bearblog.dev/"
-  feed: "blogdoth.bearblog.dev/feed/"
+  feed: "https://blogdoth.bearblog.dev/feed/"
 
 - blog: "LIZ"
   url: "https://lizsaless.blogspot.com/"
@@ -250,7 +250,7 @@
 
 - blog: "A Arte de Ser"
   url: "https://leozitoarts.bearblog.dev/"
-  feed: "https://leozitoarts.bearblog.dev/blog/"
+  feed: "https://leozitoarts.bearblog.dev/rss/"
   added: "2026-04-02"
 
 - blog: "Quase Aurora"
