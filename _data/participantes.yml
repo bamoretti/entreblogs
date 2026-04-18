@@ -1,4 +1,4 @@
-# --- ADICIONE SEMPRE NO COMEÇO PARA FACILITAR, NÃO FAZ DIFERENÇA JÁ QUE A PÁGINA É EM ORDEM ALFABÉTICA –
+# --- ADICIONE SEMPRE NO COMEÇO PARA FACILITAR, NÃO FAZ DIFERENÇA JÁ QUE A PÁGINA É EM ORDEM ALFABÉTICA ---
 # --- A PARTIR DE AGORA, ADICIONE O CAMPO "added:" COM A DATA DE ENTRADA (formato: YYYY-MM-DD) ---
 # --- EXEMPLO DE NOVO PARTICIPANTE COM O CAMPO added: ---
 # - blog: "Nome do Blog"
@@ -33,7 +33,7 @@
 
 - blog: "Margem Viva"
   url: "https://margemviva.blogspot.com/"
-  feed: "https://margemviva.blogspot.com/feeds/posts/"
+  feed: "https://margemviva.blogspot.com/feeds/posts/default"
   added: "2026-04-05"
 
 - blog: "j u l i e ’ s"
@@ -78,7 +78,7 @@
 
 - blog: "Carolina Botelho"
   url: "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/"
-  feed: "carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default"
+  feed: "https://carolinabotelhoemsenhoritaagridoce.blogspot.com/feeds/posts/default"
 
 - blog: "Leandro Maciel" 
   url: "https://leandromaciel.blog"
@@ -165,8 +165,8 @@
   feed: "https://meudiariodespretensioso.blogspot.com/feeds/posts/default"
 
 - blog: "BLOG DO TH"
-  url: "https://blogdoth.com.br"
-  feed: "https://blogdoth.com.br/feedrss/"
+  url: "https://blogdoth.bearblog.dev/"
+  feed: "blogdoth.bearblog.dev/feed/"
 
 - blog: "LIZ"
   url: "https://lizsaless.blogspot.com/"
@@ -257,4 +257,3 @@
   url: "https://quaseaurora.blogspot.com/"
   feed: "https://quaseaurora.blogspot.com/feeds/posts/default"
   added: "2026-04-05"
-
