@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tags
+title: Extras
 description: Participe dessa corrente.
 ---
 As tags são postagens sem data específica. Podem ser postadas a qualquer momento, sinta-se a vontade em responder:
