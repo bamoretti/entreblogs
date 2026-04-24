@@ -19,6 +19,7 @@ description: Temas que já passaram pela blogagem.
 | 2025/01 | #002 | A palavra do ano |
 | 2024/12 | #001 | Christmas Feelings |
 
+
 <h4>Temas extras</h4>
 Podem ser postadas a qualquer momento, sinta-se a vontade:
 

@@ -1,6 +1,6 @@
 ---
 layout: projeto
-type: tags
+type: extras
 title: Conheça o blogueiro
 description: Quem é o blog e o blogueiro?
 permalink: /extras/conheca-o-blogueiro/
@@ -10,7 +10,7 @@ Conte um pouco do porquê você fez seu blog, o que te motiva e alimenta sua von
 <h4>Blogs participantes:</h4>
 
 <ul class="link-temas">
-  {% assign posts_filtrados = site.data.tags | where: "tags", page.title %}
+  {% assign posts_filtrados = site.data.extras | where: "extras", page.title %}
   
   {% for item in posts_filtrados %}
     <li>

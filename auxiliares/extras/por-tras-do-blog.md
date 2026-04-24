@@ -1,6 +1,6 @@
 ---
 layout: projeto
-type: tags
+type: extras
 title: Por trás do blog
 description: Quem é você?.
 permalink: /extras/por-tras-do-blog/
@@ -23,7 +23,7 @@ Se você pudesse recomendar apenas uma coisa, o que recomendaria? (fazer um hobb
 <h4>Blogs participantes:</h4>
 
 <ul class="link-temas">
-  {% assign posts_filtrados = site.data.tags | where: "tags", page.title %}
+  {% assign posts_filtrados = site.data.extras | where: "extras", page.title %}
   
   {% for item in posts_filtrados %}
     <li>

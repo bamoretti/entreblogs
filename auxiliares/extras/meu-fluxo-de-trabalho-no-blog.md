@@ -1,6 +1,6 @@
 ---
 layout: projeto
-type: tags
+type: extras
 title: Meu fluxo de trabalho no blog
 description: Como a gente faz os textos aparecerem.
 permalink: /extras/meu-fluxo-de-trabalho-no-blog/
@@ -14,7 +14,7 @@ Hoje, no ENTREBLOGS.
 <h4>Blogs participantes:</h4>
 
 <ul class="link-temas">
-  {% assign posts_filtrados = site.data.tags | where: "tags", page.title %}
+  {% assign posts_filtrados = site.data.extras | where: "extras", page.title %}
   
   {% for item in posts_filtrados %}
     <li>
