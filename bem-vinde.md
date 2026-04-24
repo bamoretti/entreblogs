@@ -25,4 +25,4 @@ COMO FUNCIONA?
 + 📜 [Coloque algum selo de participante no seu blog]({{ site.baseurl }}/selos)
 + 🔮 [Participe do webrings]({{ site.baseurl }}/webring)
 + 💡 <a href="https://docs.google.com/spreadsheets/d/1E7KnCTuP8bg-uNoYKGjDWce68cDnQVomRLmbCMGOHgI/edit?usp=drive_link">Deixe sua sugestão de tema ou leitura! </a>
-
++ 🪴 [Sinta-se a vontade para participar da nossa tag entreblogs]({{ site.baseurl }}/tag/por-tras-do-blog/)
