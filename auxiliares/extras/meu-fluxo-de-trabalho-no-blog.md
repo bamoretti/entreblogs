@@ -1,11 +1,15 @@
 ---
 layout: projeto
 type: tags
-title: Conheça o blogueiro
-description: Quem é o blog e o blogueiro?
-permalink: /tag/conheca-o-blogueiro/
+title: Meu fluxo de trabalho no blog
+description: Como a gente faz os textos aparecerem.
+permalink: /extras/meu-fluxo-de-trabalho-no-blog/
 ---
-Conte um pouco do porquê você fez seu blog, o que te motiva e alimenta sua vontade de blogar!
+
+Como a _magia_ acontece nos nossos blogs?  
+Qual é o processo criativo, de escrita de cada um?  
+
+Hoje, no ENTREBLOGS.
 
 <h4>Blogs participantes:</h4>
 

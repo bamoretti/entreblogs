@@ -17,3 +17,10 @@ description: Temas que já passaram pela blogagem.
 | 2025/01 | #002 | A palavra do ano |
 | 2024/12 | #001 | Christmas Feelings |
 
+Temas Extras:
+Podem ser postadas a qualquer momento, sinta-se a vontade:
+
++ 💻 [Meu fluxo de trabalho no blog]({{ site.baseurl }}/extras/meu-fluxo-de-trabalho-no-blog/)
++ 🪴 [Por trás do blog (Entreblogs)]({{ site.baseurl }}/extras/por-tras-do-blog/)
++ 🧃 [Conheça o blogueiro]({{ site.baseurl }}/extras/conheca-o-blogueiro/)
+

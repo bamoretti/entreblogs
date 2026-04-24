@@ -3,7 +3,7 @@ layout: projeto
 type: tags
 title: Por trás do blog
 description: Quem é você?.
-permalink: /tag/por-tras-do-blog/
+permalink: /extras/por-tras-do-blog/
 ---
 Essa é a primeira tag do projeto, se você acabou de chegar, sinta-se a vontade para responder.
 
