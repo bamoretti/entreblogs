@@ -3,6 +3,8 @@ layout: default
 title: Temas
 description: Temas que já passaram pela blogagem.
 ---
+<h4>Temas principais</h4>
+
 | 2026/05 | #013 | [Assistir ao mesmo filme]({{ site.baseurl }}/temas/assistir-ao-mesmo-filme) |
 | 2026/04 | #012 | [Cinco coisas que me fazem feliz]({{ site.baseurl }}/temas/cinco-coisas-que-me-fazem-feliz) |
 | 2026/03 | #011 | [Uma semana comigo]({{ site.baseurl }}/temas/uma-semana-comigo) |
@@ -17,7 +19,7 @@ description: Temas que já passaram pela blogagem.
 | 2025/01 | #002 | A palavra do ano |
 | 2024/12 | #001 | Christmas Feelings |
 
-Temas Extras:
+<h4>Temas extras</h4>
 Podem ser postadas a qualquer momento, sinta-se a vontade:
 
 + 💻 [Meu fluxo de trabalho no blog]({{ site.baseurl }}/extras/meu-fluxo-de-trabalho-no-blog/)
