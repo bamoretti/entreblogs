@@ -3,7 +3,7 @@ layout: projeto
 type: temas
 title: Assistir ao mesmo filme
 description: Tema de Maio/2026.
-permalink: /temas/assistir-o-mesmo-filme/
+permalink: /temas/assistir-ao-mesmo-filme/
 ---
 
 Vamos assistir ao prestigiado Interstellar (tema principal) e ao cômico Reflexões de um Liquidificador (tema extra).
