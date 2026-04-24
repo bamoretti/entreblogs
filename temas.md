@@ -3,7 +3,7 @@ layout: default
 title: Temas
 description: Temas que já passaram pela blogagem.
 ---
-| 2026/05 | #013 | [Assistir o mesmo filme]({{ site.baseurl }}/temas/assitir-o-mesmo-filme) |
+| 2026/05 | #013 | [Assistir o mesmo filme]({{ site.baseurl }}/temas/assistir-o-mesmo-filme) |
 | 2026/04 | #012 | [Cinco coisas que me fazem feliz]({{ site.baseurl }}/temas/cinco-coisas-que-me-fazem-feliz) |
 | 2026/03 | #011 | [Uma semana comigo]({{ site.baseurl }}/temas/uma-semana-comigo) |
 | 2026/02 | #010 | [Museu]({{ site.baseurl }}/temas/museu) |
