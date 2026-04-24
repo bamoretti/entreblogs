@@ -1,7 +1,7 @@
 ---
 layout: projeto
 type: temas
-title: Assistir o mesmo filme
+title: Assistir ao mesmo filme
 description: Tema de Maio/2026.
 permalink: /temas/assistir-o-mesmo-filme/
 ---
