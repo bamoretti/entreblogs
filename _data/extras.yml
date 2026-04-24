@@ -83,17 +83,19 @@
   nome: "Maira Namba"
   url: "https://www.mairanamba.com/me-conheca/"
 
-- extras: "Conheça o blogueiro"
-  nome: "j u l i e ‘ s"
-  url: "https://julietheblog.blogspot.com/2026/03/conheca-blogueira.html"
+- extras: “Conheça o blogueiro”
+  nome: “j u l i e ‘ s”
+  url: https://julietheblog.blogspot.com/2026/03/conheca-blogueira.html
 
 - extras: "Conheça o blogueiro"
   nome: "Vento do Leste"
   url: "https://www.ventodoleste.com.br/2026/03/tag-conhecendo-o-blogueiro.html"
 
+
 - extras: "Conheça o blogueiro"
   nome: "Fala Catarina"
   url: "https://falacatarina.com/2026/04/02/tag-conheca-a-blogueira/"
+
 # --- FINAL TAG Conheça o blogueiro ---
 
 
