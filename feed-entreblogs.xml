@@ -6,7 +6,7 @@
     <atom:link href="https://entreblogs.com.br/feed-entreblogs.xml" rel="self" type="application/rss+xml"/>
     <description>Todas as postagens dos blogs participantes do Entreblogs</description>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 28 Apr 2026 17:48:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 21:09:31 GMT</lastBuildDate>
 
   <item>
     <title>Leandro Maciel — Cães de Aluguel (1992)</title>
@@ -24751,6 +24751,16 @@ Vocês também podem me encontrar em algumas redes sociais:</div>
 <div style="text-align: center;">
 Vejo vocês em breve, até já :)</div>
 </div>
+]]></description>
+  </item>
+
+  <item>
+    <title>MULHER VITROLA — Hello world!</title>
+    <link>https://mulhervitrola.com.br/2022/04/28/hello-world/</link>
+    <guid isPermaLink="true">https://mulhervitrola.com.br/2022/04/28/hello-world/</guid>
+    <pubDate>Thu, 28 Apr 2022 14:42:23 GMT</pubDate>
+    <description><![CDATA[
+<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
 ]]></description>
   </item>
 
