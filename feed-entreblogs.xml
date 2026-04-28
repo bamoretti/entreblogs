@@ -6,7 +6,141 @@
     <atom:link href="https://entreblogs.com.br/feed-entreblogs.xml" rel="self" type="application/rss+xml"/>
     <description>Todas as postagens dos blogs participantes do Entreblogs</description>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 28 Apr 2026 06:32:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 10:17:28 GMT</lastBuildDate>
+
+  <item>
+    <title>Boletins Inúteis — T &amp; H</title>
+    <link>https://www.igormedeiroz.com/2026/04/t-h.html</link>
+    <guid isPermaLink="true">https://www.igormedeiroz.com/2026/04/t-h.html</guid>
+    <pubDate>Tue, 28 Apr 2026 09:34:33 GMT</pubDate>
+    <description><![CDATA[<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlBYZEHPn3KVNCmwygEDZdSMTiBXNImPBm5qXDrkplSS2jMQMNdfFx4JGNX28XEsAuM6biXWePC_vXzW5fOD-nR8a5vck2Def1zGX7B5n6vk_3WXqk2yG8gOvot1T-fwmuhXl3VeNWsCW3L0lDKIneqh2YNPR9UgX_Bxw7PR3K7MX3UeKagr8YUdAiLfc/s1600/IMG_5487.jpg">
+
+<div id="caixa"></div>
+
+<style>
+
+.photo {
+  position: absolute;
+  inset-inline-start: 800px;
+  width: 160px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  cursor: grab;
+  transition: transform 0.2s;
+}
+
+.photo img {
+  width: 100%;
+  display: block;
+}
+
+.photo:active {
+  cursor: grabbing;
+  transform: scale(1.05);
+}
+</style>
+
+<script>
+const images = [
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhK9khFPkS2KD9fbJvLLy2DGH3-aObtKi4SqesKg0VcUJj-Nc-rZs0gWiykinkic3NWUOZfuSQu-2cAZ5HHdxOO6VMiDRJc49HHXBGzY4jRWVmsGz3-l8HY9qTcbhKIIjTMuxG0bkYUA5NFBCL2u7x53tNFmthW5DX57kp3wT_ksCBdd3V4wd1BI-8YOh8/s1600/IMG_5291.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirS_eXkNXdlvMspDKnBKM9kYpaS27TFm_KdAg0-hrg2cZE4DmyDyqYRpWCRDQBMtg8slTZAPqM-blwtCkHQXR-A_Qz_yXR2b5BiTEozD7uyoqffbN6TAlbud1nZhgUsoksA5r_ynDhYcxs-lSiXent32V-gqghcA2cBCUzVEDtgv1aav3wiW5lKd4eTOg/s1600/IMG_5297.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgU39TLvlH31Gq4f2bXya95CQltxEcQiVbKTDDmLNwb4b8mjv_PxcYZUXqPuqSKjfZ04s1KL2wcstbrYvVC1Qz1K0EjQViM9uGU4LCMqiNSf8RNhXxKCmH94DcFwGNVFi9oKbCal0_pGK_flfA8EHSDc-ATWc45E6FqKwBS_ZVIelDdvhjs7Le3SSSi1UQ/s1600/IMG_5360.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmLggNIUQrr1s-RIcSlMq3M-xRzLLE-25SDbshwSHvAlaOWnPEVZLZ_F1HfQq7UYLKWUTnwWiIgVB0y5jlWk1NvGdx0m6ZXvJhlFzb_6ndZUTnX3o0GvPlet2fkexry77xDK6ZrCLJO1aemD4PFwnkMsWw0VPdqIkMNS3lLCmCTHkcSByQFP1vXy03YQE/s1600/IMG_5364.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJpaiDmSdorvEL4NQO1Zd8WAoRX6F3QvvVInip9bwOcpYyEOcmlqJU6fCEAHvwyfgpnxccTGR7R10aMTpb9oALQ1OnZ78Eec3Fo1xB-6uXraB3AQTd3ngGemEZ7m-oBmvweTcvvlGhBiJcHtrswVsOt52mSRg1IwWWSfsyZFjxHjJnyUC4ntwgFsNymek/s1600/IMG_5375.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjreuD0H9GN96YvfqK96ZCJFa3s2JkJgh9DbDbKh8d2kKRjdgfiTOS4al3kYK1rTA51W6Qp3cDysZBTQfJsbe6PnyhgkPhxLsnJtl7CXGhyjPwkUg2kRmBK2BwI050rdK6QUC3QHWaT88UL6GHtB43eFCPvKV2fLGeMAOoY0_IAj3XmJ6uR9ike-blmog/s1600/IMG_5376.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRkEHYpL-786vNM4YXMbbg2shCaQ05nWft-tZz9Niv_z-lb-V99VhbJqF5pNj7rNN_d3ZCpqCZeqnQ47H_mpGl95w_DVu8V8XOQdJ7YYNkjzNLufkssjEnvqONcLeosIhmpvCay91keZ59NcL2v0VHabIZ8c5brT1572KSf2LLYvmMat0cVUj8Zof2SEU/s1600/IMG_5378.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEip3PGT5ZbGTQhC4GlwQN3fstDt6ieZU67XHb-1mH8pruNfWvThQTUkOhPxxqDxvHcfB8IQmaUXtLS9ZfoNh5Hzbu3taKnikbJCL3HC5ad6tPOU6CX6u_2PUSUD3c6Ukk3olfDCO1kanATN8iaf3MXdcVeFuiGaoSuF8KNT-FkitIUQZmRmed92-ZvDDMA/s1600/IMG_5393.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXdmQ3esi56Fgs41IwTnWbXOFVGtkzGMBb2jSP6mMyRJdLN6NrPaGcSVaG1tJaa5u3ALN4PzbOTQxlEZHY0cxxMuql-ygLdR7LL1odJYrJDutGpRARJYNlCGWEyVImwiFYSi2YzM8DnbRnLeS01lgi8iECTneksD0Wyqx9nOgAhTfqLrPqjc7sKuOQoBo/s1600/IMG_5431.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAY3HyXq9MPZPDc52yesdeQJGgBmHbEwcDnAQWc0FWMCEH2l4nUmXyQQp75IBX8AfHqOqB0x1pBuik6SCniqonCtOmQa5TYDNZ7XsAZiMG5QsG1nmbpu2xOqeC5BUeZBQnS7slBKaS2CwD74agoh-Subfir_-ka84SB-1Sfi7_T8BikbFdIFjYt3TLZfM/s1600/IMG_5452.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrQkazQ8Vl_dxbD2NLuh0OOj7aQOVeMDrzerz0j-7elNESk7Dyu6wsc_QpuhZqn44ZIDlUIx-lfHuiMuNDrg2-yt-b7yv-EEDoXK88NNyjiMX840FPYtWYj8FyQsSCNE2WOhrDEmequevKcun4A4TSE8k0K0WqF5Q2vy5N_uocvAPyZaW7Xz3tmsUoy9Y/s1600/IMG_5475.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhekCEtuqZeg7gCInLWeLMkgz3YxEBlyKegTCOJ6C8EmRnfYV8_ElDJd0SuVsqxLIotWW6HiMF7iEljC5gPReKwZ9qPxeVZnG5xSaUvvrXzZpzxez3LyykAX1koUAoPpoiLWxTUXcMKhIkAQWxlwK-PFGhsLGfEWapOXcwkExyAk5sAADETEzB5YLhnkUo/s1600/IMG_5478%281%29.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhugnKxkOvMUDU_DZ8Mj0GGMXzljHkvhifxr-G_ZbO6CIl1rtbCr6bxm9enyY84GdCxHWoXo9JqOZyaJqBEl-QNxi3dPib4i08hf2NEG0rXUApsLUsV7ww9bvlm4KDnCTD34RrbATF5lNYwjKPX38J1hnHipgE8mWSfKIj9nTiyYWHyYH1tlpM29X5ZKps/s1600/IMG_5478.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlBYZEHPn3KVNCmwygEDZdSMTiBXNImPBm5qXDrkplSS2jMQMNdfFx4JGNX28XEsAuM6biXWePC_vXzW5fOD-nR8a5vck2Def1zGX7B5n6vk_3WXqk2yG8gOvot1T-fwmuhXl3VeNWsCW3L0lDKIneqh2YNPR9UgX_Bxw7PR3K7MX3UeKagr8YUdAiLfc/s1600/IMG_5487.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsoTXitjSRPsOQi4FHeV3WjWlkFNTadCoywo8rhAbWNd6IW-Y0sTx9C1d1WHAf_7yw3SmKPXWGuCA94yHdWS6Zd48alGsM-kQcRmoGoIy795AuHqf3zHsKLGwOsWocRNxjBKDF1mIih662GQKD0UaJzbt8RVb29qvNm8xapvITEYJHoiAzRWh1V-Erq6g/s1600/IMG_5489.jpg",
+"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgYF3sUxS4QKHJ_1QHpChbjI7Ys66Fwv6PXu0c0iu611OU1cgiCQ-OPJPAGQ0_gNYvJQFNBXO7QMPf7cHMScGifLlbZ6dA__SCQm9iTeepl4DmOmpSm5Y5lH6diVG1W3pG81dbBBscsxIdj26hoa6-SAMiProKe3S52WNGt6_6YRehkF1pf3o74JrLckY/s1600/IMG_5601.jpg"
+];
+
+let zIndex = 1;
+
+images.forEach(src => {
+  const div = document.createElement("div");
+  div.className = "photo";
+
+  const img = document.createElement("img");
+  img.src = src;
+
+  div.appendChild(img);
+  document.body.appendChild(div);
+
+  // posição aleatória
+  div.style.left = Math.random() * (window.innerWidth - 200) + "px";
+  div.style.top = Math.random() * (window.innerHeight - 200) + "px";
+
+  // rotação leve
+  div.style.transform = `rotate(${Math.random() * 20 - 10}deg)`;
+
+  // drag manual (mais livre que drag&drop nativo)
+  let offsetX, offsetY, isDragging = false;
+
+  div.addEventListener("mousedown", e => {
+    isDragging = true;
+    offsetX = e.clientX - div.offsetLeft;
+    offsetY = e.clientY - div.offsetTop;
+    div.style.zIndex = ++zIndex;
+  });
+
+  document.addEventListener("mousemove", e => {
+    if (!isDragging) return;
+    div.style.left = (e.clientX - offsetX) + "px";
+    div.style.top = (e.clientY - offsetY) + "px";
+  });
+
+  document.addEventListener("mouseup", () => {
+    isDragging = false;
+  });
+});
+</script>
+]]></description>
+  </item>
+
+  <item>
+    <title>Boletins Inúteis — Bolo de banana com cacau 🍌</title>
+    <link>https://www.igormedeiroz.com/2020/04/bolo-de-banana.html</link>
+    <guid isPermaLink="true">https://www.igormedeiroz.com/2020/04/bolo-de-banana.html</guid>
+    <pubDate>Tue, 28 Apr 2026 08:35:01 GMT</pubDate>
+    <description><![CDATA[Essa receita é sinal, para mim, daquelas bananas que começaram a ficar feias, ficam lá abandonadas na fruteira, ninguém quer comer, estão moles e super doces. Mas perfeitas para bolos.<div><br /><h3 style="text-align: left;">Ingredientes</h3><ul style="text-align: left;"><li>420g de bananas</li><li>2 ovos</li><li>100g de óleo</li><li>140g de açúcar mascavo</li><li>225g de farinha</li><li>30g de cacau em pó</li><li>10g se fermento</li><li>3g de bicarbonato</li><li>100g de amêndoas (opcional)</li></ul><div><br /></div><h3 style="text-align: left;">Preparo</h3><div><ol style="text-align: left;"><li data-end="69" data-section-id="84lqaz" data-start="19">Pré-aqueça o forno a 180 °C e unte uma forma.
+</li>
+<li data-end="112" data-section-id="1xyqxh4" data-start="70">
+Em uma tigela, amasse bem as bananas.
+</li>
+<li data-end="173" data-section-id="nz982d" data-start="113">
+Adicione o açúcar mascavo e misture até ficar uniforme.
+</li>
+<li data-end="223" data-section-id="1ix21i4" data-start="174">
+Acrescente os ovos, um a um, misturando bem.
+</li>
+<li data-end="270" data-section-id="553jdj" data-start="224">
+Adicione o óleo e misture até incorporar.
+</li>
+<li data-end="357" data-section-id="97g30l" data-start="271">
+Em outro recipiente, misture (ou peneire) farinha, cacau, fermento e bicarbonato.
+</li>
+<li data-end="439" data-section-id="5fa35f" data-start="358">
+Incorpore os ingredientes secos à massa, mexendo apenas até ficar homogênea.
+</li>
+<li data-end="496" data-section-id="1rrbupj" data-start="440">
+Adicione as amêndoas (se usar) e misture levemente.
+</li>
+<li data-end="527" data-section-id="o52pls" data-start="497">
+Despeje a massa na forma. Leve ao forno por 35–45 minutos.</li></ol></div></div>]]></description>
+  </item>
+
+  <item>
+    <title>Boletins Inúteis — 2026: 17 🔑</title>
+    <link>https://www.igormedeiroz.com/2026/04/2026-17.html</link>
+    <guid isPermaLink="true">https://www.igormedeiroz.com/2026/04/2026-17.html</guid>
+    <pubDate>Tue, 28 Apr 2026 08:17:21 GMT</pubDate>
+    <description><![CDATA[<p>Estou vendo que a quantidade de fotos vão diminuir nas postagens do blog, porque meu celular parou de tirar fotos ~ e não tenho intenção alguma de mandar arrumar ou gastar dinheiro com isso ~, talvez seja o momento de começar a usar a câmera para tirar fotos e deixar de desculpas esfarrapadas.</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMzPUhdAk3DAYJRRiGS_cl0X5QpgYuqBDu2_l11iduSwbt4iN0qGYR7luvUbEB3AcsiIKb228arr2vKh6qJauySWRXWXSoFVe_H6MhjuJNfNegt8qJ8O_7xqZ9-4fBbyX8QOwKe4_er6_YoLEutmdIj9aAuaF3HWkyO8NM15B0FahVHVgQ71-Goqe92nk/s1080/weeknotes.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="1080" data-original-width="1080" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMzPUhdAk3DAYJRRiGS_cl0X5QpgYuqBDu2_l11iduSwbt4iN0qGYR7luvUbEB3AcsiIKb228arr2vKh6qJauySWRXWXSoFVe_H6MhjuJNfNegt8qJ8O_7xqZ9-4fBbyX8QOwKe4_er6_YoLEutmdIj9aAuaF3HWkyO8NM15B0FahVHVgQ71-Goqe92nk/s16000/weeknotes.png" /></a></div><h3 style="text-align: left;">Acontecimentos</h3><p></p><ul style="text-align: left;"><li>Fiz <a href="/2026/04/trinta.html">30</a> anos!&nbsp;</li><li>Comemorei com alguns amigos no parque aqui perto de casa, um piquenique gostoso.</li><li>Ganhei dois livros que eu queria muito, <i>M Train</i> &amp; <i>O filho de mil homens,</i> e já quero começar a ler o quanto antes.</li><li>🔑</li><li>Nunca tive a <a href="/2026/04/a-cabeca-cheia.html">cabeça tão pesada como essa semana</a>.</li><li>Não fui dançar nenhum dia, estava desanimado, foi bom ter esse pequeno break: decidi que vou fazer outras aulas porque estava um pouco exausto de sempre fazer as mesmas.</li><li>Cansada de tomar decisões de adulto, juro.</li></ul><div><br /></div><p></p><h3 style="text-align: left;">Consumindo</h3><p><b>Livros:</b></p><p></p><ul style="text-align: left;"><li><i>O Castelo Animado</i>: terminei de ler, mas que delícia, se não me engano, é uma trilogia e já quero. Adorei o primeiro livro, esse é um dos meus filmes de animação/anime favoritos, ler foi delícia.</li><li><i>A Vegetariana</i>: terminei, gostei bastante do que há por trás dessa história.</li><li><i>Os Abismos</i>: comecei no ônibus e estou gostando, me identificando com algumas coisas. Foi recomendação da <a href="https://quaseaurora.blogspot.com/">Karine</a>, no clube do entreblogs.</li></ul><p></p><p><b>Filmes</b></p><p></p><ul style="text-align: left;"><li><i>The Castle in the Sky:</i> segunda vez que assisto esse filme e ele bateu de uma forma diferente, na primeira não tinha gostado tanto e agora eu só consigo pensar no quanto ele é genial e tão atual.</li></ul><p></p><p><b>Música</b></p><p></p><ul style="text-align: left;"><li><i>Riot! </i>Sempre me vem essa vontadezinha de escutar as antigas do Paramore, me lembra um pouco da adolescência, um pouco de <a href="/2026/02/this-is-skin-of-killer-bella.html">Crepúsculo</a>.</li><li><i>Big Disgrace</i>, simplesmente viciado no debut desse duo. Em breve trago uma resenha para cá.</li></ul><p></p>]]></description>
+  </item>
 
   <item>
     <title>FALA CATARINA — 2 aninhos da Lolô</title>
@@ -573,14 +707,6 @@ document.querySelectorAll(".like-container").forEach((container, index) => {
   <p style="text-align: right;">Quer participar? <a href="https://www.entreblogs.com.br" target="_blank">Acessar site do projeto</a>&nbsp;📂</p>
 </blockquote>
 <p style="text-align: justify;"><br /></p><p style="text-align: justify;"></p><ol><li style="text-align: justify;">Assistir Jurassic Park.</li><li style="text-align: justify;">Barulho de chuva quando não preciso sair de casa.</li><li style="text-align: justify;">Rir descontroladamente com a minha melhor amiga depois de tomar 01 taça de vinho (imagina então na terceira taça).</li><li style="text-align: justify;">Abraço apertado com fungada no pescoço (que ganho do Toni e que dou na Sara).</li><li style="text-align: justify;">Ganhar livros (mesmo os que eu já li).</li></ol><p></p>]]></description>
-  </item>
-
-  <item>
-    <title>Boletins Inúteis — 2026: 17 🔑</title>
-    <link>https://www.igormedeiroz.com/2026/04/2026-17.html</link>
-    <guid isPermaLink="true">https://www.igormedeiroz.com/2026/04/2026-17.html</guid>
-    <pubDate>Mon, 27 Apr 2026 07:00:00 GMT</pubDate>
-    <description><![CDATA[<p>Estou vendo que a quantidade de fotos vão diminuir nas postagens do blog, porque meu celular parou de tirar fotos ~ e não tenho intenção alguma de mandar arrumar ou gastar dinheiro com isso ~, talvez seja o momento de começar a usar a câmera para tirar fotos e deixar de desculpas esfarrapadas.</p><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMzPUhdAk3DAYJRRiGS_cl0X5QpgYuqBDu2_l11iduSwbt4iN0qGYR7luvUbEB3AcsiIKb228arr2vKh6qJauySWRXWXSoFVe_H6MhjuJNfNegt8qJ8O_7xqZ9-4fBbyX8QOwKe4_er6_YoLEutmdIj9aAuaF3HWkyO8NM15B0FahVHVgQ71-Goqe92nk/s1080/weeknotes.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="1080" data-original-width="1080" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMzPUhdAk3DAYJRRiGS_cl0X5QpgYuqBDu2_l11iduSwbt4iN0qGYR7luvUbEB3AcsiIKb228arr2vKh6qJauySWRXWXSoFVe_H6MhjuJNfNegt8qJ8O_7xqZ9-4fBbyX8QOwKe4_er6_YoLEutmdIj9aAuaF3HWkyO8NM15B0FahVHVgQ71-Goqe92nk/s16000/weeknotes.png" /></a></div><h3 style="text-align: left;">Acontecimentos</h3><p></p><ul style="text-align: left;"><li>Fiz <a href="/2026/04/trinta.html">30</a> anos!&nbsp;</li><li>Comemorei com alguns amigos no parque aqui perto de casa, um piquenique gostoso.</li><li>Ganhei dois livros que eu queria muito, <i>M Train</i> &amp; <i>O filho de mil homens,</i> e já quero começar a ler o quanto antes.</li><li>🔑</li><li>Nunca tive a <a href="/2026/04/a-cabeca-cheia.html">cabeça tão pesada como essa semana</a>.</li><li>Não fui dançar nenhum dia, estava desanimado, foi bom ter esse pequeno break: decidi que vou fazer outras aulas porque estava um pouco exausto de sempre fazer as mesmas.</li><li>Cansada de tomar decisões de adulto, juro.</li></ul><p></p><h3 style="text-align: left;">Consumindo</h3><p><b>Livros:</b></p><p></p><ul style="text-align: left;"><li><i>O Castelo Animado</i>: terminei de ler, mas que delícia, se não me engano, é uma trilogia e já quero. Adorei o primeiro livro, esse é um dos meus filmes de animação/anime favoritos, ler foi delícia.</li><li><i>A Vegetariana</i>: terminei, gostei bastante do que há por trás dessa história.</li><li><i>Os Abismos</i>: comecei no ônibus e estou gostando, me identificando com algumas coisas. Foi recomendação de alguém, que não lembro o nome, no clube do entreblogs.</li></ul><p></p><p><b>Filmes</b></p><p></p><ul style="text-align: left;"><li><i>The Castle in the Sky:</i> segunda vez que assisto esse filme e ele bateu de uma forma diferente, na primeira não tinha gostado tanto e agora eu só consigo pensar no quanto ele é genial e tão atual.</li></ul><p></p><p><b>Música</b></p><p></p><ul style="text-align: left;"><li><i>Riot! </i>Sempre me vem essa vontadezinha de escutar as antigas do Paramore, me lembra um pouco da adolescência, um pouco de <a href="/2026/02/this-is-skin-of-killer-bella.html">Crepúsculo</a>.</li><li><i>Big Disgrace</i>, simplesmente viciado no debut desse duo. Em breve trago uma resenha para cá.</li></ul><p></p>]]></description>
   </item>
 
   <item>
@@ -7803,22 +7929,6 @@ Filmes e séries</b>:<div><ul style="text-align: left;"><li><i>The boys</i>: fin
   </item>
 
   <item>
-    <title>Boletins Inúteis — Conversas difíceis</title>
-    <link>https://www.igormedeiroz.com/2026/04/conversas-dificeis.html</link>
-    <guid isPermaLink="true">https://www.igormedeiroz.com/2026/04/conversas-dificeis.html</guid>
-    <pubDate>Fri, 10 Apr 2026 17:55:10 GMT</pubDate>
-    <description><![CDATA[A dificuldade que eu tenho de sempre começar uma conversa difícil. Mas que depois dos dois primeiros segundos até que fica mais fácil.]]></description>
-  </item>
-
-  <item>
-    <title>Boletins Inúteis — Infernet</title>
-    <link>https://www.igormedeiroz.com/2026/04/infernet.html</link>
-    <guid isPermaLink="true">https://www.igormedeiroz.com/2026/04/infernet.html</guid>
-    <pubDate>Fri, 10 Apr 2026 12:58:40 GMT</pubDate>
-    <description><![CDATA[É incrível como todas as minhas conversas ultimamente acabam em falar mal das redes sociais e inteligência artificial. ]]></description>
-  </item>
-
-  <item>
     <title>O (EU) NÃO OBSTANTE — Bandas Que Conheci Recentemente e Viciei</title>
     <link>https://oeunaoobstante.bearblog.dev/bandas-que-conheci-recentemente-e-viciei/</link>
     <guid isPermaLink="true">https://oeunaoobstante.bearblog.dev/bandas-que-conheci-recentemente-e-viciei/</guid>
@@ -14870,7 +14980,7 @@ Obrigado por continuarem sendo a resistência, fazendo o que é mais difícil, q
 </div>
 <br />
 
-</div><div class="separator" style="clear: both; text-align: center;"><iframe allowfullscreen='allowfullscreen' webkitallowfullscreen='webkitallowfullscreen' mozallowfullscreen='mozallowfullscreen' width='320' height='266' src='https://www.blogger.com/video.g?token=AD6v5dzB4wJKX8xZ9LqE884iQcJ9xeeXx2NeDFyuYKHsCbPo9DJL8Q4bY3_UMb_x3pHqTwx1uDjCphNTbgB-cT7-6w' class='b-hbp-video b-uploaded' frameborder='0'></iframe></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">Esse vídeo é da semana anterior,&nbsp;</span></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">mas quis colocar ele aqui hoje,&nbsp;</span></div><div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">bem como a foto do r36s acima.</span></div><div><br /></div><div><div style="text-align: justify;"><span style="font-family: inherit;"><span style="background-color: white; color: #111111;">Blog e leitores, antes de saírem, dêem uma olhadinha nos meus outros cantos dessa interneta - é só navegar até a página&nbsp;</span><a href="https://prazerwillian.blogspot.com/p/blogroll.html" style="background-color: white; color: #6d6d6d; text-decoration-line: none;" target="_blank"><b><span style="color: #3d85c6;">BLOGROLL</span></b></a><span style="background-color: white; color: #111111;">. Tem alguns blogs que sigo lá também bem legais! Garanto que não vão se arrepender.</span></span></div><div style="text-align: justify;"><span style="font-size: x-small;"><a href="https://willianernani1.blogspot.com/" target="_blank"></a><br /></span>Então pessoal, foi esse o post. Espero que tenham gostado.&nbsp;<span style="font-family: inherit;">Um grande abraço, e, até o próximo!</span><img height="20" src="https://pic.sopili.net/pub/emoji/noto-emoji/png/128/emoji_u1f643.png" style="font-family: inherit;" width="20" /></div></div><div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: right; margin-left: 1em; text-align: right;"><tbody><tr><td style="text-align: center;"><span style="margin-left: auto; margin-right: auto;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><img border="0" data-original-height="400" data-original-width="600" height="266" src="https://2.bp.blogspot.com/-vZMaC41jqU4/W0yhg6RQWUI/AAAAAAAAMZI/rwcBxwmoerkOnJTBsnCkJXbmMEsxiUXCQCLcBGAs/s400/Assinatura%2B1.gif" width="400" /></a></span></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><br /></a></td></tr></tbody></table><br /><span></span>
+</div><div class="separator" style="clear: both; text-align: center;"><iframe allowfullscreen='allowfullscreen' webkitallowfullscreen='webkitallowfullscreen' mozallowfullscreen='mozallowfullscreen' width='320' height='266' src='https://www.blogger.com/video.g?token=AD6v5dxd_Fys_hlHmIW_YbQZHHv2EcqgApfAHIP4LatcXYYgbacId_r3d3rQeJyfIU55SzaEkmjyp2f3IBZxc0m7GA' class='b-hbp-video b-uploaded' frameborder='0'></iframe></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">Esse vídeo é da semana anterior,&nbsp;</span></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">mas quis colocar ele aqui hoje,&nbsp;</span></div><div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">bem como a foto do r36s acima.</span></div><div><br /></div><div><div style="text-align: justify;"><span style="font-family: inherit;"><span style="background-color: white; color: #111111;">Blog e leitores, antes de saírem, dêem uma olhadinha nos meus outros cantos dessa interneta - é só navegar até a página&nbsp;</span><a href="https://prazerwillian.blogspot.com/p/blogroll.html" style="background-color: white; color: #6d6d6d; text-decoration-line: none;" target="_blank"><b><span style="color: #3d85c6;">BLOGROLL</span></b></a><span style="background-color: white; color: #111111;">. Tem alguns blogs que sigo lá também bem legais! Garanto que não vão se arrepender.</span></span></div><div style="text-align: justify;"><span style="font-size: x-small;"><a href="https://willianernani1.blogspot.com/" target="_blank"></a><br /></span>Então pessoal, foi esse o post. Espero que tenham gostado.&nbsp;<span style="font-family: inherit;">Um grande abraço, e, até o próximo!</span><img height="20" src="https://pic.sopili.net/pub/emoji/noto-emoji/png/128/emoji_u1f643.png" style="font-family: inherit;" width="20" /></div></div><div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: right; margin-left: 1em; text-align: right;"><tbody><tr><td style="text-align: center;"><span style="margin-left: auto; margin-right: auto;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><img border="0" data-original-height="400" data-original-width="600" height="266" src="https://2.bp.blogspot.com/-vZMaC41jqU4/W0yhg6RQWUI/AAAAAAAAMZI/rwcBxwmoerkOnJTBsnCkJXbmMEsxiUXCQCLcBGAs/s400/Assinatura%2B1.gif" width="400" /></a></span></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><br /></a></td></tr></tbody></table><br /><span></span>
 </div></div>]]></description>
   </item>
 
