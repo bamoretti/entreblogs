@@ -6,7 +6,219 @@
     <atom:link href="https://entreblogs.com.br/feed-entreblogs.xml" rel="self" type="application/rss+xml"/>
     <description>Todas as postagens dos blogs participantes do Entreblogs</description>
     <language>pt-br</language>
-    <lastBuildDate>Wed, 29 Apr 2026 10:08:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 14:04:51 GMT</lastBuildDate>
+
+  <item>
+    <title>Boletins Inúteis — Alguém me segura</title>
+    <link>https://www.igormedeiroz.com/2026/04/alguem-me-segura.html</link>
+    <guid isPermaLink="true">https://www.igormedeiroz.com/2026/04/alguem-me-segura.html</guid>
+    <pubDate>Wed, 29 Apr 2026 11:23:35 GMT</pubDate>
+    <description><![CDATA[Que vontadezinha de criar um layout do zero, mudar esse site inteiro, revirar de cabeça para baixo. ]]></description>
+  </item>
+
+  <item>
+    <title>QUASE AURORA — O SER NA ÁRVORE</title>
+    <link>https://quaseaurora.blogspot.com/2026/04/o-ser-na-arvore.html</link>
+    <guid isPermaLink="true">https://quaseaurora.blogspot.com/2026/04/o-ser-na-arvore.html</guid>
+    <pubDate>Wed, 29 Apr 2026 11:00:00 GMT</pubDate>
+    <description><![CDATA[<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilYzmoEvp6rKmF7v9fYVaSsnEq-z3vgL1jH2AK56xHkRe9k5l_tbNsuffC7KzajUZ_C9gbD8RMeq2BXPj6twhbVskkVhydLunxZ-XVFQAyWbin94A8N0YISVEFZ-pyxa2h04HxQMbzmp54O1Dqik4uioe4dqHfHlvYb2l3PdiRNqtWqSm99xlP1_AmS2gh/s4900/ricardo-resende-sP3_wP9kG7E-unsplash.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="3267" data-original-width="4900" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilYzmoEvp6rKmF7v9fYVaSsnEq-z3vgL1jH2AK56xHkRe9k5l_tbNsuffC7KzajUZ_C9gbD8RMeq2BXPj6twhbVskkVhydLunxZ-XVFQAyWbin94A8N0YISVEFZ-pyxa2h04HxQMbzmp54O1Dqik4uioe4dqHfHlvYb2l3PdiRNqtWqSm99xlP1_AmS2gh/s16000/ricardo-resende-sP3_wP9kG7E-unsplash.jpg" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="Foto de &lt;a href=&quot;https://unsplash.com/pt-br/@rresenden?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Ricardo Resende&lt;/a&gt; na &lt;a href=&quot;https://unsplash.com/pt-br/fotografias/uma-grande-rocha-no-meio-de-uma-floresta-sP3_wP9kG7E?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;       " target="_blank">imagem</a></td></tr></tbody></table><p style="text-align: justify;">A floresta havia se tornado sua casa. Todas as manhãs, quando ouvia a porta da frente bater, ele corria para lá. Entre o balançar das árvores e o correr das raposas que caçava, cantava um música que a mãe havia lhe ensinado antes de falecer.&nbsp;</p><p style="text-align: justify;">Na hora do almoço, sentava-se diante de uma árvore e compartilhava a comida que levava com o pequeno homem que dizia ser o mago da floresta. Ele tinha pelos espalhados por todo corpo, seus olhos eram completamente negros e havia dentes demais em sua boca. O garoto não tinha medo. Lhe contava seus sonhos, medos e segredos.</p><p style="text-align: center;">—</p><p style="text-align: justify;">O homem havia chegado mais cedo em casa. Não escutou os típicos barulhos que a criança costumava fazer. Correu para floresta, pois sabia que para lá o garoto fugia. Em pouco tempo, o encontrou dormindo nas raízes de uma grande árvore. A cena lhe lembrou da morte da esposa. Ele a encontrou encolhida na cama, gelada e sem brilho nos olhos.</p><p style="text-align: justify;">Revoltado, a passos duros caminhou em direção ao filho para acordá-lo, mas do alto de sua árvore, observando a cena com atenção, a criatura com seus mil dentes sorria. Esticou uma das mãos em direção ao homem e na floresta tudo se calou. Ao acordar, o menino voltou para casa sem nada perceber. A partir daquele dia, não havia mais motivos para da casa fugir.</p><p style="text-align: center;">★</p><p style="text-align: justify;">Os textos fazem parte de um exercício da disciplina de Laboratório da pós em Escrita Criativa. Nossa missão era escrever dois textos sobre um ser em cima de uma árvore, um deles com <i>leveza</i>&nbsp;e outro com <i>peso</i>. Penso em desenvolver mais essa história, imagino muitos detalhes, será que devo?</p><p style="text-align: justify;">| <i>Esse post faz parte da série de publicações do BEDA. Post todos os dias às 8h da manhã </i>😉</p>
+<style>
+.like-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+  font-family: Georgia, serif;
+}
+
+/* coração */
+.like-btn {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.like-btn svg {
+  width: 100%;
+  height: 100%;
+  fill: #aaa;
+  transition: all 0.25s ease;
+}
+
+/* quando curte */
+.like-btn.liked svg {
+  fill: #c2182b;
+}
+
+/* número */
+.like-count {
+  font-size: 13px;
+  color: #666;
+}
+
+/* animação leve */
+.like-btn:active {
+  transform: scale(1.15);
+}
+</style>
+
+<div class="like-container">
+  <span class="like-btn">
+    <!-- coração mais “fofinho” -->
+    <svg viewBox="0 0 24 24">
+      <path d="M12 20.5c-.2 0-.4-.1-.6-.2C9.2 18.7 4 14.5 4 10.5 4 7.9 6 6 8.5 6c1.5 0 2.9.8 3.5 2 .6-1.2 2-2 3.5-2C18 6 20 7.9 20 10.5c0 4-5.2 8.2-7.4 9.8-.2.1-.4.2-.6.2z"/>
+    </svg>
+  </span>
+  <span class="like-count">0</span>
+</div>
+
+<script>
+document.querySelectorAll(".like-container").forEach((container, index) => {
+  const btn = container.querySelector(".like-btn");
+  const countEl = container.querySelector(".like-count");
+
+  // ID único por post + posição
+  const postId = window.location.pathname + "_like_" + index;
+
+  const likeKey = "liked_" + postId;
+  const countKey = "count_" + postId;
+
+  // carregar dados
+  let liked = localStorage.getItem(likeKey) === "true";
+  let count = parseInt(localStorage.getItem(countKey));
+
+  if (isNaN(count) || count < 0) count = 0;
+
+  if (liked) btn.classList.add("liked");
+  countEl.innerText = count;
+
+  btn.addEventListener("click", () => {
+    if (!liked) {
+      liked = true;
+      count++;
+      btn.classList.add("liked");
+      localStorage.setItem(likeKey, "true");
+    } else {
+      liked = false;
+      count = Math.max(0, count - 1);
+      btn.classList.remove("liked");
+      localStorage.setItem(likeKey, "false");
+    }
+
+    localStorage.setItem(countKey, count);
+    countEl.innerText = count;
+  });
+});
+</script>]]></description>
+  </item>
+
+  <item>
+    <title>Quase Aurora — O SER NA ÁRVORE</title>
+    <link>https://quaseaurora.blogspot.com/2026/04/o-ser-na-arvore.html</link>
+    <guid isPermaLink="true">https://quaseaurora.blogspot.com/2026/04/o-ser-na-arvore.html</guid>
+    <pubDate>Wed, 29 Apr 2026 11:00:00 GMT</pubDate>
+    <description><![CDATA[<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilYzmoEvp6rKmF7v9fYVaSsnEq-z3vgL1jH2AK56xHkRe9k5l_tbNsuffC7KzajUZ_C9gbD8RMeq2BXPj6twhbVskkVhydLunxZ-XVFQAyWbin94A8N0YISVEFZ-pyxa2h04HxQMbzmp54O1Dqik4uioe4dqHfHlvYb2l3PdiRNqtWqSm99xlP1_AmS2gh/s4900/ricardo-resende-sP3_wP9kG7E-unsplash.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="3267" data-original-width="4900" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilYzmoEvp6rKmF7v9fYVaSsnEq-z3vgL1jH2AK56xHkRe9k5l_tbNsuffC7KzajUZ_C9gbD8RMeq2BXPj6twhbVskkVhydLunxZ-XVFQAyWbin94A8N0YISVEFZ-pyxa2h04HxQMbzmp54O1Dqik4uioe4dqHfHlvYb2l3PdiRNqtWqSm99xlP1_AmS2gh/s16000/ricardo-resende-sP3_wP9kG7E-unsplash.jpg" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="Foto de &lt;a href=&quot;https://unsplash.com/pt-br/@rresenden?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Ricardo Resende&lt;/a&gt; na &lt;a href=&quot;https://unsplash.com/pt-br/fotografias/uma-grande-rocha-no-meio-de-uma-floresta-sP3_wP9kG7E?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;       " target="_blank">imagem</a></td></tr></tbody></table><p style="text-align: justify;">A floresta havia se tornado sua casa. Todas as manhãs, quando ouvia a porta da frente bater, ele corria para lá. Entre o balançar das árvores e o correr das raposas que caçava, cantava um música que a mãe havia lhe ensinado antes de falecer.&nbsp;</p><p style="text-align: justify;">Na hora do almoço, sentava-se diante de uma árvore e compartilhava a comida que levava com o pequeno homem que dizia ser o mago da floresta. Ele tinha pelos espalhados por todo corpo, seus olhos eram completamente negros e havia dentes demais em sua boca. O garoto não tinha medo. Lhe contava seus sonhos, medos e segredos.</p><p style="text-align: center;">—</p><p style="text-align: justify;">O homem havia chegado mais cedo em casa. Não escutou os típicos barulhos que a criança costumava fazer. Correu para floresta, pois sabia que para lá o garoto fugia. Em pouco tempo, o encontrou dormindo nas raízes de uma grande árvore. A cena lhe lembrou da morte da esposa. Ele a encontrou encolhida na cama, gelada e sem brilho nos olhos.</p><p style="text-align: justify;">Revoltado, a passos duros caminhou em direção ao filho para acordá-lo, mas do alto de sua árvore, observando a cena com atenção, a criatura com seus mil dentes sorria. Esticou uma das mãos em direção ao homem e na floresta tudo se calou. Ao acordar, o menino voltou para casa sem nada perceber. A partir daquele dia, não havia mais motivos para da casa fugir.</p><p style="text-align: center;">★</p><p style="text-align: justify;">Os textos fazem parte de um exercício da disciplina de Laboratório da pós em Escrita Criativa. Nossa missão era escrever dois textos sobre um ser em cima de uma árvore, um deles com <i>leveza</i>&nbsp;e outro com <i>peso</i>. Penso em desenvolver mais essa história, imagino muitos detalhes, será que devo?</p><p style="text-align: justify;">| <i>Esse post faz parte da série de publicações do BEDA. Post todos os dias às 8h da manhã </i>😉</p>
+<style>
+.like-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+  font-family: Georgia, serif;
+}
+
+/* coração */
+.like-btn {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  display: inline-flex;
+}
+
+.like-btn svg {
+  width: 100%;
+  height: 100%;
+  fill: #aaa;
+  transition: all 0.25s ease;
+}
+
+/* quando curte */
+.like-btn.liked svg {
+  fill: #c2182b;
+}
+
+/* número */
+.like-count {
+  font-size: 13px;
+  color: #666;
+}
+
+/* animação leve */
+.like-btn:active {
+  transform: scale(1.15);
+}
+</style>
+
+<div class="like-container">
+  <span class="like-btn">
+    <!-- coração mais “fofinho” -->
+    <svg viewBox="0 0 24 24">
+      <path d="M12 20.5c-.2 0-.4-.1-.6-.2C9.2 18.7 4 14.5 4 10.5 4 7.9 6 6 8.5 6c1.5 0 2.9.8 3.5 2 .6-1.2 2-2 3.5-2C18 6 20 7.9 20 10.5c0 4-5.2 8.2-7.4 9.8-.2.1-.4.2-.6.2z"/>
+    </svg>
+  </span>
+  <span class="like-count">0</span>
+</div>
+
+<script>
+document.querySelectorAll(".like-container").forEach((container, index) => {
+  const btn = container.querySelector(".like-btn");
+  const countEl = container.querySelector(".like-count");
+
+  // ID único por post + posição
+  const postId = window.location.pathname + "_like_" + index;
+
+  const likeKey = "liked_" + postId;
+  const countKey = "count_" + postId;
+
+  // carregar dados
+  let liked = localStorage.getItem(likeKey) === "true";
+  let count = parseInt(localStorage.getItem(countKey));
+
+  if (isNaN(count) || count < 0) count = 0;
+
+  if (liked) btn.classList.add("liked");
+  countEl.innerText = count;
+
+  btn.addEventListener("click", () => {
+    if (!liked) {
+      liked = true;
+      count++;
+      btn.classList.add("liked");
+      localStorage.setItem(likeKey, "true");
+    } else {
+      liked = false;
+      count = Math.max(0, count - 1);
+      btn.classList.remove("liked");
+      localStorage.setItem(likeKey, "false");
+    }
+
+    localStorage.setItem(countKey, count);
+    countEl.innerText = count;
+  });
+});
+</script>]]></description>
+  </item>
+
+  <item>
+    <title>Boletins Inúteis — Trinta</title>
+    <link>https://www.igormedeiroz.com/2026/04/trinta.html</link>
+    <guid isPermaLink="true">https://www.igormedeiroz.com/2026/04/trinta.html</guid>
+    <pubDate>Wed, 29 Apr 2026 09:40:24 GMT</pubDate>
+    <description><![CDATA[Assim que cheguei em Portugal, eu comprei uma costela-de-adão, hoje eu cortei ela em três para fazer novas mudas. É engraçado pensar que fiquei postergando isso durante meses e decidi fazer só um dia antes de completar 30 anos, talvez seja algum simbolismo entre cortar passados e desenhar novos futuros, novos caminhos, novas raízes.<br /><br /><div style="text-align: center;">*</div><div><div style="text-align: center;"><br /></div><span style="box-sizing: border-box; margin: 0px; padding: 0px;">Eu tinha esse receio de que a vida já estivesse resolvida quando chegasse a essa idade, um pouco de influência de&nbsp;<a href="" target="_blank"><i>De Repente 30</i></a>.</span>&nbsp;Achei que já teria <strike>casa própria</strike>, carro, um emprego dos sonhos, uma vida estável. Achei que saberia o que estava fazendo.&nbsp;</div><div><br /></div><div style="text-align: center;">*</div><div><br /></div><div>Só com os anos, a partir dos 27, que comecei a mergulhar num passado entre entender as atitudes dos meus pais e as atitudes dos pais dos meus pais, que eu percebi que eles não sabiam o que estavam fazendo (e ainda não sabem). Quando passei a entender isso, consegui diminuir o peso dos ombros de tentar alcançar a perfeição, de não desapontá-los. A vida é uma sequência de fatos aleatórios, sorte, desempenho e imprevistos.<br /><br /><div style="text-align: center;">*</div></div><div><br />
+
+Com o tempo veio essa paz, uma calmaria, saber que a&nbsp; vida tem seus limites, que não preciso correr a todo momento nem atingir o pico máximo, que, na verdade, nem existe esse lugar "onde a felicidade se encontra". A felicidade eterna é este lugar inalcançável que achamos que existe, que vamos ter quando riscar todos os itens da lista de tarefas.&nbsp;<br /><br />Mas a lista de tarefas é, também, eterna, sempre aparecem novas coisas a serem riscadas. A felicidade encontra-se nas tarefas realizadas e nas tarefas não realizadas: <b><a href="/2026/04/tempo-e-um-recurso-limitado.html">onde decidimos colocar a nossa energia</a></b>.</div><div><br /></div><div style="text-align: center;">*</div><div><br /></div><div>Dei uma chorada porque sinto o tempo passar, sinto saudade da família, sinto que um dia tudo isso passará. O que é natural; tem sido bom estar vivo. Profundamente grato pelas pessoas que conheci, pelas experiências que tive e pelas conquistas que tenho feito.</div><div><br /></div><br /><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxRZbP8jn_SKRdsbZhH-om2VevbCKiahOq47Nf-DC-33Lzqz5Km8bJKaS7iwFtLyhUHaMMoBZ41-RWcbEmLYoqfcu-WVL7I8IdBNYzs09AhqMqSeI2Ejfep20EQ8JHNRPVSUvTX4QPcw30WQJ-Zqt2t_Vbnqhb79ZcbBKQuGmMUJpxqmH9JFQBYemZJMQ/s800/ezgif-25369330308a3f9d.gif" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="450" data-original-width="800" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxRZbP8jn_SKRdsbZhH-om2VevbCKiahOq47Nf-DC-33Lzqz5Km8bJKaS7iwFtLyhUHaMMoBZ41-RWcbEmLYoqfcu-WVL7I8IdBNYzs09AhqMqSeI2Ejfep20EQ8JHNRPVSUvTX4QPcw30WQJ-Zqt2t_Vbnqhb79ZcbBKQuGmMUJpxqmH9JFQBYemZJMQ/s16000/ezgif-25369330308a3f9d.gif" /></a></div><br /><div><br /></div>]]></description>
+  </item>
 
   <item>
     <title>Boletins Inúteis — O que eu vejo no espelho</title>
@@ -34,6 +246,52 @@
     <guid isPermaLink="true">https://www.igormedeiroz.com/2026/04/meus-posts-favoritos-do-beda-2026.html</guid>
     <pubDate>Wed, 29 Apr 2026 08:41:57 GMT</pubDate>
     <description><![CDATA[Amanhã completa <a href="https://www.igormedeiroz.com/2026/03/beda-2026.html">30 dias escrevendo quase todos os dias</a>, digo quase porque deixei, quando consegui, vários posts agendados para dias que eu não conseguia escrever. Nem todos os dias saíram coisas de que eu amava, mas consegui gostar de muitas das postagens que vieram para cá durante essa edição de abril:<div><br /><ul style="text-align: left;"><li><a href="https://www.igormedeiroz.com/2026/04/causos-do-tinder.html">Causos do Tinder</a>: contado histórias <strike>tristes</strike>&nbsp;engraçadas da minha vida amorosa</li><li><a href="https://www.igormedeiroz.com/2026/04/comprar-felicidade.html">Comprar ≠ Felicidade</a>: refletindo sobre o cosumo e a felicidade.</li><li><a href="https://www.igormedeiroz.com/2026/04/notas-sobre-amor.html">Notas sobre amor</a>: um texto que escrevi para meu ex.</li><li><a href="https://www.igormedeiroz.com/2026/04/projetos-imperfeitos.html">Projetos imperfeitos</a>: mantra que eu deveria ler diariamente</li><li><a href="https://www.igormedeiroz.com/2026/04/tenha-paginas-divertidas-no-seu-website.html">Tenha páginas divertidas no seu website</a>: autoexplicativo.&nbsp;</li><li><a href="https://www.igormedeiroz.com/2020/04/bolinho-de-maca.html">Bolo de maçã</a>: uma das minhas receitas favoritas de anos!&nbsp;</li><li><a href="https://www.igormedeiroz.com/2026/04/travessao.html">—</a>: falando sobre IA, sobre ser humano.</li><li><a href="https://www.igormedeiroz.com/2026/04/paginas-amarelas-1.html">Páginas Amarelas #1</a>: um monte de link que eu vou juntando e não sei o que fazer.</li><li><a href="https://www.igormedeiroz.com/2026/04/o-que-eu-vejo-no-espelho.html">O que eu vejo no espelho</a>: autoestima é top.</li><li><a href="https://www.igormedeiroz.com/2026/04/trinta.html">Trinta</a>: cheguei a essa idade que dizem que é puro deleite.&nbsp;</li><li><a href="https://www.igormedeiroz.com/2020/04/bolo-de-banana.html">Bolo de banana com cacau</a>: bolos nunca é demais!&nbsp;</li></ul></div>]]></description>
+  </item>
+
+  <item>
+    <title>A Arte de Ser — O que sua bolsa/mochila diz sobre você?</title>
+    <link>https://leozitoarts.bearblog.dev/o-que-sua-bolsa-diz-sobre-voce/</link>
+    <guid isPermaLink="true">https://leozitoarts.bearblog.dev/o-que-sua-bolsa-diz-sobre-voce/</guid>
+    <pubDate>Wed, 29 Apr 2026 02:33:00 GMT</pubDate>
+    <description><![CDATA[<h2 id=hola-querido-viajante>Hola querido viajante!</h2><h3 id=este-e-um-post-colaborativo>Este é um post colaborativo!</h3><p>Isso significa que VC pode ajudar a amplia-lo e adicionar seu ponto de vista opinião e tudo mais</p>
+<p>Contextualizando, hj  recebi um belo post sobre o que a Karina levava na bolsa do grampo, minha mente criativa, artista e principalmente procrastinadora, me deu abrilhante ideia de fazer o mesmo mas interativo e atualizavel, o que me fez criar esse <a href='https://leozitoarts.bearblog.dev/mochila/'>pagina sobre a minha mochila</a> mas como esta incompleto e vai demorar para deixar certinho, segue a minha bolsa por fora que é o que falta la...
+<img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/leozitoarts/4ed89e16-b1a1-4147-8bdb-76bd0d167149.webp" alt="4ed89e16-b1a1-4147-8bdb-76bd0d167149" /></p>
+<p>A ideia é tornar ela atualizavel e contar toda a minha trajetória com todas as minhas bolsas e itens que estiveram comigo, obviamente começando por hj kkkk</p>
+<p>Mas conversando com minha amada ela me fez pensar...</p>
+<p>O que nossas bolsas dizem de nós?</p>
+<p>Acredito que ela seja um reflexo sobre o que somos e pensamos e o que o contexto nos obriga...
+Por exemplo minha bolsa está sempre com tudo que eu precisaria, para todas as hipotéticas situações, que ou imagino q irei passar ou as que já passei e me fudi, tipo levo guarda chuva capa de chuva e um protetor de bolsa, já tomei tenta chuva que isso já faz parte apesar do peso enorme, preciso de um menor... Levo livros sempre para ler e nao ficar no celular, e um portátil pq sou viciado em games, alem do meu caderninho de aprendizados e ideias, q comecei apos assistir golden boy.</p>
+<p>Levo todo tipo de coisa para todo tipo de situação pois moro 8km de onde eu estudo, se morasse perto, ah mas nem a pau que levaria tanto peso, mas sempre morei lonje da escola e agr da facul, para mim é normal.</p>
+<p>Já outras pessoas tem outros motivos e visões, por isso quero a opinião de vcs sobre o pq das coisas alem de saber o q vcs levam e talvez o pq.</p>
+<p>A seguir tudo que estiver</p>
+<blockquote>
+<p>assim</p>
+</blockquote>
+<p>Foi minha amada que disse</p>
+<blockquote>
+<p>N sei mor, tipo tem pessoas as vezes ansiosas e querem levar tudo na bolsa, tem medo de qualquer que seja situação aconteça e querem estar o máximo preparadas para tudo, outras já são tão mais tranquila que só levam o básico do básico, outras que estao com a mente tão distraída ou cansada que nem se lembra mais o que esta em sua bolsa e o que não está...na verdade isto acontece com todos nós em diferentes fazes da nossa vida e dos nossos dias</p>
+</blockquote>
+<p>Exatamente as vezes so somos muito preocupados, ou então somos obrigados a levar, muitas vezes quando vou para lugares que tenho que levar coisas específicas eu tenho que ajustar minha bolsa um tempo antes pq se não eu irei esquecer, mas a maioria das coisas continua nela pq sou ansioso e precavido kkkk</p>
+<blockquote>
+<p>E a nossa bolsa reflete o estado em que estamos muitas vezes, as vezes ficamos tanto vivendo só no automático, que nem tiramos ou olhamos mais no que esta em nossa bolsa, só continuamos com ela do jeito que estava no dia anterior, e no dia anterior do anterior...</p>
+</blockquote>
+<p>A minha é assim, so adicionou e tiro comida e coisas para carregar, mas o intuito das bolsas em parte é ser prstico, mas muitas vezes carreguei peso atoa pelo o automático, tipo seria muito melhor ver a previsão do tempo antes em vez de eu levar um guarda chuva, capa de chuva e a capa da bolsa 😅</p>
+<blockquote>
+<p>E tem momentos em que não queremos carregar uma bolsa, que só queremos sair, se divertir, ou se perder em pensamentos, ou só sentir seus sentimentos mesmo sem ter que carregar a bolsa consigo, e ai talvez isso não seja mais só sobre bolsas kk</p>
+</blockquote>
+<p>Sim e aqui entramos em um outro tópico muito interessante, pois o que carregamos em nossa bolsa nao fisica?  Talvez estejamos sobrecarregado, levamos pesos desnecessários, obrigações que nao sao nossas, magoas passadas, sentimentos ruins, tbm temos que parar e rever isso, pensar isso com calma, e arrumar as nossas 2 bolsas...</p>
+<p><a href='https://quaseaurora.blogspot.com/2026/04/minhabolsadotrabalho.html'>Esse foi o post q me deu ideias...</a>   dêem uma olhada curtem e comentem</p>
+<h2 id=atencao>ATENÇÃO!</h2><p>Colabore e deixe sua parte aqui nos comentarios, esse post é tao especial que nem irei me despedir pois a ideia é que ele não acabe...  Se VC já falou sobre o assunto deixe seu link tbm pls</p>
+<div id="cusdis_thread"
+  data-host="https://cusdis.com"
+  data-app-id="54e4784f-37fb-4691-a58c-e3bd1b564926"
+  data-page-id="https://leozitoarts.bearblog.dev/o-que-sua-bolsa-diz-sobre-voce"
+  data-page-url="https://leozitoarts.bearblog.dev/o-que-sua-bolsa-diz-sobre-voce"
+  data-page-title="O que sua bolsa/mochila diz sobre você?"
+></div>
+<script async defer src="https://cusdis.com/js/cusdis.es.js"></script
+<h3 id=outros-post-sobre-o-assunto>Outros post sobre o assunto</h3><p>Aqui deixarei outros post que já existiam ou que passaram a existem por conta desse aqui 😁</p>
+]]></description>
   </item>
 
   <item>
@@ -78,52 +336,6 @@
 
 
 <!-- notionvc: ea73039c-271e-481f-a4aa-db668f36f882 --></p><p><span style="font-family: arial;">A verdade é que foi muito agradável reassistir esse filme. É uma obra que prende a atenção, com um roteiro muito bem construído, daqueles longas que, quando passam na Sessão da Tarde, a gente para de varrer a casa para ficar assistindo. Não duvido que eu assista ainda uma terceira vez <strike>e continue com alguma dúvida científica</strike>.</span></p><div><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt3kmUatzAjcPu7oBSJmNV8Z7pSzzLJaZIUI7IkcjuJpOKuLXHTPoJeN_I60g9NlbVClEgwDtNcQUFk1Xs00rNWoP8A_rbu-qfFTjnHbJ-nV48wWaznbMld71z-GIOc3XcjH8-1U49dMrGlXNZwFN5WSMV4VgqVRMQX7_0s-pErzOvsAf3RnRlYiGxPRg/s253/logo%20sem%20fundo.png" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="242" data-original-width="253" height="191" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt3kmUatzAjcPu7oBSJmNV8Z7pSzzLJaZIUI7IkcjuJpOKuLXHTPoJeN_I60g9NlbVClEgwDtNcQUFk1Xs00rNWoP8A_rbu-qfFTjnHbJ-nV48wWaznbMld71z-GIOc3XcjH8-1U49dMrGlXNZwFN5WSMV4VgqVRMQX7_0s-pErzOvsAf3RnRlYiGxPRg/w200-h191/logo%20sem%20fundo.png" width="200" /></a></div><h3 style="text-align: left;">Se você gostou de <u>Interestelar</u> também pode gostar de:</h3><div><br /></div><div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvvcjGRStfct0I7TgP_xm-4a8YR4qRiUWpzSApTxVxTuTPgNmMqwk6q2KECG_x1_huidee_ovO8fOO4fG205Rfqofsc-cYkOqsmsKBpF_cDgUZADJKAmXzgRCwjlhZYWWKTKjz4MUOJ4p2niB6luHsHs8SGYRru-wp7rl8Uqj2o9AKDT_BIRkKFh9uEes/s3780/banner%20de%20post.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="1890" data-original-width="3780" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvvcjGRStfct0I7TgP_xm-4a8YR4qRiUWpzSApTxVxTuTPgNmMqwk6q2KECG_x1_huidee_ovO8fOO4fG205Rfqofsc-cYkOqsmsKBpF_cDgUZADJKAmXzgRCwjlhZYWWKTKjz4MUOJ4p2niB6luHsHs8SGYRru-wp7rl8Uqj2o9AKDT_BIRkKFh9uEes/w640-h320/banner%20de%20post.png" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><span style="font-size: x-small;">Devoradores de estrelas, Estrelas além do tempo, Perdido em Marte, Gravidade, A origem, 2001-uma Odisseia no espaço</span></td></tr></tbody></table><div><br /><div style="text-align: center;"><br /></div><h2 style="text-align: left;"><span style="font-family: arial;">Blogueiros</span></h2></div><div><div><span style="font-family: arial;">Se você também tiver um Blogspot, aproveite para me seguir, eu sempre comento nos posts da galera do Blogger. Uma das coisas mais legais para mim é entrar na <span class="notion-enable-hover" data-token-index="1" style="font-weight: 600;">lista de leitura </span>e ver o que tem de novidade. Meu sonho é que essa comunidade se encontre, já que agora somos poucos, pelo menos vamos nos juntar.</span></div><div><span style="font-family: arial;"><br /></span></div><h2 style="text-align: left;"><span style="font-family: arial;">Posts exclusivos</span></h2><div><span style="font-family: arial;">Se você quer receber posts exclusivos, com muitas dicas de leitura, e as publicações aqui do blog antes de todo mundo, <a href="https://manifestacaoliteraria00.substack.com/" target="_blank">inscreva-se</a> na minha newsletter. É <span class="notion-enable-hover" data-token-index="1" style="font-weight: 600;">de graça</span> e chega quinzenalmente na caixa de entrada do seu e-mail.</span><!--notionvc: 2980c823-966c-487a-ad57-8557e6a2dc5d--><br /><p style="text-align: center;"><br /></p><p><br /></p></div></div></div>]]></description>
-  </item>
-
-  <item>
-    <title>A Arte de Ser — O que sua bolsa/mochila diz sobre você?</title>
-    <link>https://leozitoarts.bearblog.dev/o-que-sua-bolsa-diz-sobre-voce/</link>
-    <guid isPermaLink="true">https://leozitoarts.bearblog.dev/o-que-sua-bolsa-diz-sobre-voce/</guid>
-    <pubDate>Tue, 28 Apr 2026 15:44:00 GMT</pubDate>
-    <description><![CDATA[<h2 id=hola-querido-viajante>Hola querido viajante!</h2><h3 id=este-e-um-post-colaborativo>Este é um post colaborativo!</h3><p>Isso significa que VC pode ajudar a amplia-lo e adicionar seu ponto de vista opinião e tudo mais</p>
-<p>Contextualizando, hj  recebi um belo post sobre o que a Karina levava na bolsa do grampo, minha mente criativa, artista e principalmente procrastinadora, me deu abrilhante ideia de fazer o mesmo mas interativo e atualizavel, o que me fez criar esse <a href='https://leozitoarts.bearblog.dev/mochila/'>pagina sobre a minha mochila</a> mas como esta incompleto e vai demorar para deixar certinho, segue a minha bolsa por fora que é o que falta la...
-<img src="https://bear-images.sfo2.cdn.digitaloceanspaces.com/leozitoarts/4ed89e16-b1a1-4147-8bdb-76bd0d167149.webp" alt="4ed89e16-b1a1-4147-8bdb-76bd0d167149" /></p>
-<p>A ideia é tornar ela atualizavel e contar toda a minha trajetória com todas as minhas bolsas e itens que estiveram comigo, obviamente começando por hj kkkk</p>
-<p>Mas conversando com minha amada ela me fez pensar...</p>
-<p>O que nossas bolsas dizem de nós?</p>
-<p>Acredito que ela seja um reflexo sobre o que somos e pensamos e o que o contexto nos obriga...
-Por exemplo minha bolsa está sempre com tudo que eu precisaria, para todas as hipotéticas situações, que ou imagino q irei passar ou as que já passei e me fudi, tipo levo guarda chuva capa de chuva e um protetor de bolsa, já tomei tenta chuva que isso já faz parte apesar do peso enorme, preciso de um menor... Levo livros sempre para ler e nao ficar no celular, e um portátil pq sou viciado em games, alem do meu caderninho de aprendizados e ideias, q comecei apos assistir golden boy.</p>
-<p>Levo todo tipo de coisa para todo tipo de situação pois moro 8km de onde eu estudo, se morasse perto, ah mas nem a pau que levaria tanto peso, mas sempre morei lonje da escola e agr da facul, para mim é normal.</p>
-<p>Já outras pessoas tem outros motivos e visões, por isso quero a opinião de vcs sobre o pq das coisas alem de saber o q vcs levam e talvez o pq.</p>
-<p>A seguir tudo que estiver</p>
-<blockquote>
-<p>assim</p>
-</blockquote>
-<p>Foi minha amada que disse</p>
-<blockquote>
-<p>N sei mor, tipo tem pessoas as vezes ansiosas e querem levar tudo na bolsa, tem medo de qualquer que seja situação aconteça e querem estar o máximo preparadas para tudo, outras já são tão mais tranquila que só levam o básico do básico, outras que estao com a mente tão distraída ou cansada que nem se lembra mais o que esta em sua bolsa e o que não está...na verdade isto acontece com todos nós em diferentes fazes da nossa vida e dos nossos dias</p>
-</blockquote>
-<p>Exatamente as vezes so somos muito preocupados, ou então somos obrigados a levar, muitas vezes quando vou para lugares que tenho que levar coisas específicas eu tenho que ajustar minha bolsa um tempo antes pq se não eu irei esquecer, mas a maioria das coisas continua nela pq sou ansioso e precavido kkkk</p>
-<blockquote>
-<p>E a nossa bolsa reflete o estado em que estamos muitas vezes, as vezes ficamos tanto vivendo só no automático, que nem tiramos ou olhamos mais no que esta em nossa bolsa, só continuamos com ela do jeito que estava no dia anterior, e no dia anterior do anterior...</p>
-</blockquote>
-<p>A minha é assim, so adicionou e tiro comida e coisas para carregar, mas o intuito das bolsas em parte é ser prstico, mas muitas vezes carreguei peso atoa pelo o automático, tipo seria muito melhor ver a previsão do tempo antes em vez de eu levar um guarda chuva, capa de chuva e a capa da bolsa 😅</p>
-<blockquote>
-<p>E tem momentos em que não queremos carregar uma bolsa, que só queremos sair, se divertir, ou se perder em pensamentos, ou só sentir seus sentimentos mesmo sem ter que carregar a bolsa consigo, e ai talvez isso não seja mais só sobre bolsas kk</p>
-</blockquote>
-<p>Sim e aqui entramos em um outro tópico muito interessante, pois o que carregamos em nossa bolsa nao fisica?  Talvez estejamos sobrecarregado, levamos pesos desnecessários, obrigações que nao sao nossas, magoas passadas, sentimentos ruins, tbm temos que parar e rever isso, pensar isso com calma, e arrumar as nossas 2 bolsas...</p>
-<p><a href='https://quaseaurora.blogspot.com/2026/04/minhabolsadotrabalho.html'>Esse foi o post q me deu ideias...</a>   dêem uma olhada curtem e comentem</p>
-<h2 id=atencao>ATENÇÃO!</h2><p>Colabore e deixe sua parte aqui nos comentarios, esse post é tao especial que nem irei me despedir pois a ideia é que ele não acabe...  Se VC já falou sobre o assunto deixe seu link tbm pls</p>
-<div id="cusdis_thread"
-  data-host="https://cusdis.com"
-  data-app-id="54e4784f-37fb-4691-a58c-e3bd1b564926"
-  data-page-id="https://leozitoarts.bearblog.dev/o-que-sua-bolsa-diz-sobre-voce"
-  data-page-url="https://leozitoarts.bearblog.dev/o-que-sua-bolsa-diz-sobre-voce"
-  data-page-title="O que sua bolsa/mochila diz sobre você?"
-></div>
-<script async defer src="https://cusdis.com/js/cusdis.es.js"></script
-<h3 id=outros-post-sobre-o-assunto>Outros post sobre o assunto</h3><p>Aqui deixarei outros post que já existiam ou que passaram a existem por conta desse aqui 😁</p>
-]]></description>
   </item>
 
   <item>
@@ -1578,7 +1790,7 @@ document.querySelectorAll(".like-container").forEach((container, index) => {
 <p>Esse assunto tá ficando repetitivo na minha vida, já, né, em todo post de <a href="https://lulylage.com/?s=%C3%BAltimas+leituras&#038;post_type=post" target="_blank">últimos livros lidos</a> volto nele maaaais uma vez, mas é porque de fato, <strong>consumir audiobooks melhorou MUITO meu fluxo de leitura</strong>! Quando a narração me pega eu empolgo tanto que acaba influenciando positivamente na vontade de consumir os físicos e e-books também, 10 de 10!</p>
 <h4>4. The Sims</h4>
 <p><strong>Jogo The Sims há 20 anos</strong>, comecei com o 2, pulei o 3 e tem muitoooo tempo que migrei pro 4, o melhor até hoje, na minha opinião. Na adolescência era algo que fazia bastante, tinha até um blog que não foi pra frente contando a história das personagens, mas acho que NUNCA estive com tanto siricutico como nos últimos dois meses. Até minha irmã, que tem esse jogo como principal hobby DA VIDA, tá surpresa com a rapidez com a qual a história que estou desenvolvendo por lá andou (sim, vai virar livro um dia). Toda noite, antes de dormir, tiro uma horinha, não muito mais que isso, pra brincar um pouco, aprendendo horrores sobre expansões que nunca explorei antes!</p>
-<p><img decoding="async" data-attachment-id="17478" data-permalink="https://lulylage.com/cinco-coisas-que-estao-me-fazendo-feliz-ultimamente/5coisas_mefazemfeliz_lulylage_02/" data-orig-file="https://lulylage.com/wp-content/uploads/2026/04/5coisas_mefazemfeliz_lulylage_02.jpg" data-orig-size="1000,750" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Cinco coisas que estão me fazendo feliz ultimamente" data-image-description="" data-image-caption="" data-medium-file="https://lulylage.com/wp-content/uploads/2026/04/5coisas_mefazemfeliz_lulylage_02-300x225.jpg" data-large-file="https://lulylage.com/wp-content/uploads/2026/04/5coisas_mefazemfeliz_lulylage_02.jpg" src="https://lulylage.com/wp-content/uploads/2026/04/5coisas_mefazemfeliz_lulylage_02.jpg" alt="" width="1000" height="750" class="aligncenter size-full wp-image-17478" srcset="https://lulylage.com/wp-content/uploads/2026/04/5coisas_mefazemfeliz_lulylage_02.jpg 1000w, https://lulylage.com/wp-content/uploads/2026/04/5coisas_mefazemfeliz_lulylage_02-300x225.jpg 300w, https://lulylage.com/wp-content/uploads/2026/04/5coisas_mefazemfeliz_lulylage_02-768x576.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></p>
+<p><img decoding="async" data-attachment-id="17478" data-permalink="https://lulylage.com/cinco-coisas-que-estao-me-fazendo-feliz-ultimamente/5coisas_mefazemfeliz_lulylage_02/" data-orig-file="https://lulylage.com/wp-content/uploads/2026/04/5coisas_mefazemfeliz_lulylage_02.jpg" data-orig-size="1000,750" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;}" data-image-title="Cinco coisas que estão me fazendo feliz ultimamente" data-image-description="" data-image-caption="" data-medium-file="https://lulylage.com/wp-content/uploads/2026/04/5coisas_mefazemfeliz_lulylage_02-300x225.jpg" data-large-file="https://lulylage.com/wp-content/uploads/2026/04/5coisas_mefazemfeliz_lulylage_02.jpg" src="https://lulylage.com/wp-content/uploads/2026/04/5coisas_mefazemfeliz_lulylage_02.jpg" alt="Personagem de estilo The Sims aparece em pé dentro de uma casa, vista através de um arco na parede roxa. Ela tem cabelo curto ondulado, usa óculos, blusa escura de manga longa e saia xadrez em tons rosados, com sapatilhas. O ambiente tem piso de cerâmica avermelhada, paredes em tom pêssego e, ao fundo, uma cozinha com geladeira preta e quadro decorativo na parede. A personagem parece concentrada, com uma das mãos levantadas como se estivesse pensando ou interagindo com algo no jogo." width="1000" height="750" class="aligncenter size-full wp-image-17478" srcset="https://lulylage.com/wp-content/uploads/2026/04/5coisas_mefazemfeliz_lulylage_02.jpg 1000w, https://lulylage.com/wp-content/uploads/2026/04/5coisas_mefazemfeliz_lulylage_02-300x225.jpg 300w, https://lulylage.com/wp-content/uploads/2026/04/5coisas_mefazemfeliz_lulylage_02-768x576.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></p>
 <h4>5. Mulheres artistas que usam linhas e tecido como parte de sua técnica</h4>
 <p>Como dito, vai nascendo aqui uma singela e amadíssima coleção de obras de arte. Algumas foram presente das próprias artistas, porque sou chique demais, outras comprei em feiras de arte independente. Vou acrescentando à medida que posso. Eis que eu estava visualizando uma forma de catalogá-las quando percebi que o uso de tecido e linhas, principalmente tendo o bordado como técnica, é mais frequente do que eu esperava, pois sou uma grande entusiasta do papel como suporte, e a partir do momento que caí na real que fiz essa curadoria involuntária, ela passou a ser consciente nas minhas buscas em redes sociais, sites especializados, por aí vai&#8230; <strong>Não sei onde esse eixo de pesquisa vai parar, mas espero que longe!</strong></p>
 <p><img decoding="async" data-attachment-id="16926" data-permalink="https://lulylage.com/favoritos-de-2025/banner_entreblogs_post/" data-orig-file="https://lulylage.com/wp-content/uploads/2026/01/banner_entreblogs_post.jpg" data-orig-size="1000,378" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="ENTREBLOGS" data-image-description="" data-image-caption="" data-medium-file="https://lulylage.com/wp-content/uploads/2026/01/banner_entreblogs_post-300x113.jpg" data-large-file="https://lulylage.com/wp-content/uploads/2026/01/banner_entreblogs_post.jpg" src="https://lulylage.com/wp-content/uploads/2026/01/banner_entreblogs_post.jpg" alt="Banner com layout de interface de computador em tons claros. Na parte superior, aparece um cabeçalho cinza com o título blogagem_coletiva_file e, logo abaixo, o subtítulo &#039;ENTREBLOGS&#039;. Abaixo do cabeçalho, há três pastas digitais ilustradas, lado a lado: uma pasta rosa com o nome “post_participante”, uma pasta azul com o nome grupo_ideias e uma pasta amarela com o nome regras_ou não. Um cursor grande, em formato de seta, está posicionado sobre a pasta rosa." width="1000" height="378" class="aligncenter size-full wp-image-16926" srcset="https://lulylage.com/wp-content/uploads/2026/01/banner_entreblogs_post.jpg 1000w, https://lulylage.com/wp-content/uploads/2026/01/banner_entreblogs_post-300x113.jpg 300w, https://lulylage.com/wp-content/uploads/2026/01/banner_entreblogs_post-768x290.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></p>
@@ -3431,16 +3643,6 @@ O livro contém uma escrita viciante, não é possível largar, porque os capít
     <guid isPermaLink="true">https://www.igormedeiroz.com/2026/04/tempo-e-um-recurso-limitado.html</guid>
     <pubDate>Wed, 22 Apr 2026 12:59:19 GMT</pubDate>
     <description><![CDATA[Entender que não dá para fazer todas as coisas ao mesmo tempo, mas que ainda há tempo para fazer as coisas de que tem vontade. Aprender onde colocar a energia, quais pessoas merecem atenção e quais não. Perceber que, como recurso limitado, precisamos escolher bem em quais lugares queremos estar, quais relações nutrir, quais sentimentos decidir guardar dentro da cabeça.]]></description>
-  </item>
-
-  <item>
-    <title>Boletins Inúteis — Trinta</title>
-    <link>https://www.igormedeiroz.com/2026/04/trinta.html</link>
-    <guid isPermaLink="true">https://www.igormedeiroz.com/2026/04/trinta.html</guid>
-    <pubDate>Wed, 22 Apr 2026 11:35:08 GMT</pubDate>
-    <description><![CDATA[Assim que cheguei em Portugal, eu comprei uma costela-de-adão, hoje eu cortei ela em três para fazer novas mudas. É engraçado pensar que fiquei postergando isso durante meses e decidi fazer só um dia antes de completar 30 anos, talvez seja algum simbolismo entre cortar passados e desenhar novos futuros, novos caminhos, novas raízes.<br /><br /><div style="text-align: center;">*</div><div><div style="text-align: center;"><br /></div><span style="box-sizing: border-box; margin: 0px; padding: 0px;">Eu tinha esse receio de que a vida já estivesse resolvida quando chegasse a essa idade, um pouco de influência de&nbsp;<a href="" target="_blank"><i>De Repente 30</i></a>.</span>&nbsp;Achei que já teria <strike>casa própria</strike>, carro, um emprego dos sonhos, uma vida estável. Achei que saberia o que estava fazendo.&nbsp;</div><div><br /></div><div style="text-align: center;">*</div><div><br /></div><div>Só com os anos, a partir dos 27, que comecei a mergulhar num passado entre entender as atitudes dos meus pais e as atitudes dos pais dos meus pais, que eu percebi que eles não sabiam o que estavam fazendo (e ainda não sabem). Quando passei a entender isso, consegui diminuir o peso dos ombros de tentar alcançar a perfeição, de não desapontá-los. A vida é uma sequência de fatos aleatórios, sorte, desempenho e imprevistos.<br /><br /><div style="text-align: center;">*</div></div><div><br />
-
-Com o tempo veio essa paz, uma calmaria, saber que a&nbsp; vida tem seus limites, que não preciso correr a todo momento nem atingir o pico máximo, que, na verdade, nem existe esse lugar "onde a felicidade se encontra". A felicidade eterna é este lugar inalcançável que achamos que existe, que vamos ter quando riscar todos os itens da lista de tarefas.&nbsp;<br /><br />Mas a lista de tarefas é, também, eterna, sempre aparecem novas coisas a serem riscadas. A felicidade encontra-se nas tarefas realizadas e nas tarefas não realizadas: <b><a href="/2026/04/tempo-e-um-recurso-limitado.html">onde decidimos colocar a nossa energia</a></b>.</div><div><br /></div><div style="text-align: center;">*</div><div><br /></div><div>Dei uma chorada porque sinto o tempo passar, sinto saudade da família, sinto que um dia tudo isso passará. O que é natural; tem sido bom estar vivo. Profundamente grato pelas pessoas que conheci, pelas experiências que tive e pelas conquistas que tenho feito.</div><div><br /></div><br /><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxRZbP8jn_SKRdsbZhH-om2VevbCKiahOq47Nf-DC-33Lzqz5Km8bJKaS7iwFtLyhUHaMMoBZ41-RWcbEmLYoqfcu-WVL7I8IdBNYzs09AhqMqSeI2Ejfep20EQ8JHNRPVSUvTX4QPcw30WQJ-Zqt2t_Vbnqhb79ZcbBKQuGmMUJpxqmH9JFQBYemZJMQ/s800/ezgif-25369330308a3f9d.gif" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="450" data-original-width="800" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxRZbP8jn_SKRdsbZhH-om2VevbCKiahOq47Nf-DC-33Lzqz5Km8bJKaS7iwFtLyhUHaMMoBZ41-RWcbEmLYoqfcu-WVL7I8IdBNYzs09AhqMqSeI2Ejfep20EQ8JHNRPVSUvTX4QPcw30WQJ-Zqt2t_Vbnqhb79ZcbBKQuGmMUJpxqmH9JFQBYemZJMQ/s16000/ezgif-25369330308a3f9d.gif" /></a></div><br /><div><br /></div>]]></description>
   </item>
 
   <item>
@@ -7827,27 +8029,6 @@ que a gente precisa se organizar pra ver em São Paulo em 2027.</p>
   </item>
 
   <item>
-    <title>Boletins Inúteis — 2026: 15</title>
-    <link>https://www.igormedeiroz.com/2026/04/2026-15.html</link>
-    <guid isPermaLink="true">https://www.igormedeiroz.com/2026/04/2026-15.html</guid>
-    <pubDate>Sun, 12 Apr 2026 19:44:10 GMT</pubDate>
-    <description><![CDATA[<h3 style="text-align: left;">Acontecimentos</h3><div><ul style="text-align: left;"><li>Essa semana o tempo ficou horrível: começou a ficar frio novamente e, quase todos os dias, tem ventania. Um dia desses derrubou dois vasos de plantas que eu tinha acabado de comprar :(</li><li>Dança: tenho ido às aulas de dança, mas levemente desmotivado, acho que preciso de uma pausa para mudar um pouco a rotina - ou começar a fazer aulas diferentes. Acho que mudar de estúdio de dança vai ser muito bom nos próximos meses.</li><li>Fui várias vezes à academia essa semana, de manhã às 07. Orgulho.</li><li>Meio chateado por ter machucado a perna há algumas semanas porque isso me limita muito na questão de movimentos, exercícios e alongamentos, um medo de me machucar novamente.</li><li>O track diário físico foi com Deus. Na verdade, também não tenho conseguido escrever minhas páginas matinais como eu gostaria.</li><li>Criei uma página de <a href="/manifesto">manifesto</a></li></ul><div><br /></div><h3 style="text-align: left;">
-
-Consumindo</h3><b>
-Livros</b>:<br /><ul style="text-align: left;"><li><i>Verity</i>: é um suspense gostosinho, a história se perde um pouco nas coerências. A escrita da Collen não é tão ruim quanto eu pensava (mas acho que vou ler apenas esse livro hehe).</li><li><a href="/2026/04/sem-tempo-perder-ursula-k-le-guin.html"><i>Sem tempo a perder</i></a>: encantado!&nbsp;</li><li><i>A vegetariana</i>: leituras para o <a href="https://entreblogs.com.br/clube-de-leitura/">clubinho</a>, ainda no comecinho, mas gostando.&nbsp;</li></ul><br /><b>
-Filmes e séries</b>:<div><ul style="text-align: left;"><li><i>The boys</i>: finalmente veio aí a última temporada. Os dois primeiros episódios me deram boas ideias sobre redes sociais e essa cultura da imagem e do consumo que temos.</li><li><i>The Handmaid</i>: gostei, achei divertido o plot twist.</li><li>Comecei a ver&nbsp;<i>Chained Soldier</i>, mas não entendi muita coisa, parece ser legal.</li></ul><br /><br /></div></div>
-
-
-
-
-<div class="polaroid" style="--tamanho: 100%; text-align: center;">
-  <img alt="Minha Foto" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_NCHtNFgAjSoMV89mrbvt7KxnmpHd34tO0xkYxv6RJgi0to9WEGktn5TJxMpqigQwcQT8oCqhNCpRh7u-NCEP0IBrAyl44SyShAvFtUcL1f-WXKGNCHCaauR-4UkhLhyTsI6JKC9c6eoWzEDsZJAlLEOy6gABEK5aAiatejZ9vBxFoMDBTNK6NJnyHfc/s1600/69B91941-9D47-4660-9058-1A9DA3DECFFD.JPEG" />
-  <div class="caption">Saudade de uma praia gostosinha</div>
-</div>
-]]></description>
-  </item>
-
-  <item>
     <title>Boletins Inúteis — Projetos imperfeitos</title>
     <link>https://www.igormedeiroz.com/2026/04/projetos-imperfeitos.html</link>
     <guid isPermaLink="true">https://www.igormedeiroz.com/2026/04/projetos-imperfeitos.html</guid>
@@ -10793,84 +10974,6 @@ Pois é.</p>
     <guid isPermaLink="true">https://www.ventodoleste.com.br/2026/04/um-clube-do-livro-piquenique-com-flores.html</guid>
     <pubDate>Wed, 01 Apr 2026 14:00:00 GMT</pubDate>
     <description><![CDATA[<p><i>Oi! Como você está?</i></p><p>Não faz muito tempo, conversamos um pouco sobre fazer parte de um Clube do Livro, se ainda era algo que valia a pena nos dias atuais (dá uma passadinha lá no post <a href="https://www.ventodoleste.com.br/2025/10/vale-pena-fazer-parte-de-um-clube-do.html">clicando aqui</a>). Hoje, quero conversar com você sobre o último encontro do clube que faço parte há quase dois anos e tem me inspirado pouco a pouco.</p><p>O <b><a href="https://www.instagram.com/sweetdaisybookclub/" target="_blank">Sweet Daisy</a></b> é um Clube do Livro feito por mulheres e para mulheres, onde, desde o início, busca resgatar os encontros presenciais e o espírito de comunidade que só um clube literário pode inspirar.</p><p>Eu entrei para o clube em meados de 2024, depois de esbarrar nele através de um vídeo no <b>TikTok</b>. Na época, eu estava procurando por um lugar onde pudesse reviver as conversas literárias que costumavam acontecer antes da pandemia. Aqueles encontros presenciais, caóticos e com muitas risadas faziam uma tremenda falta para mim e eu ainda acredito que, muitos dos que viveram àquela época, não se adaptaram completamente à mudança para reuniões virtuais. <strike>Simplesmente não são a mesma coisa.</strike></p><p>Desde então, eu confesso que tenho participado mais dos encontros do que, de fato, lido as leituras mensais. Há meses onde não consigo engatar nenhuma leitura e decido não me obrigar a terminar um livro apenas pelo prazer de dizer que a leitura foi finalizada. Ainda assim, estou presente nos encontros, uma vez por mês, para as conversas mais aleatórias possíveis. Apesar de sermos um clube literário, na maior parte do tempo, os encontros são recheados de assuntos do dia-a-dia, momentos constrangedores, seguidos de muita risada.</p><p>Há dias que os encontros acontecem em cafeterias, em cantos diversos de São Paulo. Outros, acontecem na casa de alguém do grupo. Já viajamos por cada canto da cidade e pela área metropolitana que aprendi a reconhecer rapidamente as linhas de trem e metrô daqui.</p><p>Neste domingo, o encontro foi no <b>Parque Villa Lobos</b>, na zona oeste de São Paulo. A ideia era fazer um piquenique e entregar os presentes do amigo secreto inspirado no mês das mulheres. Pela segunda vez, fizemos um Amigo Flores, com o mesmo conceito do amigo secreto, que já conhecemos, mas sendo o presente um buquê ou vaso de flores. Foi divertido perceber que, quase todas, usaram a mesma referência: flores do campo. Foi como trazer as flores de volta à natureza, de volta para casa.</p><p>Em meio as comidas e risadas, a leitura do mês ficou esquecida. <b>Isso me lembra de que clubes não foram feitos para serem presos a uma ideia</b>, restritos ao tema que foi escolhido. <b>Clubes são comunidades</b> onde podemos falar abertamente, sem medo, e encontrar pessoas que podem até discordar do teu jeito de ver o mundo, mas irão rir disso junto com você.</p><p>O meio literário já foi uma grande comunidade acolhedora e diversa. Hoje, eu vejo muitos grupos formados sem o senso de coletividade, de amizade e de apoio. Houve uma época em que leitores se apoiavam e criavam laços reais, ainda que virtuais, mas as coisas mudaram ao longo do tempo. Tenho a sensação de que a pandemia foi o ponto de ruptura. É claro que, com a ajuda das redes sociais (<strike>principalmente o BookTok</strike>), o mundo literário ganhou muita visibilidade e ainda cresce. Ao mesmo tempo, as redes estão tornando as relações cada vez mais superficiais e frágeis. Os algoritmos não entregam conteúdos de forma consistente, contas menores e com conteúdo bacana ficam escondidas e o consumismo ficou mais evidente. <b>Ser considerado leitor, exige que você atenda requisitos cada vez mais difíceis de alcançar.</b></p><p>Por isso, encontrar um espaço em que você possa ser quem realmente é e falar sobre coisas de que gosta ainda é muito importante. Os Clubes do Livro estão aqui para isso! Para resgatar o que há muito tempo ficou esquecido e, quem sabe, unir as pessoas novamente e nos fazer enxergar aquilo que os livros estão dispostos a nos ensinar.</p><div><br /></div><br /><div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="3240" data-original-width="4320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCAr8S0SUKFWSMfyJxAnGvmnYAjH7semLWg9723iatqrX7C4lsIf6mpKB8XKyzuG0vJXDUjFdx4CcQB5b8BqsdJVJFMKC9VC-BbXn_GXHiGYxUpTOQLxsc9-h6VOA9qlIV54GtfaszjJlbvU7QORGByQsiX2s_UXhVK2Z9cD0W3sLeCWNlAAP-wuLFV6ML/s16000/IMG_2307.jpg" /></div><div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="3240" data-original-width="4320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjigJwpiuGO04SgXq7eare5b9bKGcrJ_52uQHS_Z0nwJwfcTzJu05U8ONlrgOJxLS4_meb1vivroUyCSpWpcVfeynSvmTUEf3l-yZKZ8MS7ORV5YPbXStez9oOz0ILJ5gmLBSzG0JvHx_hocjUyq6gTPiDtxIhqvRUuRlyXwsYqEyaxkQZT-HEhG6xtxvnx/s16000/IMG_2300.jpg" /></div><br /><div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="3240" data-original-width="4320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1y529fuyaZZK16X0JKoc01dmSpI7CDi2wkK5OEoYd4JfauwDsekRTa2-5a1-TLoJOnZSkeYzp55P9fnVOJBqOm3N2FFfof6UmxajBlziuFETbcx0yVQouEN1F6iufyG6wBl5yMeq7oEZzloBc-x18fgZxZxgncf8A_hkl8JVV4UyDaGwNIAzN3lXGhaRg/s16000/IMG_2304.jpg" /></div><br /><div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="3240" data-original-width="4320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrLSXwWSvF_IbaBQ7NeT3H3wpDO5S2twg7WAM0Yys3qh0T8gHtIBRPzBlJkAWXe9VF4QI78c7KJKQhr6jZaWy2maXIPDk-LWJGWx2S1pc76TDKQD0KzAxoVPyPj-w3MbWb6mTiZGzPD4BADHoUgSyyNP8luXajCuVFN98OJ6krDTqaVbt2iB-bGuUj5JZ5/s16000/IMG_2314.jpg" /></div><br /><div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="1536" data-original-width="2048" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZZBflN0GCfCJTCVnZq_seqN8Fmvl47PAQkKPvBHHG9vaHrlbkEDxZCI40WXu2rcToDDfYI0kHHtnH5nJqgsbVHobknTnflI47zCa0Wnxw7q_uUXdWJoeFFMlRA2szXh4SjlUfckt1wNGTrIwNTz4zkGYoAkvMMz-BdEnsG-r-c4_BN428NIeTen_z25xz/s16000/IMG_2317%20(1).jpg" /></div><br /><div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="3240" data-original-width="4320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijYs67mHENhspuGdKvkSl2lo-p_-noR2jS9OGGcTwZ3roXLQF0nZghgoWKB_xGkEIX0hjDJ8oLRBjYGcCw6ZOptv_8oi0_85atAw7k8BddIe4wUnN9vuvZKlzq0XlodDm5rLyZn_NX12wU1XUYxNAEWEnf2QIyb9nWHGhv6TeMi8LnrhFKhuIi5_SNAcLz/s16000/IMG_2351.jpg" /></div><br /><div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="1280" data-original-width="720" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv18zPYGPSEmjOQafUKuTh3PHN6R6TGzpBZWm6fSHzY8i14RYpmEXU_xyvKXHwyFSsgwl6yZNeRNNE0TWXChspfDfbRv04vNvM1OyDCEiemkQxPhszRZPkUqhX9zqjpfdU_pSIcbdafyZg1t-MMqHxeD1spShXrPGwJOQgM-3893sZqyFJ7anWwg-oWtfa/s16000/IMG-20260329-WA0048.jpg" /></div><br /><div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="1280" data-original-width="956" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7FyyNXSy4QuSsAllpfe3JuaBtSXhWjoXwmaGkdFIgbKKhq6DB7uY2mjwY9AmGfiiwT0HNR7NaqSH8QiRQQawKTFWcB38jVtqlXl3SJzRMKpWBhgUaeef8x52YZaIQz2ipvy9p-UBGP00_yqJfaYLew9GcmWYRbjM_-SjVlQgyXDqG35wWUEDSaAiFdni-/s16000/IMG-20260329-WA0080.jpg" /></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="1280" data-original-width="960" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipF21hjxdShmkpizIkvqG9LthC1vmxN0ssxmdz_8mZ0gS-hOpNXSl17E-bmanVjR8VSbuNtFlJq3VsdGB3YkoiKjuEDBhyphenhyphenHHYFwHStDS5Hl5Yur1qdVWvzuErWgymqz10nFoHNV2umXMn5ihVpA9XjQ0DqGDN1rwOWqByFReOt5v-LJ8s4jdaL_2bi9iKg/s16000/WhatsApp%20Image%202026-03-29%20at%2022.35.02.jpg" /></div><br /><p><br /></p>]]></description>
-  </item>
-
-  <item>
-    <title>QUASE AURORA — FICA AQUI, ESSE ANO TEM BEDA!</title>
-    <link>https://quaseaurora.blogspot.com/2026/03/esseanotembeda.html</link>
-    <guid isPermaLink="true">https://quaseaurora.blogspot.com/2026/03/esseanotembeda.html</guid>
-    <pubDate>Wed, 01 Apr 2026 11:00:00 GMT</pubDate>
-    <description><![CDATA[<div style="text-align: left;"><div style="text-align: justify;"><i>1 xícara de loucura</i></div><div style="text-align: justify;"><i>1/2 xícara de irresponsabilidade</i></div><div style="text-align: justify;"><i>1 pitada de determinação para fazer acontecer</i></div><div style="text-align: justify;"><i>Misture tudo e faça um BEDA delicioso!</i></div><div style="text-align: justify;"><i><br /></i></div><div style="text-align: justify;"><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkM227lia9mhn6DZ4LYDwqDTIMuJPPEqiK7QLmLZkoBaellUhHKBYbtI53QRd9JFSkKiRedBr69jWG5-5D4W3cOJErEkr7Zesz-PaebFEVaxlN9xG-hDrEioP5ZKq3JvOzuiHmhvWElYBU8uId_qK83vTvy9RlJaMSauKc70oQhx5G_hSKeiKLX2_IQrrb/s480/GIF%20by%20Leroy%20Patterson.gif" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="270" data-original-width="480" height="360" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkM227lia9mhn6DZ4LYDwqDTIMuJPPEqiK7QLmLZkoBaellUhHKBYbtI53QRd9JFSkKiRedBr69jWG5-5D4W3cOJErEkr7Zesz-PaebFEVaxlN9xG-hDrEioP5ZKq3JvOzuiHmhvWElYBU8uId_qK83vTvy9RlJaMSauKc70oQhx5G_hSKeiKLX2_IQrrb/w640-h360/GIF%20by%20Leroy%20Patterson.gif" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="https://giphy.com/gifs/leroypatterson-l1J3FnO3tqf1Zk7W8" target="_blank">gif</a></td></tr></tbody></table></div></div><p style="text-align: justify;">Honestamente, estava pronta para desistir do projeto esse mês, até comentei com os queridos do <b><a href="https://entreblogs.com.br/" target="_blank">EntreBlogs</a>&nbsp;</b>sobre como abril será caótico no trabalho e que não conseguiria me dedicar completamente a esse projeto bem legal! Mas me bastou apenas entrar no segundo dia de atestado médico e pedir a opinião do Chat GPT para organizar isso com <i>leveza </i>que dei minha palavra final.</p><p style="text-align: justify;">Teremos BEDA neste blog!</p><p style="text-align: justify;">→&nbsp;O BEDA (Blog Every Day in August/Abril) é um desafio super querido na blogosfera: postar todos os dias durante um mês. Geralmente as pessoas fazem no mês de agosto, pois dia 31/08 é o dia mundial do blog, e os blogueiros fazem um post indicando cinco blogs que gostam de acompanhar. Por aqui faço em abril porque é aniversário do Quase Aurora.</p><p style="text-align: justify;">Talvez não seja a decisão mais prudente, mas é algo que realmente quero fazer. Sendo sincera com vocês, depois que fiz o post <b><a href="https://quaseaurora.blogspot.com/2026/03/off.html" target="_blank">OFF</a> </b>e desativei meu Instagram, pensei muito em dar um tempo daqui. Tanto é que desde o post com <a href="https://quaseaurora.blogspot.com/2026/03/uma-semana-comigo.html" target="_blank"><b>tema de março</b></a> do EntreBlogs, não abri a plataforma do Blogger. Realmente precisava me desconectar da internet, sabe?</p><p style="text-align: justify;">Mas ao mesmo tempo, eu amo criar. Amo estar pensando nos posts, elaborando minhas ideias, fazendo algo que me deixa feliz! Então me afastar daqui não seria a tarefa mais fácil do mundo e também seria um pouco estranho... principalmente porque, de uma forma que não sei explicar bem, estou em uma fase de reconexão com a escrita.</p><p style="text-align: justify;">Estar aqui me faz muito bem e eu tenho o máximo respeito por você, leitor, que vem até o Quase Aurora porque se interessa pelo que compartilho — ou só é curioso mesmo kkkk. Então por causa de vocês eu também decidir seguir adiante com o plano do BEDA. Acredito que essa é uma ótima oportunidade de escrever coisas diferentes e criar mais conexão com quem está do outro lado.</p><p style="text-align: justify;">Claro que também preciso manter um pouco da minha sanidade mental, então não teremos posts <i>exatamente todos os dias</i>, mas na maioria da semana. Caso você faça uma visita e não encontre o post do dia, esse é o motivo. E só pra reforçar: <i>os posts saem sempre às 8h da manhã, beleza?</i></p>
-<p><b:if cond='data:blog.pageType == "item"'>      
-<!-- LikeBtn.com BEGIN Lovelogic Modified -->
-<span class='likebtn-wrapper ld-heart-btn lovelogic-heart-btn'
-data-bg_c='transparent'
-data-bg_c_v='transparent'
-data-brdr_c='transparent'
-data-counter_frmt='km'
-data-counter_zero_show='true'
-data-dislike_enabled='false'
-data-ef_voting='push'
-data-icon_dislike_show='false'
-data-icon_l='hrt5'
-data-icon_size='15'
-data-popup_disabled='true'
-data-share_enabled='false'
-data-show_like_label='false'
-data-theme='custom'
-data-tooltip_enabled='false'
-expr:data-identifier='data:post.id'/>
-
-<script>(function(d,e,s){
-if(d.getElementById("likebtn_wjs"))return;
-a=d.createElement(e);
-m=d.getElementsByTagName(e)[0];
-a.async=1;
-a.id="likebtn_wjs";
-a.src=s;
-m.parentNode.insertBefore(a, m)
-})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
-<!-- LikeBtn.com END -->
-</b:if>]]></description>
-  </item>
-
-  <item>
-    <title>Quase Aurora — FICA AQUI, ESSE ANO TEM BEDA!</title>
-    <link>https://quaseaurora.blogspot.com/2026/03/esseanotembeda.html</link>
-    <guid isPermaLink="true">https://quaseaurora.blogspot.com/2026/03/esseanotembeda.html</guid>
-    <pubDate>Wed, 01 Apr 2026 11:00:00 GMT</pubDate>
-    <description><![CDATA[<div style="text-align: left;"><div style="text-align: justify;"><i>1 xícara de loucura</i></div><div style="text-align: justify;"><i>1/2 xícara de irresponsabilidade</i></div><div style="text-align: justify;"><i>1 pitada de determinação para fazer acontecer</i></div><div style="text-align: justify;"><i>Misture tudo e faça um BEDA delicioso!</i></div><div style="text-align: justify;"><i><br /></i></div><div style="text-align: justify;"><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkM227lia9mhn6DZ4LYDwqDTIMuJPPEqiK7QLmLZkoBaellUhHKBYbtI53QRd9JFSkKiRedBr69jWG5-5D4W3cOJErEkr7Zesz-PaebFEVaxlN9xG-hDrEioP5ZKq3JvOzuiHmhvWElYBU8uId_qK83vTvy9RlJaMSauKc70oQhx5G_hSKeiKLX2_IQrrb/s480/GIF%20by%20Leroy%20Patterson.gif" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="270" data-original-width="480" height="360" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkM227lia9mhn6DZ4LYDwqDTIMuJPPEqiK7QLmLZkoBaellUhHKBYbtI53QRd9JFSkKiRedBr69jWG5-5D4W3cOJErEkr7Zesz-PaebFEVaxlN9xG-hDrEioP5ZKq3JvOzuiHmhvWElYBU8uId_qK83vTvy9RlJaMSauKc70oQhx5G_hSKeiKLX2_IQrrb/w640-h360/GIF%20by%20Leroy%20Patterson.gif" width="640" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="https://giphy.com/gifs/leroypatterson-l1J3FnO3tqf1Zk7W8" target="_blank">gif</a></td></tr></tbody></table></div></div><p style="text-align: justify;">Honestamente, estava pronta para desistir do projeto esse mês, até comentei com os queridos do <b><a href="https://entreblogs.com.br/" target="_blank">EntreBlogs</a>&nbsp;</b>sobre como abril será caótico no trabalho e que não conseguiria me dedicar completamente a esse projeto bem legal! Mas me bastou apenas entrar no segundo dia de atestado médico e pedir a opinião do Chat GPT para organizar isso com <i>leveza </i>que dei minha palavra final.</p><p style="text-align: justify;">Teremos BEDA neste blog!</p><p style="text-align: justify;">→&nbsp;O BEDA (Blog Every Day in August/Abril) é um desafio super querido na blogosfera: postar todos os dias durante um mês. Geralmente as pessoas fazem no mês de agosto, pois dia 31/08 é o dia mundial do blog, e os blogueiros fazem um post indicando cinco blogs que gostam de acompanhar. Por aqui faço em abril porque é aniversário do Quase Aurora.</p><p style="text-align: justify;">Talvez não seja a decisão mais prudente, mas é algo que realmente quero fazer. Sendo sincera com vocês, depois que fiz o post <b><a href="https://quaseaurora.blogspot.com/2026/03/off.html" target="_blank">OFF</a> </b>e desativei meu Instagram, pensei muito em dar um tempo daqui. Tanto é que desde o post com <a href="https://quaseaurora.blogspot.com/2026/03/uma-semana-comigo.html" target="_blank"><b>tema de março</b></a> do EntreBlogs, não abri a plataforma do Blogger. Realmente precisava me desconectar da internet, sabe?</p><p style="text-align: justify;">Mas ao mesmo tempo, eu amo criar. Amo estar pensando nos posts, elaborando minhas ideias, fazendo algo que me deixa feliz! Então me afastar daqui não seria a tarefa mais fácil do mundo e também seria um pouco estranho... principalmente porque, de uma forma que não sei explicar bem, estou em uma fase de reconexão com a escrita.</p><p style="text-align: justify;">Estar aqui me faz muito bem e eu tenho o máximo respeito por você, leitor, que vem até o Quase Aurora porque se interessa pelo que compartilho — ou só é curioso mesmo kkkk. Então por causa de vocês eu também decidir seguir adiante com o plano do BEDA. Acredito que essa é uma ótima oportunidade de escrever coisas diferentes e criar mais conexão com quem está do outro lado.</p><p style="text-align: justify;">Claro que também preciso manter um pouco da minha sanidade mental, então não teremos posts <i>exatamente todos os dias</i>, mas na maioria da semana. Caso você faça uma visita e não encontre o post do dia, esse é o motivo. E só pra reforçar: <i>os posts saem sempre às 8h da manhã, beleza?</i></p>
-<p><b:if cond='data:blog.pageType == "item"'>      
-<!-- LikeBtn.com BEGIN Lovelogic Modified -->
-<span class='likebtn-wrapper ld-heart-btn lovelogic-heart-btn'
-data-bg_c='transparent'
-data-bg_c_v='transparent'
-data-brdr_c='transparent'
-data-counter_frmt='km'
-data-counter_zero_show='true'
-data-dislike_enabled='false'
-data-ef_voting='push'
-data-icon_dislike_show='false'
-data-icon_l='hrt5'
-data-icon_size='15'
-data-popup_disabled='true'
-data-share_enabled='false'
-data-show_like_label='false'
-data-theme='custom'
-data-tooltip_enabled='false'
-expr:data-identifier='data:post.id'/>
-
-<script>(function(d,e,s){
-if(d.getElementById("likebtn_wjs"))return;
-a=d.createElement(e);
-m=d.getElementsByTagName(e)[0];
-a.async=1;
-a.id="likebtn_wjs";
-a.src=s;
-m.parentNode.insertBefore(a, m)
-})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
-<!-- LikeBtn.com END -->
-</b:if>]]></description>
   </item>
 
   <item>
