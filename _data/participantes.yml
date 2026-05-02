@@ -6,6 +6,11 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
+- blog: "Limonada"
+  url: "https://limaoquenada.blogspot.com"
+  feed: "https://limaoquenada.blogspot.com/feeds/posts/default"
+  added: "2026-04-21"
+
 - blog: "Pouco Genial"
   url: "https://poucogenial.tumblr.com"
   feed: "https://poucogenial.tumblr.com/rss"
