@@ -37,9 +37,20 @@
   added: "2026-04-13"
 
 - blog: "Margem Viva"
-  url: "https://margemviva.blogspot.com/"
+  url: "https://margemviva.netlify.app/"
   feed: "https://margemviva.blogspot.com/feeds/posts/default"
   added: "2026-04-05"
+
+- blog: "A Arte de Ser"
+  url: "https://leozitoarts.bearblog.dev/"
+  feed: "leozitoarts.bearblog.dev/rss/"
+  added: "2026-04-02"
+
+- blog: "Quase Aurora"
+  url: "https://quaseaurora.blogspot.com/"
+  feed: "https://quaseaurora.blogspot.com/feeds/posts/default"
+  added: "2026-04-05"
+
 
 - blog: "j u l i e ’ s"
   url: "https://julietheblog.blogspot.com/"
@@ -181,10 +192,6 @@
   url: "https://inventandoassunto.com"
   feed: "https://www.inventandoassunto.com/feeds/posts/default"
 
-- blog: "QUASE AURORA"
-  url: "https://quaseaurora.blogspot.com/"
-  feed: "https://quaseaurora.blogspot.com/feeds/posts/default"
-
 - blog: "MAIRA NAMBA"
   url: "https://www.mairanamba.com/"
   feed: "https://www.mairanamba.com/feed/"
@@ -252,13 +259,3 @@
 - blog: "Garota do 330"
   url: "https://garotado330.com.br"
   feed: "https://www.garotado330.com.br/feeds/posts/default"
-
-- blog: "A Arte de Ser"
-  url: "https://leozitoarts.bearblog.dev/"
-  feed: "https://leozitoarts.bearblog.dev/rss/"
-  added: "2026-04-02"
-
-- blog: "Quase Aurora"
-  url: "https://quaseaurora.blogspot.com/"
-  feed: "https://quaseaurora.blogspot.com/feeds/posts/default"
-  added: "2026-04-05"
