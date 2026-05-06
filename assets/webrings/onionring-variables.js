@@ -34,7 +34,7 @@ var websites = [
   "https://nicolledulce.wordpress.com/",
   "https://withsarti.blogspot.com/",
   "https://meudiariodespretensioso.blogspot.com/",
-  "https://blogdoth.com.br/",
+  "https://blogdoth.bearblog.dev/",
   "https://lizsaless.blogspot.com/",
   "https://inventandoassunto.com/",
   "https://quaseaurora.blogspot.com/",
@@ -55,9 +55,15 @@ var websites = [
   "https://tristezinhascotidianas.com.br/",
   "https://casaraodehistorias.blogspot.com/",
   "https://garotado330.com.br/",
-  "https://leozitoarts.bearblog.dev/"
+  "https://leozitoarts.bearblog.dev/",
+  "https://limaoquenada.blogspot.com/",
+  "https://poucogenial.tumblr.com/",
+  "https://rodrigo.ghed.in/blog/",
+  "https://manifestacaoliteraria.blogspot.com/",
+  "https://imprevistosmusicais.com.br/",
+  "https://d-obs.blogspot.com/",
+  "https://margemviva.netlify.app/",
 ];
-
 // Configurações visuais e de texto
 var ringName = "Webring do ENTREBLOGS";
 var ringID = "entreblogs-webring";
