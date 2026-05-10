@@ -6,7 +6,7 @@
     <atom:link href="https://entreblogs.com.br/feed-entreblogs.xml" rel="self" type="application/rss+xml"/>
     <description>Todas as postagens dos blogs participantes do Entreblogs</description>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 10 May 2026 16:59:01 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 20:52:33 GMT</lastBuildDate>
 
   <item>
     <title>Leandro Maciel — </title>
@@ -1980,6 +1980,14 @@ Com o tempo veio essa paz, uma calmaria, saber que a&nbsp; vida tem seus limites
   </item>
 
   <item>
+    <title>oieuoshi — Acho que sou maníaco</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/acho-que-sou-maniaco</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/acho-que-sou-maniaco</guid>
+    <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Acho que sou maníaco - Misc - Uoshi ← blog Acho que sou maníaco misc 🗂️ Nota: Possivelmente, dependendo do dispositivo que você estiver lendo esse texto, algumas palavras em inglês pode aparecer com hifenização errada, pois a configuração dessa página está apenas para o português. Okay? Vamos lá. Ac…]]></description>
+  </item>
+
+  <item>
     <title>FALA CATARINA — Sopa de capeletti é janta, sim!</title>
     <link>https://falacatarina.com/2026/04/28/sopa-de-capeletti-e-janta-sim/</link>
     <guid isPermaLink="true">https://falacatarina.com/2026/04/28/sopa-de-capeletti-e-janta-sim/</guid>
@@ -2641,6 +2649,238 @@ document.querySelectorAll(".like-container").forEach((container, index) => {
 
 <p class="wp-block-paragraph"></p>
 ]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Santo amaro</title>
+    <link>https://oieuoshi.vercel.app/blog/contos/santo-amaro</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/contos/santo-amaro</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Santo Amaro - Contos - Uoshi ← blog Santo amaro contos 📖 Publicado originalmente pela editora Lendari na antologia Creepypasta: Lendas da Internet Vol III 😊 Santo Amaro é um conto inspirado em Creepypast e narra a história de jovens estudantes e um professor em uma visita a um hospital psiquiátrico …]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Um conto do mar</title>
+    <link>https://oieuoshi.vercel.app/blog/contos/um-conto-do-mar</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/contos/um-conto-do-mar</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Um Conto do Mar - Contos - Uoshi ← blog Um conto do mar contos 📖 Durante uma sessão de tatuagem, o velho Eli confessa para seus amigos uma de suas desventuras, narrada com tinta e agora, com suas palavras. Quando jovem, ele vivia em uma pousada lavando pratos, servindo mesas e tatuando todo o tipo d…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Massala</title>
+    <link>https://oieuoshi.vercel.app/blog/contos/massala</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/contos/massala</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Massala - Contos - Uoshi ← blog Massala contos 📖 #3 no Top 100 + baixados na Amazon - 07 de julho 😊 #4 no Top 100 + baixados na Amazon - 07 de julho 😊 #6 no Top 100 + baixados na Amazon - 06 de julho 😊 Massala é um conto ambientado em futuro distópico, onde uma cidade é palco de um ataque kaiju e de…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Há pétalas sob o sol</title>
+    <link>https://oieuoshi.vercel.app/blog/contos/ha-petalas-sob-o-sol</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/contos/ha-petalas-sob-o-sol</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Há pétalas sob o sol - Contos - Uoshi ← blog Há pétalas sob o sol contos 📖 Algum momento presente. Tão acolhedor era o cair da tarde sobre Beladona, que o sol e a lua pareciam dançar exibindo suas belezas sobre as ruas encharcadas naquela época do ano. As folhas amareladas das árvores que tentavam r…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — A Janela</title>
+    <link>https://oieuoshi.vercel.app/blog/contos/a-janela</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/contos/a-janela</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[A Janela - Contos - Uoshi ← blog A Janela contos 📖 Esse texto foi originalmente publicado no Tubmlr em 2019. As silhuetas da noite marcaram uma narrativa estonteante nas paredes de madeira escura. O relâmpago se acendeu e o vento passou pelas frestas da janela, apagando as velas. Mas, ao contrário d…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Sob a mesa</title>
+    <link>https://oieuoshi.vercel.app/blog/contos/sob-a-mesa</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/contos/sob-a-mesa</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Sob a mesa - Contos - Uoshi ← blog Sob a mesa contos 📖 Esse texto foi originalmente publicado no Tumblr em 2019. A charrete parou, e um leve solavanco arrancou-me brutalmente dos meus devaneios. Ouvi algumas vozes ao redor, nenhuma familiar. — Chegamos, senhor! — Comentou François, enquanto relaxava…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Reminiscência</title>
+    <link>https://oieuoshi.vercel.app/blog/contos/reminiscencia</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/contos/reminiscencia</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Reminiscência - Contos - Uoshi ← blog Abril 26, 2021 Reminiscência contos 📖 Esse é um breve conto, criado para e publicado pela editora Cavalo Café na antologia Insólitos. Reminiscência tem uma narrativa forte e punitiva, não escondendo com beleza aspectos cruéis da realidade, porém, também busca tr…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Nanquim</title>
+    <link>https://oieuoshi.vercel.app/blog/contos/nanquim</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/contos/nanquim</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Nanquim - Contos - Uoshi ← blog Nanquim contos 📖 Jon é uma artista reclusa, a típica nerd que prefere viver em seus próprios devaneios e não encarar o mundo e suas verdades. Durante uma noite na biblioteca da cidade, enquanto estudava anatomia de animais e desenhava criaturas fantásticas em seu cade…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Sofia</title>
+    <link>https://oieuoshi.vercel.app/blog/contos/sofia</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/contos/sofia</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Sofia - Contos - Uoshi ← blog Maio 28, 2021 Sofia contos 📖 Sofia é um conto inspirado na cultura cyberpunk em um futuro distópico. Criado com o incentivo de um desafio no Twitter e também dedicado ao apoiadores mensais. Um agradecimento especial para toda a galera que deu like no tweet e tornou essa…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Já é Setembro</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/ja-e-setembro</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/ja-e-setembro</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Já é Setembro - Misc - Uoshi ← blog Já é Setembro misc 🗂️ Toda primeira semana de cada mês eu costumo postar fotos e vídeos que tiro durante o mês anterior, algo como um dump , mas dificilmente solto arquivos crus, pois sempre edito logo que capturo. Porém, acabei de notar que eu não tenho nada pra …]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Quero escrever sem escrever</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/quero-escrever-sem-escrever</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/quero-escrever-sem-escrever</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Quero escrever sem escrever - Misc - Uoshi ← blog Quero escrever sem escrever misc 🗂️ Estou num hiperfoco com zines , é. Não é ruim, fazia um tempo que eu tava buscando novas formas de me expressar, me divertir, e que diria que bagunçar e dobrar um A4 seria tão interessante. Desde que me afastei da …]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — As redes sociais venceram, ou quase</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/as-redes-sociais-venceram-ou-quase</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/as-redes-sociais-venceram-ou-quase</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[As redes sociais venceram, ou quase - Misc - Uoshi ← blog As redes sociais venceram, ou quase misc 🗂️ Originalmente publicado no Substack em julho de 2025. I. Interessante. Na última (primeira) edição dessa newsletter te falei sobre a pressão contemporânea da produtividade… você precisa fazer mais, …]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Já é Setembro</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/pare-de-fazer</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/pare-de-fazer</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Rotina em curto - Misc - Uoshi ← blog Já é Setembro misc 🗂️ ♡ … tem algo a dizer? escreve pra mim ↗…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Como criei um campo de comentários para meu Blog</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/campo-comentarios-blog</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/campo-comentarios-blog</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Como criei um campo de comentários para meu Blog - Misc - Uoshi ← blog Como criei um campo de comentários para meu Blog misc 🗂️ Há bastante tempo venho tentando criar uma “simples” caixa de comentários para os posts do blog. O que parecia ser uma tarefa fácil acabou se tornando uma das maiores desve…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Porque eu fiz uma extensão pra salvar textos destacados</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/porque-eu-fiz-uma-extensao-pra-salvar-textos-destacados</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/porque-eu-fiz-uma-extensao-pra-salvar-textos-destacados</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Porque eu fiz uma extensão pra salvar textos destacados - Misc - Uoshi ← blog Porque eu fiz uma extensão pra salvar textos destacados misc 🗂️ Antes de mais nada, esse post, sem querer, virou quase um estudo de caso :D então separei em alguns tópicos pra ficar mais fluído, mas prometo que é rápido, f…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Somos artistas de merda</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/carta-aberta-a-quem-eu-disse-eu-te-amo</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/carta-aberta-a-quem-eu-disse-eu-te-amo</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Somos artistas de merda - Misc - Uoshi ← blog Somos artistas de merda misc 🗂️ É indescritível quando estou com vocês. McCandless escreveu que “a felicidade só é real quando compartilhada” e existe uma verdade absoluta nisso. Tão absoluta quanto a solitude ser uma virtude é mentira. Há espaços na sol…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Sobre o patch de idioma de Initial D Street Stage (PPSSPP)</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/sobre-patch-idioma-initial-d-street-stage-ppsspp</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/sobre-patch-idioma-initial-d-street-stage-ppsspp</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Sobre o patch de idioma de Initial D Street Stage (PPSSPP) - Misc - Uoshi ← blog Sobre o patch de idioma de Initial D Street Stage (PPSSPP) misc 🗂️ Acho que esse é o tipo de publicação que entra na categoria MISC, pois é sobre algo que amo, mas talvez você não faça ideia do que tô falando (mas sugir…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Os millenials mataram a paixão</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/os-millennials-mataram-a-paixao</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/os-millennials-mataram-a-paixao</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Os millenials mataram a paixão - Misc - Uoshi ← blog Os millenials mataram a paixão misc 🗂️ I. A velha história da paixão versus amor Quando paro pra pensar sobre a paixão e o amor, há duas coisas que ficam claras de imediato: a paixão é tempo e o amor é espaço. Bachelard fala sobre a memória como a…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Como conectar um Kinect XBOX usando USB</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/como-conectar-um-kinect-xbox-usando-usb</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/como-conectar-um-kinect-xbox-usando-usb</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Como conectar um Kinect XBOX usando USB - Misc - Uoshi ← blog Como conectar um Kinect XBOX usando USB misc 🗂️ Há algumas semanas venho me coçando pra descolar um Kinect de XBOX . Ou melhor, faz algumas semanas que eu estou nessa espécie de hiperfoco com arte digital interativa e consumindo horrores …]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Então ela virou uma cadela</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/entao-ela-virou-uma-cadela</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/entao-ela-virou-uma-cadela</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Então ela virou uma cadela - Misc - Uoshi ← blog Então ela virou uma cadela misc 🗂️ O cavaleiro parte em uma aventura enquanto a sua "amada" espera fiel ao seu retorno. Você conhece essa premissa de merda, narrativas que romantizam a espera feminina e normalizam relações abusivas. Gwain's Girlfriend…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Somos artistas de merda</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/somos-artistas-de-merda</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/somos-artistas-de-merda</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Somos artistas de merda - Misc - Uoshi ← blog Somos artistas de merda misc 🗂️ Me perdi olhando pela janela do 13º andar hoje. Choveu no Centro da cidade, meus pés molharam, mas tudo bem. Lembrei de algo precioso, que talvez tenha ficado no passado e senti aquela ansiedade pois não fiz o suficiente p…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Por que eu codo as coisas?</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/por-que-eu-codo-as-coisas</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/por-que-eu-codo-as-coisas</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Por que eu codo as coisas? - Misc - Uoshi ← blog Por que eu codo as coisas? misc 🗂️ Originalmente publicado no Substack em Julho de 2025. I. Você já se pegou pensando no motivo de fazer isso ou aquilo ... alguma coisa que você faz sem pensar no motivo enquanto faz ? Eu nunca estudei programação, mas…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Pare de criar, sua criatividade agradece</title>
+    <link>https://oieuoshi.vercel.app/blog/misc/pare-de-criar-sua-criatividade-agradece</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/misc/pare-de-criar-sua-criatividade-agradece</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Pare de criar, sua criatividade agradece - Misc - Uoshi ← blog Pare de criar, sua criatividade agradece misc 🗂️ Originalmente publicado no Substack em Abril de 2025. I. Você precisa parar de se sentir culpada por fazer nada… e eu também. Já faz algum tempo que tô arrastando esse feeling , e tentando…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — O Ócio no Caos</title>
+    <link>https://oieuoshi.vercel.app/blog/ensaios/o-ocio-no-caos</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/ensaios/o-ocio-no-caos</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[O Ócio no Caos - Ensaios - Uoshi ← blog O Ócio no Caos ensaios 📝 Transcrição da apresentação do projeto: “O ÓCIO NO CAOS - RESSIGNIFICAR O EXCESSO EM CYBERPUNK 2077 FRENTE À SOCIEDADE DO CANSAÇO”, no 12º Seminário Nacional - CINEMA EM PERSPECTIVA na UNESPAR em 2025. *** Hoje eu trago pra compartilha…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Melancolia Pós-Moderna Contemplativa</title>
+    <link>https://oieuoshi.vercel.app/blog/ensaios/melancolia-pos-moderna-contemplativa</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/ensaios/melancolia-pos-moderna-contemplativa</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Melancolia Pós-Moderna Contemplativa - Ensaios - Uoshi ← blog Melancolia Pós-Moderna Contemplativa ensaios 📝 No final de setembro publiquei meu primeiro artigo científico na revista Coletivo Cine-Fórum . Esse texto é bem especial, eu produzi no primeiro ano do mestrado quando ainda pesquisava sobre …]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Samurai Negão</title>
+    <link>https://oieuoshi.vercel.app/blog/ensaios/samurai-negao</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/ensaios/samurai-negao</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Samurai Negão - Ensaios - Uoshi ← blog Samurai Negão ensaios 📝 Transcrição da apresentação do projeto: “SAMURAI NEGÃO: ATRAVESSAMENTOS CULTURAIS EM GHOST DOG (1999) (filme de Jim Jarmusch) E AFRO SAMURAI (2007) (anime de Takashi Okazaki)”, no 5º CINE-FÓRUM - Cinema, Letras, Arte, Sociedade e Debate,…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Um Pixel Morreu e Chorei</title>
+    <link>https://oieuoshi.vercel.app/blog/ensaios/um-pixel-morreu-e-chorei</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/ensaios/um-pixel-morreu-e-chorei</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Um Pixel Morreu e Chorei - Ensaios - Uoshi ← blog Um Pixel Morreu e Chorei ensaios 📝 Transcrição da apresentação do projeto: “UM PIXEL MORREU E CHOREI: HIPER-REALIDADE EMOCIONAL EM LOGAN (filme de James Mangold, lançado em 2017) E THE LAST OF US PART II (jogo da Naughty Dog, lançado 2020)”, no Semin…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Farpas e sal</title>
+    <link>https://oieuoshi.vercel.app/blog/poesias/farpas-sal</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/poesias/farpas-sal</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Farpas e Sal - Poesias - Uoshi ← blog Farpas e sal poesias 📖 Esse texto foi originalmente publicado no Tumblr em 2019. Há algo curioso e doce na solidão. Algo que transcende tempo e lógica, intrínseco eu diria. Fecho os olhos e os aperto forte para cair em um mar de ilusão menos profano do que o pró…]]></description>
+  </item>
+
+  <item>
+    <title>oieuoshi — Ao chegar ao chão</title>
+    <link>https://oieuoshi.vercel.app/blog/poesias/ao-chegar-ao-chao</link>
+    <guid isPermaLink="true">https://oieuoshi.vercel.app/blog/poesias/ao-chegar-ao-chao</guid>
+    <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
+    <description><![CDATA[Ao chegar ao chão - Poesias - Uoshi ← blog Ao chegar ao chão poesias 📖 O sol negro planta escuridão E o luar vermelho jorra sobre as planícies Há um vazio nesse meio, um espaço em branco Mas preenchido de cores indistinguíveis O cheiro de medo, destino, e fascínio... Desespero Essas amarras puxam me…]]></description>
   </item>
 
   <item>
@@ -13240,7 +13480,7 @@ Obrigado por continuarem sendo a resistência, fazendo o que é mais difícil, q
 </div>
 <br />
 
-</div><div class="separator" style="clear: both; text-align: center;"><iframe allowfullscreen='allowfullscreen' webkitallowfullscreen='webkitallowfullscreen' mozallowfullscreen='mozallowfullscreen' width='320' height='266' src='https://www.blogger.com/video.g?token=AD6v5dwI2pTVTQ-D_LKe0J9yZtSyd289mAkWJsLcMHU0CCsgSgAP0Mlp6JkjxzpPgaP7YagrlTLJMAVz2yimY6YOQg' class='b-hbp-video b-uploaded' frameborder='0'></iframe></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">Esse vídeo é da semana anterior,&nbsp;</span></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">mas quis colocar ele aqui hoje,&nbsp;</span></div><div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">bem como a foto do r36s acima.</span></div><div><br /></div><div><div style="text-align: justify;"><span style="font-family: inherit;"><span style="background-color: white; color: #111111;">Blog e leitores, antes de saírem, dêem uma olhadinha nos meus outros cantos dessa interneta - é só navegar até a página&nbsp;</span><a href="https://prazerwillian.blogspot.com/p/blogroll.html" style="background-color: white; color: #6d6d6d; text-decoration-line: none;" target="_blank"><b><span style="color: #3d85c6;">BLOGROLL</span></b></a><span style="background-color: white; color: #111111;">. Tem alguns blogs que sigo lá também bem legais! Garanto que não vão se arrepender.</span></span></div><div style="text-align: justify;"><span style="font-size: x-small;"><a href="https://willianernani1.blogspot.com/" target="_blank"></a><br /></span>Então pessoal, foi esse o post. Espero que tenham gostado.&nbsp;<span style="font-family: inherit;">Um grande abraço, e, até o próximo!</span><img height="20" src="https://pic.sopili.net/pub/emoji/noto-emoji/png/128/emoji_u1f643.png" style="font-family: inherit;" width="20" /></div></div><div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: right; margin-left: 1em; text-align: right;"><tbody><tr><td style="text-align: center;"><span style="margin-left: auto; margin-right: auto;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><img border="0" data-original-height="400" data-original-width="600" height="266" src="https://2.bp.blogspot.com/-vZMaC41jqU4/W0yhg6RQWUI/AAAAAAAAMZI/rwcBxwmoerkOnJTBsnCkJXbmMEsxiUXCQCLcBGAs/s400/Assinatura%2B1.gif" width="400" /></a></span></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><br /></a></td></tr></tbody></table><br /><span></span>
+</div><div class="separator" style="clear: both; text-align: center;"><iframe allowfullscreen='allowfullscreen' webkitallowfullscreen='webkitallowfullscreen' mozallowfullscreen='mozallowfullscreen' width='320' height='266' src='https://www.blogger.com/video.g?token=AD6v5dyJKyA3h7Kh8MlPyo9ptPIW_5h0Zfp0txUALMBGCiSfoRRyIM2uTLWL3canqlpE13LxhtUsDfdwZN0CZb-yDw' class='b-hbp-video b-uploaded' frameborder='0'></iframe></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">Esse vídeo é da semana anterior,&nbsp;</span></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">mas quis colocar ele aqui hoje,&nbsp;</span></div><div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">bem como a foto do r36s acima.</span></div><div><br /></div><div><div style="text-align: justify;"><span style="font-family: inherit;"><span style="background-color: white; color: #111111;">Blog e leitores, antes de saírem, dêem uma olhadinha nos meus outros cantos dessa interneta - é só navegar até a página&nbsp;</span><a href="https://prazerwillian.blogspot.com/p/blogroll.html" style="background-color: white; color: #6d6d6d; text-decoration-line: none;" target="_blank"><b><span style="color: #3d85c6;">BLOGROLL</span></b></a><span style="background-color: white; color: #111111;">. Tem alguns blogs que sigo lá também bem legais! Garanto que não vão se arrepender.</span></span></div><div style="text-align: justify;"><span style="font-size: x-small;"><a href="https://willianernani1.blogspot.com/" target="_blank"></a><br /></span>Então pessoal, foi esse o post. Espero que tenham gostado.&nbsp;<span style="font-family: inherit;">Um grande abraço, e, até o próximo!</span><img height="20" src="https://pic.sopili.net/pub/emoji/noto-emoji/png/128/emoji_u1f643.png" style="font-family: inherit;" width="20" /></div></div><div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: right; margin-left: 1em; text-align: right;"><tbody><tr><td style="text-align: center;"><span style="margin-left: auto; margin-right: auto;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><img border="0" data-original-height="400" data-original-width="600" height="266" src="https://2.bp.blogspot.com/-vZMaC41jqU4/W0yhg6RQWUI/AAAAAAAAMZI/rwcBxwmoerkOnJTBsnCkJXbmMEsxiUXCQCLcBGAs/s400/Assinatura%2B1.gif" width="400" /></a></span></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><br /></a></td></tr></tbody></table><br /><span></span>
 </div></div>]]></description>
   </item>
 
