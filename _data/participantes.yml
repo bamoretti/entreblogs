@@ -6,6 +6,21 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
+- blog: "Recurso ao tempo"
+  url: "https://stempoirmao.blogspot.com/"
+  feed: "https://stempoirmao.blogspot.com/feed"
+  added: "2026-05-09"
+
+- blog: "cujo.casa"
+  url: "https://cujo.casa/"
+  feed: "https://cujo.casa/blog/feed.xml/"
+  added: "2026-05-07"
+
+- blog: "bruja"
+  url: "https://bruja.bearblog.dev/"
+  feed: "https://bruja.bearblog.dev/feed/"
+  added: "2026-05-02"
+
 - blog: "Limonada"
   url: "https://limaoquenada.blogspot.com"
   feed: "https://limaoquenada.blogspot.com/feeds/posts/default"
@@ -50,7 +65,6 @@
   url: "https://quaseaurora.blogspot.com/"
   feed: "https://quaseaurora.blogspot.com/feeds/posts/default"
   added: "2026-04-05"
-
 
 - blog: "j u l i e ’ s"
   url: "https://julietheblog.blogspot.com/"
