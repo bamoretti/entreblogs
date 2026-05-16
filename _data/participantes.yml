@@ -6,9 +6,19 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
+- blog: "Logs"
+  url: "https://logs.bearblog.dev/"
+  feed: "https://logs.bearblog.dev/feed/"
+  added: "2026-05-16"
+  
+- blog: "Pensamentos Enlatados"
+  url: "https://pensamentos-enlatados.blogspot.com/"
+  feed: "https://pensamentos-enlatados.blogspot.com/feeds/posts/default?alt=rss"
+  added: "2026-05-11" 
+
 - blog: "Recurso ao tempo"
   url: "https://stempoirmao.blogspot.com/"
-  feed: "https://stempoirmao.blogspot.com/feed"
+  feed: "https://stempoirmao.blogspot.com/feeds/posts/default"
   added: "2026-05-09"
 
 - blog: "cujo.casa"
@@ -145,10 +155,6 @@
 - blog: "A MENINA DA JANELA"
   url: "https://ameninadajanela.com"
   feed: "https://ameninadajanela.com/feed"
-
-- blog: "CONCEITO INVERSO"
-  url: "https://conceitoinverso.com"
-  feed: "https://conceitoinverso.com/feed/"
 
 - blog: "MEU MUSEU PARTICULAR"
   url: "https://meumuseuparticular.blogspot.com"
