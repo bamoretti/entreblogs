@@ -33,7 +33,7 @@ O clube de leitura é um projeto paralelo onde escolhemos um livro por mês para
       <a href="{{ site.baseurl }}/clube-de-leitura/a-vegetariana-han-kang">
         <img src="{{ site.baseurl }}/assets/livros/a-vegetariana-han-kang.jpg">
       </a>
-      <figcaption>A Vegetariana • Han Kang (leitura atual)</figcaption>
+      <figcaption>A Vegetariana • Han Kang</figcaption>
     </figure>
   </li>
 
