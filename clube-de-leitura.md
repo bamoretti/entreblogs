@@ -10,6 +10,16 @@ O clube de leitura é um projeto paralelo onde escolhemos um livro por mês para
 <ul class="link-livros">
 
   <li>
+    <figure class="capa-do-livro" livro-numero="06/26">
+      <a href="{{ site.baseurl }}/clube-de-leitura/com-amor-felicia-gilbert-luly-lage">
+        <img src="{{ site.baseurl }}/assets/livros/com-amor-felicia-gilbert-luly-lage.jpg">
+      </a>
+      <figcaption>Com amor, Felicia Gilbert • Luly Lage</figcaption>
+    </figure>
+  </li>
+  
+
+  <li>
     <figure class="capa-do-livro" livro-numero="05/26">
       <a href="{{ site.baseurl }}/clube-de-leitura/memorias-do-subsolo-fiodor-dostoievski">
         <img src="{{ site.baseurl }}/assets/livros/memorias-do-subsolo-fiodor-dostoievski.jpg">
