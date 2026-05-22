@@ -1,5 +1,12 @@
+# --- INÍCIO Memórias do Subsolo ---
+- livro: "Memórias do Subsolo • Fiódor Dostoiévski"
+  nome: ""
+  url: ""
+
+# --- FINAL Memórias do Subsolo ---
+
 # --- INÍCIO A Vegetariana ---
-- livro: "A Vegetariana • Han Kang"
+- livro: "A Vegetariana •  Han Kang"
   nome: "Kakumei Blog"
   url: "https://kakumei-blog.blogspot.com/2026/04/clube-de-leitura-3-vegetariana-kang-han.html"
 
@@ -7,36 +14,42 @@
   nome: "Nýr Dagur"
   url: "https://nyrtais.blogspot.com/2026/04/ultimas-leituras-3.html?m=1"
 
+- livro: "A Vegetariana • Han Kang"
+  nome: "Igor Medeiroz"
+  url: "https://www.igormedeiroz.com/2026/04/a-vegetariana-han-kang.html"
+
 # --- FINAL A Vegetariana ---
 
-# --- INÍCIO Três ---
+# --- INÍCIO Três —
 - livro: "Três • Valerie Perrin"
   nome: "Luly Lage"
   url: "https://lulylage.com/minhas-ultimas-leituras-3/"
-  
-- livro: "Três • Valérie Perrin"
+
+- livro: "Três • Valerie Perrin"
   nome: "Boletins Inúteis"
   url: "https://www.igormedeiroz.com/2026/03/tres-valerie-perrin.html"
 
-- livro: "Três • Valérie Perrin"
-  nome: "Nýr Dagur"
-  url: "https://nyrtais.blogspot.com/2026/03/ultimas-leituras-2.html?m=1"
+-livro: "Três • Valerie Perrin"
+nome: "Nýr Dagur"
+url: "https://nyrtais.blogspot.com/2026/03/ultimas-leituras-2.html?m=1"
 
-- livro: "Três • Valérie Perrin"
+- livro: "Três • Valerie Perrin"
   nome: "Inventando Assunto"
   url: "https://www.inventandoassunto.com/2026/03/clube-de-leitura-tres-valerie-perrin.html"
 
-- livro: "Três • Valérie Perrin"
+- livro: "Três • Valerie Perrin"
   nome: "Deniac e Sua Vida Low-Tech"
   url: "https://deniac.com/2026/03/25/tres-de-valerie-perrin/"
 
-- livro: "Três • Valérie Perrin"
+- livro: "Três • Valerie Perrin"
   nome: "BMRTT"
   url: "https://www.bamoretti.com/2026/04/tres-de-valerie-perrin.html"
 
 - livro: "Três • Valerie Perrin"
   nome: "Fala Catarina"
   url: "https://falacatarina.com/2026/04/04/para-voce-a-gente-sempre-vai-ter-um-carro-novo-com-o-tanque-cheio/"
+
+
 # --- FINAL Três ---
 
 # --- INÍCIO A Cabeça do Santo • Socorro Acioli ---
@@ -60,6 +73,7 @@
   nome: "Fala Catarina"
   url: "https://falacatarina.com/2026/02/15/o-tempo-de-sonhar-e-em-cima-da-terra/"
 
+
 - livro: "A Cabeça do Santo • Socorro Acioli"
   nome: "Inventando Assunto"
   url: "https://www.inventandoassunto.com/2026/02/clube-de-leitura-cabeca-do-santo.html"
@@ -69,3 +83,5 @@
   url: "https://lulylage.com/a-cabeca-do-santo-socorro-acioli/"
   
 # --- FINAL A Cabeça do Santo ---
+
+
