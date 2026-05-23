@@ -1,4 +1,5 @@
 # --- INÍCIO TEMA Assistir ao mesmo filme ---
+
 - tema: "Assistir ao mesmo filme"
   nome: "cujo.casa"
   url: "https://cujo.casa/blog/2026/resenha-interestelar-2014/"
@@ -10,6 +11,7 @@
 # --- FINAL TEMA Assistir ao mesmo filme ---
 
 # --- INÍCIO TEMA Cinco coisas que me fazem feliz ---
+
 - tema: "Cinco coisas que me fazem feliz"
   nome: "Pensamentos Enlatados"
   url: "https://pensamentos-enlatados.blogspot.com/2026/05/5-coisas-que-me-fazem-feliz.html"
@@ -81,9 +83,10 @@
 # --- FINAL TEMA Cinco coisas que me fazem feliz ---
 
 # --- INÍCIO TEMA Uma semana comigo ---
+
 - tema: "Uma semana comigo"
   nome: "Luly Lage"
-  url: "https://lulylage.com/uma-semana-de-sp-arte-comigo/” 
+  url: "https://lulylage.com/uma-semana-de-sp-arte-comigo/" 
 
 - tema: "Uma semana comigo"
   nome: "Caderninho"
@@ -124,6 +127,7 @@
 # --- FINAL TEMA Uma semana comigo ---
 
 # --- INÍCIO TEMA Museu ---
+
 - tema: "Museu"
   nome: "Boletins Inúteis"
   url: "https://www.igormedeiroz.com/as-paredes-como-museu"
@@ -179,6 +183,7 @@
 # --- FINAL TEMA Museu ---
 
 # --- INÍCIO TEMA Recap 2025 ---
+
 - tema: "Recap 2025"
   nome: "Nicolle Dulce"
   url: "https://nicolledulce.wordpress.com/2026/01/11/ojala-que-los-mios-nunca-se-muden-recap-2025/"
