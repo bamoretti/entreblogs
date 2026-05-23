@@ -1,17 +1,3 @@
-# --- INÍCIO Com amor, Felicia Gilbert ---
-- livro: "Com amor, Felicia Gilbert • Luly Lage"
-  nome: ""
-  url: ""
-
-# --- FINAL Com amor, Felicia Gilbert ---
-
-# --- INÍCIO Memórias do Subsolo ---
-- livro: "Memórias do Subsolo • Fiódor Dostoiévski"
-  nome: ""
-  url: ""
-
-# --- FINAL Memórias do Subsolo ---
-
 # --- INÍCIO A Vegetariana ---
 - livro: "A Vegetariana • Han Kang"
   nome: "Kakumei Blog"
@@ -31,32 +17,30 @@
 - livro: "Três • Valerie Perrin"
   nome: "Luly Lage"
   url: "https://lulylage.com/minhas-ultimas-leituras-3/"
-
-- livro: "Três • Valerie Perrin"
+  
+- livro: "Três • Valérie Perrin"
   nome: "Boletins Inúteis"
   url: "https://www.igormedeiroz.com/2026/03/tres-valerie-perrin.html"
 
-- livro: "Três • Valerie Perrin"
+- livro: "Três • Valérie Perrin"
   nome: "Nýr Dagur"
   url: "https://nyrtais.blogspot.com/2026/03/ultimas-leituras-2.html?m=1"
 
-- livro: "Três • Valerie Perrin"
+- livro: "Três • Valérie Perrin"
   nome: "Inventando Assunto"
   url: "https://www.inventandoassunto.com/2026/03/clube-de-leitura-tres-valerie-perrin.html"
 
-- livro: "Três • Valerie Perrin"
+- livro: "Três • Valérie Perrin"
   nome: "Deniac e Sua Vida Low-Tech"
   url: "https://deniac.com/2026/03/25/tres-de-valerie-perrin/"
 
-- livro: "Três • Valerie Perrin"
+- livro: "Três • Valérie Perrin"
   nome: "BMRTT"
   url: "https://www.bamoretti.com/2026/04/tres-de-valerie-perrin.html"
 
 - livro: "Três • Valerie Perrin"
   nome: "Fala Catarina"
   url: "https://falacatarina.com/2026/04/04/para-voce-a-gente-sempre-vai-ter-um-carro-novo-com-o-tanque-cheio/"
-
-
 # --- FINAL Três ---
 
 # --- INÍCIO A Cabeça do Santo • Socorro Acioli ---
@@ -89,5 +73,3 @@
   url: "https://lulylage.com/a-cabeca-do-santo-socorro-acioli/"
   
 # --- FINAL A Cabeça do Santo ---
-
-
