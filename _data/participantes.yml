@@ -6,6 +6,11 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
+- blog: "Diário Online"
+  url: "https://www.diarioonline.blog/sobre"
+  feed: "https://www.diarioonline.blog/"
+  added: "2026-05-19"
+  
 - blog: "Logs"
   url: "https://logs.bearblog.dev/"
   feed: "https://logs.bearblog.dev/feed/"
