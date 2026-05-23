@@ -36,9 +36,9 @@
   nome: "Boletins Inúteis"
   url: "https://www.igormedeiroz.com/2026/03/tres-valerie-perrin.html"
 
--livro: "Três • Valerie Perrin"
-nome: "Nýr Dagur"
-url: "https://nyrtais.blogspot.com/2026/03/ultimas-leituras-2.html?m=1"
+- livro: "Três • Valerie Perrin"
+  nome: "Nýr Dagur"
+  url: "https://nyrtais.blogspot.com/2026/03/ultimas-leituras-2.html?m=1"
 
 - livro: "Três • Valerie Perrin"
   nome: "Inventando Assunto"
