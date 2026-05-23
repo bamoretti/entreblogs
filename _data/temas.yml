@@ -1,3 +1,14 @@
+# --- INÍCIO TEMA Assistir ao mesmo filme ---
+- tema: "Assistir ao mesmo filme"
+  nome: "cujo.casa"
+  url: "https://cujo.casa/blog/2026/resenha-interestelar-2014/"
+
+- tema: "Assistir ao mesmo filme"
+  nome: "BMRTT"
+  url: "https://www.bamoretti.com/2026/05/o-amor-e-unica-coisa-que-transcende-o.html"
+
+# --- FINAL TEMA Assistir ao mesmo filme ---
+
 # --- INÍCIO TEMA Cinco coisas que me fazem feliz ---
 - tema: "Cinco coisas que me fazem feliz"
   nome: "Pensamentos Enlatados"
@@ -30,13 +41,13 @@
 - tema: "Cinco coisas que me fazem feliz"
   nome: "Cosmoliko"
   url: "https://cosmoliko.com/cinco-coisas-que-me-fazem-feliz-abracos-ceu-filmes-andarilhar-experiencias-surpreendentes/"
-  
+
 - tema: "Cinco coisas que me fazem feliz"
   nome: "Ondeando"
   url: "https://pedro.dalbo.me/blog/cinco-coisas-que-me-fazem-feliz/"
 
 - tema: "Cinco coisas que me fazem feliz"
-  nome: "Manifestação Literária"
+  nome: "Manifestação Literária”
   url: "https://manifestacaoliteraria.blogspot.com/2026/04/5-coisas-literarias-que-me-fazem-feliz.html"
 
 - tema: "Cinco coisas que me fazem feliz"
@@ -66,13 +77,13 @@
 - tema: "Cinco coisas que me fazem feliz"
   nome: "Hey! I’m With The Band"
   url: "https://www.heyimwiththeband.com.br/2026/04/5-coisas-que-nao-sao-necessariamente.html"
-  
+
 # --- FINAL TEMA Cinco coisas que me fazem feliz ---
 
 # --- INÍCIO TEMA Uma semana comigo ---
 - tema: "Uma semana comigo"
   nome: "Luly Lage"
-  url: "https://lulylage.com/uma-semana-de-sp-arte-comigo/"
+  url: "https://lulylage.com/uma-semana-de-sp-arte-comigo/” 
 
 - tema: "Uma semana comigo"
   nome: "Caderninho"
@@ -109,6 +120,7 @@
 - tema: "Uma semana comigo"
   nome: "A Menina da Janela"
   url: "https://ameninadajanela.com/uma-semana-comigo-entreblogs/"
+
 # --- FINAL TEMA Uma semana comigo ---
 
 # --- INÍCIO TEMA Museu ---
@@ -159,7 +171,7 @@
 - tema: "Museu"
   nome: "caderninho"
   url: "https://www.jteotonio.com.br/2026/02/museus.html"
-  
+
 - tema: "Museu"
   nome: "Maira Namba"
   url: "https://www.mairanamba.com/um-museu-na-italia/"
@@ -184,7 +196,7 @@
   url: "https://lulylage.com/favoritos-de-2025/"
 
 - tema: "Recap 2025"
-  nome: "BMRTTi"
+  nome: "BMRTT"
   url: "https://www.bamoretti.com/2026/01/just-remember-life-isnt-about-finding.html"
 
 - tema: "Recap 2025"
