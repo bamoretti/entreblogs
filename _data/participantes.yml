@@ -6,16 +6,11 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
-- blog: "Diário Online"
-  url: "https://www.diarioonline.blog/sobre"
-  feed: "https://www.diarioonline.blog/"
-  added: "2026-05-19"
-
 - blog: "Logs"
   url: "https://logs.bearblog.dev/"
   feed: "https://logs.bearblog.dev/feed/"
   added: "2026-05-16"
-
+  
 - blog: "Pensamentos Enlatados"
   url: "https://pensamentos-enlatados.blogspot.com/"
   feed: "https://pensamentos-enlatados.blogspot.com/feeds/posts/default?alt=rss"
@@ -73,7 +68,7 @@
 
 - blog: "A Arte de Ser"
   url: "https://leozitoarts.bearblog.dev/"
-  feed: "https://leozitoarts.bearblog.dev/rss/"
+  feed: "leozitoarts.bearblog.dev/rss/"
   added: "2026-04-02"
 
 - blog: "Quase Aurora"
@@ -161,10 +156,6 @@
   url: "https://ameninadajanela.com"
   feed: "https://ameninadajanela.com/feed"
 
-- blog: "CONCEITO INVERSO"
-  url: "https://conceitoinverso.com"
-  feed: "https://conceitoinverso.com/feed/"
-
 - blog: "MEU MUSEU PARTICULAR"
   url: "https://meumuseuparticular.blogspot.com"
   feed: "https://meumuseuparticular.blogspot.com/feeds/posts/default"
@@ -178,7 +169,7 @@
   feed: "https://dailysoh.blogspot.com/feeds/posts/default"
 
 - blog: "LULY LAGE"
-  url: "https://lulylage.com/"
+  url: "https://lulylage.com/blog"
   feed: "https://lulylage.com/feed/"
 
 - blog: "FALA CATARINA"
