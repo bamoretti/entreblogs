@@ -6,6 +6,16 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
+- blog: "Enfim Outono"
+  url: "https://enfim-outono.blogspot.com/"
+  feed: “https://enfim-outono.blogspot.com/feeds/posts/default"
+  added: "2026-05-25"
+
+- blog: "miya"
+  url: "https://listography.com/iyaz"
+  feed: “https://listography.com/iyaz"
+  added: "2026-05-24"
+
 - blog: "Diário Online"
   url: "https://www.diarioonline.blog/sobre"
   feed: "https://www.diarioonline.blog/"
