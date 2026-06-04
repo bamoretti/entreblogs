@@ -28,7 +28,7 @@
   
 - blog: "Pensamentos Enlatados"
   url: "https://pensamentos-enlatados.blogspot.com/"
-  feed: "https://pensamentos-enlatados.blogspot.com/feeds/posts/default?alt=rss"
+  feed: "https://pensamentos-enlatados.blogspot.com/feeds/posts/default"
   added: "2026-05-11" 
 
 - blog: "Recurso ao tempo"
@@ -83,7 +83,7 @@
 
 - blog: "A Arte de Ser"
   url: "https://leozitoarts.bearblog.dev/"
-  feed: "leozitoarts.bearblog.dev/rss/"
+  feed: "https://leozitoarts.bearblog.dev/rss/"
   added: "2026-04-02"
 
 - blog: "Quase Aurora"
