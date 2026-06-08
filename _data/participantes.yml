@@ -6,6 +6,11 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
+- blog: "✶"
+  url: "https://kxthar.blogspot.com"
+  feed: "https://kxthar.blogspot.com/feeds/posts/default"
+  added: "2026-06-05"
+
 - blog: "Enfim Outono"
   url: "https://enfim-outono.blogspot.com/"
   feed: "https://enfim-outono.blogspot.com/feeds/posts/default"
