@@ -3,7 +3,7 @@ layout: projeto
 type: posts
 title: Amigo Segreto (2026)
 description: Junho de 2026
-permalink: /posts/Amigo-Secreto-2026/
+permalink: /posts/amigo-secreto-2026/
 ---
 
 Essa é a primeira vez que vamos realizar o nosso primeiro amigo secreto.
