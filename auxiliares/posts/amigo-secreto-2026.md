@@ -25,7 +25,8 @@ qualquer coisa que você ache que essa pessoa gostaria de ganhar.
 
 Importante que o arquivo .zip esteja com senha para ninguém abrir antes.
 Os arquivos vão ser adicionados no drive do projeto, assim todo mundo conseguiria acessar e ver quem ganhou o que.
- 
+
+- O sorteio vai ser feito através do site Amigo Secreto, <a href="https://amigosecreto.com.br/grupo/entreblogs-2026</a> clique aqui para participar do grupo.
 <h4>Blogs participantes:</h4>
 
 <ul class="link-temas">
