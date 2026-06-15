@@ -27,7 +27,7 @@ Importante que o arquivo .zip esteja com senha para ninguém abrir antes.
 Os arquivos vão ser adicionados no drive do projeto, assim todo mundo conseguiria acessar e ver quem ganhou o que.
 
 Como participar?
-- O sorteio vai ser feito através do site Amigo Secreto, <a href="https://amigosecreto.com.br/grupo/entreblogs-2026> clique aqui para participar do grupo</a>.
+- O sorteio vai ser feito através do site Amigo Secreto, <a href="https://amigosecreto.com.br/grupo/entreblogs-2026> clique aqui para participar do grupo</a>. E é um site que permite conversar anonimamente com as pessoas, assim:
 - No chat "quem me tirou" você vai receber um tema para o mês de dezembro da pessoa que te tirou.
 - No chat "quem eu tirei" você deve enviar um tema para o mês de dezembro dessa pessoa.
 <h4>Blogs participantes:</h4>
