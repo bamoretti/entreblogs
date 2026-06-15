@@ -6,6 +6,16 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
+- blog: "Bagunça Com Propósito"
+  url: "https://baguncacomproposito.blogspot.com"
+  feed: "https://baguncacomproposito.blogspot.com/feeds/posts/default"
+  added: "2026-06-14"
+
+- blog: "arantchans"
+  url: "https:/arantchans.com/"
+  feed: "https://www.arantchans.com/feeds/posts/default"
+  added: "2026-06-08"
+
 - blog: "✶"
   url: "https://kxthar.blogspot.com"
   feed: "https://kxthar.blogspot.com/feeds/posts/default"
