@@ -29,6 +29,8 @@ Vamos assistir ao prestigiado Interstellar (tema principal) e ao c√¥mico Reflex√
  
 <h4>Blogs participantes:</h4>
 
+<div id="lista"></div>
+
 <script>
 const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSqBdPB8FBc1OtUo-2pFEvInfttYBRWo-aXhqNOrXS8ejVaCGTL3QVpgzdqREMGoniUUtO2ZFaenw4x/pub?output=csv";
 
@@ -78,7 +80,7 @@ function renderizarPorTema(tema) {
 
   filtrados.forEach(item => {
     html += `
-      <li class="link-temas">
+      <li>
         <a href="${item.link}" target="_blank">
           ${item.blog}
         </a>
