@@ -9,13 +9,16 @@ permalink: /beda/
 
 <script>
 
-const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vToO88a-ebH_dZ38wiwtGo-tAh14FS4q3fGnHiPJhiA4lLfFRU-O1eMTP3qKwCyGYwgMLd1UXDc_In4/pub?output=csv")";
+const csvUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vToO88a-ebH_dZ38wiwtGo-tAh14FS4q3fGnHiPJhiA4lLfFRU-O1eMTP3qKwCyGYwgMLd1UXDc_In4/pub?output=csv";
 
 fetch(csvUrl)
   .then(response => response.text())
   .then(csv => {
 
-    const linhas = csv.trim().split("\n").slice(1);
+    const linhas = csv.trim().split(/\r?\n/);
+
+    // remove o cabeçalho
+    linhas.shift();
 
     const dias = {};
 
@@ -23,10 +26,10 @@ fetch(csvUrl)
 
       const colunas = linha.split(",");
 
-      const post = colunas[0];
-      const blog = colunas[1];
-      const dia = colunas[2];
-      const link = colunas[3];
+      const dia = colunas[0].trim();
+      const post = colunas[1].trim();
+      const blog = colunas[2].trim();
+      const link = colunas[3].trim();
 
       if (!dias[dia]) {
         dias[dia] = [];
@@ -42,30 +45,37 @@ fetch(csvUrl)
 
     let html = "";
 
-    Object.keys(dias).forEach(dia => {
+    Object.keys(dias)
+      .sort((a, b) => Number(a) - Number(b))
+      .forEach(dia => {
 
-      html += `<h2>${dia}</h2>`;
-      html += "<ul>";
+        html += `<section class="dia">`;
+        html += `<h2>Dia ${dia}</h2>`;
+        html += `<ul>`;
 
-      dias[dia].forEach(item => {
+        dias[dia].forEach(item => {
 
-        html += `
-          <li>
-            <a href="${item.link}" target="_blank">
-              ${item.post}
-            </a>
-            <small> - ${item.blog}</small>
-          </li>
-        `;
+          html += `
+            <li>
+              <a href="${item.link}" target="_blank">
+                ${item.post}
+              </a>
+              <span> - ${item.blog}</span>
+            </li>
+          `;
+
+        });
+
+        html += `</ul>`;
+        html += `</section>`;
 
       });
 
-      html += "</ul>";
-
-    });
-
     document.getElementById("lista").innerHTML = html;
 
+  })
+  .catch(error => {
+    console.error(error);
   });
 
 </script>
