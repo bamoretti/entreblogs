@@ -61,7 +61,7 @@ function renderizarPorTema(tema) {
 
   filtrados.forEach(item => {
     html += `
-      <li>
+      <li class="link-temas">
         <a href="${item.link}" target="_blank">
           ${item.blog}
         </a>
