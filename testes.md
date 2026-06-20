@@ -2,6 +2,7 @@
 layout: default
 title: Testes
 description: Deixe sua mensagem para a comunidade.
+permalink: /testes/
 ---
 
 
