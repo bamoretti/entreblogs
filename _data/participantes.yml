@@ -6,6 +6,36 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
+- blog: "Math Club"
+  url: "https://mathclub.substack.com”
+  feed: "https://mathclub.substack.com/feed"
+  added: "2026-06-19"
+
+- blog: "Gustavo Ribeiro"
+  url: "https://gustavoribeiro.net/blog/"
+  feed: "https://gustavoribeiro.net/blog/rss.xml"
+  added: "2026-06-19"
+
+- blog: "Moon Hexe"
+  url: "https://moonhexe.blogspot.com/"
+  feed: "https://moonhexe.blogspot.com/feeds/posts/default"
+  added: "2026-06-18"
+
+- blog: "M.S.Melo"
+  url: "https://msmelo.blog"
+  feed: "https://msmelo.blog/index.xml"
+  added: "2026-06-18"
+
+- blog: "EsKAYvendo"
+  url: "https://eskayvendo.bearblog.dev"
+  feed: "https://eskayvendo.bearblog.dev/feed/"
+  added: "2026-06-16"
+
+- blog: "݁ .⋆᪥₊ ݁ . Doses de Mikah à gosto . ݁₊᪥⋆. ݁"
+  url: "https://mikahgosto.bearblog.dev"
+  feed: "https://mikahgosto.bearblog.dev/feed/"
+  added: "2025-06-15"
+
 - blog: "Bagunça Com Propósito"
   url: "https://baguncacomproposito.blogspot.com"
   feed: "https://baguncacomproposito.blogspot.com/feeds/posts/default"
