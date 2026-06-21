@@ -14,7 +14,9 @@ A comunidade no whatsapp é dividida em alguns grupos:
 > Se quiser participar mas se assustar com a quantidade de mensagens, não tenha dó e silencie sem medo. Mas se quiser papear, compartilhar seus centavos no tribunal de pequenas causas, encher a caixinha de mensagens do colega, fique a vontade.  
 >
 > A galera se empolga. É raro mas acontece muito.   
-
+>
+<blockquote class="fleabag"> DICA 🔮 No grupo Chat usamos a ETIQUETA DE MEMBRO para facilitar a identifcação entre os outros participantes. Para adicionar a sua etiqueta, basta abrir o chat em grupo que você deseja e toque no nome do grupo no topo. Na tela de "Dados do grupo", role para baixo até a sua foto e toque na opção "Adicionar etiqueta de membro". Digite o url do seu blog e salve.</blockquote>
+>
 <h4>Clube de leitura</h4>
 > Já nesse grupo conversamos sobre próximas leituras e alimentamos a lista de sugestões de livros para o clube. 
 >
