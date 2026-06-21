@@ -21,7 +21,8 @@ A vida já é cheia de cobranças e obrigações demais para tornarmos esse proj
 
 COMO FUNCIONA?
 + 💞  Somos uma comunidade no whatsapp (<a href="https://chat.whatsapp.com/K2Z3qQVCMr60iIHkdUuwaW">clique aqui para participar</a>) com vários sub-grupos [(acesse aqui para saber mais)]({{ site.baseurl }}/no-whatsapp).
-+ 📝 [Saiba como a atualizar as páginas do site com seus links]({{ site.baseurl }}/como-atualizar)
++ 📝 Atualize as páginas do site com seus links (<a href="https://forms.gle/q7RHYKHAo7R83hsL8">clique para atualizar</a>)
++ 🗓 Apareça no calendário de aniversariantes _(apenas dentro da comunidade)_(<a href="https://forms.gle/NyxJ9yG2Awdi1Qbd8">clique aqui para cadastrar</a>)
 + 📜 [Coloque algum selo de participante no seu blog]({{ site.baseurl }}/selos)
 + 🔮 [Participe do webrings]({{ site.baseurl }}/webring)
 + 💡 <a href="https://docs.google.com/spreadsheets/d/1E7KnCTuP8bg-uNoYKGjDWce68cDnQVomRLmbCMGOHgI/edit?usp=drive_link">Deixe sua sugestão de tema ou leitura! </a>
