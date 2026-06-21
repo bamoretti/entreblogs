@@ -3,17 +3,7 @@ layout: default
 title: Temas
 description: Temas que já passaram pela blogagem.
 ---
-<h4>Temas principais</h4>
-
 <div id="entreblogs-lista"></div>
-
-<h4>Temas extras</h4>
-Podem ser postadas a qualquer momento, sinta-se a vontade:
-
-+ 💻 [Meu fluxo de trabalho no blog]({{ site.baseurl }}/extras/meu-fluxo-de-trabalho-no-blog/)
-+ 🪴 [Por trás do blog (tag Entreblogs)]({{ site.baseurl }}/extras/por-tras-do-blog/)
-+ 🧃 [Conheça o blogueiro (tag)]({{ site.baseurl }}/extras/conheca-o-blogueiro/)
-
 
 
 <style>
@@ -88,7 +78,7 @@ Podem ser postadas a qualquer momento, sinta-se a vontade:
   border-bottom: 1px solid #eee;
 }
   
-  .entreblogs-loading {
+.entreblogs-loading {
   padding: 12px 16px;
   opacity: 0.7;
   font-style: italic;
