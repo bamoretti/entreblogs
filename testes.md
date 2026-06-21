@@ -164,7 +164,7 @@ function carregarParticipacoes(csv) {
 
 function carregarTemas(csv) {
 
-  const linhas = csv.trim().split("\n").slice(1);
+  const linhas = csv.trim.slice(1);
 
   linhas.forEach(linha => {
 
