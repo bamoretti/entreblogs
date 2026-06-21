@@ -42,7 +42,8 @@
 }
 
 .entreblogs-descricao {
-  padding: 0 16px 12px 16px;
+  padding: 20px 16px 12px 16px;
+  font-style: italic;
   font-size: .95rem;
   line-height: 1.5;
   opacity: .8;
