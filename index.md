@@ -20,7 +20,7 @@ participação dos temas e leituras que quiser, quando puder;
 
 + 🪴 [Sinta-se a vontade também para participar da nossa tag entreblogs]({{ site.baseurl }}/extras/por-tras-do-blog/)
 
-  
+<br>
 <h2>A IDEALIZADORA</h2>
 **BARBARA MORETTI** do blog [BMRTT](https://bamoretti.com), quase duas décadas compartilhando aleatoriedades da vida na blogosfera. 
 
