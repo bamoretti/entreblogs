@@ -164,7 +164,7 @@ function carregarParticipacoes(csv) {
 
 function carregarTemas(csv) {
 
-  const linhas = csv.trim().split("\n").slice(1);
+	const linhas = parseCSV(csv).slice(1);
 
   linhas.forEach(linha => {
 
@@ -267,31 +267,38 @@ container.innerHTML = html;
    CSV PARSER
 ======================= */
 
-function parseCSVLine(line) {
+function parseCSV(text) {
 
-  const result = [];
+  const rows = [];
   let current = "";
   let inQuotes = false;
 
-  for (let i = 0; i < line.length; i++) {
+  for (let i = 0; i < text.length; i++) {
 
-    const char = line[i];
+    const char = text[i];
 
-    if (char === '"' && line[i + 1] === '"') {
+    if (char === '"' && text[i + 1] === '"') {
       current += '"';
       i++;
-    } else if (char === '"') {
-      inQuotes = !inQuotes;
-    } else if (char === "," && !inQuotes) {
-      result.push(current);
-      current = "";
-    } else {
-      current += char;
+      continue;
     }
+
+    if (char === '"') {
+      inQuotes = !inQuotes;
+      continue;
+    }
+
+    if (char === "\n" && !inQuotes) {
+      rows.push(current);
+      current = "";
+      continue;
+    }
+
+    current += char;
   }
 
-  result.push(current);
+  if (current) rows.push(current);
 
-  return result;
+  return rows;
 }
 </script>
