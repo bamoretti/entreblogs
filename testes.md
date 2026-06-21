@@ -76,6 +76,7 @@ Podem ser postadas a qualquer momento, sinta-se a vontade:
 
 .entreblogs-link {
   text-decoration: none;
+  font-weight: none !important;
 }
 
 .entreblogs-link:hover {
