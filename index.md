@@ -17,8 +17,7 @@ participação dos temas e leituras que quiser, quando puder;
 
 **Quer participar?**  
 <blockquote class="fleabag"> Só enviar um e-mail para <a href="mailto:coletivoentreblogs@gmail.com?subject=Também quero participar da comunidade">coletivoentreblogs@gmail.com</a> que disponibilizaremos o link da nossa comunidade para você.</blockquote>
-
-
+ 
 <h2>A IDEALIZADORA</h2>
 **BARBARA MORETTI** do blog [BMRTT](https://bamoretti.com), quase duas décadas compartilhando aleatoriedades da vida na blogosfera. 
 
