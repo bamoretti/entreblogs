@@ -5,10 +5,9 @@ description: Temas que já passaram pela blogagem.
 ---
 <div id="entreblogs-lista"></div>
 
-
 <style>
 /* =======================
-   CSS (PERSONALIZÁVEL)
+   CSS (inalterado)
 ======================= */
 
 .entreblogs-tema {
@@ -48,8 +47,7 @@ description: Temas que já passaram pela blogagem.
 }
 
 .entreblogs-descricao {
-  padding: 18px;
-  font-style: italic;
+  padding: 0 16px 12px 16px;
   font-size: .95rem;
   line-height: 1.5;
   opacity: .8;
@@ -66,18 +64,16 @@ description: Temas que já passaram pela blogagem.
 
 .entreblogs-link {
   text-decoration: none;
-  font-weight: none !important;
 }
 
 .entreblogs-link:hover {
   text-decoration: underline;
 }
 
-/* aberto */
 .entreblogs-tema[open] .entreblogs-header {
   border-bottom: 1px solid #eee;
 }
-  
+
 .entreblogs-loading {
   padding: 12px 16px;
   opacity: 0.7;
@@ -87,8 +83,7 @@ description: Temas que já passaram pela blogagem.
 
 <script>
   
-document.getElementById("entreblogs-lista").innerHTML =
-  "<p class='entreblogs-loading'>Carregando...</p>";
+ 
   
 /* =======================
    CONFIG
@@ -104,12 +99,43 @@ let DADOS = [];
 let DESCRICOES = {};
 
 /* =======================
+   CACHE
+======================= */
+
+const CACHE_TIME = 1000 * 60 * 30; // 30 min
+
+async function fetchComCache(url) {
+
+  const cache = localStorage.getItem(url);
+
+  if (cache) {
+    try {
+      const parsed = JSON.parse(cache);
+
+      if (Date.now() - parsed.time < CACHE_TIME) {
+        return parsed.data;
+      }
+    } catch (e) {}
+  }
+
+  const resp = await fetch(url);
+  const data = await resp.text();
+
+  localStorage.setItem(url, JSON.stringify({
+    time: Date.now(),
+    data
+  }));
+
+  return data;
+}
+
+/* =======================
    INÍCIO
 ======================= */
 
 Promise.all([
-  fetch(URL_PARTICIPACOES).then(r => r.text()),
-  fetch(URL_TEMAS).then(r => r.text())
+  fetchComCache(URL_PARTICIPACOES),
+  fetchComCache(URL_TEMAS)
 ]).then(([csvPart, csvTemas]) => {
 
   carregarParticipacoes(csvPart);
@@ -157,9 +183,9 @@ function carregarParticipacoes(csv) {
 }).filter(Boolean);
 
 }
-
+  
 /* =======================
-   TEMAS (DESCRIÇÕES)
+   TEMAS
 ======================= */
 
 function carregarTemas(csv) {
@@ -182,10 +208,12 @@ function carregarTemas(csv) {
 }
 
 /* =======================
-   RENDER
+   RENDER OTIMIZADO (INCREMENTAL)
 ======================= */
 
 function renderizar() {
+
+  const container = document.getElementById("entreblogs-lista");
 
   const grupos = {};
 
@@ -207,28 +235,33 @@ function renderizar() {
 
   const lista = Object.values(grupos);
 
-  // ordena por código desc
   lista.sort((a, b) => {
     const na = parseInt((a.codigo || "").replace(/\D/g, "")) || 0;
     const nb = parseInt((b.codigo || "").replace(/\D/g, "")) || 0;
     return nb - na;
   });
 
-  let html = "";
+  let i = 0;
 
-  lista.forEach((grupo, index) => {
+  function renderLote() {
 
-    const descricao = DESCRICOES[grupo.codigo] || "";
+    const chunk = 10; // render em blocos
+    const end = Math.min(i + chunk, lista.length);
 
-    html += `
-      <details class="entreblogs-tema" ${index === 0 ? "open" : ""}>
+    for (; i < end; i++) {
 
+      const grupo = lista[i];
+      const descricao = DESCRICOES[grupo.codigo] || "";
+
+      const el = document.createElement("details");
+      el.className = "entreblogs-tema";
+      if (i === 0) el.open = true;
+
+      let html = `
         <summary class="entreblogs-header">
-
           <span class="entreblogs-codigo">${grupo.codigo}</span>
           <span class="entreblogs-titulo">${grupo.tema}</span>
           <span class="entreblogs-total">(${grupo.posts.length})</span>
-
         </summary>
 
         ${descricao ? `
@@ -238,29 +271,31 @@ function renderizar() {
         ` : ""}
 
         <ul class="entreblogs-lista">
-    `;
-
-    grupo.posts.forEach(post => {
-
-      html += `
-        <li class="entreblogs-item">
-          <a class="entreblogs-link" href="${post.link}" target="_blank" rel="noopener">
-            ${post.blog}
-          </a>
-        </li>
       `;
 
-    });
+      grupo.posts.forEach(post => {
+        html += `
+          <li class="entreblogs-item">
+            <a class="entreblogs-link" href="${post.link}" target="_blank" rel="noopener">
+              ${post.blog}
+            </a>
+          </li>
+        `;
+      });
 
-    html += `
-        </ul>
-      </details>
-    `;
+      html += `</ul>`;
 
-  });
+      el.innerHTML = html;
 
-  const container = document.getElementById("entreblogs-lista");
-container.innerHTML = html;
+      container.appendChild(el);
+    }
+
+    if (i < lista.length) {
+      requestAnimationFrame(renderLote);
+    }
+  }
+
+  renderLote();
 }
 
 /* =======================
