@@ -52,7 +52,7 @@ description: Temas que já passaram pela blogagem.
 
 .entreblogs-descricao {
   padding: 20px;
-  font-size: .95rem;
+  font-size: .75rem;
   line-height: 1.5;
   font-style: italic;
   border-bottom: 1px solid #ddd;
