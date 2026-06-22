@@ -1,76 +1,11 @@
-<div id="entreblogs-lista"></div>
-
-<style>
-/* =======================
-   CSS (inalterado)
-======================= */
-
-.entreblogs-tema {
-  margin-bottom: 12px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  overflow: hidden;
-  background: #fff;
-}
-
-.entreblogs-header {
-  cursor: pointer;
-  padding: 12px 16px;
-  font-weight: 600;
-  list-style: none;
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
-.entreblogs-header::-webkit-details-marker {
-  display: none;
-}
-
-.entreblogs-codigo {
-  opacity: .6;
-  font-size: .9rem;
-}
-
-.entreblogs-titulo {
-  font-size: 1rem;
-}
-
-.entreblogs-total {
-  opacity: .5;
-  font-size: .85rem;
-}
-
-.entreblogs-descricao {
-  padding: 0 16px 12px 16px;
-  font-size: .95rem;
-  line-height: 1.5;
-  opacity: .8;
-}
-
-.entreblogs-lista {
-  margin: 0;
-  padding: 0 20px 15px 40px;
-}
-
-.entreblogs-item {
-  margin: 8px 0;
-}
-
-.entreblogs-link {
-  text-decoration: none;
-}
-
-.entreblogs-link:hover {
-  text-decoration: underline;
-}
-
-.entreblogs-tema[open] .entreblogs-header {
-  border-bottom: 1px solid #eee;
-}
-</style>
-
 <script>
+  
+const CACHE_KEY = "entreblogs_cache_v1";
+const CACHE_TIME = 1000 * 60 * 60; // 1h
+
+document.getElementById("entreblogs-lista").innerHTML =
+  "<p class='entreblogs-loading'>Carregando...</p>";
+
 /* =======================
    CONFIG
 ======================= */
@@ -85,49 +20,54 @@ let DADOS = [];
 let DESCRICOES = {};
 
 /* =======================
-   CACHE
+   CACHE HELPERS
 ======================= */
 
-const CACHE_TIME = 1000 * 60 * 30; // 30 min
-
-async function fetchComCache(url) {
-
-  const cache = localStorage.getItem(url);
-
-  if (cache) {
-    try {
-      const parsed = JSON.parse(cache);
-
-      if (Date.now() - parsed.time < CACHE_TIME) {
-        return parsed.data;
-      }
-    } catch (e) {}
-  }
-
-  const resp = await fetch(url);
-  const data = await resp.text();
-
-  localStorage.setItem(url, JSON.stringify({
+function saveCache(data) {
+  localStorage.setItem(CACHE_KEY, JSON.stringify({
     time: Date.now(),
     data
   }));
+}
 
-  return data;
+function loadCache() {
+  const raw = localStorage.getItem(CACHE_KEY);
+  if (!raw) return null;
+
+  try {
+    const parsed = JSON.parse(raw);
+    if (Date.now() - parsed.time > CACHE_TIME) return null;
+    return parsed.data;
+  } catch {
+    return null;
+  }
 }
 
 /* =======================
-   INÍCIO
+   INIT (CACHE FIRST UX)
 ======================= */
 
+const cached = loadCache();
+
+if (cached) {
+  DADOS = cached.DADOS;
+  DESCRICOES = cached.DESCRICOES;
+
+  renderizar(); // instantâneo
+}
+
+/* sempre atualiza em background */
 Promise.all([
-  fetchComCache(URL_PARTICIPACOES),
-  fetchComCache(URL_TEMAS)
+  fetch(URL_PARTICIPACOES).then(r => r.text()),
+  fetch(URL_TEMAS).then(r => r.text())
 ]).then(([csvPart, csvTemas]) => {
 
   carregarParticipacoes(csvPart);
   carregarTemas(csvTemas);
 
-  renderizar();
+  saveCache({ DADOS, DESCRICOES });
+
+  renderizar(); // re-render atualizado (silencioso)
 
 });
 
@@ -143,7 +83,11 @@ function carregarParticipacoes(csv) {
 
     const cols = parseCSVLine(linha);
 
-    const codigo = cols[7]?.trim() || "";
+    const participacao = cols[2]?.trim();
+
+    if (participacao !== "Tema principal") return null;
+
+    const codigoOriginal = cols[7]?.trim() || "";
     const temaOriginal = cols[3]?.trim() || "Sem tema";
 
     const tema = temaOriginal.length > 6
@@ -153,15 +97,15 @@ function carregarParticipacoes(csv) {
     return {
       timestamp: cols[0]?.trim(),
       blog: cols[1]?.trim(),
-      participacao: cols[2]?.trim(),
+      participacao,
       temaPrincipal: tema,
       temaExtra: cols[4]?.trim(),
       livro: cols[5]?.trim(),
       link: cols[6]?.trim(),
-      codigo
+      codigo: codigoOriginal
     };
 
-  }).filter(d => d.blog && d.link);
+  }).filter(Boolean);
 
 }
 
@@ -189,7 +133,7 @@ function carregarTemas(csv) {
 }
 
 /* =======================
-   RENDER OTIMIZADO (INCREMENTAL)
+   RENDER OTIMIZADO
 ======================= */
 
 function renderizar() {
@@ -222,14 +166,15 @@ function renderizar() {
     return nb - na;
   });
 
+  container.innerHTML = "";
+
   let i = 0;
 
-  function renderLote() {
+  function renderChunk() {
 
-    const chunk = 10; // render em blocos
-    const end = Math.min(i + chunk, lista.length);
+    const chunkSize = 10;
 
-    for (; i < end; i++) {
+    for (let j = 0; j < chunkSize && i < lista.length; j++, i++) {
 
       const grupo = lista[i];
       const descricao = DESCRICOES[grupo.codigo] || "";
@@ -267,20 +212,19 @@ function renderizar() {
       html += `</ul>`;
 
       el.innerHTML = html;
-
       container.appendChild(el);
     }
 
     if (i < lista.length) {
-      requestAnimationFrame(renderLote);
+      requestAnimationFrame(renderChunk);
     }
   }
 
-  renderLote();
+  renderChunk();
 }
 
 /* =======================
-   CSV PARSER
+   CSV PARSER (inalterado)
 ======================= */
 
 function parseCSVLine(line) {
