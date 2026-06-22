@@ -37,7 +37,6 @@ description: Temas que já passaram pela blogagem.
 }
 
 .entreblogs-codigo {
-  opacity: .6;
   font-size: .9rem;
   color: var(--cor-moldura);
 }
