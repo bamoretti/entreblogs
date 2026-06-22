@@ -10,7 +10,7 @@ permalink: /clube-de-leitura/com-amor-felicia-gilbert-luly-lage/
 Felícia Gilbert tem 16 anos e cresceu entre livros antigos, bichos de pelúcia e muito amor vindo de suas duas mães e da irmã, Eleanor. Criativa e sonhadora, Felícia encontra nos cadernos e, agora, em seu novo blog “Com amor, Felicia”, um espaço seguro para desabafar tudo o que sente — porque nem sempre é fácil viver num mundo que insiste em julgar aquilo que não entende.
 Enfrentando o bullying silencioso de colegas da escola, em meio às tarde que passa no museu onde trabalha o avô de seu amigo Theo, Felícia é selecionada para participar de um programa de verão em outra cidade. Lá, entre insetos exóticos, amizades novas e a descoberta de uma paixão inesperada, ela começa a construir uma nova narrativa sobre si mesma — mais forte, livre e verdadeira.
 
-<blockquote class="fleabag"> Livro escrito pela Entrebloggger, Luly Lage. </blockquote>
+<blockquote class="fleabag"> 💖 Livro escrito pela Luly Lage, uma participante do Entreblogs. </blockquote>
 
 <h4>Blogs participantes:</h4>
 
