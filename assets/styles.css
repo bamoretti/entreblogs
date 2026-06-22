@@ -367,7 +367,6 @@ a:active {
  padding: 1px 3px;
  border-radius: 5px; /* opcional: cantos arredondados */
  color: var(--cor-link);
- font-weight: bold;
  transition: all 0.3s ease;
  display: inline;
 }
