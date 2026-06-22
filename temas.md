@@ -61,10 +61,16 @@ description: Temas que já passaram pela blogagem.
 .entreblogs-lista {
   margin: 0;
   padding: 0 20px 15px 40px;
+  font-weight: none;
+  
 }
 
 .entreblogs-item {
   margin: 8px 0;
+}
+
+.entreblogs-item:before {
+ content: "▸ ";
 }
 
 .entreblogs-link {
