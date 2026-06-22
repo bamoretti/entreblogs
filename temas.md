@@ -95,7 +95,7 @@ const URL_TEMAS =
 let DADOS = [];
 let DESCRICOES = {};
 
-const CACHE_TIME = 1000 * 60 * 30;
+const CACHE_TIME = 1000 * 60 * 160;
 
 async function fetchComCache(url) {
   const cache = localStorage.getItem(url);
