@@ -38,7 +38,7 @@ description: Temas que já passaram pela blogagem.
 
 .entreblogs-codigo {
   font-size: .9rem;
-  color: var(--cor-moldura);
+  color: color-mix(in srgb, var(--cor-moldura), #000000 20%);
 }
 
 .entreblogs-titulo {
