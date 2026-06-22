@@ -374,17 +374,16 @@ function renderizar() {
           grupo.codigo
         ] || "";
 
-      const el =
-        document.createElement(
-          "details"
-        );
+      const el = document.createElement("details");
+		el.className = "entreblogs-tema";
 
-      el.className =
-        "entreblogs-tema";
+		const codigoAnchor = (grupo.codigo || "")
+		  .replace(/^#/, "")
+		  .trim();
 
-      if (index === 0) {
-        el.open = true;
-      }
+		el.id = codigoAnchor;
+
+		if (index === 0) el.open = true;
 
       let html = `
         <summary class="entreblogs-header">
@@ -428,6 +427,35 @@ function renderizar() {
 
     }
   );
+
+}
+
+/* =======================
+   ANCORAGEM VIA URL
+======================= */
+
+const hash = window.location.hash
+  .replace(/^#/, "")
+  .trim();
+
+if (hash) {
+
+  const alvo = document.getElementById(hash);
+
+  if (alvo) {
+
+    alvo.open = true;
+
+    requestAnimationFrame(() => {
+
+      alvo.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+
+    });
+
+  }
 
 }
 
