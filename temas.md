@@ -55,7 +55,7 @@ description: Temas que já passaram pela blogagem.
   font-size: .95rem;
   line-height: 1.5;
   font-style: italic;
-  border: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 .entreblogs-lista {
