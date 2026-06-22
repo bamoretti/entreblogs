@@ -67,6 +67,7 @@ description: Temas que já passaram pela blogagem.
 
 .entreblogs-item {
   margin: 8px 0;
+  font-weight: none !important;
 }
 
 .entreblogs-item:before {
