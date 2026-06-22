@@ -97,45 +97,131 @@ let DESCRICOES = {};
 
 const CACHE_TIME = 1000 * 60 * 30;
 
-async function fetchComCache(url) {
-  const cache = localStorage.getItem(url);
-
-  if (cache) {
-    try {
-      const parsed = JSON.parse(cache);
-
-      if (Date.now() - parsed.time < CACHE_TIME) {
-        return parsed.data;
-      }
-    } catch(e) {}
+function getCache(url) {
+  try {
+    const cache = localStorage.getItem(url);
+    return cache ? JSON.parse(cache) : null;
+  } catch {
+    return null;
   }
+}
+
+function setCache(url, data) {
+  localStorage.setItem(
+    url,
+    JSON.stringify({
+      time: Date.now(),
+      data
+    })
+  );
+}
+
+async function fetchFresh(url) {
 
   const resp = await fetch(url);
+
+  if (!resp.ok) {
+    throw new Error("Erro ao carregar " + url);
+  }
+
   const data = await resp.text();
 
-  localStorage.setItem(url, JSON.stringify({
-    time: Date.now(),
-    data
-  }));
+  setCache(url, data);
 
   return data;
 }
 
-Promise.all([
-  fetchComCache(URL_PARTICIPACOES),
-  fetchComCache(URL_TEMAS)
-])
-.then(([csvPart, csvTemas]) => {
+async function iniciar() {
 
-  carregarParticipacoes(csvPart);
-  carregarTemas(csvTemas);
+  const container =
+    document.getElementById("entreblogs-lista");
+
+  const cachePart =
+    getCache(URL_PARTICIPACOES);
+
+  const cacheTemas =
+    getCache(URL_TEMAS);
+
+  const possuiCache =
+    cachePart?.data &&
+    cacheTemas?.data;
+
+  /* =======================
+     PRIMEIRA VISITA
+  ======================= */
+
+  if (!possuiCache) {
+
+    const [csvPart, csvTemas] =
+      await Promise.all([
+        fetchFresh(URL_PARTICIPACOES),
+        fetchFresh(URL_TEMAS)
+      ]);
+
+    carregarParticipacoes(csvPart);
+    carregarTemas(csvTemas);
+
+    renderizar();
+
+    return;
+  }
+
+  /* =======================
+     MOSTRA CACHE IMEDIATAMENTE
+  ======================= */
+
+  carregarParticipacoes(cachePart.data);
+  carregarTemas(cacheTemas.data);
 
   renderizar();
 
-})
-.catch(() => {
+  /* =======================
+     BACKGROUND UPDATE
+  ======================= */
 
-  document.getElementById("entreblogs-lista").innerHTML = `
+  Promise.all([
+    fetchFresh(URL_PARTICIPACOES),
+    fetchFresh(URL_TEMAS)
+  ])
+  .then(([novoPart, novoTemas]) => {
+
+    const mudou =
+      novoPart !== cachePart.data ||
+      novoTemas !== cacheTemas.data;
+
+    if (!mudou) {
+      return;
+    }
+
+    DADOS = [];
+    DESCRICOES = {};
+
+    carregarParticipacoes(novoPart);
+    carregarTemas(novoTemas);
+
+    renderizar();
+
+    console.log(
+      "EntreBlogs atualizado em background."
+    );
+
+  })
+  .catch(err => {
+
+    console.warn(
+      "Falha na atualização em background:",
+      err
+    );
+
+  });
+
+}
+
+iniciar().catch(() => {
+
+  document.getElementById(
+    "entreblogs-lista"
+  ).innerHTML = `
     <div class="entreblogs-loading">
       Erro ao carregar os dados.
     </div>
@@ -145,47 +231,72 @@ Promise.all([
 
 function carregarParticipacoes(csv) {
 
-  const linhas = csv.trim().split("\n").slice(1);
+  const linhas =
+    csv.trim().split("\n").slice(1);
 
-  DADOS = linhas.map(linha => {
+  DADOS = linhas
+    .map(linha => {
 
-    const cols = parseCSVLine(linha);
+      const cols =
+        parseCSVLine(linha);
 
-    const participacao = cols[2]?.trim();
+      const participacao =
+        cols[2]?.trim();
 
-    if (participacao !== "Tema principal") return null;
+      if (
+        participacao !==
+        "Tema principal"
+      ) {
+        return null;
+      }
 
-    const codigoOriginal = cols[7]?.trim() || "";
-    const temaOriginal = cols[3]?.trim() || "Sem tema";
+      const codigoOriginal =
+        cols[7]?.trim() || "";
 
-    const tema = temaOriginal.length > 6
-      ? temaOriginal.substring(6).trim()
-      : temaOriginal;
+      const temaOriginal =
+        cols[3]?.trim() ||
+        "Sem tema";
 
-    return {
-      blog: cols[1]?.trim(),
-      temaPrincipal: tema,
-      link: cols[6]?.trim(),
-      codigo: codigoOriginal
-    };
+      const tema =
+        temaOriginal.length > 6
+          ? temaOriginal
+              .substring(6)
+              .trim()
+          : temaOriginal;
 
-  }).filter(Boolean);
+      return {
+        blog: cols[1]?.trim(),
+        temaPrincipal: tema,
+        link: cols[6]?.trim(),
+        codigo: codigoOriginal
+      };
+
+    })
+    .filter(Boolean);
 
 }
 
 function carregarTemas(csv) {
 
-  const linhas = csv.trim().split("\n").slice(1);
+  DESCRICOES = {};
+
+  const linhas =
+    csv.trim().split("\n").slice(1);
 
   linhas.forEach(linha => {
 
-    const cols = parseCSVLine(linha);
+    const cols =
+      parseCSVLine(linha);
 
-    const codigo = cols[0]?.trim();
-    const descricao = cols[1]?.trim();
+    const codigo =
+      cols[0]?.trim();
+
+    const descricao =
+      cols[1]?.trim();
 
     if (codigo) {
-      DESCRICOES[codigo] = descricao;
+      DESCRICOES[codigo] =
+        descricao;
     }
 
   });
@@ -194,7 +305,10 @@ function carregarTemas(csv) {
 
 function renderizar() {
 
-  const container = document.getElementById("entreblogs-lista");
+  const container =
+    document.getElementById(
+      "entreblogs-lista"
+    );
 
   container.innerHTML = "";
 
@@ -202,104 +316,168 @@ function renderizar() {
 
   DADOS.forEach(item => {
 
-    const chave = item.codigo + "||" + item.temaPrincipal;
+    const chave =
+      item.codigo +
+      "||" +
+      item.temaPrincipal;
 
     if (!grupos[chave]) {
+
       grupos[chave] = {
         codigo: item.codigo,
         tema: item.temaPrincipal,
         posts: []
       };
+
     }
 
-    grupos[chave].posts.push(item);
+    grupos[chave]
+      .posts
+      .push(item);
 
   });
 
-  const lista = Object.values(grupos);
+  const lista =
+    Object.values(grupos);
 
   lista.sort((a, b) => {
-    const na = parseInt((a.codigo || "").replace(/\D/g, "")) || 0;
-    const nb = parseInt((b.codigo || "").replace(/\D/g, "")) || 0;
+
+    const na =
+      parseInt(
+        (a.codigo || "")
+          .replace(/\D/g, "")
+      ) || 0;
+
+    const nb =
+      parseInt(
+        (b.codigo || "")
+          .replace(/\D/g, "")
+      ) || 0;
+
     return nb - na;
+
   });
 
-  lista.forEach((grupo, index) => {
+  lista.forEach(
+    (grupo, index) => {
 
-    const descricao = DESCRICOES[grupo.codigo] || "";
+      const descricao =
+        DESCRICOES[
+          grupo.codigo
+        ] || "";
 
-    const el = document.createElement("details");
-    el.className = "entreblogs-tema";
+      const el =
+        document.createElement(
+          "details"
+        );
 
-    if (index === 0) el.open = true;
+      el.className =
+        "entreblogs-tema";
 
-    let html = `
-      <summary class="entreblogs-header">
-        <span class="entreblogs-codigo">${grupo.codigo}</span>
-        <span class="entreblogs-titulo">${grupo.tema}</span>
-        <span class="entreblogs-total">(${grupo.posts.length})</span>
-      </summary>
+      if (index === 0) {
+        el.open = true;
+      }
 
-      ${descricao ? `
-        <div class="entreblogs-descricao">
-          ${descricao}
-        </div>
-      ` : ""}
+      let html = `
+        <summary class="entreblogs-header">
+          <span class="entreblogs-codigo">${grupo.codigo}</span>
+          <span class="entreblogs-titulo">${grupo.tema}</span>
+          <span class="entreblogs-total">(${grupo.posts.length})</span>
+        </summary>
 
-      <ul class="entreblogs-lista">
-    `;
+        ${descricao ? `
+          <div class="entreblogs-descricao">
+            ${descricao}
+          </div>
+        ` : ""}
 
-    grupo.posts.forEach(post => {
-      html += `
-        <li class="entreblogs-item">
-          <a class="entreblogs-link"
-             href="${post.link}"
-             target="_blank"
-             rel="noopener">
-            ${post.blog}
-          </a>
-        </li>
+        <ul class="entreblogs-lista">
       `;
-    });
 
-    html += "</ul>";
+      grupo.posts.forEach(
+        post => {
 
-    el.innerHTML = html;
+          html += `
+            <li class="entreblogs-item">
+              <a
+                class="entreblogs-link"
+                href="${post.link}"
+                target="_blank"
+                rel="noopener">
+                ${post.blog}
+              </a>
+            </li>
+          `;
 
-    container.appendChild(el);
+        }
+      );
 
-  });
+      html += "</ul>";
+
+      el.innerHTML = html;
+
+      container.appendChild(el);
+
+    }
+  );
 
 }
 
 function parseCSVLine(line) {
 
   const result = [];
+
   let current = "";
+
   let inQuotes = false;
 
-  for (let i = 0; i < line.length; i++) {
+  for (
+    let i = 0;
+    i < line.length;
+    i++
+  ) {
 
     const char = line[i];
 
-    if (char === '"' && line[i + 1] === '"') {
+    if (
+      char === '"' &&
+      line[i + 1] === '"'
+    ) {
+
       current += '"';
+
       i++;
+
     }
-    else if (char === '"') {
-      inQuotes = !inQuotes;
+    else if (
+      char === '"'
+    ) {
+
+      inQuotes =
+        !inQuotes;
+
     }
-    else if (char === "," && !inQuotes) {
+    else if (
+      char === "," &&
+      !inQuotes
+    ) {
+
       result.push(current);
+
       current = "";
+
     }
     else {
+
       current += char;
+
     }
+
   }
 
   result.push(current);
 
   return result;
+
 }
 </script>
