@@ -3,7 +3,11 @@ layout: default
 title: Temas
 description: Temas que já passaram pela blogagem.
 ---
-<div id="entreblogs-lista"></div>
+<div id="entreblogs-lista">
+  <div class="entreblogs-loading">
+    Carregando temas...
+  </div>
+</div>
 
 <style>
 /* =======================
@@ -82,13 +86,6 @@ description: Temas que já passaram pela blogagem.
 </style>
 
 <script>
-  
- 
-  
-/* =======================
-   CONFIG
-======================= */
-
 const URL_PARTICIPACOES =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vSqBdPB8FBc1OtUo-2pFEvInfttYBRWo-aXhqNOrXS8ejVaCGTL3QVpgzdqREMGoniUUtO2ZFaenw4x/pub?output=csv";
 
@@ -98,14 +95,9 @@ const URL_TEMAS =
 let DADOS = [];
 let DESCRICOES = {};
 
-/* =======================
-   CACHE
-======================= */
-
-const CACHE_TIME = 1000 * 60 * 30; // 30 min
+const CACHE_TIME = 1000 * 60 * 30;
 
 async function fetchComCache(url) {
-
   const cache = localStorage.getItem(url);
 
   if (cache) {
@@ -115,7 +107,7 @@ async function fetchComCache(url) {
       if (Date.now() - parsed.time < CACHE_TIME) {
         return parsed.data;
       }
-    } catch (e) {}
+    } catch(e) {}
   }
 
   const resp = await fetch(url);
@@ -129,25 +121,27 @@ async function fetchComCache(url) {
   return data;
 }
 
-/* =======================
-   INÍCIO
-======================= */
-
 Promise.all([
   fetchComCache(URL_PARTICIPACOES),
   fetchComCache(URL_TEMAS)
-]).then(([csvPart, csvTemas]) => {
+])
+.then(([csvPart, csvTemas]) => {
 
   carregarParticipacoes(csvPart);
   carregarTemas(csvTemas);
 
   renderizar();
 
-});
+})
+.catch(() => {
 
-/* =======================
-   PARTICIPAÇÕES
-======================= */
+  document.getElementById("entreblogs-lista").innerHTML = `
+    <div class="entreblogs-loading">
+      Erro ao carregar os dados.
+    </div>
+  `;
+
+});
 
 function carregarParticipacoes(csv) {
 
@@ -155,38 +149,29 @@ function carregarParticipacoes(csv) {
 
   DADOS = linhas.map(linha => {
 
-  const cols = parseCSVLine(linha);
+    const cols = parseCSVLine(linha);
 
-  const participacao = cols[2]?.trim();
+    const participacao = cols[2]?.trim();
 
-  // FILTRO PRINCIPAL
-  if (participacao !== "Tema principal") return null;
+    if (participacao !== "Tema principal") return null;
 
-  const codigoOriginal = cols[7]?.trim() || "";
-  const temaOriginal = cols[3]?.trim() || "Sem tema";
+    const codigoOriginal = cols[7]?.trim() || "";
+    const temaOriginal = cols[3]?.trim() || "Sem tema";
 
-  const tema = temaOriginal.length > 6
-    ? temaOriginal.substring(6).trim()
-    : temaOriginal;
+    const tema = temaOriginal.length > 6
+      ? temaOriginal.substring(6).trim()
+      : temaOriginal;
 
-  return {
-    timestamp: cols[0]?.trim(),
-    blog: cols[1]?.trim(),
-    participacao,
-    temaPrincipal: tema,
-    temaExtra: cols[4]?.trim(),
-    livro: cols[5]?.trim(),
-    link: cols[6]?.trim(),
-    codigo: codigoOriginal
-  };
+    return {
+      blog: cols[1]?.trim(),
+      temaPrincipal: tema,
+      link: cols[6]?.trim(),
+      codigo: codigoOriginal
+    };
 
-}).filter(Boolean);
+  }).filter(Boolean);
 
 }
-  
-/* =======================
-   TEMAS
-======================= */
 
 function carregarTemas(csv) {
 
@@ -207,13 +192,11 @@ function carregarTemas(csv) {
 
 }
 
-/* =======================
-   RENDER OTIMIZADO (INCREMENTAL)
-======================= */
-
 function renderizar() {
 
   const container = document.getElementById("entreblogs-lista");
+
+  container.innerHTML = "";
 
   const grupos = {};
 
@@ -241,66 +224,53 @@ function renderizar() {
     return nb - na;
   });
 
-  let i = 0;
+  lista.forEach((grupo, index) => {
 
-  function renderLote() {
+    const descricao = DESCRICOES[grupo.codigo] || "";
 
-    const chunk = 10; // render em blocos
-    const end = Math.min(i + chunk, lista.length);
+    const el = document.createElement("details");
+    el.className = "entreblogs-tema";
 
-    for (; i < end; i++) {
+    if (index === 0) el.open = true;
 
-      const grupo = lista[i];
-      const descricao = DESCRICOES[grupo.codigo] || "";
+    let html = `
+      <summary class="entreblogs-header">
+        <span class="entreblogs-codigo">${grupo.codigo}</span>
+        <span class="entreblogs-titulo">${grupo.tema}</span>
+        <span class="entreblogs-total">(${grupo.posts.length})</span>
+      </summary>
 
-      const el = document.createElement("details");
-      el.className = "entreblogs-tema";
-      if (i === 0) el.open = true;
+      ${descricao ? `
+        <div class="entreblogs-descricao">
+          ${descricao}
+        </div>
+      ` : ""}
 
-      let html = `
-        <summary class="entreblogs-header">
-          <span class="entreblogs-codigo">${grupo.codigo}</span>
-          <span class="entreblogs-titulo">${grupo.tema}</span>
-          <span class="entreblogs-total">(${grupo.posts.length})</span>
-        </summary>
+      <ul class="entreblogs-lista">
+    `;
 
-        ${descricao ? `
-          <div class="entreblogs-descricao">
-            ${descricao}
-          </div>
-        ` : ""}
-
-        <ul class="entreblogs-lista">
+    grupo.posts.forEach(post => {
+      html += `
+        <li class="entreblogs-item">
+          <a class="entreblogs-link"
+             href="${post.link}"
+             target="_blank"
+             rel="noopener">
+            ${post.blog}
+          </a>
+        </li>
       `;
+    });
 
-      grupo.posts.forEach(post => {
-        html += `
-          <li class="entreblogs-item">
-            <a class="entreblogs-link" href="${post.link}" target="_blank" rel="noopener">
-              ${post.blog}
-            </a>
-          </li>
-        `;
-      });
+    html += "</ul>";
 
-      html += `</ul>`;
+    el.innerHTML = html;
 
-      el.innerHTML = html;
+    container.appendChild(el);
 
-      container.appendChild(el);
-    }
+  });
 
-    if (i < lista.length) {
-      requestAnimationFrame(renderLote);
-    }
-  }
-
-  renderLote();
 }
-
-/* =======================
-   CSV PARSER
-======================= */
 
 function parseCSVLine(line) {
 
@@ -315,12 +285,15 @@ function parseCSVLine(line) {
     if (char === '"' && line[i + 1] === '"') {
       current += '"';
       i++;
-    } else if (char === '"') {
+    }
+    else if (char === '"') {
       inQuotes = !inQuotes;
-    } else if (char === "," && !inQuotes) {
+    }
+    else if (char === "," && !inQuotes) {
       result.push(current);
       current = "";
-    } else {
+    }
+    else {
       current += char;
     }
   }
