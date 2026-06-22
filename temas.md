@@ -39,6 +39,7 @@ description: Temas que já passaram pela blogagem.
 .entreblogs-codigo {
   opacity: .6;
   font-size: .9rem;
+  color: var(--cor-moldura);
 }
 
 .entreblogs-titulo {
@@ -51,9 +52,10 @@ description: Temas que já passaram pela blogagem.
 }
 
 .entreblogs-descricao {
-  padding: 0 16px 12px 16px;
+  padding: 20px;
   font-size: .95rem;
   line-height: 1.5;
+  font-style: italic;
   opacity: .8;
 }
 
