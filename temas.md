@@ -253,7 +253,7 @@ function carregarParticipacoes(csv) {
 
       if (
         participacao !==
-        "Tema principal"
+        "Tema"
       ) {
         return null;
       }
