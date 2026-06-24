@@ -422,9 +422,9 @@ function renderizar() {
       `letra-${letra}`;
 
     let html = `
-      <h3 class="blog-letra">
+      <div class="blog-letra">
         ${letra}
-      </h3>
+      </div>
 
       <ul class="entreblogs-lista">
     `;
