@@ -423,7 +423,7 @@ function renderizar() {
     let html = `
       <h3 class="entreblogs-letra">
         ${letra}
-      </h2>
+      </h3>
 
       <ul class="entreblogs-lista">
     `;
