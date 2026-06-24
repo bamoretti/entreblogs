@@ -69,6 +69,7 @@ html {
   margin: 0;
   padding: 0 20px 15px 40px;
   font-weight: none;
+  
   text-transform: uppercase;
   
 }
@@ -110,16 +111,6 @@ html {
   text-decoration: none;
   }
 
-#contador-participantes {
-  text-align: center;
-  font-size: 1.2rem;
-  margin: 20px 0;
-}
-
-#contador-participantes strong {
-  font-size: 2rem;
-  display: block;
-}
 </style>
 
 <script>
@@ -557,138 +548,13 @@ function parseCSVLine(line) {
 </script>
 
 
+Se você quiser acompanhar todos os blogs de uma vez disponibilizamos o feed global do ENTREBLOGS onde você pode adicionar todos os blogs no seu leitor de RSS.  
 
--
+Divirta-se!
 
-<div id="contador-participantes">
-  Carregando participantes...
+<div class="rss-box">
+  <p></p>
+    <b>https://entreblogs.com.br/feed-entreblogs.xml</b>
+  <small><p>Importe no seu leitor de RSS favorito.</p>
+  <p>Não sabe o que é um feed? <a href="https://aboutfeeds-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp%20Traduzido%20para%20o%20portugu%C3%AAs">Descubra aqui.</a></p></small>
 </div>
-
-<script>
-const URL_PARTICIPACOES =
-  "https://docs.google.com/spreadsheets/d/e/2PACX-1vSqBdPB8FBc1OtUo-2pFEvInfttYBRWo-aXhqNOrXS8ejVaCGTL3QVpgzdqREMGoniUUtO2ZFaenw4x/pub?output=csv";
-
-async function carregarContador() {
-
-  const container =
-    document.getElementById(
-      "contador-participantes"
-    );
-
-  try {
-
-    const resp =
-      await fetch(
-        URL_PARTICIPACOES
-      );
-
-    const csv =
-      await resp.text();
-
-    const linhas =
-      csv.trim()
-         .split("\n")
-         .slice(1);
-
-    const blogs =
-      new Set();
-
-    linhas.forEach(linha => {
-
-      const cols =
-        parseCSVLine(linha);
-
-      const participacao =
-        cols[2]?.trim();
-
-      if (
-        participacao ===
-        "Participantes"
-      ) {
-
-        const blog =
-          cols[1]?.trim();
-
-        if (blog) {
-          blogs.add(blog);
-        }
-
-      }
-
-    });
-
-    container.innerHTML = `
-      <strong>${blogs.size}</strong>
-      blogs participantes
-    `;
-
-  }
-  catch {
-
-    container.innerHTML =
-      "Erro ao carregar.";
-
-  }
-
-}
-
-function parseCSVLine(line) {
-
-  const result = [];
-
-  let current = "";
-
-  let inQuotes = false;
-
-  for (
-    let i = 0;
-    i < line.length;
-    i++
-  ) {
-
-    const char = line[i];
-
-    if (
-      char === '"' &&
-      line[i + 1] === '"'
-    ) {
-
-      current += '"';
-
-      i++;
-
-    }
-    else if (
-      char === '"'
-    ) {
-
-      inQuotes =
-        !inQuotes;
-
-    }
-    else if (
-      char === "," &&
-      !inQuotes
-    ) {
-
-      result.push(current);
-
-      current = "";
-
-    }
-    else {
-
-      current += char;
-
-    }
-
-  }
-
-  result.push(current);
-
-  return result;
-
-}
-
-carregarContador();
-</script>
