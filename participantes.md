@@ -6,6 +6,12 @@ description: Listagem dos blogs participantes da comunidade.
 
 
 
+<div id="entreblogs-lista">
+  <div class="entreblogs-loading">
+    Carregando lista de participantes...
+  </div>
+</div>
+
 <style>
 /* =======================
    CSS (inalterado)
@@ -533,12 +539,6 @@ function parseCSVLine(line) {
 }
 </script>
 
-
-<div id="entreblogs-lista">
-  <div class="entreblogs-loading">
-    Carregando temas...
-  </div>
-</div>
 
 Se você quiser acompanhar todos os blogs de uma vez disponibilizamos o feed global do ENTREBLOGS onde você pode adicionar todos os blogs no seu leitor de RSS.  
 
