@@ -1,15 +1,103 @@
-<script>
-  
-const CACHE_KEY = "entreblogs_cache_v1";
-const CACHE_TIME = 1000 * 60 * 60; // 1h
+---
+layout: default
+title: Temas
+description: Temas que já passaram pela blogagem.
+---
+<div id="entreblogs-lista">
+  <div class="entreblogs-loading">
+    Carregando temas...
+  </div>
+</div>
 
-document.getElementById("entreblogs-lista").innerHTML =
-  "<p class='entreblogs-loading'>Carregando...</p>";
-
+<style>
 /* =======================
-   CONFIG
+   CSS (inalterado)
 ======================= */
 
+html {
+  scroll-behavior: smooth;
+}
+
+.entreblogs-tema {
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.entreblogs-header {
+  cursor: pointer;
+  padding: 12px 16px;
+  font-weight: 600;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.entreblogs-header::-webkit-details-marker {
+  display: none;
+}
+
+.entreblogs-codigo {
+  font-size: .9rem;
+  color: color-mix(in srgb, var(--cor-moldura), #000000 10%);
+}
+
+.entreblogs-titulo {
+  font-size: 1rem;
+}
+
+.entreblogs-total {
+  opacity: .5;
+  font-size: .85rem;
+}
+
+.entreblogs-descricao {
+  padding: 20px;
+  font-size: .80rem;
+  line-height: 1.5;
+  font-style: italic;
+  border-bottom: 1px solid #ddd;
+}
+
+.entreblogs-lista {
+  margin: 0;
+  padding: 0 20px 15px 40px;
+  font-weight: none;
+  
+}
+
+.entreblogs-item {
+  margin: 8px 0;
+  font-weight: none !important;
+}
+
+.entreblogs-item:before {
+ content: "▸ ";
+}
+
+.entreblogs-link {
+  text-decoration: none;
+}
+
+.entreblogs-link:hover {
+  text-decoration: underline;
+}
+
+.entreblogs-tema[open] .entreblogs-header {
+  border-bottom: 1px solid #eee;
+}
+
+.entreblogs-loading {
+  padding: 12px 16px;
+  opacity: 0.7;
+  font-style: italic;
+}
+</style>
+
+<script>
 const URL_PARTICIPACOES =
   "https://docs.google.com/spreadsheets/d/e/2PACX-1vSqBdPB8FBc1OtUo-2pFEvInfttYBRWo-aXhqNOrXS8ejVaCGTL3QVpgzdqREMGoniUUtO2ZFaenw4x/pub?output=csv";
 
@@ -19,239 +107,426 @@ const URL_TEMAS =
 let DADOS = [];
 let DESCRICOES = {};
 
-/* =======================
-   CACHE HELPERS
-======================= */
+const CACHE_TIME = 1000 * 60 * 30;
 
-function saveCache(data) {
-  localStorage.setItem(CACHE_KEY, JSON.stringify({
-    time: Date.now(),
-    data
-  }));
-}
-
-function loadCache() {
-  const raw = localStorage.getItem(CACHE_KEY);
-  if (!raw) return null;
-
+function getCache(url) {
   try {
-    const parsed = JSON.parse(raw);
-    if (Date.now() - parsed.time > CACHE_TIME) return null;
-    return parsed.data;
+    const cache = localStorage.getItem(url);
+    return cache ? JSON.parse(cache) : null;
   } catch {
     return null;
   }
 }
 
-/* =======================
-   INIT (CACHE FIRST UX)
-======================= */
-
-const cached = loadCache();
-
-if (cached) {
-  DADOS = cached.DADOS;
-  DESCRICOES = cached.DESCRICOES;
-
-  renderizar(); // instantâneo
+function setCache(url, data) {
+  localStorage.setItem(
+    url,
+    JSON.stringify({
+      time: Date.now(),
+      data
+    })
+  );
 }
 
-/* sempre atualiza em background */
-Promise.all([
-  fetch(URL_PARTICIPACOES).then(r => r.text()),
-  fetch(URL_TEMAS).then(r => r.text())
-]).then(([csvPart, csvTemas]) => {
+async function fetchFresh(url) {
 
-  carregarParticipacoes(csvPart);
-  carregarTemas(csvTemas);
+  const resp = await fetch(url);
 
-  saveCache({ DADOS, DESCRICOES });
+  if (!resp.ok) {
+    throw new Error("Erro ao carregar " + url);
+  }
 
-  renderizar(); // re-render atualizado (silencioso)
+  const data = await resp.text();
+
+  setCache(url, data);
+
+  return data;
+}
+
+async function iniciar() {
+
+  const container =
+    document.getElementById("entreblogs-lista");
+
+  const cachePart =
+    getCache(URL_PARTICIPACOES);
+
+  const cacheTemas =
+    getCache(URL_TEMAS);
+
+  const possuiCache =
+    cachePart?.data &&
+    cacheTemas?.data;
+
+  /* =======================
+     PRIMEIRA VISITA
+  ======================= */
+
+  if (!possuiCache) {
+
+    const [csvPart, csvTemas] =
+      await Promise.all([
+        fetchFresh(URL_PARTICIPACOES),
+        fetchFresh(URL_TEMAS)
+      ]);
+
+    carregarParticipacoes(csvPart);
+    carregarTemas(csvTemas);
+
+    renderizar();
+
+    return;
+  }
+
+  /* =======================
+     MOSTRA CACHE IMEDIATAMENTE
+  ======================= */
+
+  carregarParticipacoes(cachePart.data);
+  carregarTemas(cacheTemas.data);
+
+  renderizar();
+
+  /* =======================
+     BACKGROUND UPDATE
+  ======================= */
+
+  Promise.all([
+    fetchFresh(URL_PARTICIPACOES),
+    fetchFresh(URL_TEMAS)
+  ])
+  .then(([novoPart, novoTemas]) => {
+
+    const mudou =
+      novoPart !== cachePart.data ||
+      novoTemas !== cacheTemas.data;
+
+    if (!mudou) {
+      return;
+    }
+
+    DADOS = [];
+    DESCRICOES = {};
+
+    carregarParticipacoes(novoPart);
+    carregarTemas(novoTemas);
+
+    renderizar();
+
+    console.log(
+      "EntreBlogs atualizado em background."
+    );
+
+  })
+  .catch(err => {
+
+    console.warn(
+      "Falha na atualização em background:",
+      err
+    );
+
+  });
+
+}
+
+iniciar().catch(() => {
+
+  document.getElementById(
+    "entreblogs-lista"
+  ).innerHTML = `
+    <div class="entreblogs-loading">
+      Erro ao carregar os dados.
+    </div>
+  `;
 
 });
 
-/* =======================
-   PARTICIPAÇÕES
-======================= */
-
 function carregarParticipacoes(csv) {
 
-  const linhas = csv.trim().split("\n").slice(1);
+  const linhas =
+    csv.trim().split("\n").slice(1);
 
-  DADOS = linhas.map(linha => {
+  DADOS = linhas
+    .map(linha => {
 
-    const cols = parseCSVLine(linha);
+      const cols =
+        parseCSVLine(linha);
 
-    const participacao = cols[2]?.trim();
+      const participacao =
+        cols[2]?.trim();
 
-    if (participacao !== "Tema principal") return null;
+      if (
+        participacao !==
+        "Tema"
+      ) {
+        return null;
+      }
 
-    const codigoOriginal = cols[7]?.trim() || "";
-    const temaOriginal = cols[3]?.trim() || "Sem tema";
+      const codigoOriginal =
+        cols[7]?.trim() || "";
 
-    const tema = temaOriginal.length > 6
-      ? temaOriginal.substring(6).trim()
-      : temaOriginal;
+      const temaOriginal =
+        cols[3]?.trim() ||
+        "Sem tema";
 
-    return {
-      timestamp: cols[0]?.trim(),
-      blog: cols[1]?.trim(),
-      participacao,
-      temaPrincipal: tema,
-      temaExtra: cols[4]?.trim(),
-      livro: cols[5]?.trim(),
-      link: cols[6]?.trim(),
-      codigo: codigoOriginal
-    };
+      const tema =
+        temaOriginal.length > 6
+          ? temaOriginal
+              .substring(6)
+              .trim()
+          : temaOriginal;
 
-  }).filter(Boolean);
+      return {
+        blog: cols[1]?.trim(),
+        temaPrincipal: tema,
+        link: cols[6]?.trim(),
+        codigo: codigoOriginal
+      };
+
+    })
+    .filter(Boolean);
 
 }
 
-/* =======================
-   TEMAS
-======================= */
-
 function carregarTemas(csv) {
 
-  const linhas = csv.trim().split("\n").slice(1);
+  DESCRICOES = {};
+
+  const linhas =
+    csv.trim().split("\n").slice(1);
 
   linhas.forEach(linha => {
 
-    const cols = parseCSVLine(linha);
+    const cols =
+      parseCSVLine(linha);
 
-    const codigo = cols[0]?.trim();
-    const descricao = cols[1]?.trim();
+    const codigo =
+      cols[0]?.trim();
+
+    const descricao =
+      cols[1]?.trim();
 
     if (codigo) {
-      DESCRICOES[codigo] = descricao;
+      DESCRICOES[codigo] =
+        descricao;
     }
 
   });
 
 }
 
-/* =======================
-   RENDER OTIMIZADO
-======================= */
 
 function renderizar() {
 
-  const container = document.getElementById("entreblogs-lista");
+  const container =
+    document.getElementById(
+      "entreblogs-lista"
+    );
+
+  container.innerHTML = "";
+
+  /* =======================
+     AGRUPA POR LETRA
+  ======================= */
 
   const grupos = {};
 
   DADOS.forEach(item => {
 
-    const chave = item.codigo + "||" + item.temaPrincipal;
+    const letra =
+      (item.blog || "")
+        .trim()
+        .charAt(0)
+        .toUpperCase();
+
+    const chave =
+      /^[A-ZÀ-Ú]$/i.test(letra)
+        ? letra
+        : "#";
 
     if (!grupos[chave]) {
-      grupos[chave] = {
-        codigo: item.codigo,
-        tema: item.temaPrincipal,
-        posts: []
-      };
+      grupos[chave] = [];
     }
 
-    grupos[chave].posts.push(item);
+    grupos[chave].push(item);
 
   });
 
-  const lista = Object.values(grupos);
+  const letras =
+    Object.keys(grupos)
+      .sort((a, b) =>
+        a.localeCompare(
+          b,
+          "pt-BR"
+        )
+      );
 
-  lista.sort((a, b) => {
-    const na = parseInt((a.codigo || "").replace(/\D/g, "")) || 0;
-    const nb = parseInt((b.codigo || "").replace(/\D/g, "")) || 0;
-    return nb - na;
-  });
+  /* =======================
+     ÍNDICE DE LETRAS
+  ======================= */
 
-  container.innerHTML = "";
+  const indice =
+    document.createElement("div");
 
-  let i = 0;
+  indice.className =
+    "entreblogs-indice";
 
-  function renderChunk() {
+  indice.innerHTML =
+    letras.map(letra => `
+      <a
+        href="#letra-${letra}"
+        class="entreblogs-indice-link">
+        ${letra}
+      </a>
+    `).join("");
 
-    const chunkSize = 10;
+  container.appendChild(indice);
 
-    for (let j = 0; j < chunkSize && i < lista.length; j++, i++) {
+  /* =======================
+     LISTA POR LETRA
+  ======================= */
 
-      const grupo = lista[i];
-      const descricao = DESCRICOES[grupo.codigo] || "";
+  letras.forEach(letra => {
 
-      const el = document.createElement("details");
-      el.className = "entreblogs-tema";
-      if (i === 0) el.open = true;
+    grupos[letra].sort((a, b) =>
+      a.blog.localeCompare(
+        b.blog,
+        "pt-BR",
+        {
+          sensitivity: "base"
+        }
+      )
+    );
 
-      let html = `
-        <summary class="entreblogs-header">
-          <span class="entreblogs-codigo">${grupo.codigo}</span>
-          <span class="entreblogs-titulo">${grupo.tema}</span>
-          <span class="entreblogs-total">(${grupo.posts.length})</span>
-        </summary>
+    const bloco =
+      document.createElement("div");
 
-        ${descricao ? `
-          <div class="entreblogs-descricao">
-            ${descricao}
-          </div>
-        ` : ""}
+    bloco.className =
+      "entreblogs-grupo";
 
-        <ul class="entreblogs-lista">
+    bloco.id =
+      `letra-${letra}`;
+
+    let html = `
+      <h2 class="entreblogs-letra">
+        ${letra}
+      </h2>
+
+      <ul class="entreblogs-lista">
+    `;
+
+    grupos[letra].forEach(blog => {
+
+      html += `
+        <li class="entreblogs-item">
+          <a
+            class="entreblogs-link"
+            href="${blog.link}"
+            target="_blank"
+            rel="noopener">
+            ${blog.blog}
+          </a>
+        </li>
       `;
 
-      grupo.posts.forEach(post => {
-        html += `
-          <li class="entreblogs-item">
-            <a class="entreblogs-link" href="${post.link}" target="_blank" rel="noopener">
-              ${post.blog}
-            </a>
-          </li>
-        `;
-      });
+    });
 
-      html += `</ul>`;
+    html += `
+      </ul>
+    `;
 
-      el.innerHTML = html;
-      container.appendChild(el);
-    }
+    bloco.innerHTML = html;
 
-    if (i < lista.length) {
-      requestAnimationFrame(renderChunk);
-    }
-  }
+    container.appendChild(bloco);
 
-  renderChunk();
+  });
+
 }
 
 /* =======================
-   CSV PARSER (inalterado)
+   ANCORAGEM VIA URL
 ======================= */
+
+const hash = window.location.hash
+  .replace(/^#/, "")
+  .trim();
+
+if (hash) {
+
+  const alvo = document.getElementById(hash);
+
+  if (alvo) {
+
+    alvo.open = true;
+
+    requestAnimationFrame(() => {
+
+      alvo.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+
+    });
+
+  }
+
+}
 
 function parseCSVLine(line) {
 
   const result = [];
+
   let current = "";
+
   let inQuotes = false;
 
-  for (let i = 0; i < line.length; i++) {
+  for (
+    let i = 0;
+    i < line.length;
+    i++
+  ) {
 
     const char = line[i];
 
-    if (char === '"' && line[i + 1] === '"') {
+    if (
+      char === '"' &&
+      line[i + 1] === '"'
+    ) {
+
       current += '"';
+
       i++;
-    } else if (char === '"') {
-      inQuotes = !inQuotes;
-    } else if (char === "," && !inQuotes) {
-      result.push(current);
-      current = "";
-    } else {
-      current += char;
+
     }
+    else if (
+      char === '"'
+    ) {
+
+      inQuotes =
+        !inQuotes;
+
+    }
+    else if (
+      char === "," &&
+      !inQuotes
+    ) {
+
+      result.push(current);
+
+      current = "";
+
+    }
+    else {
+
+      current += char;
+
+    }
+
   }
 
   result.push(current);
 
   return result;
+
 }
 </script>
