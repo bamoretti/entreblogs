@@ -108,6 +108,9 @@ html {
   .entreblogs-indice-link{
   text-decoration: none;
   }
+  .entreblogs-letra{
+  text-align: left !important;
+  }
 </style>
 
 <script>
