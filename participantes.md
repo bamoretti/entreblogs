@@ -102,6 +102,11 @@ html {
   .entreblogs-indice{
   text-align: center;
     margin: 0 auto;
+	padding: 20px;
+  }
+  
+  .entreblogs-indice-link{
+  text-decoration: none;
   }
 </style>
 
@@ -416,7 +421,7 @@ function renderizar() {
       `letra-${letra}`;
 
     let html = `
-      <h2 class="entreblogs-letra">
+      <h3 class="entreblogs-letra">
         ${letra}
       </h2>
 
