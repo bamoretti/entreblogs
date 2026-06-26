@@ -10,6 +10,16 @@ O clube de leitura é um projeto paralelo onde escolhemos um livro por mês para
 <ul class="link-livros">
 
   <li>
+    <figure class="capa-do-livro" livro-numero="07/26">
+      <a href="{{ site.baseurl }}/clube-de-leitura/o-perfume">
+        <img src="{{ site.baseurl }}/assets/livros/o-perfume.jpg">
+      </a>
+      <figcaption>O Perfume • Patrick Suskind</figcaption>
+    </figure>
+  </li>
+  
+  
+  <li>
     <figure class="capa-do-livro" livro-numero="06/26">
       <a href="{{ site.baseurl }}/clube-de-leitura/com-amor-felicia-gilbert-luly-lage">
         <img src="{{ site.baseurl }}/assets/livros/com-amor-felicia-gilbert-luly-lage.jpg">
