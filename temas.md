@@ -71,7 +71,7 @@ description: Temas que já passaram pela blogagem.
 }
 
 .entreblogs-item:before {
- content: "▸ ";
+ content: " ";
 }
 
 .entreblogs-link {
