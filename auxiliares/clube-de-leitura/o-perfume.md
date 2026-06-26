@@ -4,8 +4,7 @@ type: clube de leitura
 title: O Perfume • Patrick Suskind
 permalink: /clube-de-leitura/o-perfume/
 ---
-<figure><img src="{{ site.baseurl }}/assets/livros/o-perfume.jpg"><figcaption>O Perfume • Patrick Suskind
-</figcaption></figure>
+<figure><img src="{{ site.baseurl }}/assets/livros/o-perfume.jpg"><figcaption></figcaption></figure>
 
 
 Esta estranha história passa-se no século XVIII e é fruto de um extraordinário trabalho de reconstituição histórica que consegue captar plenamente os ambientes da época tal como as mentalidades. O protagonista é um artesão especializado no ofício de perfumista, e essa arte constitui para ele - nascido no meio dos nauseabundos odores de um mercado de rua - uma alquímica busca do Absoluto. O perfume supremo será para ele uma forma de alcançar o Belo e, nessa demanda nada o detém, nem mesmo os crimes mais hediondos, que fazem dele um ser monstruoso aos nossos olhos. Jean-Baptiste Grenouille possui no entanto uma incorrupta pureza que exerce um forte fascínio sobre o leitor. O Perfume, publicado em 1985, de um autor então quase desconhecido, foi considerado um dos mais importantes romances da década e nunca mais deixou de ser reeditado desde então, totalizando os 4 milhões de exemplares vendi dos, só na Alemanha, e 15 milhões em países estrangeiros. Foi traduzido em 42 línguas. Este fenómeno transformou-o num dos mais importantes livros de culto de sempre. 
