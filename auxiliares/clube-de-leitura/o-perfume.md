@@ -4,7 +4,7 @@ type: clube de leitura
 title: O Perfume • Patrick Suskind
 permalink: /clube-de-leitura/o-perfume/
 ---
-<figure><img src="{{ site.baseurl }}/assets/livros/o-perfume/.jpg"><figcaption>O Perfume • Patrick Suskind
+<figure><img src="{{ site.baseurl }}/assets/livros/o-perfume.jpg"><figcaption>O Perfume • Patrick Suskind
 </figcaption></figure>
 
 
