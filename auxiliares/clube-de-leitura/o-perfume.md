@@ -44,7 +44,7 @@ fetch(url)
     }).filter(d => d.blog && d.link);
 
     // 🔥 TESTE CORRETO:
-    renderizarPorTema("02.2026");
+    renderizarPorTema("07.2026");
 
   });
 
