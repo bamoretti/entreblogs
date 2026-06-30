@@ -6,6 +6,8 @@ description:
 permalink: /ideias/beda/
 ---
 
+BEDA: A Resistência Criativa / Liga dos Blogueiros / Crônicas da Resistência
+
 🟥 Vilão: O Algoritmo Sombrio
 HP: █████████████░░░░░ 68%
 
