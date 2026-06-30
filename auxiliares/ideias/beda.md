@@ -18,19 +18,27 @@ Dano total: 320 / 1000
 - Blog B: -10 HP
 - Blog C: -25 HP
 
+FASES 
 
-**Vilão tempo: O Devorador de Horas **
+Vilão tempo: O Devorador de Horas
 	- desafio: escrever um post em 15 minutos.
 	- ⁠desafio: postar uma foto do seu item mais antigo da vida.
 
-**Vilão perfeccionismo: O Crítico Infinito**
+Vilão perfeccionismo: O Crítico Infinito
 	- desafio: postar seu rascunho mais antigo
-	-
+	- desafio: poste sobre um dia seu sem esperar por um dia interessante
+	- desafio: escreva sobre o seu dia do ponto de vista de algum objeto.
 
-**Vilão da motivação: O Colecionador de Rascunhos**
 
+Vilão da motivação: O Colecionador de Rascunhos
+	- desafio: faça uma lista de coisas bobas
+	- desafio: indique coisas de que você gosta e que as pessoas precisam conhecer.
+	- desafio: postar 1 ou mais dos seus rascunhos
 
-**Vilão contra comunidade: O Algoritmo Sombrio**
+Vilão contra comunidade: O Algoritmo Sombrio
+	- desafio: escrever um post com algum integrante do entreblogs
+	- desafio: escrever com base em algum post do beda
+
 
 **Medalhas temáticas / Desafios**
 	- 🧠 Pensamento Original – 1º post criativo fora do padrão
