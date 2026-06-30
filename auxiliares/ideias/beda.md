@@ -23,7 +23,7 @@ Dano total: 320 / 1000
 	- desafio: escrever um post em 15 minutos.
 	- ⁠desafio: postar uma foto do seu item mais antigo da vida.
 
-** vilão perfeccionismo**
+**vilão perfeccionismo**
 	- desafio: postar seu rascunho mais antigo
 	-
 
@@ -33,25 +33,25 @@ Dano total: 320 / 1000
 **Vilão: O Algoritmo Sombrio**
 
 **Medalhas temáticas / Desafios**
-	🧠 Pensamento Original – 1º post criativo fora do padrão
-	⚔️ Resistência IA – 5 dias seguidos publicando
-	🧩 Quebra de Algoritmo – post com formato inesperado
-	👁️ Observado pela IA – 10 desafios completados
-	🌱 Primeiro passo -	1 postagem
-	✍️ Persistente	- 5 posts
-	🔥 Em chamas	- 7 dias seguidos
-	📅 Semana perfeita -	Todos os dias da semana
-	🚀 Metade do caminho	- 15 posts
-	👑 Conquistador	Completar o BEDA
+	- 🧠 Pensamento Original – 1º post criativo fora do padrão
+	- ⚔️ Resistência IA – 5 dias seguidos publicando
+	- 🧩 Quebra de Algoritmo – post com formato inesperado
+	- 👁️ Observado pela IA – 10 desafios completados
+	- 🌱 Primeiro passo -	1 postagem
+	- ✍️ Persistente	- 5 posts
+	- 🔥 Em chamas	- 7 dias seguidos
+	- 📅 Semana perfeita -	Todos os dias da semana
+	- 🚀 Metade do caminho	- 15 posts
+	- 👑 Conquistador	Completar o BEDA
 
 
-** Níveis:**
-	🟢 Criativo desperto
-	🔵 Cronista Persistente
-	🟠 Estrategista de fanfics
-	🟣 Narrador Adaptativo
-	🔴 Mestre da Consistência
-	⚫ Ninja da escrita
+**Níveis:**
+	- 🟢 Criativo desperto
+	- 🔵 Cronista Persistente
+	- 🟠 Estrategista de fanfics
+	- 🟣 Narrador Adaptativo
+	- 🔴 Mestre da Consistência
+	- ⚫ Ninja da escrita
 
 
 **Cartão do participante**
