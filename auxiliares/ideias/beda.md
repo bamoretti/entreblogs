@@ -19,18 +19,18 @@ Dano total: 320 / 1000
 - Blog C: -25 HP
 
 
-**vilão tempo **
+**Vilão tempo: O Devorador de Horas **
 	- desafio: escrever um post em 15 minutos.
 	- ⁠desafio: postar uma foto do seu item mais antigo da vida.
 
-**vilão perfeccionismo**
+**Vilão perfeccionismo: O Crítico Infinito**
 	- desafio: postar seu rascunho mais antigo
 	-
 
-**Vilão do controle/organização**
+**Vilão da motivação: O Colecionador de Rascunhos**
 
 
-**Vilão: O Algoritmo Sombrio**
+**Vilão contra comunidade: O Algoritmo Sombrio**
 
 **Medalhas temáticas / Desafios**
 	- 🧠 Pensamento Original – 1º post criativo fora do padrão
