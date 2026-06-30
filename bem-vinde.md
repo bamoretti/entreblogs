@@ -7,12 +7,11 @@ permalink: /bem-vinde/
 
 YAY!
 
-Parece que agora você é um ENTREBLOGGER!!! Te damos as boas-vindas! 
+Parece que agora você é ENTREBLOGGER!!! Te damos as boas-vindas! 
 
 O Entreblogs é uma comunidade para trocar experiências e desafios mensais.
 
 - **Temas:** Temas mensais decididos em grupo.
-- **Tags:** Podem ser postados em qualquer momento, apenas ideias para destravar escrita.
 - **Clube do livro:** todos os livros que lemos juntos.
 
 _Não gostou do tema? Não deu tempo de participar? Quer participar de um tema antigo? Não tem problema. Sinta-se livre pra participar quando puder, quando quiser e do que tiver interesse. Sua carteirinha de participante não será confiscada_ 🫰🏻  
