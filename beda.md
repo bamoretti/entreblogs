@@ -4,7 +4,6 @@ title: BEDA 2026
 permalink: /beda/
 ---
 
-<!DOCTYPE html>
 <html lang="pt">
 <head>
 <meta charset="UTF-8">
