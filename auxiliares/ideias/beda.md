@@ -60,6 +60,7 @@ Vilão contra comunidade: O Algoritmo Sombrio
 	- 🟣 Narrador Adaptativo
 	- 🔴 Mestre da Consistência
 	- ⚫ Ninja da escrita
+	- 🟣 Mago Critivo
 
 
 **Cartão do participante**
