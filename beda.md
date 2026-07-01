@@ -23,7 +23,7 @@ body{
     justify-content:center;
     align-items:center;
     height:100vh;
-    background:linear-gradient(135deg,#0f172a,#1e293b,#334155);
+    background:url("/assets/beda/background.jpg");
     color:white;
     text-align:center;
 }
@@ -79,10 +79,6 @@ p{
 <body>
 
 <div class="container">
-
-<h1>⏳ Contagem Regressiva</h1>
-
-<p>Faltam apenas...</p>
 
 <div class="contador">
 
