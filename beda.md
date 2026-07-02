@@ -47,7 +47,7 @@ body {
     display:block;
     margin:0 auto 15px;
     max-width:700px;
-    width:80%;
+    width:67%;
     height:auto;
 }
 
