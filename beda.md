@@ -149,9 +149,6 @@ p{
 
 .modal-conteudo-descricao {
     color:#523a13;
-	font-family: "Special Elite", system-ui;
-    font-size:14px;
-    line-height:1.5;
     margin-bottom:18px;
 	max-height:60vh;   /* altura máxima */
     overflow-y:auto;   /* scroll vertical */
@@ -159,8 +156,12 @@ p{
 
 .modal-conteudo-descricao p{
     color:#523a13;
+	font-family: "Special Elite", system-ui;
+    line-height:1.5;
+    font-size:14px;
 	padding-right: 10px;
 	padding-left: 10px;
+
 }
 
 .modal-conteudo-descricao::-webkit-scrollbar{
