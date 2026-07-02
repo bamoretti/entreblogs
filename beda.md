@@ -206,8 +206,8 @@ p{
 	
 	.logo-beda{
     display:block;
-    margin:0 auto 20px;
-    width:90%;
+    margin:5px;
+    width:100%;
     height:auto;
 	}
 
