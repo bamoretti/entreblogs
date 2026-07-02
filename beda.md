@@ -10,12 +10,18 @@ permalink: /beda/
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contagem Regressiva</title>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap" rel="stylesheet">
+
 <style>
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: "Jim Nightshade", cursive;
+	font-weight: 400;
+	font-style: normal;
 }
 
 body{
@@ -29,13 +35,7 @@ body{
 }
 
 .container{
-    background:rgba(255,255,255,0.08);
-    backdrop-filter:blur(12px);
     padding:40px;
-    border-radius:20px;
-    box-shadow:0 0 30px rgba(0,0,0,.4);
-    max-width:800px;
-    width:90%;
 }
 
 h1{
@@ -56,8 +56,7 @@ p{
 }
 
 .caixa{
-    background:#1e293b;
-    padding:20px;
+    padding:10px;
     border-radius:15px;
     min-width:120px;
 }
@@ -65,13 +64,13 @@ p{
 .numero{
     font-size:3rem;
     font-weight:bold;
-    color:#38bdf8;
+    color:#523a13;
 }
 
 .texto{
     margin-top:10px;
     font-size:1rem;
-    color:#cbd5e1;
+    color:#523a13;
 }
 </style>
 
