@@ -52,12 +52,12 @@ p{
 .contador{
     display:flex;
     justify-content:center;
-    gap:20px;
+    gap:0px;
     flex-wrap:wrap;
 }
 
 .caixa{
-    padding:10px;
+    padding:0px;
     border-radius:15px;
     min-width:120px;
 }
@@ -69,8 +69,8 @@ p{
 }
 
 .texto{
-    margin-top:10px;
-    font-size:1rem;
+    margin-top:0px;
+    font-size:1.5rem;
     color:#523a13;
 }
 </style>
