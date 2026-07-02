@@ -54,7 +54,7 @@ body {
 .logo-beda-pergaminho{
     display:block;
     margin:0 auto 5px;
-    width:60%;
+    max-width:100px;
     height:auto;
 }
 
