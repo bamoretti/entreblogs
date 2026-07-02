@@ -211,6 +211,11 @@ p{
     height:auto;
 	}
 
+
+	.container{
+		padding:20px;
+		margin-top: -20px;
+	}
 }
 
 
@@ -292,7 +297,7 @@ let destino = new Date(ano, 6, 27, 0, 0, 0);
 // Se já passou de 27 de julho deste ano,
 // usa o ano seguinte.
 if (hoje > destino) {
-    destino = new Date(ano + 1, 6, 27, 0, 0, 0);
+    destino = new Date(ano + 1, 6, 25, 0, 0, 0);
 }
 
 function atualizarContador(){
