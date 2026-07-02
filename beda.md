@@ -140,6 +140,8 @@ p{
     position:relative;
     text-align:left;
     box-shadow:0 15px 40px rgba(0,0,0,.4);
+
+
 }
 
 .modal-conteudo h2{
@@ -147,12 +149,34 @@ p{
     font-size:2.2rem;
 }
 
-.modal-conteudo-descricao p{
+.modal-conteudo-descricao{
     color:#523a13;
 	font-family: "Special Elite", system-ui;
     font-size:14px;
     line-height:1.5;
     margin-bottom:18px;
+	max-height:80vh;   /* altura máxima */
+    overflow-y:auto;   /* scroll vertical */
+}
+
+
+.modal-conteudo-descricao::-webkit-scrollbar{
+    width:10px;
+}
+
+.modal-conteudo-descricao::-webkit-scrollbar-track{
+    background:#e8dcc1;
+    border-radius:10px;
+}
+
+.modal-conteudo-descricao::-webkit-scrollbar-thumb{
+    background:#523a13;
+    border-radius:10px;
+}
+
+.modal-conteudo-descricao{
+    scrollbar-width:thin;          /* Firefox */
+    scrollbar-color:#523a13 #e8dcc1;
 }
 
 .fechar{
