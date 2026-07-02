@@ -159,6 +159,8 @@ p{
 
 .modal-conteudo-descricao p{
     color:#523a13;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .modal-conteudo-descricao::-webkit-scrollbar{
