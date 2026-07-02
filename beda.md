@@ -51,6 +51,13 @@ body {
     height:auto;
 }
 
+.logo-beda-pergaminho{
+    display:block;
+    margin:0 auto 5px;
+    width:60%;
+    height:auto;
+}
+
 .container{
     padding:40px;
 }
@@ -226,6 +233,12 @@ p{
 
 <div class="container">
 
+    <img
+        src="../assets/beda/pena-pergaminho.png"
+        alt="BEDA 2026"
+        class="logo-beda-pergaminho"
+    >
+	
     <img
         src="../assets/beda/titulo.png"
         alt="BEDA 2026"
