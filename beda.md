@@ -40,6 +40,14 @@ body{
 	background-size: 100%;
 }
 
+.logo-beda{
+    display:block;
+    margin:0 auto 35px;
+    max-width:700px;
+    width:90%;
+    height:auto;
+}
+
 .container{
     padding:40px;
 }
@@ -162,6 +170,12 @@ p{
 
 <div class="container">
 
+    <img
+        src="../assets/beda/titulo.png"
+        alt="BEDA 2026"
+        class="logo-beda"
+    >
+	
 <div class="contador">
 
 <div class="caixa">
