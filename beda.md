@@ -14,6 +14,11 @@ permalink: /beda/
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap" rel="stylesheet">
 
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/favicon/selo_1_marrom.png" | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon/selo_1_marrom.png" | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon/selo_1_marrom.png" | relative_url }}">
+
+
 <style>
 *{
     margin:0;
