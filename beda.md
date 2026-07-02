@@ -15,9 +15,9 @@ permalink: /beda/
 <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 
-<link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/favicon/selo_1_marron.png" | relative_url }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon/selo_1_marron.png" | relative_url }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon/selo_1_marron.png" | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="https://entreblogs.com.br/assets/favicon/selo_1_marron.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://entreblogs.com.br/assets/favicon/selo_1_marron.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://entreblogs.com.br/assets/favicon/selo_1_marron.png">
 
 <link rel="manifest" href="/site.webmanifest">
 
