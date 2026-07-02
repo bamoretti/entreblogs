@@ -13,6 +13,7 @@ permalink: /beda/
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 
 <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/selo_1_marrom.png">
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/selo_1_marrom.png">
@@ -146,9 +147,10 @@ p{
     font-size:2.2rem;
 }
 
-.modal-conteudo p{
+.modal-conteudo-descricao p{
     color:#523a13;
-    font-size:1.4rem;
+	font-family: "Special Elite", system-ui;
+    font-size:14px;
     line-height:1.5;
     margin-bottom:18px;
 }
@@ -211,22 +213,23 @@ p{
     <div class="modal-conteudo">
         <button class="fechar" onclick="fecharModal()">&times;</button>
 
-        <h2>O que é o BEDA?</h2>
+		<div class="modal-conteudo-descricao">
+			<h2>O que é o BEDA?</h2>
 
-        <p>
-            O <strong>BEDA</strong> (Blog Every Day in August) é um desafio em que
-            blogueiros publicam um novo conteúdo todos os dias durante o mês de agosto.
-        </p>
+			<p>
+				O <strong>BEDA</strong> (Blog Every Day in August) é um desafio em que
+				blogueiros publicam um novo conteúdo todos os dias durante o mês de agosto.
+			</p>
 
-        <p>
-            O objetivo é incentivar a escrita, fortalecer a comunidade de blogs,
-            conhecer novos autores e manter o hábito de produzir conteúdo diariamente.
-        </p>
+			<p>
+				O objetivo é incentivar a escrita, fortalecer a comunidade de blogs,
+				conhecer novos autores e manter o hábito de produzir conteúdo diariamente.
+			</p>
 
-        <p>
-            Participe publicando diariamente e compartilhe seus textos com a comunidade.
-        </p>
-
+			<p>
+				Participe publicando diariamente e compartilhe seus textos com a comunidade.
+			</p>
+		</div>
     </div>
 </div>
 
