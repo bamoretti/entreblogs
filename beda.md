@@ -19,6 +19,7 @@ permalink: /beda/
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/selo_1_marrom.png">
 <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/selo_1_marrom.png">
 
+<link rel="manifest" href="/site.webmanifest">
 
 <style>
 *{
