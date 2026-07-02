@@ -42,9 +42,9 @@ body{
 
 .logo-beda{
     display:block;
-    margin:0 auto 35px;
+    margin:0 auto 20px;
     max-width:700px;
-    width:90%;
+    width:60%;
     height:auto;
 }
 
