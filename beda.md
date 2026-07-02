@@ -60,7 +60,7 @@ h1{
 
 p{
     color:#cbd5e1;
-    margin-bottom:35px;
+    margin-bottom:20px;
 }
 
 .contador{
