@@ -23,7 +23,7 @@ body{
     justify-content:center;
     align-items:center;
     height:100vh;
-    background:url("/assets/beda/background.jpg");
+    background:url("../assets/beda/background.png");
     color:white;
     text-align:center;
 }
