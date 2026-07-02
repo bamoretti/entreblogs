@@ -31,15 +31,23 @@ permalink: /beda/
 	font-style: normal;
 }
 
-body{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
-    background:url("../assets/beda/background.png");
-    color:white;
-    text-align:center;
-	background-size: 100%;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../assets/beda/background.png");
+    background-size: 100%;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 }
 
 .logo-beda{
