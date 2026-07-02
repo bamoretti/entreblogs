@@ -32,6 +32,7 @@ body{
     background:url("../assets/beda/background.png");
     color:white;
     text-align:center;
+	background-size: 100%;
 }
 
 .container{
