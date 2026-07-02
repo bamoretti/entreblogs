@@ -48,6 +48,14 @@ body {
         background-position: center;
         background-repeat: no-repeat;
     }
+	
+	.logo-beda{
+    display:block;
+    margin:0 auto 20px;
+    width:90%;
+    height:auto;
+	}
+
 }
 
 .logo-beda{
