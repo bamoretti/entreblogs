@@ -288,11 +288,11 @@ p{
 
 
 <script>
-// Define o próximo dia 27 de julho às 00:00
+// Define o próximo dia 25 de julho às 00:00
 const hoje = new Date();
 let ano = hoje.getFullYear();
 
-let destino = new Date(ano, 6, 27, 0, 0, 0);
+let destino = new Date(ano, 6, 25, 0, 0, 0);
 
 // Se já passou de 27 de julho deste ano,
 // usa o ano seguinte.
