@@ -248,15 +248,13 @@ p{
 
 <p>Pense nele como uma campanha de aventura.</p>
 
-<p>Cada participante é um viajante com seu próprio mapa, sua própria história e seus próprios recursos. Alguns já chegam com uma mochila cheia de ideias; outros encontram tesouros pelo caminho — uma inspiração aqui, uma descoberta ali, uma nova história para contar.</p>
-
-<p>Mas cada aventureiro escolhe como enfrentar esse desafio. Você pode seguir uma trilha planejada, explorar temas inesperados ou aceitar missões aleatórias para descobrir novos caminhos.</p>
+<p>Cada participante é um viajante com seu próprio mapa, sua própria história e seus próprios recursos. Alguns já chegam com uma mochila cheia de ideias; outros encontram tesouros pelo caminho: uma inspiração aqui, uma descoberta ali, uma nova história para contar.</p>
 
 <p>Nem todo viajante precisa atravessar a floresta inteira para fazer parte da lenda. Alguns acompanharão a jornada completa; outros encontrarão a caravana em determinados momentos e deixarão sua marca no caminho.</p>
 
 <p>O importante é participar da aventura, compartilhar histórias e descobrir até onde sua criatividade pode levar.</p>
 
-<p>Prepare seu grimório de ideias, equipe seus melhores recursos e junte-se à campanha. ✨</p>
+<p>✨ Prepare seu grimório de ideias, equipe seus melhores recursos e junte-se à campanha. ✨</p>
 
 		</div>
     </div>
