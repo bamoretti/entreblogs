@@ -216,19 +216,20 @@ p{
 		<div class="modal-conteudo-descricao">
 			<h2>O que é o BEDA?</h2>
 
-			<p>
-				O <strong>BEDA</strong> (Blog Every Day in August) é um desafio em que
-				blogueiros publicam um novo conteúdo todos os dias durante o mês de agosto.
-			</p>
+<p>O BEDA (Blog Every Day in August) é uma jornada criativa em que aventureiros dos blogs se reúnem durante o mês de agosto para cumprir um desafio: publicar algo todos os dias.</p>
 
-			<p>
-				O objetivo é incentivar a escrita, fortalecer a comunidade de blogs,
-				conhecer novos autores e manter o hábito de produzir conteúdo diariamente.
-			</p>
+<p>Pense nele como uma campanha de aventura.</p>
 
-			<p>
-				Participe publicando diariamente e compartilhe seus textos com a comunidade.
-			</p>
+<p>Cada participante é um viajante com seu próprio mapa, sua própria história e seus próprios recursos. Alguns já chegam com uma mochila cheia de ideias; outros encontram tesouros pelo caminho — uma inspiração aqui, uma descoberta ali, uma nova história para contar.</p>
+
+<p>Mas cada aventureiro escolhe como enfrentar esse desafio. Você pode seguir uma trilha planejada, explorar temas inesperados ou aceitar missões aleatórias para descobrir novos caminhos.</p>
+
+<p>Nem todo viajante precisa atravessar a floresta inteira para fazer parte da lenda. Alguns acompanharão a jornada completa; outros encontrarão a caravana em determinados momentos e deixarão sua marca no caminho.</p>
+
+<p>O importante é participar da aventura, compartilhar histórias e descobrir até onde sua criatividade pode levar.</p>
+
+<p>Prepare seu grimório de ideias, equipe seus melhores recursos e junte-se à campanha. ✨</p>
+
 		</div>
     </div>
 </div>
