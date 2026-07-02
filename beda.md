@@ -42,21 +42,6 @@ body {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    body {
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-	
-	.logo-beda{
-    display:block;
-    margin:0 auto 20px;
-    width:90%;
-    height:auto;
-	}
-
-}
 
 .logo-beda{
     display:block;
@@ -210,6 +195,25 @@ p{
     cursor:pointer;
     color:#523a13;
 }
+
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+	
+	.logo-beda{
+    display:block;
+    margin:0 auto 20px;
+    width:90%;
+    height:auto;
+	}
+
+}
+
+
 </style>
 
 </head>
