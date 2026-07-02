@@ -45,9 +45,9 @@ body {
 
 .logo-beda{
     display:block;
-    margin:0 auto 20px;
+    margin:0 auto 15px;
     max-width:700px;
-    width:60%;
+    width:80%;
     height:auto;
 }
 
