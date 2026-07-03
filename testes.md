@@ -28,22 +28,25 @@ permalink: /testes/
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family: "Jim Nightshade", cursive;
+	font-weight: 400;
+	font-style: normal;
 }
 
-body{
-
-    background:#edeae6;
-    color:#FFF;
-    font-family:Arial,Helvetica,sans-serif;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    min-height:100vh;
-
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../assets/beda/background.png");
+    background-size: 100%;
+    color: white;
+    text-align: center;
 }
 
+.card {
+    padding: 50px;
+}
 
 #bossImage{
 
