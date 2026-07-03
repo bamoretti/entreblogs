@@ -45,14 +45,14 @@ body {
 }
 
 .card {
-    padding: 50px;
+    width: 850px;
 }
 
 #bossImage{
 
-    width:100%;
+    width:80%;
     height:auto;
-
+	
     object-fit:cover;
 
     border-radius:20px;
