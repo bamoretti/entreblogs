@@ -29,3 +29,7 @@ Acredito que o projeto é uma forma de fazer mais pessoas compartilharem suas co
 A vida muda mas o blog persiste.  
 
 **A blogosfera persiste.**
+
+<a href="/beda/" class="secret-file" aria-label="Arquivo encontrado">
+    <img src="/assets/beda/favicon/selo_1_marron.png" alt="">
+</a>
