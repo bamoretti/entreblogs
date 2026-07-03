@@ -80,13 +80,9 @@ h1{
 }
 
 .description{
-
     line-height:1.6;
-
     color:#141313;
-
     margin-bottom:30px;
-
 }
 
 .hpHeader{
@@ -303,5 +299,3 @@ carregar();
 
 </body>
 </html>
-
-s
