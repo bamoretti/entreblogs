@@ -1,7 +1,7 @@
 ---
 layout: vazio
 title: BEDA 2026
-permalink: /beda/
+permalink: /beda/recrutamento
 ---
 
 <html lang="pt">
