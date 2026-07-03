@@ -720,17 +720,17 @@ main {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    width: 60px;
     z-index: 9999;
-
-    width: 70px;
-    transition: .25s ease;
+    display: block;
 }
 
 .secret-file img{
-    width:100%;
-    display:block;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .secret-file:hover{
-    transform: translateY(-4px) rotate(-3deg);
+    transform: scale(1.05);
 }
