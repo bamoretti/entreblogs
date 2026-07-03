@@ -50,12 +50,9 @@ body {
 
 #bossImage{
 
-    width:80%;
+    width:100%;
     height:auto;
-	
     object-fit:cover;
-
-    border-radius:20px;
 
     display:block;
 
@@ -75,10 +72,9 @@ h1{
 
 .period{
 
-    color:#d6b25e;
+    color:#000;
 	text-align: center;
     font-size:18px;
-
     margin-bottom:20px;
 
 }
