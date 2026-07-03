@@ -718,9 +718,9 @@ main {
 /* Arquivo secreto Beda */
 .secret-file{
     position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 60px;
+    bottom: 40px;
+    right: 50px;
+    width: 80px;
     z-index: 9999;
     display: block;
 }
