@@ -45,6 +45,7 @@ body {
 }
 
 .container{
+	margin-top: 50px;
     width: 850px;
 	padding-top:40px;
 }
