@@ -1,6 +1,3 @@
-/* ==========================================================
-   CONFIGURAÇÃO
-========================================================== */
 
 const URL_PLAYERS =
 "https://docs.google.com/spreadsheets/d/e/2PACX-1vQeqf6B-V3mWT2tPVYjt5UXNeqGxc6So11z4zbJbIVa6e0_5UAqKcmKBEAQQRD8KC2DRMFlgzQ_AAiz/pub?gid=809160378&single=true&output=csv";
