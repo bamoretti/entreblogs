@@ -44,6 +44,13 @@ body {
     animation: flutuar 2s ease-in-out infinite;
 }
 
+.descricao-beda{
+	color:#000;
+	margin-bottom: 20px;
+	
+}
+
+
 @keyframes flutuar {
     0% {
         transform: translateY(0);
