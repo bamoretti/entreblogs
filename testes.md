@@ -80,18 +80,6 @@ permalink: /testes/
 
     </div>
 
-<div class="attack-action">
-    <a
-        href="https://forms.gle/4WSDM3G162sUCh8AA"
-        target="_blank"
-        rel="noopener"
-        class="attack-button">
-
-        ⚔️ Faça um Ataque
-
-    </a>
-</div>
-
 </div>
 
 
@@ -161,6 +149,19 @@ permalink: /testes/
     </div>
 
 </section>
+
+<div class="attack-action">
+    <a
+        href="https://forms.gle/4WSDM3G162sUCh8AA"
+        target="_blank"
+        rel="noopener"
+        class="attack-button">
+
+        ⚔️ Faça um Ataque
+
+    </a>
+</div>
+
 </div>
 
 <script>
