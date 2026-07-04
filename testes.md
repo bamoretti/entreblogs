@@ -44,8 +44,23 @@ body {
     text-align: center;
 }
 
-.card {
+.container{
     width: 850px;
+}
+
+.logo-beda{
+    display:block;
+    margin:0 auto 15px;
+    max-width:700px;
+    width:67%;
+    height:auto;
+}
+
+.logo-beda-pergaminho{
+    display:block;
+    margin:0 auto 5px;
+    max-width:100px;
+    height:auto;
 }
 
 #bossImage{
@@ -140,7 +155,21 @@ h1{
 
 <body>
 
-<div class="card">
+<div class="container">
+
+
+    <img
+        src="../assets/beda/pena-pergaminho.png"
+        alt="BEDA 2026"
+        class="logo-beda-pergaminho"
+    >
+	
+    <img
+        src="../assets/beda/titulo.png"
+        alt="BEDA 2026"
+        class="logo-beda"
+    >
+	
 
 <img id="bossImage">
 
