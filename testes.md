@@ -174,35 +174,26 @@ h1{
     margin: 30px 0px 0px 20px;
     border-radius: 20px;
     padding: 20;
+	text-align: left;
 }
 
 .missao{
-
-    background:#18212c;
-
-    border-left:5px solid #d6b25e;
-
     padding:20px;
-
-    margin-bottom:20px;
-
-    border-radius:12px;
-
+    margin-bottom:30px;
 }
 
 .missao h2{
-    font-size: 20px;
+    font-size: 32px;
     color:#d6b25e;
-    margin-bottom:10px;
+    margin-bottom:50px;
 
 }
 
 .missao p{
 
-    line-height:1.6;
 	margin-left: 30px;
     color:#ddd;
-	font-size: 16px;
+	font-size: 27px;
 }
 
 .loading{
