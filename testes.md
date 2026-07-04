@@ -46,7 +46,9 @@ permalink: /testes/
         class="logo-beda"
     >
 	
-
+<div class="descricao-beda">
+Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em tempos de silêncio. Mas existe uma antiga tradição, conhecida entre aldeões pelo nome de BEDA. Quando chega a Estação da Escrita, aventureiros atendem ao chamado para registrar histórias, reacender blogs e impedir que a chama da criatividade apague e o esquecimento roube memórias. Assim começa a jornada dos Guardiões da Blogosfera.
+</div>
 <img id="bossImage">
 
 <div class="hpHeader">
@@ -69,7 +71,7 @@ permalink: /testes/
 
 <div class="missoes">
 
-    <h3>Missões Ativas</h3>
+    <h3>Missões da Semana Contra o Vilão</h3>
 
     <div id="listaMissoes">
 
@@ -87,7 +89,7 @@ permalink: /testes/
 
     <div class="battle-header">
 
-        <h2>⚔️ Últimos Ataques ao Vilão</h2>
+        <h2>⚔Últimos Ataques ao Vilão</h2>
 
         <p>
             Os Guardiões registram aqui todas as investidas contra as forças da Entropia.
