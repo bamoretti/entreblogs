@@ -160,16 +160,14 @@ h1{
 }
 
 .attacks{
-
     margin-top:20px;
-
     font-size:20px;
 
 }
 
 <!-- missão -->
 
-.missoes {
+.missoes{
     background: #694f3f;
     margin: 30px 0px 0px 20px;
     border-radius: 20px;
@@ -179,7 +177,6 @@ h1{
 
 .missao{
     padding:20px;
-    margin-bottom:30px;
 }
 
 .missao h2{
@@ -190,7 +187,6 @@ h1{
 }
 
 .missao p{
-
 	margin-left: 30px;
     color:#ddd;
 	font-size: 27px;
