@@ -171,12 +171,42 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
     >
 	
 	
+<!-- ==========================================
+     GUARDIÕES DA BLOGOSFERA
+========================================== -->
+
+<section class="players-section">
+
+    <div class="players-header">
+
+        <h2>🧙 Guardiões da Blogosfera</h2>
+
+        <p>
+            Cada guardião fortalece o Reino dos Escribas com seus pergaminhos.
+        </p>
+
+    </div>
+
+    <div id="playersGrid" class="players-grid">
+
+        <div class="player-loading">
+
+            Carregando guardiões...
+
+        </div>
+
+    </div>
+
+</section>
+	
+	
 </div>
 
 
 <script src="..\scripts\beda2026-viloes.js"></script>
 <script src="..\scripts\beda2026-missoes.js"></script>
 <script src="..\scripts\beda2026-ataques.js"></script>
+<script src="..\scripts\beda2026-jogadores.js"></script>
 
 
 </body>

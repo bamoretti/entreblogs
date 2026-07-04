@@ -537,3 +537,271 @@ h1{
     transform:scale(.98);
 
 }
+
+
+  /* ==========================================================
+   GUARDIÕES DA BLOGOSFERA
+========================================================== */
+
+.players-section{
+
+    width:min(1400px,95%);
+
+    margin:60px auto;
+
+}
+
+.players-header{
+    text-align:center;
+    margin-bottom:40px;
+
+}
+
+.players-header h2{
+
+    font-family:Cinzel,serif;
+
+    color:#d6b25e;
+
+    font-size:2.3rem;
+
+    margin-bottom:10px;
+
+}
+
+.players-header p{
+
+    color:#b8c2cf;
+
+    font-size:1rem;
+
+}
+
+
+/* ==========================================================
+   GRID
+========================================================== */
+
+.players-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:35px;
+
+}
+
+
+/* ==========================================================
+   CARD
+========================================================== */
+
+.player-card{
+    position:relative;
+    background:#d5bc90;
+    border:1px solid #1d1b18;
+    border-radius:28px;
+    padding:45px 30px 30px;
+    transition:.35s;
+    box-shadow: 0 18px 40px rgba(0,0,0,.25);
+
+}
+
+.player-card:hover{
+    transform:translateY(-8px);
+    box-shadow: 0 28px 55px rgba(0,0,0,.35);
+
+}
+
+
+/* ==========================================================
+   PLAQUINHA SUPERIOR
+========================================================== */
+
+.player-title{
+
+    position:absolute;
+    left:50%;
+    top:-28px;
+    transform:translateX(-50%);
+    background:#d9c196;
+    border:1px solid #1d1b18;
+    border-radius:25px;
+    padding:14px 30px;
+    min-width:180px;
+    text-align:center;
+
+}
+
+.player-title a{
+    text-decoration:none;
+    color:#1b1b1b;
+    font-family:Cinzel,serif;
+    font-size:2rem;
+    font-weight:bold;
+
+}
+
+.player-title a:hover{
+
+    color:#6b4b13;
+
+}
+
+
+/* ==========================================================
+   CLASSE
+========================================================== */
+
+.player-class{
+
+    text-align:center;
+
+    font-family:Cinzel,serif;
+
+    font-size:1.8rem;
+
+    color:#2a2117;
+
+    margin-bottom:35px;
+
+}
+
+
+/* ==========================================================
+   BARRA XP
+========================================================== */
+
+.player-progress{
+
+    width:100%;
+
+    height:22px;
+
+    background:#9a7a4f;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.player-progress-fill{
+
+    height:100%;
+
+    width:0;
+
+    background:linear-gradient(90deg,#5b3d0b,#8b651c,#5b3d0b);
+
+    border-radius:20px;
+
+    transition:width .8s;
+
+}
+
+.player-progress-text{
+
+    text-align:center;
+
+    margin-top:10px;
+
+    font-size:1rem;
+
+    color:#2a2117;
+
+    font-weight:bold;
+
+}
+
+
+/* ==========================================================
+   MEDALHAS
+========================================================== */
+
+.player-medals{
+
+    margin-top:35px;
+
+    background:rgba(255,255,255,.12);
+
+    border-radius:20px;
+
+    min-height:120px;
+
+    padding:25px;
+
+    font-size:2rem;
+
+    line-height:2;
+
+    text-align:left;
+
+    border:1px solid rgba(0,0,0,.08);
+
+}
+
+
+/* ==========================================================
+   LOADING
+========================================================== */
+
+.player-loading{
+
+    grid-column:1/-1;
+
+    text-align:center;
+
+    color:white;
+
+    padding:50px;
+
+}
+
+
+/* ==========================================================
+   RESPONSIVO
+========================================================== */
+
+@media(max-width:900px){
+
+    .players-grid{
+
+        grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    }
+
+}
+
+@media(max-width:650px){
+
+    .player-card{
+
+        padding:70px 20px 25px;
+
+    }
+
+    .player-title{
+
+        min-width:200px;
+
+    }
+
+    .player-title a{
+
+        font-size:1.6rem;
+
+    }
+
+    .player-class{
+
+        font-size:1.4rem;
+
+    }
+
+    .player-medals{
+
+        font-size:1.6rem;
+
+    }
+
+}
