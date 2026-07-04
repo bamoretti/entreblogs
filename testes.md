@@ -165,7 +165,6 @@ h1{
 
 }
 
-<!-- missão -->
 
 .missoes{
     background: #694f3f;
@@ -816,7 +815,7 @@ async function carregarMissoes(){
                 "missao";
 
             card.innerHTML = `
-
+	
                 <h2>
                     ${obj["Missão"]}
                 </h2>
