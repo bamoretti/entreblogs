@@ -169,6 +169,13 @@ h1{
 
 <!-- missão -->
 
+.missoes {
+    background: #694f3f;
+    margin: 30px 0px 0px 20px;
+    border-radius: 20px;
+    padding: 20;
+}
+
 .missao{
 
     background:#18212c;
