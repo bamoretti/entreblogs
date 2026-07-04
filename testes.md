@@ -46,6 +46,7 @@ body {
 
 .container{
     width: 850px;
+	padding-top:40px;
 }
 
 .logo-beda{
