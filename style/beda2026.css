@@ -740,6 +740,22 @@ h1{
 
 }
 
+.medal{
+    position:relative;
+    display:inline-block;
+}
+
+.medal-tooltip{
+    position:absolute;
+    visibility:hidden;
+    opacity:0;
+}
+
+.medal:hover .medal-tooltip{
+    visibility:visible;
+    opacity:1;
+}
+
 
 /* ==========================================================
    LOADING
