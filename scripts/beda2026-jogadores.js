@@ -209,7 +209,7 @@ function processarJogadores(csv){
 
             frequencia:
 
-                Number(obj["Frequência"]) || 0,
+                Number(obj["Participações"]) || 0,
 
             medalhas:
 
