@@ -202,6 +202,316 @@ h1{
 
 }
 
+
+ /* ==========================================================
+   HISTÓRICO DE ATAQUES
+========================================================== */
+
+.battle-log{
+
+    width:min(1200px,95%);
+
+    margin:60px auto;
+
+    background:#141c26;
+
+    border:1px solid rgba(255,255,255,.06);
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+
+}
+
+.battle-header{
+
+    padding:30px;
+
+    text-align:center;
+
+    border-bottom:1px solid rgba(255,255,255,.06);
+
+}
+
+.battle-header h2{
+
+    font-family:Cinzel,serif;
+
+    font-size:2rem;
+
+    color:#d6b25e;
+
+    margin-bottom:10px;
+
+}
+
+.battle-header p{
+
+    color:#9aa8b6;
+
+    font-size:.95rem;
+
+}
+
+/* ==========================================================
+   TABELA
+========================================================== */
+
+.battle-table-wrapper{
+
+    overflow-x:auto;
+
+}
+
+.battle-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.battle-table thead{
+
+    background:#1b2635;
+
+}
+
+.battle-table th{
+
+    padding:16px;
+
+    text-align:left;
+
+    color:#d6b25e;
+
+    font-size:.9rem;
+
+    font-weight:600;
+
+    white-space:nowrap;
+
+}
+
+.battle-table td{
+
+    padding:15px 16px;
+
+    border-top:1px solid rgba(255,255,255,.05);
+
+    color:#e6eef7;
+
+    vertical-align:middle;
+
+}
+
+.battle-table tbody tr{
+
+    transition:.25s;
+
+}
+
+.battle-table tbody tr:hover{
+
+    background:#1b2736;
+
+}
+
+/* ==========================================================
+   COLUNAS
+========================================================== */
+
+.battle-date{
+
+    color:#9aa8b6;
+
+    font-size:.9rem;
+
+    white-space:nowrap;
+
+}
+
+.battle-player{
+
+    font-weight:600;
+
+    color:#ffffff;
+
+}
+
+.battle-attack{
+
+    color:#6bbcff;
+
+    font-weight:600;
+
+}
+
+.battle-damage{
+
+    text-align:center;
+
+    font-weight:bold;
+
+    color:#ff6b6b;
+
+    font-size:1rem;
+
+}
+
+.battle-medal{
+
+    font-size:1.3rem;
+
+    text-align:center;
+
+}
+
+.battle-link{
+
+    color:#6ee7a8;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+.battle-link:hover{
+
+    text-decoration:underline;
+
+}
+
+/* ==========================================================
+   BOTÃO
+========================================================== */
+
+.battle-footer{
+
+    padding:25px;
+
+    text-align:center;
+
+    border-top:1px solid rgba(255,255,255,.06);
+
+}
+
+#toggleBattle{
+
+    background:#d6b25e;
+
+    color:#141c26;
+
+    border:none;
+
+    border-radius:10px;
+
+    padding:12px 26px;
+
+    font-size:.95rem;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+#toggleBattle:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 10px 25px rgba(214,178,94,.35);
+
+}
+
+/* ==========================================================
+   ESTADO VAZIO
+========================================================== */
+
+.battle-empty{
+
+    text-align:center;
+
+    color:#9aa8b6;
+
+    padding:40px;
+
+}
+
+/* ==========================================================
+   RESPONSIVO
+========================================================== */
+
+@media(max-width:900px){
+
+    .battle-header h2{
+
+        font-size:1.6rem;
+
+    }
+
+    .battle-table th,
+
+    .battle-table td{
+
+        padding:12px;
+
+        font-size:.9rem;
+
+    }
+
+}
+
+@media(max-width:600px){
+
+    .battle-log{
+
+        border-radius:12px;
+
+    }
+
+    .battle-header{
+
+        padding:20px;
+
+    }
+
+    .battle-header h2{
+
+        font-size:1.35rem;
+
+    }
+
+    .battle-header p{
+
+        font-size:.85rem;
+
+    }
+
+    .battle-table th,
+
+    .battle-table td{
+
+        padding:10px;
+
+        font-size:.82rem;
+
+    }
+
+    #toggleBattle{
+
+        width:100%;
+
+    }
+
+}
+  
+
 </style>
 
 </head>
@@ -259,6 +569,73 @@ h1{
 
 </div>
 
+
+
+<section class="battle-log">
+
+    <div class="battle-header">
+
+        <h2>⚔️ Últimos Ataques ao Vilão</h2>
+
+        <p>
+            Os Guardiões registram aqui todas as investidas contra as forças da Entropia.
+        </p>
+
+    </div>
+
+    <div class="battle-table-wrapper">
+
+        <table class="battle-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Data</th>
+
+                    <th>Personagem</th>
+
+                    <th>Ataque</th>
+
+                    <th>Dano</th>
+
+                    <th>Medalha</th>
+
+                    <th>Pergaminho</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="battleBody">
+
+                <tr>
+
+                    <td colspan="6">
+
+                        Carregando ataques...
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="battle-footer">
+
+        <button id="toggleBattle">
+
+            Ver todos os ataques
+
+        </button>
+
+    </div>
+
+</section>
 </div>
 
 <script>
@@ -543,6 +920,8 @@ function parseCSVLine(line){
 carregarMissoes();
 
 </script>
+
+<script src="..\scripts\beda2026-ataques.js"></script>
 
 </body>
 </html>
