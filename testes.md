@@ -49,23 +49,22 @@ permalink: /testes/
 
 <img id="bossImage">
 
+<div class="hpHeader">
+
+	<span>HP</span>
+
+	<span id="bossHPText"></span>
+
+	</div>
+
+	<div class="hp">
+
+	<div id="bossBar"></div>
+
+</div>
 <div class="period" id="bossPeriod"></div>
 
 <div class="description" id="bossDescription"></div>
-
-<div class="hpHeader">
-
-<span>HP</span>
-
-<span id="bossHPText"></span>
-
-</div>
-
-<div class="hp">
-
-<div id="bossBar"></div>
-
-</div>
 
 
 <div class="missoes">
