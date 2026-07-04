@@ -304,7 +304,7 @@ function renderizarMedalhas(texto){
 
             return `
 
-                <span class="medal">
+                <span class="caixa-medal">
 
                     ${emoji}
 

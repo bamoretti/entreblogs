@@ -719,28 +719,19 @@ h1{
 ========================================================== */
 
 .player-medals{
-
     margin-top:35px;
-
     background:rgba(255,255,255,.12);
-
     border-radius:20px;
-
     min-height:120px;
-
     padding:25px;
-
     font-size:2rem;
-
     line-height:2;
-
     text-align:left;
-
     border:1px solid rgba(0,0,0,.08);
 
 }
 
-.medal{
+.caixa-medal{
     position:relative;
     display:inline-block;
 }
@@ -749,9 +740,13 @@ h1{
     position:absolute;
     visibility:hidden;
     opacity:0;
+	color: #000;
+	font-size: 14px;
+	width: 280x;
+	
 }
 
-.medal:hover .medal-tooltip{
+.caixa-medal:hover .medal-tooltip{
     visibility:visible;
     opacity:1;
 }
