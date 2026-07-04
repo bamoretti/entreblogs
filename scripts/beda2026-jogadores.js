@@ -1,9 +1,18 @@
+/* ==========================================================
+   CONFIGURAÇÃO
+========================================================== */
 
 const URL_PLAYERS =
 "https://docs.google.com/spreadsheets/d/e/2PACX-1vQeqf6B-V3mWT2tPVYjt5UXNeqGxc6So11z4zbJbIVa6e0_5UAqKcmKBEAQQRD8KC2DRMFlgzQ_AAiz/pub?gid=809160378&single=true&output=csv";
 
+const URL_MEDALHAS =
+"https://docs.google.com/spreadsheets/d/e/2PACX-1vQeqf6B-V3mWT2tPVYjt5UXNeqGxc6So11z4zbJbIVa6e0_5UAqKcmKBEAQQRD8KC2DRMFlgzQ_AAiz/pub?gid=26031933&single=true&output=csv";
+
 
 let PLAYERS = [];
+
+let MEDALHAS = {};
+
 
 /* ==========================================================
    CACHE
@@ -57,6 +66,7 @@ function setCache(url,data){
 
 }
 
+
 /* ==========================================================
    DOWNLOAD CSV
 ========================================================== */
@@ -75,7 +85,7 @@ async function fetchCSV(url){
 
     if(!resp.ok){
 
-        throw new Error("Erro ao carregar planilha.");
+        throw new Error("Erro ao carregar " + url);
 
     }
 
@@ -86,6 +96,7 @@ async function fetchCSV(url){
     return csv;
 
 }
+
 
 /* ==========================================================
    PARSER CSV
@@ -139,13 +150,14 @@ function parseCSVLine(line){
 
 }
 
+
 /* ==========================================================
-   PROCESSAR CSV
+   JOGADORES
 ========================================================== */
 
-function processarCSV(csv){
+function processarJogadores(csv){
 
-    PLAYERS=[];
+    PLAYERS = [];
 
     const linhas = csv.trim().split(/\r?\n/);
 
@@ -155,65 +167,181 @@ function processarCSV(csv){
 
         const cols = parseCSVLine(linha);
 
-        const obj={};
+        const obj = {};
 
-        cabecalho.forEach((c,i)=>{
+        cabecalho.forEach((coluna,i)=>{
 
-            obj[c.trim()] = cols[i]?.trim() || "";
+            obj[coluna.trim()] = cols[i]?.trim() || "";
 
         });
 
-        /* Ignora quem não possui personagem */
+        /* ignora quem não tem personagem */
 
-        if(!obj["Personagem"] || obj["Personagem"].trim()===""){
+        if(!obj["Personagem"]) return;
 
-            return;
-
-        }
+        if(obj["Personagem"].trim()==="") return;
 
         PLAYERS.push({
 
-            blog: obj["Nome do Blog"],
+            blog:
 
-            link: obj["Link"],
+                obj["Nome do Blog"],
 
-            personagem: obj["Personagem"],
+            link:
 
-            classeInicial: obj["Classe Inicial"],
+                obj["Link"],
 
-            classeAtual: obj["Classe Atual"],
+            personagem:
 
-            frequencia: Number(obj["Participações"]) || 0,
+                obj["Personagem"],
 
-            participacoes: Number(obj["Participações"]) || 0,
+            classeInicial:
 
-            medalhas: obj["Medalhas"] || ""
+                obj["Classe Inicial"],
+
+            classeAtual:
+
+                obj["Classe Atual"],
+
+            participacoes:
+
+                Number(obj["Participações"]) || 0,
+
+            frequencia:
+
+                Number(obj["Frequência"]) || 0,
+
+            medalhas:
+
+                obj["Medalhas"] || ""
 
         });
 
     });
 
-    PLAYERS.sort((a,b)=>{
+    PLAYERS.sort(
 
-        return b.frequencia-a.frequencia;
+        (a,b)=>
+
+            b.frequencia-a.frequencia
+
+    );
+
+}
+
+
+/* ==========================================================
+   MEDALHAS
+========================================================== */
+
+function processarMedalhas(csv){
+
+    MEDALHAS = {};
+
+    const linhas = csv.trim().split(/\r?\n/);
+
+    const cabecalho = parseCSVLine(linhas.shift());
+
+    linhas.forEach(linha=>{
+
+        const cols = parseCSVLine(linha);
+
+        const obj = {};
+
+        cabecalho.forEach((coluna,i)=>{
+
+            obj[coluna.trim()] = cols[i]?.trim() || "";
+
+        });
+
+        const emoji =
+
+            obj["Medalha (Emoji)"];
+
+        if(!emoji) return;
+
+        MEDALHAS[emoji]={
+
+            nome:
+
+                obj["Nome da Medalha"],
+
+            descricao:
+
+                obj["Significado"]
+
+        };
 
     });
 
 }
 
 /* ==========================================================
-   RENDERIZAÇÃO
+   MEDALHAS
+========================================================== */
+
+function renderizarMedalhas(texto){
+
+    if(!texto) return "—";
+
+    return [...texto]
+
+        .filter(e=>e.trim()!="")
+
+        .map(emoji=>{
+
+            const medalha = MEDALHAS[emoji];
+
+            if(!medalha){
+
+                return `
+                    <span class="medal">
+                        ${emoji}
+                    </span>
+                `;
+
+            }
+
+            return `
+
+                <span class="medal">
+
+                    ${emoji}
+
+                    <span class="medal-tooltip">
+
+                        <strong>${medalha.nome}</strong>
+
+                        <br>
+
+                        ${medalha.descricao}
+
+                    </span>
+
+                </span>
+
+            `;
+
+        })
+
+        .join("");
+
+}
+
+
+/* ==========================================================
+   RENDERIZAÇÃO DOS CARDS
 ========================================================== */
 
 function renderizarJogadores(){
 
-    const grid=document.getElementById("playersGrid");
+    const grid = document.getElementById("playersGrid");
 
-    grid.innerHTML="";
+    grid.innerHTML = "";
 
     PLAYERS.forEach(player=>{
 
-        const percentual=Math.min(
+        const percentual = Math.min(
 
             (player.frequencia/31)*100,
 
@@ -221,11 +349,11 @@ function renderizarJogadores(){
 
         );
 
-        const card=document.createElement("div");
+        const card = document.createElement("div");
 
         card.className="player-card";
 
-        card.innerHTML=`
+        card.innerHTML = `
 
             <div class="player-title">
 
@@ -263,7 +391,7 @@ function renderizarJogadores(){
 
             <div class="player-medals">
 
-                ${player.medalhas || "—"}
+                ${renderizarMedalhas(player.medalhas)}
 
             </div>
 
@@ -275,17 +403,32 @@ function renderizarJogadores(){
 
 }
 
+
 /* ==========================================================
-   INICIAR
+   CARREGAR DADOS
 ========================================================== */
 
 async function iniciarPlayers(){
 
     try{
 
-        const csv = await fetchCSV(URL_PLAYERS);
+        const [
 
-        processarCSV(csv);
+            csvPlayers,
+
+            csvMedalhas
+
+        ] = await Promise.all([
+
+            fetchCSV(URL_PLAYERS),
+
+            fetchCSV(URL_MEDALHAS)
+
+        ]);
+
+        processarJogadores(csvPlayers);
+
+        processarMedalhas(csvMedalhas);
 
         renderizarJogadores();
 
@@ -295,7 +438,7 @@ async function iniciarPlayers(){
 
         console.error(e);
 
-        document.getElementById("playersGrid").innerHTML=`
+        document.getElementById("playersGrid").innerHTML = `
 
             <div class="player-loading">
 
@@ -308,5 +451,10 @@ async function iniciarPlayers(){
     }
 
 }
+
+
+/* ==========================================================
+   INICIAR
+========================================================== */
 
 iniciarPlayers();
