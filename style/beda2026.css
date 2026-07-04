@@ -142,11 +142,12 @@ h1{
 
 
 .missoes{
-    background: #694f3f;
+    background: rgb(207, 180, 139);
     margin: 30px 0px 0px 20px;
     border-radius: 20px;
     padding: 20;
 	text-align: left;
+	border: 1px #000 solid;
 }
 
 .missao{
@@ -155,12 +156,12 @@ h1{
 
 .titulo-missao{
 	font-size: 22px;
-    color:#d6b25e;
+    color:#000;
 }
 
 .descricao-missao{
 	margin-left: 30px;
-    color:#ddd;
+    color:#000;
 	font-size: 22px;
 }
 
