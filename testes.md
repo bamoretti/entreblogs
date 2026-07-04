@@ -505,7 +505,57 @@ h1{
     }
 
 }
-  
+
+
+.attack-action{
+
+    text-align:center;
+
+    margin:30px 0;
+
+}
+
+.attack-button{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    padding:16px 30px;
+
+    background:linear-gradient(135deg,#d6b25e,#f2d27b);
+
+    color:#141c26;
+
+    font-weight:700;
+
+    font-size:18px;
+
+    text-decoration:none;
+
+    border-radius:14px;
+
+    transition:.25s;
+
+    box-shadow:0 12px 30px rgba(214,178,94,.35);
+
+}
+
+.attack-button:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 18px 40px rgba(214,178,94,.45);
+
+}
+
+.attack-button:active{
+
+    transform:scale(.98);
+
+}
 
 </style>
 
@@ -561,6 +611,18 @@ h1{
         </div>
 
     </div>
+
+<div class="attack-action">
+    <a
+        href="https://forms.gle/4WSDM3G162sUCh8AA"
+        target="_blank"
+        rel="noopener"
+        class="attack-button">
+
+        ⚔️ Faça um Ataque
+
+    </a>
+</div>
 
 </div>
 
