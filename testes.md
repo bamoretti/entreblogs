@@ -33,7 +33,6 @@ permalink: /testes/
 
 <div class="container">
 
-
     <img
         src="../assets/beda/pena-pergaminho.png"
         alt="BEDA 2026"
