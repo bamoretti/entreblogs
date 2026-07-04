@@ -70,7 +70,7 @@ permalink: /testes/
 
 <div class="missoes">
 
-    <h1>📜 Missões Ativas</h1>
+    <h3>Missões Ativas</h3>
 
     <div id="listaMissoes">
 
@@ -347,13 +347,13 @@ async function carregarMissoes(){
 
             card.innerHTML = `
 	
-                <h2>
+                <div class="titulo-missao">
                     ${obj["Missão"]}
-                </h2>
+                </div>
 
-                <p>
+                <div class="descricao-missao">
                     ${obj["Descrição Missão"]}
-                </p>
+                </div>
 
             `;
 

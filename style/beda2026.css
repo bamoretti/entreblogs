@@ -153,17 +153,15 @@ h1{
     padding:20px;
 }
 
-.missao h2{
-    font-size: 32px;
+.titulo-missao{
+	font-size: 22px;
     color:#d6b25e;
-    margin-bottom:50px;
-
 }
 
-.missao p{
+.descricao-missao{
 	margin-left: 30px;
     color:#ddd;
-	font-size: 27px;
+	font-size: 22px;
 }
 
 .loading{
