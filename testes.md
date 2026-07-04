@@ -78,6 +78,7 @@ body {
     100% {
         transform: translateY(0);
     }
+}
 
 #bossImage{
 
