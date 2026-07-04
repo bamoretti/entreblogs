@@ -34,12 +34,12 @@ permalink: /testes/
 }
 
 body {
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: url("../assets/beda/background.png");
     background-size: 100%;
+	  background-attachment: fixed;
     color: white;
     text-align: center;
 }
