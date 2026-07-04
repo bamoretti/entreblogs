@@ -162,6 +162,15 @@ permalink: /testes/
     </a>
 </div>
 
+
+
+    <img
+        src="../assets/beda/pena.png"
+        alt="BEDA 2026"
+        class="logo-pena-pergaminho"
+    >
+	
+	
 </div>
 
 <script>
