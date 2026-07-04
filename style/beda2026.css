@@ -731,25 +731,64 @@ h1{
 
 }
 
-.caixa-medal{
-    position:relative;
-    display:inline-block;
-}
+#tooltip{
 
-.medal-tooltip{
-    position:absolute;
-    visibility:hidden;
+    position:fixed;
+
+    max-width:280px;
+
+    background:#111827;
+
+    color:white;
+
+    border:2px solid #d6b25e;
+
+    border-radius:14px;
+
+    padding:14px;
+
+    font-size:.9rem;
+
+    line-height:1.5;
+
+    pointer-events:none;
+
     opacity:0;
-	color: #000;
-	font-size: 14px;
-	width: 280x;
-	z-index: 289;
-	
+
+    transition:opacity .15s;
+
+    z-index:999999;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+
 }
 
-.caixa-medal:hover .medal-tooltip{
-    visibility:visible;
-    opacity:1;
+#tooltip strong{
+
+    display:block;
+
+    color:#d6b25e;
+
+    margin-bottom:8px;
+
+    font-family:Cinzel,serif;
+
+}
+
+.medal{
+
+    cursor:pointer;
+
+    font-size:2rem;
+
+    transition:.2s;
+
+}
+
+.medal:hover{
+
+    transform:scale(1.2);
+
 }
 
 

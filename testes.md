@@ -199,7 +199,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
 </section>
 	
-	
+<div id="tooltip"></div>	
 </div>
 
 

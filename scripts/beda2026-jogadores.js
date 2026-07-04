@@ -286,7 +286,7 @@ function renderizarMedalhas(texto){
 
     return [...texto]
 
-        .filter(e=>e.trim()!="")
+        .filter(e=>e.trim())
 
         .map(emoji=>{
 
@@ -294,29 +294,21 @@ function renderizarMedalhas(texto){
 
             if(!medalha){
 
-                return `
-                    <span class="medal">
-                        ${emoji}
-                    </span>
-                `;
+                return `<span class="medal">${emoji}</span>`;
 
             }
 
             return `
 
-                <span class="caixa-medal">
+                <span
+
+                    class="medal"
+
+                    data-nome="${medalha.nome}"
+
+                    data-desc="${medalha.descricao}">
 
                     ${emoji}
-
-                    <span class="medal-tooltip">
-
-                        <strong>${medalha.nome}</strong>
-
-                        <br>
-
-                        ${medalha.descricao}
-
-                    </span>
 
                 </span>
 
@@ -458,3 +450,43 @@ async function iniciarPlayers(){
 ========================================================== */
 
 iniciarPlayers();
+
+function ativarTooltips(){
+
+    const tooltip = document.getElementById("tooltip");
+
+    document.querySelectorAll(".medal").forEach(medal=>{
+
+        medal.addEventListener("mouseenter",()=>{
+
+            if(!medal.dataset.nome) return;
+
+            tooltip.innerHTML = `
+
+                <strong>${medal.dataset.nome}</strong>
+
+                ${medal.dataset.desc}
+
+            `;
+
+            tooltip.style.opacity = 1;
+
+        });
+
+        medal.addEventListener("mousemove",(e)=>{
+
+            tooltip.style.left = e.clientX + 18 + "px";
+
+            tooltip.style.top = e.clientY + 18 + "px";
+
+        });
+
+        medal.addEventListener("mouseleave",()=>{
+
+            tooltip.style.opacity = 0;
+
+        });
+
+    });
+
+}
