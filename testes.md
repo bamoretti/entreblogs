@@ -46,9 +46,10 @@ body {
 
 .container{
 	margin-top: 50px;
-    width: 850px;
-	padding-top:40px;
+        max-width:900px;
+    margin:auto;
 }
+
 
 .logo-beda{
     display:block;
@@ -166,6 +167,43 @@ h1{
 
 }
 
+<!-- missão -->
+
+.missao{
+
+    background:#18212c;
+
+    border-left:5px solid #d6b25e;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    border-radius:12px;
+
+}
+
+.missao h2{
+    font-size: 20px;
+    color:#d6b25e;
+    margin-bottom:10px;
+
+}
+
+.missao p{
+
+    line-height:1.6;
+	margin-left: 30px;
+    color:#ddd;
+	font-size: 16px;
+}
+
+.loading{
+    text-align:center;
+    opacity:.7;
+
+}
+
 </style>
 
 </head>
@@ -208,6 +246,20 @@ h1{
 
 </div>
 
+
+<div class="missoes">
+
+    <h1>📜 Missões Ativas</h1>
+
+    <div id="listaMissoes">
+
+        <div class="loading">
+            Carregando missões...
+        </div>
+
+    </div>
+
+</div>
 
 </div>
 
@@ -340,6 +392,157 @@ function parseCSV(text){
 }
 
 carregar();
+
+</script>
+<script>
+
+const URL_MISSOES =
+"https://docs.google.com/spreadsheets/d/e/2PACX-1vQeqf6B-V3mWT2tPVYjt5UXNeqGxc6So11z4zbJbIVa6e0_5UAqKcmKBEAQQRD8KC2DRMFlgzQ_AAiz/pub?gid=554145336&single=true&output=csv";
+
+async function carregarMissoes(){
+
+    try{
+
+        const resp = await fetch(URL_MISSOES);
+
+        const csv = await resp.text();
+
+        const linhas = csv.trim().split(/\r?\n/);
+
+        const cabecalho =
+            parseCSVLine(linhas.shift());
+
+        const container =
+            document.getElementById("listaMissoes");
+
+        container.innerHTML = "";
+
+        let total = 0;
+
+        linhas.forEach(linha=>{
+
+            const cols =
+                parseCSVLine(linha);
+
+            const obj = {};
+
+            cabecalho.forEach((c,i)=>{
+
+                obj[c.trim()] =
+                    (cols[i] || "").trim();
+
+            });
+
+            if(Number(obj["Ativo"]) !== 1)
+                return;
+
+            total++;
+
+            const card =
+                document.createElement("div");
+
+            card.className =
+                "missao";
+
+            card.innerHTML = `
+
+                <h2>
+                    ${obj["Missão"]}
+                </h2>
+
+                <p>
+                    ${obj["Descrição Missão"]}
+                </p>
+
+            `;
+
+            container.appendChild(card);
+
+        });
+
+        if(total === 0){
+
+            container.innerHTML = `
+                <div class="loading">
+                    Nenhuma missão ativa.
+                </div>
+            `;
+
+        }
+
+    }
+
+    catch(error){
+
+        console.error(error);
+
+        document.getElementById(
+            "listaMissoes"
+        ).innerHTML = `
+            <div class="loading">
+                Erro ao carregar missões.
+            </div>
+        `;
+
+    }
+
+}
+
+function parseCSVLine(line){
+
+    const result = [];
+
+    let current = "";
+
+    let inQuotes = false;
+
+    for(let i=0;i<line.length;i++){
+
+        const char = line[i];
+
+        if(
+            char === '"' &&
+            line[i+1] === '"'
+        ){
+
+            current += '"';
+
+            i++;
+
+        }
+
+        else if(char === '"'){
+
+            inQuotes = !inQuotes;
+
+        }
+
+        else if(
+            char === "," &&
+            !inQuotes
+        ){
+
+            result.push(current);
+
+            current = "";
+
+        }
+
+        else{
+
+            current += char;
+
+        }
+
+    }
+
+    result.push(current);
+
+    return result;
+
+}
+
+carregarMissoes();
 
 </script>
 
