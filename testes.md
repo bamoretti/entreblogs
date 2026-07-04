@@ -58,11 +58,25 @@ body {
 }
 
 .logo-beda-pergaminho{
-    display:block;
-    margin:0 auto 5px;
-    max-width:100px;
-    height:auto;
+    display: block;
+    margin: 0 auto 5px;
+    max-width: 100px;
+    height: auto;
+
+    /* Animação */
+    animation: flutuar 2s ease-in-out infinite;
 }
+
+@keyframes flutuar {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 
 #bossImage{
 
