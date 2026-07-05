@@ -1113,3 +1113,211 @@ display: inline-flex;
     }
 
 }
+
+/* ==========================================================
+   BOTÃO FLUTUANTE - GRIMÓRIO
+========================================================== */
+
+#grimorioButton{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:120px;
+
+    width:72px;
+
+    height:72px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:var(--amarelo);
+
+    color:white;
+
+    font-size:34px;
+
+    cursor:pointer;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.30);
+
+    transition:.25s;
+
+    z-index:9999;
+
+}
+
+#grimorioButton:hover{
+
+    transform:scale(1.1) rotate(-8deg);
+
+}
+
+
+/* ==========================================================
+   MODAL - GRIMÓRIO
+========================================================== */
+
+#grimorioOverlay{
+
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.65);
+    display:none;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+    z-index:10000;
+
+}
+
+#grimorioOverlay.active{
+
+    display:flex;
+
+}
+
+#grimorioModal{
+
+    text-align:left;
+
+    width:min(900px,95vw);
+
+    max-height:90vh;
+
+    overflow:auto;
+
+    background:linear-gradient(
+        180deg,
+        #f7f0dc,
+        #efe2c0
+    );
+
+    color:var(--marrom-escuro);
+
+    border:6px solid var(--marrom-medio);
+
+    border-radius:18px;
+
+    padding:40px;
+
+    position:relative;
+
+    box-shadow:0 30px 60px rgba(0,0,0,.35);
+
+}
+
+#grimorioModal h1{
+
+    font-family:var(--fonte-titulo);
+
+    font-size:48px;
+
+    color:var(--marrom-escuro);
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+#grimorioModal h2{
+
+    margin-top:30px;
+
+    margin-bottom:15px;
+
+    color:var(--marrom-escuro);
+
+}
+
+#grimorioModal p{
+
+    line-height:1.9;
+
+    margin-bottom:15px;
+
+}
+
+#grimorioModal ul{
+
+    padding-left:22px;
+
+    line-height:1.9;
+
+}
+
+#grimorioModal hr{
+
+    margin:30px 0;
+
+    border:none;
+
+    border-top:2px dashed var(--marrom-medio);
+
+}
+
+#grimorioClose{
+
+    position:absolute;
+
+    right:20px;
+
+    top:20px;
+
+    width:40px;
+
+    height:40px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:var(--marrom-escuro);
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+}
+
+#grimorioClose:hover{
+
+    background:var(--cor-primaria);
+
+}
+
+@media(max-width:768px){
+
+    #grimorioButton{
+
+        width:60px;
+
+        height:60px;
+
+        font-size:28px;
+
+        right:15px;
+
+        bottom:85px;
+
+    }
+
+    #grimorioModal{
+
+        padding:25px;
+
+    }
+
+    #grimorioModal h1{
+
+        font-size:36px;
+
+    }
+
+}
