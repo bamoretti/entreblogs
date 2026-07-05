@@ -272,6 +272,17 @@ permalink: /beda/recrutamento
 
 </section>
 
+<div class="attack-action">
+    <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSd429xM_X3lgFEwvWYquDAp89JOCes4C0lBd7gB0XjlmZjoyQ/viewform"
+        target="_blank"
+        rel="noopener"
+        class="attack-button">
+
+        Quero me inscrever!
+
+    </a>
+</div>
 
 </div>
 

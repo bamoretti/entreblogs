@@ -635,3 +635,39 @@ body {
     }
 
 }
+
+.attack-action{
+
+    text-align:center;
+
+    margin:30px 0;
+
+}
+
+.attack-button{
+
+display: inline-flex;
+    align-items: center;
+    padding: 16px 30px;
+    background: linear-gradient(135deg, #47352e, #332018);
+    color: #fcdccf;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 14px;
+    transition: .25s;
+    box-shadow: 0 12px 30px rgba(214, 178, 94, .35);
+    font-family: var(--fonte-corpo);
+}
+
+.attack-button:hover{
+
+    transform:translateY(-3px);
+    box-shadow:0 18px 40px rgba(214,178,94,.45);
+
+}
+
+.attack-button:active{
+
+    transform:scale(.98);
+
+}
