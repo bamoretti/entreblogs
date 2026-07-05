@@ -44,7 +44,7 @@ permalink: /beda/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="assets/classes/moldura-classe.png"
+                        src="assets/beda/ribbon.png"
                         alt=""
                         class="classe-title-bg">
 
@@ -65,7 +65,7 @@ permalink: /beda/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="assets/classes/moldura-classe.png"
+                        src="assets/beda/ribbon.png"
                         alt=""
                         class="classe-title-bg">
 
@@ -86,7 +86,7 @@ permalink: /beda/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="assets/classes/moldura-classe.png"
+                        src="assets/beda/ribbon.png"
                         alt=""
                         class="classe-title-bg">
 
@@ -107,7 +107,7 @@ permalink: /beda/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="assets/classes/moldura-classe.png"
+                        src="assets/beda/ribbon.png"
                         alt=""
                         class="classe-title-bg">
 
@@ -128,7 +128,7 @@ permalink: /beda/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="assets/classes/moldura-classe.png"
+                        src="assets/beda/ribbon.png"
                         alt=""
                         class="classe-title-bg">
 
@@ -149,7 +149,7 @@ permalink: /beda/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="assets/classes/moldura-classe.png"
+                        src="assets/beda/ribbon.png"
                         alt=""
                         class="classe-title-bg">
 
