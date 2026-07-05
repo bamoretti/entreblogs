@@ -1,36 +1,90 @@
 /* ==========================================================
-   MODAIS
+   MANUAL
 ========================================================== */
 
-function criarModal(botaoId, overlayId, closeId){
+const manualButton =
+document.getElementById("manualButton");
 
-    const botao = document.getElementById(botaoId);
-    const overlay = document.getElementById(overlayId);
-    const fechar = document.getElementById(closeId);
+const manualOverlay =
+document.getElementById("manualOverlay");
 
-    if(!botao || !overlay || !fechar) return;
+const manualClose =
+document.getElementById("manualClose");
 
-    botao.addEventListener("click", () => {
-        overlay.classList.add("active");
-    });
+manualButton.addEventListener("click",()=>{
 
-    fechar.addEventListener("click", () => {
-        overlay.classList.remove("active");
-    });
+    manualOverlay.classList.add("active");
 
-    overlay.addEventListener("click", (e) => {
-        if(e.target === overlay){
-            overlay.classList.remove("active");
-        }
-    });
+});
 
-    document.addEventListener("keydown", (e) => {
-        if(e.key === "Escape"){
-            overlay.classList.remove("active");
-        }
-    });
+manualClose.addEventListener("click",()=>{
 
-}
+    manualOverlay.classList.remove("active");
 
-criarModal("manualButton","manualOverlay","manualClose");
-criarModal("grimorioButton","grimorioOverlay","grimorioClose");
+});
+
+manualOverlay.addEventListener("click",(e)=>{
+
+    if(e.target===manualOverlay){
+
+        manualOverlay.classList.remove("active");
+
+    }
+
+});
+
+document.addEventListener("keydown",(e)=>{
+
+    if(e.key==="Escape"){
+
+        manualOverlay.classList.remove("active");
+
+    }
+
+});
+
+
+/* ==========================================================
+   GRIMÓRIO
+========================================================== */
+
+const grimorioButton =
+document.getElementById("grimorioButton");
+
+const grimorioOverlay =
+document.getElementById("grimorioOverlay");
+
+const grimorioClose =
+document.getElementById("grimorioClose");
+
+grimorioButton.addEventListener("click",()=>{
+
+    grimorioOverlay.classList.add("active");
+
+});
+
+grimorioClose.addEventListener("click",()=>{
+
+    grimorioOverlay.classList.remove("active");
+
+});
+
+grimorioOverlay.addEventListener("click",(e)=>{
+
+    if(e.target===grimorioOverlay){
+
+        grimorioOverlay.classList.remove("active");
+
+    }
+
+});
+
+document.addEventListener("keydown",(e)=>{
+
+    if(e.key==="Escape"){
+
+        grimorioOverlay.classList.remove("active");
+
+    }
+
+});

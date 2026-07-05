@@ -526,3 +526,48 @@ document.addEventListener("keydown",(e)=>{
     }
 
 });
+
+/* ==========================================================
+   GRIMÓRIO
+========================================================== */
+
+const grimorioButton =
+document.getElementById("grimorioButton");
+
+const grimorioOverlay =
+document.getElementById("grimorioOverlay");
+
+const grimorioClose =
+document.getElementById("grimorioClose");
+
+grimorioButton.addEventListener("click",()=>{
+
+    grimorioOverlay.classList.add("active");
+
+});
+
+grimorioClose.addEventListener("click",()=>{
+
+    grimorioOverlay.classList.remove("active");
+
+});
+
+grimorioOverlay.addEventListener("click",(e)=>{
+
+    if(e.target===grimorioOverlay){
+
+        grimorioOverlay.classList.remove("active");
+
+    }
+
+});
+
+document.addEventListener("keydown",(e)=>{
+
+    if(e.key==="Escape"){
+
+        grimorioOverlay.classList.remove("active");
+
+    }
+
+}); 
