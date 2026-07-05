@@ -344,7 +344,7 @@ function renderizarTabela(){
                     target="_blank"
                     rel="noopener">
 
-                    📖 Ver
+                    Ler
 
                 </a>
 
