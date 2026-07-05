@@ -231,7 +231,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <button id="manualClose">✕</button>
 
-        <h1>📖 Manual do Aventureiro</h1>
+        <h1>Manual do Aventureiro</h1>
 
         <h2>O que é o BEDA?</h2>
 
@@ -272,7 +272,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <p>
 
-            Antes de tudo, preencha o <strong>Formulário de Cadastro</strong>,
+            Antes de tudo, preencha o <strong><a href="/recrutamento">Formulário de Cadastro</a> </strong>,
             disponível no final da página.
 
         </p>
@@ -280,13 +280,13 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
         <ul>
 
             <li><strong>🛡️ Jornada do Herói (BEDA)</strong><br>
-            Publique todos os dias de agosto.</li>
+            Publique todos os dias de agosto.<br></li>
 
             <li><strong>🏹 Jornada do Patrulheiro (BEWA)</strong><br>
-            Publique pelo menos uma vez por semana.</li>
+            Publique pelo menos uma vez por semana.<br></li>
 
             <li><strong>🎒 Jornada do Andarilho</strong><br>
-            Publique quando desejar.</li>
+            Publique quando desejar.<br></li>
 
         </ul>
 
