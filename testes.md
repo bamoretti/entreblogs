@@ -268,7 +268,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <hr>
 
-        <h2>⚔️ 1. Escolha sua jornada</h2>
+        <h2>1. Escolha sua jornada</h2>
 
         <p>
 
@@ -290,7 +290,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <hr>
 
-        <h2>📝 2. Registre cada publicação</h2>
+        <h2>2. Registre cada publicação</h2>
 
         <p>
 
@@ -302,7 +302,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <hr>
 
-        <h2>🏅 3. Acompanhe sua evolução</h2>
+        <h2>3. Acompanhe sua evolução</h2>
 
         <p>
 
@@ -316,7 +316,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <hr>
 
-        <h2>🗺️ 4. Explore a campanha</h2>
+        <h2>4. Explore a campanha</h2>
 
         <p>
 

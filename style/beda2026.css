@@ -1010,7 +1010,7 @@ display: inline-flex;
     font-size:48px;
 
     color:var(--marrom-escuro);
-
+	text-align: center;
     margin-bottom:20px;
 
 }
