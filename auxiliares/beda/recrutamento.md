@@ -28,15 +28,36 @@ permalink: /beda/recrutamento
 
 <div class="container">
 
-    <section class="classes-layout">
 
-        <!-- ======================================
-             GRID DAS CLASSES
-        ======================================= -->
+    <img
+        src="../assets/beda/pena-pergaminho.png"
+        alt="BEDA 2026"
+        class="logo-beda-pergaminho"
+    >
+	
+    <img
+        src="../assets/beda/titulo.png"
+        alt="BEDA 2026"
+        class="logo-beda"
+    >
+	
 
-        <div class="classes-grid">
+<section class="classes-page">
 
-            <!-- CRONISTA -->
+    <header class="classes-header">
+
+        <h1>Classes</h1>
+
+        <p>
+            Descubra as seis classes disponíveis na campanha
+            Guardiões da Blogosfera.
+        </p>
+
+    </header>
+
+    <div class="classes-grid">
+
+         <!-- CRONISTA -->
 
             <article class="classe-card">
 
@@ -162,21 +183,13 @@ permalink: /beda/recrutamento
 
             </article>
 
-        </div>
+
+    </div>
+
+</section>
 
 
-            <a
-                href="https://forms.gle/SEU_FORMULARIO"
-                target="_blank"
-                class="btn-registro">
-
-                Faça seu Registro
-
-            </a>
-
-        </aside>
-
-    </section>
+</div>
 
 </body>
 
