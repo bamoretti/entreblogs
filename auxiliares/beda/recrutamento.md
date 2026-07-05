@@ -29,285 +29,77 @@ permalink: /beda/recrutamento
 
 <div class="container">
 
-    <section class="classes-layout">
+<section class="classes-page">
 
-        <!-- ======================================
-             GRID DAS CLASSES
-        ======================================= -->
+    <h1 class="titulo-pagina">Classes</h1>
+
+    <div class="classes-layout">
 
         <div class="classes-grid">
 
-            <!-- CRONISTA -->
-
             <article class="classe-card">
+                <div class="classe-titulo">Cronista</div>
 
-                <div class="classe-title">
-
-                    <img
-                        src="assets/beda/ribbon.png"
-                        alt=""
-                        class="classe-title-bg">
-
-                    <h2>📜 Cronista</h2>
-
+                <div class="classe-conteudo">
+                    <!-- descrição -->
                 </div>
-
-                <div class="classe-body" id="cronista">
-
-                </div>
-
             </article>
 
-            <!-- EXPLORADOR -->
-
             <article class="classe-card">
+                <div class="classe-titulo">Explorador</div>
 
-                <div class="classe-title">
-
-                    <img
-                        src="assets/beda/ribbon.png"
-                        alt=""
-                        class="classe-title-bg">
-
-                    <h2>🗺️ Explorador</h2>
-
-                </div>
-
-                <div class="classe-body" id="explorador">
-
-                </div>
-
+                <div class="classe-conteudo"></div>
             </article>
 
-            <!-- ARTÍFICE -->
-
             <article class="classe-card">
+                <div class="classe-titulo">Artífice</div>
 
-                <div class="classe-title">
-
-                    <img
-                        src="assets/beda/ribbon.png"
-                        alt=""
-                        class="classe-title-bg">
-
-                    <h2>🎨 Artífice</h2>
-
-                </div>
-
-                <div class="classe-body" id="artifice">
-
-                </div>
-
+                <div class="classe-conteudo"></div>
             </article>
 
-            <!-- ORÁCULO -->
-
             <article class="classe-card">
+                <div class="classe-titulo">Oráculo</div>
 
-                <div class="classe-title">
-
-                    <img
-                        src="assets/beda/ribbon.png"
-                        alt=""
-                        class="classe-title-bg">
-
-                    <h2>🔮 Oráculo</h2>
-
-                </div>
-
-                <div class="classe-body" id="oraculo">
-
-                </div>
-
+                <div class="classe-conteudo"></div>
             </article>
 
-            <!-- BARDO -->
-
             <article class="classe-card">
+                <div class="classe-titulo">Bardo</div>
 
-                <div class="classe-title">
-
-                    <img
-                        src="assets/beda/ribbon.png"
-                        alt=""
-                        class="classe-title-bg">
-
-                    <h2>🎭 Bardo</h2>
-
-                </div>
-
-                <div class="classe-body" id="bardo">
-
-                </div>
-
+                <div class="classe-conteudo"></div>
             </article>
 
-            <!-- ARQUIVISTA -->
-
             <article class="classe-card">
+                <div class="classe-titulo">Arquivista</div>
 
-                <div class="classe-title">
-
-                    <img
-                        src="assets/beda/ribbon.png"
-                        alt=""
-                        class="classe-title-bg">
-
-                    <h2>📚 Arquivista</h2>
-
-                </div>
-
-                <div class="classe-body" id="arquivista">
-
-                </div>
-
+                <div class="classe-conteudo"></div>
             </article>
 
         </div>
-
-        <!-- ======================================
-             SIDEBAR
-        ======================================= -->
 
         <aside class="classes-sidebar">
 
             <div class="sidebar-card">
 
-                <h2>
-
-                    Progressão de Classes
-
-                </h2>
-
-                <p>
-
-                    Conforme você registra publicações durante a campanha,
-                    seu personagem evolui automaticamente.
-
-                </p>
+                <h2>Progressão de Classes</h2>
 
                 <table class="progressao">
-
-                    <thead>
-
-                        <tr>
-
-                            <th>Classe</th>
-
-                            <th>Guardião</th>
-
-                        </tr>
-
-                    </thead>
-
-                    <tbody>
-
-                        <tr>
-
-                            <td>📜 Cronista</td>
-
-                            <td>31 publicações</td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>🗺️ Explorador</td>
-
-                            <td>31 publicações</td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>🎨 Artífice</td>
-
-                            <td>31 publicações</td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>🔮 Oráculo</td>
-
-                            <td>31 publicações</td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>🎭 Bardo</td>
-
-                            <td>31 publicações</td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>📚 Arquivista</td>
-
-                            <td>31 publicações</td>
-
-                        </tr>
-
-                    </tbody>
-
+                    <!-- tabela -->
                 </table>
-
-                <br>
-
-                <p>
-
-                    Todos os aventureiros começam na
-                    <strong>Classe Inicial</strong>.
-
-                    Conforme completam registros,
-                    avançam automaticamente até se tornarem
-                    <strong>Guardiões da Blogosfera</strong>.
-
-                </p>
 
             </div>
 
-            <a
-                href="https://forms.gle/SEU_FORMULARIO"
-                target="_blank"
-                class="btn-registro">
-
+            <a class="btn-registro" href="#">
                 Faça seu Registro
-
             </a>
 
         </aside>
 
-    </section>
-
-</main>
-
-<!-- ==========================================================
-     MODAL (JS)
-========================================================== -->
-
-<div id="classeModal">
-
-    <div class="classe-modal-card">
-
-        <button id="fecharClasse">
-
-            ✕
-
-        </button>
-
-        <div id="classeModalConteudo">
-
-        </div>
-
     </div>
+
+</section>
 
 </div>
 
-<script src="classes.js"></script>
-
 </body>
-
 </html>

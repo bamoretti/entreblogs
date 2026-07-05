@@ -104,29 +104,24 @@ body {
     }
 }
 
+
 /* ==========================================================
    PÁGINA CLASSES
 ========================================================== */
 
 .classes-page{
 
-    max-width:1450px;
+    max-width:1400px;
 
     margin:60px auto;
 
-    padding:0 25px;
-
-}
-
-.classes-header{
-
-    text-align:center;
-
-    margin-bottom:50px;
+    padding:0 30px;
 
 }
 
 .titulo-pagina{
+
+    text-align:center;
 
     font-family:var(--fonte-titulo);
 
@@ -134,25 +129,7 @@ body {
 
     color:var(--marrom-escuro);
 
-    margin-bottom:10px;
-
-    line-height:1;
-
-}
-
-.subtitulo-pagina{
-
-    font-family:var(--fonte-corpo);
-
-    font-size:1.1rem;
-
-    color:var(--marrom-escuro);
-
-    max-width:700px;
-
-    margin:auto;
-
-    line-height:1.7;
+    margin-bottom:40px;
 
 }
 
@@ -164,7 +141,7 @@ body {
 
     display:grid;
 
-    grid-template-columns:2.2fr 1fr;
+    grid-template-columns:2fr 1fr;
 
     gap:40px;
 
@@ -182,7 +159,7 @@ body {
 
     grid-template-columns:repeat(3,1fr);
 
-    gap:45px 35px;
+    gap:40px;
 
 }
 
@@ -200,85 +177,101 @@ body {
 
     border-radius:28px;
 
-    min-height:420px;
+    min-height:360px;
 
     padding:90px 25px 25px;
 
     transition:.25s;
 
     box-shadow:
-
-        0 12px 25px rgba(0,0,0,.12);
+        0 10px 30px rgba(0,0,0,.15);
 
 }
 
 .classe-card:hover{
 
-    transform:translateY(-8px);
+    transform:translateY(-6px);
 
     box-shadow:
-
-        0 20px 35px rgba(0,0,0,.18);
+        0 18px 40px rgba(0,0,0,.25);
 
 }
 
 /* ==========================================================
-   TÍTULO
+   ABA SUPERIOR
 ========================================================== */
 
-.classe-title{
+.classe-titulo{
 
     position:absolute;
 
-    top:-30px;
+    top:-22px;
 
     left:50%;
 
     transform:translateX(-50%);
 
-    width:245px;
+    min-width:220px;
 
-    height:82px;
+    padding:14px 25px;
 
-}
+    background:var(--marrom-claro);
 
-.classe-title-bg{
+    border:2px solid var(--marrom-escuro);
 
-    position:absolute;
-
-    inset:0;
-
-    width:100%;
-
-    height:100%;
-
-    object-fit:contain;
-
-    pointer-events:none;
-
-}
-
-.classe-title h2{
-
-    position:absolute;
-
-    inset:0;
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    font-family:var(--fonte-titulo);
-
-    font-size:2.2rem;
-
-    color:var(--marrom-escuro);
+    border-radius:18px 18px 12px 12px;
 
     text-align:center;
 
-    text-shadow:1px 1px 0 rgba(255,255,255,.25);
+    font-family:var(--fonte-titulo);
+
+    font-size:2.3rem;
+
+    color:var(--marrom-escuro);
+
+    box-shadow:
+        0 5px 12px rgba(0,0,0,.08);
+
+}
+
+/* pequenos detalhes da aba */
+
+.classe-titulo::before,
+.classe-titulo::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:18px;
+
+    height:18px;
+
+    background:var(--marrom-claro);
+
+    bottom:-10px;
+
+    border-bottom:2px solid var(--marrom-escuro);
+
+}
+
+.classe-titulo::before{
+
+    left:-2px;
+
+    border-left:2px solid var(--marrom-escuro);
+
+    border-bottom-left-radius:16px;
+
+}
+
+.classe-titulo::after{
+
+    right:-2px;
+
+    border-right:2px solid var(--marrom-escuro);
+
+    border-bottom-right-radius:16px;
 
 }
 
@@ -286,37 +279,39 @@ body {
    CONTEÚDO
 ========================================================== */
 
-.classe-body{
+.classe-conteudo{
 
     font-family:var(--fonte-corpo);
+
+    font-size:1rem;
+
+    line-height:1.8;
 
     color:var(--marrom-escuro);
 
 }
 
-.classe-body h3{
+.classe-conteudo h3{
+
+    margin-bottom:10px;
 
     font-size:1.4rem;
 
-    margin-bottom:15px;
-
 }
 
-.classe-body p{
+.classe-conteudo p{
 
     margin-bottom:18px;
 
-    line-height:1.7;
+}
+
+.classe-conteudo ul{
+
+    padding-left:18px;
 
 }
 
-.classe-body ul{
-
-    padding-left:22px;
-
-}
-
-.classe-body li{
+.classe-conteudo li{
 
     margin-bottom:10px;
 
@@ -342,13 +337,11 @@ body {
 
     border:2px solid var(--marrom-escuro);
 
-    border-radius:28px;
+    border-radius:30px;
 
     padding:35px;
 
-    box-shadow:
-
-        0 12px 25px rgba(0,0,0,.12);
+    min-height:760px;
 
 }
 
@@ -358,23 +351,11 @@ body {
 
     font-family:var(--fonte-titulo);
 
-    color:var(--marrom-escuro);
-
     font-size:3rem;
 
-    margin-bottom:25px;
-
-}
-
-.sidebar-card p{
-
-    font-family:var(--fonte-corpo);
-
-    line-height:1.8;
-
-    margin-bottom:20px;
-
     color:var(--marrom-escuro);
+
+    margin-bottom:35px;
 
 }
 
@@ -388,37 +369,27 @@ body {
 
     border-collapse:collapse;
 
-    margin:20px 0;
-
     font-family:var(--fonte-corpo);
 
 }
 
 .progressao th{
 
-    background:rgba(0,0,0,.12);
+    background:rgba(0,0,0,.08);
 
-    color:var(--marrom-escuro);
+    padding:14px;
 
-    padding:12px;
-
-    border:1px solid rgba(0,0,0,.18);
+    border:1px solid rgba(0,0,0,.15);
 
 }
 
 .progressao td{
 
-    padding:10px;
+    padding:12px;
 
     border:1px solid rgba(0,0,0,.12);
 
     text-align:center;
-
-}
-
-.progressao tr:nth-child(even){
-
-    background:rgba(255,255,255,.18);
 
 }
 
@@ -434,113 +405,31 @@ body {
 
     align-items:center;
 
-    height:78px;
+    height:80px;
 
-    background:#5c2d0a;
+    background:#5b2c08;
 
-    border-radius:22px;
-
-    color:white;
+    color:#fff;
 
     text-decoration:none;
 
+    border-radius:24px;
+
+    border:2px solid #3f1d04;
+
     font-family:var(--fonte-titulo);
 
-    font-size:2.1rem;
+    font-size:2.2rem;
 
     transition:.25s;
-
-    border:2px solid #3c1f08;
 
 }
 
 .btn-registro:hover{
 
-    background:#6b370e;
+    background:#6f370b;
 
     transform:translateY(-4px);
-
-}
-
-/* ==========================================================
-   MODAL
-========================================================== */
-
-#classeModal{
-
-    position:fixed;
-
-    inset:0;
-
-    background:rgba(0,0,0,.65);
-
-    display:none;
-
-    justify-content:center;
-
-    align-items:center;
-
-    padding:40px;
-
-    z-index:99999;
-
-}
-
-#classeModal.active{
-
-    display:flex;
-
-}
-
-.classe-modal-card{
-
-    width:min(850px,95vw);
-
-    max-height:90vh;
-
-    overflow:auto;
-
-    background:#f4ead2;
-
-    border:3px solid var(--marrom-escuro);
-
-    border-radius:24px;
-
-    padding:35px;
-
-    position:relative;
-
-}
-
-#fecharClasse{
-
-    position:absolute;
-
-    right:20px;
-
-    top:20px;
-
-    width:42px;
-
-    height:42px;
-
-    border:none;
-
-    border-radius:50%;
-
-    background:var(--marrom-escuro);
-
-    color:white;
-
-    cursor:pointer;
-
-    font-size:20px;
-
-}
-
-#fecharClasse:hover{
-
-    background:var(--cor-primaria);
 
 }
 
@@ -548,7 +437,7 @@ body {
    RESPONSIVO
 ========================================================== */
 
-@media(max-width:1200px){
+@media (max-width:1200px){
 
     .classes-layout{
 
@@ -556,15 +445,15 @@ body {
 
     }
 
-    .classes-sidebar{
+    .sidebar-card{
 
-        order:2;
+        min-height:auto;
 
     }
 
 }
 
-@media(max-width:900px){
+@media (max-width:900px){
 
     .classes-grid{
 
@@ -574,13 +463,7 @@ body {
 
 }
 
-@media(max-width:650px){
-
-    .classes-page{
-
-        padding:15px;
-
-    }
+@media (max-width:650px){
 
     .titulo-pagina{
 
@@ -588,35 +471,23 @@ body {
 
     }
 
-    .subtitulo-pagina{
-
-        font-size:.95rem;
-
-    }
-
     .classes-grid{
 
         grid-template-columns:1fr;
 
-        gap:55px;
+        gap:35px;
 
     }
 
     .classe-card{
 
-        min-height:340px;
+        min-height:320px;
 
     }
 
-    .classe-title{
+    .classe-titulo{
 
-        width:220px;
-
-        height:74px;
-
-    }
-
-    .classe-title h2{
+        min-width:180px;
 
         font-size:1.9rem;
 
@@ -636,9 +507,9 @@ body {
 
     .btn-registro{
 
-        height:70px;
-
         font-size:1.8rem;
+
+        height:70px;
 
     }
 
