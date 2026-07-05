@@ -46,6 +46,90 @@ permalink: /beda/recrutamento
 
     <header class="classes-header">
 
+        <h1>Escolha a sua Jornada</h1>
+
+        <p>
+            Descubra as seis classes disponíveis na campanha
+            Guardiões da Blogosfera.
+        </p>
+
+    </header>
+
+    <div class="classes-grid">
+
+         <!-- CRONISTA -->
+
+            <article class="classe-card">
+
+                <div class="classe-title">
+
+                    <img
+                        src="../assets/beda/ribbon2.png"
+                        alt=""
+                        class="classe-title-bg">
+
+                    <h2>Herói</h2>
+
+                </div>
+
+                <div class="classe-body" id="heroi">
+
+                </div>
+
+            </article>
+
+            <!-- EXPLORADOR -->
+
+            <article class="classe-card">
+
+                <div class="classe-title">
+
+                    <img
+                        src="../assets/beda/ribbon2.png"
+                        alt=""
+                        class="classe-title-bg">
+
+                    <h2>Patrulheiro</h2>
+
+                </div>
+
+                <div class="classe-body" id="patrulheiro">
+
+                </div>
+
+            </article>
+
+            <!-- ARTÍFICE -->
+
+            <article class="classe-card">
+
+                <div class="classe-title">
+
+                    <img
+                        src="../assets/beda/ribbon2.png"
+                        alt=""
+                        class="classe-title-bg">
+
+                    <h2>Andarilho</h2>
+
+                </div>
+
+                <div class="classe-body" id="andarilho">
+
+                </div>
+
+            </article>
+
+
+    </div>
+
+</section>
+
+
+<section class="classes-page">
+
+    <header class="classes-header">
+
         <h1>Classes</h1>
 
         <p>
