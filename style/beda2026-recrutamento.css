@@ -109,19 +109,14 @@ body {
 ========================================================== */
 
 .classes-page{
-
     max-width:1450px;
-
     margin:60px auto;
-
     padding:0 25px;
 
 }
 
 .classes-header{
-
     text-align:center;
-
     margin-bottom:50px;
 
 }
@@ -167,7 +162,6 @@ body {
     grid-template-columns:2.2fr 1fr;
 
     gap:40px;
-
     align-items:start;
 
 }

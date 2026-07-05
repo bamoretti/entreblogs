@@ -26,7 +26,6 @@ permalink: /beda/recrutamento
 
 <body>
 
-
 <div class="container">
 
     <section class="classes-layout">
@@ -165,109 +164,6 @@ permalink: /beda/recrutamento
 
         </div>
 
-        <!-- ======================================
-             SIDEBAR
-        ======================================= -->
-
-        <aside class="classes-sidebar">
-
-            <div class="sidebar-card">
-
-                <h2>
-
-                    Progressão de Classes
-
-                </h2>
-
-                <p>
-
-                    Conforme você registra publicações durante a campanha,
-                    seu personagem evolui automaticamente.
-
-                </p>
-
-                <table class="progressao">
-
-                    <thead>
-
-                        <tr>
-
-                            <th>Classe</th>
-
-                            <th>Guardião</th>
-
-                        </tr>
-
-                    </thead>
-
-                    <tbody>
-
-                        <tr>
-
-                            <td>📜 Cronista</td>
-
-                            <td>31 publicações</td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>🗺️ Explorador</td>
-
-                            <td>31 publicações</td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>🎨 Artífice</td>
-
-                            <td>31 publicações</td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>🔮 Oráculo</td>
-
-                            <td>31 publicações</td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>🎭 Bardo</td>
-
-                            <td>31 publicações</td>
-
-                        </tr>
-
-                        <tr>
-
-                            <td>📚 Arquivista</td>
-
-                            <td>31 publicações</td>
-
-                        </tr>
-
-                    </tbody>
-
-                </table>
-
-                <br>
-
-                <p>
-
-                    Todos os aventureiros começam na
-                    <strong>Classe Inicial</strong>.
-
-                    Conforme completam registros,
-                    avançam automaticamente até se tornarem
-                    <strong>Guardiões da Blogosfera</strong>.
-
-                </p>
-
-            </div>
 
             <a
                 href="https://forms.gle/SEU_FORMULARIO"
@@ -281,32 +177,6 @@ permalink: /beda/recrutamento
         </aside>
 
     </section>
-
-</main>
-
-<!-- ==========================================================
-     MODAL (JS)
-========================================================== -->
-
-<div id="classeModal">
-
-    <div class="classe-modal-card">
-
-        <button id="fecharClasse">
-
-            ✕
-
-        </button>
-
-        <div id="classeModalConteudo">
-
-        </div>
-
-    </div>
-
-</div>
-
-<script src="classes.js"></script>
 
 </body>
 
