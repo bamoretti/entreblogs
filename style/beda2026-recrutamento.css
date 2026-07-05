@@ -124,9 +124,7 @@ body {
 .titulo-pagina{
 
     font-family: var(--fonte-titulo);
-
     font-size:5rem;
-
     color:var(--marrom-escuro);
 
     margin-bottom:10px;
