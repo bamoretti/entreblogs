@@ -220,7 +220,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
 <button id="grimorioButton" aria-label="Grimório da Blogosfera">
 
-    📜
+    
 
 </button>
 
