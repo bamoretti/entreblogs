@@ -53,7 +53,7 @@ body {
 
 .separador{
     display: block;
-	margin: 140px auto 20px;
+	margin: 45px auto 20px;
     max-width: 20px;
     height: auto;
     animation: flutuar 2s ease-in-out infinite;
@@ -77,6 +77,19 @@ body {
     100% {
         transform: translateY(0);
     }
+}
+
+.viloes{
+	
+
+}
+
+
+.viloes h3{
+	font-family: var(--fonte-titulo);
+    font-size:30px;
+    margin-bottom:20px;
+
 }
 
 #bossImage{

@@ -48,6 +48,14 @@ permalink: /testes/
 <div class="descricao-beda">
 Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em tempos de silêncio. Mas existe uma antiga tradição, conhecida entre aldeões pelo nome de BEDA. Quando chega a Estação da Escrita, aventureiros atendem ao chamado para registrar histórias, reacender blogs e impedir que a chama da criatividade apague e o esquecimento roube memórias. Assim começa a jornada dos Guardiões da Blogosfera.
 </div>
+
+    <img
+        src="../assets/beda/pergaminho.png"
+        alt="separar página"
+        class="separador"
+    >
+	
+	
 <img id="bossImage">
 
 <div class="hpHeader">
