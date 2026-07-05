@@ -91,7 +91,7 @@ body {
 
 .viloes h3{
 	font-family: var(--fonte-titulo);
-    font-size:30px;
+    font-size:50px;
     margin-bottom:20px;
 
 }
@@ -182,7 +182,7 @@ h1{
     border-radius: 20px;
     padding: 20;
 	text-align: left;
-	border: 1px #000 solid;
+	border: 1px var(--marrom-escuro) solid;
 }
 
 .missoes h3{
@@ -222,7 +222,7 @@ h1{
 .battle-log{
     margin:20px auto;
     background:rgb(161, 125, 89);
-    border:1px solid #000;
+    border:1px solid var(--marrom-escuro);
     border-radius:18px;
     overflow:hidden;
     box-shadow:0 20px 45px rgba(0,0,0,.35);
