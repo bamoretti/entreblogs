@@ -200,16 +200,19 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
 </section>
 
+<div id="tooltip"></div>	
+</div>
+
 <footer class="footer">
 
     <div class="footer-container">
 
         <div class="footer-logo">
 
-            <h2>🛡️ Os Guardiões da Blogosfera</h2>
+            <h2>Os Guardiões da Blogosfera & A Jornada Contra o Esquecimento</h2>
 
             <p>
-                "Cada pergaminho publicado fortalece o Reino dos Escribas."
+                
             </p>
 
         </div>
@@ -235,11 +238,11 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
             <h3>Participar</h3>
 
             <a href="LINK_DO_FORMULARIO" target="_blank">
-                ⚔️ Fazer um Ataque
+                 ATACAR
             </a>
 
             <a href="LINK_DO_DISCORD" target="_blank">
-                💬 Discord
+                INSCREVER
             </a>
 
             <a href="LINK_DO_ENTREBLOGS" target="_blank">
@@ -254,13 +257,13 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <p>
 
-            © 2026 • Os Guardiões da Blogosfera
+           D & B ⚔️ Os Guardiões da Blogosfera © 2026 
 
         </p>
 
         <p>
 
-            Criado por <strong>EntreBlogs</strong> • Desenvolvido com ❤️ e ☕ para a comunidade de blogueiros.
+            Criado por <strong>EntreBlogs</strong> para a comunidade de blogueiros.
 
         </p>
 
@@ -268,8 +271,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
 </footer>
 	
-<div id="tooltip"></div>	
-</div>
+
 
 
 <script src="..\scripts\beda2026-viloes.js"></script>
