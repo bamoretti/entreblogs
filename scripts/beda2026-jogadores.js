@@ -445,38 +445,38 @@ async function iniciarPlayers(){
 ========================================================== */
 
 
-function ativarTooltips(){
+const tooltip = document.getElementById("tooltip");
 
-    const tooltip = document.getElementById("tooltip");
+document.addEventListener("mouseover", function(e){
 
-    document.querySelectorAll(".medal").forEach(medal=>{
+    const medal = e.target.closest(".medal");
 
-        medal.addEventListener("mouseenter",()=>{
+    if(!medal) return;
 
-            tooltip.innerHTML=`
-                <strong>${medal.dataset.nome}</strong>
-                ${medal.dataset.desc}
-            `;
+    tooltip.innerHTML = `
+        <strong>${medal.dataset.nome}</strong>
+        ${medal.dataset.desc}
+    `;
 
-            tooltip.style.opacity=1;
+    tooltip.style.opacity = "1";
 
-        });
+});
 
-        medal.addEventListener("mousemove",(e)=>{
+document.addEventListener("mousemove", function(e){
 
-            tooltip.style.left=(e.clientX+15)+"px";
-            tooltip.style.top=(e.clientY+15)+"px";
+    tooltip.style.left = (e.clientX + 18) + "px";
+    tooltip.style.top  = (e.clientY + 18) + "px";
 
-        });
+});
 
-        medal.addEventListener("mouseleave",()=>{
+document.addEventListener("mouseout", function(e){
 
-            tooltip.style.opacity=0;
+    if(e.target.closest(".medal")){
 
-        });
+        tooltip.style.opacity = "0";
 
-    });
+    }
 
-}
+});
 
 iniciarPlayers();

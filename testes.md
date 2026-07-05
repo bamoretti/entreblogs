@@ -235,7 +235,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <p>
 
-           D & B ⚔️ Os Guardiões da Blogosfera © 2026 
+           D&B: Os Guardiões da Blogosfera © 2026 
 
         </p>
 
