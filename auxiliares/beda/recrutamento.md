@@ -68,7 +68,7 @@ permalink: /beda/recrutamento
                         alt=""
                         class="classe-title-bg">
 
-                    <h2>📜 Cronista</h2>
+                    <h2>Cronista</h2>
 
                 </div>
 
@@ -89,7 +89,7 @@ permalink: /beda/recrutamento
                         alt=""
                         class="classe-title-bg">
 
-                    <h2>🗺️ Explorador</h2>
+                    <h2>Explorador</h2>
 
                 </div>
 
@@ -110,7 +110,7 @@ permalink: /beda/recrutamento
                         alt=""
                         class="classe-title-bg">
 
-                    <h2>🎨 Artífice</h2>
+                    <h2>Artífice</h2>
 
                 </div>
 
@@ -131,7 +131,7 @@ permalink: /beda/recrutamento
                         alt=""
                         class="classe-title-bg">
 
-                    <h2>🔮 Oráculo</h2>
+                    <h2>Oráculo</h2>
 
                 </div>
 
@@ -152,7 +152,7 @@ permalink: /beda/recrutamento
                         alt=""
                         class="classe-title-bg">
 
-                    <h2>🎭 Bardo</h2>
+                    <h2>Bardo</h2>
 
                 </div>
 
@@ -173,7 +173,7 @@ permalink: /beda/recrutamento
                         alt=""
                         class="classe-title-bg">
 
-                    <h2>📚 Arquivista</h2>
+                    <h2>Arquivista</h2>
 
                 </div>
 
