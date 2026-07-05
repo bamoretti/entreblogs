@@ -3,10 +3,17 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: "Jim Nightshade", cursive;
 	font-weight: 400;
 	font-style: normal;
 }
+
+:root {
+  --cor-primaria: #3498db;
+  --espacamento-padrao: 16px;
+  --fonte-titulo: "Jim Nightshade", cursive;
+  --fonte-corpo: "Special Elite", system-ui;
+}
+
 
 body {
     justify-content: center;
@@ -14,8 +21,7 @@ body {
     min-height: 100vh;
     background: url("../assets/beda/background.png");
     background-size: 100%;
-	  background-attachment: fixed;
-    color: white;
+	background-attachment: fixed;
     text-align: center;
 }
 
@@ -39,14 +45,13 @@ body {
 	margin: 140px auto 5px;
     max-width: 100px;
     height: auto;
-
     /* Animação */
     animation: flutuar 2s ease-in-out infinite;
 }
 
 .descricao-beda{
-	color:#000;
 	margin-bottom: 20px;
+	font-family: var(--fonte-corpo);
 	
 }
 
@@ -184,49 +189,32 @@ h1{
 ========================================================== */
 
 .battle-log{
-
     width:min(1200px,95%);
-
     margin:60px auto;
-
     background:rgb(161, 125, 89);
-
     border:1px solid #000;
-
     border-radius:18px;
-
     overflow:hidden;
-
     box-shadow:0 20px 45px rgba(0,0,0,.35);
 
 }
 
 .battle-header{
-
     padding:30px;
-
     text-align:center;
-
     border-bottom:1px solid rgba(255,255,255,.06);
-
 }
 
 .battle-header h2{
-
     font-family:Cinzel,serif;
-
     font-size:2rem;
-
     color:#d6b25e;
-
     margin-bottom:10px;
 
 }
 
 .battle-header p{
-
     color:#9aa8b6;
-
     font-size:.95rem;
 
 }
@@ -244,13 +232,13 @@ h1{
 .battle-table{
 
     width:100%;
-
     border-collapse:collapse;
 
 }
 
 .battle-table thead{
-
+	font-family: var(--fonte-titulo);
+	font-size: 23px;
     background:#786255;
 
 }
