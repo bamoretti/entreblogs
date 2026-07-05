@@ -13,6 +13,9 @@
   --fonte-titulo: "Jim Nightshade", cursive;
   --fonte-corpo: "Special Elite", system-ui;
   --fonte-corpo-size: 16px;
+  --marrom-claro: rgb(207, 180, 139);
+  --marrom-medio: rgb(161, 125, 89);
+  --marrom-escuro: #332018;
 }
 
 
@@ -24,13 +27,13 @@ body {
     background-size: 100%;
 	background-attachment: fixed;
     text-align: center;
-	font-family:     font-family: var(--fonte-corpo);
+	font-family: var(--fonte-corpo);
 	color: #1b1b1b;
 }
 
 .container{
 	margin-top: 50px;
-        max-width:900px;
+    max-width:900px;
     margin:auto;
 }
 
@@ -266,7 +269,7 @@ h1{
 .battle-table thead{
 	font-family: var(--fonte-corpo);
 	font-size: 16px;
-    background:#786255;
+    background:var(--marrom-escuro);
 
 }
 
@@ -298,7 +301,7 @@ h1{
 
 .battle-table tbody tr:hover{
 
-    background:#1b2736;
+    background:var(--marrom-escuro);
 
 }
 
