@@ -16,6 +16,7 @@
   --marrom-claro: rgb(207, 180, 139);
   --marrom-medio: rgb(161, 125, 89);
   --marrom-escuro: #332018;
+  --amarelo: #d6b25e;
 }
 
 
@@ -300,7 +301,7 @@ h1{
 }
 
 .battle-table tbody tr:hover{
-
+	color: var(--marrom-claro);
     background:var(--marrom-escuro);
 
 }
@@ -330,19 +331,14 @@ h1{
 .battle-attack{
 
     color:#6bbcff;
-
     font-weight:none;
 
 }
 
 .battle-damage{
-
     text-align:center;
-
     font-weight:none;
-
     color:#ff6b6b;
-
     font-size:1rem;
 
 }
@@ -376,33 +372,22 @@ h1{
 ========================================================== */
 
 .battle-footer{
-
     padding:25px;
-
     text-align:center;
-
     border-top:1px solid rgba(255,255,255,.06);
 
 }
 
 #toggleBattle{
-
+	font-family: var(--fonte-corpo);
     background:#d6b25e;
-
     color:#141c26;
-
     border:none;
-
     border-radius:10px;
-
     padding:12px 26px;
-
     font-size:.95rem;
-
-    font-weight:700;
-
+    font-weight:none;
     cursor:pointer;
-
     transition:.25s;
 
 }
@@ -410,7 +395,6 @@ h1{
 #toggleBattle:hover{
 
     transform:translateY(-2px);
-
     box-shadow:0 10px 25px rgba(214,178,94,.35);
 
 }
@@ -420,11 +404,9 @@ h1{
 ========================================================== */
 
 .battle-empty{
-
+	font-family: var(--fonte-corpo);
     text-align:center;
-
     color:#9aa8b6;
-
     padding:40px;
 
 }
