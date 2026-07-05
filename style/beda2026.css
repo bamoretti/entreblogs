@@ -725,15 +725,14 @@ display: inline-flex;
 
 #tooltip strong{
     display:block;
-    color:#d6b25e;
+    color: var(--marrom-escuro);
     margin-bottom:8px;
-    font-family:Cinzel,serif;
 
 }
 
 .medal{
     cursor:pointer;
-    font-size:2rem;
+    font-size:1.5rem;
     transition:.2s;
 
 }
