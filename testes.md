@@ -214,6 +214,74 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 <div id="tooltip"></div>	
 </div>
 
+<!-- ==========================================================
+     GRIMÓRIO DA BLOGOSFERA
+========================================================== -->
+
+<button id="grimorioButton" aria-label="Grimório da Blogosfera">
+
+    📜
+
+</button>
+
+<div id="grimorioOverlay">
+
+    <div id="grimorioModal">
+
+        <button id="grimorioClose">✕</button>
+
+        <h1>Grimório da Blogosfera</h1>
+
+        <p>
+
+            Bem-vindo ao Grimório. Aqui estão registrados os conhecimentos,
+            criaturas, relíquias e lendas da Blogosfera.
+
+        </p>
+
+        <hr>
+
+        <h2>👹 Bestiário</h2>
+
+        <p>
+            Conheça os vilões que ameaçam a criatividade dos Guardiões.
+        </p>
+
+        <hr>
+
+        <h2>⚔ Classes</h2>
+
+        <p>
+            Descubra as diferentes jornadas dos aventureiros.
+        </p>
+
+        <hr>
+
+        <h2>🏆 Medalhas</h2>
+
+        <p>
+            Todas as conquistas que podem ser obtidas durante a campanha.
+        </p>
+
+        <hr>
+
+        <h2>📜 Relíquias</h2>
+
+        <p>
+            Itens especiais encontrados ao longo da aventura.
+        </p>
+
+        <hr>
+
+        <h2>📖 Glossário</h2>
+
+        <p>
+            Explicações sobre os termos utilizados durante o evento.
+        </p>
+
+    </div>
+
+</div>
 
 <!-- ==========================================================
      MANUAL DO AVENTUREIRO
