@@ -272,9 +272,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <p>
 
-            Antes de tudo, preencha o <strong><a href="/recrutamento">Formulário de Cadastro</a> </strong>,
-            disponível no final da página.
-
+            Antes de tudo, preencha o <strong><a href="/beda/recrutamento">Formulário de Cadastro</a></strong>.
         </p>
 
         <ul>

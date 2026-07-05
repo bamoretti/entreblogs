@@ -976,7 +976,7 @@ display: inline-flex;
 }
 
 #manualModal{
-
+	text-align: left;
     width:min(900px,95vw);
 
     max-height:90vh;
