@@ -705,7 +705,7 @@ display: inline-flex;
     position:fixed;
     max-width:280px;
     background:#111827;
-    color:000;
+    color:#000;
     border:2px solid #d6b25e;
     border-radius:14px;
     padding:14px;
@@ -717,6 +717,10 @@ display: inline-flex;
     z-index:999999;
     box-shadow:0 20px 40px rgba(0,0,0,.35);
 
+}
+
+#tooltip.show{
+    opacity:1;
 }
 
 #tooltip strong{

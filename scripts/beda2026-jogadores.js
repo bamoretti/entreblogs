@@ -285,14 +285,10 @@ function renderizarMedalhas(texto){
     if(!texto) return "";
 
     return texto
-
         .split("|")
-
-        .map(m=>m.trim())
-
-        .filter(m=>m!="")
-
-        .map(emoji=>{
+        .map(m => m.trim())
+        .filter(Boolean)
+        .map(emoji => {
 
             const medalha = MEDALHAS[emoji];
 
@@ -307,22 +303,16 @@ function renderizarMedalhas(texto){
             }
 
             return `
-
                 <span
                     class="medal"
                     data-nome="${medalha.nome}"
                     data-desc="${medalha.descricao}">
-
                     ${emoji}
-
                 </span>
-
             `;
 
         })
-
-        .join("");
-
+        .join(""); // <-- IMPORTANTE: sem "|"
 }
 
 
@@ -454,7 +444,6 @@ async function iniciarPlayers(){
    INICIAR
 ========================================================== */
 
-iniciarPlayers();
 
 function ativarTooltips(){
 
@@ -464,34 +453,30 @@ function ativarTooltips(){
 
         medal.addEventListener("mouseenter",()=>{
 
-            if(!medal.dataset.nome) return;
-
-            tooltip.innerHTML = `
-
+            tooltip.innerHTML=`
                 <strong>${medal.dataset.nome}</strong>
-
                 ${medal.dataset.desc}
-
             `;
 
-            tooltip.style.opacity = 1;
+            tooltip.style.opacity=1;
 
         });
 
         medal.addEventListener("mousemove",(e)=>{
 
-            tooltip.style.left = e.clientX + 18 + "px";
-
-            tooltip.style.top = e.clientY + 18 + "px";
+            tooltip.style.left=(e.clientX+15)+"px";
+            tooltip.style.top=(e.clientY+15)+"px";
 
         });
 
         medal.addEventListener("mouseleave",()=>{
 
-            tooltip.style.opacity = 0;
+            tooltip.style.opacity=0;
 
         });
 
     });
 
 }
+
+iniciarPlayers();
