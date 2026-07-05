@@ -613,7 +613,7 @@ display: inline-flex;
     background:#d9c196;
     border:1px solid #1d1b18;
     border-radius:25px;
-    padding:14px 30px;
+    padding:10px;
     min-width:180px;
     text-align:center;
 
@@ -623,7 +623,7 @@ display: inline-flex;
     text-decoration:none;
     color:#1b1b1b;
 	font-family:  var(--fonte-titulo);
-    font-size:2rem;
+    font-size:1.5rem;
     font-weight:bold;
 
 }
