@@ -182,7 +182,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
         <h3>Guardiões da Blogosfera</h3>
 
         <p>
-            Cada guardião fortalece o Reino dos Escribas com seus pergaminhos.
+            Cada guardião fortalece o Os Manuscritos Antigos com seus pergaminhos.
         </p>
 
     </div>
