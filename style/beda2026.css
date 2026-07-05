@@ -32,23 +32,25 @@ body {
     color:var(--marrom-escuro);
 }
 
-@media (max-width: 768px){
 
-    body{
-
-        background-size:cover;
-		 min-height: 100vh;
-		background-attachment: fixed;
-
-    }
-
-}
 .container{
 	margin-top: 50px;
     max-width:900px;
     margin:auto;
 }
 
+
+@media (max-width: 768px){
+
+    body{
+
+    }
+
+.container{
+    padding:20px;
+}
+
+}
 
 .logo-beda{
     display:block;
