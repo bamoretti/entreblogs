@@ -932,8 +932,9 @@ display: inline-flex;
 
     border-radius:50%;
 
-    background:var(--amarelo);
-
+	background: url(../assets/beda/grimorio-botao.png);
+	background-size: 100%;
+	
     color:white;
 
     font-size:34px;
@@ -1127,7 +1128,7 @@ display: inline-flex;
     height:72px;
     border:none;
     border-radius:50%;
-	background: url(../assets/beda/grimorio-botao.png);
+	background: url(../assets/beda/grimorio-botao2.png);
 	background-size: 100%;
     color:white;
     font-size:34px;
