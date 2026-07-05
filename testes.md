@@ -219,22 +219,6 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <div class="footer-links">
 
-            <h3>Explorar</h3>
-
-            <a href="#boss">🐉 Vilão da Semana</a>
-
-            <a href="#missoes">📜 Missões</a>
-
-            <a href="#ranking">🏆 Ranking</a>
-
-            <a href="#guardioes">🧙 Guardiões</a>
-
-            <a href="#ataques">⚔️ Últimos Ataques</a>
-
-        </div>
-
-        <div class="footer-links">
-
             <h3>Participar</h3>
 
             <a href="LINK_DO_FORMULARIO" target="_blank">
