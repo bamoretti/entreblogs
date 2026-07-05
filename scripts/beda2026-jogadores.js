@@ -282,11 +282,15 @@ function processarMedalhas(csv){
 
 function renderizarMedalhas(texto){
 
-    if(!texto) return "—";
+    if(!texto) return "";
 
-    return [...texto]
+    return texto
 
-        .filter(e=>e.trim())
+        .split("|")
+
+        .map(m=>m.trim())
+
+        .filter(m=>m!="")
 
         .map(emoji=>{
 
@@ -294,18 +298,19 @@ function renderizarMedalhas(texto){
 
             if(!medalha){
 
-                return `<span class="medal">${emoji}</span>`;
+                return `
+                    <span class="medal">
+                        ${emoji}
+                    </span>
+                `;
 
             }
 
             return `
 
                 <span
-
                     class="medal"
-
                     data-nome="${medalha.nome}"
-
                     data-desc="${medalha.descricao}">
 
                     ${emoji}
