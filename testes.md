@@ -54,27 +54,30 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
         alt="separar página"
         class="separador"
     >
-	
-	
-<img id="bossImage">
 
-<div class="hpHeader">
+<div class="viloes">	
 
-	<span>HP</span>
+	<h3>Vilão da Semana</h3>
 
-	<span id="bossHPText"></span>
+	<img id="bossImage">
+
+	<div class="hpHeader">
+
+		<span>HP</span>
+
+		<span id="bossHPText"></span>
+
+		</div>
+
+		<div class="hp">
+
+		<div id="bossBar"></div>
 
 	</div>
-
-	<div class="hp">
-
-	<div id="bossBar"></div>
-
+	
+	<div class="period" id="bossPeriod"></div>
+	<div class="description" id="bossDescription"></div>
 </div>
-<div class="period" id="bossPeriod"></div>
-
-<div class="description" id="bossDescription"></div>
-
 
 <div class="missoes">
 
@@ -217,29 +220,12 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <div class="footer-logo">
 
-            <h2>Os Guardiões da Blogosfera & A Jornada Contra o Esquecimento</h2>
-
-            <p>
-                
-            </p>
 
         </div>
 
         <div class="footer-links">
 
-            <h3>Participar</h3>
-
-            <a href="LINK_DO_FORMULARIO" target="_blank">
-                 ATACAR
-            </a>
-
-            <a href="LINK_DO_DISCORD" target="_blank">
-                INSCREVER
-            </a>
-
-            <a href="LINK_DO_ENTREBLOGS" target="_blank">
-                🌐 EntreBlogs
-            </a>
+           
 
         </div>
 
