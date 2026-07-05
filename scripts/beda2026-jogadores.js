@@ -480,3 +480,49 @@ document.addEventListener("mouseout", function(e){
 });
 
 iniciarPlayers();
+
+
+/* ==========================================================
+   MANUAL
+========================================================== */
+
+const manualButton =
+document.getElementById("manualButton");
+
+const manualOverlay =
+document.getElementById("manualOverlay");
+
+const manualClose =
+document.getElementById("manualClose");
+
+manualButton.addEventListener("click",()=>{
+
+    manualOverlay.classList.add("active");
+
+});
+
+manualClose.addEventListener("click",()=>{
+
+    manualOverlay.classList.remove("active");
+
+});
+
+manualOverlay.addEventListener("click",(e)=>{
+
+    if(e.target===manualOverlay){
+
+        manualOverlay.classList.remove("active");
+
+    }
+
+});
+
+document.addEventListener("keydown",(e)=>{
+
+    if(e.key==="Escape"){
+
+        manualOverlay.classList.remove("active");
+
+    }
+
+});

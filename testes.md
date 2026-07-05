@@ -214,6 +214,127 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 <div id="tooltip"></div>	
 </div>
 
+
+<!-- ==========================================================
+     MANUAL DO AVENTUREIRO
+========================================================== -->
+
+<button id="manualButton" aria-label="Manual do Aventureiro">
+
+    📖
+
+</button>
+
+<div id="manualOverlay">
+
+    <div id="manualModal">
+
+        <button id="manualClose">✕</button>
+
+        <h1>📖 Manual do Aventureiro</h1>
+
+        <h2>O que é o BEDA?</h2>
+
+        <p>
+
+            O <strong>BEDA (Blog Every Day in August)</strong> é uma jornada
+            criativa em que aventureiros dos blogs se reúnem durante o mês de
+            agosto para cumprir um desafio: publicar algo todos os dias.
+
+        </p>
+
+        <p>
+
+            Pense nele como uma campanha de aventura.
+
+        </p>
+
+        <p>
+
+            Cada participante é um viajante com seu próprio mapa,
+            sua própria história e seus próprios recursos.
+            Alguns chegam com uma mochila cheia de ideias;
+            outros encontram tesouros pelo caminho.
+
+        </p>
+
+        <p>
+
+            Nem todo aventureiro precisa completar a jornada inteira para
+            fazer parte da lenda. O importante é compartilhar histórias,
+            fortalecer a comunidade e descobrir até onde sua criatividade pode levar.
+
+        </p>
+
+        <hr>
+
+        <h2>⚔️ 1. Escolha sua jornada</h2>
+
+        <p>
+
+            Antes de tudo, preencha o <strong>Formulário de Cadastro</strong>,
+            disponível no final da página.
+
+        </p>
+
+        <ul>
+
+            <li><strong>🛡️ Jornada do Herói (BEDA)</strong><br>
+            Publique todos os dias de agosto.</li>
+
+            <li><strong>🏹 Jornada do Patrulheiro (BEWA)</strong><br>
+            Publique pelo menos uma vez por semana.</li>
+
+            <li><strong>🎒 Jornada do Andarilho</strong><br>
+            Publique quando desejar.</li>
+
+        </ul>
+
+        <hr>
+
+        <h2>📝 2. Registre cada publicação</h2>
+
+        <p>
+
+            Sempre que publicar um texto,
+            clique em <strong>Faça um Ataque</strong>
+            e registre sua postagem.
+
+        </p>
+
+        <hr>
+
+        <h2>🏅 3. Acompanhe sua evolução</h2>
+
+        <p>
+
+            Seus registros geram ataques,
+            pontos,
+            medalhas,
+            conquistas
+            e evolução do personagem.
+
+        </p>
+
+        <hr>
+
+        <h2>🗺️ 4. Explore a campanha</h2>
+
+        <p>
+
+            Novos vilões,
+            missões
+            e desafios surgirão durante agosto.
+
+            Volte sempre para acompanhar a campanha!
+
+        </p>
+
+    </div>
+
+</div>
+
+
 <footer class="footer">
 
     <div class="footer-container">
