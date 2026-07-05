@@ -52,6 +52,7 @@ body {
 .descricao-beda{
 	margin-bottom: 20px;
 	font-family: var(--fonte-corpo);
+	line-height: 1.5;
 	
 }
 
@@ -94,15 +95,17 @@ h1{
 
     color:#000;
 	text-align: center;
-    font-size:18px;
+    font-size:10px;
     margin-bottom:20px;
+	margin-top: 5px;
 
 }
 
 .description{
-    line-height:1.6;
+    line-height:1.5;
     color:#141313;
     margin-bottom:30px;
+	font-family: var(--fonte-corpo);
 }
 
 .hpHeader{
@@ -121,27 +124,21 @@ h1{
 
     height:22px;
 	color: #141313;
-    background:#826343;
+	background:#9a7a4f;
     border-radius:20px;
-
     overflow:hidden;
 
 }
   
 .bossHPText{
-
 	color: #141313;
 
 }
 
 #bossBar{
-
     width:0;
-
     height:100%;
-
-    background:#523a13;
-
+    background:linear-gradient(90deg,#5b3d0b,#8b651c,#5b3d0b);
     transition:.8s;
 
 }
@@ -149,7 +146,6 @@ h1{
 .attacks{
     margin-top:20px;
     font-size:20px;
-
 }
 
 
