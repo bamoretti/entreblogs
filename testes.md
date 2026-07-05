@@ -157,7 +157,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
         rel="noopener"
         class="attack-button">
 
-        ⚔️ Faça um Ataque
+        Faça um Ataque
 
     </a>
 </div>
@@ -166,8 +166,8 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
     <img
         src="../assets/beda/pena.png"
-        alt="BEDA 2026"
-        class="logo-pena-pergaminho"
+        alt="separar página"
+        class="separador"
     >
 	
 	

@@ -50,8 +50,16 @@ body {
     animation: flutuar 2s ease-in-out infinite;
 }
 
+.separador{
+    display: block;
+	margin: 140px auto 20px;
+    max-width: 50px;
+    height: auto;
+    animation: flutuar 2s ease-in-out infinite;
+}
+
 .descricao-beda{
-	margin-bottom: 20px;
+	margin-bottom: 60px;
 	font-family: var(--fonte-corpo);
 	line-height: 1.5;
 	
@@ -172,11 +180,14 @@ h1{
 
 .titulo-missao{
 	font-size: var(--fonte-corpo-size);
+	font-family: var(--fonte-corpo);
+	font-weight: bold;
 }
 
 .descricao-missao{
 	margin-left: 30px;
 	font-size: var(--fonte-corpo-size);
+	font-family: var(--fonte-corpo);
 }
 
 .loading{
@@ -191,8 +202,7 @@ h1{
 ========================================================== */
 
 .battle-log{
-    width:min(1200px,95%);
-    margin:60px auto;
+    margin:20px auto;
     background:rgb(161, 125, 89);
     border:1px solid #000;
     border-radius:18px;
@@ -488,36 +498,22 @@ h1{
 
 .attack-button{
 
-    display:inline-flex;
-
-    align-items:center;
-
-    gap:10px;
-
-    padding:16px 30px;
-
-    background:linear-gradient(135deg,#d6b25e,#f2d27b);
-
-    color:#141c26;
-
-    font-weight:700;
-
-    font-size:18px;
-
-    text-decoration:none;
-
-    border-radius:14px;
-
-    transition:.25s;
-
-    box-shadow:0 12px 30px rgba(214,178,94,.35);
-
+display: inline-flex;
+    align-items: center;
+    padding: 16px 30px;
+    background: linear-gradient(135deg, #47352e, #332018);
+    color: #fcdccf;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 14px;
+    transition: .25s;
+    box-shadow: 0 12px 30px rgba(214, 178, 94, .35);
+    font-family: var(--fonte-corpo);
 }
 
 .attack-button:hover{
 
     transform:translateY(-3px);
-
     box-shadow:0 18px 40px rgba(214,178,94,.45);
 
 }
