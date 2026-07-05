@@ -20,16 +20,33 @@
 }
 
 
-body {
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: url("../assets/beda/background.png");
-    background-size: 100%;
-	background-attachment: fixed;
-    text-align: center;
-	font-family: var(--fonte-corpo);
-	color: #1b1b1b;
+body{
+
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+
+    background-image:url("../assets/beda/background.png");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+
+    text-align:center;
+    font-family:var(--fonte-corpo);
+    color:var(--marrom-escuro);
+
+}
+
+@media (max-width: 768px){
+
+    body{
+
+        background-size:cover;
+        background-position:center;
+        background-attachment:scroll;
+
+    }
+
 }
 
 .container{
@@ -60,6 +77,14 @@ body {
     display: block;
 	margin: 45px auto 20px;
     max-width: 20px;
+    height: auto;
+    animation: flutuar 2s ease-in-out infinite;
+}
+
+.separador-maior{
+    display: block;
+	margin: 45px auto 20px;
+    max-width: 60px;
     height: auto;
     animation: flutuar 2s ease-in-out infinite;
 }

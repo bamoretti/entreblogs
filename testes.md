@@ -52,7 +52,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
     <img
         src="../assets/beda/pergaminho.png"
         alt="separar página"
-        class="separador"
+        class="separador-maior"
     >
 
 <div class="viloes">	
