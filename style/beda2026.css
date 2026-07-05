@@ -913,38 +913,25 @@ display: inline-flex;
 
 
 /* ==========================================================
-   BOTÃO FLUTUANTE
+   BOTÃO FLUTUANTE MANUAL
 ========================================================== */
 
 #manualButton{
 
     position:fixed;
-
     right:25px;
-
     bottom:30px;
-
     width:72px;
-
     height:72px;
-
     border:none;
-
     border-radius:50%;
-
 	background: url(../assets/beda/grimorio-botao.png);
 	background-size: 100%;
-	
     color:white;
-
     font-size:34px;
-
     cursor:pointer;
-
     box-shadow:0 12px 30px rgba(0,0,0,.30);
-
     transition:.25s;
-
     z-index:9999;
 
 }
