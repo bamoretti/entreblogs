@@ -179,7 +179,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
     <div class="players-header">
 
-        <h2>🧙 Guardiões da Blogosfera</h2>
+        <h3>Guardiões da Blogosfera</h3>
 
         <p>
             Cada guardião fortalece o Reino dos Escribas com seus pergaminhos.

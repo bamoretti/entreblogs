@@ -530,11 +530,7 @@ display: inline-flex;
 ========================================================== */
 
 .players-section{
-
-    width:min(1400px,95%);
-
     margin:60px auto;
-
 }
 
 .players-header{
@@ -543,22 +539,15 @@ display: inline-flex;
 
 }
 
-.players-header h2{
-
-    font-family:Cinzel,serif;
-
-    color:#d6b25e;
-
-    font-size:2.3rem;
-
+.players-header h3{
+    font-family: var(--fonte-titulo);
+	font-size: 30px;
     margin-bottom:10px;
 
 }
 
 .players-header p{
-
-    color:#b8c2cf;
-
+	font-family: var(--fonte-corpo);
     font-size:1rem;
 
 }
@@ -571,8 +560,8 @@ display: inline-flex;
 .players-grid{
 
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-    gap:35px;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:40px;
 
 }
 
