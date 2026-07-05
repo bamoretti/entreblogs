@@ -183,6 +183,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <p>
             Cada guardião fortalece o Os Manuscritos Antigos com seus pergaminhos.
+			
         </p>
 
     </div>
@@ -198,6 +199,74 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
     </div>
 
 </section>
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+
+            <h2>🛡️ Os Guardiões da Blogosfera</h2>
+
+            <p>
+                "Cada pergaminho publicado fortalece o Reino dos Escribas."
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Explorar</h3>
+
+            <a href="#boss">🐉 Vilão da Semana</a>
+
+            <a href="#missoes">📜 Missões</a>
+
+            <a href="#ranking">🏆 Ranking</a>
+
+            <a href="#guardioes">🧙 Guardiões</a>
+
+            <a href="#ataques">⚔️ Últimos Ataques</a>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Participar</h3>
+
+            <a href="LINK_DO_FORMULARIO" target="_blank">
+                ⚔️ Fazer um Ataque
+            </a>
+
+            <a href="LINK_DO_DISCORD" target="_blank">
+                💬 Discord
+            </a>
+
+            <a href="LINK_DO_ENTREBLOGS" target="_blank">
+                🌐 EntreBlogs
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>
+
+            © 2026 • Os Guardiões da Blogosfera
+
+        </p>
+
+        <p>
+
+            Criado por <strong>EntreBlogs</strong> • Desenvolvido com ❤️ e ☕ para a comunidade de blogueiros.
+
+        </p>
+
+    </div>
+
+</footer>
 	
 <div id="tooltip"></div>	
 </div>

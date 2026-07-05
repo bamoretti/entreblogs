@@ -24,6 +24,7 @@ body {
     background-size: 100%;
 	background-attachment: fixed;
     text-align: center;
+	font-family:     font-family: var(--fonte-corpo);
 }
 
 .container{
@@ -215,18 +216,18 @@ h1{
     padding:30px;
     text-align:center;
     border-bottom:1px solid rgba(255,255,255,.06);
+
 }
 
 .battle-header h2{
-    font-family:Cinzel,serif;
-    font-size:2rem;
-    color:#d6b25e;
+    font-family: var(--fonte-titulo);
+    font-size:30px;
     margin-bottom:10px;
 
 }
 
 .battle-header p{
-    color:#9aa8b6;
+    font-family: var(--fonte-corpo);
     font-size:.95rem;
 
 }
@@ -249,8 +250,8 @@ h1{
 }
 
 .battle-table thead{
-	font-family: var(--fonte-titulo);
-	font-size: 23px;
+	font-family: var(--fonte-corpo);
+	font-size: 16px;
     background:#786255;
 
 }
@@ -258,27 +259,19 @@ h1{
 .battle-table th{
 
     padding:16px;
-
     text-align:left;
-
     color:#d6b25e;
-
     font-size:.9rem;
-
-    font-weight:600;
-
+    font-weight:none;
     white-space:nowrap;
 
 }
 
 .battle-table td{
-
+	font-family: var(--fonte-corpo);
     padding:15px 16px;
-
     border-top:1px solid rgba(255,255,255,.05);
-
     color:#e6eef7;
-
     vertical-align:middle;
 
 }
@@ -457,7 +450,7 @@ h1{
 
     }
 
-    .battle-header h2{
+    .battle-header h3{
 
         font-size:1.35rem;
 
@@ -796,6 +789,127 @@ display: inline-flex;
     .player-medals{
 
         font-size:1.6rem;
+
+    }
+
+}
+
+
+/* ==========================================================
+   FOOTER
+========================================================== */
+
+.footer{
+
+    margin-top:100px;
+
+    background:#0d131c;
+
+    border-top:3px solid #d6b25e;
+
+    color:#d7dde6;
+
+}
+
+.footer-container{
+
+    width:min(1400px,95%);
+
+    margin:auto;
+
+    padding:60px 0;
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr 1fr;
+
+    gap:60px;
+
+}
+
+.footer-logo h2{
+
+    font-family:Cinzel,serif;
+
+    color:#d6b25e;
+
+    margin-bottom:18px;
+
+}
+
+.footer-logo p{
+
+    line-height:1.8;
+
+    color:#9ca8b8;
+
+}
+
+.footer-links h3{
+
+    color:#d6b25e;
+
+    margin-bottom:18px;
+
+    font-family:Cinzel,serif;
+
+}
+
+.footer-links{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:12px;
+
+}
+
+.footer-links a{
+
+    color:#d7dde6;
+
+    text-decoration:none;
+
+    transition:.25s;
+
+}
+
+.footer-links a:hover{
+
+    color:#d6b25e;
+
+    transform:translateX(6px);
+
+}
+
+.footer-bottom{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    padding:25px;
+
+    text-align:center;
+
+    color:#7f8a99;
+
+    font-size:.9rem;
+
+}
+
+.footer-bottom strong{
+
+    color:#d6b25e;
+
+}
+
+@media(max-width:900px){
+
+    .footer-container{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
 
     }
 
