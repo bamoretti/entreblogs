@@ -64,7 +64,10 @@
         ctx.fillStyle = `rgba(255, 245, 180, ${p.alpha})`;
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+        ctx.shadowBlur = 10;
+        ctx.shadowColor = "rgba(255, 230, 140, 0.8)";
         ctx.fill();
+        ctx.shadowBlur = 0;
 
         if (p.alpha <= 0) {
           particles.splice(index, 1);
