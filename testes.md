@@ -47,6 +47,21 @@ permalink: /testes/
 Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em tempos de silêncio. Mas existe uma antiga tradição, conhecida entre aldeões pelo nome de BEDA. Quando chega a Estação da Escrita, aventureiros atendem ao chamado para registrar histórias, reacender blogs e impedir que a chama da criatividade apague e o esquecimento roube memórias. Assim começa a jornada dos Guardiões da Blogosfera.
 </div>
 
+<div class="trilha-sonora">
+    <h3>🎵 Trilha da Campanha</h3>
+    <p>Dizem que quem escreve ao som destas canções encontra inspiração pelo caminho.</p>
+
+    <iframe
+        style="border-radius:12px"
+        src="https://open.spotify.com/embed/playlist/39Ajx3HKVtVZmwKygaMeMI?utm_source=generator"
+        width="100%"
+        height="352"
+        frameborder="0"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy">
+    </iframe>
+</div>
+
     <img
         src="../assets/beda/pergaminho.png"
         alt="separar página"
