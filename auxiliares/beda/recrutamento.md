@@ -297,7 +297,7 @@ permalink: /beda/recrutamento
 
 <script>
 let player;
-let iniciou = false;
+let iniciou = true;
 
 function onYouTubeIframeAPIReady() {
     player = new YT.Player("youtube-player", {
