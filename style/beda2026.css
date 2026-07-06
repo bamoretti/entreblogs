@@ -105,6 +105,17 @@ body {
     }
 }
 
+.trilha-sonora{
+
+}
+
+.trilha-sonora h3{
+		font-family: var(--fonte-titulo);
+    font-size:50px;
+    margin-bottom:20px;
+
+}
+
 .viloes{
 	
 
