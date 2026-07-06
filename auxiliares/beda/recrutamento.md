@@ -49,8 +49,10 @@ permalink: /beda/recrutamento
         <h1>Escolha a sua Jornada</h1>
 
         <p>
-            Descubra as seis classes disponíveis na campanha
-            Guardiões da Blogosfera.
+            Nem todos os aventureiros percorrem a mesma estrada. <br>
+			Alguns caminham lado a lado com a guilda do primeiro ao último dia. Outros seguem por trilhas alternativas ou aparecem nos momentos em que o destino cruza seus caminhos. <br>
+			Nesta campanha, toda jornada é válida. Escolha aquela que melhor combina com você.
+
         </p>
 
     </header>
