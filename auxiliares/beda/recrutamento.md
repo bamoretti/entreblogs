@@ -290,6 +290,44 @@ permalink: /beda/recrutamento
 
 </div>
 
+
+<div id="youtube-player" style="display:none;"></div>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+
+<script>
+let player;
+let iniciou = false;
+
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player("youtube-player", {
+        height: "0",
+        width: "0",
+        videoId: "AKBaaZuF8YQ",
+        playerVars: {
+            autoplay: 0,
+            controls: 0,
+            loop: 1,
+            playlist: "AKBaaZuF8YQ",
+            modestbranding: 1,
+            rel: 0
+        }
+    });
+}
+
+document.addEventListener("click", function iniciarMusica() {
+
+    if (iniciou || !player) return;
+
+    iniciou = true;
+
+    player.playVideo();
+
+    document.removeEventListener("click", iniciarMusica);
+
+}, { once: true });
+</script>
+
 </body>
 
 </html>
