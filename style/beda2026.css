@@ -333,7 +333,7 @@ h1{
 
 /* opcional: cor ao passar o mouse sobre o próprio link */
 .battle-table tbody tr:hover a:hover {
-    color: #fff;
+    color: #d6b25e;
 }
 
 /* ==========================================================
