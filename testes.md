@@ -234,7 +234,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <p>
 
-            Bem-vindo ao Grimório. Aqui estão registrados algumas ideias de feitiços que podem te auxiliar nessa jornada.
+            Bem-vindo ao Grimório de Feitiços, use-o com sabedoria. 
 
         </p>
 
@@ -242,149 +242,149 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <h2>📝 Memórias & Nostalgia</h2>
 
-<p>
-• Escreva sobre algo que você tem medo de esquecer no futuro.<br>
-• Conte a história de uma pessoa que marcou a sua vida.<br>
-• Escreva sobre uma lembrança que ainda não apareceu no seu blog.<br>
-• Escolha uma foto aleatória da sua galeria e conte a história por trás dela.<br>
-• Escreva uma carta para o seu eu do passado ou do futuro.<br>
-• Escolha uma foto antiga e recrie a mesma cena hoje.<br>
-• Um lugar que faz parte da sua história.<br>
-• Conte uma lembrança engraçada.<br>
-• Uma conversa que você nunca esqueceu.<br>
-• Um sonho que já realizou.<br>
-• Uma fase da vida que sente saudade.<br>
-• Algo que você faria diferente hoje.<br>
-• Uma comida que traz lembranças.<br>
-• Uma fotografia que sempre faz você sorrir.<br>
-• Objetos que contam sua história.<br>
-• Conte a história por trás do seu nome ou apelido.<br>
-• Compartilhe uma receita que faz parte da sua história.
-</p>
+		<p>
+			• Escreva sobre algo que você tem medo de esquecer no futuro.<br>
+			• Conte a história de uma pessoa que marcou a sua vida.<br>
+			• Escreva sobre uma lembrança que ainda não apareceu no seu blog.<br>
+			• Escolha uma foto aleatória da sua galeria e conte a história por trás dela.<br>
+			• Escreva uma carta para o seu eu do passado ou do futuro.<br>
+			• Escolha uma foto antiga e recrie a mesma cena hoje.<br>
+			• Um lugar que faz parte da sua história.<br>
+			• Conte uma lembrança engraçada.<br>
+			• Uma conversa que você nunca esqueceu.<br>
+			• Um sonho que já realizou.<br>
+			• Uma fase da vida que sente saudade.<br>
+			• Algo que você faria diferente hoje.<br>
+			• Uma comida que traz lembranças.<br>
+			• Uma fotografia que sempre faz você sorrir.<br>
+			• Objetos que contam sua história.<br>
+			• Conte a história por trás do seu nome ou apelido.<br>
+			• Compartilhe uma receita que faz parte da sua história.
+		</p>
+	
+		<hr>
+	
+		<h2>📖 Cotidiano</h2>
+		
+		<p>
+			• Escreva sobre algo que aconteceu nas últimas 24 horas.<br>
+			• Conte como foi o seu dia pelo ponto de vista de um objeto, do seu pet ou de uma criança.<br>
+			• Conte como foi o seu dia.<br>
+			• Mostre um dia comum em fotos.<br>
+			• Apresente sua mesa de trabalho, estudos ou criação.<br>
+			• Conte como você organiza a sua semana.<br>
+			• Mostre o que costuma carregar na bolsa, mochila ou carteira.<br>
+			• Como está seu mês até agora?<br>
+			• Três pequenas alegrias da semana.<br>
+			• O melhor momento do seu dia.<br>
+			• O que fez você rir recentemente?<br>
+			• Algo simples que melhorou sua rotina.<br>
+			• Como você costuma descansar.<br>
+			• O que nunca falta no seu café da manhã.<br>
+			• Como é seu cantinho favorito da casa.<br>
+			• O que você sempre deixa para depois.<br>
+			• Uma mania que você tem.<br>
+			• O primeiro pensamento quando acorda.<br>
+			• Como você costuma terminar o dia.<br>
+			• Seu ritual de fim de semana.
+		</p>
 
-<hr>
-
-<h2>📖 Cotidiano</h2>
-
-<p>
-• Escreva sobre algo que aconteceu nas últimas 24 horas.<br>
-• Conte como foi o seu dia pelo ponto de vista de um objeto, do seu pet ou de uma criança.<br>
-• Conte como foi o seu dia.<br>
-• Mostre um dia comum em fotos.<br>
-• Apresente sua mesa de trabalho, estudos ou criação.<br>
-• Conte como você organiza a sua semana.<br>
-• Mostre o que costuma carregar na bolsa, mochila ou carteira.<br>
-• Como está seu mês até agora?<br>
-• Três pequenas alegrias da semana.<br>
-• O melhor momento do seu dia.<br>
-• O que fez você rir recentemente?<br>
-• Algo simples que melhorou sua rotina.<br>
-• Como você costuma descansar.<br>
-• O que nunca falta no seu café da manhã.<br>
-• Como é seu cantinho favorito da casa.<br>
-• O que você sempre deixa para depois.<br>
-• Uma mania que você tem.<br>
-• O primeiro pensamento quando acorda.<br>
-• Como você costuma terminar o dia.<br>
-• Seu ritual de fim de semana.
-</p>
-
-<hr>
-
-<h2>📸 Fotografia</h2>
-
-<p>
-• Mostre um dia comum em fotos.<br>
-• Publique cinco fotos sem contexto.<br>
-• Registre detalhes que normalmente passam despercebidos.<br>
-• Mostre o céu de hoje.<br>
-• O céu em diferentes momentos do dia.<br>
-• Um passeio em fotos.<br>
-• Conte uma história usando cinco imagens.
-</p>
-
-<hr>
-
-<h2>🌱 Reflexões</h2>
-
-<p>
-• Conte o que mudou na sua vida este ano.<br>
-• Liste algumas das suas sensações favoritas.<br>
-• Algo que você aprendeu recentemente.<br>
-• O que significa "lar" para você?<br>
-• O que tem ocupado seus pensamentos?<br>
-• Uma opinião que mudou com o tempo.<br>
-• Uma pequena vitória que merece ser comemorada.<br>
-• O que você faria se tivesse um dia inteiro livre?<br>
-• Um momento em que saiu da sua zona de conforto.<br>
-• Algo que você gostaria de lembrar daqui a dez anos.<br>
-• O que faz um dia valer a pena.<br>
-• O que significa sucesso para você.<br>
-• Como você define felicidade hoje.<br>
-• Uma mudança pela qual é grato.<br>
-• O que você desaprendeu.<br>
-• Um conselho que realmente funcionou.
-</p>
-
-<hr>
-
-<h2>⭐ Favoritos & Recomendações</h2>
-
-<p>
-• Indique algo que você gosta e acha que mais gente deveria conhecer.<br>
-• Compartilhe pequenos hábitos que você ama.<br>
-• Indique blogs que inspiram você.<br>
-• Faça uma lista com cinco coisas que você quer fazer este mês.<br>
-• Compartilhe seus favoritos do momento.<br>
-• Compartilhe seus posts favoritos.<br>
-• Cinco pequenas alegrias do dia a dia.<br>
-• Objetos dos quais você não abre mão.<br>
-• Músicas que marcaram sua vida.<br>
-• Aplicativos que mais usa.<br>
-• Livros que gostaria de reler.<br>
-• O último livro que terminou.<br>
-• Um livro que mudou sua forma de pensar.<br>
-• Uma série que maratonou.<br>
-• Um filme que sempre reassiste.<br>
-• Um personagem com quem você se identifica.<br>
-• Lugares que ainda quer conhecer.<br>
-• Pessoas que inspiram você.
-</p>
-
-<hr>
-
-<h2>🎯 Listas & Coleções</h2>
-
-<p>
-• Faça uma lista de ideias que ainda quer colocar em prática.<br>
-• Três coisas que estão na sua mesa agora.<br>
-• Um cheiro que traz boas lembranças.<br>
-• Uma música que descreve seu momento atual.<br>
-• Coisas que você coleciona.<br>
-• Pequenas conquistas deste ano.<br>
-• Coisas pelas quais é grato hoje.<br>
-• Coisas que aprendeu este mês.<br>
-• Cinco curiosidades sobre você.<br>
-• Mostre cinco objetos que representam quem você é.
-</p>
-
-<hr>
-
-<h2>✨ Criatividade</h2>
-
-<p>
-• Um dia que parecia comum, mas acabou sendo especial.<br>
-• Uma amizade inesperada.<br>
-• Uma coincidência curiosa.<br>
-• Faça um post inspirado na previsão do tempo de hoje.<br>
-• Monte uma playlist para um dia específico.<br>
-• Escreva sobre uma tradição que você criou ou mantém.<br>
-• Escolha uma palavra e escreva tudo o que ela faz você lembrar.<br>
-• Abra um livro aleatório e escreva inspirado na primeira frase que encontrar.<br>
-• Conte uma história começando pelo final.<br>
-• Como lida com bloqueios criativos.<br>
-• Uma habilidade que gostaria de desenvolver.
-</p> 
+		<hr>
+		
+		<h2>📸 Fotografia</h2>
+		
+		<p>
+			• Mostre um dia comum em fotos.<br>
+			• Publique cinco fotos sem contexto.<br>
+			• Registre detalhes que normalmente passam despercebidos.<br>
+			• Mostre o céu de hoje.<br>
+			• O céu em diferentes momentos do dia.<br>
+			• Um passeio em fotos.<br>
+			• Conte uma história usando cinco imagens.
+		</p>
+		
+		<hr>
+		
+		<h2>🌱 Reflexões</h2>
+		
+		<p>
+			• Conte o que mudou na sua vida este ano.<br>
+			• Liste algumas das suas sensações favoritas.<br>
+			• Algo que você aprendeu recentemente.<br>
+			• O que significa "lar" para você?<br>
+			• O que tem ocupado seus pensamentos?<br>
+			• Uma opinião que mudou com o tempo.<br>
+			• Uma pequena vitória que merece ser comemorada.<br>
+			• O que você faria se tivesse um dia inteiro livre?<br>
+			• Um momento em que saiu da sua zona de conforto.<br>
+			• Algo que você gostaria de lembrar daqui a dez anos.<br>
+			• O que faz um dia valer a pena.<br>
+			• O que significa sucesso para você.<br>
+			• Como você define felicidade hoje.<br>
+			• Uma mudança pela qual é grato.<br>
+			• O que você desaprendeu.<br>
+			• Um conselho que realmente funcionou.
+		</p>
+		
+		<hr>
+		
+		<h2>⭐ Favoritos & Recomendações</h2>
+		
+		<p>
+			• Indique algo que você gosta e acha que mais gente deveria conhecer.<br>
+			• Compartilhe pequenos hábitos que você ama.<br>
+			• Indique blogs que inspiram você.<br>
+			• Faça uma lista com cinco coisas que você quer fazer este mês.<br>
+			• Compartilhe seus favoritos do momento.<br>
+			• Compartilhe seus posts favoritos.<br>
+			• Cinco pequenas alegrias do dia a dia.<br>
+			• Objetos dos quais você não abre mão.<br>
+			• Músicas que marcaram sua vida.<br>
+			• Aplicativos que mais usa.<br>
+			• Livros que gostaria de reler.<br>
+			• O último livro que terminou.<br>
+			• Um livro que mudou sua forma de pensar.<br>
+			• Uma série que maratonou.<br>
+			• Um filme que sempre reassiste.<br>
+			• Um personagem com quem você se identifica.<br>
+			• Lugares que ainda quer conhecer.<br>
+			• Pessoas que inspiram você.
+		</p>
+		
+		<hr>
+		
+		<h2>🎯 Listas & Coleções</h2>
+		
+		<p>
+			• Faça uma lista de ideias que ainda quer colocar em prática.<br>
+			• Três coisas que estão na sua mesa agora.<br>
+			• Um cheiro que traz boas lembranças.<br>
+			• Uma música que descreve seu momento atual.<br>
+			• Coisas que você coleciona.<br>
+			• Pequenas conquistas deste ano.<br>
+			• Coisas pelas quais é grato hoje.<br>
+			• Coisas que aprendeu este mês.<br>
+			• Cinco curiosidades sobre você.<br>
+			• Mostre cinco objetos que representam quem você é.
+		</p>
+		
+		<hr>
+		
+		<h2>✨ Criatividade</h2>
+		
+		<p>
+			• Um dia que parecia comum, mas acabou sendo especial.<br>
+			• Uma amizade inesperada.<br>
+			• Uma coincidência curiosa.<br>
+			• Faça um post inspirado na previsão do tempo de hoje.<br>
+			• Monte uma playlist para um dia específico.<br>
+			• Escreva sobre uma tradição que você criou ou mantém.<br>
+			• Escolha uma palavra e escreva tudo o que ela faz você lembrar.<br>
+			• Abra um livro aleatório e escreva inspirado na primeira frase que encontrar.<br>
+			• Conte uma história começando pelo final.<br>
+			• Como lida com bloqueios criativos.<br>
+			• Uma habilidade que gostaria de desenvolver.
+		</p> 
 
     </div>
 
