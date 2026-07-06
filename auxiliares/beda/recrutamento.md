@@ -1,6 +1,6 @@
 ---
 layout: beda
-title: BEDA 2026
+title: D&B - Recrutamento
 permalink: /beda/recrutamento
 ---
 
