@@ -321,10 +321,19 @@ h1{
 
 }
 
-.battle-table tbody tr:hover{
-	color: var(--marrom-claro);
-    background:var(--marrom-escuro);
+.battle-table tbody tr:hover {
+    color: var(--marrom-claro);
+    background: var(--marrom-escuro);
+}
 
+/* muda a cor dos links quando a linha está em hover */
+.battle-table tbody tr:hover a {
+    color: var(--marrom-claro);
+}
+
+/* opcional: cor ao passar o mouse sobre o próprio link */
+.battle-table tbody tr:hover a:hover {
+    color: #fff;
 }
 
 /* ==========================================================
