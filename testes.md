@@ -1,6 +1,6 @@
 ---
 layout: beda
-title: D&B - Os Guardiões da Blogosfera
+title: D&B Os Guardiões da Blogosfera
 permalink: /testes/
 ---
 
