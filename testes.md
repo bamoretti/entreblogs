@@ -49,7 +49,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
 <div class="trilha-sonora">
     
-	<h3>🎵 Trilha da Campanha</h3>
+	<h3>Trilha da Campanha</h3>
     <p>Dizem que quem escreve ao som destas canções encontra inspiração pelo caminho.</p>
 
     <iframe data-testid="embed-iframe" 
