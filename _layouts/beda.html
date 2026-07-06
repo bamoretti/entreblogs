@@ -6,9 +6,76 @@
 
   <!-- favicon exclusivo do BEDA -->
   <link rel="icon" type="image/png" href="/assets/favicon/selo_1_marron.png">
+
+  <style>
+    #spark-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+    }
+  </style>
 </head>
 
 <body>
+
   {{ content }}
+
+  <canvas id="spark-canvas"></canvas>
+
+  <script>
+    const canvas = document.getElementById("spark-canvas");
+    const ctx = canvas.getContext("2d");
+
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+
+    resize();
+    window.addEventListener("resize", resize);
+
+    let particles = [];
+
+    document.addEventListener("mousemove", (e) => {
+      for (let i = 0; i < 3; i++) {
+        particles.push({
+          x: e.clientX,
+          y: e.clientY,
+          size: Math.random() * 3 + 1,
+          speedY: Math.random() * 2 + 1,
+          speedX: (Math.random() - 0.5) * 2,
+          alpha: 1
+        });
+      }
+    });
+
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      particles.forEach((p, index) => {
+        p.y += p.speedY;
+        p.x += p.speedX;
+        p.alpha -= 0.02;
+
+        ctx.fillStyle = `rgba(255, 215, 180, ${p.alpha})`;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+        ctx.fill();
+
+        if (p.alpha <= 0) {
+          particles.splice(index, 1);
+        }
+      });
+
+      requestAnimationFrame(animate);
+    }
+
+    animate();
+  </script>
+
 </body>
 </html>
