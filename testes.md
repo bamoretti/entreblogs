@@ -51,15 +51,15 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
     <h3>🎵 Trilha da Campanha</h3>
     <p>Dizem que quem escreve ao som destas canções encontra inspiração pelo caminho.</p>
 
-    <iframe
-        style="border-radius:12px"
-        src="https://open.spotify.com/embed/playlist/39Ajx3HKVtVZmwKygaMeMI?utm_source=generator"
-        width="100%"
-        height="352"
-        frameborder="0"
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy">
-    </iframe>
+    <iframe data-testid="embed-iframe" 
+	style="border-radius:12px" 
+	src="https://open.spotify.com/embed/playlist/39Ajx3HKVtVZmwKygaMeMI?utm_source=generator&si=9a0c3a3df4a24d64" 
+	width="100%" 
+	height="152" 
+	frameBorder="0" 
+	allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+	loading="lazy">
+	</iframe>
 </div>
 
     <img
