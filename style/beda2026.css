@@ -484,7 +484,7 @@ h1{
 
     .battle-header h3{
 
-        font-size:1.35rem;
+        font-size:50px;
 
     }
 
@@ -566,7 +566,7 @@ display: inline-flex;
 
 .players-header h3{
     font-family: var(--fonte-titulo);
-	font-size: 30px;
+	font-size: 50px;
     margin-bottom:10px;
 
 }

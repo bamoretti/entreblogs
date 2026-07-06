@@ -115,7 +115,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
     <div class="battle-header">
 
-        <h2>⚔Últimos Ataques ao Vilão</h2>
+        <h2>Últimos Ataques ao Vilão</h2>
 
         <p>
             Os Guardiões registram aqui todas as investidas contra as forças da Entropia.
