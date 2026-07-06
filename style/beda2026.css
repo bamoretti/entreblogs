@@ -375,17 +375,14 @@ h1{
 .battle-link{
 
     color:#332018;
-
     text-decoration:none;
-
     font-weight:600;
-
 }
 
 .battle-link:hover{
-
+	
+	color: #d6b25e;
     text-decoration:none;
-
 }
 
 /* ==========================================================
