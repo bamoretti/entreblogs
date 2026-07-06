@@ -153,7 +153,9 @@ permalink: /beda/recrutamento
                         class="classe-title-bg">
 
                     <h2>Cronista</h2>
-
+	<p>
+		Registra memórias, acontecimentos do cotidiano e reflexões pessoais, transformando a própria jornada em histórias.
+	</p>
                 </div>
 
                 <div class="classe-body" id="cronista">
