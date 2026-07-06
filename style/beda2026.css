@@ -216,6 +216,7 @@ h1{
 .missoes h3{
    font-family: var(--fonte-titulo);
    font-size: 30px;
+   text-align:center;
 }
 
 .missao{
@@ -837,17 +838,11 @@ display: inline-flex;
 }
 
 .footer-container{
-
     width:min(1400px,95%);
-
     margin:auto;
-
-    padding:60px 0;
-
+    padding:0px 0;
     display:grid;
-
     grid-template-columns:2fr 1fr 1fr;
-
     gap:60px;
 
 }

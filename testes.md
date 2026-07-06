@@ -545,13 +545,13 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
         <p>
 
-           D&B: Os Guardiões da Blogosfera © 2026 
+           Os Guardiões da Blogosfera © BEDA 2026 
 
         </p>
 
         <p>
 
-            Criado por <strong>EntreBlogs</strong> para a comunidade de blogueiros.
+            Criado por <strong>Entreblogs</strong> para a comunidade de blogueiros.
 
         </p>
 
