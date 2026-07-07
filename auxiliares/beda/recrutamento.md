@@ -389,7 +389,7 @@ permalink: /beda/recrutamento
 
     <details class="progress-toggle">
 
-        <summary>📖 Ver progressão das classes</summary>
+        <summary>Como evoluir meu personagem?</summary>
 
         <p class="progression-description">
             Cada vez que você publica em uma mesma classe, sua experiência aumenta.
@@ -399,7 +399,7 @@ permalink: /beda/recrutamento
         <table class="progression-table">
             <thead>
                 <tr>
-                    <th>Classe</th>
+                    <th></th>
                     <th>Nível I</th>
                     <th>Nível II</th>
                     <th>Nível III</th>
