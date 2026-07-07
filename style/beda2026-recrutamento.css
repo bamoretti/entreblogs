@@ -719,6 +719,66 @@ display: inline-flex;
     border-bottom: 1px solid rgba(255,255,255,.08);
 }
 
+.progress-toggle{
+    margin:40px auto;
+    max-width:900px;
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:12px;
+    overflow:hidden;
+    background:rgba(255,255,255,.03);
+}
+
+.progress-toggle summary{
+    padding:18px 22px;
+    cursor:pointer;
+    font-size:1.2rem;
+    font-weight:600;
+    list-style:none;
+    user-select:none;
+}
+
+.progress-toggle summary::-webkit-details-marker{
+    display:none;
+}
+
+.progress-toggle summary::after{
+    content:"▼";
+    float:right;
+    transition:.25s;
+}
+
+.progress-toggle[open] summary::after{
+    transform:rotate(180deg);
+}
+
+.progression-description{
+    padding:20px 24px 5px;
+    margin:0;
+}
+
+.progression-table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.progression-table th,
+.progression-table td{
+    padding:14px 20px;
+    text-align:left;
+}
+
+.progression-table th{
+    background:rgba(255,255,255,.08);
+}
+
+.progression-table tr{
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.progression-table tbody tr:nth-child(even){
+    background:rgba(255,255,255,.03);
+}
+
 @media (max-width: 700px) {
     .progression-table {
         font-size: .9rem;
@@ -729,3 +789,37 @@ display: inline-flex;
         padding: 10px;
     }
 }
+
+
+.progress-toggle{
+    margin:40px auto;
+    max-width:900px;
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:12px;
+    overflow:hidden;
+    background:rgba(255,255,255,.03);
+}
+
+.progress-toggle summary{
+    padding:18px 22px;
+    cursor:pointer;
+    font-size:1.2rem;
+    font-weight:600;
+    list-style:none;
+    user-select:none;
+}
+
+.progress-toggle summary::-webkit-details-marker{
+    display:none;
+}
+
+.progress-toggle summary::after{
+    content:"▼";
+    float:right;
+    transition:.25s;
+}
+
+.progress-toggle[open] summary::after{
+    transform:rotate(180deg);
+}
+

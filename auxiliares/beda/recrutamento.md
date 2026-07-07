@@ -386,66 +386,73 @@ permalink: /beda/recrutamento
 </section>
 
 <section class="class-progression">
-    <h2>Progressão de Classes</h2>
 
-    <p class="progression-description">
-        Conforme você publica mais conteúdos em uma mesma classe, seu título evolui.
-        Cada classe possui <strong>3 níveis</strong>, representando sua experiência naquela jornada.
-    </p>
+    <details class="progress-toggle">
 
-    <table class="progression-table">
-        <thead>
-            <tr>
-                <th>Classe</th>
-                <th>Nível I</th>
-                <th>Nível II</th>
-                <th>Nível III</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>📜 Cronista</td>
-                <td>Aprendiz de Pergaminhos</td>
-                <td>Escriba da Guilda</td>
-                <td>Guardião das Crônicas</td>
-            </tr>
+        <summary>📖 Ver progressão das classes</summary>
 
-            <tr>
-                <td>🗺️ Explorador</td>
-                <td>Caminhante</td>
-                <td>Desbravador</td>
-                <td>Guardião dos Mapas</td>
-            </tr>
+        <p class="progression-description">
+            Cada vez que você publica em uma mesma classe, sua experiência aumenta.
+            Ao atingir novos marcos de participações, você recebe um novo título.
+        </p>
 
-            <tr>
-                <td>🎨 Artífice</td>
-                <td>Criador Iniciante</td>
-                <td>Artesão</td>
-                <td>Guardião das Criações</td>
-            </tr>
+        <table class="progression-table">
+            <thead>
+                <tr>
+                    <th>Classe</th>
+                    <th>Nível I</th>
+                    <th>Nível II</th>
+                    <th>Nível III</th>
+                </tr>
+            </thead>
 
-            <tr>
-                <td>🔮 Oráculo</td>
-                <td>Observador</td>
-                <td>Vidente</td>
-                <td>Guardião dos Segredos</td>
-            </tr>
+            <tbody>
+                <tr>
+                    <td>📜 Cronista</td>
+                    <td>Aprendiz de Pergaminhos</td>
+                    <td>Escriba da Guilda</td>
+                    <td>Guardião das Crônicas</td>
+                </tr>
 
-            <tr>
-                <td>🎭 Bardo</td>
-                <td>Contador de Histórias</td>
-                <td>Trovador</td>
-                <td>Guardião das Lendas</td>
-            </tr>
+                <tr>
+                    <td>🗺️ Explorador</td>
+                    <td>Caminhante</td>
+                    <td>Desbravador</td>
+                    <td>Guardião dos Mapas</td>
+                </tr>
 
-            <tr>
-                <td>📚 Arquivista</td>
-                <td>Principiante de Letras</td>
-                <td>Criador de Teorias</td>
-                <td>Guardião dos Conhecimentos</td>
-            </tr>
-        </tbody>
-    </table>
+                <tr>
+                    <td>🎨 Artífice</td>
+                    <td>Criador Iniciante</td>
+                    <td>Artesão</td>
+                    <td>Guardião das Criações</td>
+                </tr>
+
+                <tr>
+                    <td>🔮 Oráculo</td>
+                    <td>Observador</td>
+                    <td>Vidente</td>
+                    <td>Guardião dos Segredos</td>
+                </tr>
+
+                <tr>
+                    <td>🎭 Bardo</td>
+                    <td>Contador de Histórias</td>
+                    <td>Trovador</td>
+                    <td>Guardião das Lendas</td>
+                </tr>
+
+                <tr>
+                    <td>📚 Arquivista</td>
+                    <td>Principiante de Letras</td>
+                    <td>Criador de Teorias</td>
+                    <td>Guardião dos Conhecimentos</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </details>
+
 </section>
 
 <div class="attack-action">
