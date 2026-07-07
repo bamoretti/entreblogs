@@ -234,7 +234,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
      GRIMÓRIO DA BLOGOSFERA
 ========================================================== -->
 
-<button id="grimorioButton" aria-label="Grimório da Blogosfera">
+<button title="Grimório - Lista de Ideias" id="grimorioButton" aria-label="Grimório da Blogosfera">
 
     
 
@@ -410,7 +410,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
      MANUAL DO AVENTUREIRO
 ========================================================== -->
 
-<button id="manualButton" aria-label="Manual do Aventureiro">
+<button id="manualButton"  title="Manual de Aventureiro" aria-label="Manual do Aventureiro">
 
 </button>
 
