@@ -43,7 +43,7 @@ body {
 @media (max-width: 768px){
 
    body {
-	   
+	    max-height: 100vh;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
