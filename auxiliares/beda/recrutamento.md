@@ -397,9 +397,9 @@ permalink: /beda/recrutamento
         <thead>
             <tr>
                 <th>Classe</th>
-                <th>1–9</th>
-                <th>10–24</th>
-                <th>25+</th>
+                <th>Nível I</th>
+                <th>Nível II</th>
+                <th>Nível III</th>
             </tr>
         </thead>
         <tbody>
