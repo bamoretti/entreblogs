@@ -177,8 +177,20 @@ permalink: /beda/recrutamento
                 <div class="classe-body" id="cronista">
 
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						Registra memórias, acontecimentos do cotidiano e reflexões pessoais, transformando a própria jornada em histórias.
+					  <strong>O contador de histórias da guilda</strong><br>
+					  <em>Registra acontecimentos, transforma momentos em narrativas e guarda as memórias da jornada.</em>
+					</p>
+
+					<p>
+					  <strong>Combina com:</strong><br>
+					  blogs pessoais<br>
+					  textos reflexivos<br>
+					  diários<br>
+					  relatos
+					</p>
+
+					<p>
+					  <strong>Habilidade especial:</strong> <em>transformar experiências comuns em histórias.</em>
 					</p>
 				
                 </div>
@@ -201,7 +213,22 @@ permalink: /beda/recrutamento
                 </div>
 
                 <div class="classe-body" id="explorador">
+					<p>
+					  <strong>O viajante que segue caminhos desconhecidos</strong><br>
+					  <em>Entra em territórios novos, testa ideias diferentes e descobre assuntos pelo caminho.</em>
+					</p>
 
+					<p>
+					  <strong>Combina com:</strong><br>
+					  desafios criativos<br>
+					  posts variados<br>
+					  descobertas<br>
+					  resenhas
+					</p>
+
+					<p>
+					  <strong>Habilidade especial:</strong> <em>encontrar inspiração onde ninguém procurou.</em>
+					</p>
                 </div>
 
             </article>
@@ -222,7 +249,23 @@ permalink: /beda/recrutamento
                 </div>
 
                 <div class="classe-body" id="artifice">
+					<p>
+					  <strong>O criador de artefatos e invenções</strong><br>
+					  <em>Constrói coisas novas usando criatividade, ferramentas e imaginação.</em>
+					</p>
 
+					<p>
+					  <strong>Combina com:</strong><br>
+					  DIY<br>
+					  arte<br>
+					  fotografia<br>
+					  design<br>
+					  projetos
+					</p>
+
+					<p>
+					  <strong>Habilidade especial:</strong> <em>transformar ideias em algo concreto.</em>
+					</p>
                 </div>
 
             </article>
@@ -243,7 +286,22 @@ permalink: /beda/recrutamento
                 </div>
 
                 <div class="classe-body" id="oraculo">
+					<p>
+					  <strong>Aquele que enxerga histórias escondidas</strong><br>
+					  <em>Observa o mundo ao redor e revela significados que estavam ocultos.</em>
+					</p>
 
+					<p>
+					  <strong>Combina com:</strong><br>
+					  reflexões<br>
+					  ensaios<br>
+					  análises<br>
+					  opiniões
+					</p>
+
+					<p>
+					  <strong>Habilidade especial:</strong> <em>encontrar profundidade nas pequenas coisas.</em>
+					</p>
                 </div>
 
             </article>
@@ -265,6 +323,22 @@ permalink: /beda/recrutamento
 
                 <div class="classe-body" id="bardo">
 
+					<p>
+					  <strong>O artista que carrega histórias pelo mundo</strong><br>
+					  <em>Usa palavras, imagens e emoções para encantar outros viajantes.</em>
+					</p>
+
+					<p>
+					  <strong>Combina com:</strong><br>
+					  poesia<br>
+					  escrita criativa<br>
+					  música<br>
+					  cultura
+					</p>
+
+					<p>
+					  <strong>Habilidade especial:</strong> <em>transformar sentimentos em arte.</em>
+					</p>
                 </div>
 
             </article>
@@ -285,7 +359,23 @@ permalink: /beda/recrutamento
                 </div>
 
                 <div class="classe-body" id="arquivista">
+					<p>
+					  <strong>Guardião dos conhecimentos perdidos</strong><br>
+					  <em>Coleciona informações, organiza descobertas e compartilha tesouros encontrados.</em>
+					</p>
 
+					<p>
+					  <strong>Combina com:</strong><br>
+					  livros<br>
+					  filmes<br>
+					  estudos<br>
+					  listas<br>
+					  recomendações
+					</p>
+
+					<p>
+					  <strong>Habilidade especial:</strong> <em>nunca deixar uma boa descoberta esquecida.</em>
+					</p>
                 </div>
 
             </article>
