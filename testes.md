@@ -522,6 +522,18 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 </div>
 
 
+<a
+    id="playlistButton"
+    href="https://open.spotify.com/playlist/39Ajx3HKVtVZmwKygaMeMI?go=1&sp_cid=4e9cf311e91d46d0b9de38f5a5503586&utm_source=embed_player_p&utm_medium=desktop&si=9a0c3a3df4a24d64&nd=1&dlsi=0af08b2579524c83"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="Trilha Sonora da Campanha">
+
+    
+
+</a>
+
+
 <footer class="footer">
 
     <div class="footer-container">
