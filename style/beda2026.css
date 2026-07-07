@@ -43,9 +43,9 @@ body {
 @media (max-width: 768px){
 
     body {
-        min-height: 100dvh; /* ou 100vh */
+        min-height: 70vh;
         background-size: cover;
-        background-position: center;
+        background-position: left;
         background-repeat: no-repeat;
     }
 
