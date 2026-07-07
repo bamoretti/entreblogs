@@ -392,8 +392,9 @@ permalink: /beda/recrutamento
         <summary>Como evoluir meu personagem?</summary>
 
         <p class="progression-description">
-            Cada vez que você publica em uma mesma classe, sua experiência aumenta.
+            Cada vez que você publica, sua experiência aumenta.
             Ao atingir novos marcos de participações, você recebe um novo título.
+			<br>
         </p>
 
         <table class="progression-table">
