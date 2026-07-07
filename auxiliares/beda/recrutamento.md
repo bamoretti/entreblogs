@@ -416,35 +416,35 @@ permalink: /beda/recrutamento
 
                 <tr>
                     <td>🗺️ Explorador</td>
-                    <td>Caminhante</td>
+                    <td>Aprendiz dos Caminhos</td>
                     <td>Desbravador</td>
                     <td>Guardião dos Mapas</td>
                 </tr>
 
                 <tr>
                     <td>🎨 Artífice</td>
-                    <td>Criador Iniciante</td>
+                    <td>Aprendiz das Criações</td>
                     <td>Artesão</td>
                     <td>Guardião das Criações</td>
                 </tr>
 
                 <tr>
                     <td>🔮 Oráculo</td>
-                    <td>Observador</td>
+                    <td>Aprendiz dos Presságios</td>
                     <td>Vidente</td>
                     <td>Guardião dos Segredos</td>
                 </tr>
 
                 <tr>
                     <td>🎭 Bardo</td>
-                    <td>Contador de Histórias</td>
+                    <td>Aprendiz das Canções</td>
                     <td>Trovador</td>
                     <td>Guardião das Lendas</td>
                 </tr>
 
                 <tr>
                     <td>📚 Arquivista</td>
-                    <td>Principiante de Letras</td>
+                    <td>Aprendiz dos Arquivos</td>
                     <td>Criador de Teorias</td>
                     <td>Guardião dos Conhecimentos</td>
                 </tr>
