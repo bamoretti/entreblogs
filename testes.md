@@ -412,8 +412,6 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 
 <button id="manualButton" aria-label="Manual do Aventureiro">
 
-    
-
 </button>
 
 <div id="manualOverlay">
