@@ -656,3 +656,76 @@ display: inline-flex;
     transform:scale(.98);
 
 }
+
+
+/* ==========================================================
+   PROGRESSAO DE CLASSE
+========================================================== */
+
+.class-progression {
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.class-progression h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.progression-description {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #d4d4d4;
+    line-height: 1.6;
+}
+
+.progression-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.progression-table th,
+.progression-table td {
+    padding: 14px 18px;
+    text-align: left;
+}
+
+.progression-table thead {
+    background: rgba(255,255,255,.08);
+}
+
+.progression-table tbody tr:nth-child(even) {
+    background: rgba(255,255,255,.03);
+}
+
+.progression-table tbody tr:hover {
+    background: rgba(255,255,255,.07);
+    transition: .2s;
+}
+
+.progression-table td:first-child {
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.progression-table th {
+    font-weight: 600;
+}
+
+.progression-table td,
+.progression-table th {
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+@media (max-width: 700px) {
+    .progression-table {
+        font-size: .9rem;
+    }
+
+    .progression-table th,
+    .progression-table td {
+        padding: 10px;
+    }
+}
