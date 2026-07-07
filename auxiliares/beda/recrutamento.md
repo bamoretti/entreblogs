@@ -67,7 +67,7 @@ permalink: /beda/recrutamento
                     <img
                         src="../assets/beda/ribbon2.png"
                         alt=""
-                        class="classe-title-bg">
+                        class="jornada-title-bg">
 
                     <h2>Herói</h2>
 
@@ -94,7 +94,7 @@ permalink: /beda/recrutamento
                     <img
                         src="../assets/beda/ribbon2.png"
                         alt=""
-                        class="classe-title-bg">
+                        class="jornada-title-bg">
 
                     <h2>Patrulheiro</h2>
 
@@ -121,7 +121,7 @@ permalink: /beda/recrutamento
                     <img
                         src="../assets/beda/ribbon2.png"
                         alt=""
-                        class="classe-title-bg">
+                        class="jornada-title-bg">
 
                     <h2>Andarilho</h2>
 

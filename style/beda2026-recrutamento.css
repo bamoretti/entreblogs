@@ -188,7 +188,7 @@ body {
 
     background:var(--marrom-claro);
 
-    border:2px solid var(--marrom-escuro);
+    border:1px solid var(--marrom-escuro);
 
     border-radius:28px;
 
@@ -235,17 +235,7 @@ body {
 }
 
 .classe-title-bg{
-
-    position:absolute;
-
     inset:0;
-
-    width:100%;
-
-    height:100%;
-
-   
-
     pointer-events:none;
 
 }
@@ -271,6 +261,16 @@ body {
     text-align:center;
 
     text-shadow:1px 1px 0 rgba(255,255,255,.25);
+
+}
+
+
+.jornada-title-bg{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    pointer-events:none;
 
 }
 
@@ -332,7 +332,7 @@ body {
 
     background:var(--marrom-claro);
 
-    border:2px solid var(--marrom-escuro);
+    border:1px solid var(--marrom-escuro);
 
     border-radius:28px;
 
@@ -442,7 +442,7 @@ body {
 
     transition:.25s;
 
-    border:2px solid #3c1f08;
+    border:1px solid #3c1f08;
 
 }
 
@@ -494,7 +494,7 @@ body {
 
     background:#f4ead2;
 
-    border:3px solid var(--marrom-escuro);
+    border:1px solid var(--marrom-escuro);
 
     border-radius:24px;
 
