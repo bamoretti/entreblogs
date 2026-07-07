@@ -56,7 +56,7 @@ permalink: /beda/recrutamento
 
     </header>
 
-    <div class="classes-grid">
+    <div class="jornada-grid">
 
          <!-- CRONISTA -->
 
