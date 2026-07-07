@@ -75,11 +75,17 @@ permalink: /beda/recrutamento
 
                 <div class="classe-body" id="heroi">
 
+			<p>31 dias • A campanha completa</p><br>
+			<p>Você decidiu aceitar a missão principal.</p>
+			Durante todo o mês de agosto, enfrentará um novo desafio a cada dia, escrevendo uma postagem diária e ajudando a manter viva a chama da criatividade.
+			<p>Missão: publicar todos os dias de agosto.</p>
+
+
                 </div>
 
             </article>
 
-            <!-- EXPLORADOR -->
+            <!-- PATRULHEIRO -->
 
             <article class="classe-card">
 
@@ -95,6 +101,12 @@ permalink: /beda/recrutamento
                 </div>
 
                 <div class="classe-body" id="patrulheiro">
+
+				<p>Formato BEWA • Uma parada por semana</p><br>
+				<p>Percorre o reino em rondas periódicas.</p>
+				Segue seu próprio ritmo, faz pausas para observar o caminho e retorna sempre que encontra uma nova história para contar. 
+				<p>Missão: publicar pelo menos uma vez por semana durante agosto.</p>
+
 
                 </div>
 
@@ -116,6 +128,11 @@ permalink: /beda/recrutamento
                 </div>
 
                 <div class="classe-body" id="andarilho">
+				<p>Quando o coração indicar o caminho</p><br>
+				<p>O Andarilho não segue mapas nem calendários.</p>
+				Ele aparece quando encontra uma boa história, um tema inspirador ou simplesmente quando sente vontade de escrever.
+				Cada encontro com a guilda fortalece a aventura.
+				<p>Missão: participar sempre que desejar.</p>
 
                 </div>
 
