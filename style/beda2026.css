@@ -1317,7 +1317,7 @@ display: inline-flex;
 
     position:fixed;
     right:25px;
-    bottom:120px;
+    bottom:210px;
     width:72px;
     height:72px;
     border:none;
@@ -1336,5 +1336,35 @@ display: inline-flex;
 #playlistButton:hover{
 
     transform:scale(1.1) rotate(-8deg);
+
+}
+
+@media(max-width:768px){
+
+    #playlistButton{
+
+        width:60px;
+
+        height:60px;
+
+        font-size:28px;
+
+        right:15px;
+
+        bottom:105px;
+
+    }
+
+    #playlistModal{
+
+        padding:25px;
+
+    }
+
+    #playlistModal h1{
+
+        font-size:36px;
+
+    }
 
 }
