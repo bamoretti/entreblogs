@@ -42,8 +42,11 @@ body {
 
 @media (max-width: 768px){
 
-    body{
-
+    body {
+        min-height: 100dvh; /* ou 100vh */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
 .container{
