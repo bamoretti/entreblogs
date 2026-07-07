@@ -43,10 +43,9 @@ body {
 @media (max-width: 768px){
 
     body {
-        background-size: cover;
-		background-position: center;
+       background-size: auto 900px;
+		background-position: center top;
 		background-repeat: no-repeat;
-		background-attachment: fixed;
     }
 
 .container{
