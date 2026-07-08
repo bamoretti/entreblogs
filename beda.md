@@ -1,5 +1,5 @@
 ---
-layout: beda
+layout: vazio
 title: BEDA 2026
 permalink: /beda/
 ---
