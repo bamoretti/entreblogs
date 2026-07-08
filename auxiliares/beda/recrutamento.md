@@ -102,7 +102,7 @@ permalink: /beda/recrutamento
 
                 <div class="classe-body" id="patrulheiro">
 
-				<p>Formato BEWA • Uma parada por semana</p><br>
+				<p><a href="https://porce-lana.blogspot.com/p/bewa-main-page-crosscol.html"> Formato BEWA • Uma parada por semana</a></p><br>
 				<p>Percorre o reino em rondas periódicas.</p>
 				Segue seu próprio ritmo, faz pausas para observar o caminho e retorna sempre que encontra uma nova história para contar. 
 				<p>Missão: publicar pelo menos uma vez por semana durante agosto.</p>
@@ -112,7 +112,7 @@ permalink: /beda/recrutamento
 
             </article>
 
-            <!-- ARTÍFICE -->
+            <!-- ANDARILHO -->
 
             <article class="classe-card">
 
