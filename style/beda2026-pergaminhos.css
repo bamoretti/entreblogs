@@ -156,7 +156,7 @@ body {
 
     background:var(--marrom-claro);
 
-    border:2px solid var(--marrom-escuro);
+    border:1px solid var(--marrom-escuro);
 
     border-radius:22px;
 
@@ -194,7 +194,7 @@ body {
 
     padding:18px;
 
-    text-align:left;
+    text-align:center;
 
     color:white;
 

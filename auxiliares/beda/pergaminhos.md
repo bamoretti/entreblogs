@@ -44,7 +44,7 @@ permalink: /beda/pergaminhos
 <section class="registros-page">
 
     <h1 class="titulo-pagina">
-        📜 Livro dos Registros
+        Livro dos Registros
     </h1>
 
     <p class="subtitulo-pagina">
