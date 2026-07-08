@@ -823,3 +823,9 @@ display: inline-flex;
     transform:rotate(180deg);
 }
 
+
+.trilha-sonora h3{
+    font-family: var(--fonte-titulo);
+    font-size:50px;
+    margin-bottom:20px;
+}
