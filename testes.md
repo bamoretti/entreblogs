@@ -534,44 +534,6 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 </a>
 
 
-<footer class="footer">
-
-    <div class="footer-container">
-
-        <div class="footer-logo">
-
-
-        </div>
-
-        <div class="footer-links">
-
-           
-
-        </div>
-
-    </div>
-
-    <div class="footer-bottom">
-
-        <p>
-
-           Os Guardiões da Blogosfera © BEDA 2026 
-
-        </p>
-
-        <p>
-
-            Criado por <strong>Entreblogs</strong> para a comunidade de blogueiros.
-
-        </p>
-
-    </div>
-
-</footer>
-	
-
-
-
 <script src="..\scripts\beda2026-viloes.js"></script>
 <script src="..\scripts\beda2026-missoes.js"></script>
 <script src="..\scripts\beda2026-ataques.js"></script>
