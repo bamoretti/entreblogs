@@ -55,14 +55,14 @@ body {
     display:block;
     margin:0 auto 15px;
     max-width:700px;
-    width:67%;
+    width:40%;
     height:auto;
 }
 
 .logo-beda-pergaminho{
     display: block;
 	margin: 140px auto 5px;
-    max-width: 100px;
+    max-width: 60px;
     height: auto;
     /* Animação */
     animation: flutuar 2s ease-in-out infinite;
@@ -124,7 +124,7 @@ body {
 
     font-family:var(--fonte-titulo);
 
-    font-size:4.5rem;
+    font-size:50px;
 
     color:var(--marrom-escuro);
 
