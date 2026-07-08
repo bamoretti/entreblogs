@@ -58,7 +58,8 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 	<h3>Vilão da Semana</h3>
 	
 	<div class="descricao-beda">
-A cada semana, um novo senhor das trevas surgirá das sombras, trazendo consigo ameaças e desafios jamais vistos. Para enfrentá-lo, heróis corajosos receberão missões épicas, atravessando florestas encantadas, ruínas esquecidas e terras amaldiçoadas. Somente ao cumprir cada prova e derrotar o vilão da semana será possível restaurar a paz ao reino</div>
+A cada semana, um novo senhor das trevas surgirá das sombras, trazendo consigo ameaças e desafios jamais vistos. Para enfrentá-lo, heróis corajosos receberão missões épicas, atravessando florestas encantadas, ruínas esquecidas e terras amaldiçoadas. Somente ao cumprir cada prova e derrotar o vilão da semana será possível restaurar a paz ao reino... </div>
+	
 	<img id="bossImage">
 
 	<div class="hpHeader">
