@@ -468,7 +468,12 @@ permalink: /beda/recrutamento
     </a>
 </div>
 
-
+    <img
+        src="../assets/beda/pena.png"
+        alt="separar página"
+        class="separador"
+    >
+	
 
 <div class="trilha-sonora">
     
