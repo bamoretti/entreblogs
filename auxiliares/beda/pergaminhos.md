@@ -44,11 +44,11 @@ permalink: /beda/pergaminhos
 <section class="registros-page">
 
     <h1 class="titulo-pagina">
-        Livro dos Registros
+        Pergaminhos Registrados
     </h1>
 
     <p class="subtitulo-pagina">
-        Todas as postagens registradas durante a campanha.
+        Todas as postagens escritas durante a campanha.
     </p>
 
     <div class="table-wrapper">
