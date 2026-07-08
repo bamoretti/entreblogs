@@ -1,0 +1,345 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+	font-weight: 400;
+	font-style: normal;
+}
+
+:root {
+  --cor-primaria: #3498db;
+  --espacamento-padrao: 16px;
+  --fonte-titulo: "Jim Nightshade", cursive;
+  --fonte-corpo: "Special Elite", system-ui;
+  --fonte-corpo-size: 16px;
+  --marrom-claro: rgb(207, 180, 139);
+  --marrom-medio: rgb(161, 125, 89);
+  --marrom-escuro: #332018;
+  --amarelo: #d6b25e;
+}
+
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../assets/beda/background.png");
+    background-size: 100%;
+	background-attachment: fixed;
+    text-align: center;
+	font-family:var(--fonte-corpo);
+    color:var(--marrom-escuro);
+}
+
+
+.container{
+	margin-top: 50px;
+    max-width:900px;
+    margin:auto;
+}
+
+
+@media (max-width: 768px){
+
+    body{
+
+    }
+
+.container{
+    padding:20px;
+}
+
+}
+
+.logo-beda{
+    display:block;
+    margin:0 auto 15px;
+    max-width:700px;
+    width:67%;
+    height:auto;
+}
+
+.logo-beda-pergaminho{
+    display: block;
+	margin: 140px auto 5px;
+    max-width: 100px;
+    height: auto;
+    /* Animação */
+    animation: flutuar 2s ease-in-out infinite;
+}
+
+.separador{
+    display: block;
+	margin: 45px auto 20px;
+    max-width: 20px;
+    height: auto;
+    animation: flutuar 2s ease-in-out infinite;
+}
+
+.separador-maior{
+    display: block;
+	margin: 45px auto 20px;
+    max-width: 60px;
+    height: auto;
+    animation: flutuar 2s ease-in-out infinite;
+}
+
+.descricao-beda{
+	margin-bottom: 60px;
+	font-family: var(--fonte-corpo);
+	line-height: 1.5;
+	
+}
+
+
+@keyframes flutuar {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* ==========================================================
+   LIVRO DOS REGISTROS
+========================================================== */
+
+.registros-page{
+
+    max-width:1200px;
+
+    margin:60px auto;
+
+    padding:0 20px;
+
+}
+
+.titulo-pagina{
+
+    text-align:center;
+
+    font-family:var(--fonte-titulo);
+
+    font-size:4.5rem;
+
+    color:var(--marrom-escuro);
+
+    margin-bottom:10px;
+
+}
+
+.subtitulo-pagina{
+
+    text-align:center;
+
+    font-family:var(--fonte-corpo);
+
+    font-size:1rem;
+
+    color:var(--marrom-escuro);
+
+    margin-bottom:40px;
+
+    line-height:1.8;
+
+}
+
+/* ==========================================================
+   TABELA
+========================================================== */
+
+.table-wrapper{
+
+    background:var(--marrom-claro);
+
+    border:2px solid var(--marrom-escuro);
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+
+}
+
+/* ==========================================================
+   TABLE
+========================================================== */
+
+#tabelaRegistros{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    font-family:var(--fonte-corpo);
+
+}
+
+/* ==========================================================
+   HEADER
+========================================================== */
+
+#tabelaRegistros thead{
+
+    background:var(--marrom-medio);
+
+}
+
+#tabelaRegistros th{
+
+    padding:18px;
+
+    text-align:left;
+
+    color:white;
+
+    font-size:1rem;
+
+    letter-spacing:.5px;
+
+}
+
+/* ==========================================================
+   BODY
+========================================================== */
+
+#tabelaRegistros td{
+
+    padding:16px 18px;
+
+    border-top:1px solid rgba(0,0,0,.08);
+
+    color:var(--marrom-escuro);
+
+    vertical-align:middle;
+
+}
+
+#tabelaRegistros tbody tr{
+
+    transition:.2s;
+
+}
+
+#tabelaRegistros tbody tr:nth-child(even){
+
+    background:rgba(255,255,255,.20);
+
+}
+
+#tabelaRegistros tbody tr:hover{
+
+    background:rgba(214,178,94,.20);
+
+}
+
+/* ==========================================================
+   DATA
+========================================================== */
+
+.registro-data{
+
+    white-space:nowrap;
+
+    font-weight:bold;
+
+}
+
+/* ==========================================================
+   BLOG
+========================================================== */
+
+.registro-blog{
+
+    font-weight:bold;
+
+}
+
+/* ==========================================================
+   LINK
+========================================================== */
+
+.registro-link{
+
+    color:var(--cor-primaria);
+
+    text-decoration:none;
+
+    transition:.2s;
+
+}
+
+.registro-link:hover{
+
+    color:var(--marrom-escuro);
+
+    text-decoration:underline;
+
+}
+
+/* ==========================================================
+   LOADING
+========================================================== */
+
+.loading{
+
+    padding:35px;
+
+    text-align:center;
+
+    font-style:italic;
+
+    color:var(--marrom-escuro);
+
+}
+
+/* ==========================================================
+   RESPONSIVO
+========================================================== */
+
+@media(max-width:900px){
+
+    .titulo-pagina{
+
+        font-size:3.2rem;
+
+    }
+
+    .table-wrapper{
+
+        overflow-x:auto;
+
+    }
+
+    #tabelaRegistros{
+
+        min-width:700px;
+
+    }
+
+}
+
+@media(max-width:600px){
+
+    .titulo-pagina{
+
+        font-size:2.6rem;
+
+    }
+
+    #tabelaRegistros th,
+
+    #tabelaRegistros td{
+
+        padding:12px;
+
+        font-size:.9rem;
+
+    }
+
+}
