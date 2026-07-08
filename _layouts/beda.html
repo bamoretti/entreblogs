@@ -233,22 +233,30 @@ let player;
 let iniciou = false;
 
 function onYouTubeIframeAPIReady() {
+
     player = new YT.Player("youtube-player", {
+
         height: "0",
         width: "0",
+
         videoId: "AKBaaZuF8YQ",
+
         playerVars: {
+
             autoplay: 0,
             controls: 0,
-            loop: 1,
+            loop: 0,
             playlist: "AKBaaZuF8YQ",
             modestbranding: 1,
             rel: 0
+
         }
+
     });
+
 }
 
-document.addEventListener("click", function iniciarMusica() {
+function iniciarMusica() {
 
     if (iniciou || !player) return;
 
@@ -256,9 +264,11 @@ document.addEventListener("click", function iniciarMusica() {
 
     player.playVideo();
 
-    document.removeEventListener("click", iniciarMusica);
+}
 
-}, { once: true });
+// Desktop + celular
+document.addEventListener("pointerdown", iniciarMusica, { once: true });
+
 </script>
 
 </body>
