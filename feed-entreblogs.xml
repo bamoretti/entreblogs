@@ -6,7 +6,114 @@
     <atom:link href="https://entreblogs.com.br/feed-entreblogs.xml" rel="self" type="application/rss+xml"/>
     <description>Todas as postagens dos blogs participantes do Entreblogs</description>
     <language>pt-br</language>
-    <lastBuildDate>Wed, 08 Jul 2026 14:18:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 17:39:26 GMT</lastBuildDate>
+
+  <item>
+    <title>O (EU) NÃO OBSTANTE — [Entreblogs] Criando música com Programação - Parte 01</title>
+    <link>https://oeunaoobstante.bearblog.dev/criando-musica-com-programacao-1/</link>
+    <guid isPermaLink="true">https://oeunaoobstante.bearblog.dev/criando-musica-com-programacao-1/</guid>
+    <pubDate>Wed, 08 Jul 2026 16:39:04 GMT</pubDate>
+    <description><![CDATA[<p>Uns dias atrás, me deparei com <a href='https://www.youtube.com/watch?v=AifAIqHezb8' target='_blank'>um vídeo de uma pessoa fazendo música "eletrônica" usando programação</a>. Achei incrível e resolvi aprender.</p>
+<ul>
+<li>A programação é feita com Strudel, uma linguagem derivada do Javascript.</li>
+<li>A Música é feita com sons e silencioso repetidos em looping e organizados de forma harmoniosa.</li>
+</ul>
+<p>Estou rodando os códigos do Strudel no site da documentação da linguagem, o <a href='https://strudel.cc/#JDogc291bmQoIltiZCA8aGggb2g%2BXSoyIikuYmFuaygidHI5MDkiKS5kZWMoLjQp' target='_blank'>Strudel REPL</a>.</p>
+<p>É só colocar o código lá e apertar Play, Stop, Update.</p>
+<h3 id=primeiros-sons>Primeiros Sons</h3><p>Existem alguns sons pré-definidos nas bibliotecas do Strudel, que podem ser acessado digitando  <code>sound</code> seguido de <code>(&quot;palavra&quot;)</code>.</p>
+<p>Exemplo:
+<code>sound(&quot;casio&quot;)</code> ou <code>sound(&quot;jazz&quot;)</code>.</p>
+<p>Existem outros sons como: <br />
+<code>insect wind jazz metal east crow casio space numbers</code></p>
+<p>E suas variações:
+<code>sound(&quot;insect:1&quot;)</code> ou <code>sound(&quot;space:2&quot;)</code>.</p>
+<h3 id=instrumentos-musicais>Instrumentos Musicais</h3><p>Também tem sons de instrumentos músicas:</p>
+<h4 id=bateria>Bateria</h4><ul>
+<li>BD = Base Drum = bumbo</li>
+<li>SD = Snare Drum = caixa</li>
+<li>RIM = Rimshot = bater no aro e na pele da caixa</li>
+<li>HH = Hihat = chimbal (dois pratos empilhados)</li>
+<li>LT = Low Tom = Tom-Tom Grave</li>
+<li>MT = Mid Tom = Tom-Tom Médio</li>
+<li>HT = High Tom = Tom-Tom Agudo</li>
+<li>RD = Ride Cymbal = Prato</li>
+<li>CR = Crash Cymbal = Prato Final</li>
+</ul>
+<p>Se digitar <code>sound(&quot;BD&quot;)</code> toca o som de 1 batida no bumbo a cada 2 segundos. <br />
+Se digital <code>sound(&quot;HH&quot;)</code> toca o som de 1 batida no chimbal a cada 2 segundos.</p>
+<p>Também da pra escolher o modelo da bateria que você quer usar, adicionando <code>.bank(&quot;modelo&quot;)</code>.</p>
+<p>Exemplo: <br />
+<code>sound(&quot;BD HH MT CR&quot;).bank(&quot;Akailinn&quot;)</code>.</p>
+<p>Ou: <br />
+<code>sound(&quot;BD LT HH SD LT LT HH CR&quot;).bank(&quot;RolandTR707&quot;)</code>.</p>
+<p>Existem outros modelos como: <br />
+<code>AkaiLinn, RolandTR808, RolandTR707, RolandTR909</code></p>
+<h3 id=sobre-tempo>Sobre tempo</h3><p>Cada trecho de código é chamado de <code>cycles</code> e , por padrão, cada <code>cycle</code> tem 2 segundos.</p>
+<p>Dessa forma, <code>sound(&quot;BD&quot;)</code> toca 1 bumbo a cada 2 segundos. <br />
+Enquanto, <code>sound(&quot;BD BD&quot;)</code> toca 1 bumbo por segundos, totalizando os 2 segundos do <code>cycle</code>. <br />
+Seguindo, <code>sound(&quot;BD BD HH HT&quot;)</code> toca 1 "nota" a cada meio segundo, que multiplicado por 4 da 2 segundos.</p>
+<p>No caso de <code>sound(&quot;BD BD BD BD BD BD BD BD&quot;)</code> toca 1 nota a cada ¼ de segundo.</p>
+<p>Repetições de nota também pode ser feita com <code>sound(&quot;&lt;nota&gt;*n&quot;)</code>.</p>
+<p>Exemplo: <br />
+<code>sound(&quot;&lt;BD&gt;*8&quot;)</code> ou <code>sound(&quot;&lt;insect&gt;*16&quot;)</code>.</p>
+<p>Ou até: <br />
+<code>sound(&quot;&lt;insect&gt;*16 BD insect:2 HH HH&quot;)</code></p>
+<p>Ainda estou no começo, foi o primeiro contato com live coding, com Strudel e com criação de música. Vou trazer mais coisas sobre isso, em breve.</p>
+<hr>
+<p>Esta é uma postagem do Projeto <a href='https://entreblogs.netlify.app/' target='_blank'>EntreBlogs</a>, uma ideia de blogagem coletiva conduzida pela <a href='https://status.cafe/users/bamoretti' target='_blank'>BaMoretti</a> para aproximar blogueiros e estimular a produção de conteúdo autêntico e feito por humanos. O tema do mês foi <strong>Passatempo/Hobbies</strong>.</p>
+]]></description>
+  </item>
+
+  <item>
+    <title>Boletins Inúteis — Rockzinho</title>
+    <link>https://www.igormedeiroz.com/2026/07/rockzinho.html</link>
+    <guid isPermaLink="true">https://www.igormedeiroz.com/2026/07/rockzinho.html</guid>
+    <pubDate>Wed, 08 Jul 2026 15:30:08 GMT</pubDate>
+    <description><![CDATA[Tem dias que, desculpe divas pop, apenas um rockzinho pesado pode liberar o ódio do meu coração (ou me fazer trabalhar sem querer matar um).]]></description>
+  </item>
+
+  <item>
+    <title>EsKAYvendo — descreva suas imagens, caralho</title>
+    <link>https://eskayvendo.bearblog.dev/descreva-suas-imagens-caralho/</link>
+    <guid isPermaLink="true">https://eskayvendo.bearblog.dev/descreva-suas-imagens-caralho/</guid>
+    <pubDate>Wed, 08 Jul 2026 14:50:20 GMT</pubDate>
+    <description><![CDATA[<p>foi no falecido xitter que aprendi sobre a descrição de imagens — ou, como muitas plataformas chamam, sobre as alt text, texto alternativo. as descrições basicamente sempre existiram como um atributo na tag img do HTML, pois serviam para identificar para o usuário o que seria uma imagem que não carregou. no lugar da imagem ausente, aparece uma descrição dela, assim o contexto não é perdido. já faz um bom tempo que essas descrições são também um recurso essencial para a acessibilidade de usuários que fazem uso de leitores de tela. quando o leitor de tela se depara com uma imagem, ele lê exatamente o que está na descrição alt — se não há nada para ler, ele simplesmente diz "imagem". e fim.</p>
+<p>se você não consegue imaginar qual o problema de uma descrição vazia, imagine ir ao museu do Louvre vendado e só ouvir que "tem uns quadro aí". o que você consegue extrair de uma informação tão genérica? e mais: como você se sentiria sabendo que todo mundo ao seu redor está ali podendo aproveitar a experiência, conversar sobre, se divertir, enquanto você fica de lado, ignorado e impedido de participar da socialização?</p>
+<p>se você conseguiu imaginar o cenário, eis que te apresento como é boa parte da internet para quem precisa de leitor de tela — a falta de acessibilidade isola e aliena centenas de milhares de pessoas daquele que, hoje, é um dos locais que mais deveria fornecer acesso democrático às informações.</p>
+<p>uma parte de mim tem raiva de ter que escrever um texto tão didático como esse, mas outra sabe que a desimportância dada pelas pessoas ao assunto é o que, muitas vezes, impede que material explicativo chegue para mais gente, mesmo que existam muitas postagens e manuais a respeito de como criar acessibilidade para leitores de telas.</p>
+<p>na época que eu frequentava o Instagram haviam contas só focadas em ensinar como descrever imagens, para aqueles que usavam o argumento de não saber como fazê-lo; no xitter me lembro de ter uma conta que o pessoal marcava em imagens sem descrição para que o responsável pela conta elaborasse uma descrição. <span id="section-1">enxergantes<a href="#section1">[1]</a></span> amigos e conhecidos de quem usava leitor de tela geralmente também cuidavam de criar descrições quando percebiam a ausência delas, mas é complicado que esse sistema dependa de tão poucas pessoas. é virtualmente impossível que o equivalente a meia dúzia de cabeças faça um trabalho que deveria ser tanto individual como coletivo. usuários e empresas deveriam se importar genuinamente com o acesso, mas, assim como o Papai Noel não existe, parece que o interesse por criar um ambiente acessível só existe, em sua maioria, como performance ou moeda de troca, então não espero muito mais das pessoas com relação a esse tópico.</p>
+<p>não acho que as pessoas sejam inerentemente ruins e por isso ignorem a necessidade de descrever imagens — mas acho que a maldade é superestimada como a razão pela qual a vida de muita gente é uma merda. se temos tanta gente que não faz o mínimo como parar 1 min pra descrever uma foto, não é por maldade e sim por indiferença individualista. o mesmo se aplica a tantas e tantas pessoas que criticam o movimento LGBTQIA+ por "querer direitos demais", que acham que cotas não fazem sentido e por aí vai — se não é um problema que me afeta, então pra quê fazer o mínimo de esforço para entender demandas e resoluções propostas? se não é meu rabo na reta e eu não estou incomodado, então que se foda.</p>
+<p>por outro lado, aqueles que se "importam", mas não pesquisam o mínimo, estão por aí se alavancando usando pautas como se soubessem, de fato, do que estão falando. lembro que uns 5 ou 6 anos atrás, se não estou enganado, uma editora independente lançou uma antologia com uns 20 autores dando enfoque em deficiência. eu nem tinha sido diagnosticado como autista e, portanto,  ainda me via como uma pessoa sem deficiência com um interesse em especial em estudar diversos tipos de deficiência, por isso fui ler. o material era uma porcaria.</p>
+<p><span id="section-2">focado especialmente em surdos e cegos, as histórias eram, na maioria das vezes, fetichistas ou pornôs de inspiração<a href="#section2">[2]</a>.</span> meu comentário mais leve a respeito de tal obra era que o conteúdo era medíocre, mal-editado e que, se houve algum trabalho por parte dos profissionais envolvidos na lapidação do texto, essas pessoas deveriam rever seu modo de trabalho, estudar mais — <span id="section-3">chamar a Libras de <em>Linguagem</em> Brasileira de Sinais<a href="#section3">[3]</a>? pelo amor de deux, era só dar um Google na época, sabe?</span></p>
+<p>enfim, menciono a tal antologia — cujo nome nem me recordo mais — pois me lembro de um leitor cego comentando que, logo de cara, se deparou com uma imagem não descrita ao tentar ler o ebook. a prática de colocar o cabeçalho de cada capítulo como uma imagem é bem comum quando se quer ter certeza que a fonte visualizada vai ser a selecionada mesmo pela diagramação ou se ela possui outros elementos como desenhos e símbolos, mas dar uma bola fora dessa de não descrever o cabeçalho de um livro cheio de personagem cego?! porra, é difícil não ficar puto nesse esquema das coisas.</p>
+<p>todo esse texto começou porque eu precisava de algum lugar onde depositar a minha raiva, que ultimamente anda engatilhada porque estou no Bsky basicamente para acompanhar artistas de que gosto, mas um número sem fim deles não se incomoda em adicionar descrição nos desenhos. já falei diretamente com algumas dessas pessoas, mas o resultado é o mesmo que nada.</p>
+<p>Minha resposta foi parar de compartilhar imagens sem descrição e, no máximo do máximo, se eu queria muito compartilhar, adicionar eu mesmo a descrição alt, mas a real é que meio que já bati meu limite. numa rede social onde o tempo inteiro tem alguém falando sobre adicionar descrições para tornar aquela merda mais acessível, as pessoas seguem comendo capim de sacanagem, se fazendo de sonsas ou <span id="section-4"><mark>até usando IA como desculpa!</mark><a href="#section4">[4]</a> eu não aguento mais, pra mim já deu nessa porra.</span></p>
+<p>hoje ativei uma conta que adiciona rótulos referente a isso no BlueSky, a <a href='https://bsky.app/profile/alt-text-labeler.bsky.social'>Alt Text Labeler</a>. esse bot permite que você oculte imagens sem descrição da sua timeline principal; ainda estou testando como ele opera, não sei se ainda recebe atualizações pois a última postagem foi de 2 meses atrás, mas uma parte da minha TL realmente sumiu depois que ativei a configuração. muitas imagens permanecem, mesmo sem descrição, pois pelo que vi aquelas que são ocultas é porque já passaram pelo crivo do bot anteriormente. isso resolve algum problema de acessibilidade? não, mas não estou tentando resolver nada e sim passar menos raiva com essa sonsidão toda, em especial de pessoas que muitas vezes também são PCD e de esquerda, que apoiam outras causas sociais, mas que não dão a mínima para críticas que deveriam tornar a web mais inclusiva.</p>
+<p>eu sei lá, é foda.</p>
+<p>Um "extra", só pra ninguém dizer "mas você num explica". se você está tentando ter um comportamento mais inclusivo na web, outras coisas que podem ser feitas para melhorar a navegação de usuários com leitor de tela e/ou com algum tipo de deficiência que dificulte a leitura/visão:</p>
+<ul>
+<li><p>não censurar palavras de forma bizarra. exemplo censurando a palavra "assassino": ao invés de "4ss4ss1n0" (errado, impede o leitor de tela de produzir um resultado coerente), escreva "assa/sino" (a grafia dessa forma ainda vai produzir um resultado coerente no leitor). escrever dessa forma também ajuda a galera disléxica!</p>
+</li>
+<li><p>não repetir duzentas mil vezes o mesmo emoji ou letras. o leitor de tela lê cada uma das entradas, é um saco pra pessoa que está tentando ler a conversa.</p>
+</li>
+<li><p>se a ferramenta usada não permitir adição de alt text na sua imagem, coloque a descrição logo abaixo ou logo acima da imagem. já tive de fazer muito isso por conta de uma newsletter que tive no Behiiv. nesse caso você pode sinalizar que aquilo é uma descrição com o texto "descrição da imagem a seguir/anterior". uma coisa legal (e que eu mesmo morgava) também é informar o fim da descrição no final do texto — isso <em>não</em> precisa ser feito se você está usando o campo alt mesmo, pois o leitor de tela já dá essa informações sozinho.</p>
+</li>
+<li><p>evite usar fontes cheias de símbolos estranhos, pontos, frufrus etc. essa parte prejudica várias pessoas, seja alguém que usa leitor de tela ou não. Uma fonte toda desenhada pode até conseguir passar no leitor de tela, digamos, mas para pessoas de baixa visão ou disléxicos que não usam a ferramenta, o negócio só é um grande amontoado de formas difíceis de decifrar.</p>
+</li>
+<li><p>adicione opção de alto contraste no seu conteúdo. essa sugestão pode ser um pouco mais complicada se você usa um sistema próprio e sem muitas automatizações (uma coisa é fazer um tema responsivo no WordPress, outra é fazer no Bear Blog). <span id="section-5">antes de pagar o premium eu usava um tema escuro porque facilitava pro meu amigo com ceratocone<a href="#section5">[5]</a> ler meus textos, o que era uma opção, mas resolvia só uma parte da demanda.</span> indo pro premium, existe a possibilidade de usar javascript, então aproveitei para trocar meu tema e configurar uma versão escura, dando duas opções. ainda pretendo melhorar outras características do tema, ainda mais considerando a visualização em celulares, mas vou indo aos poucos porque não sou programador.</p>
+</li>
+</ul>
+<p>Enfim, descrevam suas imagens, porra. Paz.</p>
+<hr />
+<h3 id=strongnotasstrong><strong>Notas:</strong></h3><p><span id="section1"><a href="#section-1">[1]</a></span>: Pessoas que não possuem deficiência visual.</p>
+<p><span id="section2"><a href="#section-2">[2]</a></span>: Termo usado para falar de histórias envolvendo personagens com deficiência em que o único propósito da PCD é motivar personagens sem deficiência ou mostrar como o sistema — geralmente neoliberal — funciona com meritocracia.</p>
+<p><span id="section3"><a href="#section-3">[3]</a></span>: A Libras é chamada de <em>Língua</em> Brasileira de Sinais pois, assim como a <em>Língua</em> portuguesa, é uma expressão humana natural. Linguagem é o termo usado para construções artificiais, como a linguagem de programação, por exemplo.</p>
+<p><span id="section4"><a href="#section-4">[4]</a></span>: Em uma discussão gringa já vi sendo usado o argumento de que a pessoa não descrevia suas imagens por medo de que isso auxiliasse IAs a serem treinadas nas suas artes. Cada cão que lamba sua caceta mesmo, viu.</p>
+<p><span id="section5"><a href="#section-5">[5]</a></span>: O ceratocone é uma doença derivada do astigmatismo e que torna a visão da pessoa muito embaçada e distorcida. Geralmente o tratamento com óculos não é suficiente, tornando necessário o uso de lentes de contato ou até de cirurgia. Por razões pessoais, meu amigo dificilmente faz uso das lentes, então tento facilitar a leitura pra ele usando essa configuração de letra clara sobre fundo preto (orientação vinda dele mesmo).</p>
+<hr />
+<p>Quer responder essa postagem? <a href="mailto:kay.j.batista@gmail.com?subject=Re: descreva suas imagens, caralho">Fala que eu te escuto!</a></p>
+]]></description>
+  </item>
 
   <item>
     <title>BMRTT — A rapadura é sweet mas não é soft não (educar é difícil pra caralho)</title>
@@ -2686,52 +2793,6 @@ Acho que, afinal de contas, sinto falta de quando os SMS eram limitados e sobrav
   </item>
 
   <item>
-    <title>Boletins Inúteis — o excesso de informações gera paralisia.</title>
-    <link>https://www.igormedeiroz.com/2026/05/o-excesso-de-informacoes-gera-paralisia.html</link>
-    <guid isPermaLink="true">https://www.igormedeiroz.com/2026/05/o-excesso-de-informacoes-gera-paralisia.html</guid>
-    <pubDate>Thu, 25 Jun 2026 10:38:31 GMT</pubDate>
-    <description><![CDATA[<div class="piscando">
-    <div style="text-align:center;">o excesso de informações gera paralisia.</div>
-    <div style="text-align:center;">o excesso de informações gera paralisia.</div>
-    <div style="text-align:center;">o excesso de informações gera paralisia.</div>
-    <div style="text-align:center;">o excesso de informações gera paralisia.</div>
-    <div style="text-align:center;">o excesso de informações gera paralisia.</div>
-    <div style="text-align:center;">o excesso de informações gera paralisia.</div>
-    <div style="text-align:center;">o excesso de informações gera paralisia.</div>
-    <div style="text-align:center;">o excesso de informações gera paralisia.</div>
-    <div style="text-align:center;">o excesso de informações gera paralisia.</div>
-</div>
-
-<style>
-
-.piscando {
-    animation: piscar 0.8s infinite;
-}
-
-@keyframes piscar {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-}
-</style>
-
-<style>
-  .piscando {
-    animation: piscar 1s infinite;
-}
-
-@keyframes piscar {
-    0%, 49% { opacity: 1; }
-    50%, 100% { opacity: 0; }
-}
-  
-</style>]]></description>
-  </item>
-
-  <item>
     <title>Boletins Inúteis — Ego Death at a Bachelorette Party, Hayley Williams (2025)</title>
     <link>https://www.igormedeiroz.com/2026/06/ego-death-at-bachelorette-party-hayley.html</link>
     <guid isPermaLink="true">https://www.igormedeiroz.com/2026/06/ego-death-at-bachelorette-party-hayley.html</guid>
@@ -5268,62 +5329,6 @@ Cresci vendo animês gente, só o que tem é "o poder da amizade". Não posso ve
   </item>
 
   <item>
-    <title>O (EU) NÃO OBSTANTE — [TAG] Conheça o blogueiro</title>
-    <link>https://oeunaoobstante.bearblog.dev/tag-conheca-o-blogueiro/</link>
-    <guid isPermaLink="true">https://oeunaoobstante.bearblog.dev/tag-conheca-o-blogueiro/</guid>
-    <pubDate>Wed, 17 Jun 2026 11:54:50 GMT</pubDate>
-    <description><![CDATA[<p>Resolvi aproveitar a TAG Conheça o Blogueiro<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup> lançado no EntreBlogs<sup class="footnote-ref" id="fnref-2"><a href="#fn-2">2</a></sup> e dar início nas postagens por aqui.</p>
-<p>Seguindo, vão algumas perguntas e respostas sobre mim e sobre o blog, espero que gostem.</p>
-<hr>
-<p><strong>Perguntas e Respostas</strong></p>
-<p><mark>Quando surgiu a ideia de criar seu blog?</mark> <br />
-Recentemente, 2024 pra 2025, iniciei essa ideia de diminuir o consumo de redes sociais e, nesse processo, me reconectei com esse lado da internet que é criada por gente mesmo. Então, juntando uma ideia da aqui, uma inspiração dali, resolvi voltar a criar também. (aliás, obrigado a todos os envolvidos)</p>
-<p><mark>Origem do nome do seu blog? Trocaria o nome? Por qual?</mark> <br />
-Conheci o termo "Não Obstante" no <a href='https://open.spotify.com/show/2RULcFr08IpbMEtEIUgUWp' target='_blank'>podcast de mesmo nome</a>. <br />
-É o mesmo que "contudo, entretanto, todavia, no entanto, a despeito de, embora, conquanto" e expressa "contraste, oposição ou ressalva", mantendo a ideia, muitas vezes, de que, mesmo apresentando uma ideia de oposição, não impede a ação principal.</p>
-<blockquote>
-<p>O Eu Não Obstante é o eu, que apesar de, segue.</p>
-</blockquote>
-<p><mark>Você tem outros blogs além deste?</mark> <br />
-Tenho mais dois.
-Um deles sobre Animação e Quadrinhos. <br />
-O outro é secretíssimo.</p>
-<p><mark>Já pensou em desistir do seu blog alguma vez?</mark> <br />
-Já desisti de muitos. Esse é novo ainda. hehe</p>
-<p><mark>O que te faz continuar com um blog em tempos de scrolls infinitos?</mark> <br />
-O que me trouxe de volta para os blogs foi a busca por conteúdo autentico; de ler as pessoas, resolvi voltar a escrever; também tem servido para arquivar as coisas, já que a mente tem falhado.</p>
-<p><mark>Qual é o seu post favorito no blog?</mark> <br />
-Nesse momento só tenho uma postagem, o de <a href='https://oeunaoobstante.bearblog.dev/frases-auto-depreciativas-e-desincentivadoras/'>Frases Auto Depreciativas e Desincentivadoras</a>. Adoro frases sarcásticas, irônicas, cruéis, insultos; e tenho arquivado as preferidas.</p>
-<p><mark>Mande uma mensagem para outros blogueiros:</mark> <br />
-Obrigado por continuarem sendo a resistência, fazendo o que é mais difícil, que é se abrir. Não obstante, vocês são inspiração pra muita gente; são pra mim.</p>
-<hr>
-<p><mark>Rapidinhas sinceras (do momento)</mark><br></p>
-<ul>
-<li>Uma música: Balada do Louco - Ney Matogrosso</li>
-<li>Um livro: O Xangô de Baker Street - Jô Soares</li>
-<li>Um filme: Trilogia do Amanhecer (Before Sunrise, Before Sunshine, Before Midnight) - Richard Linklater <del>(Ricardo Linkodepois)</del></li>
-<li>Um hobby: Desenhar</li>
-<li>Um medo: Perder a criatividade</li>
-<li>Uma mania: Roer unhas (péssima, inclusive)</li>
-<li>Um sonho: Viver apenas de criar coisas</li>
-<li>Não consigo viver sem:</li>
-<li>Tem coleção de alguma coisa? <a href='https://oeunaoobstante.bearblog.dev/frases-auto-depreciativas-e-desincentivadoras/'>Frases Auto Depreciativas e Desincentivadoras</a></li>
-<li>Do que mais gosto no meu blog? A ideia de que pessoas diferentes podem encontrar nele coisas em comum</li>
-<li>Qual seu cheiro favorito no mundo? Cebola e alho refogando no óleo</li>
-<li>Desejo literário do momento: Terminar O Rei de Amarelo (Robert W. Chambers)</li>
-</ul>
-<hr>
-<hr>
-<section class="footnotes">
-<ol>
-<li id="fn-1"><p>Esta postagem faz parte da <a href='https://www.igormedeiroz.com/conheca-o-blogueiro' target='_blank'>TAG Conheça o Blogueiro</a> lançado pelo <a href='https://www.igormedeiroz.com/' target='_blank'>Igor Medeiroz</a> que tive contato no grupo do EntreBlogs.<a href="#fnref-1" class="footnote">&#8617;</a></p></li>
-<li id="fn-2"><p>O Projeto <a href='https://entreblogs.netlify.app/' target='_blank'>EntreBlogs</a> é uma ideia de blogagem coletiva conduzida pela <a href='https://status.cafe/users/bamoretti' target='_blank'>BaMoretti</a> para aproximar blogueiros e estimular a produção de conteúdo autêntico e feito por humanos.<a href="#fnref-2" class="footnote">&#8617;</a></p></li>
-</ol>
-</section>
-]]></description>
-  </item>
-
-  <item>
     <title>Leandro Maciel — </title>
     <link>https://leandromaciel.blog/2026/06/17/002922.html</link>
     <guid isPermaLink="true">https://leandromaciel.blog/2026/06/17/002922.html</guid>
@@ -6451,27 +6456,6 @@ Na guilda tem uma parte que você pode expor suas flores numa galeria e as outra
 </script>
 </center>
 </div>
-]]></description>
-  </item>
-
-  <item>
-    <title>EsKAYvendo — [comentário-análise] a dress to kill for (conto)</title>
-    <link>https://eskayvendo.bearblog.dev/comentario-analise-a-dress-to-kill-for-conto/</link>
-    <guid isPermaLink="true">https://eskayvendo.bearblog.dev/comentario-analise-a-dress-to-kill-for-conto/</guid>
-    <pubDate>Thu, 11 Jun 2026 14:21:52 GMT</pubDate>
-    <description><![CDATA[<p>Pensei se valia a pena chamar esse texto de resenha, mas acho que, ao contrário do livro de Adalgisa Nery que mencionei recentemente, não tenho muito o que dizer sobre o conto <em>A dress to kill for</em> de Tessa Hastjarjanto. Se vendendo como uma história perfeita para quem gosta do filme “A Colina Escarlate” e do livro “O Retrato de Dorian Gray”, acaba sendo uma daquelas publicações atuais em que a autoria está mais preocupada em encontrar similitudes estéticas para vender sua história do que em necessariamente  fazer um comparativo com sentido.</p>
-<p>Abaixo, vou discorrer sobre o conteúdo da obra com spoilers.</p>
-<p><em>A dress to kill for</em> é um conto de umas 20 páginas, que apresenta a personagem Claire, uma mulher rica que deseja fazer parte do círculo social de uma duquesa e assim ganhar mais proeminência para sua família e negócios. Para isso, ela decide, precisa de um vestido que chame atenção. Claire vai até uma boutique de procedência duvidosa, onde encontra uma colega que também está indo buscar um vestido. O encontro acaba em sanguinolência quando Claire decide que vai tomar para si o vestido (o único disponível) e mata a colega para poder fazer isso. A costureira dona do negócio diz que ela pode mantê-la, pois pagou o preço de sangue e com isso Claire consegue adentrar o tal círculo da Duquesa, composto por outras mulheres que, assim como ela, também pagaram o mesmo preço por seus vestidos únicos.</p>
-<p>Não é que a ideia seja ruim, na verdade, ela é bem interessante, até por todos os outros elementos que são apresentados de esguelha — Claire é uma mulher casada, mãe de 4 filhos, muletante e seu relacionamento com o marido parece conter doses interessantes de amor e toxicidade, o que sempre é bem-vindo nas ficções, pra mim, quando bem trabalhados. No entanto, nada disso é explorado, sendo apenas vagamente mencionado como background da personagem. Como um conto, a história não tem obrigação de explorar cada elemento citado, é verdade, mas me parece que houve um desperdício de potencial imenso entre a imagética presente aqui e o comparativo que podia ser feito.</p>
-<p>Mesmo assim, não vou torar nas críticas ao conto — é só uma história ok, mediana, sem nada demais para pensar por trás. As descrições são ok, os diálogos foram interessantes, apesar de serem muito poucos. O “conto” funciona mais como uma introdução a um universo maior, o primeiro degrau de uma escada que pode levar a locais interessantes, mas que, por si só, não acrescenta em muita coisa. Acho que por isso mesmo o comparativo com Crimson Peak e Dorian Gray me deixa mais frustrado, ainda que racionalmente eu saiba que as autorias que fazem o famoso “para fãs de X e Y” estão mais focadas em dar um pitch tiktokiano para suas histórias do que em apontar nuances compartilhadas de fato.</p>
-<p><em>Crimson Peak</em> é uma obra de terror gótico que faz críticas sociais à condição feminina e traça um paralelo disso com a monstruosidade, o sentimento de “haunting” que pode vir tanto de seres sobrenaturais quanto de se sentir deslocado em sociedade. Nunca consegui ler mais do que 50 páginas de <em>O Retrato de Dorian Gray</em> — não por desgostar da escrita, é só que nunca estava na vibe certa para ler, eu acho —, mas não consegui ver muitas semelhanças entre ele e o conto, nem da escrita, nem das ideias trabalhadas, que acabaram sendo representadas de forma mais rala que sopa de água.</p>
-<p>Minha situação com essa história com certeza é uma mistura de frustração com o que é versus com o que poderia ter sido.</p>
-<p>O que é: uma história com escrita competente, mas genérica, que não desenvolve sua atmosfera ou psicologia da protagonista. Funcionaria melhor com uma obra de audiovisual, algo mais focado nas imagens do que no teor literário.
-O que poderia ser: uma crítica à burguesia frívola, mais preocupada em arranjar a roupa certa para um evento social do que em pagar adequadamente seus funcionários, uma análise da superficialidade das relações, de como para obter um espacinho na prateleira do status quo as pessoas são capazes até de matar aqueles que seriam (mais ou menos) importantes para si.</p>
-<p>Talvez eu esteja esperando demais de um conto competente, mas esquecível, publicado sem grandes ambições na Amazon, mas acho que minhas expectativas não foram criadas sozinhas, afinal de contas, não fui eu quem escrevi o comparativo da sinopse.</p>
-<p>Em parte é também por isso que me incomodam esses “uma mistura de A com Z”; dificilmente são descrições que de fato levam em consideração o teor das obras comparadas. Acabam sendo apenas comparações estéticas e superficiais, para leitores que estão mais interessados em <strong>Aesthetic e VibesTM</strong> do que em algo com um pouco mais de densidade.</p>
-<hr />
-<p>Quer responder essa postagem? <a href="mailto:kay.j.batista@gmail.com?subject=Re: [comentário-análise] a dress to kill for (conto)">Fala que eu te escuto!</a></p>
 ]]></description>
   </item>
 
@@ -19690,7 +19674,7 @@ Quero diminuir as minhas tralhas. Hoje já joguei algumas coisas fora e doei out
 </div>
 <br />
 
-</div><div class="separator" style="clear: both; text-align: center;"><iframe allowfullscreen='allowfullscreen' webkitallowfullscreen='webkitallowfullscreen' mozallowfullscreen='mozallowfullscreen' width='320' height='266' src='https://www.blogger.com/video.g?token=AD6v5dzHp2rEx08BSANy1QbvA9Y2JuGLFl4xWQwEM-qqeqpdMrfGQzRpFmeIIXyR8kuiO4djZWcERf79TudAU7FJkg' class='b-hbp-video b-uploaded' frameborder='0'></iframe></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">Esse vídeo é da semana anterior,&nbsp;</span></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">mas quis colocar ele aqui hoje,&nbsp;</span></div><div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">bem como a foto do r36s acima.</span></div><div><br /></div><div><div style="text-align: justify;"><span style="font-family: inherit;"><span style="background-color: white; color: #111111;">Blog e leitores, antes de saírem, dêem uma olhadinha nos meus outros cantos dessa interneta - é só navegar até a página&nbsp;</span><a href="https://prazerwillian.blogspot.com/p/blogroll.html" style="background-color: white; color: #6d6d6d; text-decoration-line: none;" target="_blank"><b><span style="color: #3d85c6;">BLOGROLL</span></b></a><span style="background-color: white; color: #111111;">. Tem alguns blogs que sigo lá também bem legais! Garanto que não vão se arrepender.</span></span></div><div style="text-align: justify;"><span style="font-size: x-small;"><a href="https://willianernani1.blogspot.com/" target="_blank"></a><br /></span>Então pessoal, foi esse o post. Espero que tenham gostado.&nbsp;<span style="font-family: inherit;">Um grande abraço, e, até o próximo!</span><img height="20" src="https://pic.sopili.net/pub/emoji/noto-emoji/png/128/emoji_u1f643.png" style="font-family: inherit;" width="20" /></div></div><div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: right; margin-left: 1em; text-align: right;"><tbody><tr><td style="text-align: center;"><span style="margin-left: auto; margin-right: auto;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><img border="0" data-original-height="400" data-original-width="600" height="266" src="https://2.bp.blogspot.com/-vZMaC41jqU4/W0yhg6RQWUI/AAAAAAAAMZI/rwcBxwmoerkOnJTBsnCkJXbmMEsxiUXCQCLcBGAs/s400/Assinatura%2B1.gif" width="400" /></a></span></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><br /></a></td></tr></tbody></table><br /><span></span>
+</div><div class="separator" style="clear: both; text-align: center;"><iframe allowfullscreen='allowfullscreen' webkitallowfullscreen='webkitallowfullscreen' mozallowfullscreen='mozallowfullscreen' width='320' height='266' src='https://www.blogger.com/video.g?token=AD6v5dzBsl7yXXB0baJPpEeomRQngNEi7MYaKbTeYrHpI0k6lkTv9MlCQrq3mPLkiYbF5kCJyq1xLzP_i1Ak8gElUQ' class='b-hbp-video b-uploaded' frameborder='0'></iframe></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">Esse vídeo é da semana anterior,&nbsp;</span></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">mas quis colocar ele aqui hoje,&nbsp;</span></div><div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">bem como a foto do r36s acima.</span></div><div><br /></div><div><div style="text-align: justify;"><span style="font-family: inherit;"><span style="background-color: white; color: #111111;">Blog e leitores, antes de saírem, dêem uma olhadinha nos meus outros cantos dessa interneta - é só navegar até a página&nbsp;</span><a href="https://prazerwillian.blogspot.com/p/blogroll.html" style="background-color: white; color: #6d6d6d; text-decoration-line: none;" target="_blank"><b><span style="color: #3d85c6;">BLOGROLL</span></b></a><span style="background-color: white; color: #111111;">. Tem alguns blogs que sigo lá também bem legais! Garanto que não vão se arrepender.</span></span></div><div style="text-align: justify;"><span style="font-size: x-small;"><a href="https://willianernani1.blogspot.com/" target="_blank"></a><br /></span>Então pessoal, foi esse o post. Espero que tenham gostado.&nbsp;<span style="font-family: inherit;">Um grande abraço, e, até o próximo!</span><img height="20" src="https://pic.sopili.net/pub/emoji/noto-emoji/png/128/emoji_u1f643.png" style="font-family: inherit;" width="20" /></div></div><div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: right; margin-left: 1em; text-align: right;"><tbody><tr><td style="text-align: center;"><span style="margin-left: auto; margin-right: auto;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><img border="0" data-original-height="400" data-original-width="600" height="266" src="https://2.bp.blogspot.com/-vZMaC41jqU4/W0yhg6RQWUI/AAAAAAAAMZI/rwcBxwmoerkOnJTBsnCkJXbmMEsxiUXCQCLcBGAs/s400/Assinatura%2B1.gif" width="400" /></a></span></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><br /></a></td></tr></tbody></table><br /><span></span>
 </div></div>]]></description>
   </item>
 
