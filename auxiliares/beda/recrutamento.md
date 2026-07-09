@@ -45,9 +45,11 @@ permalink: /beda/teste1
 
     <header class="classes-header">
 
-        <h1>Escolha a sua Jornada</h1>
+        <h1 class="titulo-pagina">
+        	Escolha a sua Jornada
+    	</h1>
 
-        <p>
+    <p class="subtitulo-pagina">
             Nem todos os aventureiros percorrem a mesma estrada. <br>
 			Alguns caminham lado a lado com a guilda do primeiro ao último dia. Outros seguem por trilhas alternativas ou aparecem nos momentos em que o destino cruza seus caminhos. <br>
 			Nesta campanha, toda jornada é válida. Escolha aquela que melhor combina com você.
