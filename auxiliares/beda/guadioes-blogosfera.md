@@ -1,7 +1,7 @@
 ---
 layout: beda
 title: D&B - História
-permalink: /beda/guardioes-blogosfera
+permalink: /beda/cronicas
 ---
 
 <html lang="pt">
