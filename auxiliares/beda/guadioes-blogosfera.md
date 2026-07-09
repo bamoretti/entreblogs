@@ -71,28 +71,8 @@ permalink: /beda/cronicas
 
 				</h2>
 				
-
             </div>
 
-            <div class="capitulo-texto">
-
-                <article class="capitulo">
-
-    <div class="capitulo-header">
-
-        <span class="capitulo-numero">
-
-            Prólogo
-
-        </span>
-
-    </div>
-
-    <h2 class="capitulo-titulo">
-
-        O Reino Esquecido
-
-    </h2>
 
 <div class="capitulo-texto">
 
