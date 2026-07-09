@@ -1,0 +1,349 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+	font-weight: 400;
+	font-style: normal;
+}
+
+:root {
+  --cor-primaria: #3498db;
+  --espacamento-padrao: 16px;
+  --fonte-titulo: "Jim Nightshade", cursive;
+  --fonte-corpo: "Special Elite", system-ui;
+  --fonte-corpo-size: 16px;
+  --marrom-claro: rgb(207, 180, 139);
+  --marrom-medio: rgb(161, 125, 89);
+  --marrom-escuro: #332018;
+  --amarelo: #d6b25e;
+}
+
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../assets/beda/background.png");
+    background-size: 100%;
+	background-attachment: fixed;
+    text-align: center;
+	font-family:var(--fonte-corpo);
+    color:var(--marrom-escuro);
+}
+
+
+.container{
+	margin-top: 50px;
+    max-width:900px;
+    margin:auto;
+}
+
+
+@media (max-width: 768px){
+
+    body{
+
+    }
+
+.container{
+    padding:20px;
+}
+
+}
+
+.logo-beda{
+    display:block;
+    margin:0 auto 15px;
+    max-width:700px;
+    width:40%;
+    height:auto;
+}
+
+.logo-beda-pergaminho{
+    display: block;
+	margin: 140px auto 5px;
+    max-width: 60px;
+    height: auto;
+    /* Animação */
+    animation: flutuar 2s ease-in-out infinite;
+}
+
+.separador{
+    display: block;
+	margin: 45px auto 20px;
+    max-width: 20px;
+    height: auto;
+    animation: flutuar 2s ease-in-out infinite;
+}
+
+.separador-maior{
+    display: block;
+	margin: 45px auto 20px;
+    max-width: 60px;
+    height: auto;
+    animation: flutuar 2s ease-in-out infinite;
+}
+
+.descricao-beda{
+	margin-bottom: 60px;
+	font-family: var(--fonte-corpo);
+	line-height: 1.5;
+	
+}
+
+
+@keyframes flutuar {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* ==========================================================
+   CRÔNICAS
+========================================================== */
+
+.cronicas{
+
+    max-width:900px;
+
+    margin:60px auto;
+
+    padding:20px;
+
+}
+
+/* ==========================================================
+   CABEÇALHO
+========================================================== */
+
+.cronicas-header{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.cronicas-header h1{
+
+    font-family:var(--fonte-titulo);
+
+    font-size:5rem;
+
+    color:var(--marrom-escuro);
+
+    margin-bottom:15px;
+
+}
+
+.cronicas-header p{
+
+    font-family:var(--fonte-corpo);
+
+    color:var(--marrom-escuro);
+
+    font-size:1.1rem;
+
+    line-height:1.8;
+
+    max-width:650px;
+
+    margin:auto;
+
+}
+
+/* ==========================================================
+   LIVRO
+========================================================== */
+
+#livro{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:60px;
+
+}
+
+/* ==========================================================
+   CAPÍTULO
+========================================================== */
+
+.capitulo{
+
+    position:relative;
+
+    background:rgba(255,248,230,.92);
+
+    border:2px solid var(--marrom-medio);
+
+    border-radius:22px;
+
+    padding:50px;
+
+    box-shadow:
+
+        0 12px 30px rgba(0,0,0,.12);
+
+}
+
+/* detalhe */
+
+.capitulo::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+
+    left:0;
+
+    right:0;
+
+    height:10px;
+
+    border-radius:22px 22px 0 0;
+
+    background:linear-gradient(
+
+        90deg,
+
+        var(--marrom-medio),
+
+        var(--amarelo),
+
+        var(--marrom-medio)
+
+    );
+
+}
+
+/* ==========================================================
+   TÍTULO
+========================================================== */
+
+.capitulo-header{
+
+    text-align:center;
+
+    margin-bottom:15px;
+
+}
+
+.capitulo-numero{
+
+    font-family:var(--fonte-corpo);
+
+    font-size:.9rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:4px;
+
+    color:var(--marrom-medio);
+
+}
+
+.capitulo-titulo{
+
+    text-align:center;
+
+    font-family:var(--fonte-titulo);
+
+    font-size:3rem;
+
+    color:var(--marrom-escuro);
+
+    margin-bottom:35px;
+
+}
+
+/* ==========================================================
+   TEXTO
+========================================================== */
+
+.capitulo-texto{
+
+    font-family:var(--fonte-corpo);
+
+    color:var(--marrom-escuro);
+
+    font-size:1.05rem;
+
+    line-height:2;
+
+    text-align:justify;
+
+    white-space:pre-line;
+
+}
+
+/* cursor da máquina */
+
+.capitulo-texto.escrevendo::after{
+
+    content:"█";
+
+    animation:cursor .7s infinite;
+
+    margin-left:3px;
+
+}
+
+@keyframes cursor{
+
+    50%{
+
+        opacity:0;
+
+    }
+
+}
+
+/* ==========================================================
+   RESPONSIVO
+========================================================== */
+
+@media(max-width:768px){
+
+    .cronicas{
+
+        padding:15px;
+
+    }
+
+    .cronicas-header h1{
+
+        font-size:3.5rem;
+
+    }
+
+    .capitulo{
+
+        padding:30px;
+
+    }
+
+    .capitulo-titulo{
+
+        font-size:2.2rem;
+
+    }
+
+    .capitulo-texto{
+
+        font-size:.95rem;
+
+        line-height:1.8;
+
+    }
+
+}
