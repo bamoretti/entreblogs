@@ -1,47 +1,42 @@
-/* ==========================================================
-   CONFIGURAÇÃO
-========================================================== */
-
 const VELOCIDADE = 18;
 
-const PAUSA_PARAGRAFO = 300;
+const PAUSA = 450;
 
-const STORAGE_KEY = "entreblogs-capitulo-lido";
+const STORAGE = "cronicas-lidas";
 
-/* ==========================================================
-   INICIAR
-========================================================== */
+document.addEventListener(
+    "DOMContentLoaded",
+    iniciar
+);
 
-document.addEventListener("DOMContentLoaded", iniciarCronicas);
+async function iniciar(){
 
-async function iniciarCronicas(){
+    const capitulos =
+        document.querySelectorAll(".capitulo");
 
-    const capitulos = document.querySelectorAll(".capitulo");
-
-    let ultimoLido =
-        Number(localStorage.getItem(STORAGE_KEY)) || 0;
+    let ultimo =
+        Number(localStorage.getItem(STORAGE)) || 0;
 
     for(let i=0;i<capitulos.length;i++){
 
-        const capitulo = capitulos[i];
+        const texto =
+            capitulos[i].querySelector(".capitulo-texto");
 
-        const texto = capitulo.querySelector(".capitulo-texto");
+        if(i < ultimo){
 
-        if(i < ultimoLido){
-
-            mostrarTudo(texto);
+            mostrar(texto);
 
         }
 
         else{
 
-            await escreverCapitulo(texto);
+            await escrever(texto);
 
-            ultimoLido = i + 1;
+            ultimo = i+1;
 
             localStorage.setItem(
-                STORAGE_KEY,
-                ultimoLido
+                STORAGE,
+                ultimo
             );
 
         }
@@ -50,83 +45,71 @@ async function iniciarCronicas(){
 
 }
 
-/* ==========================================================
-   MOSTRA IMEDIATAMENTE
-========================================================== */
-
-function mostrarTudo(container){
+function mostrar(container){
 
     container
-        .querySelectorAll("[data-original]")
+        .querySelectorAll("p,.divisor")
         .forEach(el=>{
 
-            el.innerHTML =
-                el.dataset.original;
+            el.style.opacity=1;
 
         });
 
 }
 
-/* ==========================================================
-   ESCREVE UM CAPÍTULO
-========================================================== */
-
-async function escreverCapitulo(container){
+async function escrever(container){
 
     const elementos =
-        [...container.children];
+        container.querySelectorAll("p,.divisor");
 
     for(const el of elementos){
 
         if(el.classList.contains("divisor")){
 
-            await esperar(200);
+            el.style.opacity=1;
+
+            await esperar(250);
 
             continue;
 
         }
 
-        await escreverElemento(el);
+        await escreverParagrafo(el);
 
-        await esperar(PAUSA_PARAGRAFO);
+        await esperar(PAUSA);
 
     }
 
 }
 
-/* ==========================================================
-   ESCREVE UM PARÁGRAFO
-========================================================== */
-
-function escreverElemento(elemento){
+function escreverParagrafo(p){
 
     return new Promise(resolve=>{
 
-        const htmlOriginal =
-            elemento.innerHTML;
-
-        elemento.dataset.original =
-            htmlOriginal;
-
         const texto =
-            elemento.textContent;
+            p.textContent;
 
-        elemento.innerHTML="";
+        p.dataset.html =
+            p.innerHTML;
 
-        elemento.classList.add("escrevendo");
+        p.innerHTML="";
+
+        p.style.opacity=1;
+
+        p.classList.add("cursor");
 
         let i=0;
 
-        function digitar(){
+        function escrever(){
 
-            elemento.textContent += texto[i];
+            p.textContent += texto[i];
 
             i++;
 
-            if(i < texto.length){
+            if(i<texto.length){
 
                 setTimeout(
-                    digitar,
+                    escrever,
                     VELOCIDADE
                 );
 
@@ -134,10 +117,10 @@ function escreverElemento(elemento){
 
             else{
 
-                elemento.classList.remove("escrevendo");
+                p.classList.remove("cursor");
 
-                elemento.innerHTML =
-                    htmlOriginal;
+                p.innerHTML =
+                    p.dataset.html;
 
                 resolve();
 
@@ -145,21 +128,17 @@ function escreverElemento(elemento){
 
         }
 
-        digitar();
+        escrever();
 
     });
 
 }
 
-/* ==========================================================
-   UTIL
-========================================================== */
-
 function esperar(ms){
 
-    return new Promise(resolve=>{
+    return new Promise(r=>{
 
-        setTimeout(resolve,ms);
+        setTimeout(r,ms);
 
     });
 

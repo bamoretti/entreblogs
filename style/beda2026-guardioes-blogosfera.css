@@ -251,29 +251,56 @@ body {
 
 .capitulo-texto{
 
-    text-align:justify;
-
     font-family:var(--fonte-corpo);
-
     font-size:1rem;
-
+    line-height:1.6;
     color:var(--marrom-escuro);
-
-    line-height:1.55;
+    text-align:justify;
 
 }
 
-/* PARÁGRAFOS */
-
 .capitulo-texto p{
 
-    margin:0 0 14px;
+    margin:0 0 16px;
 
 }
 
 .capitulo-texto p:last-child{
 
     margin-bottom:0;
+
+}
+
+/* Esconde somente os parágrafos até o JS iniciar */
+
+.capitulo-texto p,
+.capitulo-texto .divisor{
+
+    opacity:0;
+
+}
+
+.escrevendo{
+
+    opacity:1 !important;
+
+}
+
+.cursor::after{
+
+    content:"▌";
+
+    animation:cursor .8s infinite;
+
+}
+
+@keyframes cursor{
+
+    50%{
+
+        opacity:0;
+
+    }
 
 }
 
@@ -493,3 +520,6 @@ body {
     }
 
 }
+
+
+
