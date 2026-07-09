@@ -11,7 +11,7 @@ Parece que agora você é ENTREBLOGGER!!! Te damos as boas-vindas!
 
 O Entreblogs é uma comunidade para trocar experiências e desafios mensais.
 
-- ✷ **Temas:** Temas mensais decididos em grupo.
+- ✷ **Temas:** mensais, decididos em grupo.
 - ✷ **Clube do livro:** todos os livros que lemos juntos.
 
 <blockquote class="fleabag">
@@ -19,7 +19,7 @@ O Entreblogs é uma comunidade para trocar experiências e desafios mensais.
   Não deu tempo de participar? 
   Quer participar de um tema antigo? 
   Não tem problema. 
-  Sinta-se livre pra participar quando puder, quando quiser e do que tiver interesse. 
+  <b>Sinta-se livre pra participar do que quiser e quando puder.</b>
   Sua carteirinha de participante não será confiscada 🫰🏻 </blockquote>
 
 A vida já é cheia de cobranças e obrigações demais para tornarmos esse projeto mais um 😉 
