@@ -94,7 +94,7 @@ permalink: /beda/guardioes-blogosfera
 
     </h2>
 
-    <div class="capitulo-texto">
+<div class="capitulo-texto">
 
         <p>
             Desde a desaparição dos Guardiões, os feitiços deixaram de ser ensinados.
