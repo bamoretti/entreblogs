@@ -21,9 +21,6 @@ permalink: /beda/testes/
 
 <link rel="stylesheet" href="..\style\beda2026.css">
 
-<style>
-
-</style>
 
 </head>
 
