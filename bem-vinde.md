@@ -15,11 +15,11 @@ O Entreblogs é uma comunidade para trocar experiências e desafios mensais.
 - **Clube do livro:** todos os livros que lemos juntos.
 
 <blockquote class="fleabag">
-  Não gostou do tema?  
+  Não gostou do tema?\
   Não deu tempo de participar?  
   Quer participar de um tema antigo?  
   Não tem problema.  
-  **Sinta-se livre pra participar quando puder, quando quiser e do que tiver interesse.**  
+  Sinta-se livre pra participar quando puder, quando quiser e do que tiver interesse.  
   Sua carteirinha de participante não será confiscada 🫰🏻  </blockquote>
 
 A vida já é cheia de cobranças e obrigações demais para tornarmos esse projeto mais um 😉 
