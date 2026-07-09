@@ -39,15 +39,29 @@ body {
 }
 
 
-@media (max-width: 768px){
+/* Mobile */
+@media (max-width: 768px) {
 
-   body {
-	    max-height: 70vh;
+    body {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-		background-attachment: fixed;
+        background-attachment: scroll; /* melhor que fixed no mobile */
     }
+
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    body {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+
+}
 	
 .container{
     padding:20px;
