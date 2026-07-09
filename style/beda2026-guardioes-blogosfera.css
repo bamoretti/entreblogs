@@ -273,11 +273,26 @@ body {
 .capitulo-texto{
 
     font-family:var(--fonte-corpo);
+
     color:var(--marrom-escuro);
+
     font-size:1.05rem;
-    line-height:2;
+
+    line-height:1.9;
+
     text-align:justify;
-    white-space:pre-line;
+
+}
+
+.capitulo-texto p{
+
+    margin:0 0 1rem;
+
+}
+
+.capitulo-texto p:last-child{
+
+    margin-bottom:0;
 
 }
 
