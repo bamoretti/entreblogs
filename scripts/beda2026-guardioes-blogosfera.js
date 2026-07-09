@@ -4,6 +4,8 @@
 
 const VELOCIDADE = 18;
 
+const PAUSA_PARAGRAFO = 300;
+
 const STORAGE_KEY = "entreblogs-capitulo-lido";
 
 /* ==========================================================
@@ -16,30 +18,30 @@ async function iniciarCronicas(){
 
     const capitulos = document.querySelectorAll(".capitulo");
 
-    const ultimoLido =
+    let ultimoLido =
         Number(localStorage.getItem(STORAGE_KEY)) || 0;
 
     for(let i=0;i<capitulos.length;i++){
 
-        const texto = capitulos[i]
-            .querySelector(".capitulo-texto");
+        const capitulo = capitulos[i];
 
-        const conteudo =
-            texto.textContent.trim();
-
-        texto.textContent="";
+        const texto = capitulo.querySelector(".capitulo-texto");
 
         if(i < ultimoLido){
 
-            texto.textContent = conteudo;
+            mostrarTudo(texto);
 
-        }else{
+        }
 
-            await escrever(texto,conteudo);
+        else{
+
+            await escreverCapitulo(texto);
+
+            ultimoLido = i + 1;
 
             localStorage.setItem(
                 STORAGE_KEY,
-                i+1
+                ultimoLido
             );
 
         }
@@ -49,16 +51,71 @@ async function iniciarCronicas(){
 }
 
 /* ==========================================================
-   MÁQUINA DE ESCREVER
+   MOSTRA IMEDIATAMENTE
 ========================================================== */
 
-function escrever(elemento,texto){
+function mostrarTudo(container){
+
+    container
+        .querySelectorAll("[data-original]")
+        .forEach(el=>{
+
+            el.innerHTML =
+                el.dataset.original;
+
+        });
+
+}
+
+/* ==========================================================
+   ESCREVE UM CAPÍTULO
+========================================================== */
+
+async function escreverCapitulo(container){
+
+    const elementos =
+        [...container.children];
+
+    for(const el of elementos){
+
+        if(el.classList.contains("divisor")){
+
+            await esperar(200);
+
+            continue;
+
+        }
+
+        await escreverElemento(el);
+
+        await esperar(PAUSA_PARAGRAFO);
+
+    }
+
+}
+
+/* ==========================================================
+   ESCREVE UM PARÁGRAFO
+========================================================== */
+
+function escreverElemento(elemento){
 
     return new Promise(resolve=>{
 
-        let i=0;
+        const htmlOriginal =
+            elemento.innerHTML;
+
+        elemento.dataset.original =
+            htmlOriginal;
+
+        const texto =
+            elemento.textContent;
+
+        elemento.innerHTML="";
 
         elemento.classList.add("escrevendo");
+
+        let i=0;
 
         function digitar(){
 
@@ -66,16 +123,21 @@ function escrever(elemento,texto){
 
             i++;
 
-            if(i<texto.length){
+            if(i < texto.length){
 
                 setTimeout(
                     digitar,
                     VELOCIDADE
                 );
 
-            }else{
+            }
+
+            else{
 
                 elemento.classList.remove("escrevendo");
+
+                elemento.innerHTML =
+                    htmlOriginal;
 
                 resolve();
 
@@ -84,6 +146,20 @@ function escrever(elemento,texto){
         }
 
         digitar();
+
+    });
+
+}
+
+/* ==========================================================
+   UTIL
+========================================================== */
+
+function esperar(ms){
+
+    return new Promise(resolve=>{
+
+        setTimeout(resolve,ms);
 
     });
 
