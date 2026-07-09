@@ -46,8 +46,7 @@ permalink: /beda/guardioes-blogosfera
         <h1>Crônicas da Campanha</h1>
 
         <p>
-            A história dos Guardiões da Blogosfera é revelada aos poucos,
-            conforme a campanha avança.
+            Essa é uma historia que é revelada aos poucos, conforme a campanha avança.
         </p>
 
     </header>
@@ -65,6 +64,13 @@ permalink: /beda/guardioes-blogosfera
                     Prólogo
 
                 </span>
+				
+				  <h2 class="capitulo-titulo">
+
+                O Chamado
+
+				</h2>
+				
 
             </div>
 
@@ -92,48 +98,19 @@ permalink: /beda/guardioes-blogosfera
 
             <h2 class="capitulo-titulo">
 
-                O Chamado
-
-            </h2>
-
-            <div class="capitulo-texto">
-
-Muito antes de os aventureiros cruzarem os portões da Blogosfera,
-existia apenas o silêncio.
-
-Poucos acreditavam que as palavras possuíam magia.
-
-Até que...
-
-            </div>
-
-        </article>
-
-        <!-- Capítulo II -->
-
-        <article class="capitulo">
-
-            <div class="capitulo-header">
-
-                <span class="capitulo-numero">
-
-                    Capítulo II
-
-                </span>
-
-            </div>
-
-            <h2 class="capitulo-titulo">
-
                 A Floresta do Julgamento
 
             </h2>
 
             <div class="capitulo-texto">
 
+				Esta história ainda está sendo escrita...
+
             </div>
 
         </article>
+
+ 
 
     </section>
 </div>
