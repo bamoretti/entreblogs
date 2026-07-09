@@ -51,10 +51,12 @@ permalink: /beda/teste1
 
     <p class="subtitulo-pagina">
             Nem todos os aventureiros percorrem a mesma estrada. 
-			<br>
+		<br><br>
 			Alguns caminham lado a lado com a guilda do primeiro ao último dia. Outros seguem por trilhas alternativas ou aparecem nos momentos em que o destino cruza seus caminhos. 
-			<br>
-			Nesta campanha, toda jornada é válida. Escolha aquela que melhor combina com você.
+		<br><br>
+			Nesta campanha, toda jornada é válida. 
+		<br><br>
+			Escolha aquela que melhor combina com você.
 
         </p>
 
