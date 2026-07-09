@@ -347,3 +347,47 @@ body {
     }
 
 }
+
+.capitulo-texto p{
+
+    margin-bottom:1.8rem;
+
+}
+
+.divisor{
+
+    margin:2.5rem auto;
+
+    text-align:center;
+
+    font-size:2rem;
+
+    color:var(--amarelo);
+
+    letter-spacing:12px;
+
+}
+
+.citacao-final{
+
+    text-align:center;
+
+    font-style:italic;
+
+    margin-top:2rem;
+
+}
+
+.citacao-final.destaque{
+
+    font-size:1.15rem;
+
+    color:var(--marrom-escuro);
+
+    font-weight:bold;
+
+    max-width:650px;
+
+    margin:2rem auto 0;
+
+}

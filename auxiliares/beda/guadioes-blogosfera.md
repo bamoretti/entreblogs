@@ -76,13 +76,99 @@ permalink: /beda/guardioes-blogosfera
 
             <div class="capitulo-texto">
 
-                <!-- JavaScript escreverá aqui -->
+                <article class="capitulo">
+
+    <div class="capitulo-header">
+
+        <span class="capitulo-numero">
+
+            Prólogo
+
+        </span>
+
+    </div>
+
+    <h2 class="capitulo-titulo">
+
+        O Reino Esquecido
+
+    </h2>
+
+    <div class="capitulo-texto">
+
+        <p>
+            Desde a desaparição dos Guardiões, os feitiços deixaram de ser ensinados.
+            Os grimórios foram trancados, os mestres morreram sem sucessores e as palavras
+            antigas perderam seu significado. Em poucas gerações, a magia da escrita desapareceu.
+        </p>
+
+        <p>
+            No Reino de Sgolbertne, a maioria das pessoas acredita que os grandes feitos
+            mágicos nunca existiram. Pergaminhos passaram a desaparecer das estantes sem
+            deixar rastros. Histórias inteiras foram esquecidas da noite para o dia.
+            Tintas secaram antes que as últimas palavras fossem escritas, e alguns
+            viajantes juram ter visto páginas em branco onde antes existiam livros completos.
+        </p>
+
+        <p>
+            Ninguém sabe quem está por trás desses acontecimentos.
+            Ninguém sabe o que procura.
+        </p>
+
+        <div class="divisor">
+            ✦
+        </div>
+
+        <p>
+            Uma pequena ordem de estudiosos e aventureiros dedica a vida a reunir
+            fragmentos do passado. Entre páginas esquecidas, anotações ilegíveis e livros
+            quase desfeitos pelo tempo, chegaram à mesma conclusão:
+            <strong>algo voltou a despertar nas terras de Sgolbertne.</strong>
+        </p>
+
+        <p>
+            Eles acreditam que os primeiros escribas do reino criaram uma tradição secreta
+            chamada <strong>BEDA</strong>: um antigo ritual de trinta e um dias de coragem e
+            persistência, capaz de despertar novamente a magia da escrita e formar
+            novos Guardiões da Blogosfera.
+        </p>
+
+        <div class="divisor">
+            ✦
+        </div>
+
+        <p>
+            Quando as trombetas do recrutamento tocarem, cada aventureiro utilizará
+            seu próprio <strong>Portal-Blog</strong> para registrar os pergaminhos mágicos
+            da escrita. Durante trinta e um dias consecutivos, cada texto publicado
+            fortalecerá a magia do reino, preservando histórias que jamais deveriam
+            ser esquecidas.
+        </p>
+
+        <p>
+            Mas cuidado: a jornada exigirá disciplina, criatividade e perseverança.
+            Cada página deixada em branco permitirá que o esquecimento avance um pouco mais.
+        </p>
+
+        <p class="citacao-final">
+            Apenas uma certeza permanece.
+        </p>
+
+        <p class="citacao-final destaque">
+            Se a magia da escrita desaparecer mais uma vez,
+            talvez não reste ninguém capaz de lembrar
+            que ela um dia existiu.
+        </p>
+
+    </div>
+
+</article>
 
             </div>
 
         </article>
 
-        <!-- Capítulo I -->
+        <!-- Capítulo I 
 
         <article class="capitulo">
 
@@ -110,7 +196,7 @@ permalink: /beda/guardioes-blogosfera
 
         </article>
 
- 
+ -->
 
     </section>
 </div>
