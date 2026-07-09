@@ -125,14 +125,11 @@ body {
 
 #bossImage{
 
-    width:100%;
+
     height:auto;
     object-fit:cover;
-
     display:block;
-
     margin:auto;
-
     margin-bottom:25px;
 
 }
