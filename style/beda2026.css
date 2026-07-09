@@ -20,29 +20,17 @@
 }
 
 
-body{
-    min-height:100vh;
-    text-align:center;
-    font-family:var(--fonte-corpo);
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../assets/beda/background.png");
+    background-size: 100%;
+	background-attachment: fixed;
+    text-align: center;
+	font-family:var(--fonte-corpo);
     color:var(--marrom-escuro);
-
-    background-image:url("../assets/beda/background.png");
-    background-repeat:no-repeat;
-    background-position:center top;
-    background-size:cover;
-    background-attachment:fixed;
 }
-
-@media (max-width:768px){
-
-    body{
-        background-attachment:scroll;
-        background-size:cover;
-        background-position:center top;
-    }
-
-}
-
 
 .container{
 	margin-top: 50px;
