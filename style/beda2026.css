@@ -21,15 +21,15 @@
 
 
 body {
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
-    background: url("../assets/beda/background.png");
-    background-size: 100%;
-	background-attachment: fixed;
+    background-image: url("../assets/beda/background.png");
+    background-repeat: repeat;
+    background-position: top left;
+    background-size: auto;
+
     text-align: center;
-	font-family:var(--fonte-corpo);
-    color:var(--marrom-escuro);
+    font-family: var(--fonte-corpo);
+    color: var(--marrom-escuro);
 }
 
 
