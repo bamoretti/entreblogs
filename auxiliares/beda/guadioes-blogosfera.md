@@ -144,9 +144,6 @@ permalink: /beda/cronicas
 
 </article>
 
-            </div>
-
-        </article>
 
         <!-- Capítulo I 
 
