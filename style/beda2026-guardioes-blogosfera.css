@@ -111,9 +111,7 @@ body {
 .cronicas{
 
     max-width:900px;
-
     margin:60px auto;
-
     padding:20px;
 
 }
@@ -125,7 +123,6 @@ body {
 .cronicas-header{
 
     text-align:center;
-
     margin-bottom:60px;
 
 }
@@ -133,28 +130,21 @@ body {
 .cronicas-header h1{
 
     font-family:var(--fonte-titulo);
-
     font-size:5rem;
-
     color:var(--marrom-escuro);
-
-    margin-bottom:15px;
+    margin-bottom:12px;
 
 }
 
 .cronicas-header p{
 
-    font-family:var(--fonte-corpo);
-
-    color:var(--marrom-escuro);
-
-    font-size:1.1rem;
-
-    line-height:1.8;
-
     max-width:650px;
+    margin:0 auto;
 
-    margin:auto;
+    font-family:var(--fonte-corpo);
+    font-size:1rem;
+    line-height:1.6;
+    color:var(--marrom-escuro);
 
 }
 
@@ -165,10 +155,8 @@ body {
 #livro{
 
     display:flex;
-
     flex-direction:column;
-
-    gap:60px;
+    gap:55px;
 
 }
 
@@ -180,7 +168,7 @@ body {
 
     position:relative;
 
-    background:rgba(255,248,230,.92);
+    background:rgba(255,248,230,.94);
 
     border:2px solid var(--marrom-medio);
 
@@ -189,12 +177,9 @@ body {
     padding:50px;
 
     box-shadow:
-
         0 12px 30px rgba(0,0,0,.12);
 
 }
-
-/* detalhe */
 
 .capitulo::before{
 
@@ -202,57 +187,53 @@ body {
 
     position:absolute;
 
-    top:0;
-
     left:0;
-
+    top:0;
     right:0;
 
-    height:10px;
+    height:8px;
 
     border-radius:22px 22px 0 0;
 
     background:linear-gradient(
-
         90deg,
-
         var(--marrom-medio),
-
         var(--amarelo),
-
         var(--marrom-medio)
-
     );
 
 }
 
 /* ==========================================================
-   TÍTULO
+   TÍTULOS
 ========================================================== */
 
 .capitulo-header{
 
     text-align:center;
-
-    margin-bottom:15px;
+    margin-bottom:10px;
 
 }
 
 .capitulo-numero{
 
+    display:block;
+
     font-family:var(--fonte-corpo);
 
     font-size:.9rem;
 
-    text-transform:uppercase;
-
     letter-spacing:4px;
+
+    text-transform:uppercase;
 
     color:var(--marrom-medio);
 
 }
 
 .capitulo-titulo{
+
+    margin-bottom:30px;
 
     text-align:center;
 
@@ -262,8 +243,6 @@ body {
 
     color:var(--marrom-escuro);
 
-    margin-bottom:35px;
-
 }
 
 /* ==========================================================
@@ -272,21 +251,23 @@ body {
 
 .capitulo-texto{
 
+    text-align:justify;
+
     font-family:var(--fonte-corpo);
+
+    font-size:1rem;
 
     color:var(--marrom-escuro);
 
-    font-size:1.05rem;
-
-    line-height:1.9;
-
-    text-align:justify;
+    line-height:1.55;
 
 }
 
+/* PARÁGRAFOS */
+
 .capitulo-texto p{
 
-    margin:0 0 1rem;
+    margin:0 0 14px;
 
 }
 
@@ -296,23 +277,120 @@ body {
 
 }
 
-/* cursor da máquina */
+/* ==========================================================
+   DIVISOR
+========================================================== */
+
+.divisor{
+
+    margin:22px auto;
+
+    text-align:center;
+
+    font-size:1.8rem;
+
+    color:var(--amarelo);
+
+    letter-spacing:8px;
+
+    user-select:none;
+
+}
+
+/* ==========================================================
+   CITAÇÕES
+========================================================== */
+
+.citacao-final{
+
+    margin-top:22px;
+
+    text-align:center;
+
+    font-style:italic;
+
+}
+
+.citacao-final.destaque{
+
+    margin-top:12px;
+
+    max-width:650px;
+
+    margin-left:auto;
+    margin-right:auto;
+
+    font-size:1.12rem;
+
+    font-weight:bold;
+
+    line-height:1.6;
+
+}
+
+/* ==========================================================
+   LINKS
+========================================================== */
+
+.capitulo-texto a{
+
+    color:var(--cor-primaria);
+
+    text-decoration:none;
+
+}
+
+.capitulo-texto a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* ==========================================================
+   NEGRITO
+========================================================== */
+
+.capitulo-texto strong{
+
+    color:var(--marrom-escuro);
+
+    font-weight:bold;
+
+}
+
+/* ==========================================================
+   CURSOR DA MÁQUINA
+========================================================== */
 
 .capitulo-texto.escrevendo::after{
 
-    content:"█";
+    content:"▌";
 
-    animation:cursor .7s infinite;
+    display:inline-block;
 
-    margin-left:3px;
+    margin-left:2px;
+
+    animation:cursor .8s infinite;
 
 }
 
 @keyframes cursor{
 
+    0%{
+
+        opacity:1;
+
+    }
+
     50%{
 
         opacity:0;
+
+    }
+
+    100%{
+
+        opacity:1;
 
     }
 
@@ -322,7 +400,7 @@ body {
    RESPONSIVO
 ========================================================== */
 
-@media(max-width:768px){
+@media(max-width:900px){
 
     .cronicas{
 
@@ -332,19 +410,61 @@ body {
 
     .cronicas-header h1{
 
-        font-size:3.5rem;
+        font-size:4rem;
 
     }
 
     .capitulo{
 
-        padding:30px;
+        padding:35px;
 
     }
 
     .capitulo-titulo{
 
-        font-size:2.2rem;
+        font-size:2.5rem;
+
+    }
+
+}
+
+@media(max-width:600px){
+
+    .cronicas{
+
+        margin:40px auto;
+
+    }
+
+    .cronicas-header{
+
+        margin-bottom:40px;
+
+    }
+
+    .cronicas-header h1{
+
+        font-size:3rem;
+
+    }
+
+    .cronicas-header p{
+
+        font-size:.95rem;
+
+    }
+
+    .capitulo{
+
+        padding:25px 22px;
+
+    }
+
+    .capitulo-titulo{
+
+        font-size:2rem;
+
+        margin-bottom:20px;
 
     }
 
@@ -352,52 +472,24 @@ body {
 
         font-size:.95rem;
 
-        line-height:1.8;
+        line-height:1.7;
+
+        text-align:left;
 
     }
 
-}
+    .capitulo-texto p{
 
-.capitulo-texto p{
+        margin-bottom:12px;
 
-    margin-bottom:1.8rem;
+    }
 
-}
+    .divisor{
 
-.divisor{
+        margin:18px auto;
 
-    margin:2.5rem auto;
+        font-size:1.5rem;
 
-    text-align:center;
-
-    font-size:2rem;
-
-    color:var(--amarelo);
-
-    letter-spacing:12px;
-
-}
-
-.citacao-final{
-
-    text-align:center;
-
-    font-style:italic;
-
-    margin-top:2rem;
-
-}
-
-.citacao-final.destaque{
-
-    font-size:1.15rem;
-
-    color:var(--marrom-escuro);
-
-    font-weight:bold;
-
-    max-width:650px;
-
-    margin:2rem auto 0;
+    }
 
 }
