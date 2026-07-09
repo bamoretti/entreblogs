@@ -24,12 +24,31 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("../assets/beda/background.png");
-    background-size: 100%;
-	background-attachment: fixed;
+
     text-align: center;
-	font-family:var(--fonte-corpo);
-    color:var(--marrom-escuro);
+    font-family: var(--fonte-corpo);
+    color: var(--marrom-escuro);
+}
+
+/* Fundo */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+
+    background: url("../assets/beda/background.png") center center no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    body::before {
+        transform: rotate(90deg);
+        width: 100vh;
+        height: 100vw;
+        left: calc((100vw - 100vh) / 2);
+        top: calc((100vh - 100vw) / 2);
+    }
 }
 
 
