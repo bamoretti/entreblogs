@@ -11,24 +11,24 @@ Parece que agora você é ENTREBLOGGER!!! Te damos as boas-vindas!
 
 O Entreblogs é uma comunidade para trocar experiências e desafios mensais.
 
-- **Temas:** Temas mensais decididos em grupo.
-- **Clube do livro:** todos os livros que lemos juntos.
+- ✷ **Temas:** Temas mensais decididos em grupo.
+- ✷ **Clube do livro:** todos os livros que lemos juntos.
 
 <blockquote class="fleabag">
-  Não gostou do tema?\
-  Não deu tempo de participar?  
-  Quer participar de um tema antigo?  
-  Não tem problema.  
-  Sinta-se livre pra participar quando puder, quando quiser e do que tiver interesse.  
-  Sua carteirinha de participante não será confiscada 🫰🏻  </blockquote>
+  Não gostou do tema?
+  Não deu tempo de participar? 
+  Quer participar de um tema antigo? 
+  Não tem problema. 
+  Sinta-se livre pra participar quando puder, quando quiser e do que tiver interesse. 
+  Sua carteirinha de participante não será confiscada 🫰🏻 </blockquote>
 
 A vida já é cheia de cobranças e obrigações demais para tornarmos esse projeto mais um 😉 
 
 COMO FUNCIONA?
-+ 💞  Somos uma comunidade no whatsapp (<a href="https://chat.whatsapp.com/K2Z3qQVCMr60iIHkdUuwaW">clique aqui para participar</a>) com vários sub-grupos [(acesse aqui para saber mais)]({{ site.baseurl }}/no-whatsapp). 
-+ 📝 Atualize as páginas do site com seus links (<a href="https://forms.gle/q7RHYKHAo7R83hsL8">clique para atualizar</a>)  
-+ 🗓 Apareça no calendário de aniversariantes _(apenas dentro da comunidade)_(<a href="https://forms.gle/NyxJ9yG2Awdi1Qbd8">clique aqui para cadastrar</a>)  
-+ 📜 [Coloque algum selo de participante no seu blog]({{ site.baseurl }}/selos)  
-+ 🔮 [Participe do webrings]({{ site.baseurl }}/webring)  
-+ 💡 <a href="https://docs.google.com/spreadsheets/d/1E7KnCTuP8bg-uNoYKGjDWce68cDnQVomRLmbCMGOHgI/edit?usp=drive_link">Deixe sua sugestão de tema ou leitura! </a>  
++ 💞  Somos uma comunidade no whatsapp (<a href="https://chat.whatsapp.com/K2Z3qQVCMr60iIHkdUuwaW">clique aqui para participar</a>) com vários sub-grupos [(acesse aqui para saber mais)]({{ site.baseurl }}/no-whatsapp).
++ 📝 Atualize as páginas do site com seus links (<a href="https://forms.gle/q7RHYKHAo7R83hsL8">clique para atualizar</a>) 
++ 🗓 Apareça no calendário de aniversariantes _(apenas dentro da comunidade)_(<a href="https://forms.gle/NyxJ9yG2Awdi1Qbd8">clique aqui para cadastrar</a>) 
++ 📜 [Coloque algum selo de participante no seu blog]({{ site.baseurl }}/selos) 
++ 🔮 [Participe do webrings]({{ site.baseurl }}/webring) 
++ 💡 <a href="https://docs.google.com/spreadsheets/d/1E7KnCTuP8bg-uNoYKGjDWce68cDnQVomRLmbCMGOHgI/edit?usp=drive_link">Deixe sua sugestão de tema ou leitura! </a> 
 + 🪴 [Sinta-se a vontade para participar da nossa tag entreblogs]({{ site.baseurl }}/extras/por-tras-do-blog/)
