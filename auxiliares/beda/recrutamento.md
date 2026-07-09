@@ -152,9 +152,11 @@ permalink: /beda/teste1
 
     <header class="classes-header">
 
-        <h1>Classes</h1>
+ 		<h1 class="titulo-pagina">
+			Classes    	
+		</h1>
 
-        <p>
+   		 <p class="subtitulo-pagina">
             Descubra as seis classes disponíveis na campanha
             Guardiões da Blogosfera.
         </p>
