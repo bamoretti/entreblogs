@@ -43,7 +43,7 @@ permalink: /beda/guardioes-blogosfera
 
    <header class="cronicas-header">
 
-        <h1>📖 Crônicas da Campanha</h1>
+        <h1>Crônicas da Campanha</h1>
 
         <p>
             A história dos Guardiões da Blogosfera é revelada aos poucos,
