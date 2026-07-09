@@ -26,35 +26,36 @@ body {
     min-height: 100vh;
     background: url("../assets/beda/background.png");
     background-size: 100%;
-	background-attachment: fixed;
+    background-attachment: fixed;
     text-align: center;
-	font-family:var(--fonte-corpo);
-    color:var(--marrom-escuro);
+    font-family: var(--fonte-corpo);
+    color: var(--marrom-escuro);
 }
 
-.container{
-	margin-top: 50px;
-    max-width:900px;
-    margin:auto;
+.container {
+    margin-top: 50px;
+    max-width: 900px;
+    margin: auto;
 }
 
-
-/* Mobile */
+/* Celulares */
 @media (max-width: 768px) {
 
     body {
+        background: url("../assets/beda/background-mobile.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        background-attachment: scroll; /* melhor que fixed no mobile */
+        background-attachment: scroll;
     }
 
 }
 
-/* Tablet */
+/* Tablets */
 @media (min-width: 769px) and (max-width: 1024px) {
 
     body {
+        background: url("../assets/beda/background-mobile.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
