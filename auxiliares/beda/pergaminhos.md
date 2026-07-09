@@ -1,7 +1,7 @@
 ---
 layout: beda
 title: D&B - Pergaminhos
-permalink: /beda/pergaminhos
+permalink: /beda/teste2
 ---
 
 <html lang="pt">
