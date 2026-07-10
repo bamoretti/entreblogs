@@ -26,17 +26,13 @@ a:-webkit-any-link:hover{
                  0 0 8px rgba(214,178,94,.35);
 }
 
-.attack-button{
-    display: inline-block;
-    color: #f6efe2; /* pergaminho claro */
-    text-decoration: none;
-    font-weight: 600;
+a.attack-button:-webkit-any-link{
+    color: #f6efe2;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
-    transition: color .2s ease, text-shadow .2s ease;
 }
 
-.attack-button:hover{
-    color: #f2ddb0; /* mesma paleta, um pouco mais dourada */
+a.attack-button:-webkit-any-link:hover{
+    color: #f2ddb0;
     text-shadow:
         0 1px 2px rgba(0,0,0,.8),
         0 0 6px rgba(242,221,176,.25);
