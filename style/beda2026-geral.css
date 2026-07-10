@@ -8,7 +8,17 @@
       z-index: 9999;
     }
 	
+a:-webkit-any-link{
+    color:var(--marrom-escuro);
+    text-decoration:none;
+    transition:all .2s ease;
 
+}
+
+a:-webkit-any-link:hover{
+    color:#d6b25e;
+    text-shadow:1px 1px 2px rgba(0,0,0,.7);
+}
 	
 /* ==========================================================
    FOOTER
