@@ -103,7 +103,7 @@ A cada semana, um novo senhor das trevas surgirá das sombras, trazendo consigo 
         <h2>Últimos Ataques ao Vilão</h2>
 
         <p>
-            Os Guardiões registram aqui todas as investidas contra as forças da Entropia.
+            Os Guardiões registram aqui todas as investidas contra o vilão
         </p>
 
     </div>
