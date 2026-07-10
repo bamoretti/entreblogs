@@ -25,6 +25,23 @@ a:-webkit-any-link:hover{
     text-shadow: 0 1px 2px rgba(0,0,0,.8),
                  0 0 8px rgba(214,178,94,.35);
 }
+
+.attack-button{
+    color: #f8f3e8;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow:
+        0 1px 2px rgba(0,0,0,.8),
+        0 0 4px rgba(0,0,0,.35);
+    transition: color .2s ease, text-shadow .2s ease;
+}
+
+.attack-button:hover{
+    color: #d6b25e;
+    text-shadow:
+        0 1px 2px rgba(0,0,0,.9),
+        0 0 8px rgba(214,178,94,.45);
+}
 	
 /* ==========================================================
    FOOTER
