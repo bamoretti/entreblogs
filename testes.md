@@ -19,7 +19,7 @@ permalink: /testes/
 
 <link rel="manifest" href="/site.webmanifest">
 
-<link rel="stylesheet" href="..\style\beda2026.css">
+<link rel="stylesheet" href="..\style\beda2026-painel.css">
 
 <style>
 
