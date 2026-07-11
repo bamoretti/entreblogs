@@ -166,16 +166,13 @@ permalink: /beda/cronicas
 		<div class="capitulo-texto">
 
 			<p>
-				Enquanto a Taverna celebrava os aventureiros que aniversariavam neste ciclo, risos ecoavam entre canecas erguidas e histórias exageradas de antigas jornadas. Por algumas horas, até mesmo os escribas abandonaram a Biblioteca Eterna para se juntar à comemoração, deixando os intermináveis corredores em um raro silêncio.
+				Na Taverna celebrava os aventureiros que aniversariavam neste ciclo, risos ecoavam entre canecas erguidas e histórias exageradas de antigas jornadas. Por algumas horas, até mesmo os escribas abandonaram a Biblioteca Eterna para se juntar à comemoração, deixando os intermináveis corredores em um raro silêncio.
 
 			</p>
 
 			<p>
 				Quando a festa chegou ao fim, cada um seguiu seu caminho. Os aventureiros partiram com votos de boa sorte, enquanto os escribas retornaram à biblioteca, prontos para retomar seu trabalho.
-			</P>
-
-			<p>
-				Mas, assim que cruzaram o grande salão, perceberam que algo estava errado.
+ 				 Mas, assim que cruzaram o grande salão, perceberam que algo estava errado.
 			</p>
 
 			<p>
@@ -183,10 +180,7 @@ permalink: /beda/cronicas
 			</p>
 
 			<p>
-				Um vento frio percorreu os corredores, todas as velas se apagaram ao mesmo tempo. Por um instante, ninguém ousou respirar.
-			</p>
-
-			<p>
+				Um vento frio percorreu os corredores e todas as velas se apagaram ao mesmo tempo. Por um instante, ninguém ousou respirar. 
 				O silêncio era tão profundo que era possível ouvir o bater de asas de uma borboleta.
 			</p>
 
@@ -195,7 +189,7 @@ permalink: /beda/cronicas
 			</p>
 
 			<p>
-				Uma única gota escarlate caiu sobre o mármore. 
+				Uma gota escarlate caiu sobre o mármore. 
 			</p>
 			
 			<p>	
@@ -247,7 +241,7 @@ permalink: /beda/cronicas
 			<div class="divisor">✦</div>
 
 			<p>
-					A pedra absorveu lentamente o vermelho, como se a própria biblioteca guardasse aquelas palavras em seu interior.
+					A pedra absorveu lentamente o vermelho, como se a própria biblioteca guardasse aquelas palavras em seus pilares.
 			</p>
 
 			<p>
