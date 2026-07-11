@@ -44,11 +44,11 @@ permalink: /beda/teste2
 <section class="registros-page">
 
     <h1 class="titulo-pagina">
-        Pergaminhos Registrados
+        Biblioteca Eterna
     </h1>
 
     <p class="subtitulo-pagina">
-        Todas as postagens escritas durante a campanha.
+        Todos os pergaminhos escritos durante a campanha.
     </p>
 
     <div class="table-wrapper">
