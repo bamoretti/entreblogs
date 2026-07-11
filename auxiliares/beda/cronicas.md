@@ -155,7 +155,11 @@ permalink: /beda/cronicas
                     Profecia
 
                 </span>
+				<h2 class="capitulo-titulo">
 
+                
+
+				</h2>
             </div>
 
 
