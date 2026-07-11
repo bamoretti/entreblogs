@@ -248,7 +248,7 @@ permalink: /beda/cronicas
 			</p>
 
 			<p>
-				Os escribas trocaram olhares apreensivos.
+				Os escribas trocaram olhares apreensivos.<br>
 				Era o primeiro sinal.
 			<p>
 
@@ -294,10 +294,10 @@ permalink: /beda/cronicas
  -->
 
     </section>
-</div>
+	</div>
 
-<script src="..\scripts\beda2026-cronicas.js"></script>
+	<script src="..\scripts\beda2026-cronicas.js"></script>
 
-</body>
+	</body>
 
-</html>
+	</html>
