@@ -157,7 +157,7 @@ permalink: /beda/cronicas
                 </span>
 				<h2 class="capitulo-titulo">
 
-                
+                	Celebração na Taverna
 
 				</h2>
             </div>
@@ -167,16 +167,28 @@ permalink: /beda/cronicas
 		<div class="capitulo-texto">
 
 			<p>
-				Os escribas tentavam entender como pergaminhos estavam desaparecendo da Biblioteca Eterna.
-				Quando um vento frio percorreu os corredores, apagando todas as velas que iluminavam o grande salão.
+				Enquanto a Taverna celebrava os aventureiros que aniversariavam neste ciclo, risos ecoavam entre canecas erguidas e histórias exageradas de antigas jornadas. Por algumas horas, até mesmo os escribas abandonaram a Biblioteca Eterna para se juntar à comemoração, deixando os intermináveis corredores em um raro silêncio.
+
 			</p>
 
 			<p>
-				Por um instante, ninguém ousou respirar.
+				Quando a festa chegou ao fim, cada um seguiu seu caminho. Os aventureiros partiram com votos de boa sorte, enquanto os escribas retornaram à biblioteca, prontos para retomar seu trabalho.
+			</P>
+
+			<p>
+				Mas, assim que cruzaram o grande salão, perceberam que algo estava errado.
 			</p>
 
 			<p>
-				O silêncio era tão grande, que até mesmo era possível ouvir o bater de asas de uma borboleta.
+				Há dias tentavam entender como pergaminhos vinham desaparecendo das estantes. Nenhuma fechadura havia sido violada, nenhuma sentinela vira qualquer invasor, e ainda assim os registros continuavam sumindo.
+			</p>
+
+			<p>
+				Um vento frio percorreu os corredores, todas as velas se apagaram ao mesmo tempo. Por um instante, ninguém ousou respirar.
+			</p>
+
+			<p>
+				O silêncio era tão profundo que era possível ouvir o bater de asas de uma borboleta.
 			</p>
 
 			<p class="citacao-final">
@@ -184,15 +196,20 @@ permalink: /beda/cronicas
 			</p>
 
 			<p>
-				Uma única gota escarlate caiu sobre o mármore. Depois outra. E mais outra.
-				A enorme parede ao fundo da biblioteca, antes apenas uma pedra de mármore branca,
-				começou a se tingir lentamente com linhas vermelhas.
+				Uma única gota escarlate caiu sobre o mármore. 
+			</p>
+			
+			<p>	
+				Depois outra. 	
+			<p>
+				E mais outra.
+			</p>
+				A enorme parede ao fundo da biblioteca, antes apenas uma superfície de mármore branco, começou a ser tingida por linhas vermelhas.
 			</p>
 
 			<p>
 				Nenhum escriba se aproximou. As profecias jamais eram escritas por mãos humanas.
-				Quando a última letra foi traçada, o salão mergulhou em um silêncio ainda mais profundo.
-				Na parede, em vermelho vivo, podia-se ler:
+				Quando a última letra foi traçada, o salão mergulhou em um silêncio ainda mais profundo. Na parede, em vermelho vivo, podia-se ler:
 			</p>
 
 			<div class="divisor">✦</div>
@@ -227,11 +244,16 @@ permalink: /beda/cronicas
 			<div class="divisor">✦</div>
 
 			<p>
-				A pedra absorveu lentamente o vermelho, como se a própria biblioteca guardasse aquelas palavras.
+					A pedra absorveu lentamente o vermelho, como se a própria biblioteca guardasse aquelas palavras em seu interior.
 			</p>
 
+			<p>
+				Os escribas trocaram olhares apreensivos.
+				Era o primeiro sinal.
+			<p>
+
 			<p class="citacao-final destaque">
-				Era o início do cumprimento de uma antiga profecia.
+				O início do cumprimento de uma antiga profecia.
 			</p>
 
 		</div>
