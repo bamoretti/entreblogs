@@ -201,9 +201,13 @@ permalink: /beda/cronicas
 			
 			<p>	
 				Depois outra. 	
+			</p>
+			
 			<p>
 				E mais outra.
 			</p>
+			
+			<p>
 				A enorme parede ao fundo da biblioteca, antes apenas uma superfície de mármore branco, começou a ser tingida por linhas vermelhas.
 			</p>
 
