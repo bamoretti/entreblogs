@@ -55,7 +55,7 @@ permalink: /beda/cronicas
 
         <!-- Prólogo -->
 
-        <article class="capitulo">
+        <article id="prologo" class="capitulo">
 
             <div class="capitulo-header">
 
@@ -146,7 +146,7 @@ permalink: /beda/cronicas
 
         <!-- Profecia  -->
 
-        <article class="capitulo">
+        <article id="profecia" class="capitulo">
 
             <div class="capitulo-header">
 
