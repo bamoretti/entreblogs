@@ -163,7 +163,6 @@ permalink: /beda/cronicas
             </div>
 
 
-
 		<div class="capitulo-texto">
 
 			<p>
@@ -254,9 +253,10 @@ permalink: /beda/cronicas
 			<p>
 				Os escribas trocaram olhares apreensivos.
 			</p>
+			
 			<p>
 				Era o primeiro sinal.
-			<p>
+			</p>
 
 			<p class="citacao-final destaque">
 				O início do cumprimento de uma antiga profecia.
