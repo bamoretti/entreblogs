@@ -19,7 +19,7 @@ permalink: /beda/cronicas
 <link rel="icon" type="image/png" sizes="16x16" href="https://entreblogs.com.br/assets/favicon/selo_1_marron.png">
 
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="..\style\beda2026-guardioes-blogosfera.css">
+<link rel="stylesheet" href="..\style\beda2026-cronicas.css">
 
 </head>
 
@@ -178,7 +178,7 @@ permalink: /beda/cronicas
     </section>
 </div>
 
-<script src="..\scripts\beda2026-guardioes-blogosfera.js"></script>
+<script src="..\scripts\beda2026-cronicas.js"></script>
 
 </body>
 
