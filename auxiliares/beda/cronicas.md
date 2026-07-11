@@ -232,7 +232,7 @@ permalink: /beda/cronicas
 				</p>
 
 				<p>
-					As tentações daquele que oferece mais que o necessário<br>
+					As tentações daquele que oferece mais que o necessário,<br>
 					Te fará solitário.<br>
 					As vozes daqueles que estão no mesmo caminho distante soará.<br>
 					Olhe com atenção, a criação a dois guiará.
