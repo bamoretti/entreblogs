@@ -144,6 +144,98 @@ permalink: /beda/cronicas
 
 </article>
 
+        <!-- Profecia  -->
+
+        <article class="capitulo">
+
+            <div class="capitulo-header">
+
+                <span class="capitulo-numero">
+
+                    Profecia
+
+                </span>
+
+            </div>
+
+
+
+		<div class="capitulo-texto">
+
+			<p>
+				Os escribas tentavam entender como pergaminhos estavam desaparecendo da Biblioteca Eterna.
+				Quando um vento frio percorreu os corredores, apagando todas as velas que iluminavam o grande salão.
+			</p>
+
+			<p>
+				Por um instante, ninguém ousou respirar.
+			</p>
+
+			<p>
+				O silêncio era tão grande, que até mesmo era possível ouvir o bater de asas de uma borboleta.
+			</p>
+
+			<p class="citacao-final">
+				...toc... toc... toc...
+			</p>
+
+			<p>
+				Uma única gota escarlate caiu sobre o mármore. Depois outra. E mais outra.
+				A enorme parede ao fundo da biblioteca, antes apenas uma pedra de mármore branca,
+				começou a se tingir lentamente com linhas vermelhas.
+			</p>
+
+			<p>
+				Nenhum escriba se aproximou. As profecias jamais eram escritas por mãos humanas.
+				Quando a última letra foi traçada, o salão mergulhou em um silêncio ainda mais profundo.
+				Na parede, em vermelho vivo, podia-se ler:
+			</p>
+
+			<div class="divisor">✦</div>
+
+			<div class="profecia">
+
+				<p>
+					Cuidado com aquele que o faz duvidar.<br>
+					Os espíritos em sua mente sussurrarão.
+				</p>
+
+				<p>
+					A areia da ampulheta deslizará,<br>
+					temam aqueles que o tempo devorará,<br>
+					mas firmes devem se guiar.
+				</p>
+
+				<p>
+					As tentações daquele que oferece mais que o necessário<br>
+					Te fará solitário.<br>
+					As vozes daqueles que estão no mesmo caminho distante soará.<br>
+					Olhe com atenção, a criação a dois guiará.
+				</p>
+
+				<p>
+					Se o último pergaminho deixar de ser escrito,<br>
+					o esquecimento se tornará infinito.
+				</p>
+
+			</div>
+
+			<div class="divisor">✦</div>
+
+			<p>
+				A pedra absorveu lentamente o vermelho, como se a própria biblioteca guardasse aquelas palavras.
+			</p>
+
+			<p class="citacao-final destaque">
+				Era o início do cumprimento de uma antiga profecia.
+			</p>
+
+		</div>
+
+        </article>
+
+
+ 
 
         <!-- Capítulo I 
 
