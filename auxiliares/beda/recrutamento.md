@@ -1,6 +1,6 @@
 ---
 layout: beda
-title: D&B - Recrutamento
+title: D&B: Recrutamento
 permalink: /beda/teste1
 ---
 
