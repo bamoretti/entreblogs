@@ -1,6 +1,6 @@
 ---
 layout: beda
-title: D&B: Pergaminhos
+title: D&B - Pergaminhos
 permalink: /beda/teste2
 ---
 

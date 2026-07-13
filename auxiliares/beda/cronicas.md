@@ -1,6 +1,6 @@
 ---
 layout: beda
-title: D&B: Crônicas
+title: D&B - Crônicas
 permalink: /beda/cronicas
 ---
 
