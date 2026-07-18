@@ -10,8 +10,8 @@ description: Um espaço para compartilhar perspectivas sobre os mesmos temas, ca
 O intuito desse projeto ⭐ _além de manter a blogosfera viva_ ⭐ é criar um espaço aonde você se sinta confortável para conversar e participar sem cobrança.  
 
 **Como funciona?**
-+ tema mensal;  
-+ clube do livro mensal;
++ Tema mensal;  
++ Clube do livro mensal;
 + Participação dos temas e leituras que quiser, quando puder.
 
 **Quer participar?**  
