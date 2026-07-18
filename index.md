@@ -21,13 +21,9 @@ participação dos temas e leituras que quiser, quando puder;
 + 🪴 [Sinta-se a vontade também para participar da nossa tag entreblogs]({{ site.baseurl }}/extras/por-tras-do-blog/)
 
 <br>
-<h2>A IDEALIZADORA</h2>
-**BARBARA MORETTI** do blog [BMRTT](https://bamoretti.com), quase duas décadas compartilhando aleatoriedades da vida na blogosfera. 
+>
+Idealizado por **BARBARA MORETTI**, do blog [BMRTT](https://bamoretti.com). Mais de duas décadas compartilhando aleatoriedades da vida na blogosfera. Vê no projeto uma forma de fazer mais pessoas compartilharem suas coisinhas e criarem conexões sem deixar a blogosfera morrer. 
 
-Acredito que o projeto é uma forma de fazer mais pessoas compartilharem suas coisinhas e criarem conexões sem deixar a blogosfera morrer. ✨ 
-
-A vida muda mas o blog persiste.  
-
-**A blogosfera persiste.**
+A vida muda, mas o blog persiste. **A blogosfera persiste.**
 
 {% include arquivo-secreto.html %}
