@@ -9,18 +9,16 @@ description: Um espaço para compartilhar perspectivas sobre os mesmos temas, ca
 
 O intuito desse projeto ⭐ _além de manter a blogosfera viva_ ⭐ é criar um espaço aonde você se sinta confortável para conversar e participar sem cobrança.  
 
-**O que fazemos?**
-> 
-um tema mensal;  
-clube do livro mensal;  
-participação dos temas e leituras que quiser, quando puder;   
+**Como funciona?**
++ tema mensal;  
++ clube do livro mensal;
++ Participação dos temas e leituras que quiser, quando puder.
 
 **Quer participar?**  
 <blockquote class="fleabag"> Só enviar um e-mail para <a href="mailto:coletivoentreblogs@gmail.com?subject=Também quero participar da comunidade">coletivoentreblogs@gmail.com</a> que disponibilizaremos o link da nossa comunidade para você.</blockquote>
 
 + 🪴 [Sinta-se a vontade também para participar da nossa tag entreblogs]({{ site.baseurl }}/extras/por-tras-do-blog/)
 
-<br>
 >
 Idealizado por **BARBARA MORETTI**, do blog [BMRTT](https://bamoretti.com). Mais de duas décadas compartilhando aleatoriedades da vida na blogosfera. Vê no projeto uma forma de fazer mais pessoas compartilharem suas coisinhas e criarem conexões sem deixar a blogosfera morrer. 
 
