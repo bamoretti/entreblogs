@@ -1,7 +1,7 @@
 ---
 layout: beda
 title: D&B - Recrutamento
-permalink: /beda/2026/recrutamento
+permalink: /beda/teste1
 ---
 
 <html lang="pt">
