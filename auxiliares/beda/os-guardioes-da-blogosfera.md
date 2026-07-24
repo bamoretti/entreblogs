@@ -446,7 +446,7 @@ A cada semana, um novo senhor das trevas surgirá das sombras, trazendo consigo 
 
         <p>
 
-            Antes de tudo, preencha o <strong><a href="/beda/recrutamento">Formulário de Cadastro</a></strong>.
+            Antes de tudo, preencha o <strong><a href="/beda/2026/recrutamento">Formulário de Cadastro</a></strong>.
         </p>
 
         <ul>
