@@ -1,7 +1,7 @@
 ---
 layout: beda
 title: D&B - Recrutamento
-permalink: /beda/2026/recrutamento
+permalink: /beda/recrutamento
 ---
 
 <html lang="pt">
@@ -19,7 +19,7 @@ permalink: /beda/2026/recrutamento
 <link rel="icon" type="image/png" sizes="16x16" href="https://entreblogs.com.br/assets/favicon/selo_1_marron.png">
 
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="https://entreblogs.com.br/style/beda2026-recrutamento.css">
+<link rel="stylesheet" href="..\..\style\beda2026-recrutamento.css">
 
 </head>
 
@@ -29,13 +29,13 @@ permalink: /beda/2026/recrutamento
 
 
     <img
-        src="../assets/beda/pena-pergaminho.png"
+        src="../../assets/beda/pena-pergaminho.png"
         alt="BEDA 2026"
         class="logo-beda-pergaminho"
     >
 	
     <img
-        src="../assets/beda/titulo.png"
+        src="../../assets/beda/titulo.png"
         alt="BEDA 2026"
         class="logo-beda"
     >
@@ -71,7 +71,7 @@ permalink: /beda/2026/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="../assets/beda/ribbon2.png"
+                        src="../../assets/beda/ribbon2.png"
                         alt=""
                         class="jornada-title-bg">
 
@@ -98,7 +98,7 @@ permalink: /beda/2026/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="../assets/beda/ribbon2.png"
+                        src="../../assets/beda/ribbon2.png"
                         alt=""
                         class="jornada-title-bg">
 
@@ -125,7 +125,7 @@ permalink: /beda/2026/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="../assets/beda/ribbon2.png"
+                        src="../../assets/beda/ribbon2.png"
                         alt=""
                         class="jornada-title-bg">
 
@@ -174,7 +174,7 @@ permalink: /beda/2026/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="../assets/beda/ribbon.png"
+                        src="../../assets/beda/ribbon.png"
                         alt=""
                         class="classe-title-bg">
 
@@ -212,7 +212,7 @@ permalink: /beda/2026/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="../assets/beda/ribbon.png"
+                        src="../../assets/beda/ribbon.png"
                         alt=""
                         class="classe-title-bg">
 
@@ -248,7 +248,7 @@ permalink: /beda/2026/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="../assets/beda/ribbon.png"
+                        src="../../assets/beda/ribbon.png"
                         alt=""
                         class="classe-title-bg">
 
@@ -285,7 +285,7 @@ permalink: /beda/2026/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="../assets/beda/ribbon.png"
+                        src="../../assets/beda/ribbon.png"
                         alt=""
                         class="classe-title-bg">
 
@@ -321,7 +321,7 @@ permalink: /beda/2026/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="../assets/beda/ribbon.png"
+                        src="../../assets/beda/ribbon.png"
                         alt=""
                         class="classe-title-bg">
 
@@ -358,7 +358,7 @@ permalink: /beda/2026/recrutamento
                 <div class="classe-title">
 
                     <img
-                        src="../assets/beda/ribbon.png"
+                        src="../../assets/beda/ribbon.png"
                         alt=""
                         class="classe-title-bg">
 
@@ -477,7 +477,7 @@ permalink: /beda/2026/recrutamento
 </div>
 
     <img
-        src="../assets/beda/pena.png"
+        src="../../assets/beda/pena.png"
         alt="separar página"
         class="separador"
     >
