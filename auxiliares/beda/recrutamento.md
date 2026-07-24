@@ -1,7 +1,7 @@
 ---
 layout: beda
 title: D&B - Recrutamento
-permalink: /beda/teste1
+permalink: /beda/2026/recrutamento
 ---
 
 <html lang="pt">
@@ -19,7 +19,7 @@ permalink: /beda/teste1
 <link rel="icon" type="image/png" sizes="16x16" href="https://entreblogs.com.br/assets/favicon/selo_1_marron.png">
 
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="..\style\beda2026-recrutamento.css">
+<link rel="stylesheet" href="https://entreblogs.com.br/style/beda2026-recrutamento.css">
 
 </head>
 
