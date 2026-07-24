@@ -19,7 +19,7 @@ permalink: /beda/2026/pergaminhos
 <link rel="icon" type="image/png" sizes="16x16" href="https://entreblogs.com.br/assets/favicon/selo_1_marron.png">
 
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="https://entreblogs.com.br/style/beda2026-pergaminhos.css">
+<link rel="stylesheet" href="..\..\style\beda2026-pergaminhos.css">
 
 </head>
 
@@ -29,13 +29,13 @@ permalink: /beda/2026/pergaminhos
 
 
     <img
-        src="../assets/beda/pena-pergaminho.png"
+        src="../../assets/beda/pena-pergaminho.png"
         alt="BEDA 2026"
         class="logo-beda-pergaminho"
     >
 	
     <img
-        src="../assets/beda/titulo.png"
+        src="../../assets/beda/titulo.png"
         alt="BEDA 2026"
         class="logo-beda"
     >
@@ -91,7 +91,7 @@ permalink: /beda/2026/pergaminhos
 
 </div>
 
-<script src=""https://entreblogs.com.br\scripts\beda2026-pergaminhos.js"></script>
+<script src="..\..\scripts\beda2026-pergaminhos.js"></script>
 
 </body>
 

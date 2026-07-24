@@ -19,7 +19,7 @@ permalink: /beda/2026/
 
 <link rel="manifest" href="/site.webmanifest">
 
-<link rel="stylesheet" href="..\style\beda2026-painel.css">
+<link rel="stylesheet" href="..\..\style\beda2026-painel.css">
 
 <style>
 
@@ -32,13 +32,13 @@ permalink: /beda/2026/
 <div class="container">
 
     <img
-        src="../assets/beda/pena-pergaminho.png"
+        src="../../assets/beda/pena-pergaminho.png"
         alt="BEDA 2026"
         class="logo-beda-pergaminho"
     >
 	
     <img
-        src="../assets/beda/titulo.png"
+        src="../../assets/beda/titulo.png"
         alt="BEDA 2026"
         class="logo-beda"
     >
@@ -48,7 +48,7 @@ Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em t
 </div>
 
     <img
-        src="../assets/beda/pergaminho.png"
+        src="../../assets/beda/pergaminho.png"
         alt="separar página"
         class="separador-maior"
     >
@@ -177,7 +177,7 @@ A cada semana, um novo senhor das trevas surgirá das sombras, trazendo consigo 
 
 
     <img
-        src="../assets/beda/pena.png"
+        src="../../assets/beda/pena.png"
         alt="separar página"
         class="separador"
     >
@@ -519,10 +519,10 @@ A cada semana, um novo senhor das trevas surgirá das sombras, trazendo consigo 
 </a>
 
 
-<script src="..\scripts\beda2026-viloes.js"></script>
-<script src="..\scripts\beda2026-missoes.js"></script>
-<script src="..\scripts\beda2026-ataques.js"></script>
-<script src="..\scripts\beda2026-jogadores.js"></script>
+<script src="..\..\scripts\beda2026-viloes.js"></script>
+<script src="..\..\scripts\beda2026-missoes.js"></script>
+<script src="..\..\scripts\beda2026-ataques.js"></script>
+<script src="..\..\scripts\beda2026-jogadores.js"></script>
 
 
 </body>
