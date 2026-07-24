@@ -83,7 +83,7 @@ permalink: /beda/2026/recrutamento
 
 			<p>31 dias • A campanha completa</p><br>
 			<p>Você decidiu aceitar a missão principal.</p>
-			Durante todo o mês de agosto, percorrerá uma nova etapa da aventura a cada dia, escrevendo uma postagem diária e ajudando a manter viva a chama da criatividade.
+			Durante todo o mês de agosto, percorrerá uma nova etapa da aventura a cada dia, escrevendo uma postagem diária e ajudando a manter viva a chama da criatividade.<br><br>
 			<p>Missão: tentar publicar todos os dias de agosto.</p>
 
 
@@ -110,7 +110,7 @@ permalink: /beda/2026/recrutamento
 
 				<p><a href="https://porce-lana.blogspot.com/p/bewa-main-page-crosscol.html"> Formato BEWA • Uma parada por semana</a></p><br>
 				<p>Percorre o reino em rondas periódicas.</p>
-				Segue seu próprio ritmo, faz pausas para observar o caminho e retorna sempre que encontra uma nova história para contar.<br>
+				Segue seu próprio ritmo, faz pausas para observar o caminho e retorna sempre que encontra uma nova história para contar.<br><br>
 				<p>Missão: publicar pelo menos uma vez por semana durante agosto.</p>
 
 
@@ -137,7 +137,7 @@ permalink: /beda/2026/recrutamento
 				<p>Quando o coração indicar o caminho</p><br>
 				<p>O Andarilho não segue mapas nem calendários.</p>
 				Ele aparece quando encontra uma boa história, um tema inspirador ou simplesmente quando sente vontade de escrever.
-				Cada encontro com a guilda fortalece a aventura.<br>
+				Cada encontro com a guilda fortalece a aventura.<br><br>
 				<p>Missão: participar sempre que desejar.</p>
 
                 </div>
