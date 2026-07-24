@@ -1,7 +1,7 @@
 ---
 layout: beda
 title: D&B - Recrutamento
-permalink: /beda/teste1
+permalink: /beda/os-guardioes-da-blogosfera/recrutamento
 ---
 
 <html lang="pt">

@@ -1,7 +1,7 @@
 ---
 layout: beda
 title: D&B - Pergaminhos
-permalink: /beda/teste2
+permalink: /beda/os-guardioes-da-blogosfera/pergaminhos
 ---
 
 <html lang="pt">
