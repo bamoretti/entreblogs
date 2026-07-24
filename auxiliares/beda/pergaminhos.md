@@ -19,7 +19,7 @@ permalink: /beda/os-guardioes-da-blogosfera/pergaminhos
 <link rel="icon" type="image/png" sizes="16x16" href="https://entreblogs.com.br/assets/favicon/selo_1_marron.png">
 
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="..\style\beda2026-pergaminhos.css">
+<link rel="stylesheet" href="https://entreblogs.com.br/style/beda2026-pergaminhos.css">
 
 </head>
 
