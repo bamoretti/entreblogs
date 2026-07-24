@@ -91,7 +91,7 @@ permalink: /beda/2026/pergaminhos
 
 </div>
 
-<script src="..\scripts\beda2026-pergaminhos.js"></script>
+<script src=""https://entreblogs.com.br\scripts\beda2026-pergaminhos.js"></script>
 
 </body>
 
