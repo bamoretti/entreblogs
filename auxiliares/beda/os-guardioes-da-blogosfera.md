@@ -1,7 +1,7 @@
 ---
 layout: beda
 title: D&B - Os Guardiões da Blogosfera
-permalink: /beda/os-guardioes-da-blogosfera/
+permalink: /beda/2026/
 ---
 
 <html lang="pt">
