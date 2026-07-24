@@ -1,7 +1,7 @@
 ---
 layout: beda
 title: D&B - Crônicas
-permalink: /beda/cronicas
+permalink: /beda/2026/cronicas
 ---
 
 <html lang="pt">
@@ -19,7 +19,7 @@ permalink: /beda/cronicas
 <link rel="icon" type="image/png" sizes="16x16" href="https://entreblogs.com.br/assets/favicon/selo_1_marron.png">
 
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="..\style\beda2026-cronicas.css">
+<link rel="stylesheet" href="..\..\style\beda2026-cronicas.css">
 
 </head>
 
@@ -29,13 +29,13 @@ permalink: /beda/cronicas
 
 
     <img
-        src="../assets/beda/pena-pergaminho.png"
+        src="../../assets/beda/pena-pergaminho.png"
         alt="BEDA 2026"
         class="logo-beda-pergaminho"
     >
 	
     <img
-        src="../assets/beda/titulo.png"
+        src="../../assets/beda/titulo.png"
         alt="BEDA 2026"
         class="logo-beda"
     >
@@ -296,7 +296,7 @@ permalink: /beda/cronicas
     </section>
 	</div>
 
-<script src="..\scripts\beda2026-cronicas.js"></script>
+<script src="..\..\scripts\beda2026-cronicas.js"></script>
 
 	</body>
 
