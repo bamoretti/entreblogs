@@ -33,501 +33,1705 @@ permalink: /testes/
 
 <body>
 
-<div class="container">
+<button id="abrir-participantes" class="btn-participantes">
+    🧙 Ver todos os aventureiros
+</button>
 
-    <img
-        src="../assets/beda/pena-pergaminho.png"
-        alt="BEDA 2026"
-        class="logo-beda-pergaminho"
-    >
-	
-    <img
-        src="../assets/beda/titulo.png"
-        alt="BEDA 2026"
-        class="logo-beda"
-    >
-	
-<div class="descricao-beda">
-Antes que agosto despontasse no horizonte, a blogosfera ameaçava mergulhar em tempos de silêncio. Mas existe uma antiga tradição, conhecida entre aldeões pelo nome de BEDA. Quando chega a Estação da Escrita, aventureiros atendem ao chamado para registrar histórias, reacender blogs e impedir que a chama da criatividade apague e o esquecimento roube memórias. Assim começa a jornada dos Guardiões da Blogosfera.
-</div>
+<!-- ==========================================================
+     POPUP DOS PARTICIPANTES
+========================================================== -->
 
-    <img
-        src="../assets/beda/pergaminho.png"
-        alt="separar página"
-        class="separador-maior"
-    >
+<div id="popup-participantes" class="popup-participantes">
 
-<div class="viloes">	
+    <div class="popup-overlay"></div>
 
-	<h3>Vilão da Semana</h3>
-	
-	<div class="descricao-beda">
-A cada semana, um novo senhor das trevas surgirá das sombras, trazendo consigo ameaças e desafios jamais vistos. Para enfrentá-lo, heróis corajosos receberão missões épicas, atravessando florestas encantadas, ruínas esquecidas e terras amaldiçoadas. Somente ao cumprir cada prova e derrotar o vilão da semana será possível restaurar a paz ao reino... </div>
-	
-	<img id="bossImage">
+    <div class="popup-conteudo">
 
-	<div class="hpHeader">
-
-		<span>HP</span>
-
-		<span id="bossHPText"></span>
-
-		</div>
-
-		<div class="hp">
-
-		<div id="bossBar"></div>
-
-	</div>
-	
-	<div class="period" id="bossPeriod"></div>
-	<div class="description" id="bossDescription"></div>
-</div>
-
-<div class="missoes">
-
-    <h3>Missões da Semana Contra o Vilão</h3>
-
-    <div id="listaMissoes">
-
-        <div class="loading">
-            Carregando missões...
-        </div>
-
-    </div>
-
-</div>
-
-
-
-<section class="battle-log">
-
-    <div class="battle-header">
-
-        <h2>Últimos Ataques ao Vilão</h2>
-
-        <p>
-            Os Guardiões registram aqui todas as investidas contra o vilão
-        </p>
-
-    </div>
-
-    <div class="battle-table-wrapper">
-
-        <table class="battle-table">
-
-            <thead>
-
-                <tr>
-
-                    <th>Data</th>
-
-                    <th>Personagem</th>
-
-                    <th>Ataque</th>
-
-                    <th>Dano</th>
-
-                    <th>Medalha</th>
-
-                    <th>Pergaminho</th>
-
-                </tr>
-
-            </thead>
-
-            <tbody id="battleBody">
-
-                <tr>
-
-                    <td colspan="6">
-
-                        Carregando ataques...
-
-                    </td>
-
-                </tr>
-
-            </tbody>
-
-        </table>
-
-    </div>
-
-    <div class="battle-footer">
-
-        <button id="toggleBattle">
-
-            Ver todos os ataques
-
+        <button
+            id="fechar-participantes"
+            class="popup-fechar"
+            aria-label="Fechar"
+        >
+            ×
         </button>
 
-    </div>
+        <div class="popup-cabecalho">
 
-</section>
+            <span class="popup-ornamento">✦</span>
 
-<div class="attack-action">
-    <a
-        href="https://forms.gle/4WSDM3G162sUCh8AA"
-        target="_blank"
-        rel="noopener"
-        class="attack-button">
+            <h2>
+                Aventureiros da Blogosfera
+            </h2>
 
-        Faça um Ataque
+            <p>
+                Aqueles que aceitaram o chamado e partiram
+                em busca das histórias esquecidas.
+            </p>
 
-    </a>
-</div>
+        </div>
 
+        <div
+            id="lista-participantes"
+            class="lista-participantes"
+        >
 
-
-    <img
-        src="../assets/beda/pena.png"
-        alt="separar página"
-        class="separador"
-    >
-	
-	
-<!-- ==========================================
-     GUARDIÕES DA BLOGOSFERA
-========================================== -->
-
-<section class="players-section">
-
-    <div class="players-header">
-
-        <h3>Guardiões da Blogosfera</h3>
-
-        <p>
-            Cada guardião fortalece o Os Manuscritos Antigos com seus pergaminhos.
-			
-        </p>
-
-    </div>
-
-    <div id="playersGrid" class="players-grid">
-
-        <div class="player-loading">
-
-            Carregando guardiões...
+            <div class="participantes-carregando">
+                Consultando os registros da Biblioteca Eterna...
+            </div>
 
         </div>
 
     </div>
 
-</section>
-
-<div id="tooltip"></div>	
 </div>
 
-<!-- ==========================================================
-     GRIMÓRIO DA BLOGOSFERA
-========================================================== -->
-
-<button title="Grimório - Lista de Ideias" id="grimorioButton" aria-label="Grimório da Blogosfera">
-
-    
-
-</button>
-
-<div id="grimorioOverlay">
-
-    <div id="grimorioModal">
-
-        <button id="grimorioClose">✕</button>
-
-        <h1>Grimório de Feitiços</h1>
-
-        <p>
-
-            Bem-vindo ao Grimório de Feitiços, use-o com sabedoria. 
-
-        </p>
-
-        <hr>
-
-        <h2>📝 Memórias & Nostalgia</h2>
-
-		<p>
-			• Escreva sobre algo que você tem medo de esquecer no futuro.<br>
-			• Conte a história de uma pessoa que marcou a sua vida.<br>
-			• Escreva sobre uma lembrança que ainda não apareceu no seu blog.<br>
-			• Escolha uma foto aleatória da sua galeria e conte a história por trás dela.<br>
-			• Escreva uma carta para o seu eu do passado ou do futuro.<br>
-			• Escolha uma foto antiga e recrie a mesma cena hoje.<br>
-			• Um lugar que faz parte da sua história.<br>
-			• Conte uma lembrança engraçada.<br>
-			• Uma conversa que você nunca esqueceu.<br>
-			• Um sonho que já realizou.<br>
-			• Uma fase da vida que sente saudade.<br>
-			• Algo que você faria diferente hoje.<br>
-			• Uma comida que traz lembranças.<br>
-			• Uma fotografia que sempre faz você sorrir.<br>
-			• Objetos que contam sua história.<br>
-			• Conte a história por trás do seu nome ou apelido.<br>
-			• Compartilhe uma receita que faz parte da sua história.
-		</p>
-	
-		<hr>
-	
-		<h2>📖 Cotidiano</h2>
-		
-		<p>
-			• Escreva sobre algo que aconteceu nas últimas 24 horas.<br>
-			• Conte como foi o seu dia pelo ponto de vista de um objeto, do seu pet ou de uma criança.<br>
-			• Conte como foi o seu dia.<br>
-			• Mostre um dia comum em fotos.<br>
-			• Apresente sua mesa de trabalho, estudos ou criação.<br>
-			• Conte como você organiza a sua semana.<br>
-			• Mostre o que costuma carregar na bolsa, mochila ou carteira.<br>
-			• Como está seu mês até agora?<br>
-			• Três pequenas alegrias da semana.<br>
-			• O melhor momento do seu dia.<br>
-			• O que fez você rir recentemente?<br>
-			• Algo simples que melhorou sua rotina.<br>
-			• Como você costuma descansar.<br>
-			• O que nunca falta no seu café da manhã.<br>
-			• Como é seu cantinho favorito da casa.<br>
-			• O que você sempre deixa para depois.<br>
-			• Uma mania que você tem.<br>
-			• O primeiro pensamento quando acorda.<br>
-			• Como você costuma terminar o dia.<br>
-			• Seu ritual de fim de semana.
-		</p>
-
-		<hr>
-		
-		<h2>📸 Fotografia</h2>
-		
-		<p>
-			• Mostre um dia comum em fotos.<br>
-			• Publique cinco fotos sem contexto.<br>
-			• Registre detalhes que normalmente passam despercebidos.<br>
-			• Mostre o céu de hoje.<br>
-			• O céu em diferentes momentos do dia.<br>
-			• Um passeio em fotos.<br>
-			• Conte uma história usando cinco imagens.
-		</p>
-		
-		<hr>
-		
-		<h2>🌱 Reflexões</h2>
-		
-		<p>
-			• Conte o que mudou na sua vida este ano.<br>
-			• Liste algumas das suas sensações favoritas.<br>
-			• Algo que você aprendeu recentemente.<br>
-			• O que significa "lar" para você?<br>
-			• O que tem ocupado seus pensamentos?<br>
-			• Uma opinião que mudou com o tempo.<br>
-			• Uma pequena vitória que merece ser comemorada.<br>
-			• O que você faria se tivesse um dia inteiro livre?<br>
-			• Um momento em que saiu da sua zona de conforto.<br>
-			• Algo que você gostaria de lembrar daqui a dez anos.<br>
-			• O que faz um dia valer a pena.<br>
-			• O que significa sucesso para você.<br>
-			• Como você define felicidade hoje.<br>
-			• Uma mudança pela qual é grato.<br>
-			• O que você desaprendeu.<br>
-			• Um conselho que realmente funcionou.
-		</p>
-		
-		<hr>
-		
-		<h2>⭐ Favoritos & Recomendações</h2>
-		
-		<p>
-			• Indique algo que você gosta e acha que mais gente deveria conhecer.<br>
-			• Compartilhe pequenos hábitos que você ama.<br>
-			• Indique blogs que inspiram você.<br>
-			• Faça uma lista com cinco coisas que você quer fazer este mês.<br>
-			• Compartilhe seus favoritos do momento.<br>
-			• Compartilhe seus posts favoritos.<br>
-			• Cinco pequenas alegrias do dia a dia.<br>
-			• Objetos dos quais você não abre mão.<br>
-			• Músicas que marcaram sua vida.<br>
-			• Aplicativos que mais usa.<br>
-			• Livros que gostaria de reler.<br>
-			• O último livro que terminou.<br>
-			• Um livro que mudou sua forma de pensar.<br>
-			• Uma série que maratonou.<br>
-			• Um filme que sempre reassiste.<br>
-			• Um personagem com quem você se identifica.<br>
-			• Lugares que ainda quer conhecer.<br>
-			• Pessoas que inspiram você.
-		</p>
-		
-		<hr>
-		
-		<h2>🎯 Listas & Coleções</h2>
-		
-		<p>
-			• Faça uma lista de ideias que ainda quer colocar em prática.<br>
-			• Três coisas que estão na sua mesa agora.<br>
-			• Um cheiro que traz boas lembranças.<br>
-			• Uma música que descreve seu momento atual.<br>
-			• Coisas que você coleciona.<br>
-			• Pequenas conquistas deste ano.<br>
-			• Coisas pelas quais é grato hoje.<br>
-			• Coisas que aprendeu este mês.<br>
-			• Cinco curiosidades sobre você.<br>
-			• Mostre cinco objetos que representam quem você é.
-		</p>
-		
-		<hr>
-		
-		<h2>✨ Criatividade</h2>
-		
-		<p>
-			• Um dia que parecia comum, mas acabou sendo especial.<br>
-			• Uma amizade inesperada.<br>
-			• Uma coincidência curiosa.<br>
-			• Faça um post inspirado na previsão do tempo de hoje.<br>
-			• Monte uma playlist para um dia específico.<br>
-			• Escreva sobre uma tradição que você criou ou mantém.<br>
-			• Escolha uma palavra e escreva tudo o que ela faz você lembrar.<br>
-			• Abra um livro aleatório e escreva inspirado na primeira frase que encontrar.<br>
-			• Conte uma história começando pelo final.<br>
-			• Como lida com bloqueios criativos.<br>
-			• Uma habilidade que gostaria de desenvolver.
-		</p> 
-
-    </div>
-
-</div>
-
-<!-- ==========================================================
-     MANUAL DO AVENTUREIRO
-========================================================== -->
+<style>
+  /* ==========================================================
+   BOTÃO PARTICIPANTES
+========================================================== */
 
-<button id="manualButton"  title="Manual de Aventureiro" aria-label="Manual do Aventureiro">
-
-</button>
+.btn-participantes{
 
-<div id="manualOverlay">
+    display:inline-block;
 
-    <div id="manualModal">
+    padding:12px 22px;
 
-        <button id="manualClose">✕</button>
+    border:2px solid var(--marrom-medio);
 
-        <h1>Manual do Aventureiro</h1>
+    border-radius:30px;
 
-        <h2>O que é o BEDA?</h2>
+    background:var(--marrom-escuro);
 
-        <p>
+    color:var(--marrom-claro);
 
-            O <strong>BEDA (Blog Every Day in August)</strong> é uma jornada
-            criativa em que aventureiros dos blogs se reúnem durante o mês de
-            agosto para cumprir um desafio: publicar algo todos os dias.
+    font-family:var(--fonte-corpo);
 
-        </p>
+    font-size:var(--fonte-corpo-size);
 
-        <p>
+    cursor:pointer;
 
-            Pense nele como uma campanha de aventura.
+    transition:
+        transform .2s ease,
+        background .2s ease,
+        box-shadow .2s ease;
 
-        </p>
+}
 
-        <p>
+.btn-participantes:hover{
 
-            Cada participante é um viajante com seu próprio mapa,
-            sua própria história e seus próprios recursos.
-            Alguns chegam com uma mochila cheia de ideias;
-            outros encontram tesouros pelo caminho.
+    background:var(--marrom-medio);
 
-        </p>
+    transform:translateY(-2px);
 
-        <p>
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.20);
 
-            Nem todo aventureiro precisa completar a jornada inteira para
-            fazer parte da lenda. O importante é compartilhar histórias,
-            fortalecer a comunidade e descobrir até onde sua criatividade pode levar.
+}
 
-        </p>
 
-        <hr>
+/* ==========================================================
+   POPUP
+========================================================== */
 
-        <h2>1. Escolha sua jornada</h2>
+.popup-participantes{
 
-        <p>
+    position:fixed;
 
-            Antes de tudo, preencha o <strong><a href="/beda/recrutamento">Formulário de Cadastro</a></strong>.
-        </p>
+    inset:0;
 
-        <ul>
+    z-index:99999;
 
-            <li><strong>🛡️ Jornada do Herói (BEDA)</strong><br>
-            Publique todos os dias de agosto.<br></li>
+    display:none;
 
-            <li><strong>🏹 Jornada do Patrulheiro (BEWA)</strong><br>
-            Publique pelo menos uma vez por semana.<br></li>
+}
 
-            <li><strong>🎒 Jornada do Andarilho</strong><br>
-            Publique quando desejar.<br></li>
+.popup-participantes.aberto{
 
-        </ul>
+    display:flex;
 
-        <hr>
+    align-items:center;
 
-        <h2>2. Registre cada publicação</h2>
+    justify-content:center;
 
-        <p>
+}
 
-            Sempre que publicar um texto,
-            clique em <strong>Faça um Ataque</strong>
-            e registre sua postagem.
 
-        </p>
+/* ==========================================================
+   FUNDO ESCURO
+========================================================== */
 
-        <hr>
+.popup-overlay{
 
-        <h2>3. Acompanhe sua evolução</h2>
+    position:absolute;
 
-        <p>
+    inset:0;
 
-            Seus registros geram ataques,
-            pontos,
-            medalhas,
-            conquistas
-            e evolução do personagem.
+    background:rgba(30,18,12,.72);
 
-        </p>
+    backdrop-filter:blur(4px);
 
-        <hr>
+}
+  
+.participante-classe {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-family: var(--fonte-corpo);
+    font-size: .78rem;
+    line-height: 1.3;
+    color: var(--marrom-medio);
+    font-style: italic;
+}
 
-        <h2>4. Explore a campanha</h2>
+.tooltip-jornada{
+  margin-top: 10px;
+  text-align:center;
+}
 
-        <p>
+/* ==========================================================
+   CAIXA
+========================================================== */
 
-            Novos vilões,
-            missões
-            e desafios surgirão durante agosto.
+.popup-conteudo{
 
-            Volte sempre para acompanhar a campanha!
+    position:relative;
 
-        </p>
+    z-index:2;
 
-    </div>
+    width:min(1000px,92vw);
 
-</div>
+    max-height:88vh;
 
+    overflow-y:auto;
 
-<a
-    id="playlistButton"
-    href="https://open.spotify.com/playlist/39Ajx3HKVtVZmwKygaMeMI?go=1&sp_cid=4e9cf311e91d46d0b9de38f5a5503586&utm_source=embed_player_p&utm_medium=desktop&si=9a0c3a3df4a24d64&nd=1&dlsi=0af08b2579524c83"
-    target="_blank"
-    rel="noopener noreferrer"
-    title="Trilha Sonora da Campanha">
+    padding:40px;
 
-    
+    background:
 
-</a>
+        linear-gradient(
+            rgba(255,248,230,.96),
+            rgba(239,222,190,.96)
+        );
 
+    border:2px solid var(--marrom-medio);
 
-<script src="..\scripts\beda2026-viloes.js"></script>
-<script src="..\scripts\beda2026-missoes.js"></script>
-<script src="..\scripts\beda2026-ataques.js"></script>
-<script src="..\scripts\beda2026-jogadores.js"></script>
+    border-radius:24px;
 
+    box-shadow:
+        0 25px 70px rgba(0,0,0,.45);
+
+    animation:
+        abrir-popup .25s ease;
+
+}
+
+
+/* ==========================================================
+   ANIMAÇÃO
+========================================================== */
+
+@keyframes abrir-popup{
+
+    from{
+
+        opacity:0;
+
+        transform:
+            translateY(20px)
+            scale(.97);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:
+            translateY(0)
+            scale(1);
+
+    }
+
+}
+
+
+/* ==========================================================
+   BOTÃO FECHAR
+========================================================== */
+
+.popup-fechar{
+
+    position:absolute;
+
+    top:15px;
+
+    right:18px;
+
+    width:38px;
+
+    height:38px;
+
+    border:1px solid var(--marrom-medio);
+
+    border-radius:50%;
+
+    background:transparent;
+
+    color:var(--marrom-escuro);
+
+    font-family:Arial,sans-serif;
+
+    font-size:28px;
+
+    line-height:30px;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.popup-fechar:hover{
+
+    background:var(--marrom-escuro);
+
+    color:var(--marrom-claro);
+
+    transform:rotate(90deg);
+
+}
+
+
+/* ==========================================================
+   CABEÇALHO
+========================================================== */
+
+.popup-cabecalho{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+    padding:0 30px;
+
+}
+
+.popup-cabecalho h2{
+
+    margin:5px 0 10px;
+
+    font-family:var(--fonte-titulo);
+
+    font-size:3rem;
+
+    font-weight:400;
+
+    color:var(--marrom-escuro);
+
+}
+
+.popup-cabecalho p{
+
+    max-width:600px;
+
+    margin:0 auto;
+
+    font-family:var(--fonte-corpo);
+
+    font-size:.95rem;
+
+    line-height:1.6;
+
+    color:var(--marrom-escuro);
+
+}
+
+.popup-ornamento{
+
+    display:block;
+
+    color:var(--amarelo);
+
+    font-size:1.7rem;
+
+}
+
+
+/* ==========================================================
+   LISTA
+========================================================== */
+
+.lista-participantes{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(auto-fill,minmax(130px,1fr));
+
+    gap:30px 20px;
+
+    justify-items:center;
+
+}
+
+
+/* ==========================================================
+   PARTICIPANTE
+========================================================== */
+
+.participante{
+
+    position:relative;
+
+    width:130px;
+
+    text-align:center;
+
+    cursor:pointer;
+
+}
+
+
+/* ==========================================================
+   AVATAR
+========================================================== */
+
+.participante-avatar{
+
+    position:relative;
+
+    width:105px;
+
+    height:105px;
+
+    margin:0 auto 12px;
+
+    border-radius:50%;
+
+    overflow:hidden;
+
+    border:3px solid var(--marrom-medio);
+
+    background:var(--marrom-claro);
+
+    box-shadow:
+        0 6px 15px rgba(0,0,0,.18);
+
+    transition:
+        transform .25s ease,
+        border-color .25s ease,
+        box-shadow .25s ease;
+
+}
+
+.participante:hover
+.participante-avatar{
+
+    transform:
+        translateY(-5px)
+        scale(1.05);
+
+    border-color:var(--amarelo);
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.25);
+
+}
+
+.participante-avatar img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+
+/* ==========================================================
+   NOME
+========================================================== */
+
+.participante-nome{
+
+    display:block;
+
+    font-family:var(--fonte-corpo);
+
+    font-size:.9rem;
+
+    line-height:1.3;
+
+    color:var(--marrom-escuro);
+
+    overflow-wrap:anywhere;
+
+}
+
+
+/* ==========================================================
+   DESCRIÇÃO / TOOLTIP
+========================================================== */
+
+.participante-descricao{
+
+    position:absolute;
+
+    left:50%;
+
+    bottom:calc(100% - 5px);
+
+    width:230px;
+
+    padding:13px 15px;
+
+    transform:
+        translateX(-50%)
+        translateY(8px);
+
+    background:var(--marrom-escuro);
+
+    color:var(--marrom-claro);
+
+    border:1px solid var(--amarelo);
+
+    border-radius:12px;
+
+    font-family:var(--fonte-corpo);
+
+    font-size:.82rem;
+
+    line-height:1.5;
+
+    text-align:left;
+
+    opacity:0;
+
+    visibility:hidden;
+
+    pointer-events:none;
+
+    transition:
+        opacity .2s ease,
+        transform .2s ease;
+
+    z-index:20;
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.35);
+
+}
+
+
+/* pequeno triângulo */
+
+.participante-descricao::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:50%;
+
+    bottom:-8px;
+
+    transform:translateX(-50%);
+
+    border-left:8px solid transparent;
+
+    border-right:8px solid transparent;
+
+    border-top:8px solid var(--amarelo);
+
+}
+
+
+.participante:hover
+.participante-descricao{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:
+        translateX(-50%)
+        translateY(0);
+
+}
+
+
+/* ==========================================================
+   CARREGANDO
+========================================================== */
+
+.participantes-carregando{
+
+    grid-column:1 / -1;
+
+    padding:40px 20px;
+
+    text-align:center;
+
+    font-family:var(--fonte-corpo);
+
+    color:var(--marrom-escuro);
+
+}
+
+
+/* ==========================================================
+   ERRO
+========================================================== */
+
+.participantes-erro{
+
+    grid-column:1 / -1;
+
+    padding:30px;
+
+    text-align:center;
+
+    font-family:var(--fonte-corpo);
+
+    color:var(--marrom-escuro);
+
+}
+
+
+/* ==========================================================
+   MOBILE
+========================================================== */
+
+@media(max-width:600px){
+
+    .popup-conteudo{
+
+        width:94vw;
+
+        max-height:90vh;
+
+        padding:30px 18px;
+
+    }
+
+    .popup-cabecalho{
+
+        padding:0 25px;
+
+    }
+
+    .popup-cabecalho h2{
+
+        font-size:2.3rem;
+
+    }
+
+    .lista-participantes{
+
+        grid-template-columns:
+            repeat(3,1fr);
+
+        gap:25px 8px;
+
+    }
+
+    .participante{
+
+        width:100px;
+
+    }
+
+    .participante-avatar{
+
+        width:82px;
+
+        height:82px;
+
+    }
+
+    /*
+       No celular não existe hover.
+       A descrição aparece quando o participante
+       recebe a classe "mostrar-descricao".
+    */
+
+    .participante.mostrar-descricao
+    .participante-descricao{
+
+        opacity:1;
+
+        visibility:visible;
+
+        transform:
+            translateX(-50%)
+            translateY(0);
+
+    }
+
+}
+</style>
+<script>
+/* ==========================================================
+   PARTICIPANTES DA BLOGOSFERA
+========================================================== */
+
+
+/* ==========================================================
+   GOOGLE SHEETS
+========================================================== */
+
+const URL_PARTICIPANTES =
+    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQeqf6B-V3mWT2tPVYjt5UXNeqGxc6So11z4zbJbIVa6e0_5UAqKcmKBEAQQRD8KC2DRMFlgzQ_AAiz/pub?gid=2069176218&single=true&output=csv";
+
+
+/* ==========================================================
+   ELEMENTOS
+========================================================== */
+
+const popup =
+    document.getElementById("popup-participantes");
+
+const abrir =
+    document.getElementById("abrir-participantes");
+
+const fechar =
+    document.getElementById("fechar-participantes");
+
+const lista =
+    document.getElementById("lista-participantes");
+
+const overlay =
+    popup
+        ? popup.querySelector(".popup-overlay")
+        : null;
+
+
+/* ==========================================================
+   ABRIR
+========================================================== */
+
+if(abrir){
+
+    abrir.addEventListener(
+        "click",
+        abrirPopup
+    );
+
+}
+
+
+function abrirPopup(){
+
+    popup.classList.add("aberto");
+
+    document.body.style.overflow =
+        "hidden";
+
+    carregarParticipantes();
+
+}
+
+
+/* ==========================================================
+   FECHAR
+========================================================== */
+
+if(fechar){
+
+    fechar.addEventListener(
+        "click",
+        fecharPopup
+    );
+
+}
+
+
+if(overlay){
+
+    overlay.addEventListener(
+        "click",
+        fecharPopup
+    );
+
+}
+
+
+function fecharPopup(){
+
+    popup.classList.remove(
+        "aberto"
+    );
+
+    document.body.style.overflow =
+        "";
+
+}
+
+
+/* ==========================================================
+   ESC
+========================================================== */
+
+document.addEventListener(
+    "keydown",
+    function(evento){
+
+        if(
+            evento.key === "Escape" &&
+            popup.classList.contains("aberto")
+        ){
+
+            fecharPopup();
+
+        }
+
+    }
+);
+
+
+/* ==========================================================
+   CARREGAR PARTICIPANTES
+========================================================== */
+
+async function carregarParticipantes(){
+
+    lista.innerHTML = `
+        <div class="participantes-carregando">
+            Consultando os registros da Biblioteca Eterna...
+        </div>
+    `;
+
+
+    try{
+
+        const resposta =
+            await fetch(
+                URL_PARTICIPANTES,
+                {
+                    cache: "no-store"
+                }
+            );
+
+
+        if(!resposta.ok){
+
+            throw new Error(
+                `Erro HTTP: ${resposta.status}`
+            );
+
+        }
+
+
+        const csv =
+            await resposta.text();
+
+
+        const dados =
+            csvParaObjetos(csv);
+
+
+        criarParticipantes(
+            dados
+        );
+
+    }
+
+    catch(erro){
+
+        console.error(
+            "Erro ao carregar participantes:",
+            erro
+        );
+
+
+        lista.innerHTML = `
+            <div class="participantes-erro">
+
+                Não foi possível consultar os
+                aventureiros da Blogosfera.
+
+            </div>
+        `;
+
+    }
+
+}
+
+
+/* ==========================================================
+   CSV → OBJETOS
+========================================================== */
+
+function csvParaObjetos(csv){
+
+    const linhas =
+        separarLinhasCSV(csv);
+
+
+    if(!linhas.length){
+
+        return [];
+
+    }
+
+
+    const cabecalhos =
+        parseCSVLine(
+            linhas[0]
+        ).map(
+            cabecalho =>
+                normalizarTexto(
+                    cabecalho
+                )
+        );
+
+
+    const dados = [];
+
+
+    for(
+        let i = 1;
+        i < linhas.length;
+        i++
+    ){
+
+        if(
+            !linhas[i] ||
+            !linhas[i].trim()
+        ){
+
+            continue;
+
+        }
+
+
+        const valores =
+            parseCSVLine(
+                linhas[i]
+            );
+
+
+        const objeto = {};
+
+
+        cabecalhos.forEach(
+            (
+                cabecalho,
+                index
+            )=>{
+
+                objeto[cabecalho] =
+                    valores[index] !== undefined
+                        ? valores[index].trim()
+                        : "";
+
+            }
+        );
+
+
+        dados.push(
+            objeto
+        );
+
+    }
+
+
+    return dados;
+
+}
+
+
+/* ==========================================================
+   SEPARAR LINHAS
+========================================================== */
+
+function separarLinhasCSV(csv){
+
+    const linhas = [];
+
+    let atual = "";
+
+    let dentroAspas = false;
+
+
+    for(
+        let i = 0;
+        i < csv.length;
+        i++
+    ){
+
+        const caractere =
+            csv[i];
+
+
+        if(
+            caractere === '"'
+        ){
+
+            if(
+                dentroAspas &&
+                csv[i + 1] === '"'
+            ){
+
+                atual += '""';
+
+                i++;
+
+                continue;
+
+            }
+
+
+            dentroAspas =
+                !dentroAspas;
+
+
+            atual +=
+                caractere;
+
+
+            continue;
+
+        }
+
+
+        if(
+            (
+                caractere === "\n" ||
+                caractere === "\r"
+            ) &&
+            !dentroAspas
+        ){
+
+            if(
+                caractere === "\r" &&
+                csv[i + 1] === "\n"
+            ){
+
+                i++;
+
+            }
+
+
+            linhas.push(
+                atual
+            );
+
+
+            atual = "";
+
+            continue;
+
+        }
+
+
+        atual +=
+            caractere;
+
+    }
+
+
+    if(atual){
+
+        linhas.push(
+            atual
+        );
+
+    }
+
+
+    return linhas;
+
+}
+
+
+/* ==========================================================
+   PARSER CSV
+========================================================== */
+
+function parseCSVLine(linha){
+
+    const resultado = [];
+
+    let atual = "";
+
+    let dentroAspas = false;
+
+
+    for(
+        let i = 0;
+        i < linha.length;
+        i++
+    ){
+
+        const caractere =
+            linha[i];
+
+
+        if(
+            caractere === '"'
+        ){
+
+            if(
+                dentroAspas &&
+                linha[i + 1] === '"'
+            ){
+
+                atual += '"';
+
+                i++;
+
+            }
+
+            else{
+
+                dentroAspas =
+                    !dentroAspas;
+
+            }
+
+
+            continue;
+
+        }
+
+
+        if(
+            caractere === "," &&
+            !dentroAspas
+        ){
+
+            resultado.push(
+                atual
+            );
+
+            atual = "";
+
+            continue;
+
+        }
+
+
+        atual +=
+            caractere;
+
+    }
+
+
+    resultado.push(
+        atual
+    );
+
+
+    return resultado;
+
+}
+
+
+/* ==========================================================
+   NORMALIZAR TEXTO
+========================================================== */
+
+function normalizarTexto(texto){
+
+    return texto
+        .replace(/^\uFEFF/, "")
+        .trim()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase();
+
+}
+
+
+/* ==========================================================
+   PROCURAR COLUNA
+==========================================================
+
+   Agora não dependemos do nome EXATO da coluna.
+
+   Exemplo:
+
+   "🗺️ Jornada"
+
+   vira:
+
+   "jornada"
+
+   e será encontrado normalmente.
+========================================================== */
+
+function encontrarCampo(
+    objeto,
+    termo
+){
+
+    const termoNormalizado =
+        normalizarTexto(
+            termo
+        );
+
+
+    const chave =
+        Object.keys(objeto)
+            .find(
+                chave => {
+
+                    const chaveNormalizada =
+                        normalizarTexto(
+                            chave
+                        );
+
+
+                    return chaveNormalizada
+                        .includes(
+                            termoNormalizado
+                        );
+
+                }
+            );
+
+
+    if(!chave){
+
+        return "";
+
+    }
+
+
+    return objeto[chave] || "";
+
+}
+
+
+/* ==========================================================
+   CRIAR PARTICIPANTES
+========================================================== */
+
+function criarParticipantes(dados){
+
+    lista.innerHTML = "";
+
+
+    const participantes =
+        dados.filter(
+            participante => {
+
+                const nome =
+                    encontrarCampo(
+                        participante,
+                        "nome de aventureiro"
+                    );
+
+
+                return (
+                    nome &&
+                    nome.trim() !== ""
+                );
+
+            }
+        );
+
+
+    if(
+        participantes.length === 0
+    ){
+
+        lista.innerHTML = `
+            <div class="participantes-erro">
+                Nenhum aventureiro foi encontrado.
+            </div>
+        `;
+
+        return;
+
+    }
+
+
+    participantes.forEach(
+        participante => {
+
+            criarParticipante(
+                participante
+            );
+
+        }
+    );
+
+}
+
+
+/* ==========================================================
+   CRIAR PARTICIPANTE
+========================================================== */
+
+function criarParticipante(dados){
+
+
+    /* ======================================================
+       DADOS
+    ====================================================== */
+
+    const nome =
+        encontrarCampo(
+            dados,
+            "nome de aventureiro"
+        ) ||
+        "Aventureiro";
+
+
+    const classe =
+        encontrarCampo(
+            dados,
+            "classe"
+        );
+
+
+    const descricao =
+        encontrarCampo(
+            dados,
+            "descreva sobre seu personagem"
+        ) ||
+        "Este aventureiro ainda não revelou sua história.";
+
+
+    const jornada =
+        encontrarCampo(
+            dados,
+            "jornada"
+        );
+
+
+    const avatar =
+        encontrarCampo(
+            dados,
+            "seu avatar"
+        );
+
+
+    const portal =
+        encontrarCampo(
+            dados,
+            "portal de origem"
+        );
+
+
+    /* ======================================================
+       DEBUG
+    ======================================================
+
+       Se quiser verificar o que está vindo da planilha,
+       abra F12 → Console.
+    */
+
+    console.log(
+        "Aventureiro:",
+        nome,
+        "| Classe:",
+        classe,
+        "| Jornada:",
+        jornada
+    );
+
+
+    /* ======================================================
+       PARTICIPANTE
+    ====================================================== */
+
+    const participante =
+        document.createElement("div");
+
+    participante.className =
+        "participante";
+
+
+    /* ======================================================
+       AVATAR
+    ====================================================== */
+
+    const avatarContainer =
+        document.createElement("div");
+
+    avatarContainer.className =
+        "participante-avatar";
+
+
+    if(avatar){
+
+        const imagem =
+            document.createElement("img");
+
+
+        imagem.src =
+            converterImagemDrive(
+                avatar
+            );
+
+
+        imagem.alt =
+            `Avatar de ${nome}`;
+
+
+        imagem.loading =
+            "lazy";
+
+
+        imagem.onerror =
+            function(){
+
+                imagem.style.display =
+                    "none";
+
+            };
+
+
+        avatarContainer.appendChild(
+            imagem
+        );
+
+    }
+
+    else{
+
+        avatarContainer.textContent =
+            "🧙";
+
+    }
+
+
+    /* ======================================================
+       NOME
+    ====================================================== */
+
+    const nomeElemento =
+        document.createElement("span");
+
+    nomeElemento.className =
+        "participante-nome";
+
+    nomeElemento.textContent =
+        nome;
+
+
+    /* ======================================================
+       CLASSE
+    ====================================================== */
+
+    const classeElemento =
+        document.createElement("span");
+
+    classeElemento.className =
+        "participante-classe";
+
+
+    if(classe){
+
+        classeElemento.textContent =
+            classe;
+
+    }
+
+    else{
+
+        classeElemento.style.display =
+            "none";
+
+    }
+
+
+    /* ======================================================
+       DESCRIÇÃO
+    ====================================================== */
+
+    const descricaoElemento =
+        document.createElement("div");
+
+    descricaoElemento.className =
+        "participante-descricao";
+
+
+    const descricaoTexto =
+        document.createElement("span");
+
+    descricaoTexto.textContent =
+        descricao;
+
+
+    descricaoElemento.appendChild(
+        descricaoTexto
+    );
+
+
+    /* ======================================================
+       JORNADA
+    ====================================================== */
+
+    if(jornada){
+
+        const separador =
+            document.createElement("div");
+
+        separador.className =
+            "tooltip-jornada";
+
+
+        const jornadaElemento =
+            document.createElement("strong");
+
+
+        jornadaElemento.textContent =
+            `${jornada}`;
+
+
+        separador.appendChild(
+            jornadaElemento
+        );
+
+
+        descricaoElemento.appendChild(
+            separador
+        );
+
+    }
+
+
+    /* ======================================================
+       MONTAR
+    ====================================================== */
+
+    participante.appendChild(
+        avatarContainer
+    );
+
+
+    participante.appendChild(
+        nomeElemento
+    );
+
+
+    participante.appendChild(
+        classeElemento
+    );
+
+
+    participante.appendChild(
+        descricaoElemento
+    );
+
+
+    /* ======================================================
+       PORTAL
+    ====================================================== */
+
+    if(portal){
+
+        participante.classList.add(
+            "tem-portal"
+        );
+
+
+        participante.addEventListener(
+            "click",
+            function(){
+
+                abrirPortal(
+                    portal
+                );
+
+            }
+        );
+
+    }
+
+
+    /* ======================================================
+       MOBILE
+    ====================================================== */
+
+    participante.addEventListener(
+        "click",
+        function(evento){
+
+            if(
+                window.innerWidth <= 600
+            ){
+
+                if(
+                    !participante.classList.contains(
+                        "mostrar-descricao"
+                    )
+                ){
+
+                    evento.preventDefault();
+
+                    evento.stopImmediatePropagation();
+
+
+                    document
+                        .querySelectorAll(
+                            ".participante.mostrar-descricao"
+                        )
+                        .forEach(
+                            outro => {
+
+                                outro.classList.remove(
+                                    "mostrar-descricao"
+                                );
+
+                            }
+                        );
+
+
+                    participante.classList.add(
+                        "mostrar-descricao"
+                    );
+
+                }
+
+            }
+
+        },
+        true
+    );
+
+
+    /* ======================================================
+       INSERIR
+    ====================================================== */
+
+    lista.appendChild(
+        participante
+    );
+
+}
+
+
+/* ==========================================================
+   GOOGLE DRIVE
+========================================================== */
+
+function converterImagemDrive(url){
+
+    if(!url){
+
+        return "";
+
+    }
+
+
+    url =
+        url.trim();
+
+
+    let id = null;
+
+
+    /* open?id= */
+
+    const encontradoOpen =
+        url.match(
+            /[?&]id=([^&]+)/i
+        );
+
+
+    if(encontradoOpen){
+
+        id =
+            encontradoOpen[1];
+
+    }
+
+
+    /* file/d/ */
+
+    if(!id){
+
+        const encontradoArquivo =
+            url.match(
+                /\/file\/d\/([^/]+)/i
+            );
+
+
+        if(encontradoArquivo){
+
+            id =
+                encontradoArquivo[1];
+
+        }
+
+    }
+
+
+    /* uc?id= */
+
+    if(!id){
+
+        const encontradoUC =
+            url.match(
+                /drive\.google\.com\/uc\?.*id=([^&]+)/i
+            );
+
+
+        if(encontradoUC){
+
+            id =
+                encontradoUC[1];
+
+        }
+
+    }
+
+
+    if(!id){
+
+        return url;
+
+    }
+
+
+    return (
+        "https://drive.google.com/thumbnail" +
+        "?id=" +
+        encodeURIComponent(id) +
+        "&sz=w500"
+    );
+
+}
+
+
+/* ==========================================================
+   ABRIR PORTAL
+========================================================== */
+
+function abrirPortal(url){
+
+    let endereco =
+        url.trim();
+
+
+    if(
+        !endereco.startsWith("http://") &&
+        !endereco.startsWith("https://")
+    ){
+
+        endereco =
+            "https://" +
+            endereco;
+
+    }
+
+
+    window.open(
+        endereco,
+        "_blank",
+        "noopener,noreferrer"
+    );
+
+}
+</script>
 
 </body>
 </html>
