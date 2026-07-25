@@ -485,26 +485,20 @@ permalink: /beda/2026/recrutamento-teste
     >
 	
 
-<div class="trilha-sonora">
-    
-	<h3>Trilha da Campanha</h3>
-    <p>Dizem que quem escreve ao som destas canções encontra inspiração pelo caminho.</p>
-	<br>
+    <div class="aventureios">
 
-    <iframe data-testid="embed-iframe" 
-	style="border-radius:12px" 
-	src="https://open.spotify.com/embed/playlist/39Ajx3HKVtVZmwKygaMeMI?utm_source=generator&si=9a0c3a3df4a24d64" 
-	width="100%" 
-	height="152" 
-	frameBorder="0" 
-	allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-	loading="lazy">
-	</iframe>
-	
-</div>
+        <span class="popup-ornamento">✦</span>
 
+        <h3>
+            Aventureiros da Blogosfera
+        </h3>
 
-</div>
+        <p>
+            Aqueles que aceitaram o chamado e partiram
+            em busca das histórias esquecidas.
+        </p>
+
+    </div>
 
 
 
@@ -513,21 +507,6 @@ permalink: /beda/2026/recrutamento-teste
 ========================================================== -->
 
 <div class="secao-participantes">
-
-    <div class="participantes-cabecalho">
-
-        <span class="popup-ornamento">✦</span>
-
-        <h2>
-            Aventureiros da Blogosfera
-        </h2>
-
-        <p>
-            Aqueles que aceitaram o chamado e partiram
-            em busca das histórias esquecidas.
-        </p>
-
-    </div>
 
     <div
         id="lista-participantes"
@@ -1937,6 +1916,9 @@ function abrirPortal(url){
 
 }
 </script>
+
+</div>
+
 
 
 </body>
