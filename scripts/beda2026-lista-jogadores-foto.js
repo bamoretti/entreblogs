@@ -235,6 +235,12 @@ document.addEventListener("DOMContentLoaded", () => {
        Importante:
        não quebra uma linha quando estamos
        dentro de aspas.
+
+       CORREÇÃO: as aspas que abrem/fecham um campo
+       precisam ser mantidas no texto da linha — do
+       contrário o parseCSVLine perde a informação de
+       "isso está dentro de aspas" e vírgulas dentro da
+       descrição acabam virando colunas extras.
     ===================================================== */
 
     function separarLinhasCSV(csv) {
@@ -271,6 +277,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     dentroDasAspas =
                         !dentroDasAspas;
+
+                    atual += caractere; // <- CORREÇÃO: mantém a aspa
 
                 }
 
@@ -579,8 +587,14 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.createElement("img");
 
 
-            imagem.src =
-                converterImagemDrive(avatar);
+            const urlsImagem =
+                gerarUrlsImagemDrive(avatar);
+
+
+            let tentativa = 0;
+
+
+            imagem.src = urlsImagem[tentativa];
 
 
             imagem.alt =
@@ -590,9 +604,23 @@ document.addEventListener("DOMContentLoaded", () => {
             imagem.loading = "lazy";
 
 
+            /* tenta a próxima URL alternativa antes de desistir */
             imagem.onerror = () => {
 
-                imagem.style.display = "none";
+                tentativa++;
+
+
+                if (tentativa < urlsImagem.length) {
+
+                    imagem.src =
+                        urlsImagem[tentativa];
+
+                }
+                else {
+
+                    imagem.style.display = "none";
+
+                }
 
             };
 
@@ -815,12 +843,17 @@ document.addEventListener("DOMContentLoaded", () => {
        drive.google.com/file/d/ID/view
 
        drive.google.com/uc?id=ID
+
+       CORREÇÃO: gera duas URLs candidatas (lh3, mais
+       confiável para hotlink, e o /thumbnail antigo como
+       reserva). O <img onerror> tenta a próxima se a
+       primeira falhar.
     ===================================================== */
 
-    function converterImagemDrive(url) {
+    function gerarUrlsImagemDrive(url) {
 
         if (!url) {
-            return "";
+            return [];
         }
 
 
@@ -903,20 +936,18 @@ document.addEventListener("DOMContentLoaded", () => {
                 url
             );
 
-            return url;
+            return [url];
         }
 
 
-        /* ---------------------------------------------
-           THUMBNAIL
-        --------------------------------------------- */
+        const idCodificado =
+            encodeURIComponent(id);
 
-        return (
-            "https://drive.google.com/thumbnail" +
-            "?id=" +
-            encodeURIComponent(id) +
-            "&sz=w500"
-        );
+
+        return [
+            "https://lh3.googleusercontent.com/d/" + idCodificado + "=w500",
+            "https://drive.google.com/thumbnail?id=" + idCodificado + "&sz=w500"
+        ];
 
     }
 
