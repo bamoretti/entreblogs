@@ -20,6 +20,7 @@ permalink: /beda/2026/recrutamento
 
 <link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="..\..\style\beda2026-recrutamento.css">
+<script src="..\..\scripts\beda2026-lista-jogadores-foto.js"></script>
 
 </head>
 
@@ -474,6 +475,58 @@ permalink: /beda/2026/recrutamento
         Quero me inscrever!
 
     </a>
+
+
+<button id="abrir-participantes" class="btn-participantes">
+    Ver todos os aventureiros
+</button>
+</div>
+<!-- ==========================================================
+     POPUP DOS PARTICIPANTES
+========================================================== -->
+
+<div id="popup-participantes" class="popup-participantes">
+
+    <div class="popup-overlay"></div>
+
+    <div class="popup-conteudo">
+
+        <button
+            id="fechar-participantes"
+            class="popup-fechar"
+            aria-label="Fechar"
+        >
+            ×
+        </button>
+
+        <div class="popup-cabecalho">
+
+            <span class="popup-ornamento">✦</span>
+
+            <h2>
+                Aventureiros da Blogosfera
+            </h2>
+
+            <p>
+                Aqueles que aceitaram o chamado e partiram
+                em busca das histórias esquecidas.
+            </p>
+
+        </div>
+
+        <div
+            id="lista-participantes"
+            class="lista-participantes"
+        >
+
+            <div class="participantes-carregando">
+                Consultando os registros da Biblioteca Eterna...
+            </div>
+
+        </div>
+
+    </div>
+
 </div>
 
     <img
