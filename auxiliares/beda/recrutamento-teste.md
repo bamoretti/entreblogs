@@ -1001,7 +1001,7 @@ permalink: /beda/2026/recrutamento-teste
     content:"";
 
     position:absolute;
-
+	display:none;
     left:50%;
     background: transparent;
     bottom:-10px;
