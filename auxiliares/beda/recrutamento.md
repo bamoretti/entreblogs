@@ -760,7 +760,7 @@ permalink: /beda/2026/recrutamento
 
     position:fixed;
 
-    width:230px;
+    width:350px;
 
     padding:13px 15px;
 
@@ -774,7 +774,7 @@ permalink: /beda/2026/recrutamento
 
     font-family:var(--fonte-corpo);
 
-    font-size:.82rem;
+    font-size:.90rem;
 
     line-height:1.5;
 
