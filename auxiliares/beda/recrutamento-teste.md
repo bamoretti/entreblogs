@@ -986,7 +986,7 @@ permalink: /beda/2026/recrutamento-teste
         opacity .2s ease,
         transform .2s ease;
 
-    z-index:90;
+    z-index:900;
 
     box-shadow:
         0 10px 30px rgba(0,0,0,.35);
@@ -997,21 +997,17 @@ permalink: /beda/2026/recrutamento-teste
 /* pequeno triângulo */
 
 .participante-descricao::after{
-
+    z-index:890;
     content:"";
 
     position:absolute;
 
     left:50%;
-
-    bottom:-8px;
-
+    background: transparent;
+    bottom:-10px;
     transform:translateX(-50%);
-
     border-left:8px solid transparent;
-
     border-right:8px solid transparent;
-
     border-top:8px solid var(--amarelo);
 
 }
