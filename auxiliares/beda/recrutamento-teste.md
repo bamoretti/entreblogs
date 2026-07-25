@@ -939,7 +939,7 @@ permalink: /beda/2026/recrutamento-teste
 
     .tooltip-flutuante{
 
-        width:200px;
+        width:340px;
 
     }
 
