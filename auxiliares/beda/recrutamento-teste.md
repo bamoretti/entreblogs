@@ -544,8 +544,8 @@ permalink: /beda/2026/recrutamento-teste
         </div>
 
         <div
-            id="lista-participantes"
-            class="lista-participantes"
+            id="lista-participantes-fotos"
+            class="lista-participantes-fotos"
         >
 
             <div class="participantes-carregando">
@@ -831,7 +831,7 @@ permalink: /beda/2026/recrutamento-teste
    LISTA
 ========================================================== */
 
-.lista-participantes{
+.lista-participantes-fotos{
 
     display:grid;
 
@@ -1097,7 +1097,7 @@ permalink: /beda/2026/recrutamento-teste
 
     }
 
-    .lista-participantes{
+    .lista-participantes-fotos{
 
         grid-template-columns:
             repeat(3,1fr);
@@ -1169,7 +1169,7 @@ const fechar =
     document.getElementById("fechar-participantes");
 
 const lista =
-    document.getElementById("lista-participantes");
+    document.getElementById("lista-participantes-fotos");
 
 const overlay =
     popup
