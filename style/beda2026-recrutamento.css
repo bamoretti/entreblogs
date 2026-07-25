@@ -731,8 +731,8 @@ display: inline-flex;
 ========================================================== */
 
 .btn-participantes{
-
-    display:inline-block;
+	display:none;
+    /*display:inline-block; */
 
     font-family:var(--fonte-corpo);
 
