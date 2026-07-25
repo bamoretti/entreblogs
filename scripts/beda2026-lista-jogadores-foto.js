@@ -409,7 +409,75 @@ document.addEventListener(
            PARSER CSV
         ================================================== */
 
-        function parseCSVLine(linha){
+        function parseCSVLine(linha) {
+
+    const resultado = [];
+
+    let atual = "";
+
+    let dentroDasAspas = false;
+
+
+    for (let i = 0; i < linha.length; i++) {
+
+        const caractere = linha[i];
+
+
+        // Aspas
+        if (caractere === '"') {
+
+            // Duas aspas seguidas = uma aspa dentro do texto
+            if (
+                dentroDasAspas &&
+                linha[i + 1] === '"'
+            ) {
+
+                atual += '"';
+
+                i++;
+
+            } else {
+
+                dentroDasAspas =
+                    !dentroDasAspas;
+
+            }
+
+            continue;
+        }
+
+
+        // Vírgula fora das aspas = separador de coluna
+        if (
+            caractere === "," &&
+            !dentroDasAspas
+        ) {
+
+            resultado.push(
+                atual.trim()
+            );
+
+            atual = "";
+
+            continue;
+        }
+
+
+        // Qualquer outro caractere
+        atual += caractere;
+
+    }
+
+
+    // Última coluna
+    resultado.push(
+        atual.trim()
+    );
+
+
+    return resultado;
+
+}
 
             const resultado = [];
 
