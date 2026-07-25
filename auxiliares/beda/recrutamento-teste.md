@@ -557,8 +557,7 @@ permalink: /beda/2026/recrutamento-teste
 
     padding:40px;
 
-    background:var(--marrom-claro)
-        );
+    background:var(--marrom-claro);
 
     border:1px solid var(--marrom-escuro);
 
