@@ -485,12 +485,11 @@ permalink: /beda/2026/recrutamento-teste
     >
 	
 
-    <div class="aventureios">
+	<div class="trilha-sonora">
 
-        <span class="popup-ornamento">✦</span>
 
         <h3>
-            Aventureiros da Blogosfera
+            Aventureiros Registrados
         </h3>
 
         <p>
@@ -728,7 +727,7 @@ permalink: /beda/2026/recrutamento-teste
 
     color:var(--marrom-escuro);
 
-    overflow-wrap:anywhere;
+    
 
 }
 
