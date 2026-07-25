@@ -726,24 +726,35 @@ display: inline-flex;
     margin-bottom:20px;
 }
 
-  /* ==========================================================
-   BOTÃO PARTICIPANTES
+
+
+/* ==========================================================
+   BOTÃO
 ========================================================== */
 
-.btn-participantes{
-	display:none;
-    /*display:inline-block; */
+.botao-participantes{
+
+    display:inline-flex;
+
+    align-items:center;
+    justify-content:center;
+
+    gap:8px;
+
+    padding:12px 22px;
+
+    border:2px solid var(--marrom-medio);
+
+    border-radius:30px;
+
+    background:var(--marrom-escuro);
+
+    color:var(--marrom-claro);
 
     font-family:var(--fonte-corpo);
 
-    display: inline-flex;
-    align-items: center;
-    padding: 16px 30px;
-    background: linear-gradient(135deg, #47352e, #332018);
-    color: #fcdccf;
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 14px;
+    font-size:16px;
+
     cursor:pointer;
 
     transition:
@@ -753,15 +764,15 @@ display: inline-flex;
 
 }
 
-.btn-participantes:hover{
 
-    background:var(--marrom-medio);
+.botao-participantes:hover{
 
     transform:translateY(-2px);
 
-    box-shadow:
-        0 8px 20px rgba(0,0,0,.20);
+    background:var(--marrom-medio);
 
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.2);
 
 }
 
@@ -776,25 +787,45 @@ display: inline-flex;
 
     inset:0;
 
-    z-index:99999;
-
-    display:none;
-
-}
-
-.popup-participantes.aberto{
+    z-index:999999;
 
     display:flex;
 
     align-items:center;
-
     justify-content:center;
+
+    padding:20px;
+
+    visibility:hidden;
+
+    opacity:0;
+
+    pointer-events:none;
+
+    transition:
+        opacity .25s ease,
+        visibility .25s ease;
 
 }
 
 
 /* ==========================================================
-   FUNDO ESCURO
+   POPUP ABERTO
+========================================================== */
+
+.popup-participantes.aberto{
+
+    visibility:visible;
+
+    opacity:1;
+
+    pointer-events:auto;
+
+}
+
+
+/* ==========================================================
+   OVERLAY
 ========================================================== */
 
 .popup-overlay{
@@ -803,112 +834,140 @@ display: inline-flex;
 
     inset:0;
 
-    background:rgba(30,18,12,.72);
+    background:rgba(30,18,12,.78);
 
     backdrop-filter:blur(4px);
 
 }
-  
-.participante-classe {
-    display: block;
-    margin-top: 6px;
-    margin-bottom: 10px;
-    font-family: var(--fonte-corpo);
-    font-size: .78rem;
-    line-height: 1.3;
-    color: var(--marrom-medio);
-    font-style: italic;
-}
 
-.tooltip-jornada{
-  margin-top: 10px;
-  text-align:center;
-}
 
 /* ==========================================================
    CAIXA
 ========================================================== */
 
-.popup-conteudo{
+.popup-caixa{
 
     position:relative;
 
     z-index:2;
 
-    width:min(1000px,92vw);
+    width:min(
+        100%,
+        900px
+    );
 
-    max-height:88vh;
+    max-height:90vh;
 
-    overflow-y:auto;
-
-    padding:40px;
+    overflow:hidden;
 
     background:
 
         linear-gradient(
             rgba(255,248,230,.96),
-            rgba(239,222,190,.96)
+            rgba(245,229,198,.96)
         );
 
-    border:2px solid var(--marrom-medio);
+    border:
+
+        3px solid
+        var(--marrom-medio);
 
     border-radius:24px;
 
     box-shadow:
-        0 25px 70px rgba(0,0,0,.45);
 
-    animation:
-        abrir-popup .25s ease;
+        0 25px 70px
+        rgba(0,0,0,.45);
+
+    transform:
+        translateY(20px)
+        scale(.97);
+
+    transition:
+        transform .25s ease;
+
+}
+
+
+.popup-participantes.aberto
+.popup-caixa{
+
+    transform:
+        translateY(0)
+        scale(1);
 
 }
 
 
 /* ==========================================================
-   ANIMAÇÃO
+   CABEÇALHO
 ========================================================== */
 
-@keyframes abrir-popup{
+.popup-header{
 
-    from{
+    display:flex;
 
-        opacity:0;
+    align-items:center;
+    justify-content:space-between;
 
-        transform:
-            translateY(20px)
-            scale(.97);
+    gap:20px;
 
-    }
+    padding:25px 30px;
 
-    to{
+    border-bottom:
+        1px solid
+        rgba(161,125,89,.4);
 
-        opacity:1;
+}
 
-        transform:
-            translateY(0)
-            scale(1);
 
-    }
+.popup-subtitulo{
+
+    display:block;
+
+    margin-bottom:3px;
+
+    color:var(--marrom-medio);
+
+    font-family:var(--fonte-corpo);
+
+    font-size:.7rem;
+
+    letter-spacing:3px;
+
+}
+
+
+.popup-header h2{
+
+    margin:0;
+
+    color:var(--marrom-escuro);
+
+    font-family:var(--fonte-titulo);
+
+    font-size:3rem;
+
+    font-weight:400;
 
 }
 
 
 /* ==========================================================
-   BOTÃO FECHAR
+   FECHAR
 ========================================================== */
 
 .popup-fechar{
 
-    position:absolute;
+    width:42px;
+    height:42px;
 
-    top:15px;
+    flex-shrink:0;
 
-    right:18px;
+    border:
 
-    width:38px;
-
-    height:38px;
-
-    border:1px solid var(--marrom-medio);
+        1px solid
+        var(--marrom-medio);
 
     border-radius:50%;
 
@@ -918,15 +977,19 @@ display: inline-flex;
 
     font-family:Arial,sans-serif;
 
-    font-size:28px;
+    font-size:30px;
 
-    line-height:30px;
+    line-height:1;
 
     cursor:pointer;
 
-    transition:.2s;
+    transition:
+        background .2s ease,
+        color .2s ease,
+        transform .2s ease;
 
 }
+
 
 .popup-fechar:hover{
 
@@ -940,74 +1003,26 @@ display: inline-flex;
 
 
 /* ==========================================================
-   CABEÇALHO
-========================================================== */
-
-.popup-cabecalho{
-
-    text-align:center;
-
-    margin-bottom:30px;
-
-    padding:0 30px;
-
-}
-
-.popup-cabecalho h2{
-
-    margin:5px 0 10px;
-
-    font-family:var(--fonte-titulo);
-
-    font-size:3rem;
-
-    font-weight:400;
-
-    color:var(--marrom-escuro);
-
-}
-
-.popup-cabecalho p{
-
-    max-width:600px;
-
-    margin:0 auto;
-
-    font-family:var(--fonte-corpo);
-
-    font-size:.95rem;
-
-    line-height:1.6;
-
-    color:var(--marrom-escuro);
-
-}
-
-.popup-ornamento{
-
-    display:block;
-
-    color:var(--amarelo);
-
-    font-size:1.7rem;
-
-}
-
-
-/* ==========================================================
    LISTA
 ========================================================== */
 
-.lista-participantes{
+#lista-participantes{
 
     display:grid;
 
     grid-template-columns:
-        repeat(auto-fill,minmax(130px,1fr));
+        repeat(
+            auto-fill,
+            minmax(130px,1fr)
+        );
 
     gap:30px 20px;
 
-    justify-items:center;
+    max-height:calc(90vh - 110px);
+
+    overflow-y:auto;
+
+    padding:35px;
 
 }
 
@@ -1020,7 +1035,11 @@ display: inline-flex;
 
     position:relative;
 
-    width:130px;
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
 
     text-align:center;
 
@@ -1035,24 +1054,26 @@ display: inline-flex;
 
 .participante-avatar{
 
-    position:relative;
-
     width:105px;
 
     height:105px;
 
-    margin:0 auto 12px;
-
-    border-radius:50%;
+    margin-bottom:12px;
 
     overflow:hidden;
 
-    border:3px solid var(--marrom-medio);
+    border:
+
+        3px solid
+        var(--marrom-medio);
+
+    border-radius:50%;
 
     background:var(--marrom-claro);
 
     box-shadow:
-        0 6px 15px rgba(0,0,0,.18);
+        0 6px 15px
+        rgba(0,0,0,.2);
 
     transition:
         transform .25s ease,
@@ -1061,6 +1082,19 @@ display: inline-flex;
 
 }
 
+
+.participante-avatar img{
+
+    display:block;
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+
 .participante:hover
 .participante-avatar{
 
@@ -1068,22 +1102,12 @@ display: inline-flex;
         translateY(-5px)
         scale(1.05);
 
-    border-color:var(--amarelo);
+    border-color:
+        var(--amarelo);
 
     box-shadow:
-        0 10px 25px rgba(0,0,0,.25);
-
-}
-
-.participante-avatar img{
-
-    width:100%;
-
-    height:100%;
-
-    object-fit:cover;
-
-    display:block;
+        0 10px 25px
+        rgba(0,0,0,.25);
 
 }
 
@@ -1096,46 +1120,70 @@ display: inline-flex;
 
     display:block;
 
-    font-family:var(--fonte-corpo);
-
-    font-size:.9rem;
-
-    line-height:1.3;
+    max-width:130px;
 
     color:var(--marrom-escuro);
 
-    overflow-wrap:anywhere;
+    font-family:var(--fonte-titulo);
+
+    font-size:1.5rem;
+
+    line-height:1.1;
 
 }
 
 
 /* ==========================================================
-   DESCRIÇÃO / TOOLTIP
+   CLASSE
+========================================================== */
+
+.participante-classe{
+
+    display:block;
+
+    margin-top:3px;
+
+    color:var(--marrom-medio);
+
+    font-family:var(--fonte-corpo);
+
+    font-size:.75rem;
+
+    font-style:italic;
+
+    line-height:1.3;
+
+}
+
+
+/* ==========================================================
+   TOOLTIP
 ========================================================== */
 
 .participante-descricao{
 
     position:absolute;
 
+    z-index:20;
+
+    bottom:
+        calc(100% + 15px);
+
     left:50%;
 
-    bottom:calc(100% - 5px);
+    width:260px;
 
-    width:230px;
+    padding:15px;
 
-    padding:13px 15px;
+    border:
+        2px solid
+        var(--amarelo);
 
-    transform:
-        translateX(-50%)
-        translateY(8px);
+    border-radius:15px;
 
     background:var(--marrom-escuro);
 
     color:var(--marrom-claro);
-
-    border:1px solid var(--amarelo);
-
-    border-radius:12px;
 
     font-family:var(--fonte-corpo);
 
@@ -1145,25 +1193,28 @@ display: inline-flex;
 
     text-align:left;
 
+    box-shadow:
+        0 15px 35px
+        rgba(0,0,0,.35);
+
     opacity:0;
 
     visibility:hidden;
 
     pointer-events:none;
 
+    transform:
+        translate(-50%,8px);
+
     transition:
         opacity .2s ease,
+        visibility .2s ease,
         transform .2s ease;
-
-    z-index:20;
-
-    box-shadow:
-        0 10px 30px rgba(0,0,0,.35);
 
 }
 
 
-/* pequeno triângulo */
+/* setinha */
 
 .participante-descricao::after{
 
@@ -1173,18 +1224,31 @@ display: inline-flex;
 
     left:50%;
 
-    bottom:-8px;
+    bottom:-9px;
 
-    transform:translateX(-50%);
+    width:15px;
+    height:15px;
 
-    border-left:8px solid transparent;
+    background:var(--marrom-escuro);
 
-    border-right:8px solid transparent;
+    border-right:
+        2px solid
+        var(--amarelo);
 
-    border-top:8px solid var(--amarelo);
+    border-bottom:
+        2px solid
+        var(--amarelo);
+
+    transform:
+        translateX(-50%)
+        rotate(45deg);
 
 }
 
+
+/* ==========================================================
+   MOSTRAR TOOLTIP
+========================================================== */
 
 .participante:hover
 .participante-descricao{
@@ -1194,46 +1258,58 @@ display: inline-flex;
     visibility:visible;
 
     transform:
-        translateX(-50%)
-        translateY(0);
+        translate(-50%,0);
 
 }
 
 
 /* ==========================================================
-   CARREGANDO
+   JORNADA
 ========================================================== */
 
-.participantes-carregando{
+.tooltip-jornada{
 
-    grid-column:1 / -1;
+    margin-top:12px;
 
-    padding:40px 20px;
+    padding-top:10px;
 
-    text-align:center;
+    border-top:
+        1px solid
+        rgba(214,178,94,.4);
+
+    color:var(--amarelo);
+
+}
+
+
+.tooltip-jornada strong{
+
+    display:block;
+
+    color:var(--amarelo);
 
     font-family:var(--fonte-corpo);
 
-    color:var(--marrom-escuro);
+    font-weight:400;
 
 }
 
 
 /* ==========================================================
-   ERRO
+   CARREGANDO / ERRO
 ========================================================== */
 
+.participantes-carregando,
 .participantes-erro{
 
-    grid-column:1 / -1;
+    grid-column:
+        1 / -1;
 
-    padding:30px;
+    padding:50px 20px;
 
     text-align:center;
 
-    font-family:var(--fonte-corpo);
-
-    color:var(--marrom-escuro);
+    color:var(--marrom-medio);
 
 }
 
@@ -1244,56 +1320,96 @@ display: inline-flex;
 
 @media(max-width:600px){
 
-    .popup-conteudo{
+    .popup-participantes{
 
-        width:94vw;
-
-        max-height:90vh;
-
-        padding:30px 18px;
+        padding:10px;
 
     }
 
-    .popup-cabecalho{
 
-        padding:0 25px;
+    .popup-caixa{
+
+        width:100%;
+
+        max-height:94vh;
+
+        border-radius:18px;
 
     }
 
-    .popup-cabecalho h2{
+
+    .popup-header{
+
+        padding:20px;
+
+    }
+
+
+    .popup-header h2{
 
         font-size:2.3rem;
 
     }
 
-    .lista-participantes{
+
+    #lista-participantes{
 
         grid-template-columns:
-            repeat(3,1fr);
+            repeat(
+                2,
+                minmax(0,1fr)
+            );
 
-        gap:25px 8px;
+        gap:25px 10px;
+
+        padding:25px 15px;
 
     }
 
-    .participante{
-
-        width:100px;
-
-    }
 
     .participante-avatar{
 
-        width:82px;
-
-        height:82px;
+        width:90px;
+        height:90px;
 
     }
 
+
     /*
-       No celular não existe hover.
-       A descrição aparece quando o participante
-       recebe a classe "mostrar-descricao".
-    */
+     * No celular o tooltip não deve
+     * ficar fora da tela.
+     */
+
+    .participante-descricao{
+
+        position:fixed;
+
+        left:50%;
+
+        bottom:20px;
+
+        top:auto;
+
+        width:
+            calc(100vw - 40px);
+
+        max-width:400px;
+
+        transform:
+            translate(-50%,20px);
+
+    }
+
+
+    .participante:hover
+    .participante-descricao{
+
+        opacity:0;
+
+        visibility:hidden;
+
+    }
+
 
     .participante.mostrar-descricao
     .participante-descricao{
@@ -1303,8 +1419,9 @@ display: inline-flex;
         visibility:visible;
 
         transform:
-            translateX(-50%)
-            translateY(0);
+            translate(-50%,0);
+
+        pointer-events:auto;
 
     }
 

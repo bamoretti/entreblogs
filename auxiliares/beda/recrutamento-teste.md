@@ -529,6 +529,83 @@ permalink: /beda/2026/recrutamento-teste
 
 </div>
 
+<!-- =====================================================
+     BOTÃO
+===================================================== -->
+
+<button
+    id="abrir-participantes"
+    class="botao-participantes"
+    type="button"
+>
+    🧙 Ver Aventureiros
+</button>
+
+
+<!-- =====================================================
+     POPUP
+===================================================== -->
+
+<div
+    id="popup-participantes"
+    class="popup-participantes"
+    aria-hidden="true"
+>
+
+    <!-- Fundo escuro -->
+
+    <div class="popup-overlay"></div>
+
+
+    <!-- Caixa -->
+
+    <div
+        class="popup-caixa"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="titulo-participantes"
+    >
+
+        <!-- Cabeçalho -->
+
+        <div class="popup-header">
+
+            <div>
+
+                <span class="popup-subtitulo">
+                    GUARDIÕES DA BLOGOSFERA
+                </span>
+
+                <h2 id="titulo-participantes">
+                    Aventureiros
+                </h2>
+
+            </div>
+
+
+            <button
+                id="fechar-participantes"
+                class="popup-fechar"
+                type="button"
+                aria-label="Fechar"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <!-- Lista -->
+
+        <div
+            id="lista-participantes"
+            class="lista-participantes"
+        ></div>
+
+    </div>
+
+</div>
+
     <img
         src="../../assets/beda/pena.png"
         alt="separar página"
