@@ -1946,6 +1946,23 @@ function abrirPortal(url){
 }
 </script>
 
+<div class="trilha-sonora">
+    
+	<h3>Trilha da Campanha</h3>
+    <p>Dizem que quem escreve ao som destas canções encontra inspiração pelo caminho.</p>
+	<br>
+
+    <iframe data-testid="embed-iframe" 
+	style="border-radius:12px" 
+	src="https://open.spotify.com/embed/playlist/39Ajx3HKVtVZmwKygaMeMI?utm_source=generator&si=9a0c3a3df4a24d64" 
+	width="100%" 
+	height="152" 
+	frameBorder="0" 
+	allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+	loading="lazy">
+	</iframe>
+	
+</div>
 
 </div>
 </body>
