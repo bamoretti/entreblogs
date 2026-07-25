@@ -1,7 +1,7 @@
 ---
 layout: beda
 title: D&B - Recrutamento
-permalink: /beda/2026/recrutamento-teste
+permalink: /beda/2026/recrutamento
 ---
 
 <html lang="pt">
@@ -20,7 +20,7 @@ permalink: /beda/2026/recrutamento-teste
 
 <link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="..\..\style\beda2026-recrutamento.css">
-<script src="https://entreblogs.com.br\scripts\beda2026-lista-jogadores-foto.js"></script>
+<script src="..\..\scripts\beda2026-lista-jogadores-foto.js"></script>
 
 </head>
 
@@ -483,36 +483,75 @@ permalink: /beda/2026/recrutamento-teste
         alt="separar página"
         class="separador"
     >
+	
 
+<div class="trilha-sonora">
+    
+	<h3>Trilha da Campanha</h3>
+    <p>Dizem que quem escreve ao som destas canções encontra inspiração pelo caminho.</p>
+	<br>
+
+    <iframe data-testid="embed-iframe" 
+	style="border-radius:12px" 
+	src="https://open.spotify.com/embed/playlist/39Ajx3HKVtVZmwKygaMeMI?utm_source=generator&si=9a0c3a3df4a24d64" 
+	width="100%" 
+	height="152" 
+	frameBorder="0" 
+	allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+	loading="lazy">
+	</iframe>
+	
+</div>
+
+
+</div>
+
+<button id="abrir-participantes" class="btn-participantes">
+    🧙 Ver todos os aventureiros
+</button>
 
 <!-- ==========================================================
-     LISTA DOS PARTICIPANTES (sem popup, direto na página)
+     POPUP DOS PARTICIPANTES
 ========================================================== -->
 
-<div class="secao-participantes">
+<div id="popup-participantes" class="popup-participantes">
 
-    <div class="participantes-cabecalho">
+    <div class="popup-overlay"></div>
 
-        <span class="popup-ornamento">✦</span>
+    <div class="popup-conteudo">
 
-        <h2>
-            Aventureiros da Blogosfera
-        </h2>
+        <button
+            id="fechar-participantes"
+            class="popup-fechar"
+            aria-label="Fechar"
+        >
+            ×
+        </button>
 
-        <p>
-            Aqueles que aceitaram o chamado e partiram
-            em busca das histórias esquecidas.
-        </p>
+        <div class="popup-cabecalho">
 
-    </div>
+            <span class="popup-ornamento">✦</span>
 
-    <div
-        id="lista-participantes"
-        class="lista-participantes"
-    >
+            <h2>
+                Aventureiros da Blogosfera
+            </h2>
 
-        <div class="participantes-carregando">
-            Consultando os registros da Biblioteca Eterna...
+            <p>
+                Aqueles que aceitaram o chamado e partiram
+                em busca das histórias esquecidas.
+            </p>
+
+        </div>
+
+        <div
+            id="lista-participantes"
+            class="lista-participantes"
+        >
+
+            <div class="participantes-carregando">
+                Consultando os registros da Biblioteca Eterna...
+            </div>
+
         </div>
 
     </div>
@@ -520,7 +559,92 @@ permalink: /beda/2026/recrutamento-teste
 </div>
 
 <style>
+  /* ==========================================================
+   BOTÃO PARTICIPANTES
+========================================================== */
 
+.btn-participantes{
+
+    display:inline-block;
+
+    padding:12px 22px;
+
+    border:2px solid var(--marrom-medio);
+
+    border-radius:30px;
+
+    background:var(--marrom-escuro);
+
+    color:var(--marrom-claro);
+
+    font-family:var(--fonte-corpo);
+
+    font-size:var(--fonte-corpo-size);
+
+    cursor:pointer;
+
+    transition:
+        transform .2s ease,
+        background .2s ease,
+        box-shadow .2s ease;
+
+}
+
+.btn-participantes:hover{
+
+    background:var(--marrom-medio);
+
+    transform:translateY(-2px);
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,.20);
+
+}
+
+
+/* ==========================================================
+   POPUP
+========================================================== */
+
+.popup-participantes{
+
+    position:fixed;
+
+    inset:0;
+
+    z-index:99999;
+
+    display:none;
+
+}
+
+.popup-participantes.aberto{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+
+/* ==========================================================
+   FUNDO ESCURO
+========================================================== */
+
+.popup-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(30,18,12,.72);
+
+    backdrop-filter:blur(4px);
+
+}
+  
 .participante-classe {
     display: block;
     margin-top: 6px;
@@ -538,14 +662,20 @@ permalink: /beda/2026/recrutamento-teste
 }
 
 /* ==========================================================
-   SEÇÃO / CABEÇALHO
+   CAIXA
 ========================================================== */
 
-.secao-participantes{
+.popup-conteudo{
+
+    position:relative;
+
+    z-index:2;
 
     width:min(1000px,92vw);
 
-    margin:40px auto;
+    max-height:88vh;
+
+    overflow-y:auto;
 
     padding:40px;
 
@@ -561,11 +691,95 @@ permalink: /beda/2026/recrutamento-teste
     border-radius:24px;
 
     box-shadow:
-        0 25px 70px rgba(0,0,0,.25);
+        0 25px 70px rgba(0,0,0,.45);
+
+    animation:
+        abrir-popup .25s ease;
 
 }
 
-.participantes-cabecalho{
+
+/* ==========================================================
+   ANIMAÇÃO
+========================================================== */
+
+@keyframes abrir-popup{
+
+    from{
+
+        opacity:0;
+
+        transform:
+            translateY(20px)
+            scale(.97);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:
+            translateY(0)
+            scale(1);
+
+    }
+
+}
+
+
+/* ==========================================================
+   BOTÃO FECHAR
+========================================================== */
+
+.popup-fechar{
+
+    position:absolute;
+
+    top:15px;
+
+    right:18px;
+
+    width:38px;
+
+    height:38px;
+
+    border:1px solid var(--marrom-medio);
+
+    border-radius:50%;
+
+    background:transparent;
+
+    color:var(--marrom-escuro);
+
+    font-family:Arial,sans-serif;
+
+    font-size:28px;
+
+    line-height:30px;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+.popup-fechar:hover{
+
+    background:var(--marrom-escuro);
+
+    color:var(--marrom-claro);
+
+    transform:rotate(90deg);
+
+}
+
+
+/* ==========================================================
+   CABEÇALHO
+========================================================== */
+
+.popup-cabecalho{
 
     text-align:center;
 
@@ -575,7 +789,7 @@ permalink: /beda/2026/recrutamento-teste
 
 }
 
-.participantes-cabecalho h2{
+.popup-cabecalho h2{
 
     margin:5px 0 10px;
 
@@ -589,7 +803,7 @@ permalink: /beda/2026/recrutamento-teste
 
 }
 
-.participantes-cabecalho p{
+.popup-cabecalho p{
 
     max-width:600px;
 
@@ -866,21 +1080,23 @@ permalink: /beda/2026/recrutamento-teste
 
 @media(max-width:600px){
 
-    .secao-participantes{
+    .popup-conteudo{
 
         width:94vw;
+
+        max-height:90vh;
 
         padding:30px 18px;
 
     }
 
-    .participantes-cabecalho{
+    .popup-cabecalho{
 
         padding:0 25px;
 
     }
 
-    .participantes-cabecalho h2{
+    .popup-cabecalho h2{
 
         font-size:2.3rem;
 
@@ -932,7 +1148,7 @@ permalink: /beda/2026/recrutamento-teste
 </style>
 <script>
 /* ==========================================================
-   PARTICIPANTES DA BLOGOSFERA (sem popup)
+   PARTICIPANTES DA BLOGOSFERA
 ========================================================== */
 
 
@@ -948,17 +1164,104 @@ const URL_PARTICIPANTES =
    ELEMENTOS
 ========================================================== */
 
+const popup =
+    document.getElementById("popup-participantes");
+
+const abrir =
+    document.getElementById("abrir-participantes");
+
+const fechar =
+    document.getElementById("fechar-participantes");
+
 const lista =
     document.getElementById("lista-participantes");
 
+const overlay =
+    popup
+        ? popup.querySelector(".popup-overlay")
+        : null;
+
 
 /* ==========================================================
-   CARREGAR AO ABRIR A PÁGINA
+   ABRIR
+========================================================== */
+
+if(abrir){
+
+    abrir.addEventListener(
+        "click",
+        abrirPopup
+    );
+
+}
+
+
+function abrirPopup(){
+
+    popup.classList.add("aberto");
+
+    document.body.style.overflow =
+        "hidden";
+
+    carregarParticipantes();
+
+}
+
+
+/* ==========================================================
+   FECHAR
+========================================================== */
+
+if(fechar){
+
+    fechar.addEventListener(
+        "click",
+        fecharPopup
+    );
+
+}
+
+
+if(overlay){
+
+    overlay.addEventListener(
+        "click",
+        fecharPopup
+    );
+
+}
+
+
+function fecharPopup(){
+
+    popup.classList.remove(
+        "aberto"
+    );
+
+    document.body.style.overflow =
+        "";
+
+}
+
+
+/* ==========================================================
+   ESC
 ========================================================== */
 
 document.addEventListener(
-    "DOMContentLoaded",
-    carregarParticipantes
+    "keydown",
+    function(evento){
+
+        if(
+            evento.key === "Escape" &&
+            popup.classList.contains("aberto")
+        ){
+
+            fecharPopup();
+
+        }
+
+    }
 );
 
 
@@ -1490,6 +1793,24 @@ function criarParticipante(dados){
 
 
     /* ======================================================
+       DEBUG
+    ======================================================
+
+       Se quiser verificar o que está vindo da planilha,
+       abra F12 → Console.
+    */
+
+    console.log(
+        "Aventureiro:",
+        nome,
+        "| Classe:",
+        classe,
+        "| Jornada:",
+        jornada
+    );
+
+
+    /* ======================================================
        PARTICIPANTE
     ====================================================== */
 
@@ -1517,17 +1838,10 @@ function criarParticipante(dados){
             document.createElement("img");
 
 
-        const urlsImagem =
-            gerarUrlsImagemDrive(
+        imagem.src =
+            converterImagemDrive(
                 avatar
             );
-
-
-        let tentativa = 0;
-
-
-        imagem.src =
-            urlsImagem[tentativa];
 
 
         imagem.alt =
@@ -1541,24 +1855,8 @@ function criarParticipante(dados){
         imagem.onerror =
             function(){
 
-                tentativa++;
-
-
-                if(
-                    tentativa < urlsImagem.length
-                ){
-
-                    imagem.src =
-                        urlsImagem[tentativa];
-
-                }
-
-                else{
-
-                    imagem.style.display =
-                        "none";
-
-                }
+                imagem.style.display =
+                    "none";
 
             };
 
@@ -1788,11 +2086,11 @@ function criarParticipante(dados){
    GOOGLE DRIVE
 ========================================================== */
 
-function gerarUrlsImagemDrive(url){
+function converterImagemDrive(url){
 
     if(!url){
 
-        return [];
+        return "";
 
     }
 
@@ -1862,24 +2160,17 @@ function gerarUrlsImagemDrive(url){
 
     if(!id){
 
-        console.warn(
-            "Não foi possível encontrar o ID do Drive:",
-            url
-        );
-
-        return [url];
+        return url;
 
     }
 
 
-    const idCodificado =
-        encodeURIComponent(id);
-
-
-    return [
-        "https://lh3.googleusercontent.com/d/" + idCodificado + "=w500",
-        "https://drive.google.com/thumbnail?id=" + idCodificado + "&sz=w500"
-    ];
+    return (
+        "https://drive.google.com/thumbnail" +
+        "?id=" +
+        encodeURIComponent(id) +
+        "&sz=w500"
+    );
 
 }
 
@@ -1914,9 +2205,7 @@ function abrirPortal(url){
 
 }
 </script>
-	
-</div>
-</div>
+
 </body>
 
 </html>
