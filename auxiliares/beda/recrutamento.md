@@ -475,12 +475,12 @@ permalink: /beda/2026/recrutamento
         Quero me inscrever!
 
     </a>
-
+</div>
 
 <button id="abrir-participantes" class="btn-participantes">
     Ver todos os aventureiros
 </button>
-</div>
+
 <!-- ==========================================================
      POPUP DOS PARTICIPANTES
 ========================================================== -->
