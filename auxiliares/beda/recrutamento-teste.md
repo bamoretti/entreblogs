@@ -1,7 +1,7 @@
 ---
 layout: beda
 title: D&B - Recrutamento
-permalink: /beda/2026/recrutamento
+permalink: /beda/2026/recrutamento-teste
 ---
 
 <html lang="pt">
@@ -477,6 +477,57 @@ permalink: /beda/2026/recrutamento
     </a>
 </div>
 
+<button id="abrir-participantes" class="btn-participantes">
+    Ver todos os aventureiros
+</button>
+
+<!-- ==========================================================
+     POPUP DOS PARTICIPANTES
+========================================================== -->
+
+<div id="popup-participantes" class="popup-participantes">
+
+    <div class="popup-overlay"></div>
+
+    <div class="popup-conteudo">
+
+        <button
+            id="fechar-participantes"
+            class="popup-fechar"
+            aria-label="Fechar"
+        >
+            ×
+        </button>
+
+        <div class="popup-cabecalho">
+
+            <span class="popup-ornamento">✦</span>
+
+            <h2>
+                Aventureiros da Blogosfera
+            </h2>
+
+            <p>
+                Aqueles que aceitaram o chamado e partiram
+                em busca das histórias esquecidas.
+            </p>
+
+        </div>
+
+        <div
+            id="lista-participantes"
+            class="lista-participantes"
+        >
+
+            <div class="participantes-carregando">
+                Consultando os registros da Biblioteca Eterna...
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 
     <img
         src="../../assets/beda/pena.png"
