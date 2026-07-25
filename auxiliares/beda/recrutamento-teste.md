@@ -20,7 +20,7 @@ permalink: /beda/2026/recrutamento-teste
 
 <link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="..\..\style\beda2026-recrutamento.css">
-<script src="..\..\scripts\beda2026-lista-jogadores-foto.js"></script>
+<script src="https://entreblogs.com.br\scripts\beda2026-lista-jogadores-foto.js"></script>
 
 </head>
 
