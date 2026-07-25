@@ -1,22 +1,35 @@
+/* ==========================================================
+   PARTICIPANTES — GUARDIÕES DA BLOGOSFERA
+========================================================== */
+
+
+/* ==========================================================
+   GOOGLE SHEETS
+========================================================== */
+
 const URL_PARTICIPANTES =
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vQeqf6B-V3mWT2tPVYjt5UXNeqGxc6So11z4zbJbIVa6e0_5UAqKcmKBEAQQRD8KC2DRMFlgzQ_AAiz/pub?gid=2069176218&single=true&output=csv";
 
 
+/* ==========================================================
+   INICIALIZAÇÃO
+========================================================== */
+
 document.addEventListener(
     "DOMContentLoaded",
-    function(){
+    function () {
 
         const popup =
             document.getElementById(
                 "popup-participantes"
             );
 
-        const abrir =
+        const botaoAbrir =
             document.getElementById(
                 "abrir-participantes"
             );
 
-        const fechar =
+        const botaoFechar =
             document.getElementById(
                 "fechar-participantes"
             );
@@ -27,13 +40,15 @@ document.addEventListener(
             );
 
         const overlay =
-            popup?.querySelector(
-                ".popup-overlay"
-            );
+            popup
+                ? popup.querySelector(
+                    ".popup-overlay"
+                )
+                : null;
 
 
         /* ==================================================
-           VERIFICAÇÃO
+           VERIFICAR ELEMENTOS
         ================================================== */
 
         console.log(
@@ -43,7 +58,7 @@ document.addEventListener(
 
         console.log(
             "Botão:",
-            abrir
+            botaoAbrir
         );
 
         console.log(
@@ -52,12 +67,12 @@ document.addEventListener(
         );
 
 
-        if(
+        if (
             !popup ||
-            !abrir ||
-            !fechar ||
+            !botaoAbrir ||
+            !botaoFechar ||
             !lista
-        ){
+        ) {
 
             console.error(
                 "❌ Elementos do popup não encontrados."
@@ -69,28 +84,21 @@ document.addEventListener(
 
 
         /* ==================================================
-           ABRIR
+           ABRIR POPUP
         ================================================== */
 
-        abrir.addEventListener(
+        botaoAbrir.addEventListener(
             "click",
-            function(){
-
-                console.log(
-                    "🧙 Abrindo participantes..."
-                );
-
+            function () {
 
                 popup.classList.add(
                     "aberto"
                 );
 
-
                 popup.setAttribute(
                     "aria-hidden",
                     "false"
                 );
-
 
                 document.body.style.overflow =
                     "hidden";
@@ -103,21 +111,19 @@ document.addEventListener(
 
 
         /* ==================================================
-           FECHAR
+           FECHAR POPUP
         ================================================== */
 
-        function fecharPopup(){
+        function fecharPopup() {
 
             popup.classList.remove(
                 "aberto"
             );
 
-
             popup.setAttribute(
                 "aria-hidden",
                 "true"
             );
-
 
             document.body.style.overflow =
                 "";
@@ -125,13 +131,17 @@ document.addEventListener(
         }
 
 
-        fechar.addEventListener(
+        botaoFechar.addEventListener(
             "click",
             fecharPopup
         );
 
 
-        if(overlay){
+        /* ==================================================
+           FECHAR CLICANDO NO FUNDO
+        ================================================== */
+
+        if (overlay) {
 
             overlay.addEventListener(
                 "click",
@@ -141,16 +151,20 @@ document.addEventListener(
         }
 
 
+        /* ==================================================
+           FECHAR COM ESC
+        ================================================== */
+
         document.addEventListener(
             "keydown",
-            function(event){
+            function (evento) {
 
-                if(
-                    event.key === "Escape" &&
+                if (
+                    evento.key === "Escape" &&
                     popup.classList.contains(
                         "aberto"
                     )
-                ){
+                ) {
 
                     fecharPopup();
 
@@ -161,10 +175,10 @@ document.addEventListener(
 
 
         /* ==================================================
-           CARREGAR PLANILHA
+           CARREGAR PARTICIPANTES
         ================================================== */
 
-        async function carregarParticipantes(){
+        async function carregarParticipantes() {
 
             lista.innerHTML = `
                 <div class="participantes-carregando">
@@ -174,21 +188,21 @@ document.addEventListener(
             `;
 
 
-            try{
+            try {
 
                 const resposta =
                     await fetch(
                         URL_PARTICIPANTES,
                         {
-                            cache:"no-store"
+                            cache: "no-store"
                         }
                     );
 
 
-                if(!resposta.ok){
+                if (!resposta.ok) {
 
                     throw new Error(
-                        "Erro HTTP " +
+                        "Erro HTTP: " +
                         resposta.status
                     );
 
@@ -199,10 +213,22 @@ document.addEventListener(
                     await resposta.text();
 
 
+                console.log(
+                    "CSV recebido:",
+                    csv
+                );
+
+
                 const dados =
                     csvParaObjetos(
                         csv
                     );
+
+
+                console.log(
+                    "Participantes encontrados:",
+                    dados.length
+                );
 
 
                 criarParticipantes(
@@ -211,10 +237,10 @@ document.addEventListener(
 
             }
 
-            catch(erro){
+            catch (erro) {
 
                 console.error(
-                    "❌ Erro:",
+                    "❌ Erro ao carregar participantes:",
                     erro
                 );
 
@@ -232,10 +258,10 @@ document.addEventListener(
 
 
         /* ==================================================
-           CSV
+           CSV → OBJETOS
         ================================================== */
 
-        function csvParaObjetos(csv){
+        function csvParaObjetos(csv) {
 
             const linhas =
                 separarLinhasCSV(
@@ -243,29 +269,57 @@ document.addEventListener(
                 );
 
 
+            if (
+                !linhas ||
+                linhas.length === 0
+            ) {
+
+                return [];
+
+            }
+
+
+            /* ==============================================
+               CABEÇALHOS
+            ============================================== */
+
             const cabecalhos =
                 parseCSVLine(
                     linhas[0]
                 ).map(
-                    campo =>
-                        normalizar(
+                    function (campo) {
+
+                        return normalizarTexto(
                             campo
-                        )
+                        );
+
+                    }
                 );
+
+
+            console.log(
+                "Cabeçalhos encontrados:",
+                cabecalhos
+            );
 
 
             const dados = [];
 
 
-            for(
+            /* ==============================================
+               LINHAS
+            ============================================== */
+
+            for (
                 let i = 1;
                 i < linhas.length;
                 i++
-            ){
+            ) {
 
-                if(
+                if (
+                    !linhas[i] ||
                     !linhas[i].trim()
-                ){
+                ) {
 
                     continue;
 
@@ -282,16 +336,15 @@ document.addEventListener(
 
 
                 cabecalhos.forEach(
-                    (
+                    function (
                         cabecalho,
                         index
-                    )=>{
+                    ) {
 
                         objeto[cabecalho] =
-                            (
-                                valores[index] ||
-                                ""
-                            ).trim();
+                            valores[index] !== undefined
+                                ? valores[index].trim()
+                                : "";
 
                     }
                 );
@@ -310,34 +363,53 @@ document.addEventListener(
 
 
         /* ==================================================
-           LINHAS CSV
+           SEPARAR LINHAS DO CSV
+           
+           Importante:
+           não quebra linhas dentro de aspas.
+           
+           Isso permite que a descrição tenha:
+           - vírgulas
+           - quebras de linha
+           - textos longos
         ================================================== */
 
-        function separarLinhasCSV(csv){
+        function separarLinhasCSV(csv) {
 
             const linhas = [];
 
             let atual = "";
 
-            let aspas = false;
+            let dentroDasAspas = false;
 
 
-            for(
+            for (
                 let i = 0;
                 i < csv.length;
                 i++
-            ){
+            ) {
 
-                const c =
+                const caractere =
                     csv[i];
 
 
-                if(c === '"'){
+                /* ==========================================
+                   ASPAS
+                ========================================== */
 
-                    if(
-                        aspas &&
+                if (
+                    caractere === '"'
+                ) {
+
+                    /*
+                     * Duas aspas dentro de uma célula
+                     * representam uma aspa real.
+                     */
+
+                    if (
+                        dentroDasAspas &&
                         csv[i + 1] === '"'
-                    ){
+                    ) {
 
                         atual += '""';
 
@@ -345,30 +417,40 @@ document.addEventListener(
 
                     }
 
-                    else{
+                    else {
 
-                        aspas =
-                            !aspas;
+                        dentroDasAspas =
+                            !dentroDasAspas;
 
                     }
+
 
                     continue;
 
                 }
 
 
-                if(
-                    (
-                        c === "\n" ||
-                        c === "\r"
-                    ) &&
-                    !aspas
-                ){
+                /* ==========================================
+                   QUEBRA DE LINHA
+                ========================================== */
 
-                    if(
-                        c === "\r" &&
+                if (
+                    (
+                        caractere === "\n" ||
+                        caractere === "\r"
+                    ) &&
+                    !dentroDasAspas
+                ) {
+
+                    /*
+                     * Windows:
+                     * \r\n
+                     */
+
+                    if (
+                        caractere === "\r" &&
                         csv[i + 1] === "\n"
-                    ){
+                    ) {
 
                         i++;
 
@@ -379,19 +461,28 @@ document.addEventListener(
                         atual
                     );
 
+
                     atual = "";
+
 
                     continue;
 
                 }
 
 
-                atual += c;
+                atual +=
+                    caractere;
 
             }
 
 
-            if(atual){
+            /* ==============================================
+               ÚLTIMA LINHA
+            ============================================== */
+
+            if (
+                atual.length > 0
+            ) {
 
                 linhas.push(
                     atual
@@ -407,101 +498,56 @@ document.addEventListener(
 
         /* ==================================================
            PARSER CSV
+           
+           Esta é a parte mais importante.
+
+           NÃO usamos:
+
+           linha.split(",")
+
+           porque isso quebraria:
+
+           "Sou aventureiro, escritor e viajante"
+
+           em várias colunas.
         ================================================== */
 
         function parseCSVLine(linha) {
-
-    const resultado = [];
-
-    let atual = "";
-
-    let dentroDasAspas = false;
-
-
-    for (let i = 0; i < linha.length; i++) {
-
-        const caractere = linha[i];
-
-
-        // Aspas
-        if (caractere === '"') {
-
-            // Duas aspas seguidas = uma aspa dentro do texto
-            if (
-                dentroDasAspas &&
-                linha[i + 1] === '"'
-            ) {
-
-                atual += '"';
-
-                i++;
-
-            } else {
-
-                dentroDasAspas =
-                    !dentroDasAspas;
-
-            }
-
-            continue;
-        }
-
-
-        // Vírgula fora das aspas = separador de coluna
-        if (
-            caractere === "," &&
-            !dentroDasAspas
-        ) {
-
-            resultado.push(
-                atual.trim()
-            );
-
-            atual = "";
-
-            continue;
-        }
-
-
-        // Qualquer outro caractere
-        atual += caractere;
-
-    }
-
-
-    // Última coluna
-    resultado.push(
-        atual.trim()
-    );
-
-
-    return resultado;
-
-}
 
             const resultado = [];
 
             let atual = "";
 
-            let aspas = false;
+            let dentroDasAspas = false;
 
 
-            for(
+            for (
                 let i = 0;
                 i < linha.length;
                 i++
-            ){
+            ) {
 
-                const c =
+                const caractere =
                     linha[i];
 
 
-                if(c === '"'){
+                /* ==========================================
+                   ASPAS
+                ========================================== */
 
-                    if(
-                        aspas &&
+                if (
+                    caractere === '"'
+                ) {
+
+                    /*
+                     * Duas aspas seguidas dentro de
+                     * uma célula representam uma aspa.
+                     */
+
+                    if (
+                        dentroDasAspas &&
                         linha[i + 1] === '"'
-                    ){
+                    ) {
 
                         atual += '"';
 
@@ -509,41 +555,57 @@ document.addEventListener(
 
                     }
 
-                    else{
+                    else {
 
-                        aspas =
-                            !aspas;
+                        dentroDasAspas =
+                            !dentroDasAspas;
 
                     }
 
+
                     continue;
 
                 }
 
 
-                if(
-                    c === "," &&
-                    !aspas
-                ){
+                /* ==========================================
+                   VÍRGULA
+                ========================================== */
+
+                if (
+                    caractere === "," &&
+                    !dentroDasAspas
+                ) {
 
                     resultado.push(
-                        atual
+                        atual.trim()
                     );
+
 
                     atual = "";
 
+
                     continue;
 
                 }
 
 
-                atual += c;
+                /* ==========================================
+                   TEXTO
+                ========================================== */
+
+                atual +=
+                    caractere;
 
             }
 
 
+            /* ==============================================
+               ÚLTIMA COLUNA
+            ============================================== */
+
             resultado.push(
-                atual
+                atual.trim()
             );
 
 
@@ -553,12 +615,26 @@ document.addEventListener(
 
 
         /* ==================================================
-           NORMALIZAR
+           NORMALIZAR TEXTO
+           
+           Remove:
+           - espaços extras
+           - acentos
+           - BOM do CSV
+           - diferença entre maiúsculas/minúsculas
+           
+           Isso facilita encontrar:
+           
+           🗺️ Jornada
+           
+           como:
+           
+           jornada
         ================================================== */
 
-        function normalizar(texto){
+        function normalizarTexto(texto) {
 
-            return texto
+            return String(texto || "")
                 .replace(
                     /^\uFEFF/,
                     ""
@@ -578,105 +654,220 @@ document.addEventListener(
            ENCONTRAR CAMPO
         ================================================== */
 
-        function campo(
+        function encontrarCampo(
             objeto,
-            procurar
-        ){
+            termo
+        ) {
+
+            const termoNormalizado =
+                normalizarTexto(
+                    termo
+                );
+
 
             const chave =
-                Object.keys(objeto)
-                    .find(
-                        key =>
-                            key.includes(
-                                normalizar(
-                                    procurar
-                                )
-                            )
-                    );
+                Object.keys(
+                    objeto
+                ).find(
+                    function (key) {
+
+                        const chaveNormalizada =
+                            normalizarTexto(
+                                key
+                            );
 
 
-            return chave
-                ? objeto[chave]
-                : "";
+                        return chaveNormalizada
+                            .includes(
+                                termoNormalizado
+                            );
+
+                    }
+                );
+
+
+            if (!chave) {
+
+                console.warn(
+                    "⚠️ Campo não encontrado:",
+                    termo
+                );
+
+                return "";
+
+            }
+
+
+            return (
+                objeto[chave] || ""
+            );
 
         }
 
 
         /* ==================================================
-           PARTICIPANTES
+           CRIAR PARTICIPANTES
         ================================================== */
 
         function criarParticipantes(
             dados
-        ){
+        ) {
 
             lista.innerHTML = "";
 
 
-            dados
-                .filter(
-                    pessoa =>
-                        campo(
-                            pessoa,
-                            "nome de aventureiro"
-                        )
-                )
-                .forEach(
-                    criarParticipante
+            const participantes =
+                dados.filter(
+                    function (pessoa) {
+
+                        const nome =
+                            encontrarCampo(
+                                pessoa,
+                                "nome de aventureiro"
+                            );
+
+
+                        return (
+                            nome &&
+                            nome.trim() !== ""
+                        );
+
+                    }
                 );
+
+
+            console.log(
+                "Aventureiros válidos:",
+                participantes.length
+            );
+
+
+            if (
+                participantes.length === 0
+            ) {
+
+                lista.innerHTML = `
+                    <div class="participantes-erro">
+                        Nenhum aventureiro foi encontrado.
+                    </div>
+                `;
+
+                return;
+
+            }
+
+
+            participantes.forEach(
+                function (participante) {
+
+                    criarParticipante(
+                        participante
+                    );
+
+                }
+            );
 
         }
 
 
         /* ==================================================
-           CARD
+           CRIAR CARD
         ================================================== */
 
         function criarParticipante(
             dados
-        ){
+        ) {
+
+            /* ==============================================
+               DADOS DA PLANILHA
+            ============================================== */
 
             const nome =
-                campo(
+                encontrarCampo(
                     dados,
                     "nome de aventureiro"
-                );
+                ) ||
+                "Aventureiro";
 
 
             const classe =
-                campo(
+                encontrarCampo(
                     dados,
                     "classe"
                 );
 
 
-            const descricao =
-                campo(
-                    dados,
-                    "descreva sobre seu personagem"
-                );
-
-
             const jornada =
-                campo(
+                encontrarCampo(
                     dados,
                     "jornada"
                 );
 
 
+            const descricao =
+                encontrarCampo(
+                    dados,
+                    "descreva sobre seu personagem"
+                ) ||
+                "Este aventureiro ainda não revelou sua história.";
+
+
             const avatar =
-                campo(
+                encontrarCampo(
                     dados,
                     "seu avatar"
                 );
 
 
             const portal =
-                campo(
+                encontrarCampo(
                     dados,
                     "portal de origem"
                 );
 
+
+            /* ==============================================
+               DEBUG
+            ============================================== */
+
+            console.log(
+                "--------------------------------"
+            );
+
+            console.log(
+                "Nome:",
+                nome
+            );
+
+            console.log(
+                "Classe:",
+                classe
+            );
+
+            console.log(
+                "Jornada:",
+                jornada
+            );
+
+            console.log(
+                "Descrição:",
+                descricao
+            );
+
+            console.log(
+                "Avatar:",
+                avatar
+            );
+
+            console.log(
+                "Portal:",
+                portal
+            );
+
+
+            /* ==============================================
+               CARD
+            ============================================== */
 
             const card =
                 document.createElement(
@@ -687,150 +878,213 @@ document.addEventListener(
                 "participante";
 
 
-            /* Avatar */
+            /* ==============================================
+               AVATAR
+            ============================================== */
 
-            const avatarDiv =
+            const avatarContainer =
                 document.createElement(
                     "div"
                 );
 
-            avatarDiv.className =
+            avatarContainer.className =
                 "participante-avatar";
 
 
-            const img =
-                document.createElement(
-                    "img"
+            if (avatar) {
+
+                const imagem =
+                    document.createElement(
+                        "img"
+                    );
+
+
+                imagem.src =
+                    converterImagemDrive(
+                        avatar
+                    );
+
+
+                imagem.alt =
+                    `Avatar de ${nome}`;
+
+
+                imagem.loading =
+                    "lazy";
+
+
+                imagem.onerror =
+                    function () {
+
+                        console.warn(
+                            "Imagem não carregou:",
+                            avatar
+                        );
+
+
+                        imagem.style.display =
+                            "none";
+
+                    };
+
+
+                avatarContainer.appendChild(
+                    imagem
                 );
 
+            }
 
-            img.src =
-                converterDrive(
-                    avatar
-                );
+            else {
 
+                avatarContainer.textContent =
+                    "🧙";
 
-            img.alt =
-                "Avatar de " +
-                nome;
+            }
 
 
-            avatarDiv.appendChild(
-                img
-            );
+            /* ==============================================
+               NOME
+            ============================================== */
 
-
-            /* Nome */
-
-            const nomeDiv =
+            const nomeElemento =
                 document.createElement(
                     "span"
                 );
 
-            nomeDiv.className =
+            nomeElemento.className =
                 "participante-nome";
 
-            nomeDiv.textContent =
+            nomeElemento.textContent =
                 nome;
 
 
-            /* Classe */
+            /* ==============================================
+               CLASSE
+            ============================================== */
 
-            const classeDiv =
+            const classeElemento =
                 document.createElement(
                     "span"
                 );
 
-            classeDiv.className =
+            classeElemento.className =
                 "participante-classe";
 
-            classeDiv.textContent =
-                classe;
+
+            if (classe) {
+
+                classeElemento.textContent =
+                    classe;
+
+            }
+
+            else {
+
+                classeElemento.style.display =
+                    "none";
+
+            }
 
 
-            /* Descrição */
+            /* ==============================================
+               TOOLTIP / DESCRIÇÃO
+            ============================================== */
 
-            const tooltip =
+            const descricaoElemento =
                 document.createElement(
                     "div"
                 );
 
-            tooltip.className =
+            descricaoElemento.className =
                 "participante-descricao";
 
 
-            const texto =
+            const descricaoTexto =
                 document.createElement(
                     "span"
                 );
 
-            texto.textContent =
-                descricao ||
-                "Este aventureiro ainda não revelou sua história.";
+            descricaoTexto.textContent =
+                descricao;
 
 
-            tooltip.appendChild(
-                texto
+            descricaoElemento.appendChild(
+                descricaoTexto
             );
 
 
-            /* Jornada */
+            /* ==============================================
+               JORNADA
+            ============================================== */
 
-            if(jornada){
+            if (
+                jornada &&
+                jornada.trim() !== ""
+            ) {
 
-                const jornadaDiv =
+                const jornadaElemento =
                     document.createElement(
                         "div"
                     );
 
-                jornadaDiv.className =
+                jornadaElemento.className =
                     "tooltip-jornada";
 
 
-                const strong =
+                const jornadaTexto =
                     document.createElement(
                         "strong"
                     );
 
-                strong.textContent =
-                    "🗺️ Jornada: " +
-                    jornada;
+
+                jornadaTexto.textContent =
+                    `🗺️ Jornada: ${jornada}`;
 
 
-                jornadaDiv.appendChild(
-                    strong
+                jornadaElemento.appendChild(
+                    jornadaTexto
                 );
 
 
-                tooltip.appendChild(
-                    jornadaDiv
+                descricaoElemento.appendChild(
+                    jornadaElemento
                 );
 
             }
 
 
-            /* Montar */
+            /* ==============================================
+               MONTAR CARD
+            ============================================== */
 
             card.appendChild(
-                avatarDiv
-            );
-
-            card.appendChild(
-                nomeDiv
-            );
-
-            card.appendChild(
-                classeDiv
-            );
-
-            card.appendChild(
-                tooltip
+                avatarContainer
             );
 
 
-            /* Portal */
+            card.appendChild(
+                nomeElemento
+            );
 
-            if(portal){
+
+            card.appendChild(
+                classeElemento
+            );
+
+
+            card.appendChild(
+                descricaoElemento
+            );
+
+
+            /* ==============================================
+               PORTAL
+            ============================================== */
+
+            if (
+                portal &&
+                portal.trim() !== ""
+            ) {
 
                 card.classList.add(
                     "tem-portal"
@@ -839,29 +1093,10 @@ document.addEventListener(
 
                 card.addEventListener(
                     "click",
-                    function(){
+                    function () {
 
-                        let url =
-                            portal.trim();
-
-
-                        if(
-                            !/^https?:\/\//i.test(
-                                url
-                            )
-                        ){
-
-                            url =
-                                "https://" +
-                                url;
-
-                        }
-
-
-                        window.open(
-                            url,
-                            "_blank",
-                            "noopener,noreferrer"
+                        abrirPortal(
+                            portal
                         );
 
                     }
@@ -870,33 +1105,48 @@ document.addEventListener(
             }
 
 
-            /* Mobile */
+            /* ==============================================
+               MOBILE
+               
+               No telemóvel:
+               
+               1º toque = mostra descrição
+               2º toque = abre o blog
+            ============================================== */
 
             card.addEventListener(
                 "click",
-                function(event){
+                function (evento) {
 
-                    if(
+                    if (
                         window.innerWidth <= 600
-                    ){
+                    ) {
 
-                        if(
-                            !card.classList.contains(
+                        const mostrando =
+                            card.classList.contains(
                                 "mostrar-descricao"
-                            )
-                        ){
+                            );
 
-                            event.preventDefault();
+
+                        if (!mostrando) {
+
+                            evento.preventDefault();
+
+                            evento.stopImmediatePropagation();
+
 
                             document
                                 .querySelectorAll(
                                     ".participante.mostrar-descricao"
                                 )
                                 .forEach(
-                                    outro =>
+                                    function (outro) {
+
                                         outro.classList.remove(
                                             "mostrar-descricao"
-                                        )
+                                        );
+
+                                    }
                                 );
 
 
@@ -913,6 +1163,10 @@ document.addEventListener(
             );
 
 
+            /* ==============================================
+               INSERIR NA LISTA
+            ============================================== */
+
             lista.appendChild(
                 card
             );
@@ -921,38 +1175,163 @@ document.addEventListener(
 
 
         /* ==================================================
-           DRIVE
+           CONVERTER IMAGEM DO GOOGLE DRIVE
+           
+           Aceita:
+
+           https://drive.google.com/open?id=ABC
+
+           https://drive.google.com/file/d/ABC/view
+
+           https://drive.google.com/uc?id=ABC
         ================================================== */
 
-        function converterDrive(url){
+        function converterImagemDrive(
+            url
+        ) {
 
-            if(!url){
+            if (!url) {
 
                 return "";
 
             }
 
 
-            const match =
+            url =
+                url.trim();
+
+
+            let id = null;
+
+
+            /* ==============================================
+               open?id=
+            ============================================== */
+
+            const encontradoOpen =
                 url.match(
-                    /(?:id=|\/d\/)([^/&?]+)/
+                    /[?&]id=([^&]+)/i
                 );
 
 
-            if(!match){
+            if (
+                encontradoOpen
+            ) {
+
+                id =
+                    encontradoOpen[1];
+
+            }
+
+
+            /* ==============================================
+               /file/d/
+            ============================================== */
+
+            if (!id) {
+
+                const encontradoArquivo =
+                    url.match(
+                        /\/file\/d\/([^/]+)/i
+                    );
+
+
+                if (
+                    encontradoArquivo
+                ) {
+
+                    id =
+                        encontradoArquivo[1];
+
+                }
+
+            }
+
+
+            /* ==============================================
+               /uc?id=
+            ============================================== */
+
+            if (!id) {
+
+                const encontradoUC =
+                    url.match(
+                        /drive\.google\.com\/uc\?.*id=([^&]+)/i
+                    );
+
+
+                if (
+                    encontradoUC
+                ) {
+
+                    id =
+                        encontradoUC[1];
+
+                }
+
+            }
+
+
+            /* ==============================================
+               NÃO ENCONTROU ID
+            ============================================== */
+
+            if (!id) {
+
+                console.warn(
+                    "⚠️ Não foi possível encontrar o ID do Drive:",
+                    url
+                );
+
 
                 return url;
 
             }
 
 
+            /* ==============================================
+               URL DA THUMBNAIL
+            ============================================== */
+
             return (
                 "https://drive.google.com/thumbnail" +
                 "?id=" +
-                encodeURIComponent(
-                    match[1]
-                ) +
+                encodeURIComponent(id) +
                 "&sz=w500"
+            );
+
+        }
+
+
+        /* ==================================================
+           ABRIR PORTAL
+        ================================================== */
+
+        function abrirPortal(
+            url
+        ) {
+
+            let endereco =
+                url.trim();
+
+
+            if (
+                !/^https?:\/\//i.test(
+                    endereco
+                )
+            ) {
+
+                endereco =
+                    "https://" +
+                    endereco;
+
+            }
+
+
+            window.open(
+                endereco,
+                "_blank",
+                "noopener,noreferrer"
             );
 
         }
