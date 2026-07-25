@@ -485,7 +485,8 @@ permalink: /beda/2026/recrutamento-teste
     >
 	
 
-	<div class="trilha-sonora">
+
+<div class="trilha-sonora">
 
 
         <h3>
@@ -518,6 +519,12 @@ permalink: /beda/2026/recrutamento-teste
 
     </div>
 
+</div>
+
+<!-- tooltip único, fora da grade — nunca é cortado por overflow de nenhum contêiner -->
+<div id="tooltip-flutuante" class="tooltip-flutuante">
+    <span class="tooltip-flutuante-texto"></span>
+    <div class="tooltip-flutuante-jornada"></div>
 </div>
 
 <style>
@@ -564,6 +571,9 @@ permalink: /beda/2026/recrutamento-teste
     box-shadow:
         0 25px 70px rgba(0,0,0,.25);
 
+    /* garante que a seção nunca corte conteúdo nem crie scroll próprio */
+    overflow: visible !important;
+    max-height: none !important;
 }
 
 .participantes-cabecalho{
@@ -631,6 +641,10 @@ permalink: /beda/2026/recrutamento-teste
     gap:30px 20px;
 
     justify-items:center;
+
+    /* idem: sem corte, sem scroll próprio */
+    overflow: visible !important;
+    max-height: none !important;
 
 }
 
@@ -733,24 +747,27 @@ permalink: /beda/2026/recrutamento-teste
 
 
 /* ==========================================================
-   DESCRIÇÃO / TOOLTIP
+   TOOLTIP FLUTUANTE (único, fixo na tela)
+
+   Antes, cada participante tinha seu próprio tooltip
+   posicionado com "position:absolute" dentro do card —
+   se algum ancestral (o painel do tema, por exemplo)
+   tivesse overflow:hidden/auto, o tooltip era cortado
+   ou empurrava scroll.
+
+   Agora existe só UM tooltip, com "position:fixed",
+   fora de qualquer contêiner com overflow. A posição é
+   calculada em JS conforme o card que está sob o mouse,
+   então ele nunca é cortado nem gera scroll.
 ========================================================== */
 
-.participante-descricao{
+.tooltip-flutuante{
 
-    position:absolute;
-
-    left:50%;
-
-    bottom:calc(100% - 5px);
+    position:fixed;
 
     width:230px;
 
     padding:13px 15px;
-
-    transform:
-        translateX(-50%)
-        translateY(8px);
 
     background:var(--marrom-escuro);
 
@@ -775,20 +792,21 @@ permalink: /beda/2026/recrutamento-teste
     pointer-events:none;
 
     transition:
-        opacity .2s ease,
-        transform .2s ease;
+        opacity .15s ease,
+        transform .15s ease;
 
-    z-index:20;
+    transform:
+        translate(-50%,-100%)
+        translateY(4px);
+
+    z-index:99999;
 
     box-shadow:
         0 10px 30px rgba(0,0,0,.35);
 
 }
 
-
-/* pequeno triângulo */
-
-.participante-descricao::after{
+.tooltip-flutuante::after{
 
     content:"";
 
@@ -808,17 +826,31 @@ permalink: /beda/2026/recrutamento-teste
 
 }
 
-
-.participante:hover
-.participante-descricao{
+.tooltip-flutuante.mostrar{
 
     opacity:1;
 
     visibility:visible;
 
     transform:
-        translateX(-50%)
-        translateY(0);
+        translate(-50%,-100%)
+        translateY(-4px);
+
+}
+
+.tooltip-flutuante-jornada{
+
+    margin-top:10px;
+
+    text-align:center;
+
+    font-weight:bold;
+
+}
+
+.tooltip-flutuante-jornada:empty{
+
+    display:none;
 
 }
 
@@ -910,22 +942,9 @@ permalink: /beda/2026/recrutamento-teste
 
     }
 
-    /*
-       No celular não existe hover.
-       A descrição aparece quando o participante
-       recebe a classe "mostrar-descricao".
-    */
+    .tooltip-flutuante{
 
-    .participante.mostrar-descricao
-    .participante-descricao{
-
-        opacity:1;
-
-        visibility:visible;
-
-        transform:
-            translateX(-50%)
-            translateY(0);
+        width:200px;
 
     }
 
@@ -951,6 +970,15 @@ const URL_PARTICIPANTES =
 
 const lista =
     document.getElementById("lista-participantes");
+
+const tooltipFlutuante =
+    document.getElementById("tooltip-flutuante");
+
+const tooltipFlutuanteTexto =
+    tooltipFlutuante.querySelector(".tooltip-flutuante-texto");
+
+const tooltipFlutuanteJornada =
+    tooltipFlutuante.querySelector(".tooltip-flutuante-jornada");
 
 
 /* ==========================================================
@@ -1320,19 +1348,6 @@ function normalizarTexto(texto){
 
 /* ==========================================================
    PROCURAR COLUNA
-==========================================================
-
-   Agora não dependemos do nome EXATO da coluna.
-
-   Exemplo:
-
-   "🗺️ Jornada"
-
-   vira:
-
-   "jornada"
-
-   e será encontrado normalmente.
 ========================================================== */
 
 function encontrarCampo(
@@ -1500,6 +1515,10 @@ function criarParticipante(dados){
     participante.className =
         "participante";
 
+    /* guarda o texto do tooltip no próprio elemento */
+    participante.dataset.descricao = descricao;
+    participante.dataset.jornada = jornada || "";
+
 
     /* ======================================================
        AVATAR
@@ -1619,62 +1638,6 @@ function criarParticipante(dados){
 
 
     /* ======================================================
-       DESCRIÇÃO
-    ====================================================== */
-
-    const descricaoElemento =
-        document.createElement("div");
-
-    descricaoElemento.className =
-        "participante-descricao";
-
-
-    const descricaoTexto =
-        document.createElement("span");
-
-    descricaoTexto.textContent =
-        descricao;
-
-
-    descricaoElemento.appendChild(
-        descricaoTexto
-    );
-
-
-    /* ======================================================
-       JORNADA
-    ====================================================== */
-
-    if(jornada){
-
-        const separador =
-            document.createElement("div");
-
-        separador.className =
-            "tooltip-jornada";
-
-
-        const jornadaElemento =
-            document.createElement("strong");
-
-
-        jornadaElemento.textContent =
-            `${jornada}`;
-
-
-        separador.appendChild(
-            jornadaElemento
-        );
-
-
-        descricaoElemento.appendChild(
-            separador
-        );
-
-    }
-
-
-    /* ======================================================
        MONTAR
     ====================================================== */
 
@@ -1693,38 +1656,23 @@ function criarParticipante(dados){
     );
 
 
-    participante.appendChild(
-        descricaoElemento
+    /* ======================================================
+       TOOLTIP (desktop: hover / mobile: toque)
+    ====================================================== */
+
+    participante.addEventListener(
+        "mouseenter",
+        () => mostrarTooltip(participante)
+    );
+
+    participante.addEventListener(
+        "mouseleave",
+        esconderTooltip
     );
 
 
     /* ======================================================
-       PORTAL
-    ====================================================== */
-
-    if(portal){
-
-        participante.classList.add(
-            "tem-portal"
-        );
-
-
-        participante.addEventListener(
-            "click",
-            function(){
-
-                abrirPortal(
-                    portal
-                );
-
-            }
-        );
-
-    }
-
-
-    /* ======================================================
-       MOBILE
+       PORTAL / MOBILE
     ====================================================== */
 
     participante.addEventListener(
@@ -1735,37 +1683,30 @@ function criarParticipante(dados){
                 window.innerWidth <= 600
             ){
 
-                if(
-                    !participante.classList.contains(
-                        "mostrar-descricao"
-                    )
-                ){
+                const jaAberto =
+                    tooltipFlutuante.classList.contains("mostrar") &&
+                    tooltipFlutuanteAtivo === participante;
+
+
+                if(!jaAberto){
 
                     evento.preventDefault();
 
                     evento.stopImmediatePropagation();
 
 
-                    document
-                        .querySelectorAll(
-                            ".participante.mostrar-descricao"
-                        )
-                        .forEach(
-                            outro => {
+                    mostrarTooltip(participante);
 
-                                outro.classList.remove(
-                                    "mostrar-descricao"
-                                );
-
-                            }
-                        );
-
-
-                    participante.classList.add(
-                        "mostrar-descricao"
-                    );
+                    return;
 
                 }
+
+            }
+
+
+            if(portal){
+
+                abrirPortal(portal);
 
             }
 
@@ -1783,6 +1724,100 @@ function criarParticipante(dados){
     );
 
 }
+
+
+/* ==========================================================
+   TOOLTIP FLUTUANTE
+========================================================== */
+
+let tooltipFlutuanteAtivo = null;
+
+
+function mostrarTooltip(participante){
+
+    tooltipFlutuanteAtivo = participante;
+
+
+    tooltipFlutuanteTexto.textContent =
+        participante.dataset.descricao || "";
+
+
+    const jornada =
+        participante.dataset.jornada;
+
+
+    tooltipFlutuanteJornada.textContent =
+        jornada
+            ? `${jornada}`
+            : "";
+
+
+    const retangulo =
+        participante.getBoundingClientRect();
+
+
+    /* mostra primeiro (fora da tela) para medir a largura real */
+    tooltipFlutuante.classList.add("mostrar");
+
+
+    let esquerda =
+        retangulo.left + retangulo.width / 2;
+
+    const margem = 12;
+
+    const metadeTooltip =
+        tooltipFlutuante.offsetWidth / 2;
+
+
+    esquerda = Math.max(
+        metadeTooltip + margem,
+        Math.min(
+            esquerda,
+            window.innerWidth - metadeTooltip - margem
+        )
+    );
+
+
+    tooltipFlutuante.style.left =
+        esquerda + "px";
+
+    tooltipFlutuante.style.top =
+        (retangulo.top - 8) + "px";
+
+}
+
+
+function esconderTooltip(){
+
+    tooltipFlutuanteAtivo = null;
+
+    tooltipFlutuante.classList.remove("mostrar");
+
+}
+
+
+/* fecha o tooltip mobile ao tocar fora */
+document.addEventListener(
+    "click",
+    (evento) => {
+
+        if(
+            tooltipFlutuanteAtivo &&
+            !tooltipFlutuanteAtivo.contains(evento.target) &&
+            !tooltipFlutuante.contains(evento.target)
+        ){
+
+            esconderTooltip();
+
+        }
+
+    }
+);
+
+
+/* reposiciona/fecha ao rolar ou redimensionar, pra não "flutuar" errado */
+window.addEventListener("scroll", esconderTooltip, { passive: true });
+window.addEventListener("resize", esconderTooltip);
 
 
 /* ==========================================================
@@ -1916,10 +1951,8 @@ function abrirPortal(url){
 }
 </script>
 
+
 </div>
-
-
-
 </body>
 
 </html>
