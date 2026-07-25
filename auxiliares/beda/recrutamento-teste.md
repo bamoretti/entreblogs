@@ -673,9 +673,6 @@ permalink: /beda/2026/recrutamento-teste
 
     width:min(1000px,92vw);
 
-    max-height:88vh;
-
-    overflow-y:auto;
 
     padding:40px;
 
@@ -991,7 +988,7 @@ permalink: /beda/2026/recrutamento-teste
         opacity .2s ease,
         transform .2s ease;
 
-    z-index:20;
+    z-index:90;
 
     box-shadow:
         0 10px 30px rgba(0,0,0,.35);
@@ -1084,7 +1081,7 @@ permalink: /beda/2026/recrutamento-teste
 
         width:94vw;
 
-        max-height:90vh;
+    
 
         padding:30px 18px;
 
