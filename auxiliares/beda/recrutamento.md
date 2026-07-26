@@ -760,7 +760,7 @@ permalink: /beda/2026/recrutamento
 
     position:fixed;
 
-    width:350px;
+    width:400px;
 
     padding:13px 15px;
 
