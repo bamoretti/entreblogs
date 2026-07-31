@@ -10,7 +10,7 @@ permalink: /beda/
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>D&B: Os Guardiões da Blogosfera</title>
 
-<meta http-equiv="refresh" content="0; url=/beda/2026/recrutamento">
+<meta http-equiv="refresh" content="0; url=/beda/2026">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
