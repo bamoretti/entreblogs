@@ -446,7 +446,7 @@ A cada semana, um novo senhor das trevas surgirá das sombras, trazendo consigo 
 
 		<h2>É preciso ter posts temáticos?</h2>
 		<p>
-		Não, o tema dos posts é livre para cada participante. O D&B, apesar de ter personagens e uma temática, não é necessariamente uma obrigação de seguir a risca, é mais um incentivo a postar, gamificar e compartilhar as postagens do BEDA. Fique a vontade para manter o tipo de posts que já tem costume, pra se aventurar em novas temáticas e até abraçar a temática da campanha.
+		Não, o tema dos posts é livre para cada participante. O D&B, apesar de ter personagens e uma temática não é necessariamente uma obrigação de seguir a risca, é mais um incentivo a postar, gamificar e compartilhar as postagens do BEDA. Fique a vontade para manter o tipo de posts que já tem costume, pra se aventurar em novas temáticas e até abraçar a temática da campanha.
 		</p>
 
 		<h2>Preciso participar de todas as missões semanais?</h2>
