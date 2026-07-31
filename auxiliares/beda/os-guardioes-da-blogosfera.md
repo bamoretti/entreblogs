@@ -446,10 +446,10 @@ A cada semana, um novo senhor das trevas surgirá das sombras, trazendo consigo 
 
 		<ul>
 		<li><strong>É preciso ter posts temáticos?</strong><br>
-		Não, mas pode fazer o que quiser, o D&B, apesar de ter esta temática e personagem, não é necessariamente uma obrigação de seguir a risca, é mais um incentivo a postar, gamificar e compartilhar as postagens do BEDA.</li>
+		Não, o tema dos posts é livre para cada participante. O D&B, apesar de ter personagens e uma temática, não é necessariamente uma obrigação de seguir a risca, é mais um incentivo a postar, gamificar e compartilhar as postagens do BEDA. Fique a vontade para manter o tipo de posts que já tem costume, pra se aventurar em novas temáticas e até abraçar a temática da campanha.</li>
 
 		<li><strong>Preciso participar de todas as missões semanais?</strong><br>
-		Não é obrigatório, mas como forma de manter a criatividade, decidimos trazer esses pequenos desafios durante o mês de agosto.</li>
+		Não é obrigatório, mas entrando no clima da campanha e como forma de estimular a criatividade, decidimos trazer esses pequenos desafios durante o mês de agosto.</li>
 		
 		<li><strong>Temos uma página com todas as postagens?</strong><br>
 		Sim, temos a página /beda/2026/pergaminhos, com todas as postagens durante o mês de agosto.</li>
