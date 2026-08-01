@@ -6,7 +6,108 @@
     <atom:link href="https://entreblogs.com.br/feed-entreblogs.xml" rel="self" type="application/rss+xml"/>
     <description>Todas as postagens dos blogs participantes do Entreblogs</description>
     <language>pt-br</language>
-    <lastBuildDate>Sat, 01 Aug 2026 10:02:06 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 13:25:34 GMT</lastBuildDate>
+
+  <item>
+    <title>EsKAYvendo — saudades do meu ex</title>
+    <link>https://eskayvendo.bearblog.dev/saudades-do-meu-ex/</link>
+    <guid isPermaLink="true">https://eskayvendo.bearblog.dev/saudades-do-meu-ex/</guid>
+    <pubDate>Sat, 01 Aug 2026 13:10:53 GMT</pubDate>
+    <description><![CDATA[<p>eu sou <a href='https://eskayvendo.bearblog.dev/o-drama-da-mudanca--outros-updates'>avesso à mudanças</a> e isso me afeta especialmente na forma como trabalho. já por muitos anos faço uso do <strong>scrivener</strong>, um editor de texto super famoso, comum tanto na gringa como por aqui - pelo menos no meu círculo social, muita gente já utilizou e na internet sempre vejo brasileiros falando a respeito. eu gosto tanto do programa que cheguei a comprar a licença dele, o que me rendeu, depois de uns meses, a atualização para o famigerado Scrivener 3, que vinha sendo aguardada na comunidade fazia mais de ano. escrevi um sem número de histórias com ele e, desde o primeiro uso, senti que tinha achado a solução para meus problemas de organização e de "cegueira temporal".</p>
+<p>mas aí vem o ônus: eu tendo de usar o windows (vômito) por anos, só pra não poder perder o uso ao scrivener. eu detesto o windows desde que aprendi a manusear minimamente um linux (comecei com o ubuntu, passeei pelo xubuntu, lubuntu, voltei pro ubuntu e agora estou no kali - eu sei, uma mudança e tanto!), então não aguentava ter de fazer uso desse sistema de merda só pra manter UM programa que não tinha versão pra linux. um dia me cansei, especialmente depois de várias travadas do windows. resolvi que ia tacar o foda-se, instalar o ubuntu de novo e dava um jeito de arrumar o scrivener nele depois.</p>
+<p>foi aí que começou a minha saga. basicamente achei um <a href='https://rdewalt.substack.com/p/installing-scrivener-on-linux'>tutorial</a> que ensinava o passo a passo para botar o linux pra rodar numa máquina virtual usando o wine. funcionou uns 80%, pois ainda tive muito trabalho ajustando outros erros que apareciam pelo caminho e que não eram cobertos pelo tutorial (normal, pois, assim como cada floco de neve é único, o mesmo vale para instalações linux).</p>
+<p>no final, consegui fazer o programa rodar depois de 3 dias só me dedicando à questão. tudo certo, exceto que, por algum motivo, o wine fazia meu scrivener não aceitar corretamente a formatação UTF-8, deixando meu texto sem acentuação. rodei e rodei, mas nunca achei um jeito de consertar essa merda. acabei usando dessa forma mesmo, ainda que seja muito estressante pra mim escrever com erros tão crassos.</p>
+<p>um dia meu notebook, o Júnior, foi de base, levando meus arquivos (que consegui recuperar depois) & meu coração (que nunca mais voltou a ser o mesmo). o Júnior foi meu primeiro notebook BOM, presente da minha amiga e ex-namorada. o cara era tão velho de guerra que já tinha chegado na minha amiga USADO e mesmo assim durou mais uns... 6, 7 anos na minha mão?? não tenho certeza, mas se fosse por mim ainda estaria com o Júnior até hoje. "ah, mas o hardware desatualizado", ah mermão, foda-se, o negócio funcionava pro que eu precisava!!! novas tecnologias não têm poder nenhum sobre mim enquanto as antigas ainda estiverem funcionando perfeitamente pras minhas demandas. foi a mesma coisa com meu celular, mencionado nesse post sobre <a href='https://eskayvendo.bearblog.dev/lendo-livros-de-carne-e-osso'>minhas leituras</a>.</p>
+<p>consegui outro notebook, até que esse também me deixou na mão, pois a tela sofreu um apagão - mas antes disso, fiz o mesmo processo de sempre: instalei o ubuntu, os programas que eu precisava com mais urgência pro trabalho e aí chegou a vez do scrivener. só que, dessa vez, não consegui fazer o programa rodar nem por um caralho. tentei inclusive usar o lutris, que é muito utilizado para fazer rodar jogos sem versão pro linux, mas foi em vão. acabei ficando sem scrivener e resolvi que ia testar outros programas.</p>
+<p>pensei, por um tempo, de fazer anotações sobre cada programa para depois reunir numa postagem só com meus comentários, mas a real é que fiquei com preguiça - foram tantos que já nem lembro o nome da maioria, sendo sincero. dos poucos que me recordo, foram aqueles que não me deram tanto trabalho:</p>
+<ul>
+<li><p><strong>novelWriter</strong>, que não usei para escrever ficção (seria muito complicado de arrumar o material depois, para fazer a edição, revisão e diagramação), mas sim para escrever as postagens desse blog (a formatação markdown dele já deixava tudo praticamente pronto pra cá);</p>
+</li>
+<li><p><strong>bibisco</strong>, que usei para escrever ficção, mas não seguiria usando porque senti que era muito poluído graficamente falando. se você é uma pessoa que gosta de vários frufrus no programa, ele tem algumas opções bem interessantes, caso adquira o premium.</p>
+</li>
+<li><p><strong>ellipsus</strong>, que foi o campeão, pra mim, dentre os citados, mas cujos ônus me impedem de gostar dele tanto quanto do scrivener. primeiro que ele é online, sem programa desktop e eu <em>detesto</em> com todo meu coração usar coisas online. segundo porque não possui um sistema de organização de cenas/capítulos muito bom, dependendo da formatação do texto, como qualquer docs da vida faria, e pra mim que escrevo histórias com muitas cenas, muito material, isso faz uma falta danada. ele também tem uma versão paga que libera algumas features interessantes de estatísticas e tal, mas acho que faz mais sentido pra quem escreve em inglês, já que provavelmente opera com algum tipo de IA para fazer análises como "para qual público (idade/nível de educação) esse texto faz sentido".</p>
+</li>
+</ul>
+<p>enfim, agora estou aqui pelo kali, que é bem diferente das outras distros que usei. quero me habituar ao kali porque ele é o mais utilizado para cybersegurança e atualmente estou estudando a área, mas confesso que várias vezes me sinto meio tapado por não conseguir fazer funcionar os programas que quero, esbarrando em erros que ainda não consegui corrigir. isso nem é tanto culpa do kali, mas sim da minha falta de tempo - as coisas com linux podem demorar um pouco mais pra se arrumar, especialmente se você tá se deparando com um problema desconhecido e esse é o caso pra mim. acho admirável pessoas como cálien, que saca demais de <a href='https://spacecrowperson.bearblog.dev/entreblogs-um-novo-rice-de-linux-pra-mim'>mexer nos compiuter</a>, mas eu ainda tô no baby steps e às vezes o baby aqui cai de cara no chão pra não levantar de jeito nenhum.</p>
+<p>mas como mamãe não criou nenhum desistente (apenas um dramático muito prolixo), prometi a mim mesmo que quando concluir o trabalho que estou pertinho de lançar (é logo agora no começo de agosto!), vou sentar o rabo na frente do note e só me levantar quando tiver voltado pro meu scrivener!!! não falo disso apenas pelo meu apego ao programa (apesar de sim, ter muito essa questão, com certeza), mas também porque sinto falta de escrever ficção. por um tempo achei que fosse melhor desistir de ser escritor, de só trabalhar no texto dos outros porque é um local onde posso exercer tanto a minha criatividade quanto minha habilidade técnica. depois de uma sessão de terapia chorando compulsivamente ao pensar em nunca mais escrever, no entanto, acho que essa não é uma opção, então bora de trabalhar nos compiuter, né? é o que temos pra hoje.</p>
+<hr />
+<p>Quer responder essa postagem? <a href="mailto:kay.j.batista@gmail.com?subject=Re: saudades do meu ex">Fala que eu te escuto!</a></p>
+]]></description>
+  </item>
+
+  <item>
+    <title>Quase Aurora — Quando alguém começa a se chamar escritora?</title>
+    <link>https://quaseaurora.blogspot.com/2026/08/quando-alguem-comeca-se-chamar-escritora.html</link>
+    <guid isPermaLink="true">https://quaseaurora.blogspot.com/2026/08/quando-alguem-comeca-se-chamar-escritora.html</guid>
+    <pubDate>Sat, 01 Aug 2026 12:09:47 GMT</pubDate>
+    <description><![CDATA[<p style="text-align: justify;">Como uma <i>guardiã da Biblioteca Eterna</i>, estou sempre rodeada de livros, papéis e documentos antigos – e atuais. Consequentemente, estou sempre realizando leituras para sanar minhas dúvidas, anseios e matar minhas curiosidades, além de querer estar em constante aprendizado sobre a vida. Porém, mesmo lendo de quase tudo e mais um pouco, ainda não consegui encontrar uma resposta para minha pergunta: <b>Quando uma pessoa pode começar a se chamar escritora?</b></p><p style="text-align: justify;"></p><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRujv53oVYHA-_PvxHbHEcpjdMMYCArTHxv8tlTZA9NhzQzlfStzQb1ZIKtPJpMTLjN6AEZ-8YjBX7NMM-SoZdOC4NgWeVNVhiV8gAxtzKAE2pkojaQ9ejf5AJ9s0it2HrQUkiXpUkqVzgbT6ehwlBrQlE4EnFReNdrYtBjUi7tefjtWt_xdU3pcHuYwZF/s4592/aaron-burden-y02jEX_B0O0-unsplash.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="3448" data-original-width="4592" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRujv53oVYHA-_PvxHbHEcpjdMMYCArTHxv8tlTZA9NhzQzlfStzQb1ZIKtPJpMTLjN6AEZ-8YjBX7NMM-SoZdOC4NgWeVNVhiV8gAxtzKAE2pkojaQ9ejf5AJ9s0it2HrQUkiXpUkqVzgbT6ehwlBrQlE4EnFReNdrYtBjUi7tefjtWt_xdU3pcHuYwZF/s1600/aaron-burden-y02jEX_B0O0-unsplash.jpg" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="Foto de &lt;a href=&quot;https://unsplash.com/pt-br/@aaronburden?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Aaron Burden&lt;/a&gt; na &lt;a href=&quot;https://unsplash.com/pt-br/fotografias/fountain-pen-on-black-lined-paper-y02jEX_B0O0?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;" target="_blank">imagem</a></td></tr></tbody></table><p></p><p style="text-align: justify;">Existe um debate extenso sobre assunto. Não é simplesmente responder <i>"a partir de tal ponto/tal coisa"</i>. Dessa, nascem muitas outras perguntas cujas respostas são <i>sim</i> e <i>não</i>. Assim como tantas outras questões do viver, é complexo.</p><p style="text-align: justify;">Há quem acredite que escritor é apenas aquele que publica livro. Mas se o autor escreveu e lançou sua história no mundo uma única vez, 20/30/40 anos depois sem escrever nada, ele continua sendo escritor? E os amantes de crônicas e poemas que são compartilhados apenas em bilhetes trocados, acumulam poeira nos cadernos esquecidos, ficam escondidos nas notas do celular e nunca chegarão ao estrelato? São menos ou mais escritores? Ou não são nada?&nbsp;</p><p style="text-align: justify;"><b>Quem define o que faz de alguém um escritor?</b></p><p style="text-align: justify;">Se vocês estão escrevendo em blogs constantemente ao longo dos anos, se consideram <i>apenas </i>blogueiros ou também escritores? Não acredito que ser criador de conteúdo defina o que fazemos em nosso espaço virtual. Há uma complexidade no ato de escrever aqui e talvez nunca cheguemos a um consenso. E sabe de uma coisa? Realmente espero que não haja uma resposta definitiva para essas perguntas.</p><p style="text-align: justify;">Gosto de como estamos sempre nos questionando, trazendo pontos de vistas diferentes com base em nossos valores, realidade e até mesmo cultura. Então eu gosto de não ter uma resposta para essa pergunta. Não há ninguém que possa definir quem de fato é ou não escritor e a partir de que ponto.&nbsp;</p><p style="text-align: justify;">Mas se perguntarem o que a mente por trás desse blog é, tenha certeza de que ela responderá <i>escritora em construção.</i>&nbsp;Ela se enxerga assim porque coloca seus <u><a href="https://quaseaurora.blogspot.com/search/label/Textos" target="_blank">textos</a></u> no mundo, mas sente que há algo pequeno que ainda a faz não usar a nomenclatura com mais firmeza.</p><p style="text-align: center;">★</p><p style="text-align: justify;">|&nbsp;📜 Registro da <u><a href="https://quaseaurora.blogspot.com/p/beda.html" target="_blank">Biblioteca Eterna</a></u></p>]]></description>
+  </item>
+
+  <item>
+    <title>Vento do Leste — Deixe que eles queimem tudo</title>
+    <link>https://www.ventodoleste.com.br/2026/08/deixe-que-eles-queimem-tudo.html</link>
+    <guid isPermaLink="true">https://www.ventodoleste.com.br/2026/08/deixe-que-eles-queimem-tudo.html</guid>
+    <pubDate>Sat, 01 Aug 2026 12:01:00 GMT</pubDate>
+    <description><![CDATA[<table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><img border="0" data-original-height="1817" data-original-width="3270" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRc5Hlr6l6fFadSU6sQGgZDMnhcjxLj03Ig3AI-hoOxVCQ56Qou63wL1PHuwue5FjoGrM9Og2-Uy4m9Pp6FmklMfvfMP9Rder4WbRa0rj7VE6qc7Zle23qJfYqCj4V0MSA6O3j6V3hntzW9tl3nTtYKXfZpse-jnue97jZxCDNfXQb54uLqJMokfwlc2k6/s1600/freddy-kearney-enkfvvZkKv0-unsplash.jpg" style="margin-left: auto; margin-right: auto;" /></td></tr><tr><td class="tr-caption" style="text-align: center;">Imagem/Fonte <a href="https://unsplash.com/pt-br/@fredasem?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Freddy Kearney</a></td></tr></tbody></table><br /><p></p><blockquote>“Os que não constroem precisam queimar. Isso é tão velho quanto a história e os delinquentes juvenis.” (Fahrenheit 451)</blockquote><p></p><p>Nos últimos dias, as redes sociais começaram a espalhar a notícia sobre as grandes empresas de tecnologia destruindo livros para alimentar o conhecimento da Inteligência Artificial. Se você ainda não se deparou com essa informação, o que aconteceu é que empresas de inteligência artificial estão comprando livros físicos, digitalizando o seu conteúdo e destruindo os exemplares após a digitalização, a fim de utilizar as cópias digitais para treinar a IA.</p><p>Nos Estados Unidos, a Justiça abriu precedentes ao decidir que é um direito da empresa Anthropic utilizar os livros da forma que preferir após comprá-los legalmente. Aqui abrimos um parênteses, pois a decisão foi tomada após um acordo de US$1,5 bilhão, pois o processo aponta que a Anthropic adquiriu cerca de 500 mil livros através de sites piratas.</p><p>A decisão também incitou a discussão sobre os direitos autorais dessas obras, uma vez que fica entendido que as empresas poderão controlar o uso desses dados digitalizados sem o conhecimento dos autores.</p><p>Segundo as reportagens, houve um aumento significativo na compra de livros raros e fora de catálogo pelas grandes empresas de tecnologia&nbsp; Ou seja, livros raros sendo destruídos para alimentar modelos de inteligência artificial. Livros que nunca mais voltarão de forma integral para a sociedade. Livros que, essas empresas, passam a controlar o acesso que teremos ao seu conteúdo, uma vez que a IA não fornece o seu conteúdo integral ao ser solicitado, ela responde apenas com base na análise realizada em cima das informações consultadas.</p><p>Se tudo isso não preocupa você, pense: grandes empresas controlando o que você vai consumir, limitando as informações que você terá acesso sobre determinados assuntos. Você perde o direito de escolha a partir do momento que o teu direito de ter acesso a aquele conteúdo foi tirado de você.</p><p>Isso me remete muito a grandes distopias que encontramos na literatura. Como por exemplo, Fahrenheit 451, um dos maiores e melhores exemplos do que a tecnologia pode fazer com a sociedade. Nele somos apresentados a um mundo onde os livros são proibidos, onde o governo decide quais informações você terá acesso e bombeiros são responsáveis por queimar todo e qualquer livro que encontram.</p><p>E assim voltamos à citação que abre essa postagem, uma analogia à situação atual. Quando a IA e as empresas que a controlam não conseguem construir informações, elas&nbsp; começam a destruir toda e qualquer fonte de conhecimento que encontram para tornar seus modelos de inteligência artificial a única fonte de saber, a detentora de todas as informações que um dia você poderá ter a curiosidade e a necessidade de consultar.</p><p>Lembre-se de que, quando já tiverem destruído tudo o que julgam necessário, o que restará? Afinal, “você não precisa queimar livros se o mundo começa a se encher de gente que não lê, não aprende, não quer saber, não é mesmo?” (Fahrenheit 451)</p><p><br /></p><p>Reportagens consultadas para construir esse post:</p>
+<ul>
+  <li><a href="https://epocanegocios.globo.com/inteligencia-artificial/noticia/2026/07/empresas-de-ia-compram-livros-raros-para-treinar-seus-modelos-digitalizam-conteudo-e-destroem-exemplares-fisicos.ghtml">Empresas de IA compram livros raros para treinar seus modelos, digitalizam conteúdo e destroem exemplares físicos</a></li>
+  <li><a href="https://canaltech.com.br/inteligencia-artificial/justica-libera-empresas-de-ia-a-comprarem-e-destruirem-livros-para-treinar-algoritmos/">Justiça libera empresas de IA a comprarem e destruírem livros para treinar algoritmos</a></li>
+  <li><a href="https://cnnportugal.iol.pt/ia/inteligencia-artificial/bernardo-mota-veiga-livros-antigos-sao-desmembrados-para-alimentar-a-ia/20260729/6a69e50dd34ed0733ba7cf7c#goog_rewarded">Livros antigos são desmembrados para alimentar a IA</a></li>
+  <li><a href="https://www.infomoney.com.br/business/milhoes-de-livros-sao-comprados-para-alimentar-ias-e-muitos-deles-destruidos/">Milhões de livros são comprados para alimentar IAs; e muitos deles, destruídos</a></li>
+</ul>]]></description>
+  </item>
+
+  <item>
+    <title>FALA CATARINA — Carta aos Aventureiros de Sgolbertne</title>
+    <link>https://falacatarina.com/2026/08/01/carta-aos-aventureiros-de-sgolbertne/</link>
+    <guid isPermaLink="true">https://falacatarina.com/2026/08/01/carta-aos-aventureiros-de-sgolbertne/</guid>
+    <pubDate>Sat, 01 Aug 2026 12:00:00 GMT</pubDate>
+    <description><![CDATA[
+<p class="wp-block-paragraph" style="font-style:normal;font-weight:200">Da mui respeitável Lady Katheryna da Propriedade de Mnemosynor, do estimado Reino de Sgolbertne, aos Ilustres e Fiéis Aventureiros Registrados, apoiadores da&nbsp;tradição secreta chamada&nbsp;<strong>BEDA</strong>.</p>
+
+
+
+<p class="wp-block-paragraph">Saudação, paz e as bênçãos dos Deuses sejam convosco. Chegaram a Mnemosynor os relatos da prudência com que destes voz ao antigo Chamado.</p>
+
+
+
+<p class="wp-block-paragraph">Faço saber que as sombras do Easquecimento já alcançam os arredores de nossas terras. Velhos marcos de pedra perderam seus nomes, páginas inteiras desapareceram de antigos códices e viajantes regressam incapazes de recordar os caminhos que outrora trilhavam.</p>
+
+
+
+<p class="wp-block-paragraph">Pela presente carta, dou ciência que parti ao vosso encontro para unir-me à causa dos Guardiões. Prefiro estradas antigas e conheço atalhos esquecidos. Durmo em tavernas, mosteiros, cabanas de lenhadores ou sob as estrelas. Nunca passo duas noites na mesma cidade quando sinto que ainda há algo a descobrir adiante. Sou conhecida entre os viajantes como a <em>Dama dos Caminhos</em>.</p>
+
+
+
+<p class="wp-block-paragraph">Não visto armadura, apenas um manto escuro bordado com papoulas vermelhas, e à minha companhia segue uma antiga bolsa de couro onde guardo mapas, pergaminhos, penas, frascos de tinta e um caderno de viagens que carrega fragmentos das memórias do reino. Trago à cintura duas espadas curtas e adagas forjadas em Mnemosynor, empunhadas apenas quando a proteção das histórias assim o exige.</p>
+
+
+
+<p class="wp-block-paragraph">Sigo pelo sincero desejo de ver Sgolbertne livre da ameaça que hoje paira sobre suas terras. Que nossas penas unidas fortaleçam a magia da escrita e salvem nossa missão.</p>
+
+
+
+<p class="wp-block-paragraph">Rogo que os Deuses vos guardem, fortaleçam vossos espíritos e guiem vossos passos por estradas seguras até que o mal seja vencido e as histórias voltem a florescer em todas as terras do Reino.</p>
+
+
+
+<p class="has-small-font-size wp-block-paragraph">Dada e selada no Palácio de Mnemosynor, ao primeiro dia do mês de Agosto, no décimo quarto ano de existência do meu <em>Portal-Blog</em>.</p>
+
+
+
+<div class="wp-block-media-text is-stacked-on-mobile" style="margin-right:0;margin-left:0;padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40);font-size:clamp(14px, 0.875rem + ((1vw - 3.2px) * 0.357), 18px);grid-template-columns:15% auto"><figure class="wp-block-media-text__media"><img data-attachment-id="14855" data-permalink="https://falacatarina.com/2026/08/01/carta-aos-aventureiros-de-sgolbertne/selo-mnemosynor/" data-orig-file="https://falacatarina.com/wp-content/uploads/2026/07/selo-mnemosynor.png" data-orig-size="936,919" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="selo-mnemosynor" data-image-description="" data-image-caption="" data-large-file="https://falacatarina.com/wp-content/uploads/2026/07/selo-mnemosynor.png?w=936" width="936" height="919" src="https://falacatarina.com/wp-content/uploads/2026/07/selo-mnemosynor.png" alt="Selo de cera vermelha em formato circular com uma letra &quot;M&quot; dourada em destaque e uma papoula estilizada à esquerda. O relevo dourado contrasta com o fundo vermelho, remetendo a um selo medieval de autoria ou identidade." class="wp-image-14855 size-full" srcset="https://falacatarina.com/wp-content/uploads/2026/07/selo-mnemosynor.png 936w, https://falacatarina.com/wp-content/uploads/2026/07/selo-mnemosynor.png?w=150&amp;h=147 150w, https://falacatarina.com/wp-content/uploads/2026/07/selo-mnemosynor.png?w=300&amp;h=295 300w, https://falacatarina.com/wp-content/uploads/2026/07/selo-mnemosynor.png?w=768&amp;h=754 768w" sizes="(max-width: 936px) 100vw, 936px" /></figure><div class="wp-block-media-text__content">
+<p class="wp-block-paragraph"><strong>Lady Katheryna de Mnemosynor</strong><br>Exploradora na Jornada de Herói</p>
+</div></div>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><a href="https://entreblogs.com.br/beda/2026" target="_blank" rel=" noopener"><img data-attachment-id="14925" data-permalink="https://falacatarina.com/2026/08/01/carta-aos-aventureiros-de-sgolbertne/banner-beda-1450-x-300-px-1450-x-300-px_20260801_000429_0000/" data-orig-file="https://falacatarina.com/wp-content/uploads/2026/08/banner-beda-1450-x-300-px-1450-x-300-px_20260801_000429_0000.jpg" data-orig-size="1450,300" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="banner-beda (1450 x 300 px) (1450 x 300 px)_20260801_000429_0000" data-image-description="" data-image-caption="" data-large-file="https://falacatarina.com/wp-content/uploads/2026/08/banner-beda-1450-x-300-px-1450-x-300-px_20260801_000429_0000.jpg?w=1024" width="1450" height="300" src="https://falacatarina.com/wp-content/uploads/2026/08/banner-beda-1450-x-300-px-1450-x-300-px_20260801_000429_0000.jpg" alt="Banner em estilo pergaminho anunciando a campanha &quot;Os Guardiões da Blogosfera&quot;. Ao centro, o título da campanha; à direita, o texto &quot;BEDA 2026&quot; e &quot;entreblogs.com.br&quot;, acompanhado de penas de escrever em um tinteiro. As bordas são decoradas com papéis envelhecidos e manuscritos, reforçando a temática literária e medieval." class="wp-image-14925" srcset="https://falacatarina.com/wp-content/uploads/2026/08/banner-beda-1450-x-300-px-1450-x-300-px_20260801_000429_0000.jpg 1450w, https://falacatarina.com/wp-content/uploads/2026/08/banner-beda-1450-x-300-px-1450-x-300-px_20260801_000429_0000.jpg?w=150&amp;h=31 150w, https://falacatarina.com/wp-content/uploads/2026/08/banner-beda-1450-x-300-px-1450-x-300-px_20260801_000429_0000.jpg?w=300&amp;h=62 300w, https://falacatarina.com/wp-content/uploads/2026/08/banner-beda-1450-x-300-px-1450-x-300-px_20260801_000429_0000.jpg?w=768&amp;h=159 768w, https://falacatarina.com/wp-content/uploads/2026/08/banner-beda-1450-x-300-px-1450-x-300-px_20260801_000429_0000.jpg?w=1024&amp;h=212 1024w, https://falacatarina.com/wp-content/uploads/2026/08/banner-beda-1450-x-300-px-1450-x-300-px_20260801_000429_0000.jpg?w=1440&amp;h=298 1440w" sizes="(max-width: 1450px) 100vw, 1450px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph"></p>
+]]></description>
+  </item>
 
   <item>
     <title>PorceLana — Tava afim de ouvir um samba</title>
@@ -22,6 +123,38 @@
     <guid isPermaLink="true">https://meumuseuparticular.blogspot.com/2026/08/liora-e-o-primeiro-dia-de-beda.html</guid>
     <pubDate>Sat, 01 Aug 2026 09:24:50 GMT</pubDate>
     <description><![CDATA[E vamos de <span style="background-color: #f9cb9c;">Blog Every Day August</span>!!!<br /><br />Acredito que tem um pessoal que me lê aqui e não conhece o <a href="https://entreblogs.com.br/index" target="_blank">Entreblogs</a>. Ele é um grupo de blogagem coletiva e pra esse BEDA os organizadores trouxeram uma proposta bem diferente (e diga-se de passagem muito maneira), o Dungeons &amp; Blogs, Os Guardiões da Blogosfera. Confesso que quando começaram as conversas sobre o BEDA eu me animei mas não achei que participaria pra valer. Mas ver a animação de todo mundo, a organização do projeto e o sentimento de comunidade me deu mais vontade ainda de participar. Eu não sou de ser muito consistente, nem consigo levar muitos projetos até o final, então vai ser realmente um desafio pra mim, mas eu estou realmente empolgada (me planejei e tudo). De qualquer maneira se não rolar tudo bem também, acho que já está sendo interessante mesmo antes de começar. <br /><br />A proposta era criar um personagem. No começo fiquei um pouco perdida, fantasia não é muito meu universo. Mas com uma ajudinha (obrigada, <a href="https://www.igormedeiroz.com/blog" target="_blank">Igor</a>!) consegui escolher meu nome e fiz até meu avatar, achei que ficou uma graça e tudo a ver comigo e com a minha personagem! Também fiz uma mini descrição dela.<br /><br />O nome escolhido foi: <span style="background-color: #f9cb9c;">Liora</span>.<div><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcGbOcPn37QcAw-2px0P0UFAWxTZhNAvS0onJcnv1ILOzXfTNWvVEpSkAOmGGpu9nsZ_hFcX9mNOpUrER275zF9JrXZG2AoqWtCDn8iZGCfRmrdc6ovEZanjyNe7Jzu7jlU6pxJYK6XLNXvrqJMVs1xjT6mnxjuuQmvhA0jPt4xcQ-9b5pULmLevVigHY/s2000/liora.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="1333" data-original-width="2000" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcGbOcPn37QcAw-2px0P0UFAWxTZhNAvS0onJcnv1ILOzXfTNWvVEpSkAOmGGpu9nsZ_hFcX9mNOpUrER275zF9JrXZG2AoqWtCDn8iZGCfRmrdc6ovEZanjyNe7Jzu7jlU6pxJYK6XLNXvrqJMVs1xjT6mnxjuuQmvhA0jPt4xcQ-9b5pULmLevVigHY/s1600/liora.png" /></a></div><div><br /></div><div><div><i>Liora significa "minha luz", e talvez seja isso mesmo o que ela tenta fazer: guardar um pouco de luz nas coisas pequenas antes que o tempo apague. O extraordinário a gente sempre lembra, mas ela gosta mesmo é de guardar o ordinário, os detalhes pequenos que passam despercebidos mas que merecem ficar. Tem um olhar treinado pra encontrar beleza até no caos, no comum, no que a maioria passa batido sem nem reparar. Escreve sobre a vida real e os afetos. Tem uma queda por flores, uma orelha de elfa e a teimosia de acreditar que nenhuma memória é pequena demais que não mereça um lugar entre as páginas.</i></div><div><i><br /></i></div><div>Enfim, estou ansiosa pra esse mês e pra acompanhar os posts de vocês também! Espero sobreviver até o final, rs.</div></div>]]></description>
+  </item>
+
+  <item>
+    <title>Ondeando — Uma jornada inesperada</title>
+    <link>https://pedro.dalbo.me/blog/uma-jornada-inesperada/</link>
+    <guid isPermaLink="true">https://pedro.dalbo.me/blog/uma-jornada-inesperada/</guid>
+    <pubDate>Sat, 01 Aug 2026 09:00:00 GMT</pubDate>
+    <description><![CDATA[<p><strong>Pehená-mboy</strong> é um homem que ainda não viveu tudo o que pôde, mas também não chegou no auge da sua natureza.</p>
+
+<p>Ele não sabe o que é, não conhece outros como ele. <strong>Pehená</strong> não lembra de ter nascido, lembra apenas de aparecer em <em>Sgolbertne</em> sabendo que tinha a missão de registrar os acontecimentos.</p>
+
+<blockquote class="fleabag">Talvez quando tudo terminar eu retorne ao meu mundo e possa contar pelo que passei e presenciei nesse mundo mágico em que me encontro.</blockquote>
+
+<p><strong>Pehená-mboy</strong> consegue se teleportar para os lugares onde a ação acontece, como um sétimo sentido e o entendimento de que estar ali é importante. Ao testemunhar os eventos ele volta para o coração da floresta, se deita, e é no balanço da sua rede que seus textos são construídos, embalado pelo vai-e-vem da história desse mundo fantástico.</p>
+
+<p>Talvez essa seja uma jornada de descoberta e conhecimento que <strong>Pehená-mboy</strong> deva passar para poder retornar ao seu lugar entendendo que todos os mundos estão por aí por algum motivo. Que todos merecem ser respeitados, acolhidos.</p>
+
+<hr />
+
+<p>Este é o post inaugural do <a href="https://entreblogs.com.br/beda">BEDA 2026</a> neste espaço.</p>
+
+<p>O objetivo foi apresentar o personagem que criei para a participação no evento que tem todo um <em>ar de D&amp;D</em>. Os textos não serão publicados como se ele fosse o narrador, não é o objtivo central. O personagem é a minha persona representada nesse universo de blogs e meu espírito de participar desse evento.</p>
+
+<p>A proposta que me fiz foi postar o máximo que eu puder, mas não tenho <em>uma obrigação</em> de postar todos os dias.</p>
+
+<p>Ficarei entre o BEDA preguiçoso e o BEWA mais presente, vamos ver o que acontece.</p>
+
+<aside class="blog-colet"><div class="aviso-texto">Esse post faz parte do projeto do <a href="https://entreblogs.com.br/BEDA" title="mais sobre o BEDA 2026">BEDA 2026</a> do grupo de blogagem coletiva <a href="https://entreblogs.com.br/" title="mais sobre o entrelogs">ENTREBLOGS</a>, comunidade criada com o intuito de compartilhar nossas perspectivas sobre os mesmos assuntos. <br />
+Para descobrir outras postagens sobre o tema por aqui, tenho uma <a href="/BEDA-2026" title="página especial do BEDA 2026 por aqui">página especial do BEDA 2026</a>;<br />
+Quer conhecer outros blogs que estão participando? Você <a href="https://entreblogs.com.br/beda/2026/pergaminhos" title="outras postagens do tema">encontra aqui.</a>.
+<h6><i class="fa-solid fa-pen-fancy"></i> BEDA 2026 - Guardiões da Blogosfera | ago, 2026</h6></div></aside>
+]]></description>
   </item>
 
   <item>
@@ -1468,6 +1601,114 @@ body {
   </item>
 
   <item>
+    <title>BLOG DO TH — Sobre escrever todos os dias</title>
+    <link>https://blogdoth.bearblog.dev/sobre-escrever-todos-os-dias/</link>
+    <guid isPermaLink="true">https://blogdoth.bearblog.dev/sobre-escrever-todos-os-dias/</guid>
+    <pubDate>Mon, 27 Jul 2026 19:43:50 GMT</pubDate>
+    <description><![CDATA[<p>Um dos meus autores favoritos é o Fernando Sabino, comecei a gostar de ler crônicas por meio dos textos que ele escrevia para o jornal e também nos livros. De acordo com Humberto Werneck em artigo publicado no dia 12 de outubro de 2023 no estadão: Fernando “se impunha a obrigação de escrever todos os dias, tivesse ou não assunto.”</p>
+<p>Outro cara que admiro muito e que escreve todos os dias em seu blog é o <a href='https://seths.blog/' target='_blank'>Seth Godin</a>. Ele está publicando todos os dias há mais de 10 anos. Nem todo herói usa capa.</p>
+<p>Neste mês estou participando do BEDA (Blog Every Day August) e meu desafio será postar todos os dias durante todo o looonnngo mês de agosto. Não sou nenhum Fernando Sabino e tampouco um Seth Godin, mas esse exercício de escrever todos os dias vai ser bom para eu praticar ainda mais a escrita e ampliar meu repertório.</p>
+<p>Você já participou de algum desafio parecido? Tem gente que se  propõe a correr todos os dias, ou ler todos os dias, são formas de criar um novo hábito e se desenvolver mais numa área específica.</p>
+<p>Vai ser minha primeira vez participando de um BEDA, esse em específico está sendo organizado pelos amigos do <a href='https://entreblogs.com.br/beda' target='_blank'>entreblogs</a> e a galera que faz parte da comunidade está bastante animada.</p>
+<p>Agora é ver até onde eu consigo chegar sem começar a inventar assunto nonsense só para cumprir agenda.</p>
+<p>Escrever todos os dias também é uma forma de prestar mais atenção na própria vida. Quando você sabe que precisa publicar alguma coisa, começa a observar melhor as conversas, as pequenas situações do cotidiano, alguma lembrança que apareceu do nada ou uma ideia que normalmente não receberia a devida atenção.</p>
+<p>Alguns textos vão ser legais, outros bem meia boca.  O importante, pelo menos para mim, é chegar ao final de agosto podendo dizer que sentei aqui todos os dias e escrevi alguma coisa.</p>
+<p>A jornada começou.</p>
+<div class="post-actions">
+<a href="mailto:blogdoth4@gmail.com?subject=Re:%20Sobre escrever todos os dias">E-mail</a>
+<a href="https://blogdoth.bearblog.dev/guestbook/">Guestbook</a>
+<a class="ver-todos" href="https://blogdoth.bearblog.dev/blog/">Voltar</a>
+</div>
+<hr />
+<h3 id=posts-populares>POSTS POPULARES</h3><p>
+
+<ul class="embedded blog-posts">
+    
+    <li data-tags="popular">
+        <span>
+            <i>
+                <time datetime="2026-02-18T11:02Z">
+    18 Feb, 2026
+</time>
+            </i>
+        </span>
+        <a href="/o-chato-fitness/">O chato fitness</a>
+        
+
+        
+
+        
+    </li>
+    
+    <li data-tags="popular">
+        <span>
+            <i>
+                <time datetime="2025-11-25T11:15Z">
+    25 Nov, 2025
+</time>
+            </i>
+        </span>
+        <a href="/sobre-blogs-pessoais/">Sobre blogs pessoais</a>
+        
+
+        
+
+        
+    </li>
+    
+    <li data-tags="popular">
+        <span>
+            <i>
+                <time datetime="2025-10-23T11:00Z">
+    23 Oct, 2025
+</time>
+            </i>
+        </span>
+        <a href="/o-culto-a-performance/">O culto a performance</a>
+        
+
+        
+
+        
+    </li>
+    
+    <li data-tags="popular">
+        <span>
+            <i>
+                <time datetime="2025-09-11T11:00Z">
+    11 Sep, 2025
+</time>
+            </i>
+        </span>
+        <a href="/pequenas-alegrias-da-vida-adulta/">Pequenas alegrias da vida adulta</a>
+        
+
+        
+
+        
+    </li>
+    
+    <li data-tags="popular">
+        <span>
+            <i>
+                <time datetime="2025-08-28T11:00Z">
+    28 Aug, 2025
+</time>
+            </i>
+        </span>
+        <a href="/manual-pratico-da-desimportancia/">Mini manual da desimportância</a>
+        
+
+        
+
+        
+    </li>
+    
+</ul>‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎</p>
+]]></description>
+  </item>
+
+  <item>
     <title>Quase Aurora — Por que a escrita ocupa um lugar tão importante?</title>
     <link>https://quaseaurora.blogspot.com/2026/07/aescritaocupaumlugar.html</link>
     <guid isPermaLink="true">https://quaseaurora.blogspot.com/2026/07/aescritaocupaumlugar.html</guid>
@@ -2481,7 +2722,7 @@ Vou adorar ler as respostas nos comentários!&nbsp;</div><div><br /></div><div>U
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img data-attachment-id="14824" data-permalink="https://falacatarina.com/2026/07/20/leituras-surtos-do-trimestre-02/maio/" data-orig-file="https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg" data-orig-size="2560,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Maio" data-image-description="" data-image-caption="" data-large-file="https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg?w=1024" width="2560" height="1080" src="https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg" alt="&quot;Imagem com fundo bege e o título 'Maio' em caligrafia no canto superior esquerdo. Ao centro, sete capas de livros organizadas em duas fileiras. Na primeira fileira estão 'Demian', com uma figura encapuzada diante de uma coroa; 'Roman', com um homem sem camisa diante de uma coroa; 'Broken by Daylight', mostrando o perfil de uma mulher com sangue escorrendo do rosto e elementos fantásticos; e 'The Deal', com um casal se beijando sobre uma pista de hóquei. Na segunda fileira aparecem 'The Mistake', com outro casal se abraçando em uma pista de hóquei; 'The Graham Effect', ilustrado por uma mulher usando boné; e 'The Dixon Rule', com a ilustração de uma mulher loira segurando óculos escuros." class="wp-image-14824" srcset="https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg 2560w, https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg?w=150&amp;h=63 150w, https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg?w=300&amp;h=127 300w, https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg?w=768&amp;h=324 768w, https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg?w=1024&amp;h=432 1024w, https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg?w=1440&amp;h=608 1440w" sizes="(max-width: 2560px) 100vw, 2560px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img data-attachment-id="14824" data-permalink="https://falacatarina.com/2026/07/20/leituras-surtos-do-trimestre-02/maio/" data-orig-file="https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg" data-orig-size="2560,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Maio" data-image-description="" data-image-caption="" data-large-file="https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg?w=1024" loading="lazy" width="2560" height="1080" src="https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg" alt="&quot;Imagem com fundo bege e o título 'Maio' em caligrafia no canto superior esquerdo. Ao centro, sete capas de livros organizadas em duas fileiras. Na primeira fileira estão 'Demian', com uma figura encapuzada diante de uma coroa; 'Roman', com um homem sem camisa diante de uma coroa; 'Broken by Daylight', mostrando o perfil de uma mulher com sangue escorrendo do rosto e elementos fantásticos; e 'The Deal', com um casal se beijando sobre uma pista de hóquei. Na segunda fileira aparecem 'The Mistake', com outro casal se abraçando em uma pista de hóquei; 'The Graham Effect', ilustrado por uma mulher usando boné; e 'The Dixon Rule', com a ilustração de uma mulher loira segurando óculos escuros." class="wp-image-14824" srcset="https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg 2560w, https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg?w=150&amp;h=63 150w, https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg?w=300&amp;h=127 300w, https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg?w=768&amp;h=324 768w, https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg?w=1024&amp;h=432 1024w, https://falacatarina.com/wp-content/uploads/2026/07/maio.jpg?w=1440&amp;h=608 1440w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></figure>
 
 
 
@@ -2509,7 +2750,7 @@ Vou adorar ler as respostas nos comentários!&nbsp;</div><div><br /></div><div>U
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img data-attachment-id="14827" data-permalink="https://falacatarina.com/2026/07/20/leituras-surtos-do-trimestre-02/junho/" data-orig-file="https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg" data-orig-size="2560,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Junho" data-image-description="" data-image-caption="" data-large-file="https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg?w=1024" width="2560" height="1080" src="https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg" alt="Imagem com fundo cinza-claro e o título 'Junho' escrito na vertical em caligrafia no canto inferior esquerdo. Ao centro, dez capas de livros organizadas em duas fileiras de cinco. Na primeira fileira estão 'Amor em Última Instância', com um casal frente a frente; 'Trono de Vidro', mostrando uma guerreira envolta em chamas; 'The Score', com um casal se beijando em uma pista de hóquei; 'The Goal', com um casal de mãos dadas na mesma pista; e 'Torre do Alvorecer', com um escudo prateado sobre um fundo azul. Na segunda fileira aparecem 'Memórias do Subsolo', com uma ilustração em preto e branco; 'Tudo é Rio', com uma arte abstrata em tons de azul, dourado e marrom; 'Assistente do Vilão', com ilustração de objetos ligados ao universo da fantasia; 'S'more of You', com um marshmallow tostado sobre biscoitos em fundo rosa; e 'Hot for Slayer', com um coração de papel azul perfurado por uma estaca de madeira sobre fundo vermelho." class="wp-image-14827" srcset="https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg 2560w, https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg?w=150&amp;h=63 150w, https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg?w=300&amp;h=127 300w, https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg?w=768&amp;h=324 768w, https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg?w=1024&amp;h=432 1024w, https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg?w=1440&amp;h=608 1440w" sizes="(max-width: 2560px) 100vw, 2560px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img data-attachment-id="14827" data-permalink="https://falacatarina.com/2026/07/20/leituras-surtos-do-trimestre-02/junho/" data-orig-file="https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg" data-orig-size="2560,1080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Junho" data-image-description="" data-image-caption="" data-large-file="https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg?w=1024" loading="lazy" width="2560" height="1080" src="https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg" alt="Imagem com fundo cinza-claro e o título 'Junho' escrito na vertical em caligrafia no canto inferior esquerdo. Ao centro, dez capas de livros organizadas em duas fileiras de cinco. Na primeira fileira estão 'Amor em Última Instância', com um casal frente a frente; 'Trono de Vidro', mostrando uma guerreira envolta em chamas; 'The Score', com um casal se beijando em uma pista de hóquei; 'The Goal', com um casal de mãos dadas na mesma pista; e 'Torre do Alvorecer', com um escudo prateado sobre um fundo azul. Na segunda fileira aparecem 'Memórias do Subsolo', com uma ilustração em preto e branco; 'Tudo é Rio', com uma arte abstrata em tons de azul, dourado e marrom; 'Assistente do Vilão', com ilustração de objetos ligados ao universo da fantasia; 'S'more of You', com um marshmallow tostado sobre biscoitos em fundo rosa; e 'Hot for Slayer', com um coração de papel azul perfurado por uma estaca de madeira sobre fundo vermelho." class="wp-image-14827" srcset="https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg 2560w, https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg?w=150&amp;h=63 150w, https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg?w=300&amp;h=127 300w, https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg?w=768&amp;h=324 768w, https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg?w=1024&amp;h=432 1024w, https://falacatarina.com/wp-content/uploads/2026/07/junho.jpg?w=1440&amp;h=608 1440w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></figure>
 
 
 
@@ -5011,122 +5252,6 @@ document.addEventListener("mousemove", (e) => {
     <guid isPermaLink="true">https://leandromaciel.blog/2026/07/05/a-noruega-fez-o-que.html</guid>
     <pubDate>Sun, 05 Jul 2026 22:31:21 GMT</pubDate>
     <description><![CDATA[<p>⚽ A Noruega fez o que sabe fazer de melhor, enquanto o Brasil não fez o que sabe (ou sabia) fazer de melhor.</p>
-]]></description>
-  </item>
-
-  <item>
-    <title>BLOG DO TH — 10 Curiosidades Sobre Mim</title>
-    <link>https://blogdoth.bearblog.dev/10-curiosidades-sobre-mim/</link>
-    <guid isPermaLink="true">https://blogdoth.bearblog.dev/10-curiosidades-sobre-mim/</guid>
-    <pubDate>Sun, 05 Jul 2026 22:29:05 GMT</pubDate>
-    <description><![CDATA[<p>A galera do <a href='https://entreblogs.com.br/' target='_blank'>Entreblogs</a>, grupo de blogagem coletiva de que participo, propôs esse tema para a blogagem coletiva de junho. Confesso que estou me sentindo um pouco ridículo escrevendo esse post. Porra, eu tenho quase 40 anos e estou escrevendo "postzinho" de curiosidade hahaha. <mark>Puta que pariu, hein.</mark></p>
-<p>Isso aqui é um blog sério de um homem adulto vivendo sua crise de meia-idade! 😂</p>
-<p>Brincadeiras à parte, vamos ao post. Afinal, tento ser um membro <mark>minimamente ativo no grupo.</mark></p>
-<p>01 - Quando eu era criança, eu tinha a habilidade de escrever e desenhar com as duas mãos. Quando uma mão cansava na hora da lição de casa, eu usava a outra. Conforme fui crescendo, fui perdendo essa habilidade.</p>
-<p>02 - Eu demorei muito tempo para entrar na faculdade. Fui entrar já com 25 anos e fui estagiário numa agência de publicidade com 27. Mas deu tudo certo no final. Hoje aqui estou, já com mais de 10 anos de atuação na área.</p>
-<p>03 - Eu cresci na praia, no litoral do Rio de Janeiro (Região dos Lagos). Sou um ótimo nadador, mas nunca aprendi a surfar. No máximo pegava uns jacarés (se você não sabe o que é isso, dê um Google).</p>
-<p>04 - Quando era mais novo, eu gostava de colecionar e observar pedras. Minha família chegou a achar que eu fosse me tornar um geólogo. Mas era só mais uma das minhas várias esquisitices.</p>
-<p>05 - Sou obcecado em organizar meus documentos. Tenho tudo organizado numa pasta física e também na nuvem. E, na pasta física, ainda tem um QR Code para a nuvem, onde mantenho tudo sempre atualizado. Desde apólices de seguro até comprovantes de residência e contracheques.</p>
-<p>06 - Gosto muito de ver filmes que exploram o espaço, filmes de astronauta como Perdido em Marte, esse mais recente que lançou, o Devoradores de Estrelas, Gravidade, Interestelar e por aí vai.</p>
-<p>07 - Já quis ser escritor. Teve uma fase da minha vida em que eu lia muito Fernando Sabino e Luis Fernando Verissimo e cismei de virar cronista. Depois fui largando de mão. Quer dizer, mais ou menos, porque vejo os posts que escrevo aqui no Blog do TH como pequenas crônicas da minha vida.</p>
-<p>08 - Gosto muito de cinema nacional. Acho que 60% dos filmes que eu assisto são nacionais. Eu sou grande fã das produções brasileiras.</p>
-<p>09 - Eu sou um cara muito tímido, mas aprendi a fingir que não sou tímido por questão de sobrevivência mesmo. A vida é uma selva! Mas isso me faz chegar ao final do dia esgotado.</p>
-<p>10 - Antes de iniciar minha carreira como designer, eu trabalhava como recepcionista de hotel em Macaé (interior do Rio). Inclusive, foi esse trabalho que me deu a chance de arcar com os custos da faculdade de Publicidade e Propaganda. E eu adorava porque tinha a oportunidade de falar com pessoas do mundo inteiro e ainda rolavam umas gorjetas em dólar.
-Bônus:</p>
-<p>11 - Eu e minha esposa não gastamos um centavo no nosso casamento. Nós participamos de um concurso cultural de um evento de noivas (essas feiras no estilo Expo Noivas e tal) e ganhamos toda a cerimônia, com direito a fotógrafo, roupas, um mini buffet, local (o próprio evento), cerimonialista e 30 convidados. Foi muito legal!</p>
-<p>Bom, nem foi tão ruim assim escrever esse post. Teve até bônus rsrsrs. Eu amo essa galera do Entreblogs.</p>
-<p>Até o próximo tema.</p>
-<div class="post-actions">
-<a href="mailto:blogdoth4@gmail.com?subject=Re:%2010 Curiosidades Sobre Mim">E-mail</a>
-<a href="https://blogdoth.bearblog.dev/guestbook/">Guestbook</a>
-<a class="ver-todos" href="https://blogdoth.bearblog.dev/blog/">Voltar</a>
-</div>
-<hr />
-<h3 id=posts-populares>POSTS POPULARES</h3><p>
-
-<ul class="embedded blog-posts">
-    
-    <li data-tags="popular">
-        <span>
-            <i>
-                <time datetime="2026-02-18T11:02Z">
-    18 Feb, 2026
-</time>
-            </i>
-        </span>
-        <a href="/o-chato-fitness/">O chato fitness</a>
-        
-
-        
-
-        
-    </li>
-    
-    <li data-tags="popular">
-        <span>
-            <i>
-                <time datetime="2025-11-25T11:15Z">
-    25 Nov, 2025
-</time>
-            </i>
-        </span>
-        <a href="/sobre-blogs-pessoais/">Sobre blogs pessoais</a>
-        
-
-        
-
-        
-    </li>
-    
-    <li data-tags="popular">
-        <span>
-            <i>
-                <time datetime="2025-10-23T11:00Z">
-    23 Oct, 2025
-</time>
-            </i>
-        </span>
-        <a href="/o-culto-a-performance/">O culto a performance</a>
-        
-
-        
-
-        
-    </li>
-    
-    <li data-tags="popular">
-        <span>
-            <i>
-                <time datetime="2025-09-11T11:00Z">
-    11 Sep, 2025
-</time>
-            </i>
-        </span>
-        <a href="/pequenas-alegrias-da-vida-adulta/">Pequenas alegrias da vida adulta</a>
-        
-
-        
-
-        
-    </li>
-    
-    <li data-tags="popular">
-        <span>
-            <i>
-                <time datetime="2025-08-28T11:00Z">
-    28 Aug, 2025
-</time>
-            </i>
-        </span>
-        <a href="/manual-pratico-da-desimportancia/">Mini manual da desimportância</a>
-        
-
-        
-
-        
-    </li>
-    
-</ul>‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎</p>
 ]]></description>
   </item>
 
@@ -9996,20 +10121,6 @@ Já parou para pensar que às vezes um relacionamento saudável, bem como pintam
   </item>
 
   <item>
-    <title>EsKAYvendo — tentando ser mais breve</title>
-    <link>https://eskayvendo.bearblog.dev/tentando-ser-mais-breve/</link>
-    <guid isPermaLink="true">https://eskayvendo.bearblog.dev/tentando-ser-mais-breve/</guid>
-    <pubDate>Fri, 12 Jun 2026 15:22:09 GMT</pubDate>
-    <description><![CDATA[<p>Vendo alguns BBs que acompanho usando uma seção de logs/microblog, fico pensando em tentar escrever textos mais curtos, só de atualização, reação a algo que estou lendo ou até pensamentos esporádicos de uns dois parágrafos de duração.</p>
-<p>Invejo muito o pessoal do "menos é mais"; se pessoalmente sou do tipo que quase não abre a boca, ao escrever me torno muito tagarela, prolixo. Vejo outros autores que estão sempre se esforçando para terem metas de corte de palavras e acho muito chique — por enquanto estou aprendendo a usar meus esboços no papel pra ser prolixo e, ao passá-los pro digital, perceber o que é necessário e o que são detalhes excessivos.</p>
-<p>Ao mesmo tempo, uma parte de mim vê autores que escrevem livros de 600, 800, até mil páginas e sinto uma mistura de admiração e inveja, pois na minha cabeça nem existe tudo isso de palavra! /meia piada pra essa última parte</p>
-<p>Vai entender a cabeça do cara, né?</p>
-<hr />
-<p>Quer responder essa postagem? <a href="mailto:kay.j.batista@gmail.com?subject=Re: tentando ser mais breve">Fala que eu te escuto!</a></p>
-]]></description>
-  </item>
-
-  <item>
     <title>j u l i e ’ s — Decolando para uma nova aventura</title>
     <link>https://julietheblog.blogspot.com/2026/03/decolando-para-uma-nova-aventura.html</link>
     <guid isPermaLink="true">https://julietheblog.blogspot.com/2026/03/decolando-para-uma-nova-aventura.html</guid>
@@ -14094,19 +14205,6 @@ Sometimes walking out is the one thing that will find you the right thing<br />
   </item>
 
   <item>
-    <title>Ondeando — Me bateu a bad hoje...</title>
-    <link>https://pedro.dalbo.me/blog/me-bateu-a-bad-hoje/</link>
-    <guid isPermaLink="true">https://pedro.dalbo.me/blog/me-bateu-a-bad-hoje/</guid>
-    <pubDate>Fri, 01 May 2026 01:40:00 GMT</pubDate>
-    <description><![CDATA[<p>Me bateu a bad hoje quando eu vi a notícia de que o <a href="https://www.metropoles.com/brasil/entenda-o-que-muda-com-a-derrubada-do-veto-ao-pl-da-dosimetria">PL da Disometria foi derrubado no Congresso</a>. Enquanto isso,  a votação para o impedimento da escala 6x1 fica estagnada lá, nesse mesmo Congresso.</p>
-
-<p>Está muito difícil continuar com alguma esperança. A gente luta, conversa, tenta explicar, no final acontece essas coisas e esses deputados e senadores,  que claramente estão contra o povo trabalhador continuam lá recebendo apoio desse mesmo cidadão prejudicado.</p>
-
-<p>Estamos falhando miseravelmente em apresentar, e dar condições de serem aprovadas, as propostas que realmente podem beneficiar a nós, trabalhadores.</p>
-]]></description>
-  </item>
-
-  <item>
     <title>✶ — Novo ano novo</title>
     <link>https://kxthar.blogspot.com/2025/01/novo-ano-novo.html</link>
     <guid isPermaLink="true">https://kxthar.blogspot.com/2025/01/novo-ano-novo.html</guid>
@@ -14787,44 +14885,6 @@ document.querySelectorAll(".like-container").forEach((container, index) => {
   </item>
 
   <item>
-    <title>FALA CATARINA — 2 aninhos da Lolô</title>
-    <link>https://falacatarina.com/2026/04/27/2-aninhos-da-lolo/</link>
-    <guid isPermaLink="true">https://falacatarina.com/2026/04/27/2-aninhos-da-lolo/</guid>
-    <pubDate>Tue, 28 Apr 2026 02:08:08 GMT</pubDate>
-    <description><![CDATA[
-<p class="wp-block-paragraph">Hoje é um dia super especial por aqui, pois a mascotinha do blog está de aniver <img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/2764.png" alt="❤" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-
-
-
-<p class="wp-block-paragraph">2 aninhos de uma <em>Lourdes Maria </em>que ama petiscos, brincar de bolinha e latir para os pedreiros da obra ao lado de casa. </p>
-
-
-
-<figure class="wp-block-image aligncenter size-full is-resized"><img data-attachment-id="14324" data-permalink="https://falacatarina.com/2026/04/27/2-aninhos-da-lolo/pizza/" data-orig-file="https://falacatarina.com/wp-content/uploads/2026/04/pizza.jpeg" data-orig-size="960,1280" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="pizza" data-image-description="" data-image-caption="" data-large-file="https://falacatarina.com/wp-content/uploads/2026/04/pizza.jpeg?w=768" loading="lazy" width="960" height="1280" src="https://falacatarina.com/wp-content/uploads/2026/04/pizza.jpeg" alt="" class="wp-image-14324" style="width:717px;height:auto" srcset="https://falacatarina.com/wp-content/uploads/2026/04/pizza.jpeg 960w, https://falacatarina.com/wp-content/uploads/2026/04/pizza.jpeg?w=113&amp;h=150 113w, https://falacatarina.com/wp-content/uploads/2026/04/pizza.jpeg?w=225&amp;h=300 225w, https://falacatarina.com/wp-content/uploads/2026/04/pizza.jpeg?w=768&amp;h=1024 768w" sizes="auto, (max-width: 960px) 100vw, 960px" /></figure>
-
-
-
-<p class="wp-block-paragraph">Eu, meu ilustríssimo namorado, minha sogra e sogro comemoramos juntamente com a Maiya, irmã da Lolô (que é a nenêm deles). Nossa família junta  misturada, feliz por esses 2 serzinhos de luz que estão na nossa vida.</p>
-
-
-
-<p class="wp-block-paragraph">Quem não tem pet nunca vai entender o quanto esses bichinhos são capazes de fazer parte da nossa família.</p>
-
-
-
-<figure class="wp-block-image size-large"><img data-attachment-id="14330" data-permalink="https://falacatarina.com/2026/04/27/2-aninhos-da-lolo/img-20260427-wa0048/" data-orig-file="https://falacatarina.com/wp-content/uploads/2026/04/img-20260427-wa0048.jpg" data-orig-size="3060,4080" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="IMG-20260427-WA0048" data-image-description="" data-image-caption="" data-large-file="https://falacatarina.com/wp-content/uploads/2026/04/img-20260427-wa0048.jpg?w=768" loading="lazy" width="768" height="1024" src="https://falacatarina.com/wp-content/uploads/2026/04/img-20260427-wa0048.jpg?w=768" alt="" class="wp-image-14330" srcset="https://falacatarina.com/wp-content/uploads/2026/04/img-20260427-wa0048.jpg?w=768 768w, https://falacatarina.com/wp-content/uploads/2026/04/img-20260427-wa0048.jpg?w=1536 1536w, https://falacatarina.com/wp-content/uploads/2026/04/img-20260427-wa0048.jpg?w=113 113w, https://falacatarina.com/wp-content/uploads/2026/04/img-20260427-wa0048.jpg?w=225 225w, https://falacatarina.com/wp-content/uploads/2026/04/img-20260427-wa0048.jpg?w=1440 1440w" sizes="auto, (max-width: 768px) 100vw, 768px" /></figure>
-
-
-
-<p class="wp-block-paragraph">Será que o pessoal da pizzaria desconfiou que tudo que escreveram na pizza e na caixa eram pra duas cachorrinhas? <img src="https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f602.png" alt="😂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
-
-
-
-<p class="wp-block-paragraph"><strong>Feliz vida, minha nenequinha!</strong></p>
-]]></description>
-  </item>
-
-  <item>
     <title>A Arte de Ser — o que fisica e edição tem em comum para mim...</title>
     <link>https://leozitoarts.bearblog.dev/o-que-fisica-e-edicao-tem-em-comum-para-mim/</link>
     <guid isPermaLink="true">https://leozitoarts.bearblog.dev/o-que-fisica-e-edicao-tem-em-comum-para-mim/</guid>
@@ -15164,14 +15224,6 @@ document.querySelectorAll(".like-container").forEach((container, index) => {
 ></div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script
 ]]></description>
-  </item>
-
-  <item>
-    <title>Quase Aurora — DESACELERAR O CORPO</title>
-    <link>https://quaseaurora.blogspot.com/2026/04/desacelerar-o-corpo.html</link>
-    <guid isPermaLink="true">https://quaseaurora.blogspot.com/2026/04/desacelerar-o-corpo.html</guid>
-    <pubDate>Sun, 26 Apr 2026 23:51:58 GMT</pubDate>
-    <description><![CDATA[<p style="text-align: justify;">Não sei bem quando, muito menos em qual lugar dessa vastidão que é a internet, mas em algum lugar eu li que: essa correria desenfreada que vivemos está relacionada a sermos mais eficientes e produtivos, <i>"economizando" </i>tempo em nossas rotinas. Vi que isso também está relacionado a um sinal de ansiedade e afeta nosso corpo de maneira extremamente negativa, ao ponto do <b>nosso corpo estar sempre em modo acelerado.</b></p><p style="text-align: justify;"><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFm8mcWwT5FrqDKVbzVeZrjQNOfjO-kumrPrT3W2xPjGZVATKR9hcleszzhQ1m5vCkwupvwlz2ePp5fcZdTGW6Vpv_udpQPLv0E_9yLB1BfOSOovzdEJApzBRTJuyXdsvu83BVmdFNp_04znvzWDdes2WOmYtBtSR9wnGB2ThKPFbKZuNBen28lHwjaHgW/s5472/luiz-felipe-VdTbPlH5Zio-unsplash.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="5472" data-original-width="3648" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFm8mcWwT5FrqDKVbzVeZrjQNOfjO-kumrPrT3W2xPjGZVATKR9hcleszzhQ1m5vCkwupvwlz2ePp5fcZdTGW6Vpv_udpQPLv0E_9yLB1BfOSOovzdEJApzBRTJuyXdsvu83BVmdFNp_04znvzWDdes2WOmYtBtSR9wnGB2ThKPFbKZuNBen28lHwjaHgW/s16000/luiz-felipe-VdTbPlH5Zio-unsplash.jpg" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="Foto de &lt;a href=&quot;https://unsplash.com/pt-br/@luiztrix?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Luiz Felipe&lt;/a&gt; na &lt;a href=&quot;https://unsplash.com/pt-br/fotografias/textil-branco-VdTbPlH5Zio?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;       " target="_blank">imagem</a></td></tr></tbody></table></p><p style="text-align: justify;">Isso me deixou bem reflexiva, pois fiquei pensando na quantidade de coisas que faço exatamente com esse propósito. E ao me analisar, todas as vezes que precisei desacelerar pequenas atitudes, notei meus batimentos mais rápidos, a respiração mais cansada e o corpo dolorido.</p><p style="text-align: justify;">Há momentos em que minha rotina de trabalho é muito intensa e sinto que as horas não são suficientes, são como areia escorrendo por meus dedos, então ao escovar os dentes após o almoço, preciso dizer: <i>Respira, dona Karina! Escovar os dentes não precisa ser na velocidade 2.</i></p><p style="text-align: justify;">E é exatamente nesse momento, trancada no banheiro do trabalho, que faço meu corpo desacelerar. Respiro com mais calma e as vezes até sento no vaso sanitário para passar o fio dental com tranquilidade. Como se eu quisesse aproveitar aquele instante e roubar algo que sempre foi meu, mas por motivo desconhecido foi tomado.</p><p style="text-align: justify;">Não é uma tarefa fácil! Infelizmente, em algum momento da minha jornada, desenvolvi uma ansiedade que antes não tinha, era apenas aquela <i>normal</i>&nbsp;do ser humano. Hoje em dia, meu corpo fica todo tensionado, minha coluna dá pequenas travas e quando menos espero, minha bexiga está explodindo porque resolvi "economizar" tempo e não ir no banheiro na hora.</p><p style="text-align: justify;">Foi <b>horrível</b>&nbsp;ter essa percepção das minhas atitudes e comportamentos porque eu sempre defendi - e ainda defendo - a vida com calma no meio da correria. Então assim... <i>que hipocrisia, né mona?!</i></p><p style="text-align: justify;">Minha rotina durante a semana é tão corrida, que tenho apenas duas horas livres - e isso me aflige! Então é "natura"l que em muitos momentos eu queira acelerar para aproveitar ao máximo, mas como essa nunca foi a minha filosofia de vida, estou nessa luta para readaptar meu corpo ao padrão de fábrica: <b>mais tranquilo e descansado</b>.</p><p style="text-align: justify;"><br /></p><p style="text-align: justify;">| <i>Esse post faz parte da série de publicações do BEDA. Post todos os dias às 8h da manhã </i>😉</p>]]></description>
   </item>
 
   <item>
@@ -22876,7 +22928,7 @@ Quero diminuir as minhas tralhas. Hoje já joguei algumas coisas fora e doei out
 </div>
 <br />
 
-</div><div class="separator" style="clear: both; text-align: center;"><iframe allowfullscreen='allowfullscreen' webkitallowfullscreen='webkitallowfullscreen' mozallowfullscreen='mozallowfullscreen' width='320' height='266' src='https://www.blogger.com/video.g?token=AD6v5dwzSebhIGxa6RMqtDX3aHJXnc0ubS--Q0bnmHbfXinilmueXt1t9DXykzSYTTBE9-yjcvITMKDbl4h_wvlI3g' class='b-hbp-video b-uploaded' frameborder='0'></iframe></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">Esse vídeo é da semana anterior,&nbsp;</span></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">mas quis colocar ele aqui hoje,&nbsp;</span></div><div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">bem como a foto do r36s acima.</span></div><div><br /></div><div><div style="text-align: justify;"><span style="font-family: inherit;"><span style="background-color: white; color: #111111;">Blog e leitores, antes de saírem, dêem uma olhadinha nos meus outros cantos dessa interneta - é só navegar até a página&nbsp;</span><a href="https://prazerwillian.blogspot.com/p/blogroll.html" style="background-color: white; color: #6d6d6d; text-decoration-line: none;" target="_blank"><b><span style="color: #3d85c6;">BLOGROLL</span></b></a><span style="background-color: white; color: #111111;">. Tem alguns blogs que sigo lá também bem legais! Garanto que não vão se arrepender.</span></span></div><div style="text-align: justify;"><span style="font-size: x-small;"><a href="https://willianernani1.blogspot.com/" target="_blank"></a><br /></span>Então pessoal, foi esse o post. Espero que tenham gostado.&nbsp;<span style="font-family: inherit;">Um grande abraço, e, até o próximo!</span><img height="20" src="https://pic.sopili.net/pub/emoji/noto-emoji/png/128/emoji_u1f643.png" style="font-family: inherit;" width="20" /></div></div><div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: right; margin-left: 1em; text-align: right;"><tbody><tr><td style="text-align: center;"><span style="margin-left: auto; margin-right: auto;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><img border="0" data-original-height="400" data-original-width="600" height="266" src="https://2.bp.blogspot.com/-vZMaC41jqU4/W0yhg6RQWUI/AAAAAAAAMZI/rwcBxwmoerkOnJTBsnCkJXbmMEsxiUXCQCLcBGAs/s400/Assinatura%2B1.gif" width="400" /></a></span></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><br /></a></td></tr></tbody></table><br /><span></span>
+</div><div class="separator" style="clear: both; text-align: center;"><iframe allowfullscreen='allowfullscreen' webkitallowfullscreen='webkitallowfullscreen' mozallowfullscreen='mozallowfullscreen' width='320' height='266' src='https://www.blogger.com/video.g?token=AD6v5dwwXFCFCd-V8wqFcRYnSK2tOVmu-halDUB7gReJdhwfkoduBFcLrprfBlLQRazQa44_HISgYXw81bJ1uucs4g' class='b-hbp-video b-uploaded' frameborder='0'></iframe></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">Esse vídeo é da semana anterior,&nbsp;</span></div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">mas quis colocar ele aqui hoje,&nbsp;</span></div><div><div style="text-align: center;"><span style="color: #999999; font-size: x-small;">bem como a foto do r36s acima.</span></div><div><br /></div><div><div style="text-align: justify;"><span style="font-family: inherit;"><span style="background-color: white; color: #111111;">Blog e leitores, antes de saírem, dêem uma olhadinha nos meus outros cantos dessa interneta - é só navegar até a página&nbsp;</span><a href="https://prazerwillian.blogspot.com/p/blogroll.html" style="background-color: white; color: #6d6d6d; text-decoration-line: none;" target="_blank"><b><span style="color: #3d85c6;">BLOGROLL</span></b></a><span style="background-color: white; color: #111111;">. Tem alguns blogs que sigo lá também bem legais! Garanto que não vão se arrepender.</span></span></div><div style="text-align: justify;"><span style="font-size: x-small;"><a href="https://willianernani1.blogspot.com/" target="_blank"></a><br /></span>Então pessoal, foi esse o post. Espero que tenham gostado.&nbsp;<span style="font-family: inherit;">Um grande abraço, e, até o próximo!</span><img height="20" src="https://pic.sopili.net/pub/emoji/noto-emoji/png/128/emoji_u1f643.png" style="font-family: inherit;" width="20" /></div></div><div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="float: right; margin-left: 1em; text-align: right;"><tbody><tr><td style="text-align: center;"><span style="margin-left: auto; margin-right: auto;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><img border="0" data-original-height="400" data-original-width="600" height="266" src="https://2.bp.blogspot.com/-vZMaC41jqU4/W0yhg6RQWUI/AAAAAAAAMZI/rwcBxwmoerkOnJTBsnCkJXbmMEsxiUXCQCLcBGAs/s400/Assinatura%2B1.gif" width="400" /></a></span></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="https://prazerwillian.blogspot.com/" target="_blank"><br /></a></td></tr></tbody></table><br /><span></span>
 </div></div>]]></description>
   </item>
 
@@ -26542,49 +26594,6 @@ respeitou ninguém é história pra boi dormir.</p>
     <guid isPermaLink="true">https://www.ventodoleste.com.br/2025/09/eu-assisti-segunda-temporada-de.html</guid>
     <pubDate>Sun, 07 Sep 2025 22:10:45 GMT</pubDate>
     <description><![CDATA[<div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="700" data-original-width="1250" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8YDUDSc0z2pu6Ug67rlFIAbKPeDWYvscAvlVPfQNhj7Ue0E4ZFYdyEnnvckeHNe3Lcw50ww5xEuTl3mF-XIY1_Eizmg8FGPKZxb5BjwWvYolFA0mkC2niJXwuOu93qv_eopySZ93eigy0HvTKKCZhGNZNFOWHquDFHyQBZUyYcg5MItSP7LB0s7VPtYZJ/s16000/wandinha.png" /></div><br /><p><b>Wandinha Addams está de volta em uma temporada mais focada em suas aventuras, na amizade e nos membros da família Addams.</b></p><p>Depois do sucesso da primeira temporada, foi impossível não criar expectativas para o que estava por vir. O engraçado é que não me lembro de ter criado grandes teorias enquanto assistia à primeira temporada. Fui absorvendo a história, episódio a episódio, e acabei satisfeita com o que entregaram.</p><p>Já a segunda temporada foi diferente. Quando uma história começa tão bem, sinto medo de que queiram forçar mais e mais, deixando o&nbsp; universo saturado e acabem não sabendo dosar as informações que são apresentadas. Também percebi que a segunda temporada veio "<i>corrigindo</i>" pontas soltas. Situações que não se encaixavam na personalidade da Wandinha foram facilmente descartadas, e o foco foi redirecionado.</p><p><b>Ver a família Addams ganhar mais espaço na história me surpreendeu positivamente</b>. Apesar de a Wandinha, sozinha, ter potencial para levar uma série inteira, a graça dos Addams é tê-los todos reunidos. Uma família excêntrica e que causa arrepios.</p><div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="675" data-original-width="1200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiH8QX8DfajfW9Au8Y4o-k3CUmagSuZtvWA68DSrFF_I029w6REtcUzgDTfH6NiLwyVKZGiuQXRZd7qpCjjrUJGlnK0xSYuhymjf_BSWXHQj-L6F3wq75Ljc-rQYDvzI2fWkjM8ZOLcphusa4w3AxIfUd3VlmcMBi21627IIeuk1I5CsKRMtOt8XXdfLgd/s16000/AAAAQYOeCCpkwPAFykI7lEUIouxmiXsvxOnDs_bjQGo2Whf9FrwPXpQ6VmVKlnmMbxHBfqja2iOaEOayofhH0erJrzKxVkRz5-yQZDVFcRWnALggiACpb-9VbXOi6r6bFDT2EIPaW59Vh6GKpjsGRuvP-aASPhs.jpg" /></div><br /><p>Nessa temporada, <b>Wandinha </b>está obcecada em desenvolver plenamente sua habilidade psíquica, principalmente após uma visão, o que torna urgente recuperar os seus dons e impedir que a história se desenrole conforme anunciado por ela.</p><p>No meio do caminho, outros ganchos aparecem. Pequenas histórias ganham forma e força para alongar os capítulos. Gostei bastante do suspense por trás de uma nova professora (o que indicava que seguiria o mesmo tema da primeira temporada, mas, felizmente, não foi assim). Fiquei incomodada com a <i>stalker</i> da <b>Wandinha</b>, por achá-la totalmente inconveniente. Em alguns momentos, achei que ela aparecia para quebrar uma cena, mudando o foco do que estava acontecendo. Mas fui aprendendo a gostar da personagem e acabei feliz com o que propuseram para ela.</p><p>Os personagens da primeira temporada continuam presentes, com exceção ao <b>Xavier Thorpe</b>. O personagem foi retirado da série após acusações de assédio contra o ator <b>Percy White</b>.</p><p>A história permanece com um tom sombrio característico e aprofunda ainda mais sobre a personalidade da Wandinha, revelando a origem de algumas de suas características mais marcantes.</p><p>As duas temporadas de <i>Wendesday</i> estão disponível na <b>Netflix</b>.</p><div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="730" data-original-width="1296" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwmMHSiC_4xf_-XPpC1h92JGaHS76Zj9LVkhyphenhyphenHz9b9LXM0P7SuQ8DxRHbrdwU4sJ4Xi297Roxm58HihFTOG1mW4Szet1XLMLZoIgwYl2pTxyDmTgJNj3VffUygZKkAlkoT9Un8AZWeGjlRIWw9iL_IAvijpOqfceZe7Xul0isk7dZlKFmFBjG3snmKp6uE/s16000/wandinha.webp" /></div><br /><div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="863" data-original-width="1536" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQCPONAEOjEEO16bBOTukliyTSc2NG52INyicWH9BH90CHajru8wEYw2cR-zVe9L8WnlKgwzV7I7lCzG7KDSNVgOYwOjauK_19DgPOGsByQCRbwUVbKB7UnoXDlQOGbVgzOIhK-mwifTuWdutwD7NbW5zVHL9lxie4GoQBjIpbkgVeHQP38UCU8_famB3s/s16000/Wednesday-Season-2-The-Addams-Family.webp" /></div>]]></description>
-  </item>
-
-  <item>
-    <title>Vento do Leste — [Resenha] O Exorcismo da Minha Melhor Amiga, Grady Hendrix</title>
-    <link>https://www.ventodoleste.com.br/2024/09/o-exorcismo-da-minha-melhor-amiga-grady.html</link>
-    <guid isPermaLink="true">https://www.ventodoleste.com.br/2024/09/o-exorcismo-da-minha-melhor-amiga-grady.html</guid>
-    <pubDate>Sun, 07 Sep 2025 12:32:50 GMT</pubDate>
-    <description><![CDATA[<p><img border="0" data-original-height="1600" data-original-width="2133" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgS3eaHfPxbBEwfAx8LcChR_btdrHch-RG7DMl7bIR3j8kWzXyDVGkBfO7puNChx1GNDgKQcntW8fQrPQR6faMh4JBnkBbP8zG5tRRiBU8p_1iBIGmOdVoDriZzLcMZ7qpNDhNzyiTQDQfuL_-udylTEnHdzTfB7CsmhD2mEattAjCacH9tA2Dcv-OfITLD/s16000/o_exorcismo_da_minha_melhor_amiga_08.png" style="text-align: center;" /></p><br /><i>
-O que você faria para livrar a sua melhor amiga de um demônio?</i><br />
-<br />
-Foi em sua festa de dez anos que <b>Abby </b>ganhou sua primeira melhor amiga. <b>Gretchen </b>foi a única colega de classe a comparecer em sua festa de aniversário. Abby estava quase desistindo quando a garota chegou. Como se tudo se encaixasse, a amizade entre elas cresceu rapidamente.<br />
-<br />
-Seis anos depois, já no ensino médio, Abby e Gretchen fortaleceram ainda mais sua amizade, mas um evento traumático colocará essa amizade em prova. Durante um final de semana com um grupo de amigas, Gretchen pula no lago e desaparece. Enquanto busca pela amiga, Abby acaba parando em uma construção abandonada na floresta que cerca o lago. O lugar parece terrivelmente assustador e a jovem tem a sensação de ser observada, quando algo chama por ela dentro da construção. Apavorada, Abby foge do lugar e vai ao encontro das outras amigas.<br />
-<br />
-Ao nascer do Sol, elas voltam a procurar Gretchen na floresta. Quando estão perto da construção novamente, encontram a garota com medo, sem roupas e desorientada. Ela não consegue explicar o que aconteceu, mas <b>Abby sabe que havia algo naquela floresta na noite anterior e alguma aconteceu com Gretchen. Algo que a garota não quer contar.</b><br />
-<br />
-Dias após o incidente, Gretchen não é mais a mesma. Ela não toma banho, não parece trocar de roupas e escovar os dentes. Seu rosto, antes bem cuidado, estava oleoso e com espinhas. Ela não participava das aulas como antes e quase não falava. Por mais que Abby insistisse, Gretchen não contava o que estava acontecendo.<br />
-<br />
-Abby começa a investigar para entender o que aconteceu com Gretchen naquela noite que a transformou em alguém totalmente desconhecido para ela. Coisas inexplicáveis acontecem e a única teoria improvável que ainda resta é a de que Gretchen foi possuída por algum demônio. Mas <i>quem acreditaria em Abby?</i> Não importa o que tivesse acontecido, Gretchen era sua melhor amiga e Abby não desistiria dela em hipótese alguma.<br />
-<br />
-Esse livro foi a leitura coletiva do <b>Clube do Livro Sweet Daisy</b> e me surpreendi demais com a história, principalmente por não ser o meu tipo de leitura favorito. Quando vi que tratava-se de um livro de terror, fiquei com um pé atrás e já comecei sem muitas expectativas. De maneira surpreendente, acabei com uma história bem humorada e um terror mais leve do que imaginei.<br />
-<br />
-A história começa trazendo um sentimento de nostalgia ao descrever cenas corriqueiras da década de 80. Abby e Gretchen são pessoas completamente opostas, desde os gostos e atitudes até a classe social. Os pais de Abby tinham bons empregos, mas com os anos perderam tudo. A mãe de Abby mal podia sustentá-los e seu pai não conseguia encontrar um emprego. Enquanto isso, Gretchen morava em uma bela casa, com pais financeiramente estáveis e que controlavam cada passo da filha. Nesse ponto, acho que a história traz, discretamente, críticas às diferenças de classes sociais.<br />
-<br />
-A força da amizade entre as protagonistas, sem sombra de dúvida, é o foco principal da história. Tudo acontece sob o ponto de vista da Abby, então não podemos ver muito sobre os sentimentos da Gretchen, mas fiquei com a impressão da Abby depender muito mais da relação entre elas do que a Gretchen e isso me incomodou um pouco.<br />
-<br />
-“<i>O exorcismo da minha melhor amiga</i>” é uma história com dramas adolescentes, na década de 80, com toque de suspense, terror e humor. A história caminha de forma lenta até a metade do livro. Nesse ponto as coisas começam a ganhar forma e prender a atenção do leitor com maior facilidade.<br />
-<br />
-No geral, foi uma leitura que me tirou da zona de conforto e, ao fim, me surpreendeu. Essa pode ser <b>uma boa leitura para quem deseja se aventurar pelo terror, sem grandes sustos, nesse Halloween</b>.<br />
-<br />
-<div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="1600" data-original-width="2133" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLfMVXAm4Dv_Yb4ldpGaEXUv5asY1OK93t4YUPr3_5B_2Xfeeptn6IY2oiQXXm-5x_Wo4PSbM4mIIFo4QrKZQaEawkfexx4pGk8kd7A2wMZQMBELU1yz2zo00u6Yr0N5BaSLMjC8QDFOZqCl08Ck6kdUejkMK5BHx9k0Fkq2cX698expQbhaJ6yCdJVRDX/s16000/o_exorcismo_da_minha_melhor_amiga_02.png" /></div><br />
-
-<div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="1600" data-original-width="2133" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiE-yx5wyaL8BdKv250m0WeeN-GMZBp2FWICmLfA20BZycmQO31nf6mKRyfr1-XAsbcHOsnm7Vh9hhb8p1Ml86SS3W17tDX0hxgUCs5gZu_SHQo197YT4sFPytL0_UdfvXhwaubdv5oI02O_0evfQlLbblH97pZCHklaxaPxPZBi5KGrqM3YShL_A9tXzZu/s16000/o_exorcismo_da_minha_melhor_amiga_03.png" /></div><br />
-
-<div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="1600" data-original-width="2133" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzjSKRvQyOcKqnnv6q418946teXPTi45VxCH2iedzPmrzQt4lKph2MeCg-Bve3MQDFV-J45wir17ely-noZj5C7HQPG8YSlsuNYXC8ywtz2djIVi5JoJWjvhYkCOqgDacEmHtAhpur05L9CDrlTSKXi7bLkigcANttZDlCzo9_6Te_gQ_eBM_ergSpz9O9/s16000/o_exorcismo_da_minha_melhor_amiga_04.png" /></div><br />
-
-<div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="1600" data-original-width="2133" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6A6CyALRSoGNxGPoFRPIN4WEeHmUcbXmQmlphiC8KvfOtxHGaMgtOELEoVrDtsHoOHSgdSdbWfIaVtJHcHR0aOXIHif5aervlvJ4ijaNb63bOChGt_vT6MjmcqZqRW10z_iXvQtua8V4DoWPEpo-TMbUqXoMUsoY0FoVrsv2EKcFHoGIYHcZAfbo45aY_/s16000/o_exorcismo_da_minha_melhor_amiga_06.png" /></div><br />
-
-<div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="1600" data-original-width="2133" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVVL7-oUCk2wwevabl8LXwMQnmLiKD_iexX3uWJxGGOHkJ0IMS6XfKrf9ZGeLdJtRhRSJyj0tddWjmZrzqIx2YT2oM1UgOWw13Febkb2PZxtB0ybdXkXvZbKUVsLgvAYJpw0652lBa7KenjyFkpGVfXQSb1n_wCwXMdJMGyQgLGILCfe0XEjojHsXsS-vf/s16000/o_exorcismo_da_minha_melhor_amiga_05.png" /></div><br />
-
-<div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="1600" data-original-width="2133" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBhrLzteL7ouIlZbajC2eUpywpGD2yQo4kyAU1EVO3DIPmWbpXK2DrS_Y40wS-MT4EpbRmFzhA65Lj6B_Cg1-Ve2jGLLfB9EH94iH08BOkqC2M8NorNFZfpiAgZPRLWetwCG076de1vV8FYrvC-rGpgKAuT54Zy2SSmrnlKE5py_uXc_BNwThH1zE6FjGz/s16000/o_exorcismo_da_minha_melhor_amiga_07.png" /></div><br />
-
-<div class="separator" style="clear: both; text-align: center;"><img border="0" data-original-height="2133" data-original-width="1600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrP2IOE8rpOeolCrwJ5mAxtueRzY_a1an4hzfir17qsGzvWNILEXB9_3LINm22Ds2S_dttAeIcLDlgrLx9y8joKvtQ1o3DkmqoCsBfs8YTbvag-qvT5dqpAf4rRFFIinJEEhyphenhyphenL0EKhuU06CPdOPXGE97BSLptePXf5uMlFBUrWZS438BV7G16P7szYmayO/s16000/o_exorcismo_da_minha_melhor_amiga_00.png" /></div><br />]]></description>
   </item>
 
   <item>
