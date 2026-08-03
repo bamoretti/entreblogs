@@ -6,6 +6,131 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
+- blog: "Histórico Infame"
+  url: "https://www.igormedeiroz.com/"
+  feed: "https://www.igormedeiroz.com/feeds/posts/default"
+  added: "2026-08-03"
+
+- blog: "Story by Lano"
+  url: "https://storybylano.blogspot.com/"
+  feed: "https://storybylano.blogspot.com/feeds/posts/default"
+  added: "2026-08-03"
+
+- blog: "Traçado de Raio"
+  url: "https://vera72dpi.bearblog.dev/blog/"
+  feed: "https://vera72dpi.bearblog.dev/feed/"
+  added: "2026-08-03"
+
+- blog: "Danverso"
+  url: "http://danmoura.bearblog.dev"
+  feed: "http://danmoura.bearblog.dev/feed/"
+  added: "2026-08-03"
+
+- blog: "Adeline Daniele"
+  url: "https://www.adelinedaniele.com"
+  feed: "https://adelinedaniele.com/feed/"
+  added: "2026-08-03"
+
+- blog: "Lidiane Dutra"
+  url: "http://lidydutra.com"
+  feed: "https://www.lidydutra.com/feeds/posts/default"
+  added: "2026-08-03"
+
+- blog: "Space Crowperson"
+  url: "https://spacecrowperson.bearblog.dev"
+  feed: "https://spacecrowperson.bearblog.dev/feed/"
+  added: "2026-08-03"
+
+- blog: "Mandinga, Anhanguera e Bonança"
+  url: "https://m-a-b.bearblog.dev"
+  feed: "https://m-a-b.bearblog.dev/feed/"
+  added: "2026-08-03"
+
+- blog: "Varokina"
+  url: "https://varokina.blogspot.com/"
+  feed: "https://varokina.blogspot.com/rss.xml"
+  added: "2026-08-03"
+
+- blog: "Ave Fantasma"
+  url: "https://aavefantasma.blogspot.com/"
+  feed: "https://aavefantasma.blogspot.com/feeds/posts/default"
+  added: "2026-08-03"
+
+- blog: "A Grande Onda"
+  url: "https://a-grande-onda.blog.br/"
+  feed: "https://a-grande-onda.github.io/feed.xml"
+  added: "2026-08-03"
+
+- blog: "Medianerax"
+  url: "https://medianerax.blogspot.com/"
+  feed: "https://medianerax.blogspot.com/feeds/posts/default"
+  added: "2026-08-03"
+
+- blog: "Isa Goes With The Flow"
+  url: "https://isagoeswitheflow.blogspot.com/"
+  feed: "https://isagoeswitheflow.blogspot.com/feeds/posts/default"
+  added: "2026-08-03"
+
+- blog: "Bispo"
+  url: "https://bispo.coletivo.blog.br"
+  feed: "https://bispo.coletivo.blog.br/feed/"
+  added: "2026-08-03"
+
+- blog: "Livro de Memórias"
+  url: "https://www.livrodememorias.com.br/"
+  feed: "https://www.livrodememorias.com.br/feeds/posts/default"
+  added: "2026-08-03"
+
+- blog: "Eu Delírico"
+  url: "https://www.eudeliricoblog.com/"
+  feed: "https://www.eudeliricoblog.com/feeds/posts/default"
+  added: "2026-08-03"
+
+- blog: "Dear Drea"
+  url: "https://deardreax.blogspot.com/"
+  feed: "https://deardreax.blogspot.com/feeds/posts/default"
+  added: "2026-08-03"
+
+- blog: "vida pensada"
+  url: "https://vidapensadaa.blogspot.com/"
+  feed: "https://vidapensadaa.blogspot.com/feeds/posts/default"
+  added: "2026-08-03"
+
+- blog: "KAFFEINA"
+  url: "https://k-affeina.blogspot.com/"
+  feed: "https://k-affeina.blogspot.com/feeds/posts/default"
+  added: "2026-08-03"
+
+- blog: "Experimental Aurora"
+  url: "https://experimental-aurora.blogspot.com"
+  feed: "https://experimental-aurora.blogspot.com/feeds/posts/default"
+  added: "2026-08-03"
+
+- blog: "Lumusiando"
+  url: "https://www.lumusiando.com/"
+  feed: "https://www.lumusiando.com/feeds/posts/default"
+  added: "2026-08-03"
+
+- blog: "dudalog"
+  url: "https://dudalog.neocities.org/"
+  feed: "https://dudalog.neocities.org/en/feed.xml"
+  added: "2026-08-03"
+
+- blog: "Diletante Di.Leituras"
+  url: "https://diletantedileituras.blogspot.com"
+  feed: "https://diletantedileituras.blogspot.com/feeds/posts/default?redirect=false"
+  added: "2026-08-03"
+
+- blog: "Mormaço"
+  url: "https://mormaco.blog"
+  feed: "https://mormaco.blog/feed/"
+  added: "2026-08-03"
+
+- blog: "th.blog"
+  url: "https://th.blog.br"
+  feed: "https://th.blog.br/feed/"
+  added: "2026-08-03"
+
 - blog: "Math Club"
   url: "https://mathclub.substack.com"
   feed: "https://mathclub.substack.com/feed"
