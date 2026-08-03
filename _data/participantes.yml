@@ -56,11 +56,6 @@
   feed: "https://aavefantasma.blogspot.com/feeds/posts/default"
   added: "2026-08-03"
 
-- blog: "A Grande Onda"
-  url: "https://a-grande-onda.blog.br/"
-  feed: "https://a-grande-onda.github.io/feed.xml"
-  added: "2026-08-03"
-
 - blog: "Medianerax"
   url: "https://medianerax.blogspot.com/"
   feed: "https://medianerax.blogspot.com/feeds/posts/default"
