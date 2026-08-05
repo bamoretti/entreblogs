@@ -6,7 +6,24 @@
     <atom:link href="https://entreblogs.com.br/feed-entreblogs.xml" rel="self" type="application/rss+xml"/>
     <description>Todas as postagens dos blogs participantes do Entreblogs</description>
     <language>pt-br</language>
-    <lastBuildDate>Wed, 05 Aug 2026 02:42:03 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 06:29:58 GMT</lastBuildDate>
+
+  <item>
+    <title>Deniac e sua vida Low-Tech — [Notinhas galantes]</title>
+    <link>https://deniac.com/2026/08/05/notinhas-galantes/</link>
+    <guid isPermaLink="true">https://deniac.com/2026/08/05/notinhas-galantes/</guid>
+    <pubDate>Wed, 05 Aug 2026 03:27:22 GMT</pubDate>
+    <description><![CDATA[<p>Este é meu lifestreaming: fotinhas, musiquinhas e surtos ao vivo. Acompanhe! <a href="https://deniac.com/2026/07/28/notinhas-galentes/" class="more-link">Continuar lendo <span class="screen-reader-text">Notinhas galantes</span></a></p>
+]]></description>
+  </item>
+
+  <item>
+    <title>Deniac e sua vida Low-Tech — Vida Pixel #6: dor de joelho</title>
+    <link>https://deniac.com/2026/08/05/vida-pixel-6-dor-de-joelho/</link>
+    <guid isPermaLink="true">https://deniac.com/2026/08/05/vida-pixel-6-dor-de-joelho/</guid>
+    <pubDate>Wed, 05 Aug 2026 03:25:12 GMT</pubDate>
+    <description><![CDATA[Pedaços de tempo, lapsos de sentido, memórias pixeladas. Diário visual de um mundo em  fragmentos. ]]></description>
+  </item>
 
   <item>
     <title>Ave Fantasma — // melhores músicas pra cantar no karokê</title>
@@ -3440,15 +3457,15 @@ fetch(feedUrl)
 
 
 
-<p class="wp-block-paragraph">O mar, assim como o universo (que já foi um hiperfoco também), ta aí também pra ajudar a gente a lembrar o tempo todo que não sabemos tanto quanto imaginamos.</p>
+<p class="wp-block-paragraph">O mar, assim como o universo (que já foi um hiperfoco), pode estar aí talvez pra ajudar a gente a lembrar o tempo todo que não sabemos tanto quanto imaginamos.</p>
 
 
 
-<p class="wp-block-paragraph">E talvez essa ignorância seja justamente o que me fascina. Não o saber pelo <strong>domínio</strong>, mas o saber pela <strong>escuta curiosa</strong>. Eu, assim como o fundo do mar, mereço e queria que soubessem sobre mim não pelo <strong>domínio</strong> mas também pela <strong>escuta curiosa</strong>.</p>
+<p class="wp-block-paragraph">E talvez essa ignorância seja justamente o que me fascina. Não o saber pelo <strong>domínio</strong>, mas o saber pela <strong>escuta curiosa</strong>. Eu, assim como o fundo do mar, mereço e queria que soubessem sobre mim não pelo <strong>domínio</strong> mas pela <strong>escuta curiosa</strong>.</p>
 
 
 
-<p class="wp-block-paragraph">Nesse processo de olhar para o mar e olhar pra mim, também  me apaixonei pelas mulheres que desbravam os mares, ainda que não na sua profundidade. E por aquelas que se dedicam na preservação dos oceanos. Eu ainda não sei exatamente como engajar, mas achei uma paixão, um hobbie, e o princípio do que pode vir a ser <strong><em>&#8220;UM SONHO&#8221;</em></strong>, mas é papo pra outro post. </p>
+<p class="wp-block-paragraph">Nesse processo de olhar para o mar e olhar pra mim, me apaixonei pelas mulheres que desbravam os mares, ainda que não na sua profundidade. E por aquelas que se dedicam na preservação dos oceanos. Eu ainda não sei exatamente como engajar, mas achei uma paixão, um hobbie, e o princípio do que pode vir a ser <strong><em>&#8220;UM SONHO&#8221;</em></strong>, mas é papo pra outro post.</p>
 
 
 
@@ -14226,14 +14243,6 @@ document.addEventListener("mousemove", (e) => {
   </item>
 
   <item>
-    <title>Deniac e sua vida Low-Tech — Vida Pixel #2: Sortilégios para colorir o insípido</title>
-    <link>https://deniac.com/2026/07/06/vida-pixel-2-sortilegios-para-colorir-o-insipido/</link>
-    <guid isPermaLink="true">https://deniac.com/2026/07/06/vida-pixel-2-sortilegios-para-colorir-o-insipido/</guid>
-    <pubDate>Mon, 06 Jul 2026 03:28:53 GMT</pubDate>
-    <description><![CDATA[Voltando (em definitivo?) ao Vida Pixel, uma espécie de resumo semanal para ser publicado ao final dos decrépitos domingos que antecedem a semana. Post escrito no Google Keep e computador, entre 28/6 a 6/7, durante o trajeto ao trabalho, em casa ou descansando depois do almoço, sobre as maravilhas e agruras  de uma vida comum. Não há muitas fotos. Isso era para ter vindo ao mundo ontem, domingo, depois da derrota ridícula do Brasil na Copa, mas o cansaço e as IPAs amoleceram o corpo e o cérebro.]]></description>
-  </item>
-
-  <item>
     <title>FALA CATARINA — #5on5 junho/julho (hobby)</title>
     <link>https://falacatarina.com/2026/07/05/5on5-junho-julho-hobby/</link>
     <guid isPermaLink="true">https://falacatarina.com/2026/07/05/5on5-junho-julho-hobby/</guid>
@@ -15591,16 +15600,6 @@ Depois da infância, nunca mais pensei nisso e por "inércia" levei esse sonho a
   </div>
   <!-- Adicione mais .post-colunas-item conforme necessário -->
 </div>]]></description>
-  </item>
-
-  <item>
-    <title>Deniac e sua vida Low-Tech — Névoa, QWERTY e tremores</title>
-    <link>https://deniac.com/2026/06/30/nevoa-qwerty-e-tremores/</link>
-    <guid isPermaLink="true">https://deniac.com/2026/06/30/nevoa-qwerty-e-tremores/</guid>
-    <pubDate>Tue, 30 Jun 2026 03:52:31 GMT</pubDate>
-    <description><![CDATA[Eu quero ver o Sol
-Me deixa ver o Sol
-Que eu cansei de prédio]]></description>
   </item>
 
   <item>
