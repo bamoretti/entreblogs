@@ -31,1704 +31,541 @@ permalink: /testes/
 
 <body>
 
-<button id="abrir-participantes" class="btn-participantes">
-    🧙 Ver todos os aventureiros
-</button>
+<!-- =========================================================
+     D&B 2026 - PERGAMINHOS (Biblioteca Eterna)
+     Bloco unico para colar numa pagina do Blogger (vista HTML).
+     Contem CSS + HTML + JS. Nao precisa de ficheiros externos.
 
-<!-- ==========================================================
-     POPUP DOS PARTICIPANTES
-========================================================== -->
-
-<div id="popup-participantes" class="popup-participantes">
-
-    <div class="popup-overlay"></div>
-
-    <div class="popup-conteudo">
-
-        <button
-            id="fechar-participantes"
-            class="popup-fechar"
-            aria-label="Fechar"
-        >
-            ×
-        </button>
-
-        <div class="popup-cabecalho">
-
-            <span class="popup-ornamento">✦</span>
-
-            <h2>
-                Aventureiros da Blogosfera
-            </h2>
-
-            <p>
-                Aqueles que aceitaram o chamado e partiram
-                em busca das histórias esquecidas.
-            </p>
-
-        </div>
-
-        <div
-            id="lista-participantes"
-            class="lista-participantes"
-        >
-
-            <div class="participantes-carregando">
-                Consultando os registros da Biblioteca Eterna...
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
+     Para personalizar, mexa apenas no bloco :root do CSS
+     e nas constantes do bloco CONFIG do JavaScript.
+     ========================================================= -->
 
 <style>
-  /* ==========================================================
-   BOTÃO PARTICIPANTES
-========================================================== */
+/* =========================================================
+   1. VARIAVEIS  <- personalize aqui
+   ========================================================= */
+.beda-perg{
+  --perg-tinta:      #3b2a1e;   /* texto principal          */
+  --perg-tinta-fraca:#8a7563;   /* datas, contagens         */
+  --perg-linha:      #d9cbb8;   /* bordas e divisorias      */
+  --perg-realce:     #6b4a2f;   /* dia selecionado          */
+  --perg-superficie: #f7f1e6;   /* fundo de apoio           */
+  --perg-fonte:      "Special Elite", "Courier New", monospace;
+  --perg-fonte-tit:  "Jim Nightshade", cursive;
 
-.btn-participantes{
-
-    display:inline-block;
-
-    padding:12px 22px;
-
-    border:2px solid var(--marrom-medio);
-
-    border-radius:30px;
-
-    background:var(--marrom-escuro);
-
-    color:var(--marrom-claro);
-
-    font-family:var(--fonte-corpo);
-
-    font-size:var(--fonte-corpo-size);
-
-    cursor:pointer;
-
-    transition:
-        transform .2s ease,
-        background .2s ease,
-        box-shadow .2s ease;
-
+  color: var(--perg-tinta);
+  font-family: var(--perg-fonte);
+  line-height: 1.6;
 }
 
-.btn-participantes:hover{
+/* =========================================================
+   2. CABECALHO
+   ========================================================= */
+.beda-perg *{ box-sizing:border-box; }
 
-    background:var(--marrom-medio);
-
-    transform:translateY(-2px);
-
-    box-shadow:
-        0 8px 20px rgba(0,0,0,.20);
-
-}
-
-
-/* ==========================================================
-   POPUP
-========================================================== */
-
-.popup-participantes{
-
-    position:fixed;
-
-    inset:0;
-
-    z-index:99999;
-
-    display:none;
-
-}
-
-.popup-participantes.aberto{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-}
-
-
-/* ==========================================================
-   FUNDO ESCURO
-========================================================== */
-
-.popup-overlay{
-
-    position:absolute;
-
-    inset:0;
-
-    background:rgba(30,18,12,.72);
-
-    backdrop-filter:blur(4px);
-
-}
-  
-.participante-classe {
-    display: block;
-    margin-top: 6px;
-    margin-bottom: 10px;
-    font-family: var(--fonte-corpo);
-    font-size: .78rem;
-    line-height: 1.3;
-    color: var(--marrom-medio);
-    font-style: italic;
-}
-
-.tooltip-jornada{
-  margin-top: 10px;
+.beda-perg .perg-titulo{
+  margin:0 0 6px;
+  font-family:var(--perg-fonte-tit);
+  font-size:clamp(30px, 6vw, 46px);
+  font-weight:400;
   text-align:center;
+  color:var(--perg-tinta);
+  line-height:1.2;
+}
+.beda-perg .perg-subtitulo{
+  margin:0 0 28px;
+  text-align:center;
+  font-size:13px;
+  color:var(--perg-tinta-fraca);
 }
 
-/* ==========================================================
-   CAIXA
-========================================================== */
-
-.popup-conteudo{
-
-    position:relative;
-
-    z-index:2;
-
-    width:min(1000px,92vw);
-
-    max-height:88vh;
-
-    overflow-y:auto;
-
-    padding:40px;
-
-    background:
-
-        linear-gradient(
-            rgba(255,248,230,.96),
-            rgba(239,222,190,.96)
-        );
-
-    border:2px solid var(--marrom-medio);
-
-    border-radius:24px;
-
-    box-shadow:
-        0 25px 70px rgba(0,0,0,.45);
-
-    animation:
-        abrir-popup .25s ease;
-
+/* =========================================================
+   3. NAVEGACAO POR DIAS
+   ========================================================= */
+.beda-perg .perg-dias{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:6px;
+  margin:0 0 10px;
+  padding:0;
+}
+.beda-perg .perg-dia{
+  position:relative;
+  min-width:46px;
+  margin:0;
+  padding:11px 8px;
+  border:1px solid var(--perg-linha);
+  border-radius:0;
+  background:transparent;
+  font-family:var(--perg-fonte);
+  font-size:15px;
+  line-height:1;
+  color:var(--perg-tinta);
+  cursor:pointer;
+  transition:background .18s ease, color .18s ease, border-color .18s ease;
+}
+.beda-perg .perg-dia:hover:not(:disabled){ background:var(--perg-superficie); }
+.beda-perg .perg-dia:focus-visible{ outline:2px solid var(--perg-realce); outline-offset:2px; }
+.beda-perg .perg-dia.ativo{
+  background:var(--perg-realce);
+  border-color:var(--perg-realce);
+  color:#fff;
+}
+.beda-perg .perg-dia.vazio{ opacity:.32; cursor:default; }
+.beda-perg .perg-dia .perg-qtd{
+  position:absolute;
+  top:3px; right:5px;
+  font-size:9px;
+  opacity:.7;
+}
+.beda-perg .perg-dia-todos{
+  min-width:auto;
+  padding-left:16px; padding-right:16px;
+  font-size:11px;
+  letter-spacing:.1em;
+  text-transform:uppercase;
 }
 
-
-/* ==========================================================
-   ANIMAÇÃO
-========================================================== */
-
-@keyframes abrir-popup{
-
-    from{
-
-        opacity:0;
-
-        transform:
-            translateY(20px)
-            scale(.97);
-
-    }
-
-    to{
-
-        opacity:1;
-
-        transform:
-            translateY(0)
-            scale(1);
-
-    }
-
+.beda-perg .perg-resumo{
+  margin:0 0 22px;
+  text-align:center;
+  font-size:11px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  color:var(--perg-tinta-fraca);
 }
 
+/* =========================================================
+   4. TABELA
+   ========================================================= */
+.beda-perg .perg-wrap{ width:100%; overflow-x:auto; }
 
-/* ==========================================================
-   BOTÃO FECHAR
-========================================================== */
+.beda-perg table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:14px;
+}
+.beda-perg thead th{
+  padding:10px 12px;
+  border-bottom:2px solid var(--perg-linha);
+  text-align:left;
+  font-size:11px;
+  font-weight:400;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--perg-tinta-fraca);
+  white-space:nowrap;
+}
+.beda-perg tbody td{
+  padding:14px 12px;
+  border-bottom:1px solid var(--perg-linha);
+  vertical-align:top;
+}
+.beda-perg tbody tr:hover td{ background:var(--perg-superficie); }
 
-.popup-fechar{
+.beda-perg .perg-data{
+  white-space:nowrap;
+  font-size:12px;
+  color:var(--perg-tinta-fraca);
+}
+.beda-perg .perg-blog{ white-space:nowrap; }
+.beda-perg .perg-link{
+  color:var(--perg-tinta);
+  text-decoration:none;
+  border-bottom:1px solid var(--perg-linha);
+  transition:border-color .18s ease;
+}
+.beda-perg .perg-link:hover{ border-bottom-color:var(--perg-realce); }
 
+.beda-perg .perg-aviso{
+  padding:44px 12px;
+  text-align:center;
+  color:var(--perg-tinta-fraca);
+}
+
+/* =========================================================
+   5. RESPONSIVO
+   No telemovel a fila de dias rola na horizontal e a tabela
+   passa a cartoes empilhados.
+   ========================================================= */
+@media (max-width:620px){
+  .beda-perg .perg-dias{
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    overflow-x:auto;
+    padding-bottom:8px;
+    -webkit-overflow-scrolling:touch;
+  }
+  .beda-perg .perg-dia{ flex:0 0 auto; }
+
+  .beda-perg thead{
     position:absolute;
-
-    top:15px;
-
-    right:18px;
-
-    width:38px;
-
-    height:38px;
-
-    border:1px solid var(--marrom-medio);
-
-    border-radius:50%;
-
-    background:transparent;
-
-    color:var(--marrom-escuro);
-
-    font-family:Arial,sans-serif;
-
-    font-size:28px;
-
-    line-height:30px;
-
-    cursor:pointer;
-
-    transition:.2s;
-
-}
-
-.popup-fechar:hover{
-
-    background:var(--marrom-escuro);
-
-    color:var(--marrom-claro);
-
-    transform:rotate(90deg);
-
-}
-
-
-/* ==========================================================
-   CABEÇALHO
-========================================================== */
-
-.popup-cabecalho{
-
-    text-align:center;
-
-    margin-bottom:30px;
-
-    padding:0 30px;
-
-}
-
-.popup-cabecalho h2{
-
-    margin:5px 0 10px;
-
-    font-family:var(--fonte-titulo);
-
-    font-size:3rem;
-
-    font-weight:400;
-
-    color:var(--marrom-escuro);
-
-}
-
-.popup-cabecalho p{
-
-    max-width:600px;
-
-    margin:0 auto;
-
-    font-family:var(--fonte-corpo);
-
-    font-size:.95rem;
-
-    line-height:1.6;
-
-    color:var(--marrom-escuro);
-
-}
-
-.popup-ornamento{
-
-    display:block;
-
-    color:var(--amarelo);
-
-    font-size:1.7rem;
-
-}
-
-
-/* ==========================================================
-   LISTA
-========================================================== */
-
-.lista-participantes{
-
-    display:grid;
-
-    grid-template-columns:
-        repeat(auto-fill,minmax(130px,1fr));
-
-    gap:30px 20px;
-
-    justify-items:center;
-
-}
-
-
-/* ==========================================================
-   PARTICIPANTE
-========================================================== */
-
-.participante{
-
-    position:relative;
-
-    width:130px;
-
-    text-align:center;
-
-    cursor:pointer;
-
-}
-
-
-/* ==========================================================
-   AVATAR
-========================================================== */
-
-.participante-avatar{
-
-    position:relative;
-
-    width:105px;
-
-    height:105px;
-
-    margin:0 auto 12px;
-
-    border-radius:50%;
-
+    width:1px; height:1px;
     overflow:hidden;
-
-    border:3px solid var(--marrom-medio);
-
-    background:var(--marrom-claro);
-
-    box-shadow:
-        0 6px 15px rgba(0,0,0,.18);
-
-    transition:
-        transform .25s ease,
-        border-color .25s ease,
-        box-shadow .25s ease;
-
-}
-
-.participante:hover
-.participante-avatar{
-
-    transform:
-        translateY(-5px)
-        scale(1.05);
-
-    border-color:var(--amarelo);
-
-    box-shadow:
-        0 10px 25px rgba(0,0,0,.25);
-
-}
-
-.participante-avatar img{
-
-    width:100%;
-
-    height:100%;
-
-    object-fit:cover;
-
+    clip:rect(0 0 0 0);
+  }
+  .beda-perg tbody tr{
     display:block;
-
-}
-
-
-/* ==========================================================
-   NOME
-========================================================== */
-
-.participante-nome{
-
+    padding:14px 0;
+    border-bottom:1px solid var(--perg-linha);
+  }
+  .beda-perg tbody td{
     display:block;
-
-    font-family:var(--fonte-corpo);
-
-    font-size:.9rem;
-
-    line-height:1.3;
-
-    color:var(--marrom-escuro);
-
-    overflow-wrap:anywhere;
-
-}
-
-
-/* ==========================================================
-   DESCRIÇÃO / TOOLTIP
-========================================================== */
-
-.participante-descricao{
-
-    position:absolute;
-
-    left:50%;
-
-    bottom:calc(100% - 5px);
-
-    width:230px;
-
-    padding:13px 15px;
-
-    transform:
-        translateX(-50%)
-        translateY(8px);
-
-    background:var(--marrom-escuro);
-
-    color:var(--marrom-claro);
-
-    border:1px solid var(--amarelo);
-
-    border-radius:12px;
-
-    font-family:var(--fonte-corpo);
-
-    font-size:.82rem;
-
-    line-height:1.5;
-
-    text-align:left;
-
-    opacity:0;
-
-    visibility:hidden;
-
-    pointer-events:none;
-
-    transition:
-        opacity .2s ease,
-        transform .2s ease;
-
-    z-index:20;
-
-    box-shadow:
-        0 10px 30px rgba(0,0,0,.35);
-
-}
-
-
-/* pequeno triângulo */
-
-.participante-descricao::after{
-
-    content:"";
-
-    position:absolute;
-
-    left:50%;
-
-    bottom:-8px;
-
-    transform:translateX(-50%);
-
-    border-left:8px solid transparent;
-
-    border-right:8px solid transparent;
-
-    border-top:8px solid var(--amarelo);
-
-}
-
-
-.participante:hover
-.participante-descricao{
-
-    opacity:1;
-
-    visibility:visible;
-
-    transform:
-        translateX(-50%)
-        translateY(0);
-
-}
-
-
-/* ==========================================================
-   CARREGANDO
-========================================================== */
-
-.participantes-carregando{
-
-    grid-column:1 / -1;
-
-    padding:40px 20px;
-
-    text-align:center;
-
-    font-family:var(--fonte-corpo);
-
-    color:var(--marrom-escuro);
-
-}
-
-
-/* ==========================================================
-   ERRO
-========================================================== */
-
-.participantes-erro{
-
-    grid-column:1 / -1;
-
-    padding:30px;
-
-    text-align:center;
-
-    font-family:var(--fonte-corpo);
-
-    color:var(--marrom-escuro);
-
-}
-
-
-/* ==========================================================
-   MOBILE
-========================================================== */
-
-@media(max-width:600px){
-
-    .popup-conteudo{
-
-        width:94vw;
-
-        max-height:90vh;
-
-        padding:30px 18px;
-
-    }
-
-    .popup-cabecalho{
-
-        padding:0 25px;
-
-    }
-
-    .popup-cabecalho h2{
-
-        font-size:2.3rem;
-
-    }
-
-    .lista-participantes{
-
-        grid-template-columns:
-            repeat(3,1fr);
-
-        gap:25px 8px;
-
-    }
-
-    .participante{
-
-        width:100px;
-
-    }
-
-    .participante-avatar{
-
-        width:82px;
-
-        height:82px;
-
-    }
-
-    /*
-       No celular não existe hover.
-       A descrição aparece quando o participante
-       recebe a classe "mostrar-descricao".
-    */
-
-    .participante.mostrar-descricao
-    .participante-descricao{
-
-        opacity:1;
-
-        visibility:visible;
-
-        transform:
-            translateX(-50%)
-            translateY(0);
-
-    }
-
+    padding:2px 0;
+    border:0;
+  }
+  .beda-perg tbody tr:hover td{ background:transparent; }
+  .beda-perg .perg-blog{
+    font-size:11px;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--perg-tinta-fraca);
+  }
 }
 </style>
+
+
+<section class="beda-perg">
+
+  <h1 class="perg-titulo">Biblioteca Eterna</h1>
+  <p class="perg-subtitulo">Todos os pergaminhos escritos durante a campanha.</p>
+
+  <nav class="perg-dias" id="pergDias" aria-label="Dias do mes"></nav>
+  <p class="perg-resumo" id="pergResumo"></p>
+
+  <div class="perg-wrap">
+    <table id="pergTabela">
+      <thead>
+        <tr>
+          <th>Data</th>
+          <th>Blog</th>
+          <th>Postagem</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="perg-aviso" colspan="3">A abrir os pergaminhos...</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</section>
+
+
 <script>
-/* ==========================================================
-   PARTICIPANTES DA BLOGOSFERA
-========================================================== */
+//<![CDATA[
+(function () {
+  "use strict";
 
+  /* =======================================================
+     CONFIG  <- ajuste aqui
+     ======================================================= */
+  var URL_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQeqf6B-V3mWT2tPVYjt5UXNeqGxc6So11z4zbJbIVa6e0_5UAqKcmKBEAQQRD8KC2DRMFlgzQ_AAiz/pub?gid=925696643&single=true&output=csv";
 
-/* ==========================================================
-   GOOGLE SHEETS
-========================================================== */
+  var MES = 8;      // 8 = agosto
+  var ANO = 2026;
 
-const URL_PARTICIPANTES =
-    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQeqf6B-V3mWT2tPVYjt5UXNeqGxc6So11z4zbJbIVa6e0_5UAqKcmKBEAQQRD8KC2DRMFlgzQ_AAiz/pub?gid=2069176218&single=true&output=csv";
+  var CACHE_MS = 1000 * 60 * 30;      // 30 minutos
+  var CACHE_KEY = "beda_perg_" + ANO + "_" + MES;
 
+  // Nomes das colunas no CSV. Se mudar o formulario, mude aqui.
+  var COL_DATA  = "Carimbo de data/hora";
+  var COL_BLOG  = "Nome do Blog";
+  var COL_POST  = "Postagem";
+  var COL_LINK  = "\uD83D\uDD17 Pergaminho";   // "🔗 Pergaminho"
 
-/* ==========================================================
-   ELEMENTOS
-========================================================== */
+  // O Google Forms grava a data conforme o idioma da folha.
+  // "DMA" = 31/12/2026 (portugues) | "MDA" = 12/31/2026 (ingles)
+  var FORMATO_DATA = "DMA";
 
-const popup =
-    document.getElementById("popup-participantes");
+  /* =======================================================
+     ESTADO
+     ======================================================= */
+  var REGISTOS = [];      // todas as linhas do CSV
+  var POR_DIA  = {};      // { 1: [...], 2: [...] }
+  var DIA_ATIVO = null;   // null = mostrar todos
 
-const abrir =
-    document.getElementById("abrir-participantes");
+  var elDias    = document.getElementById("pergDias");
+  var elResumo  = document.getElementById("pergResumo");
+  var elCorpo   = document.querySelector("#pergTabela tbody");
 
-const fechar =
-    document.getElementById("fechar-participantes");
+  /* =======================================================
+     CACHE
+     ======================================================= */
+  function lerCache() {
+    try {
+      var bruto = localStorage.getItem(CACHE_KEY);
+      if (!bruto) return null;
+      var o = JSON.parse(bruto);
+      return (Date.now() - o.t < CACHE_MS) ? o.d : null;
+    } catch (e) { return null; }
+  }
 
-const lista =
-    document.getElementById("lista-participantes");
+  function gravarCache(csv) {
+    try { localStorage.setItem(CACHE_KEY, JSON.stringify({ t: Date.now(), d: csv })); }
+    catch (e) { /* modo privado ou sem espaco: segue sem cache */ }
+  }
 
-const overlay =
-    popup
-        ? popup.querySelector(".popup-overlay")
-        : null;
+  /* =======================================================
+     CSV
+     Parser que respeita aspas, virgulas dentro de aspas
+     e quebras de linha dentro de campos.
+     ======================================================= */
+  function parseCSV(texto) {
+    var linhas = [], campo = "", linha = [], dentroAspas = false;
+    texto = texto.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
 
+    for (var i = 0; i < texto.length; i++) {
+      var c = texto[i];
 
-/* ==========================================================
-   ABRIR
-========================================================== */
-
-if(abrir){
-
-    abrir.addEventListener(
-        "click",
-        abrirPopup
-    );
-
-}
-
-
-function abrirPopup(){
-
-    popup.classList.add("aberto");
-
-    document.body.style.overflow =
-        "hidden";
-
-    carregarParticipantes();
-
-}
-
-
-/* ==========================================================
-   FECHAR
-========================================================== */
-
-if(fechar){
-
-    fechar.addEventListener(
-        "click",
-        fecharPopup
-    );
-
-}
-
-
-if(overlay){
-
-    overlay.addEventListener(
-        "click",
-        fecharPopup
-    );
-
-}
-
-
-function fecharPopup(){
-
-    popup.classList.remove(
-        "aberto"
-    );
-
-    document.body.style.overflow =
-        "";
-
-}
-
-
-/* ==========================================================
-   ESC
-========================================================== */
-
-document.addEventListener(
-    "keydown",
-    function(evento){
-
-        if(
-            evento.key === "Escape" &&
-            popup.classList.contains("aberto")
-        ){
-
-            fecharPopup();
-
-        }
-
+      if (dentroAspas) {
+        if (c === '"' && texto[i + 1] === '"') { campo += '"'; i++; }
+        else if (c === '"') { dentroAspas = false; }
+        else { campo += c; }
+      } else {
+        if (c === '"') { dentroAspas = true; }
+        else if (c === ",") { linha.push(campo); campo = ""; }
+        else if (c === "\n") { linha.push(campo); linhas.push(linha); linha = []; campo = ""; }
+        else { campo += c; }
+      }
     }
-);
-
-
-/* ==========================================================
-   CARREGAR PARTICIPANTES
-========================================================== */
-
-async function carregarParticipantes(){
-
-    lista.innerHTML = `
-        <div class="participantes-carregando">
-            Consultando os registros da Biblioteca Eterna...
-        </div>
-    `;
-
-
-    try{
-
-        const resposta =
-            await fetch(
-                URL_PARTICIPANTES,
-                {
-                    cache: "no-store"
-                }
-            );
-
-
-        if(!resposta.ok){
-
-            throw new Error(
-                `Erro HTTP: ${resposta.status}`
-            );
-
-        }
-
-
-        const csv =
-            await resposta.text();
-
-
-        const dados =
-            csvParaObjetos(csv);
-
-
-        criarParticipantes(
-            dados
-        );
-
-    }
-
-    catch(erro){
-
-        console.error(
-            "Erro ao carregar participantes:",
-            erro
-        );
-
-
-        lista.innerHTML = `
-            <div class="participantes-erro">
-
-                Não foi possível consultar os
-                aventureiros da Blogosfera.
-
-            </div>
-        `;
-
-    }
-
-}
-
-
-/* ==========================================================
-   CSV → OBJETOS
-========================================================== */
-
-function csvParaObjetos(csv){
-
-    const linhas =
-        separarLinhasCSV(csv);
-
-
-    if(!linhas.length){
-
-        return [];
-
-    }
-
-
-    const cabecalhos =
-        parseCSVLine(
-            linhas[0]
-        ).map(
-            cabecalho =>
-                normalizarTexto(
-                    cabecalho
-                )
-        );
-
-
-    const dados = [];
-
-
-    for(
-        let i = 1;
-        i < linhas.length;
-        i++
-    ){
-
-        if(
-            !linhas[i] ||
-            !linhas[i].trim()
-        ){
-
-            continue;
-
-        }
-
-
-        const valores =
-            parseCSVLine(
-                linhas[i]
-            );
-
-
-        const objeto = {};
-
-
-        cabecalhos.forEach(
-            (
-                cabecalho,
-                index
-            )=>{
-
-                objeto[cabecalho] =
-                    valores[index] !== undefined
-                        ? valores[index].trim()
-                        : "";
-
-            }
-        );
-
-
-        dados.push(
-            objeto
-        );
-
-    }
-
-
-    return dados;
-
-}
-
-
-/* ==========================================================
-   SEPARAR LINHAS
-========================================================== */
-
-function separarLinhasCSV(csv){
-
-    const linhas = [];
-
-    let atual = "";
-
-    let dentroAspas = false;
-
-
-    for(
-        let i = 0;
-        i < csv.length;
-        i++
-    ){
-
-        const caractere =
-            csv[i];
-
-
-        if(
-            caractere === '"'
-        ){
-
-            if(
-                dentroAspas &&
-                csv[i + 1] === '"'
-            ){
-
-                atual += '""';
-
-                i++;
-
-                continue;
-
-            }
-
-
-            dentroAspas =
-                !dentroAspas;
-
-
-            atual +=
-                caractere;
-
-
-            continue;
-
-        }
-
-
-        if(
-            (
-                caractere === "\n" ||
-                caractere === "\r"
-            ) &&
-            !dentroAspas
-        ){
-
-            if(
-                caractere === "\r" &&
-                csv[i + 1] === "\n"
-            ){
-
-                i++;
-
-            }
-
-
-            linhas.push(
-                atual
-            );
-
-
-            atual = "";
-
-            continue;
-
-        }
-
-
-        atual +=
-            caractere;
-
-    }
-
-
-    if(atual){
-
-        linhas.push(
-            atual
-        );
-
-    }
-
-
+    if (campo !== "" || linha.length) { linha.push(campo); linhas.push(linha); }
     return linhas;
+  }
 
-}
+  function carregarCSV(csv) {
+    var linhas = parseCSV(csv);
+    if (!linhas.length) return;
 
+    var cab = linhas.shift().map(function (c) { return c.trim(); });
+    REGISTOS = [];
 
-/* ==========================================================
-   PARSER CSV
-========================================================== */
+    linhas.forEach(function (cols) {
+      if (!cols.length || cols.every(function (c) { return !c.trim(); })) return;
+      var o = {};
+      cab.forEach(function (nome, i) { o[nome] = (cols[i] || "").trim(); });
+      REGISTOS.push(o);
+    });
+  }
 
-function parseCSVLine(linha){
+  /* =======================================================
+     DATAS
+     ======================================================= */
+  function converterData(txt) {
+    if (!txt) return null;
+    var p = txt.trim().split(/\s+/);
+    var d = p[0].split(/[\/\-]/);
+    var h = (p[1] || "0:0:0").split(":");
+    if (d.length < 3) return null;
 
-    const resultado = [];
+    var dia, mes;
+    if (FORMATO_DATA === "MDA") { mes = +d[0]; dia = +d[1]; }
+    else { dia = +d[0]; mes = +d[1]; }
 
-    let atual = "";
+    var ano = +d[2];
+    if (ano < 100) ano += 2000;
 
-    let dentroAspas = false;
+    var data = new Date(ano, mes - 1, dia, +h[0] || 0, +h[1] || 0, +h[2] || 0);
+    return isNaN(data.getTime()) ? null : data;
+  }
 
+  function formatarHora(data) {
+    if (!data) return "";
+    var dd = String(data.getDate()).padStart(2, "0");
+    var mm = String(data.getMonth() + 1).padStart(2, "0");
+    var hh = String(data.getHours()).padStart(2, "0");
+    var mi = String(data.getMinutes()).padStart(2, "0");
+    return dd + "/" + mm + " \u00b7 " + hh + ":" + mi;
+  }
 
-    for(
-        let i = 0;
-        i < linha.length;
-        i++
-    ){
+  function diasNoMes() { return new Date(ANO, MES, 0).getDate(); }
 
-        const caractere =
-            linha[i];
+  /* =======================================================
+     AGRUPAR
+     ======================================================= */
+  function agrupar() {
+    POR_DIA = {};
+    REGISTOS.forEach(function (item) {
+      var d = converterData(item[COL_DATA]);
+      if (!d || d.getMonth() + 1 !== MES || d.getFullYear() !== ANO) return;
+      item._data = d;
+      var dia = d.getDate();
+      (POR_DIA[dia] = POR_DIA[dia] || []).push(item);
+    });
 
+    Object.keys(POR_DIA).forEach(function (k) {
+      POR_DIA[k].sort(function (a, b) { return a._data - b._data; });
+    });
+  }
 
-        if(
-            caractere === '"'
-        ){
+  /* =======================================================
+     RENDER
+     ======================================================= */
+  function render() {
+    renderDias();
+    renderTabela();
+  }
 
-            if(
-                dentroAspas &&
-                linha[i + 1] === '"'
-            ){
+  function renderDias() {
+    elDias.innerHTML = "";
 
-                atual += '"';
+    var total = 0;
+    Object.keys(POR_DIA).forEach(function (k) { total += POR_DIA[k].length; });
 
-                i++;
+    // Botao "Todos"
+    var todos = document.createElement("button");
+    todos.type = "button";
+    todos.className = "perg-dia perg-dia-todos" + (DIA_ATIVO === null ? " ativo" : "");
+    todos.textContent = "Todos";
+    todos.setAttribute("aria-pressed", DIA_ATIVO === null);
+    todos.addEventListener("click", function () { escolherDia(null); });
+    elDias.appendChild(todos);
 
-            }
+    var limite = diasNoMes();
+    for (var dia = 1; dia <= limite; dia++) {
+      var qtd = (POR_DIA[dia] || []).length;
 
-            else{
+      var b = document.createElement("button");
+      b.type = "button";
+      b.className = "perg-dia" + (qtd ? "" : " vazio") + (DIA_ATIVO === dia ? " ativo" : "");
+      b.textContent = String(dia).padStart(2, "0");
+      b.disabled = !qtd;
+      b.setAttribute("aria-pressed", DIA_ATIVO === dia);
+      b.title = qtd
+        ? qtd + " pergaminho" + (qtd > 1 ? "s" : "")
+        : "Nenhum pergaminho neste dia";
 
-                dentroAspas =
-                    !dentroAspas;
+      if (qtd) {
+        var badge = document.createElement("span");
+        badge.className = "perg-qtd";
+        badge.textContent = qtd;
+        b.appendChild(badge);
+      }
 
-            }
+      (function (d) {
+        b.addEventListener("click", function () { escolherDia(d); });
+      })(dia);
 
-
-            continue;
-
-        }
-
-
-        if(
-            caractere === "," &&
-            !dentroAspas
-        ){
-
-            resultado.push(
-                atual
-            );
-
-            atual = "";
-
-            continue;
-
-        }
-
-
-        atual +=
-            caractere;
-
+      elDias.appendChild(b);
     }
 
+    elResumo.textContent = DIA_ATIVO === null
+      ? total + " pergaminho" + (total === 1 ? "" : "s") + " no total"
+      : "Dia " + String(DIA_ATIVO).padStart(2, "0") + " \u2014 " +
+        (POR_DIA[DIA_ATIVO] || []).length + " pergaminho" +
+        ((POR_DIA[DIA_ATIVO] || []).length === 1 ? "" : "s");
+  }
 
-    resultado.push(
-        atual
-    );
+  function escolherDia(dia) {
+    DIA_ATIVO = dia;
+    // Guarda a escolha no endereco, para o link poder ser partilhado.
+    if (history.replaceState) {
+      history.replaceState(null, "", dia ? "#dia-" + dia : location.pathname);
+    }
+    render();
+  }
 
+  function linhaVazia(texto) {
+    elCorpo.innerHTML = "";
+    var tr = document.createElement("tr");
+    var td = document.createElement("td");
+    td.className = "perg-aviso";
+    td.colSpan = 3;
+    td.textContent = texto;
+    tr.appendChild(td);
+    elCorpo.appendChild(tr);
+  }
 
-    return resultado;
+  function renderTabela() {
+    var lista;
 
-}
-
-
-/* ==========================================================
-   NORMALIZAR TEXTO
-========================================================== */
-
-function normalizarTexto(texto){
-
-    return texto
-        .replace(/^\uFEFF/, "")
-        .trim()
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase();
-
-}
-
-
-/* ==========================================================
-   PROCURAR COLUNA
-==========================================================
-
-   Agora não dependemos do nome EXATO da coluna.
-
-   Exemplo:
-
-   "🗺️ Jornada"
-
-   vira:
-
-   "jornada"
-
-   e será encontrado normalmente.
-========================================================== */
-
-function encontrarCampo(
-    objeto,
-    termo
-){
-
-    const termoNormalizado =
-        normalizarTexto(
-            termo
-        );
-
-
-    const chave =
-        Object.keys(objeto)
-            .find(
-                chave => {
-
-                    const chaveNormalizada =
-                        normalizarTexto(
-                            chave
-                        );
-
-
-                    return chaveNormalizada
-                        .includes(
-                            termoNormalizado
-                        );
-
-                }
-            );
-
-
-    if(!chave){
-
-        return "";
-
+    if (DIA_ATIVO === null) {
+      lista = [];
+      Object.keys(POR_DIA)
+        .sort(function (a, b) { return a - b; })
+        .forEach(function (k) { lista = lista.concat(POR_DIA[k]); });
+    } else {
+      lista = POR_DIA[DIA_ATIVO] || [];
     }
 
-
-    return objeto[chave] || "";
-
-}
-
-
-/* ==========================================================
-   CRIAR PARTICIPANTES
-========================================================== */
-
-function criarParticipantes(dados){
-
-    lista.innerHTML = "";
-
-
-    const participantes =
-        dados.filter(
-            participante => {
-
-                const nome =
-                    encontrarCampo(
-                        participante,
-                        "nome de aventureiro"
-                    );
-
-
-                return (
-                    nome &&
-                    nome.trim() !== ""
-                );
-
-            }
-        );
-
-
-    if(
-        participantes.length === 0
-    ){
-
-        lista.innerHTML = `
-            <div class="participantes-erro">
-                Nenhum aventureiro foi encontrado.
-            </div>
-        `;
-
-        return;
-
-    }
-
-
-    participantes.forEach(
-        participante => {
-
-            criarParticipante(
-                participante
-            );
-
-        }
-    );
-
-}
-
-
-/* ==========================================================
-   CRIAR PARTICIPANTE
-========================================================== */
-
-function criarParticipante(dados){
-
-
-    /* ======================================================
-       DADOS
-    ====================================================== */
-
-    const nome =
-        encontrarCampo(
-            dados,
-            "nome de aventureiro"
-        ) ||
-        "Aventureiro";
-
-
-    const classe =
-        encontrarCampo(
-            dados,
-            "classe"
-        );
-
-
-    const descricao =
-        encontrarCampo(
-            dados,
-            "descreva sobre seu personagem"
-        ) ||
-        "Este aventureiro ainda não revelou sua história.";
-
-
-    const jornada =
-        encontrarCampo(
-            dados,
-            "jornada"
-        );
-
-
-    const avatar =
-        encontrarCampo(
-            dados,
-            "seu avatar"
-        );
-
-
-    const portal =
-        encontrarCampo(
-            dados,
-            "portal de origem"
-        );
-
-
-    /* ======================================================
-       DEBUG
-    ======================================================
-
-       Se quiser verificar o que está vindo da planilha,
-       abra F12 → Console.
-    */
-
-    console.log(
-        "Aventureiro:",
-        nome,
-        "| Classe:",
-        classe,
-        "| Jornada:",
-        jornada
-    );
-
-
-    /* ======================================================
-       PARTICIPANTE
-    ====================================================== */
-
-    const participante =
-        document.createElement("div");
-
-    participante.className =
-        "participante";
-
-
-    /* ======================================================
-       AVATAR
-    ====================================================== */
-
-    const avatarContainer =
-        document.createElement("div");
-
-    avatarContainer.className =
-        "participante-avatar";
-
-
-    if(avatar){
-
-        const imagem =
-            document.createElement("img");
-
-
-        imagem.src =
-            converterImagemDrive(
-                avatar
-            );
-
-
-        imagem.alt =
-            `Avatar de ${nome}`;
-
-
-        imagem.loading =
-            "lazy";
-
-
-        imagem.onerror =
-            function(){
-
-                imagem.style.display =
-                    "none";
-
-            };
-
-
-        avatarContainer.appendChild(
-            imagem
-        );
-
-    }
-
-    else{
-
-        avatarContainer.textContent =
-            "🧙";
-
-    }
-
-
-    /* ======================================================
-       NOME
-    ====================================================== */
-
-    const nomeElemento =
-        document.createElement("span");
-
-    nomeElemento.className =
-        "participante-nome";
-
-    nomeElemento.textContent =
-        nome;
-
-
-    /* ======================================================
-       CLASSE
-    ====================================================== */
-
-    const classeElemento =
-        document.createElement("span");
-
-    classeElemento.className =
-        "participante-classe";
-
-
-    if(classe){
-
-        classeElemento.textContent =
-            classe;
-
-    }
-
-    else{
-
-        classeElemento.style.display =
-            "none";
-
-    }
-
-
-    /* ======================================================
-       DESCRIÇÃO
-    ====================================================== */
-
-    const descricaoElemento =
-        document.createElement("div");
-
-    descricaoElemento.className =
-        "participante-descricao";
-
-
-    const descricaoTexto =
-        document.createElement("span");
-
-    descricaoTexto.textContent =
-        descricao;
-
-
-    descricaoElemento.appendChild(
-        descricaoTexto
-    );
-
-
-    /* ======================================================
-       JORNADA
-    ====================================================== */
-
-    if(jornada){
-
-        const separador =
-            document.createElement("div");
-
-        separador.className =
-            "tooltip-jornada";
-
-
-        const jornadaElemento =
-            document.createElement("strong");
-
-
-        jornadaElemento.textContent =
-            `${jornada}`;
-
-
-        separador.appendChild(
-            jornadaElemento
-        );
-
-
-        descricaoElemento.appendChild(
-            separador
-        );
-
-    }
-
-
-    /* ======================================================
-       MONTAR
-    ====================================================== */
-
-    participante.appendChild(
-        avatarContainer
-    );
-
-
-    participante.appendChild(
-        nomeElemento
-    );
-
-
-    participante.appendChild(
-        classeElemento
-    );
-
-
-    participante.appendChild(
-        descricaoElemento
-    );
-
-
-    /* ======================================================
-       PORTAL
-    ====================================================== */
-
-    if(portal){
-
-        participante.classList.add(
-            "tem-portal"
-        );
-
-
-        participante.addEventListener(
-            "click",
-            function(){
-
-                abrirPortal(
-                    portal
-                );
-
-            }
-        );
-
-    }
-
-
-    /* ======================================================
-       MOBILE
-    ====================================================== */
-
-    participante.addEventListener(
-        "click",
-        function(evento){
-
-            if(
-                window.innerWidth <= 600
-            ){
-
-                if(
-                    !participante.classList.contains(
-                        "mostrar-descricao"
-                    )
-                ){
-
-                    evento.preventDefault();
-
-                    evento.stopImmediatePropagation();
-
-
-                    document
-                        .querySelectorAll(
-                            ".participante.mostrar-descricao"
-                        )
-                        .forEach(
-                            outro => {
-
-                                outro.classList.remove(
-                                    "mostrar-descricao"
-                                );
-
-                            }
-                        );
-
-
-                    participante.classList.add(
-                        "mostrar-descricao"
-                    );
-
-                }
-
-            }
-
-        },
-        true
-    );
-
-
-    /* ======================================================
-       INSERIR
-    ====================================================== */
-
-    lista.appendChild(
-        participante
-    );
-
-}
-
-
-/* ==========================================================
-   GOOGLE DRIVE
-========================================================== */
-
-function converterImagemDrive(url){
-
-    if(!url){
-
-        return "";
-
-    }
-
-
-    url =
-        url.trim();
-
-
-    let id = null;
-
-
-    /* open?id= */
-
-    const encontradoOpen =
-        url.match(
-            /[?&]id=([^&]+)/i
-        );
-
-
-    if(encontradoOpen){
-
-        id =
-            encontradoOpen[1];
-
-    }
-
-
-    /* file/d/ */
-
-    if(!id){
-
-        const encontradoArquivo =
-            url.match(
-                /\/file\/d\/([^/]+)/i
-            );
-
-
-        if(encontradoArquivo){
-
-            id =
-                encontradoArquivo[1];
-
-        }
-
-    }
-
-
-    /* uc?id= */
-
-    if(!id){
-
-        const encontradoUC =
-            url.match(
-                /drive\.google\.com\/uc\?.*id=([^&]+)/i
-            );
-
-
-        if(encontradoUC){
-
-            id =
-                encontradoUC[1];
-
-        }
-
-    }
-
-
-    if(!id){
-
-        return url;
-
-    }
-
-
-    return (
-        "https://drive.google.com/thumbnail" +
-        "?id=" +
-        encodeURIComponent(id) +
-        "&sz=w500"
-    );
-
-}
-
-
-/* ==========================================================
-   ABRIR PORTAL
-========================================================== */
-
-function abrirPortal(url){
-
-    let endereco =
-        url.trim();
-
-
-    if(
-        !endereco.startsWith("http://") &&
-        !endereco.startsWith("https://")
-    ){
-
-        endereco =
-            "https://" +
-            endereco;
-
-    }
-
-
-    window.open(
-        endereco,
-        "_blank",
-        "noopener,noreferrer"
-    );
-
-}
+    if (!lista.length) { linhaVazia("Nenhum pergaminho neste dia."); return; }
+
+    elCorpo.innerHTML = "";
+
+    lista.forEach(function (item) {
+      var tr = document.createElement("tr");
+
+      var tdData = document.createElement("td");
+      tdData.className = "perg-data";
+      tdData.textContent = formatarHora(item._data);
+
+      var tdBlog = document.createElement("td");
+      tdBlog.className = "perg-blog";
+      tdBlog.textContent = item[COL_BLOG] || "";
+
+      var tdPost = document.createElement("td");
+      var link = item[COL_LINK] || "";
+      // textContent em vez de innerHTML: o conteudo vem de um formulario
+      // publico, por isso nao deve ser interpretado como HTML.
+      if (/^https?:\/\//i.test(link)) {
+        var a = document.createElement("a");
+        a.className = "perg-link";
+        a.href = link;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.textContent = item[COL_POST] || link;
+        tdPost.appendChild(a);
+      } else {
+        tdPost.textContent = item[COL_POST] || "";
+      }
+
+      tr.appendChild(tdData);
+      tr.appendChild(tdBlog);
+      tr.appendChild(tdPost);
+      elCorpo.appendChild(tr);
+    });
+  }
+
+  /* =======================================================
+     ARRANQUE
+     ======================================================= */
+  function processar(csv) {
+    carregarCSV(csv);
+    agrupar();
+    render();
+  }
+
+  function iniciar() {
+    var m = location.hash.match(/^#dia-(\d{1,2})$/);
+    if (m) DIA_ATIVO = Number(m[1]);
+
+    // 1. Mostra o cache de imediato, se existir.
+    var cache = lerCache();
+    if (cache) { try { processar(cache); } catch (e) {} }
+
+    // 2. Vai buscar a versao mais recente e volta a desenhar.
+    fetch(URL_CSV, { cache: "no-cache" })
+      .then(function (r) {
+        if (!r.ok) throw new Error("HTTP " + r.status);
+        return r.text();
+      })
+      .then(function (csv) {
+        gravarCache(csv);
+        processar(csv);
+      })
+      .catch(function (err) {
+        console.error("Pergaminhos:", err);
+        if (!cache) linhaVazia("Nao foi possivel abrir os pergaminhos. Tente recarregar a pagina.");
+      });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", iniciar);
+  } else {
+    iniciar();
+  }
+})();
+//]]>
 </script>
 
 </body>
