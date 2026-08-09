@@ -296,7 +296,7 @@ h1{
 
 }
 
-#toggleBattle{
+.toggleBattle{
 	font-family: var(--fonte-corpo);
     background:#d6b25e;
     color:#141c26;
@@ -310,7 +310,7 @@ h1{
 
 }
 
-#toggleBattle:hover{
+.toggleBattle:hover{
 
     transform:translateY(-2px);
     box-shadow:0 10px 25px rgba(214,178,94,.35);
@@ -389,7 +389,7 @@ h1{
 
     }
 
-    #toggleBattle{
+    .toggleBattle{
 
         width:100%;
 
