@@ -31,6 +31,8 @@ permalink: /testes/
 
 <body>
 
+<div class="container">
+
 <!-- =========================================================
      D&B 2026 - PERGAMINHOS (Biblioteca Eterna)
      Bloco unico para colar numa pagina do Blogger (vista HTML).
@@ -42,38 +44,53 @@ permalink: /testes/
 
 <style>
 /* =========================================================
-   1. VARIAVEIS  <- personalize aqui
+   1. VARIAVEIS
+   Herda as variaveis globais do blog quando existem
+   (--marrom-claro, --marrom-escuro, --amarelo, etc.) e
+   define um valor de reserva para o caso de faltarem.
    ========================================================= */
 .beda-perg{
-  --perg-tinta:      #3b2a1e;   /* texto principal          */
-  --perg-tinta-fraca:#8a7563;   /* datas, contagens         */
-  --perg-linha:      #d9cbb8;   /* bordas e divisorias      */
-  --perg-realce:     #6b4a2f;   /* dia selecionado          */
-  --perg-superficie: #f7f1e6;   /* fundo de apoio           */
-  --perg-fonte:      "Special Elite", "Courier New", monospace;
-  --perg-fonte-tit:  "Jim Nightshade", cursive;
+  /* -- Cores -- */
+  --perg-tinta:       var(--marrom-escuro, #332018);
+  --perg-tinta-fraca: var(--marrom-medio, rgb(161,125,89));
+  --perg-linha:       var(--marrom-claro, rgb(207,180,139));
+  --perg-realce:      var(--marrom-escuro, #332018);
+  --perg-ouro:        var(--amarelo, #d6b25e);
+
+  /* Fundos: pergaminho claro para os blocos, um tom acima
+     para os cabecalhos e para a linha sob o cursor. */
+  --perg-fundo:       #f5ecdc;
+  --perg-fundo-alt:   #ece0cb;
+
+  /* -- Tipografia -- */
+  --perg-fonte:     var(--fonte-corpo, "Special Elite", monospace);
+  --perg-fonte-tit: var(--fonte-titulo, "Jim Nightshade", cursive);
+
+  /* -- Forma -- */
+  --perg-raio:   3px;
+  --perg-espaco: var(--espacamento-padrao, 16px);
 
   color: var(--perg-tinta);
   font-family: var(--perg-fonte);
   line-height: 1.6;
 }
 
+.beda-perg *{ box-sizing:border-box; }
+
 /* =========================================================
    2. CABECALHO
    ========================================================= */
-.beda-perg *{ box-sizing:border-box; }
-
 .beda-perg .perg-titulo{
   margin:0 0 6px;
   font-family:var(--perg-fonte-tit);
   font-size:clamp(30px, 6vw, 46px);
   font-weight:400;
+  line-height:1.2;
   text-align:center;
   color:var(--perg-tinta);
-  line-height:1.2;
 }
 .beda-perg .perg-subtitulo{
-  margin:0 0 28px;
+  margin:0 0 var(--perg-espaco);
   text-align:center;
   font-size:13px;
   color:var(--perg-tinta-fraca);
@@ -81,44 +98,64 @@ permalink: /testes/
 
 /* =========================================================
    3. NAVEGACAO POR DIAS
+   A fila inteira assenta num painel; cada numero tem o seu
+   proprio fundo por cima dele.
    ========================================================= */
 .beda-perg .perg-dias{
   display:flex;
   flex-wrap:wrap;
   justify-content:center;
   gap:6px;
-  margin:0 0 10px;
-  padding:0;
+  margin:0 0 12px;
+  padding:var(--perg-espaco);
+  background:var(--perg-fundo);
+  border:1px solid var(--perg-linha);
+  border-radius:var(--perg-raio);
 }
+
 .beda-perg .perg-dia{
   position:relative;
   min-width:46px;
   margin:0;
   padding:11px 8px;
+  background:var(--perg-fundo-alt);
   border:1px solid var(--perg-linha);
-  border-radius:0;
-  background:transparent;
+  border-radius:var(--perg-raio);
   font-family:var(--perg-fonte);
   font-size:15px;
   line-height:1;
   color:var(--perg-tinta);
   cursor:pointer;
-  transition:background .18s ease, color .18s ease, border-color .18s ease;
+  transition:background .18s ease, color .18s ease,
+             border-color .18s ease, transform .18s ease;
 }
-.beda-perg .perg-dia:hover:not(:disabled){ background:var(--perg-superficie); }
-.beda-perg .perg-dia:focus-visible{ outline:2px solid var(--perg-realce); outline-offset:2px; }
+.beda-perg .perg-dia:hover:not(:disabled){
+  background:var(--perg-linha);
+  transform:translateY(-1px);
+}
+.beda-perg .perg-dia:focus-visible{
+  outline:2px solid var(--perg-realce);
+  outline-offset:2px;
+}
 .beda-perg .perg-dia.ativo{
   background:var(--perg-realce);
   border-color:var(--perg-realce);
-  color:#fff;
+  color:var(--perg-ouro);
 }
-.beda-perg .perg-dia.vazio{ opacity:.32; cursor:default; }
+.beda-perg .perg-dia.vazio{
+  background:transparent;
+  border-style:dashed;
+  opacity:.45;
+  cursor:default;
+}
 .beda-perg .perg-dia .perg-qtd{
   position:absolute;
   top:3px; right:5px;
   font-size:9px;
-  opacity:.7;
+  opacity:.75;
 }
+.beda-perg .perg-dia.ativo .perg-qtd{ color:var(--perg-ouro); }
+
 .beda-perg .perg-dia-todos{
   min-width:auto;
   padding-left:16px; padding-right:16px;
@@ -128,7 +165,7 @@ permalink: /testes/
 }
 
 .beda-perg .perg-resumo{
-  margin:0 0 22px;
+  margin:0 0 12px;
   text-align:center;
   font-size:11px;
   letter-spacing:.08em;
@@ -139,15 +176,23 @@ permalink: /testes/
 /* =========================================================
    4. TABELA
    ========================================================= */
-.beda-perg .perg-wrap{ width:100%; overflow-x:auto; }
+.beda-perg .perg-wrap{
+  width:100%;
+  overflow-x:auto;
+  background:var(--perg-fundo);
+  border:1px solid var(--perg-linha);
+  border-radius:var(--perg-raio);
+}
 
 .beda-perg table{
   width:100%;
   border-collapse:collapse;
+  background:transparent;
   font-size:14px;
 }
 .beda-perg thead th{
-  padding:10px 12px;
+  padding:12px 14px;
+  background:var(--perg-fundo-alt);
   border-bottom:2px solid var(--perg-linha);
   text-align:left;
   font-size:11px;
@@ -158,11 +203,12 @@ permalink: /testes/
   white-space:nowrap;
 }
 .beda-perg tbody td{
-  padding:14px 12px;
+  padding:14px;
   border-bottom:1px solid var(--perg-linha);
   vertical-align:top;
 }
-.beda-perg tbody tr:hover td{ background:var(--perg-superficie); }
+.beda-perg tbody tr:last-child td{ border-bottom:0; }
+.beda-perg tbody tr:hover td{ background:var(--perg-fundo-alt); }
 
 .beda-perg .perg-data{
   white-space:nowrap;
@@ -179,7 +225,7 @@ permalink: /testes/
 .beda-perg .perg-link:hover{ border-bottom-color:var(--perg-realce); }
 
 .beda-perg .perg-aviso{
-  padding:44px 12px;
+  padding:44px 14px;
   text-align:center;
   color:var(--perg-tinta-fraca);
 }
@@ -187,18 +233,23 @@ permalink: /testes/
 /* =========================================================
    5. RESPONSIVO
    No telemovel a fila de dias rola na horizontal e a tabela
-   passa a cartoes empilhados.
+   passa a cartoes empilhados, cada um com o seu fundo.
    ========================================================= */
 @media (max-width:620px){
   .beda-perg .perg-dias{
     flex-wrap:nowrap;
     justify-content:flex-start;
     overflow-x:auto;
-    padding-bottom:8px;
+    padding:12px;
     -webkit-overflow-scrolling:touch;
   }
   .beda-perg .perg-dia{ flex:0 0 auto; }
 
+  .beda-perg .perg-wrap{
+    background:transparent;
+    border:0;
+    border-radius:0;
+  }
   .beda-perg thead{
     position:absolute;
     width:1px; height:1px;
@@ -207,8 +258,11 @@ permalink: /testes/
   }
   .beda-perg tbody tr{
     display:block;
-    padding:14px 0;
-    border-bottom:1px solid var(--perg-linha);
+    margin-bottom:10px;
+    padding:14px;
+    background:var(--perg-fundo);
+    border:1px solid var(--perg-linha);
+    border-radius:var(--perg-raio);
   }
   .beda-perg tbody td{
     display:block;
@@ -568,5 +622,6 @@ permalink: /testes/
 //]]>
 </script>
 
+</div>
 </body>
 </html>
