@@ -152,11 +152,15 @@ A cada semana, um novo senhor das trevas surgirá das sombras, trazendo consigo 
 
     <div class="battle-footer">
 
-        <button id="toggleBattle">
+        <div id="toggleBattle">
 
-            Ver todos os ataques
+            <a
+        href="/beda/2026/pergaminhos"
+        > Ver todos os ataques
 
-        </button>
+			</a>
+  
+        </div>
 
     </div>
 
