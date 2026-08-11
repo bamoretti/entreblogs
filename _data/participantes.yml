@@ -6,11 +6,6 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
-- blog: "Histórico Infame"
-  url: "https://www.igormedeiroz.com/"
-  feed: "https://www.igormedeiroz.com/feeds/posts/default"
-  added: "2026-08-03"
-
 - blog: "Story by Lano"
   url: "https://storybylano.blogspot.com/"
   feed: "https://storybylano.blogspot.com/feeds/posts/default"
@@ -311,10 +306,6 @@
 - blog: "BMRTT"
   url: "https://bamoretti.com"
   feed: "https://feeds.feedburner.com/bamoretti"
-
-- blog: "Boletins Inúteis"
-  url: "http://igormedeiroz.blogspot.com"
-  feed: "https://feeds.feedburner.com/igormedeiroz"
 
 - blog: "NYR DAGUR"
   url: "https://nyrtais.blogspot.com"
