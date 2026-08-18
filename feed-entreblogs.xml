@@ -6,7 +6,39 @@
     <atom:link href="https://entreblogs.com.br/feed-entreblogs.xml" rel="self" type="application/rss+xml"/>
     <description>Todas as postagens dos blogs participantes do Entreblogs</description>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 18 Aug 2026 01:19:36 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 04:37:20 GMT</lastBuildDate>
+
+  <item>
+    <title>COSMOLIKO — Assinatura Animada pt2</title>
+    <link>https://cosmoliko.com/assinatura-animada-pt2/</link>
+    <guid isPermaLink="true">https://cosmoliko.com/assinatura-animada-pt2/</guid>
+    <pubDate>Tue, 18 Aug 2026 02:42:00 GMT</pubDate>
+    <description><![CDATA[<p>Dando continuidade ao <a href="https://cosmoliko.com/primeira-tentativa-de-criar-uma-assinatura-animada/">experimento de criar uma assinatura animada</a>, cheguei a esse resultado:</p>
+<!--kg-card-begin: html-->
+
+<style>
+  svg  { width:100%; max-width:300px; }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+  #g1 path {
+    fill: none;
+    stroke: #2b2b2b;
+    stroke-width: 7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    #g1 path { animation: none !important; stroke-dashoffset: 0 !important; }
+  }
+</style>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 997.091 341.818"><defs><clippath id="fillClip"><path d="M695.2 326.73c-.44-1.15-.57-4.02-.31-6.73.52-5.57 3.06-20.51 4.01-23.64 6.67-21.86 11.89-31.75 23.42-44.38 3.72-4.07 4.37-5.58 7.94-18.53 1.92-7 3.04-11.25 4.96-18.9 1.63-6.48 2.22-8.72 4.04-15.23 2.05-7.32.83-6.73-3.37 1.63-13.44 26.72-30.64 46.6-41.17 47.59-6.42.6-10.21-3.77-10.54-12.13-.18-4.59.83-13.13 1.8-15.32.45-1 .77-2.04.7-2.31-.2-.93 4.33-14.76 6.04-18.42 8.46-18.13 12.3-24.88 19.1-33.65 9.4-12.11 20.09-19.37 28.62-19.41 3.85-.03 4.48.2 6.62 2.34 2.17 2.17 2.36 2.72 2.27 6.64-.06 2.57-.7 5.65-1.62 7.73a42 42 0 0 0-1.53 3.72c0 .15.95.27 2.1.27 2.63 0 3.18 1.72 2.21 6.84-1.37 7.23-9.4 38.81-13.34 52.4-2.2 7.59-3.85 13.93-3.68 14.1.35.36 5.8-4.2 13.5-11.26 8.16-7.49 10.01-6.38 8.6 5.14-.72 5.91-.73 8.04-.06 9.51.86 1.89.87 1.89 3.05.6 4.92-2.9 14.03-17.03 18.23-28.24 1.52-4.06 2.98-5.45 5.7-5.45 2 0 2.03 3.36.06 9.07a70 70 0 0 0-2.33 10.33c-.9 6.2-.56 8.12 1.53 8.82 1.62.53 9.37-8.28 15.4-17.5 5.63-8.61 8.35-11.28 10.59-10.42.9.34 1 1.94.62 10.05-.5 10.94.01 13.9 2.5 14.25 2.4.35 8.58-4.14 14.8-10.76 8.65-9.2 9.03-10 9.5-19.3.21-4.41.56-8.5.77-9.1s.51-2.39.67-3.99c.56-5.64 5.77-23.9 8.54-29.92 5.04-10.98 8.6-14.8 13.72-14.8 1.59 0 2.55.54 3.49 1.96 1.71 2.62 1.7 13.81-.02 21.1-2.82 11.9-10.16 28.48-17.59 39.73-1.8 2.74-3.29 5.7-3.29 6.6 0 3.52 2.39 9.5 4.73 11.84 2.09 2.08 2.89 2.4 6.09 2.4 3.82 0 10.68-2.5 12.15-4.43.9-1.2 4.67-12.62 4.67-14.18 0-.57.33-1.61.72-2.3.4-.7 1.85-4.74 3.22-8.98 2.13-6.57 3.93-11.4 10.12-27.19.47-1.19 3.21-6.93 6.1-12.74 5.7-11.49 8.45-14.87 12.69-15.65 3.93-.72 5.36 1.75 5.25 9.08-.27 18.93-11.06 46.61-24.46 62.75l-2.87 3.46h2.93c2.2 0 3.71.6 6.15 2.47 4.44 3.39 5.87 4.07 8.5 4.07 2.7 0 5.56-2.56 6.23-5.57.66-2.95 3.91-11.3 4.93-12.67a8 8 0 0 1 5.56-2.85c3.82 0 2.76 7.1-2.26 15.2-3.18 5.12-3.62 8.93-1.1 9.41 1.86.35 7.85-5.98 13.02-13.76 3.83-5.76 6.28-7.94 8.92-7.94 1.67 0 2.53 2.51 2.54 7.4 0 6 1.12 10.06 2.78 10.06.7 0 3.05-1.83 5.24-4.06 4.54-4.64 6.99-6.13 10.07-6.13 2.33 0 3.38.82 6.42 4.98 7.8 10.68 12.43 11.47 22.05 3.76 5.73-4.58 7.98-5.4 7.98-2.9 0 3.62-7.28 9.98-14.17 12.4-3.95 1.4-4.36 1.4-8.27.3-3.58-1.02-4.83-1.92-9.74-7.05l-5.63-5.88-3.17 3.4c-6.46 6.95-9.67 8.22-14.67 5.85-2.44-1.16-4.72-5.18-4.72-8.32 0-2.37-1.24-1.67-4.23 2.37-3.5 4.75-8.27 9.1-11.38 10.4-2.96 1.24-6.7.36-9.03-2.13-1.47-1.56-2.07-1.7-6.17-1.36-4.84.39-8.19-.8-13.28-4.67-3.05-2.32-4.52-1.6-10.76 5.29-5.49 6.06-7.23 6.64-10.42 3.45l-1.93-1.93-4.52 1.2c-5.77 1.54-7.19 1.5-11.18-.3-4.31-1.96-6.3-3.9-8.53-8.31-1-2-1.96-3.78-2.12-3.95s-2.47 2.06-5.12 4.97c-5.39 5.9-11.1 10.4-15.92 12.53-2.71 1.2-3.66 1.3-6.16.62-3.27-.88-5.75-2.94-5.87-4.9-.05-.7-.16-1.6-.26-2s-.22-2.28-.28-4.18-.38-3.45-.72-3.45-2.83 2.8-5.54 6.22c-5.22 6.59-11.12 11.23-14.28 11.23-3.12 0-6.8-2.94-7.07-5.66-.12-1.29-.52-2.34-.88-2.34-.37 0-1.95 1.72-3.51 3.82-3.82 5.1-7.2 8.25-10.29 9.53-2.18.91-2.96.92-5.44.07-1.6-.55-3.29-1.53-3.76-2.17-1-1.38-2.05-9.38-1.37-10.48.26-.42.27-1.1.02-1.5-.5-.8-8.16 5.22-15.4 12.1l-4.5 4.27-7.03 21.09c-7.01 21.09-9.2 27.1-15.36 42.27-4.64 11.43-5.46 12.64-8.62 12.64-2.14 0-2.7-.34-3.34-2m10-17.3c4.81-11.87 9.38-24.06 11.18-29.8.87-2.8 2.04-6.07 2.59-7.27 1.22-2.67 2.67-9.14 2.16-9.65-1.07-1.07-7.51 9.46-11.59 18.95-4.03 9.4-6.65 19.57-8.72 33.84-.64 4.45 1.1 2.03 4.39-6.07m-8.23-66.79c5.88-2.45 15.96-14 24.9-28.54 4.43-7.18 15.7-28.62 18.6-35.37 1.64-3.82.37-3.4-2.72.9-1.44 2-3.13 3.64-3.76 3.64-1.55 0-3.81-2.13-3.8-3.56.01-.64 1.98-3.78 4.38-6.98 4.43-5.9 8.7-13.76 8.7-15.97 0-2.48-1.45-4.03-3.77-4.03-5.66 0-16.96 9.36-25.46 21.09-13.96 19.26-25.36 48.6-24.45 62.9.42 6.73 2.14 8.11 7.38 5.92m180.67-27.19c11.59-13.97 21.73-38.2 23.22-55.45.43-4.98.37-5.37-.71-4.48-2.5 2.07-10.9 19.74-16.47 34.66-.9 2.4-1.97 5.18-2.38 6.18-2.2 5.3-7.66 22.55-7.13 22.55.33 0 1.9-1.56 3.47-3.46m-30.94-20.72c4.93-10.04 6.67-14.5 8.6-22 1.66-6.47 2.72-17.1 1.71-17.07-3.03.1-10.6 20-13.8 36.23-2.76 14.1-2.25 14.53 3.5 2.84M425.63 281.8c-7.83-3.98-9.69-11.75-6.79-28.27.84-4.75 1.52-9.1 1.52-9.65 0-.82-1.09-.92-5.79-.53-4.74.4-6.12.26-7.63-.73-1.02-.66-1.85-1.46-1.85-1.76 0-1.54 4.5-3 10.02-3.26 6.2-.3 7.77-.97 8.37-3.63a411 411 0 0 1 5.58-20.53c2.2-7.04 5.2-17.2 5.5-18.68.14-.67.62-1.92 1.08-2.78 1.58-2.94.62-3.4-6.56-3.19a77 77 0 0 0-8.8.67c-1.78.4-2.1.24-2.1-1.02 0-1.4.42-1.48 6.73-1.42 3.7.03 8.2-.12 10-.34 6.55-.82 18.6-2.75 21.09-3.38 1.4-.35 5.5-1.04 9.1-1.52 3.6-.49 7.33-1.19 8.3-1.55 1.99-.75 3.89.68 4.75 3.55.62 2.1.65 2.1-18.51 3.51-8.6.63-15.84 1.38-16.1 1.65-.44.5-2.4 6.65-8.86 27.78-4.1 13.44-5.25 18.03-4.65 18.63.5.51 10.98-1.62 20.1-4.08 7.1-1.92 10.23-1.94 10.23-.06 0 2.2-6.32 4.7-18.54 7.33a988 988 0 0 1-12.52 2.63c-1.19.21-1.83 1.1-2.44 3.36-3.1 11.55-4.35 23.32-2.91 27.67a12 12 0 0 0 3.06 4.5c1.83 1.53 2.94 1.84 6.72 1.84 8 0 15.43-5.2 18.34-12.82 1.83-4.77 5.4-5.3 5.37-.78-.04 5.56-5.53 12.32-13.14 16.17-2.8 1.42-5.3 2.04-9.34 2.29-4.92.3-5.91.14-9.33-1.6m48.46-5.09c-2.33-1.27-2.54-1.77-3.18-7.71-.6-5.63.7-15.47 4.36-33.01 1.38-6.58 6.68-28.68 7.68-32l2.08-6.9c6.12-20.33 7.58-24.37 9.54-26.33 3.57-3.57 6.72-2.44 6.79 2.43.06 4.7-.78 7.16-2.44 7.16-1.44 0-2.63 1.63-3.65 5.01l-3.14 10.27c-5.97 19.46-11.03 39.6-13.98 55.6-1.25 6.75-1.82 20.22-.9 21.15 2.03 2.06 10.88-10.64 19.47-27.91 4.35-8.77 6.14-11.66 7.6-12.33 4.8-2.19 5.15-1.01 4 13.54-.99 12.27-.62 17.33 1.42 19.84 1.88 2.33 4.29 1.43 10-3.76 6.06-5.49 7.4-6.25 8.02-4.62 1.02 2.67-5.37 10.7-10.67 13.4q-5.45 2.77-10.04-.02c-3.52-2.15-4.76-5.65-4.96-14.05-.1-3.94-.29-7.29-.44-7.43-.15-.15-2.53 3.67-5.3 8.49-9.98 17.34-16.04 22.56-22.26 19.18m113.77-3c-4.14-1.47-8.5-6.02-11.21-11.7-2.26-4.74-4.82-15.28-5.12-21.08-.16-2.99-1.47-4.26-2.28-2.21-.93 2.37-9.6 13.05-14.07 17.34-7.93 7.62-13.28 9.74-18.6 7.36-5.17-2.32-7.13-5.86-7.13-12.92v-3.83l-3.02-.97c-3.99-1.3-5.02-2.93-3.14-5a3.5 3.5 0 0 1 3.42-1.26c2.57.38 3.75-.94 5.17-5.77 3.56-12.1 12.09-21.75 16.2-18.34 1.59 1.32 1.05 7.34-1.02 11.6-1.64 3.4-5.71 9.1-9.08 12.73-2.36 2.54-2.98 5.3-2.58 11.58.36 5.54 1.83 7.66 5.33 7.66 4.68 0 14.05-8.77 21.73-20.34 7.95-11.99 8.83-14.22 9.53-24.39.19-2.8.66-6.89 1.06-9.09l1.54-8.73c1.12-6.27 4.46-17.56 6.69-22.6 2.86-6.44 8.07-9.35 10.07-5.6.87 1.61 1.03 9.99.27 14.02a160 160 0 0 1-12.72 39.31l-3.04 6.51.38 9.82c.67 17.33 4.97 27.93 13 32.06 5.23 2.7 11.22 1.15 20-5.13 7.07-5.07 8.41-3.21 2.04 2.82-7.14 6.75-15.51 8.95-23.42 6.14m-6.09-75.54c2.24-7.2 4.72-19.2 4.1-19.83-.6-.6-2.68 5.22-4.74 13.29-4.01 15.67-3.58 20.09.64 6.54m-387.7 54.63c-3.59-1.8-3.37-12.52.82-40.08 1.7-11.13 8.45-31.87 13.88-42.64 2.28-4.52 3.83-10.15 3.01-10.96-.28-.28-2.28 2.93-4.45 7.13-4.2 8.13-8.32 13.45-11.82 15.26-2.46 1.27-6.1.48-8.14-1.78-5-5.52-.4-29.64 8.8-46.17 1.31-2.34 2.38-4.47 2.38-4.74s1.5-2.22 3.35-4.32c9.03-10.32 18.28-8.32 16.7 3.62a14 14 0 0 0 .4 6.01c.67 1.88.67 4.32 0 10.96-.48 4.7-.68 8.73-.46 8.95.22.23 2.12-1.26 4.2-3.3 2.1-2.05 5.01-4.21 6.48-4.81 1.7-.7 3.14-2 3.92-3.52 2.48-4.82 5.56-8.68 8.35-10.44 7.87-4.97 12.91.37 13.62 14.38.2 3.9.58 7.1.85 7.1s1.46-1.03 2.63-2.28a19 19 0 0 1 5.08-3.6c2.92-1.32 2.95-1.38 4.13-7.48 2.12-11.04 5.75-18.02 10.59-20.39q6.84-3.36 10.04 4.33c.73 1.74 1.37 2.45 1.83 2 1.8-1.8 7.2-24.86 12.04-51.44 1.35-7.41 2.34-9.4 5.1-10.2 1.18-.35 1.7-.09 2.04 1.02.26.81-.86 8.27-2.5 16.57l-4.02 20.56a190 190 0 0 0-3.23 34.88c.06 12.22.83 16.32 3.38 18.01 1.8 1.2 1.35 1.53 9.12-6.94 3.94-4.3 6.86-5.01 8.84-2.18.62.88 1.37 1.34 1.68 1.03.3-.3.67-4.25.82-8.76l.26-8.2-2.2-1.56c-1.2-.86-2.5-1.56-2.88-1.56s-1.57-.68-2.63-1.52c-4.66-3.67-6.48-12.7-3.17-15.71 1.83-1.67 4.43-3.13 5.56-3.13.41 0 1.87.98 3.23 2.18 2.61 2.29 5.1 8 5.96 13.64.38 2.52.81 3.18 2.31 3.56 3.18.8 15.5-.34 24.49-2.26 10.32-2.2 9.9-2.19 9.9-.47 0 3.2-17.49 7.24-31.7 7.33l-3.71.02-.46 8.18c-.46 8-1.6 13.92-3.32 17.13q-.85 1.61-2.96 1.6-3.8.02-4.75-4.36c-.27-1.2-.77-2.19-1.12-2.19s-1.87 1.5-3.4 3.34c-7.3 8.8-14.15 7.48-16.98-3.29a50 50 0 0 1-1.41-11.54c0-5.36-.14-6.03-1.09-5.24-1.2 1-2.3 4.52-2.88 9.24-.93 7.5-3.74 16.19-6.31 19.45a13 13 0 0 1-3.62 3c-1.96 1-2.4.98-5.44-.36-3.02-1.34-3.51-1.94-5.92-7.3-1.8-4-3.02-5.84-3.87-5.84-.68 0-2.84 1.88-4.79 4.18a139 139 0 0 1-5.94 6.6 31 31 0 0 0-4.52 6.82c-2.83 5.83-5.45 9.16-8.28 10.51-2.1 1-2.61 1-5.02 0-2.95-1.24-3.14-1.59-6-10.94-1.68-5.5-1.91-7.32-1.58-12.18.21-3.15.12-5.72-.2-5.72-.97 0-8.71 8.83-10.52 12-1.27 2.22-2.21 6.6-4 18.55-3.44 23.05-6.95 40.95-10.93 55.76-3.76 14.03-5.44 16.56-9.57 14.5m4.67-14.08c.2-1.1 1.06-4.62 1.92-7.82a194 194 0 0 0 4.79-22.55c.54-3.6 1.5-9.45 2.13-13 1.93-10.88 1.31-12.75-1.6-4.81-4.09 11.2-8.86 36.48-8.88 47.09-.01 3.45 1.08 4.18 1.64 1.09m-2.82-64.22c4.24-5.04 9.44-16.2 14.34-30.78 2.03-6.02 2.1-6.53.97-7.77-1.1-1.23-1.11-1.69-.06-5.84 2.15-8.44-1.01-7.83-7 1.35-6.46 9.92-11.34 23.38-12.8 35.27-1.16 9.54.57 12.5 4.55 7.77m44.93 1.01c1.9-1.72 1.65-2.43-.85-2.43-1.63 0-2.18.34-2.18 1.33 0 2.48 1.08 2.87 3.03 1.1m2.24-9.16c4.28-2.39 5.7-6.16 6.18-16.35.32-6.66.15-8.79-.87-11.46-.68-1.8-1.67-3.28-2.18-3.28-1.89 0-4.47 2.87-6.95 7.74l-2.54 4.99.17 9.32c.09 5.13.36 9.63.59 10 .67 1.1 2.48.79 5.6-.96m37.62-7.79c2.15-4.2 1.87-4.53-2.18-2.5-3.57 1.8-3.74 2.18-1.96 4.48q1.88 2.43 4.14-1.98m-1.93-8.73c1-1.18 2.9-4.05 4.22-6.36 2.12-3.7 2.4-4.81 2.36-9.3-.06-4.74-1.5-9.87-3.05-10.83-2.08-1.28-6.53 5.61-8.5 13.15-1.25 4.82-1.42 12.05-.33 14.1 1.09 2.02 3.2 1.72 5.3-.76m43.4-27.49c0-1.3-2.54-8.77-3.21-9.44-.2-.2-.87-.17-1.48.07-2.13.81-1.07 6.35 1.75 9.17 1.83 1.83 2.94 1.9 2.94.2M40.97 234.6c-7.53-3.5-12.3-12.07-15.79-28.42-3.17-14.83-3.18-47.73-.01-65.45 3.88-21.72 9.77-29.82 19.55-26.88 2.58.78 3.4.8 3.57.12a181 181 0 0 0 3.81-12.52c.98-3.6 3.02-9 4.54-12 8.48-16.72 11.1-20.57 17.24-25.37 5.99-4.67 11.62-5.74 16.06-3.03 4.88 2.97 10.61 12.94 12.58 21.86.48 2.2 1.16 5.14 1.5 6.54 1.95 8.08 2.94 27.26 2.11 40.87-1.58 26.08-8.04 50.85-18.37 70.4-2.02 3.84-9.12 15.25-9.96 16-1.53 1.4-5.8 7.23-5.8 7.92 0 .47-.78 1.15-1.74 1.51a19 19 0 0 0-4.18 2.75c-5.22 4.47-12.47 7.47-18.03 7.46-1.97 0-4.85-.72-7.08-1.76m14.16-4.78c4.21-1.91 9.6-5.85 9.6-7.02 0-.52.9-1.42 2-2 4.16-2.18 12.35-13.86 18.91-26.98 2.4-4.8 4.6-9.55 4.9-10.55s1.44-4.27 2.54-7.27 2.35-6.6 2.76-8l2.3-7.72c.86-2.85 1.49-5.47 1.4-5.82-.2-.87.7-5.95 1.55-8.64.38-1.2.87-4.8 1.1-8 .22-3.2.57-6.35.77-7 .52-1.74.56-23.32.05-30.1-.35-4.58-2.32-14.04-4.4-21.08-2.16-7.38-7.7-15.07-11.54-16.03-3.99-1-7.08.28-11.93 4.93-5.04 4.85-10.2 12.42-14.27 20.91-2.7 5.68-6.82 16.24-7.78 20-.3 1.2-1.22 4.64-2.02 7.64a168 168 0 0 0-4.17 21.43c-.27 2.39-.63 5-.8 5.82-.4 1.97-.34 24.88.07 27.66.18 1.2.53 4.15.79 6.55s.95 6 1.54 8c1.88 6.35 3.18 12.2 2.8 12.58-.74.74-3.5-6.78-3.98-10.84-.27-2.3-.9-4.65-1.38-5.24-.5-.59-1.04-3.15-1.21-5.7a76 76 0 0 0-.4-4.62c-.14 0-.74-8.1-.74-10.18 0-10.9.6-26.42 1.07-27.16.31-.51.73-2.63.92-4.7s.62-5 .94-6.48c.51-2.37.38-2.83-1.12-3.82a8 8 0 0 0-3.89-1.12c-1.82 0-2.5.55-4.15 3.36-2.47 4.23-4.91 13.72-6.9 26.82-2.1 13.96-2.34 43.92-.4 53.82 1.41 7.26 3.65 14.66 5.6 18.56 1.45 2.88 5.42 7.36 7.61 8.59 2.3 1.28 8.4.97 11.86-.6m4.74-13.27a15 15 0 0 1-1.97-2.73 35 35 0 0 0-3.08-5.2c-1.1-1.43-3.4-7.92-2.97-8.35.2-.2.9 1.27 1.57 3.27s1.44 3.74 1.73 3.87c.28.12 1.79 2.19 3.34 4.59 1.56 2.4 3.15 4.77 3.53 5.27 1.25 1.62-.6 1-2.15-.72m40.35 2.1c-1.1-1.08-.76-5.42 1.56-20.47.44-2.8.95-6.89 1.15-9.09s.67-5.64 1.04-7.64.87-6.06 1.12-9.04.82-6.08 1.26-6.9.7-1.51.59-1.51c-.3 0 .62-9.95 1.44-15.64a671 671 0 0 1 2.5-16 418 418 0 0 0 1.45-10.54c.62-4.8 1.28-9.55 1.47-10.55l1.17-6.54c2.87-16.3 6.76-33.45 8.97-39.64 1.25-3.5 2.04-4.6 4.02-5.6 3-1.52 4.93-.73 5.26 2.15.13 1.1 0 4.89-.27 8.43-.58 7.43-1.77 9.92-4.47 9.4-1.68-.32-1.86-.03-2.92 4.64a673 673 0 0 0-5.58 27.16c-.84 4.6-1.97 10.66-2.52 13.46-2.04 10.44-4.11 24.3-3.88 25.94.2 1.44.47 1.2 1.81-1.62 1.83-3.85 6.85-8.69 9.02-8.69 2.58 0 4.4 1.47 5.82 4.67 1.88 4.25 3.13 15.94 2.67 24.93-.2 4.12-.12 7.5.19 7.5.3 0 1.14-1.23 1.84-2.73 5.8-12.41 9.11-17.88 12.44-20.5 2.19-1.72 4.8-1.95 5.98-.54 1.15 1.39 2.2 9.8 2.34 18.76.13 8.73 1.18 15.19 2.45 15.19 1.03 0 3.33-3.96 5.45-9.33 2.57-6.54 4.1-13.07 6.23-26.53.32-2 .94-2.98 2.27-3.59 1.47-.67 1.96-.63 2.5.21 1.67 2.65-.1 15.83-3.56 26.56-3.46 10.7-8.82 18.5-12.7 18.5-2.6-.01-6.24-2.66-6.73-4.9a48 48 0 0 0-.75-2.97c-.16-.53-.5-5.93-.74-12-.45-11.04-.6-12.14-1.68-12.14-.65 0-8.35 15.43-13.5 27.08-1.9 4.29-3.87 8.13-4.36 8.54-1.29 1.07-5.48-.51-5.46-2.05 0-.66.46-4.15 1-7.75 1.34-8.85 1.47-32.32.21-37.09-.55-2.09-1.42-3.72-2.05-3.84-1.32-.26-4.47 5.26-6.43 11.27-3.36 10.26-5.5 20.6-9.88 47.6-1.97 12.17-2.59 14.03-4.78 14.28-1.05.13-2.38-.25-2.96-.83M382 216.7c-1.3-.52-1.64-1.23-1.64-3.45 0-4.08 2.71-18.16 4-20.72.6-1.22 1.1-3.06 1.1-4.1 0-2.3 1.36-9.4 3.85-20.07a2034 2034 0 0 0 6.03-26.54c.2-1 1.18-5.26 2.17-9.46 1-4.2 2.14-9.1 2.56-10.9s1.05-4.42 1.42-5.82 1.14-4.35 1.7-6.55c3.59-13.92 7.75-26.34 10.98-32.71 1.39-2.74 2.37-3.72 4.39-4.38 1.42-.47 3.07-.68 3.65-.45 1.41.54 1.36 3.66-.08 4.86-1.92 1.59-6.37 11.58-7.85 17.59-.47 1.93-.39 2 2.41 2 4.17 0 5.31 2.46 5.23 11.21-.06 5.74-1.53 17.1-2.72 20.97-.73 2.4.7 1.28 6.88-5.34 6.5-6.96 10-9.63 13.58-10.37 4.32-.89 5.73 1.73 6.85 12.66.42 4.05.94 7.67 1.17 8.03 2.17 3.5 4.43-7.38 2.9-13.96-1.79-7.7-6.56-14.68-10.64-15.58a6 6 0 0 1-2.92-1.52c-1.5-1.82.83-3.28 6.35-3.95a74 74 0 0 0 9.36-1.86c2.4-.68 6.65-1.27 9.45-1.3 8.1-.08 12.44 2.9 15.44 10.6.96 2.45 1.22 5.53 1.21 14.05 0 6-.24 11.8-.52 12.9-.4 1.53-.17 2.3.95 3.25 3.4 2.91.35 5.71-3.64 3.35-2.92-1.72-3.16-3.01-2.25-12.07.86-8.55.12-18.03-1.68-21.52a14 14 0 0 0-3.13-3.75c-1.83-1.46-2.58-1.57-8.2-1.2-5.73.37-10.9 1.55-10.9 2.48 0 .22.92 1.9 2.06 3.75a49 49 0 0 1 3.73 8.38c3.11 9.34.82 21.71-4.48 24.25-1.63.78-2.34.74-4.46-.27-3.2-1.53-4.04-3.4-4.94-11.14-1.01-8.62-1.24-9.5-2.49-9.5-1.49 0-10.15 8.97-17.2 17.81-3.2 4-6.46 7.85-7.27 8.54-1.4 1.22-1.56 1.2-3.5-.18-2-1.42-2.25-3.3-.73-5.45.45-.63 2.33-7.56 5.34-19.63 1.19-4.78 1.6-17.1.56-17.1-3.15 0-10.7 26.8-16.09 57.1-7.18 40.42-11.87 57.95-15.46 57.77a11 11 0 0 1-2.53-.7m134.4-6.35c-3.52-2.85-1.4-7.91 4.62-11 5.18-2.67 6.4-.04 2.26 4.87a10 10 0 0 0-1.95 4.54c-.29 3.02-2.36 3.68-4.93 1.6m288.22-23.71-2-1.72 2.29-1.19c3.2-1.66 6.73-1.58 6.73.14 0 1.44-2.85 4.5-4.2 4.5-.44 0-1.72-.78-2.82-1.73m-20.8-60.44c-1.69-2.32-1.62-3.16.62-7.36 1.05-1.96 3.49-8.28 5.43-14.05s3.95-10.75 4.46-11.08c1.62-1.02 5.67-.73 5.67.41 0 3.3-7.85 23.66-11.63 30.19-2.25 3.89-2.9 4.16-4.55 1.9m-607.42-.14-2.14-1.16 2-1.72c2.34-2.02 3.57-2.16 5.14-.58 1.47 1.47 1.47 3.67 0 4.23-1.7.65-2.62.51-5-.77m354.46-.13-1.66-1.35 1.9-8.65c1.03-4.76 3.08-14.71 4.53-22.11a1294 1294 0 0 1 5.86-28.17c.36-1.7 2.42-3.33 5.24-4.17 1.45-.43 1.63-.23 1.63 1.75 0 1.23-1.28 8.04-2.85 15.14-2.65 12-3.25 15.43-3.04 17.27.04.4 1.47-1.4 3.17-3.98 3.1-4.72 6.93-8.02 9.3-8.02 4.25 0 6.34 7.03 5.06 17.1-1.06 8.37-.44 8.3 4.8-.5 6.93-11.67 9.85-15.93 13.62-19.87 3.75-3.9 6.55-4.4 7.92-1.4.9 1.96.63 4.34-2.23 20.3-1.94 10.84-.75 14 3.86 10.2 2.1-1.72 2.14-1.9 1.95-7.67-.27-7.9 2.8-18.48 7.3-25.14 2.5-3.72 3.49-4.55 6.39-5.38 4.66-1.33 6.23 3.23 4.32 12.5-1.54 7.5-4.32 14.7-7.73 20.12-2.34 3.69-2.4 3.97-1.23 5.26 2.66 2.94 7.85 2.6 18.78-1.26 8.5-3 7.99.86-.68 5.1-7.34 3.6-14.83 4.01-19.7 1.09-2.47-1.48-5.03-1.78-5.72-.65-.24.38-1.57 1.24-2.95 1.9-3.2 1.52-6.58.92-9.35-1.64-2.08-1.93-2.1-2-1.65-8.24.25-3.46.95-8.66 1.56-11.56 1.28-6.09 1.33-6.86.47-6.32-1.04.64-9.6 13.91-16.46 25.51-7.01 11.87-8.13 13.46-9.48 13.46-.5 0-1.57-.58-2.38-1.28l-1.48-1.27 1.73-6.7c1.88-7.29 3.81-23.88 3.02-25.94-.27-.7-.82-1.06-1.23-.81-2.15 1.33-8.01 12.46-14.17 26.9-4.55 10.7-5.05 11.2-8.42 8.48m68.87-35.8c1.25-3.77 2.14-7 1.98-7.18-.74-.82-2.51 2.27-4.21 7.36-2.1 6.3-2.25 7.4-.95 6.97.5-.17 1.93-3.38 3.18-7.15m61.54 21.9c-1.3-.8-2.36-1.8-2.36-2.23s3.08-4.23 6.84-8.47c6.9-7.78 7.7-9.33 7.7-14.78 0-6.08 3.97-25.22 7.17-34.56 10.47-30.63 19.95-44.05 27.03-38.3 1.7 1.37 1.8 1.86 1.7 7.88-.3 18.57-10.91 46.22-25.64 66.8-5.04 7.05-5.42 9-2.8 14.2 3.01 5.98 7.11 6.24 13.97.9 3.86-3.01 5.42-5.55 5.8-9.5 1.14-11.35 8.11-30.1 12.48-33.53 2.65-2.09 5.85-2.03 6.54.1 1.23 3.88.24 9.27-3.68 19.82-2.15 5.8-3.8 9.1-8.78 17.55-1.28 2.16-1.28 2.37-.1 4.18 1.63 2.49 3.76 2.44 7.8-.18 7.41-4.8 16.33-15.64 23.51-28.57 3.03-5.45 3.65-6.1 6.45-6.81 3.17-.8 3.84 2.03 2.23 9.4-1.83 8.36-1.85 26.22-.04 28.99 2.9 4.43 5.57 4.23 12.62-.97 5.36-3.96 7.35-4.82 8.5-3.67 1.55 1.56-3.2 6.76-8.9 9.72-5.6 2.92-8.4 3.33-11.53 1.7-5.59-2.9-7.53-8-7.57-19.87-.02-4.9-.14-8.92-.28-8.92-.13 0-2.09 2.5-4.35 5.57-5.85 7.9-14.53 16.44-19.01 18.7q-7.4 3.72-11.71.1c-2.75-2.33-3.33-2.3-6.7.37-8.34 6.6-17.62 5.46-21.95-2.7-.92-1.73-1.89-3.13-2.16-3.13-.45 0-3.7 3.6-8.74 9.65l-1.67 2zm22.86-35.12c8.86-13.77 17.58-36.3 19.2-49.6.52-4.2.68-7.9.37-8.2-1.04-1.03-4.8 4.43-9.18 13.32-2.39 4.84-4.34 9.07-4.34 9.4 0 .32-.95 3.07-2.1 6.1-3.37 8.8-6.77 20.74-7.68 26.98-.26 1.8-.65 4.17-.86 5.27-.66 3.45 1.04 2.24 4.59-3.27"/></clippath></defs><g id="g1" clip-path="url(#fillClip)"><path id="w1" d="M46.89 116.5c4.07-5.48 5.15-12.98 7.28-19.4 4.22-12.8 12.4-30.42 24.75-36.69 7.13-3.62 12.86 1.62 16.57 7.58 6.86 11.04 7.99 26.1 8.84 38.8 2.24 33.55-5.6 73.12-23.6 101.47-6.45 10.18-14.78 22.64-26.56 26.78-14 4.92-21.13-7.75-24.98-19.32-7.86-23.63-4.76-52.73-.8-76.85 1.17-7.16 5.03-29.47 16.93-22.25 3.27 1.99 1.93 6.45 1.47 9.57-1.28 8.7-2.82 17.27-2.82 26.11 0 27.48 3.59 52.92 23.3 73.12" style="stroke-dasharray:535.08;stroke-dashoffset:535.08;animation:draw 0.355s linear 0s forwards"/><path id="path17" d="M128.41 62.77c-.56 7.07-5.04 12.53-6.63 19.4-3.65 15.76-6.09 31.8-8.71 47.75-1.02 6.2-14 81.17-11.25 87.14 1.2 2.6 11.53-59.42 12.83-60.95.92-3.9 6.33-15.55 11.28-11.55 5.43 4.4 4.79 16.4 3.98 22.66.02 13.07-.56 21.66-1.2 26.89 4.29-12.44 9.26-21 14.83-30.61 1.14-2 3.14-5.23 5.88-4.6 2.7.6 2.8 5.37 2.95 7.58.41 6.11-2.02 18.09 2.57 22.9 4.1 4.3 7.98-2.34 9.5-5.74 4.23-9.47 7.44-21.65 7.65-32.08" style="stroke-dasharray:411.85;stroke-dashoffset:411.85;animation:draw 0.273s linear 0.355s forwards"/><path id="path6" d="M178.64 123.95h.73" style="stroke-dasharray:2.73;stroke-dashoffset:2.73;animation:draw 0.05s linear 0.629s forwards"/><path id="path18" d="M212.02 121c3.6.9 2.5 20.14 2.92 23.23M212.02 121c-4.8-1.2-8.61 4.78-10.75 8.17-6.42 10.2-11.76 22.92-13.04 35.07-.46 4.27-2.76 14.26 3.55 15.39 5.5 4.52 19.9-27 21.92-30.26l-1.43 27.62c-.39 9.06-1.53 15.06-3.33 24.95-1.22 6.65-4.6 18.56-4.6 25.35 0 1.87-6.2 31.57-9.66 19.84-1.62-5.51.49-23.25 1.12-25.62 2.11-15.79 11.85-49.9 19.97-60l17.9-15.78s-1.61 5.75-1.23 15.42 1.52 17.98 6.48 17.69c6.16-1.64 11.36-12.54 12.61-22.77 1.67-8.16 2.34-23.92-4.73-23.82-7.06.1-12.6 13.66-12.6 13.66s-3.2 27.16 5.6 24.87c8.95-2.33 23.38-19.15 23.38-19.15l3.09-3.45c3.18-3.54 3.54 18.86 12.1 16.5 6.32 1.67 17.42-26.1 5.34-42.7-1.69-7.74-20.39 16.42-10.27 33.23 1.5 2.49 9.91-3.5 14-12.87 4.5-10.33 9.9-21.72 10.02-29.2 1.04-1.19 8.4-37.13 10.03-48.13l-6.21 37.57c-2.27 13.4-8.02 47.24-.87 53.88 5.49 5.1 12.63-5.9 16.47-8.38 3.16-2.05 2.86 6.64 5.79 4.95 5.39-3.11 7.54-41.48-4.65-43.32l-1.86.67c-9.09 6.42 1.27 17.02 10.9 18.23 17.07 2.14 26.82-1.7 35.75-5.4" style="stroke-dasharray:976.07;stroke-dashoffset:976.07;animation:draw 0.649s linear 0.679s forwards"/><path id="w2" d="M420.36 72.22c-9.29 8.64-8.43 22.3-12.03 33.57-8 25.08-11.84 51.2-17.65 76.85-2.33 10.33-3.23 21.57-7.45 31.34 0 0 21.94-114.73 31.2-116.11 9.28-1.38 6.97 20.02-1.43 43.74 5.54-7.43 11.55-14.1 17.97-20.76 2.1-2.22 6.12-6.4 9.55-4.9 4.75 2.09.89 23.07 8.88 20.13 7.97-2.93 3.55-21.4.77-26.55-1.17-2.19-4.32-6.88-10.51-7.95.79-2.69 11.93-3.34 14.18-3.84 6.4-1.4 13.98-2.01 18.64 3.65 8.46 10.27-.5 25.48 4.66 36.49" style="stroke-dasharray:496.99;stroke-dashoffset:496.99;animation:draw 0.33s linear 1.328s forwards"/><path id="w3" d="M544.95 64.7a239 239 0 0 0-5.28 25.38c-1.18 14.1-9.72 32.4-6.88 32.94 4-8.53 17.9-40.78 23.37-34.88 4.88 5.26-1.22 26.68-2.34 34.86 4.3-7.62 14.52-24.5 18.73-31.43 1.72-2.85 4.3-7.85 8.03-8.12 3.63-.26 2.32 4.5 1.94 6.63-1 5.48-6.67 31.28 5.79 22.6 1.6-1.12 5.45-5.25 6.84-6.62l5.57-8.73c3.5-5.21 5.49-14.87 2.46-20.68-7.24 3.7-13.8 20.14-9.77 28l2 4.93c8.9 8.9 17.4 2.85 26.18-1.7" style="stroke-dasharray:336.92;stroke-dashoffset:336.92;animation:draw 0.223s linear 1.658s forwards"/><path id="w4" d="M662.57 108.51c9.4-10.41 14.28-15.9 23-29.32 8.5-11.8 13-25.38 17.12-39.32 1.87-6.33 3.1-8.44 4.01-14.98.35-2.52.72-8.74-2.23-9.7-5.34-1.74-10.86 9.07-12.6 12.74a178 178 0 0 0-13.5 40.29c-1.13 5.6-4.93 24.58-2.15 29.93 0 0 2.32 6.45 6.01 9.13 6.01 4.35 11.59-.88 16.32-4.5 5-3.82 10.05-12.46 12.17-18.25 4.98-9.23 11.11-28.63 4.5-22.68l-7.49 14.77-5.13 23.68c2.17 2.51 3.67 6.08 7.15 5.71 10.43-1.1 19.86-16.68 25.98-24.35 3.28-4.09 6.3-6.17 8.37-11.2l-.66 7.3c.3 9.12-5.3 37.9 11.58 31.14 1.82-.73 3.6-.99 5.2-2.14a49 49 0 0 0 6.2-5.17" style="stroke-dasharray:442.76;stroke-dashoffset:442.76;animation:draw 0.294s linear 1.881s forwards"/><path id="path19" d="m796.5 95.08-10.91 26.86" style="stroke-dasharray:30.99;stroke-dashoffset:30.99;animation:draw 0.05s linear 2.175s forwards"/><path id="w5" d="M440.5 188.2c-6.18 12.04-23.63 72.96-19.32 83.2 7.5 17.78 28.21 6.7 32.91-4.8" style="stroke-dasharray:130.8;stroke-dashoffset:130.8;animation:draw 0.086s linear 2.225s forwards"/><path id="path21" d="M420.47 188.34c21.06-.2 41.1-2.9 53.9-5.57" style="stroke-dasharray:56.27;stroke-dashoffset:56.27;animation:draw 0.05s linear 2.311s forwards"/><path id="path22" d="M457 232.28c-7.52 2.06-38.82 9.31-47.24 8.56" style="stroke-dasharray:50.11;stroke-dashoffset:50.11;animation:draw 0.05s linear 2.361s forwards"/><path id="path20" d="M497.61 174.9c-13.74 20.69-17.25 51.87-22.08 76.1-1.16 5.8-5.35 19.11.19 23.28 4.06 3.05 7.6-2.82 9.7-5.59 7.14-9.41 14.63-24.1 19.53-34.45l-.85 11.47c3 5.76-2.15 31.16 12.21 22.2 4.08-2.69 6.4-5.08 9.53-8.77l-1.18-16.45 7.12-.06 14.13-22.16c-11.98 5.64-13.68 20.28-13.37 32.02.12 4.5.8 7.85 6 9.21 4.9 1.28 9.64-3.14 13.13-6.2 7.52-7.82 12.46-15.37 18.2-23.57 3.45-4.9 4.93-7.32 6.92-13.03a96 96 0 0 1 5.06-11.18c2.69-5.1 3.9-11.56 5.2-17.16 1.04-4.45 7.25-25.6-1.47-18.75l-5.13 10.47-4.98 23.8-2.37 26.57c1.94 16.14 2.63 41.82 25.58 40.38 2.82-.18 4.12-1.23 6.6-2.57 3.55-1.9 4.28-3.32 7.3-5.97" style="stroke-dasharray:561.92;stroke-dashoffset:561.92;animation:draw 0.373s linear 2.411s forwards"/><path id="path24" d="m523.09 201.75-4.37 6.72" style="stroke-dasharray:10.02;stroke-dashoffset:10.02;animation:draw 0.05s linear 2.784s forwards"/><path id="w6" d="M733.18 181.26c5.72-7.6 11.86-12.85 12.83-23.13 1.27-13.54-16.23-4.74-20.83-.61-17.3 15.51-27.55 37.68-34.84 59.55-2.46 7.36-4.66 16.04-3.53 23.87.55 3.8 2.03 7.97 6.34 8.14 7 .26 13.02-6.97 17.16-11.87 10.9-12.88 22.7-34.58 30.69-50.13 3.46-7.76 1.85-6.03 3.49-11.58l.38-4.45c2.61 5.23-3.64 33.19-5.14 38.56-3.34 11.99-7.35 18.8-9.66 31.04l-4.33 12.8c-.39 8.62-3.98 19.13-5.6 24.05-3.9 11.78-9.2 23.22-13.64 34.8-.93 2.45-4.3 15.34-8.42 13.16-1.77-.93-1.01-4.99-.75-6.6 1.15-7.1 3-13.8 4.86-20.47 2.95-10.59 5.5-23.23 12.27-31.93 2.08-2.69 4.68-5.45 6.83-8.04 3-3.6 7.8-9.31 11.08-12.57a84 84 0 0 1 7.63-6.37c4.82-3.45 6.56-6.29 12-8.8.93 3.23-.25 7.2-.07 10.52.83 14.5 14.66-.22 18.28-4.88 1.13-1.45 8.91-21.19 10.86-21.48-4.54 9.7-6.3 32.29 1.75 27.24 5.33-3.34 19.29-21.46 23.12-26.95.86-3.65-5.59 26.73 5.77 24.4 6.16-1.26 12.7-8.37 16.77-12.84 1.95-2.15 7.47-8.56 13.78-17.14C853.22 193 856 183.58 859.01 172.3c.97-3.67 4.25-18.35-.73-20.21-5.16-1.93-8.7 9.22-10.18 12.75a129 129 0 0 0-8.73 32.08c-.58 4.18-2.17 22.1-.32 25.98l5.03 8.6c4.75 4.4 19.58 2.9 24.96.19 2.8-1.41 9.7-12.98 11.74-15.1 10.95-15.57 12.09-21.33 20.34-41.3 1.3-4.85 5.56-19.67 2.38-24.24-4.44-6.38-13.07 13.62-14.3 16.23-6.2 13.29-9.8 26.98-14.64 40.84-1.94 5.56-4.64 9.1-1.93 14.76l2.61 2.53c3.15 1.72 4.81-1.6 8.04-.42 5.94 2.17 14.7 9.2 21.38 3.19 3.87-3.48 5.39-11.88 8.12-16.68l-6.55 18.58c.64 1.18 2.83 6.2 6.48 3.48 5.88-4.38 13.02-13.55 18.36-18.82 2.19 3.4 1.17 11.73 4.17 14.4 7.2 6.42 11.68-10.7 18.5-8.68 4.3 1.29 8.43 8.05 11.84 10.82 8.87 7.17 15.6-.6 21.88-6.9" style="stroke-dasharray:1277.34;stroke-dashoffset:1277.34;animation:draw 0.85s linear 2.834s forwards"/><path id="path25" d="m805.64 185.62 4.05-1.55" style="stroke-dasharray:6.34;stroke-dashoffset:6.34;animation:draw 0.05s linear 3.684s forwards"/></g></svg>
+
+
+<!--kg-card-end: html-->
+<p></p><p>(tem que atualizar a p&#xE1;gina pra conferir a anima&#xE7;&#xE3;o novamente hehe)</p><p>Mudan&#xE7;as de l&#xE1; pra c&#xE1;:</p><ul><li>Recriei os paths de cada uma das palavras via Inkscaper (quando peguei o jeito da ferramenta, a&#xED; fluiu que uma beleza);</li><li>Testei os par&#xE2;metros de velocidade, pausa e grossura do preenchimento;</li><li>Quando fiquei satisfeito, peguei os valores do javascript e colei como valores fixos do CSS, ent&#xE3;o removi o script;</li></ul><p>Gostei do resultado final, mas acho que ter isso em todo post vai ficar um tanto massante e enjoar rapidinho. Ent&#xE3;o, pensei em deixar no rodap&#xE9;, logo antes dos cr&#xE9;ditos. Fica para a pr&#xF3;xima vez que atualizar o tema.</p><p>Ainda falta um &#xFA;ltimo ajuste:</p><ul><li>Garantir que a anima&#xE7;&#xE3;o s&#xF3; roda quando estiver na tela, e n&#xE3;o ao carregar a p&#xE1;gina.</li></ul><p>Me liguei desse &#xFA;ltimo ao ver o <a href="https://prazerwillian.blogspot.com/2026/08/assinatura-automatica.html?ref=cosmoliko.com" rel="noreferrer">post do Willian</a>, que, inclusive, &#xE9; uma boa refer&#xEA;ncia para quem tiver vontade de simular essa assinatura no final dos posts utilizando fontes prontas.</p><p>(PS: o meu &quot;E&quot; n&#xE3;o costuma ser assim de verdade, mas achei que esse ficaria melhor aqui e agora t&#xF4; pensando em adotar na minha caligrafia tamb&#xE9;m - vou ter que me treinar. Como &#xE9; o seu &quot;E&quot;? Acho que preciso de mais refer&#xEA;ncias haha)</p>]]></description>
+  </item>
 
   <item>
     <title>Mormaço — Primeiro dia de aula de novo</title>
@@ -647,6 +679,35 @@ Empadas prontas às 22h 😬</p>
     }
   })();
 </script></div>]]></description>
+  </item>
+
+  <item>
+    <title>LULY LAGE — Freelancer é um título horrível!</title>
+    <link>https://lulylage.com/freelancer-e-um-titulo-horrivel/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=freelancer-e-um-titulo-horrivel</link>
+    <guid isPermaLink="true">https://lulylage.com/freelancer-e-um-titulo-horrivel/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=freelancer-e-um-titulo-horrivel</guid>
+    <pubDate>Mon, 17 Aug 2026 20:41:29 GMT</pubDate>
+    <description><![CDATA[
+<figure class="wp-block-pullquote"><blockquote><p>Como você lida com a incerteza?</p></blockquote></figure>
+
+
+
+<p class="wp-block-paragraph">Final de julho, conversando com uma amiga que é CLT, falei sobre como aquele mês tinha sido bom de trabalho a ponto já ter começado a &#8220;armazenar meu salário&#8221; de setembro. Ela ficou feliz que as coisas estão dando certo por aqui como <em>freelancer</em>, então tive que avisá-la que não estão, não, que normalmente o cenário é ficar catando o que aparece ao longo do mês, vendo qual conta tem data de vencimento mais tarde ou até qual pode ficar para o mês que vem (o pagamento dos sites, por exemplo, é anual, posso esperar para separar meu valor mensal auto estipulado). Chocada, ela me falou que essa vida não era pra ela, que não sabe viver na incerteza assim.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Bem, minha querida, adivinha só? Essa vida TAMBÉM não é pra mim e eu TAMBÉM não sei lidar com minha incerteza financeira!</strong></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Ser CLT está no Top 10 de maiores felicidades que já vivi</strong>, sem exagero. Eu amava saber quanto ia receber, ver os descontos transformados em direitos, a existência do FGTS, ai, O VALE CAINDO NO PRIMEIRO DIA DO MÊÊÊÊÊS! Aí a galera argumenta &#8220;mas pra quem tem salário alto CLT é bom, mesmo&#8221;, e eu rebato com a informação de que nunca tive um salário alto em toda minha existência, as pessoas se chocam com os salários que tenho no histórico, mas cara&#8230; Sinto falta! Voltar a viver isso é um sonho, mas enquanto ele não se realiza eu vou fazer exatamente o que?  Chorar? Reclamar? Me sentir injustiçada pela vida? Pô, não, vô trabalhar, né!</p>
+
+
+
+<p class="wp-block-paragraph">Empreender (ô palavra que odeio!), ser sua própria chefe, é lindo na teoria, e ok, <strong>funciona pra algumas pessoas (!!!)</strong>, mas eu não gosto, e acho o título <em>freelancer</em> pa-vo-ro-so porque não tem liberdade NENHUMA em não saber se suas contas serão pagas, não poder ficar feliz as terminar os trabalhos, já que sempre bate o medo de mais nada aparecer, ter que fazer tudo sozinha não porque não sou boa em demandar, mas porque não existe pra quem fazer isso. Sou só eu por mim e mais nada! <strong>Se tem uma lança nesse mundo que não tá livre é a minha</strong>, a pobre está atolada em mil camadas de desespero, ansiedade e pedidos de &#8220;manda jobs&#8221; enviados ao Cosmos&#8230;</p>
+
+
+<blockquote><img decoding="async" src="https://lulylage.com/wp-content/uploads/2026/08/selo_beda_entreblogs_2026.png" alt="Selo do BEDA EntreBlogs 2026. O ícone apresenta uma pasta marrom e uma pena de escrita sobre um círculo bege com borda verde-oliva." width="100" height="100" align="right" /> Esse post faz parte do BEDA 2026 como integrante do projeto <a href="https://entreblogs.com.br/beda/" target="_blank" rel="noopener">D&#038;B &#8211; Os Guardiões da Blogosfera</a> no EntreBlogs. O lulylage.com, sob o codinome Lady Elowen, está participando da categoria Jornada do Herói como Cronista.</blockquote><p>The post <a rel="nofollow" href="https://lulylage.com/freelancer-e-um-titulo-horrivel/">Freelancer é um título horrível!</a> appeared first on <a rel="nofollow" href="https://lulylage.com">Luly Lage</a>.</p>
+]]></description>
   </item>
 
   <item>
@@ -2037,8 +2098,8 @@ Eaí blog, boa noite. Tudo bem?<div><br /></div><div><div style="text-align: jus
     <description><![CDATA[<p>Vivo me perguntando os rumos da vida <strong>se</strong> certas coisas tivessem ou não acontecido. Acho que todo mundo tem disso, às vezes&#8230; Mas é louco porque eu acredito de verdade que <strong>&#8220;se&#8221;, quando relativo ao passado, não existe,</strong> não dá pra voltar, reverter, arrumar, refazer. Transformar a partir do presente? Sim. Mas nos outros verbos citados não boto tanta fé, não. AINDA ASSIM do nada me questiono <strong>SE</strong> teria criado um blog caso não tivesse mudado para Belo Horizonte, <strong>SE</strong> ainda estaria blogando caso não tivesse a ideia de criar o Sweet Luly (que, caso você não saiba, foi o nome desse bloguinho por 18 anos) e <strong>SE</strong> essa criação teria acontecido sem Legally Juu.</p>
 <p>Eu vinha criando e des-criando blogs há meses quando entrei no <strong>Legally Juu</strong>, então blog da <a href="https://www.instagram.com/juurodriguesg/" target="_blank" rel="noopener">Juu Rodrigues</a>, pela primeira vez. Não sabia que era possível me apaixonar mais uma vez por algo pelo qual já era apaixonada, mas foi isso que aconteceu: eu amava blogar mais do que qualquer outra coisa, mas aquele lugar me mostrou um jeito diferente de fazê-lo, ela era uma das muitas garotas que vinham criando <em>templates, plakinhas, gifs</em> e um universo que coisinhas para blogs de outras meninas que, como eu, amavam rosa choque, canetas de pompom e coisinhas com glitter, nadando contra a maré do &#8220;não sou como as outras garotas&#8221; que dominou minha geração.</p>
 <p><strong>Em resumo? As &#8220;patricinhas&#8221; da internet nos anos 2000!</strong></p>
-<div id="attachment_18367" style="width: 256px" class="wp-caption aligncenter"><img decoding="async" aria-describedby="caption-attachment-18367" data-attachment-id="18367" data-permalink="https://lulylage.com/legally-juu-me-trouxe-aqui/plakjuu193_barbiegirl/" data-orig-file="https://lulylage.com/wp-content/uploads/2026/08/plakjuu193_barbiegirl.gif" data-orig-size="246,147" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Legally Juu me trouxe aqui" data-image-description="" data-image-caption="&lt;p&gt;(Sim guardo minhas plakinhas favoritas até hoje!)&lt;/p&gt;
-" data-large-file="https://lulylage.com/wp-content/uploads/2026/08/plakjuu193_barbiegirl.gif" src="https://lulylage.com/wp-content/uploads/2026/08/plakjuu193_barbiegirl.gif" alt="Plakinha feita por Legally Juu da personagem Ell Woods escrita I&#039;m a Barbie Girl in a Barbie World" width="246" height="147" class="size-full wp-image-18367" /><p id="caption-attachment-18367" class="wp-caption-text">(Sim, guardo minhas <em>plakinhas</em> favoritas até hoje!)</p></div>
+<p><div id="attachment_18367" style="width: 256px" class="wp-caption aligncenter"><img decoding="async" aria-describedby="caption-attachment-18367" data-attachment-id="18367" data-permalink="https://lulylage.com/legally-juu-me-trouxe-aqui/plakjuu193_barbiegirl/" data-orig-file="https://lulylage.com/wp-content/uploads/2026/08/plakjuu193_barbiegirl.gif" data-orig-size="246,147" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Legally Juu me trouxe aqui" data-image-description="" data-image-caption="&lt;p&gt;(Sim guardo minhas plakinhas favoritas até hoje!)&lt;/p&gt;
+" data-large-file="https://lulylage.com/wp-content/uploads/2026/08/plakjuu193_barbiegirl.gif" src="https://lulylage.com/wp-content/uploads/2026/08/plakjuu193_barbiegirl.gif" alt="Plakinha feita por Legally Juu da personagem Ell Woods escrita I&#039;m a Barbie Girl in a Barbie World" width="246" height="147" class="size-full wp-image-18367" /><p id="caption-attachment-18367" class="wp-caption-text">(Sim, guardo minhas <em>plakinhas</em> favoritas até hoje!)</p></div></p>
 <p>Eu já vinha ensaiando criar imagens, estudando HTML dentro das minhas micro possibilidades de 13 aninhos e 0 reais, mas esse universo me mostrou que mais do que querer, eu PRECISAVA fazer aquilo. Talvez exista algo nos nossos DNAs que nos programou para produzir conteúdo antes de entender o que estávamos fazendo (a própria Juu tem hoje um <a href="https://www.instagram.com/bestieslab.dicas/" target="_blank" rel="noopener">perfil de diquinhas no Instagram</a>)&#8230; E foi aí que entre 8 e 9 meses depois da criação do meu primeiro blog, inspirada pelo <em>template free</em> cujo título era &#8220;Sweet Girl&#8221; feito pela própria Juu, nasceu meu &#8220;blog definitivo&#8221; que, de fato, tá aqui definitivamente!</p>
 <blockquote><p><strong>Leia também:</strong> <a href="https://lulylage.com/aqui-foi-o-comeco-de-tudo/" target="_blank">Aqui foi o começo de tudo</a>, onde contei essa história mais a fundo.</p></blockquote>
 <p>Acho que eu TERIA criado um blog se continuasse morando em Timóteo, talvez até TERIA seguido com a prática <em>ad aeternum</em> em outros endereços, pipipi popopo, mas ver tudo que aquela adolescente que tinha gostos parecidos com os meus podia fazer, e o quanto ela era feliz sendo ela mesma, me fez acreditar que eu poderia fazer coisas do tipo e nunca esconder quem eu era. Graças a isso, eu quis ser <em>webdesigner</em>, o que me fez decidir estudar design gráfico na faculdade, o que mostrou pra <a href="https://lulylage.com/a-mestre-de-quimica/" target="_blank">minha professora de química</a> que eu gostava de arte a ponto de me sugerir o vestibular para conservação-restauração, no qual passei, o que moldou minhas profissões e meu estilo de vida.</p>
@@ -2196,6 +2257,77 @@ Eaí blog, boa noite. Tudo bem?<div><br /></div><div><div style="text-align: jus
     </li>
     
 </ul>‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎</p>
+]]></description>
+  </item>
+
+  <item>
+    <title>JENIFFER GERALDINE — Uma agenda de memórias do ano  </title>
+    <link>https://jeniffergeraldine.com/uma-agenda-de-memorias-do-ano/</link>
+    <guid isPermaLink="true">https://jeniffergeraldine.com/uma-agenda-de-memorias-do-ano/</guid>
+    <pubDate>Sun, 16 Aug 2026 16:19:40 GMT</pubDate>
+    <description><![CDATA[<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/agenda_memorias_2026_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" fetchpriority="high" decoding="async" width="731" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/agenda_memorias_2026_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20362" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/agenda_memorias_2026_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/agenda_memorias_2026_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/agenda_memorias_2026_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/agenda_memorias_2026_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/agenda_memorias_2026_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="(max-width: 731px) 100vw, 731px" /></a></figure>
+</div>
+
+
+<p class="wp-block-paragraph">Eu estava sentindo falta de <strong>um lugar físico para guardar algumas memórias do ano</strong>: um ingresso de cinema, o folder de um evento, um cartão de aniversário e até fotos digitais impressas. </p>
+
+
+
+<p class="wp-block-paragraph">Assim, no final de 2025, fui em busca desse espaço. Não queria que fosse apenas um caderno. Queria algo que me estimulasse a fazer esses <strong>registros de forma cronológica</strong>, pelo menos até o hábito se fortalecer. Acabei comprando uma agenda diária bem simples, da marca Tilibra, mas no formato brochura, para parecer mais com um livro ou uma caderneta (sempre acho brochura mais charmosa que espiral). </p>
+
+
+
+<p class="wp-block-paragraph">Agora, em meados de agosto de 2026, tenho certeza de que foi uma ótima decisão. A agenda diária se tornou meu espaço de notas pessoais e memórias do ano. Não anoto tarefas nem compromissos, mas <strong>registros mais subjetivos</strong>, sempre <strong>acompanhados de uma imagem, fotografia, ou um papel colado ou grampeado</strong>. É mais um hábito para a lista de &#8220;não é terapia, mas é terapêutico&#8221;. </p>
+
+
+
+<p class="wp-block-paragraph">Tem sido muito gostoso fazer isso e, algo me diz, será ainda mais prazeroso e divertido folhear essas páginas anos depois. Quero seguir com esse hábito, fazendo uma agenda para cada ano, para <strong>registrar e relembrar momentos, mudanças, pessoas, ambientes e experiências</strong>. Não sei o que farei quando passarem cinco anos ou mais. Talvez eu queime as agendas, como faço com meus cadernos de terapia e de páginas matinais. Por enquanto, prefiro <strong>focar no prazer do agora</strong> e na satisfação de olhar para os meus dias com calma e carinho, <strong>sentar e anotar no papel o que senti, vivi e aprendi</strong>. </p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/agenda_memorias_blog_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="731" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/agenda_memorias_blog_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20363" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/agenda_memorias_blog_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/agenda_memorias_blog_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/agenda_memorias_blog_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/agenda_memorias_blog_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/agenda_memorias_blog_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="(max-width: 731px) 100vw, 731px" /></a></figure>
+</div>
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p class="wp-block-paragraph">>> <a href="https://link.amazon/B03PEx9tp" target="_blank" rel="noreferrer noopener">Modelo da agenda escolhida na Amazon</a> (Compre através do link e com isso eu vou enchendo meu cofrinho para comprar mais itens de papelaria e livros!).</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p class="wp-block-paragraph"><strong>Receba as atualizações do blog por e-mail</strong></p>
+
+
+
+<p class="wp-block-paragraph">O legal de assinar a newsletter é que você recebe sempre um e-mail quando eu escrever/ compartilhar algo novo no blog. Dessa forma, você pode ler no seu tempo! 😉</p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline is-style-split wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://jeniffergeraldine.com/?post_type=post&#038;p=20365" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0; margin-left: 10px;border-color: brownish-mustard;border-radius: 0px;border-width: 1px; background-color: #B79371; color: #333; text-decoration: none; white-space: nowrap; margin-left: 0">Assinar</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph">Agradeço a leitura e a companhia! <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f33b.png" alt="🌻" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>O post <a href="https://jeniffergeraldine.com/uma-agenda-de-memorias-do-ano/">Uma agenda de memórias do ano  </a> apareceu primeiro em <a href="https://jeniffergeraldine.com">Jeniffer Geraldine | Vida &amp; Cultura</a>.</p>
 ]]></description>
   </item>
 
@@ -4235,7 +4367,7 @@ Para conhecer outros blogs que participantes <a href="https://entreblogs.com.br/
     <link>https://cosmoliko.com/acreditar-em-si-mesmo/</link>
     <guid isPermaLink="true">https://cosmoliko.com/acreditar-em-si-mesmo/</guid>
     <pubDate>Fri, 14 Aug 2026 02:46:13 GMT</pubDate>
-    <description><![CDATA[<p>Acordei e li algo que poderia ter passado batido, uma simples frase de algu&#xE9;m contando do in&#xED;cio das aulas da p&#xF3;s. Eu n&#xE3;o li mais nada do que a pessoa escreveu, al&#xE9;m da frase do in&#xED;cio das aulas da p&#xF3;s com escrita. Foi o suficiente para me instigar a pesquisar mais e de quebra ganhar um pouco de ansiedade. O que eu t&#xF4; fazendo?</p><p>Em todo esse tempo &#x201C;parado&#x201D; eu poderia estar estudando formalmente escrita, terminaria o curso com bem menos dinheiro, &#xE9; verdade, mas n&#xE3;o &#xE9; t&#xE3;o diferente do que j&#xE1; vem sendo todo esse tempo em que estou travado por causa das decis&#xF5;es e acontecimentos com outra pessoa. Eu juro que tenho motivos sensatos para depender do que decide e acontece com essa outra pessoa.</p><p>O restante do dia envolveu yoga, medita&#xE7;&#xE3;o da alma (a ideia &#xE9; intercalar essa com cora&#xE7;&#xF5;es g&#xEA;meos) e o temor de que, mais uma vez, uma medita&#xE7;&#xE3;o me fez mal. Fiquei meio travado depois, n&#xE3;o fiz nada do que deveria feito, mas aquela sensa&#xE7;&#xE3;o de merda de que o tempo t&#xE1; passando e eu continuo tomando as piores decis&#xF5;es continuou latente.</p><p>Desisti de vez de qualquer pend&#xEA;ncia, voltei a brincar com meu corpo (que anda t&#xE3;o r&#xED;gido) e comemorei que fiquei cinco segundos no handstand (pela primeira vez). Em seguida, fui conferir o terreiro que descobri ontem &#x2014; tentei arrastar meu amigo, mas ele tava com medo &#x2014; e nossa como foi bom o passe que recebi do caboclo. Eu queria perguntar sobre um amigo sumido do astral, mas ele saiu falando aquelas mesmas coisas que escuto h&#xE1; anos em qualquer terreiro que piso. Dessa vez foi mais pertinente: voc&#xEA; tem que acreditar em si mesmo. Se n&#xE3;o fosse o passe, e as cinzas do charuto no meu bolso para fazer um banho, provavelmente eu sairia de l&#xE1; chutando o ch&#xE3;o e reclamando que &#xE9; tudo uma palha assada e falam a mesma coisa pra todo mundo. Subi a rua sorrindo e acompanhando uma mo&#xE7;a at&#xE9; o ponto de &#xF4;nibus.</p><p>(Vou ter que preparar uns cinco desses posts de 15 min e deixar agendado pelos pr&#xF3;ximos dias, se n&#xE3;o vou perder a ofensiva do BEDA porque o tempo de tela t&#xE1; cada vez menor)</p>]]></description>
+    <description><![CDATA[<p>Acordei e li algo que poderia ter passado batido, uma simples frase de algu&#xE9;m contando do in&#xED;cio das aulas da p&#xF3;s. Eu n&#xE3;o li mais nada do que a pessoa escreveu, al&#xE9;m da frase do in&#xED;cio das aulas da p&#xF3;s com escrita. Foi o suficiente para me instigar a pesquisar mais e de quebra ganhar um pouco de ansiedade. O que eu t&#xF4; fazendo?</p><p>Em todo esse tempo &#x201C;parado&#x201D; eu poderia estar estudando formalmente escrita, terminaria o curso com bem menos dinheiro, &#xE9; verdade, mas n&#xE3;o &#xE9; t&#xE3;o diferente do que j&#xE1; vem sendo todo esse tempo em que estou travado por causa das decis&#xF5;es e acontecimentos com outra pessoa. Eu juro que tenho motivos sensatos para depender do que decide e acontece com essa outra pessoa.</p><p>O restante do dia envolveu yoga, medita&#xE7;&#xE3;o da alma (a ideia &#xE9; intercalar essa com cora&#xE7;&#xF5;es g&#xEA;meos) e o temor de que, mais uma vez, uma medita&#xE7;&#xE3;o me fez mal. Fiquei meio travado depois, n&#xE3;o fiz nada do que deveria ter feito. Aquela sensa&#xE7;&#xE3;o de merda de que o tempo t&#xE1; passando e eu continuo tomando as piores decis&#xF5;es continuou latente.</p><p>Desisti de vez de qualquer pend&#xEA;ncia, voltei a brincar com meu corpo (que anda t&#xE3;o r&#xED;gido) e comemorei que fiquei cinco segundos no handstand (pela primeira vez). Em seguida, fui conferir o terreiro que descobri ontem &#x2014; tentei arrastar meu amigo, mas ele tava com medo &#x2014; e nossa como foi bom o passe que recebi do caboclo. Queria perguntar sobre um amigo sumido do astral, mas ele saiu falando aquelas mesmas coisas que escuto h&#xE1; anos em qualquer terreiro que piso. Dessa vez foi mais pertinente: voc&#xEA; tem que acreditar em si mesmo. Se n&#xE3;o fosse o passe, e as cinzas do charuto no meu bolso para fazer um banho, provavelmente eu sairia de l&#xE1; chutando o ch&#xE3;o e reclamando que &#xE9; tudo uma palha assada e falam a mesma coisa pra todo mundo. Subi a rua sorrindo e acompanhando uma mo&#xE7;a at&#xE9; o ponto de &#xF4;nibus.</p><p>(Vou ter que preparar uns cinco desses posts de 15 min e deixar agendado pelos pr&#xF3;ximos dias, se n&#xE3;o vou perder a ofensiva do BEDA porque o tempo de tela t&#xE1; cada vez menor)</p>]]></description>
   </item>
 
   <item>
@@ -6704,33 +6836,6 @@ z"/>
 </svg>
 <!--kg-card-end: html-->
 <p></p><p>T&#xE1; dando mais trabalho do que eu imaginava. Tive que encarar esse dem&#xF4;nio de terras desconhecidas chamado Inkscape para conseguir me aproximar minimamente do feito.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://cosmoliko.com/content/images/2026/08/print-inkscape.webp" class="kg-image" alt="tela do inkscape que, perd&#xE3;o queridos leitores, mas eu mal fa&#xE7;o ideia de como descrev&#xEA;-la" loading="lazy" width="2000" height="1279" srcset="https://cosmoliko.com/content/images/size/w600/2026/08/print-inkscape.webp 600w, https://cosmoliko.com/content/images/size/w1000/2026/08/print-inkscape.webp 1000w, https://cosmoliko.com/content/images/size/w1600/2026/08/print-inkscape.webp 1600w, https://cosmoliko.com/content/images/2026/08/print-inkscape.webp 2000w" sizes="(min-width: 720px) 720px"><figcaption><span style="white-space: pre-wrap;">Print velho j&#xE1;, porque na vers&#xE3;o que t&#xE1; aqui a primeira palavra j&#xE1; t&#xE1; quebrada letra por letra para se aproximar do efeito que eu quero</span></figcaption></figure><p>Um dia, eu juro, nunca mais vou abrir nenhum software que eu j&#xE1; n&#xE3;o tenha familiaridade.</p><p>&#xC9; muita vaidade e perda de tempo querer continuar fazendo isso?</p>]]></description>
-  </item>
-
-  <item>
-    <title>LULY LAGE — Minhas últimas leituras [4]</title>
-    <link>https://lulylage.com/minhas-ultimas-leituras-4/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=minhas-ultimas-leituras-4</link>
-    <guid isPermaLink="true">https://lulylage.com/minhas-ultimas-leituras-4/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=minhas-ultimas-leituras-4</guid>
-    <pubDate>Wed, 12 Aug 2026 01:26:18 GMT</pubDate>
-    <description><![CDATA[<p>Minhas gente, eu li TANTO nesse primeiro semestre de 2026, mas taaaanto, que tô até agora meio sem acreditar como consegui consumir tantos livros em tão pouco tempo para meus padrões. Alguns deles terão seus posts por aqui ainda, tô escrevendo, e os que não têm estão aqui, reivindicando seu espaço que é de direito, nessa <strong>listinha ocasional de últimas leituras</strong> da Lulynha. Me achei relativamente eclética dessa vez, visse? Parabéns, eu! </p>
-<h4>A Marca de Uma Lágrima &#8211; Pedro Bandeira</h4>
-<p><img loading="lazy" decoding="async" data-attachment-id="18334" data-permalink="https://lulylage.com/minhas-ultimas-leituras-4/ultimas_leituras_26_lulylage_01/" data-orig-file="https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_01.jpg" data-orig-size="1000,750" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Minhas últimas leituras" data-image-description="" data-image-caption="" data-large-file="https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_01.jpg" src="https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_01.jpg" alt="Fotografia do livro A Marca de Uma Lágrima sendo segurado por uma mão diante de uma estante de livros. A capa, em tons de azul, mostra uma jovem escrevendo em um caderno, além de figuras e silhuetas que remetem à narrativa. Ao fundo, aparecem livros organizados em prateleiras." width="1000" height="750" class="aligncenter size-full wp-image-18334" srcset="https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_01.jpg 1000w, https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_01-300x225.jpg 300w, https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_01-768x576.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></p>
-<p>Recentemente, decidi fazer uma <a href="https://www.estantevirtual.com.br/listas/Lulynha-6a4697bcf83669ed940a524f/" target="_blank" rel="noopener">wish list de livros que li na 7ª série</a> e ir comprando em sebos devagarzinho, pra manter firme aquele laço inquebrável da mulher de trinta e tantos anos com o livro que ela leu aos 13, sabe? O primeiro a ser encontrado, adquirido e relido foi <strong>A Marca de uma Lágrima</strong>, do queridíssimo Pedro Bandeira, que me fez pensar bastante&#8230; Vira e mexe, quando as más línguas dentro da minha cabeça me questionam se eu devia escrever para adolescentes, lembro da relação do Pedro com a Isabel, do que ele tem a dizer sobre esse livro.</p>
-<p>É um afeto tão grandioso, uma consideração profunda por aquela pessoa inventada, mas que sei bem que é parte da família, que entendo seus motivos para escrever para meninas como a que fui, e lembro os motivos que dei a mim mesma para seguir fazendo isso. Amo esse livro, amo lê-lo nessa edição com essa capa, na qual o li em 2003 a primeira vez, quando ainda nem sabia que queria ser escritora, mas já criava um punhado de histórias. Acho que amo tudo isso mais ainda do que amava na época, e agora posso fazer isso sempre que quiser.</p>
-<h4>Para Nova York com amor &#8211; Marianna Roman</h4>
-<p>Esta mulher que vos fala faz parte do seleto grupo dos leitores beta de dona <a href="https://www.instagram.com/amariannaroman/" target="_blank" rel="noopener">Marianna Roman</a>, e quando eu &#8216;tava listando minhas leituras do ano para um vídeo que juro que vou gravar, perguntei se poderia citar <strong>Para Nova York com amor</strong>, porque é um livro que sei que assume tantos lugares importantes pra ela, em tantos aspectos, que não posso esperar ser publicado para falar dele&#8230; E ela deixou! Essa história me faz pensar muito em como é fascinante consumir a voz escrita de alguém que a gente conhecer na &#8220;vida real&#8221;, e também me deixa lisonjeada porque tem uma personagem em minha homenagem. Podre de chique, né?</p>
-<h4>Jogo complexo &#8211; Katia Sentinaro</h4>
-<p><img loading="lazy" decoding="async" data-attachment-id="18335" data-permalink="https://lulylage.com/minhas-ultimas-leituras-4/ultimas_leituras_26_lulylage_02/" data-orig-file="https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_02.jpg" data-orig-size="1000,750" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Minhas últimas leituras" data-image-description="" data-image-caption="" data-large-file="https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_02.jpg" src="https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_02.jpg" alt="Fotografia do livro Jogo Complexo, de Kátia Sentinaro com ilustrações de Paloma Portela, sendo segurado por uma mão diante de uma parede clara. A capa em tons suaves de rosa, azul e dourado apresenta uma moldura decorativa com elementos florais e uma personagem ilustrada no centro, em movimento, usando roupas coloridas." width="1000" height="750" class="aligncenter size-full wp-image-18335" srcset="https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_02.jpg 1000w, https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_02-300x225.jpg 300w, https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_02-768x576.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></p>
-<p>Sempre trazer algo para ler quando participo de eventos literários, seja como escritora, que tem acontecido bastante (hihihi), ou leitora. <a href="https://lulylage.com/minha-primeira-flip-24a-festa-literaria-internacional-de-paraty/" target="_blank">Lá na FLIP não foi diferente!</a> Minha escolha foi <strong>Jogo Complexo</strong>, a Kátia estava bem do lado durante minha mesa de autógrafos na Casa Leia Mulheres, até comprou o Borboletas de Outono também, e os livros infantis dela são MUITO INCRÍVEIS, com mensagens bacanas, ilustrações belíssimas, tudo impecável. Acabei escolhendo esse pelo visual e temática, li assim que voltei de viagem e recomendo demais para crianças em fase de alfabetização, se eu gostei, imagina elas!</p>
-<blockquote><p>&#8220;— Papai, você prefere um ósculo ou um amplexo?<br />
-O pai não entendeu muito bem. Aquele jogo estava ficando complexo!&#8221;</p></blockquote>
-<h4>O Trono de Vidro &#8211; Sarah J. Maas</h4>
-<p>Foram poucas as leituras que abandonei. Normalmente, se vou parar, considero que deixei de lado por um tempo, mas estou suscetível a voltar quando der na telha. E aí enfim fui introduzida aos universos da Sarah J. Maas através do clube de leitura <a href="https://imprevistosmusicais.com.br/the-midnight-chapter-clube-do-livro/" target="_blank" rel="noopener">The Midnight Chapter</a>, que escolheu <strong>Trono de Vidro</strong> para julho e a primeira quinzena de agosto. É isso, gente, não vou terminar, não! Tentei via áudio e e-book, mais de uma vez, não funcionou, nada daquilo me pegou e a vida é muito curta para a gente ficar sofrendo pelo que devia ser entretenimento. Thank you, next!</p>
-<h4>Tarô: O guia para leitura intuitiva &#8211; Stefanie Capone</h4>
-<p><img loading="lazy" decoding="async" data-attachment-id="18336" data-permalink="https://lulylage.com/minhas-ultimas-leituras-4/ultimas_leituras_26_lulylage_03/" data-orig-file="https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_03.jpg" data-orig-size="1000,750" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;alt&quot;:&quot;&quot;}" data-image-title="Minhas últimas leituras" data-image-description="" data-image-caption="" data-large-file="https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_03.jpg" src="https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_03.jpg" alt="Fotografia do livro Tarô: O Guia para Leitura Intuitiva, de Stefanie Caponi, apoiado sobre uma superfície clara. A capa vermelha traz detalhes ornamentais em branco e azul-turquesa e a ilustração de uma figura sentada em um trono. Ao lado do livro, há um baralho de tarô parcialmente aberto, com uma carta THE FOOL visível no topo." width="1000" height="750" class="aligncenter size-full wp-image-18336" srcset="https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_03.jpg 1000w, https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_03-300x225.jpg 300w, https://lulylage.com/wp-content/uploads/2026/08/ultimas_leituras_26_lulylage_03-768x576.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" /></p>
-<p>Outro que ainda não terminei, mas nesse caso vou, é o guia para leitura intuitiva de Tarô da Stefanie Caponi! Já tem um tempo que tô decidida a parar de me limitar aos arcanos maiores e explorar o deque completo, tentei de outras formas mas eu sou dessas que precisa sentar, estudar, ler e praticar para aprender. Ele está me permitindo isso e estou AMANDO, fiz minha primeira leitura baseada em exercícios dele para outra pessoa HOJE, cara, já senti muita diferença. Sendo sincera, não sei até que ponto estou disposta a falar sobre minha relação com tarot na internet, até tenho uns mini textos mais literários sobre que vou começar a soltar nesse BEDA, mas enfim, decidi citá-lo aqui porque não irei escrever uma resenha, mas por hora acho válido o registro e indicação!</p>
-<blockquote><p><img decoding="async" src="https://lulylage.com/wp-content/uploads/2026/08/selo_beda_entreblogs_2026.png" alt="Selo do BEDA EntreBlogs 2026. O ícone apresenta uma pasta marrom e uma pena de escrita sobre um círculo bege com borda verde-oliva." width="100" height="100" align="right" /> Esse post faz parte do BEDA 2026 como integrante do projeto <a href="https://entreblogs.com.br/beda/2026/" target="_blank" rel="noopener">D&#038;B &#8211; Os Guardiões da Blogosfera</a> no EntreBlogs. O lulylage.com, sob o codinome Lady Elowen, está participando da categoria Jornada do Herói como Cronista.</p></blockquote>
-<p>The post <a rel="nofollow" href="https://lulylage.com/minhas-ultimas-leituras-4/">Minhas últimas leituras [4]</a> appeared first on <a rel="nofollow" href="https://lulylage.com">Luly Lage</a>.</p>
-]]></description>
   </item>
 
   <item>
@@ -9988,6 +10093,121 @@ estiver mais chorando.
   </item>
 
   <item>
+    <title>JENIFFER GERALDINE — Andanças culturais pela Flipelô 2026 </title>
+    <link>https://jeniffergeraldine.com/andancas-culturais-pela-flipelo-2026/</link>
+    <guid isPermaLink="true">https://jeniffergeraldine.com/andancas-culturais-pela-flipelo-2026/</guid>
+    <pubDate>Sun, 09 Aug 2026 23:50:36 GMT</pubDate>
+    <description><![CDATA[<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/flipelo2026_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" decoding="async" width="731" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/flipelo2026_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20325" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/flipelo2026_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/flipelo2026_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/flipelo2026_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/flipelo2026_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/flipelo2026_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="(max-width: 731px) 100vw, 731px" /></a></figure>
+</div>
+
+
+<p class="wp-block-paragraph">Oito de agosto de 2026, sábado, 7h30, entrei numa van rumo à <strong><a href="https://flipelo.com.br/" target="_blank" rel="noreferrer noopener">Festa Literária Internacional do Pelourinho</a> (FLIPELÔ)</strong>, em Salvador (BA). Já sabia que não ia chegar em tempo de ouvir <a href="https://jeniffergeraldine.com/leituras-descobertas-dos-ultimos-tempos-eliana-alves-cruz-e-valerie-perrin/" target="_blank" rel="noreferrer noopener">Eliana Alves Cruz</a>, a única autora que gostaria de ver naquele dia, então fui com o objetivo de fazer andanças culturais – visitar museus, centros culturais e ver algumas exposições. </p>
+
+
+
+<p class="wp-block-paragraph">Mas, antes, uma passadinha para tirar uma foto com o amado Jorge e os <strong>homenageados de 2026</strong>, o artista <strong>Calasans Neto</strong> e a escritora <strong>Myriam Fraga</strong>. </p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinenaflipelo_poranagleise-scaled.jpeg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="768" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinenaflipelo_poranagleise.jpeg?resize=768%2C1024&#038;ssl=1" alt="" class="wp-image-20326" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinenaflipelo_poranagleise-scaled.jpeg?resize=768%2C1024&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinenaflipelo_poranagleise-scaled.jpeg?resize=225%2C300&amp;ssl=1 225w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinenaflipelo_poranagleise-scaled.jpeg?resize=1152%2C1536&amp;ssl=1 1152w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinenaflipelo_poranagleise-scaled.jpeg?resize=1536%2C2048&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinenaflipelo_poranagleise-scaled.jpeg?w=1920&amp;ssl=1 1920w" sizes="auto, (max-width: 768px) 100vw, 768px" /></a></figure>
+</div>
+
+
+<p class="wp-block-paragraph">Foto tirada, comecei as andanças culturais pela nova unidade da <strong>Caixa Cultural,</strong> no <strong>Pelourinho</strong>, que estava com a exposição INCRÍVEL <a href="https://www.instagram.com/p/DbdYwZoR3bX/" target="_blank" rel="noreferrer noopener"><strong>3 Obás de Xangô: Carybé, Dorival Caymmi e Jorge Amado</strong>. </a></p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexango_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" data-id="20329" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexango_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20329" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexango_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexango_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexango_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexango_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexango_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangoflipelo_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" data-id="20328" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangoflipelo_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20328" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangoflipelo_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangoflipelo_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangoflipelo_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangoflipelo_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangoflipelo_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangocaixacultural_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" data-id="20331" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangocaixacultural_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20331" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangocaixacultural_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangocaixacultural_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangocaixacultural_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangocaixacultural_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangocaixacultural_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangocaixacultural2026_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" data-id="20327" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangocaixacultural2026_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20327" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangocaixacultural2026_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangocaixacultural2026_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangocaixacultural2026_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangocaixacultural2026_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangocaixacultural2026_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangojorgeamado_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" data-id="20330" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangojorgeamado_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20330" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangojorgeamado_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangojorgeamado_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangojorgeamado_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangojorgeamado_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/3obasdexangojorgeamado_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+</figure>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinecaixacultural_pormoiseshenrique-scaled.jpeg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="768" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinecaixacultural_pormoiseshenrique.jpeg?resize=768%2C1024&#038;ssl=1" alt="" class="wp-image-20332" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinecaixacultural_pormoiseshenrique-scaled.jpeg?resize=768%2C1024&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinecaixacultural_pormoiseshenrique-scaled.jpeg?resize=225%2C300&amp;ssl=1 225w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinecaixacultural_pormoiseshenrique-scaled.jpeg?resize=1152%2C1536&amp;ssl=1 1152w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinecaixacultural_pormoiseshenrique-scaled.jpeg?resize=1536%2C2048&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinecaixacultural_pormoiseshenrique-scaled.jpeg?w=1920&amp;ssl=1 1920w" sizes="auto, (max-width: 768px) 100vw, 768px" /></a><figcaption class="wp-element-caption">Capas diversas dos livros de Jorge Amado | Amei essa instalação!</figcaption></figure>
+</div>
+
+
+<p class="wp-block-paragraph">Em seguida, fui para o <strong><a href="https://www.museudamisericordia.org.br/index.html" target="_blank" rel="noreferrer noopener">Museu da Misericórdia</a></strong> que foi reaberto para a população recentemente. O museu fica em um palacete do século XVII que também já foi o primeiro hospital da cidade de Salvador.</p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiaagosto2026_jeniffergeraldine-1.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" data-id="20340" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiaagosto2026_jeniffergeraldine-1.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20340" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiaagosto2026_jeniffergeraldine-1.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiaagosto2026_jeniffergeraldine-1.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiaagosto2026_jeniffergeraldine-1.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiaagosto2026_jeniffergeraldine-1.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiaagosto2026_jeniffergeraldine-1.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiasalvadorbahia_jeniffergeraldine-1.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" data-id="20341" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiasalvadorbahia_jeniffergeraldine-1.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20341" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiasalvadorbahia_jeniffergeraldine-1.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiasalvadorbahia_jeniffergeraldine-1.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiasalvadorbahia_jeniffergeraldine-1.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiasalvadorbahia_jeniffergeraldine-1.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiasalvadorbahia_jeniffergeraldine-1.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiasalvador_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" data-id="20338" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiasalvador_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20338" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiasalvador_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiasalvador_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiasalvador_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiasalvador_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiasalvador_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiabahia_jeniffergeraldine-1.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" data-id="20342" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiabahia_jeniffergeraldine-1.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20342" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiabahia_jeniffergeraldine-1.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiabahia_jeniffergeraldine-1.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiabahia_jeniffergeraldine-1.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiabahia_jeniffergeraldine-1.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordiabahia_jeniffergeraldine-1.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordia_salvador_bahia_jeniffergeraldine-1-scaled.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="768" data-id="20344" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordia_salvador_bahia_jeniffergeraldine-1.png?resize=1024%2C768&#038;ssl=1" alt="" class="wp-image-20344" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordia_salvador_bahia_jeniffergeraldine-1-scaled.png?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordia_salvador_bahia_jeniffergeraldine-1-scaled.png?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordia_salvador_bahia_jeniffergeraldine-1-scaled.png?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordia_salvador_bahia_jeniffergeraldine-1-scaled.png?resize=1536%2C1152&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/museudamisericordia_salvador_bahia_jeniffergeraldine-1-scaled.png?resize=2048%2C1536&amp;ssl=1 2048w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+</figure>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinenaflipelo_pormoiseshenrique.jpg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="771" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinenaflipelo_pormoiseshenrique.jpg?resize=771%2C1024&#038;ssl=1" alt="" class="wp-image-20343" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinenaflipelo_pormoiseshenrique.jpg?resize=771%2C1024&amp;ssl=1 771w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinenaflipelo_pormoiseshenrique.jpg?resize=226%2C300&amp;ssl=1 226w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinenaflipelo_pormoiseshenrique.jpg?resize=768%2C1020&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldinenaflipelo_pormoiseshenrique.jpg?w=928&amp;ssl=1 928w" sizes="auto, (max-width: 771px) 100vw, 771px" /></a></figure>
+</div>
+
+
+<p class="wp-block-paragraph">Pausa para uma performance analógica: usar um mapa impresso para localizar os pontos da Flipelô (hahaha). O mapa é bem útil. <strong>Próxima parada: <a href="https://secult.salvador.ba.gov.br/casa-do-carnaval-da-bahia/" target="_blank" rel="noreferrer noopener">Casa do Carnaval da Bahia</a></strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/casadocarnaval_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/casadocarnaval_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20345" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/casadocarnaval_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/casadocarnaval_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/casadocarnaval_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/casadocarnaval_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/casadocarnaval_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+</div>
+
+
+<p class="wp-block-paragraph">>> <a href="https://jeniffergeraldine.com/casa-do-carnaval-da-bahia/" target="_blank" rel="noreferrer noopener">Já fiz uma publicação sobre a Casa do Carnaval da Bahia aqui no blog</a></p>
+
+
+
+<p class="wp-block-paragraph">Finalizei as andanças culturais na <strong>Casa do Benin</strong>, outro espaço cultural que também foi reaberto recentemente para visitação. O primeiro andar do espaço está com a <strong>exposição Mirongar, de Marlon Amaro</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/casadobenin_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/casadobenin_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20346" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/casadobenin_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/casadobenin_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/casadobenin_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/casadobenin_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/casadobenin_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+</div>
+
+
+<p class="wp-block-paragraph">Subi e desci as ladeiras do Pelô diversas vezes. Fui em outros espaços da Flipelô, revi algumas pessoas dos livros, dei boas risadas com a galera do Clube do Livro Alagoinhas que estava no bate-volta comigo, tomei o delicioso sorvete da Cubana. Não trouxe nenhum livro novo para casa, mas veio na bolsa um Jorginho Amado, que, antes de embelezar minha estante, foi meu modelo fotográfico no Pelourinho. </p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jorgeamadominiatura_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jorgeamadominiatura_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20347" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jorgeamadominiatura_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jorgeamadominiatura_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jorgeamadominiatura_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jorgeamadominiatura_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jorgeamadominiatura_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+</div>
+
+
+<p class="wp-block-paragraph">Até 2027, FLIPELÔ! </p>
+<p>O post <a href="https://jeniffergeraldine.com/andancas-culturais-pela-flipelo-2026/">Andanças culturais pela Flipelô 2026 </a> apareceu primeiro em <a href="https://jeniffergeraldine.com">Jeniffer Geraldine | Vida &amp; Cultura</a>.</p>
+]]></description>
+  </item>
+
+  <item>
     <title>EsKAYvendo — viciado em jogos sobre jogos de azar</title>
     <link>https://eskayvendo.bearblog.dev/viciado-em-jogos-sobre-jogos-de-azar/</link>
     <guid isPermaLink="true">https://eskayvendo.bearblog.dev/viciado-em-jogos-sobre-jogos-de-azar/</guid>
@@ -11985,6 +12205,217 @@ body {
   </item>
 
   <item>
+    <title>JENIFFER GERALDINE — Projetos literários para a vida toda </title>
+    <link>https://jeniffergeraldine.com/projetos-literarios-para-a-vida-toda/</link>
+    <guid isPermaLink="true">https://jeniffergeraldine.com/projetos-literarios-para-a-vida-toda/</guid>
+    <pubDate>Fri, 07 Aug 2026 14:04:08 GMT</pubDate>
+    <description><![CDATA[<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios2_jeniffergeraldine-1.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios2_jeniffergeraldine-1.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20313" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios2_jeniffergeraldine-1.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios2_jeniffergeraldine-1.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios2_jeniffergeraldine-1.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios2_jeniffergeraldine-1.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios2_jeniffergeraldine-1.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+</div>
+
+
+<p class="wp-block-paragraph">Já faz uns bons anos que realizo alguns <strong>projetos literários</strong>. Antes, o processo era &#8220;mais certinho&#8221; com cronogramas e uma lista para cumprir. Atualmente, esses projetos só me lembram de duas coisas: eu amo alguns gêneros/autores/autoras e priorizar a leitura como um hobby me traz uma paz imensa (e quero cultivar isso o máximo possível). </p>
+
+
+
+<p class="wp-block-paragraph">Hoje vou compartilhar esses projetos aqui no blog com a pretensão de talvez te inspirar a criar seus próprios projetos literários seguindo os critérios que comentei acima – amor e prazer pela leitura e literatura.  </p>
+
+
+
+<h2 class="wp-block-heading"><strong>Leia Brasileiros</strong>&nbsp;</h2>
+
+
+
+<p class="wp-block-paragraph">Ler pelo menos 1 livro de autoria brasileira no mês. Esse é um dos projetos mais antigos. Devo ter começado em 2015 por aí. Criei porque percebi que estava lendo pouco o nosso Brasil. Manter esse projeto por tanto tempo me fez perceber que eu amo literatura brasileira contemporânea. E, atualmente, é bem difícil passar um mês sem ler algum livro de autoria brasileira. </p>
+
+
+
+<p class="wp-block-paragraph">>> <a href="https://jeniffergeraldine.com/tag/leia-brasileiros/" target="_blank" rel="noreferrer noopener">Confira a tag #LeiaBrasileiros</a></p>
+
+
+
+<h2 class="wp-block-heading"><strong>Leia Mulheres</strong>&nbsp;</h2>
+
+
+
+<p class="wp-block-paragraph">Ler pelo menos 1 livro de autoria feminina no mês. O Leia Mulheres começou por aqui com o movimento que hoje é referência em clubes de leitura e letramento feminista. Minha história com o Leia é longa – ajudei a criar o Leia Mulheres em Salvador (BA) e o clube foi meu objeto de pesquisa no mestrado.  </p>
+
+
+
+<p class="wp-block-paragraph">>> <a href="https://jeniffergeraldine.com/tag/leia-mulheres/" target="_blank" rel="noreferrer noopener">Confira a tag #LeiaMulheres</a></p>
+
+
+
+<h2 class="wp-block-heading"><strong>#AmandoJorge</strong>&nbsp;</h2>
+
+
+
+<p class="wp-block-paragraph">Apaixonada que sou pela minha Bahia, não podia deixar de ler o maioral <strong>Jorge Amado</strong>. Esse também é um dos projetos mais antigos. A proposta é ler os romances do autor, a biografia e alguns outros livros sobre sua vida e obra. Eu AMO ler cartas e para esse projeto já li o<a href="https://link.amazon/B0gTJZqsl" target="_blank" rel="noreferrer noopener"> Com o mar por meio &#8211; Uma amizade em cartas</a>, do Jorge com o Saramago. Da lista de 23 romances, já li 8 e destaco<a href="https://link.amazon/B09nhPjty" target="_blank" rel="noreferrer noopener"> Mar Morto</a>, <a href="https://link.amazon/B03lh29kE" target="_blank" rel="noreferrer noopener">Capitães da areia</a>, <a href="https://link.amazon/B0jjoy1C4" target="_blank" rel="noreferrer noopener">Gabriela, cravo e canela</a> e <a href="https://link.amazon/B08KxST21" target="_blank" rel="noreferrer noopener">A morte e a morte de Quincas Berro D&#8217;Água</a>. Falta muito. Mas estou sem pressa. A proposta também é assistir algumas adaptações para TV e cinema.  </p>
+
+
+
+<p class="wp-block-paragraph">>> <a href="https://jeniffergeraldine.com/?s=jorge+amado" target="_blank" rel="noreferrer noopener">Confira o que já compartilhei por aqui sobre Jorge Amado</a></p>
+
+
+
+<h2 class="wp-block-heading"><strong>Clássicos Policiais</strong>&nbsp;</h2>
+
+
+
+<p class="wp-block-paragraph">Dois nomes &#8211; Arthur Conan Doyle e Agatha Christie. Já comecei essa empreitada há um bom tempo. Mas as listas são imensas. Agathinha mesmo era uma máquina de fazer mistério. Já, em relação a Arthur Conan Doyle, vou me concentrar no <a href="https://link.amazon/B04hHrA8r" target="_blank" rel="noreferrer noopener">box que tenho com as principais histórias de Sherlock Holmes</a>. </p>
+
+
+
+<p class="wp-block-paragraph">>> <a href="https://jeniffergeraldine.com/tag/literatura-policial/" target="_blank" rel="noreferrer noopener">Confira o que já compartilhei por aqui sobre literatura policial</a></p>
+
+
+
+<h2 class="wp-block-heading"><strong>Clássico Calhamaço</strong>&nbsp;</h2>
+
+
+
+<p class="wp-block-paragraph">Aqui é um desafio. Ler, 1 vez por ano, um livro considerado clássico que possui mais de 500 páginas. O desafio de 2026 é <a href="https://link.amazon/B0hbOQrTs" target="_blank" rel="noreferrer noopener">Um defeito de cor</a>, da Ana Maria Gonçalves. </p>
+
+
+
+<h2 class="wp-block-heading"><strong>Clariceando</strong>&nbsp;</h2>
+
+
+
+<p class="wp-block-paragraph">Em 2026, resolvi que quero começar a ler os principais romances de Clarice Lispector, suas crônicas, contos e cartas. Entendeu por que o título é &#8220;Projetos literários para a vida toda&#8221;? 😀 </p>
+
+
+
+<h2 class="wp-block-heading"><strong>Lendo Jane Austen</strong>&nbsp;</h2>
+
+
+
+<p class="wp-block-paragraph">AMO romances de época e nada melhor do que atender esse desejo lendo a maioral Jane Austen. São 6 romances. Só li apenas 2 &#8211; <a href="https://link.amazon/B0b3ooHSK" target="_blank" rel="noreferrer noopener">Razão e sensibilidade</a> e <a href="https://link.amazon/B066wox78" target="_blank" rel="noreferrer noopener">Orgulho e Preconceito</a>. A ideia aqui também é conferir as adaptações para TV e cinema. </p>
+
+
+
+<h2 class="wp-block-heading"><strong>Finalizar a série de livros Virgin River</strong>&nbsp;</h2>
+
+
+
+<p class="wp-block-paragraph">Virgin River é uma das minhas séries de TV favoritas da vida. E já faz um tempo que, por pura saudade do universo, resolvi começar a ler os livros. São 22 livros. Mas só há 6 publicados no Brasil. Já li 2 – <a href="https://link.amazon/B075vmgXm" target="_blank" rel="noreferrer noopener">Um lugar para sonhar</a> e <a href="https://link.amazon/B0bFhmTuH" target="_blank" rel="noreferrer noopener">Um refúgio nas montanhas</a>. </p>
+
+
+
+<p class="wp-block-paragraph">>> <a href="https://jeniffergeraldine.com/?s=virgin+river" target="_blank" rel="noreferrer noopener">Confira o que já compartilhei por aqui sobre Virgin River</a></p>
+
+
+
+<h2 class="wp-block-heading"><strong>Lendo o contemporâneo</strong>&nbsp;</h2>
+
+
+
+<p class="wp-block-paragraph">Um projeto que também é estudo e atualização profissional. A proposta é ler&nbsp;uma vez&nbsp;por mês um livro sobre temas atuais e&nbsp;relevantes&nbsp;da nossa sociedade. Ou seja, são livros de não-ficção e que contribuem para o aumento de repertório&nbsp;intelectual&nbsp;e cultural.&nbsp;&nbsp;</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Clube do Livro Alagoinhas</strong>&nbsp;</h2>
+
+
+
+<p class="wp-block-paragraph">O clube existe desde 2017, de forma presencial em Alagoinhas (BA),&nbsp;e é um dos meus filhos queridos do coração.&nbsp;Faremos esse clube acontecer enquanto&nbsp;houver gente&nbsp;interessada.&nbsp;Hoje, a proposta do clube é promover a bibliodiversidade.&nbsp;Lemos de tudo um pouco. Ou pelo menos tentamos.&nbsp;<img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" />&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">>> <a href="https://jeniffergeraldine.com/projeto-clube-do-livro-alagoinhas/" target="_blank" rel="noreferrer noopener">Veja a lista de livros lidos no CLA</a></p>
+
+
+
+<h2 class="wp-block-heading"><strong>Histórias de vida</strong>&nbsp;</h2>
+
+
+
+<p class="wp-block-paragraph">Eu sou apaixonada por biografias, autobiografias, cartas.&nbsp;Esse projeto é para atender essa curiosidade pela vida e&nbsp;obra de algumas pessoas notáveis do nosso mundo.&nbsp;</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Ler mais livros felizes</strong>&nbsp;</h2>
+
+
+
+<p class="wp-block-paragraph">Escrevi isso e rolou uma gargalhada na cabeça. Esse é mais que um projeto, é um desafio pessoal. Preciso ser sincera, há pouca felicidade na literatura brasileira contemporânea (o que eu mais leio) e por isso lancei esse desafio. A ideia é ler histórias com finais felizes para trazer aquele quentinho para o coração sempre que possível. Ou ler histórias mais divertidas. Por aqui tenho lido algumas fantasias, uma série chamada <a href="https://link.amazon/B0auA8l36" target="_blank" rel="noreferrer noopener">Romances de hoje</a> e descobri recente os romances universitários. </p>
+
+
+
+<p class="wp-block-paragraph">>> <a href="https://jeniffergeraldine.com/em-busca-de-leituras-leves/" target="_blank" rel="noreferrer noopener">Em busca de leituras leves</a></p>
+
+
+
+<h2 class="wp-block-heading"><strong>Leitura&nbsp;anti-scrolling</strong>&nbsp;</h2>
+
+
+
+<p class="wp-block-paragraph">Mais livros, menos feeds e conteúdos fragmentados. E ter uma lista de projetos literários para toda a vida contribui demais com isso. </p>
+
+
+
+<p class="wp-block-paragraph">>> <a href="https://jeniffergeraldine.com/leitura-anti-scrolling/" target="_blank" rel="noreferrer noopener">Leitura anti-scrolling</a></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<div class="wp-block-jetpack-tiled-gallery aligncenter is-style-rectangular"><div class=""><div class="tiled-gallery__gallery"><div class="tiled-gallery__row"><div class="tiled-gallery__col" style="flex-basis:50.00000%"><figure class="tiled-gallery__item"><img decoding="async" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios1_jeniffergeraldine-731x1024.png?strip=info&#038;w=600&#038;ssl=1 600w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios1_jeniffergeraldine-731x1024.png?strip=info&#038;w=731&#038;ssl=1 731w" alt="" data-height="1680" data-id="20310" data-link="https://jeniffergeraldine.com/?attachment_id=20310" data-url="https://jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios1_jeniffergeraldine-731x1024.png" data-width="1200" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios1_jeniffergeraldine-731x1024.png?ssl=1" data-amp-layout="responsive"/></figure></div><div class="tiled-gallery__col" style="flex-basis:50.00000%"><figure class="tiled-gallery__item"><img decoding="async" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios_jeniffergeraldine-731x1024.png?strip=info&#038;w=600&#038;ssl=1 600w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios_jeniffergeraldine-731x1024.png?strip=info&#038;w=731&#038;ssl=1 731w" alt="" data-height="1680" data-id="20311" data-link="https://jeniffergeraldine.com/?attachment_id=20311" data-url="https://jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios_jeniffergeraldine-731x1024.png" data-width="1200" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/projetosliterarios_jeniffergeraldine-731x1024.png?ssl=1" data-amp-layout="responsive"/></figure></div></div></div></div></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p class="wp-block-paragraph">Pois é, <strong>projetos literários para vida toda mesmo</strong>! <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> </p>
+
+
+
+<p class="wp-block-paragraph">Vou incluir qualquer novo projeto que surgir nesta publicação. Estou fazendo o acompanhamento no meu caderno criativo e no <a href="https://www.skoob.com.br/pt/profile/67bd0307c8b5e482dd020805" target="_blank" rel="noreferrer noopener">Skoob</a>.  </p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p class="wp-block-paragraph">Os livros citados nesta publicação estão com link direto para Amazon. Compre através do link e com isso eu vou enchendo meu cofrinho para comprar mais livros! </p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p class="wp-block-paragraph"><strong>Receba as atualizações do blog por e-mail</strong></p>
+
+
+
+<p class="wp-block-paragraph">O legal de assinar a newsletter é que você recebe sempre um e-mail quando eu escrever/ compartilhar algo novo no blog. Dessa forma, você pode ler no seu tempo! 😉</p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline is-style-split wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://jeniffergeraldine.com/?post_type=post&#038;p=20309" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0; margin-left: 10px;border-color: brownish-mustard;border-radius: 0px;border-width: 1px; background-color: #B79371; color: #333; text-decoration: none; white-space: nowrap; margin-left: 0">Assinar</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<p class="wp-block-paragraph">Agradeço a leitura e a companhia! <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f33b.png" alt="🌻" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>O post <a href="https://jeniffergeraldine.com/projetos-literarios-para-a-vida-toda/">Projetos literários para a vida toda </a> apareceu primeiro em <a href="https://jeniffergeraldine.com">Jeniffer Geraldine | Vida &amp; Cultura</a>.</p>
+]]></description>
+  </item>
+
+  <item>
     <title>Livro de Memórias — MCU: Fase 3 (2016-2019) | Sagas Cinematográficas</title>
     <link>https://www.livrodememorias.com.br/2026/08/mcu-fase-3.html</link>
     <guid isPermaLink="true">https://www.livrodememorias.com.br/2026/08/mcu-fase-3.html</guid>
@@ -12516,6 +12947,33 @@ body {
     <guid isPermaLink="true">https://meumuseuparticular.blogspot.com/2026/08/coisas-que-fizeram-minha-tarde-feliz.html</guid>
     <pubDate>Thu, 06 Aug 2026 12:25:36 GMT</pubDate>
     <description><![CDATA[<div><span style="background-color: #f9cb9c;">05 de agosto de 2026</span></div><div><br /></div>13h48: Barulho dos passarinhos conversando entre si na rua de casa<br /><br />14h06: Ventinho gostoso batendo na pele num dia de sol<br /><br />14h17: Nenénzinho muito fofo dos olhinhos azuis<br /><br />14h43: Alguma senhorinha usou a palavra marmota no ônibus, fazia tempo que não ouvia<br /><br />14h54: Árvore de romã, me lembrou do quintal da minha madrinha onde eu ia na minha infância<br /><br />15h01: É temporada de flores e me deixa muito feliz ver a cidade começando a florescer<br /><br />15h29: A mensagem do palitinho de sorvete, tem mensagens que encontram a gente quando a gente precisa<br /><br />15h45: Céu azul com sol e nuvens branquinhas<br /><br />17h04: Neném relaxado com as perninhas pra fora do carrinho<br /><br />18h35: As luzes nas árvores quando anoiteceu, parecendo um conto de fadas<br /><div><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtFwmurkQWNBVN_rFP9bMeZs5-rG0CQBUCgkv8WKQ8-ZeG-_5D6k8ENwtlgk7AS8B9GiRTJqfwfgZ-_-41eACurkpOVp1ko77-faqaoYSLetP2dscQ5xa-Kl_IqIY5dZjnWfAXW4Kzs258NFPP9YMTnNL0q7iRc2Cg_M3eH7GhGEqEoUQPBw-HYCOHL2g/s2000/20260805_183653.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="2000" data-original-width="1500" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtFwmurkQWNBVN_rFP9bMeZs5-rG0CQBUCgkv8WKQ8-ZeG-_5D6k8ENwtlgk7AS8B9GiRTJqfwfgZ-_-41eACurkpOVp1ko77-faqaoYSLetP2dscQ5xa-Kl_IqIY5dZjnWfAXW4Kzs258NFPP9YMTnNL0q7iRc2Cg_M3eH7GhGEqEoUQPBw-HYCOHL2g/s1600/20260805_183653.jpg" /></a></div><br /><div><br /></div>]]></description>
+  </item>
+
+  <item>
+    <title>JENIFFER GERALDINE — O bom companheiro (Igatu – BA) </title>
+    <link>https://jeniffergeraldine.com/o-bom-companheiro-igatu-ba/</link>
+    <guid isPermaLink="true">https://jeniffergeraldine.com/o-bom-companheiro-igatu-ba/</guid>
+    <pubDate>Thu, 06 Aug 2026 12:09:51 GMT</pubDate>
+    <description><![CDATA[<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/igatu_ba_julho2026_foto_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/igatu_ba_julho2026_foto_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20303" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/igatu_ba_julho2026_foto_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/igatu_ba_julho2026_foto_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/igatu_ba_julho2026_foto_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/igatu_ba_julho2026_foto_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/igatu_ba_julho2026_foto_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+</div>
+
+
+<p class="wp-block-paragraph">Era primeiro de julho de 2026, uma quarta-feira fria e chuvosa, o clássico inverno da Chapada Diamantina (BA). E eu havia acabado de chegar a Igatu, depois de passar um perrengue danado em uma estrada que tem 2 km de pedras, que por conta da chuva, estavam molhadas e escorregadias – totalmente inapropriadas para os carros que estávamos.</p>
+
+
+
+<p class="wp-block-paragraph">Passado o processo de check-in na pousada e do encantamento inicial com a <a href="https://pousadaflordeacucena.com.br/" target="_blank" rel="noreferrer noopener">Flor de Açucena</a>, saí com meu guarda-chuva para passear-fotografar por Igatu. E uma das primeiras cenas que me deparei foi a de um senhor subindo a ladeira ao lado de um bom companheiro, um cachorro.  </p>
+
+
+
+<p class="wp-block-paragraph">É bem comum em cidades pequenas encontrarmos animais soltos pelas praças e ruas. Para mim, eles são bens coletivos desses lugares. Geralmente, são cuidados e acolhidos por toda população.&nbsp;Não demorei muito para fazer o&nbsp;registro. A beleza do cotidiano já me entregava o quadro perfeito. Eu só realmente estou sempre aberta para perceber e clicar.&nbsp;Clique! <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" />&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+<p>O post <a href="https://jeniffergeraldine.com/o-bom-companheiro-igatu-ba/">O bom companheiro (Igatu – BA) </a> apareceu primeiro em <a href="https://jeniffergeraldine.com">Jeniffer Geraldine | Vida &amp; Cultura</a>.</p>
+]]></description>
   </item>
 
   <item>
@@ -14542,6 +15000,141 @@ Como esse post já ficou enorme <i>(e nem comecei a falar sobre os lugares que p
   </item>
 
   <item>
+    <title>JENIFFER GERALDINE — As voltas literárias no nordeste do Brasil  </title>
+    <link>https://jeniffergeraldine.com/as-voltas-literarias-no-nordeste-do-brasil/</link>
+    <guid isPermaLink="true">https://jeniffergeraldine.com/as-voltas-literarias-no-nordeste-do-brasil/</guid>
+    <pubDate>Wed, 05 Aug 2026 14:46:04 GMT</pubDate>
+    <description><![CDATA[<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_apalavraqueresta_blog_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_apalavraqueresta_blog_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20291" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_apalavraqueresta_blog_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_apalavraqueresta_blog_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_apalavraqueresta_blog_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_apalavraqueresta_blog_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_apalavraqueresta_blog_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+</div>
+
+
+<p class="wp-block-paragraph">Julho de 2026 começou com a proposta do <a href="https://jeniffergeraldine.com/projeto-clube-do-livro-alagoinhas/" target="_blank" rel="noreferrer noopener">Clube do Livro Alagoinhas</a> de realizar uma volta literária pela região nordeste do Brasil.&nbsp;Acabei me empolgando porque eu amo &#8220;meu país nordeste&#8221;.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Minha primeira volta literária foi em Jericoacoara com o <strong>Primeiro eu tive que morrer</strong><sup>1</sup>. Eu estava bastante curiosa com esse livro. E acabei encontrando uma narrativa muito privilegiada sobre esgotamento profissional: tirar um tempo em um lugar maravilhoso para se curar e se reencontrar.  </p>
+
+
+
+<p class="wp-block-paragraph">A&nbsp;segunda&nbsp;volta foi em Salvador (BA) com o&nbsp;<strong>Ladeira da Preguiça</strong><sup>2</sup><strong>&nbsp;</strong>na companhia de&nbsp;Adelaide e Zigue, moradores da Ladeira da Preguiça.&nbsp;O livro é interessante por ter personagens e ambientes que nos propõem discussões críticas sobre gentrificação, trabalho informal, memória, patrimônio e turismo. Tudo isso enquanto&nbsp;acompanhamos uma história de amor e de superação em meio aos festejos e beleza da paradoxal Salvador.&nbsp;&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Depois resolvi pegar a companhia&nbsp;do cearense&nbsp;<strong>Stênio Gardel</strong>&nbsp;e o&nbsp;romance&nbsp;<strong>A palavra que resta</strong><sup>3</sup>. Esse foi um livro que me marcou pela forma e pela narrativa. O personagem&nbsp;principal&nbsp;é Raimundo Gaudêncio, nordestino, 71 anos, que decide se alfabetizar para ler, principalmente, a carta que recebeu de Cícero, seu amor proibido da juventude. A narrativa&nbsp;segue, em partes,&nbsp;um fluxo de&nbsp;consciência&nbsp;oralizado. A leitura me deixou curiosa. Fiquei a todo momento querendo saber o que tinha na carta. E o final é simplesmente um dos mais bonitos que li nos últimos tempos. Esse também é um livro que&nbsp;apresenta&nbsp;temas como violência&nbsp;homofóbica no contexto familiar,&nbsp;analfabetismo e exclusão. Ao mesmo tempo que&nbsp;traz&nbsp;o&nbsp;acolhimento em redes de afeto,&nbsp;o letramento e alfabetização&nbsp;como&nbsp;possibilidades de empoderamento&nbsp;das pessoas.&nbsp;&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">No meio das&nbsp;voltas literárias&nbsp;nordestinas, finalizei uma leitura muito importante para minha tese do doutorado, o livro&nbsp;<strong>Aceleração: A transformação das estruturas temporais na modernidade,</strong>&nbsp;do sociólogo alemão Hartmut Rosa.&nbsp;Livro denso que estava lendo desde 2024, bem aos poucos. Só quem faz pesquisa acadêmica entende que nem sempre é preciso ler um livro inteiro, mas, às vezes, a gente&nbsp;precisa encarar alguns calhamaços.&nbsp;&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">De volta ao nordeste, li o&nbsp;<strong>Caminhando com os mortos</strong><sup>4</sup>, da&nbsp;pernambucana&nbsp;Micheliny Verunschk. Depois de&nbsp;<strong>A palavra que resta</strong>, esse&nbsp;foi o segundo&nbsp;livro&nbsp;mais marcante do mês.&nbsp;Uma mulher é queimada viva em um ritual de purificação. Os motivos? Como aconteceu? Nós vamos descobrindo aos poucos, em uma narrativa não-linear, que ao final me fez relacionar ao trabalho da perita – que é a personagem que nos&nbsp;conduz de alguma forma na história enquanto também precisa lidar com os próprios traumas. É uma leitura que exige atenção por conta da não-linearidade, mas que vale o tempo dedicado porque é uma história que nos leva a refletir criticamente sobre intolerância religiosa&nbsp;e&nbsp;avanço das igrejas evangélicas em periferias, zonas rurais e sertões. Além&nbsp;de&nbsp;que o assassinato&nbsp;se configura&nbsp;como feminicídio, o que&nbsp;contribui&nbsp;para pensarmos sobre machismo&nbsp;e&nbsp;cultura patriarcal, no contexto da alienação religiosa.&nbsp;&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Sem querer, querendo,&nbsp;dei mais&nbsp;uma volta literária&nbsp;no&nbsp;nordeste,&nbsp;novamente em Salvador (BA),&nbsp;com a autora Midiã&nbsp;Noelle,&nbsp;mas com um livro de não-ficção que selecionei para ver a possibilidade de realizar uma atividade com minhas turmas em 2026.2, o&nbsp;<strong>Comunicação antirracista: Um guia para se comunicar com todas as pessoas, em todos os lugares</strong><strong><sup>5</sup></strong>. Um livro de leitura fácil e que cumpre a proposta introdutória de chamar nossa atenção para a importância da comunicação antirracista.&nbsp;&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Entre projetos literários e leituras de trabalho, julho foi um mês&nbsp;literário&nbsp;bem&nbsp;gratificante.&nbsp;Não faço ideia de como será agosto. Só sei que seguirei lendo. Depois volto aqui para compartilhar.&nbsp;&nbsp;</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p class="wp-block-paragraph"><sup>1</sup>&nbsp;Autoria de Lorena Portela. Publicado pela Editora Planeta, em 2022.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph"><sup>2</sup>&nbsp;Autoria de&nbsp;Evanilton&nbsp;Gonçalves, publicado pela Editora Todavia (2025).&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph"><sup>3</sup>&nbsp;Publicado pela Companhia das Letras em 2021.&nbsp;Livro recebido em parceria com a editora e o Clube do Livro Alagoinhas.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph"><sup>4</sup>&nbsp;Publicado pela Companhia das Letras em 2023. Livro recebido em parceria com a editora e o Clube do Livro Alagoinhas.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph"><sup>5</sup>&nbsp;Publicado pela Editora Planeta, em 2025.&nbsp;</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<div class="wp-block-jetpack-tiled-gallery aligncenter is-style-rectangular"><div class=""><div class="tiled-gallery__gallery"><div class="tiled-gallery__row"><div class="tiled-gallery__col" style="flex-basis:25.00000%"><figure class="tiled-gallery__item"><img decoding="async" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_primeiroeutivequemorrer_blog_jeniffergeraldine-731x1024.png?strip=info&#038;w=600&#038;ssl=1 600w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_primeiroeutivequemorrer_blog_jeniffergeraldine-731x1024.png?strip=info&#038;w=731&#038;ssl=1 731w" alt="" data-height="1680" data-id="20294" data-link="https://jeniffergeraldine.com/?attachment_id=20294" data-url="https://jeniffergeraldine.com/wp-content/uploads/2026/08/livro_primeiroeutivequemorrer_blog_jeniffergeraldine-731x1024.png" data-width="1200" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_primeiroeutivequemorrer_blog_jeniffergeraldine-731x1024.png?ssl=1" data-amp-layout="responsive"/></figure></div><div class="tiled-gallery__col" style="flex-basis:25.00000%"><figure class="tiled-gallery__item"><img decoding="async" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_ladeiradapreguica_blog_jeniffergeraldine-731x1024.png?strip=info&#038;w=600&#038;ssl=1 600w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_ladeiradapreguica_blog_jeniffergeraldine-731x1024.png?strip=info&#038;w=731&#038;ssl=1 731w" alt="" data-height="1680" data-id="20293" data-link="https://jeniffergeraldine.com/?attachment_id=20293" data-url="https://jeniffergeraldine.com/wp-content/uploads/2026/08/livro_ladeiradapreguica_blog_jeniffergeraldine-731x1024.png" data-width="1200" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_ladeiradapreguica_blog_jeniffergeraldine-731x1024.png?ssl=1" data-amp-layout="responsive"/></figure></div><div class="tiled-gallery__col" style="flex-basis:25.00000%"><figure class="tiled-gallery__item"><img decoding="async" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_caminhandocomosmortos_blog_jeniffergeraldine-731x1024.png?strip=info&#038;w=600&#038;ssl=1 600w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_caminhandocomosmortos_blog_jeniffergeraldine-731x1024.png?strip=info&#038;w=731&#038;ssl=1 731w" alt="" data-height="1680" data-id="20295" data-link="https://jeniffergeraldine.com/?attachment_id=20295" data-url="https://jeniffergeraldine.com/wp-content/uploads/2026/08/livro_caminhandocomosmortos_blog_jeniffergeraldine-731x1024.png" data-width="1200" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_caminhandocomosmortos_blog_jeniffergeraldine-731x1024.png?ssl=1" data-amp-layout="responsive"/></figure></div><div class="tiled-gallery__col" style="flex-basis:25.00000%"><figure class="tiled-gallery__item"><img decoding="async" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_comunicacaoantirracista_blog_jeniffergeraldine-731x1024.png?strip=info&#038;w=600&#038;ssl=1 600w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_comunicacaoantirracista_blog_jeniffergeraldine-731x1024.png?strip=info&#038;w=731&#038;ssl=1 731w" alt="" data-height="1680" data-id="20292" data-link="https://jeniffergeraldine.com/?attachment_id=20292" data-url="https://jeniffergeraldine.com/wp-content/uploads/2026/08/livro_comunicacaoantirracista_blog_jeniffergeraldine-731x1024.png" data-width="1200" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/livro_comunicacaoantirracista_blog_jeniffergeraldine-731x1024.png?ssl=1" data-amp-layout="responsive"/></figure></div></div></div></div></div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p class="wp-block-paragraph"><strong>Livros na Amazon </strong>(compre através do meu link e com isso eu vou enchendo meu cofrinho para comprar mais livros!):</p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://link.amazon/B0duUoTWl" target="_blank" rel="noreferrer noopener">Ladeira da preguiça</a></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://link.amazon/B036LtXBe" target="_blank" rel="noreferrer noopener">Primeiro eu tive que morrer</a></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://link.amazon/B0aJ4zq3d" target="_blank" rel="noreferrer noopener">Aceleração</a></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://link.amazon/B0e9vCsWb" target="_blank" rel="noreferrer noopener">Caminhando com os mortos</a></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://link.amazon/B0gW2EyAp" target="_blank" rel="noreferrer noopener">Comunicação antirracista</a></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p class="wp-block-paragraph"><strong>Receba as atualizações do blog por e-mail</strong></p>
+
+
+
+<p class="wp-block-paragraph">O legal de assinar a newsletter é que você recebe sempre um e-mail quando eu escrever/ compartilhar algo novo no blog. Dessa forma, você pode ler no seu tempo! 😉</p>
+
+
+<div class="wp-block-jetpack-subscriptions__supports-newline is-style-split wp-block-jetpack-subscriptions">
+		<div>
+			<div>
+				<div>
+					<p >
+						<a href="https://jeniffergeraldine.com/?post_type=post&#038;p=20290" style="font-size: 16px;padding: 15px 23px 15px 23px;margin: 0; margin-left: 10px;border-color: brownish-mustard;border-radius: 0px;border-width: 1px; background-color: #B79371; color: #333; text-decoration: none; white-space: nowrap; margin-left: 0">Assinar</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<p class="wp-block-paragraph">Agradeço a leitura e a companhia! <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f33b.png" alt="🌻" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>O post <a href="https://jeniffergeraldine.com/as-voltas-literarias-no-nordeste-do-brasil/">As voltas literárias no nordeste do Brasil  </a> apareceu primeiro em <a href="https://jeniffergeraldine.com">Jeniffer Geraldine | Vida &amp; Cultura</a>.</p>
+]]></description>
+  </item>
+
+  <item>
     <title>Livro de Memórias — Destinado – Carina Rissi | Crítica</title>
     <link>https://www.livrodememorias.com.br/2026/08/destinado-carina-rissi.html</link>
     <guid isPermaLink="true">https://www.livrodememorias.com.br/2026/08/destinado-carina-rissi.html</guid>
@@ -15125,35 +15718,6 @@ Uma das coisas que mais gosto de fazer quando reúno com amigos é karaokê, mes
   </item>
 
   <item>
-    <title>COSMOLIKO — Emancipação</title>
-    <link>https://cosmoliko.com/emancipacao/</link>
-    <guid isPermaLink="true">https://cosmoliko.com/emancipacao/</guid>
-    <pubDate>Mon, 03 Aug 2026 02:55:00 GMT</pubDate>
-    <description><![CDATA[<p><strong>I</strong></p><p>Esta noite eu quis beijar o Gu<br>ele estava bonito<br>sempre foi muito bonito<br>seu &#xF3;culos aro de tartaruga faz dele t&#xE3;o fofo<br>parece um nerd que nem usa drogas<br>queria meter minha l&#xED;ngua naquela boca</p><p>O problema &#xE9; que o Lu tinha visto ele primeiro</p><p>Outra noite eu quis beijar o Du<br>moleque gostoso da porra<br>aquele cabelo cacheado me tira do s&#xE9;rio<br>&#xE0;s vezes ele pega no pau<br>s&#xF3; pra me provocar</p><p>N&#xE3;o vou dizer ao Lu<br>Vai dizer que beijou primeiro</p><p>O Lu adora isso<br>me ensinar a &#xE9;tica fora do arm&#xE1;rio</p><p>&#x201C;ai de voc&#xEA; se beijar o fulano&#x201D;<br>&#x201C;sua cara beijar meus restos&#x201D;<br>&quot;por que voc&#xEA; adora pegar quem eu j&#xE1; peguei?&#x201D;</p><p></p><p><strong>II</strong></p><p>Acontece que o Lu &#xE9; uma biscate, pega todo mundo<br>N&#xE3;o tenho problema com ele ser uma biscate, ele que pegue quem quiser<br>O problema &#xE9; que n&#xE3;o sobra muito para eu descobrir<br>nessa nova vida que ando levando<br>Pois o Lu j&#xE1; pegou todo mundo da cidade</p><p>Inicialmente, eu ficava na minha<br>envergonhado<br>voz baixa<br>s&#xF3; esperando um sinal de permiss&#xE3;o<br>n&#xE3;o querendo ferir a &#xE9;tica do neg&#xF3;cio que estava aprendendo<br>eu mal imaginava que podia ser t&#xE3;o burocr&#xE1;tico ser viado</p><p>quem me ensinava era o Lu<br>ele foi o primeiro menino que eu beijei<br>Claro que foi o Lu o primeiro menino que eu beijei<br>Como eu disse, ele &#xE9; uma biscate, pega todo mundo<br>Inclusive eu</p><p>Imagino ele falando de mim para outros garotos<br>&#x201C;Ningu&#xE9;m pode pegar ele, peguei primeiro!&#x201D;</p><p>como se tivesse uma bandeira enfiada em minha cabe&#xE7;a<br>com o nome dele</p><p></p><p><strong>III</strong></p><p>N&#xE3;o precisei de muito tempo para come&#xE7;ar a seguir minha pr&#xF3;pria &#xE9;tica<br>As leis glsss podem ser t&#xE3;o opressoras<br>que del&#xED;cia quebrar as regras e n&#xE3;o contar a ningu&#xE9;m</p><p>&#x201C;ai, ta bom, lu&#x201D;<br>eu s&#xF3; fingia que n&#xE3;o pegava quem ele tinha pego antes<br>s&#xF3; ignorava tudo que ele falava</p><p>&#xC0;s vezes parecia que ele ficava meio vermelho de raiva<br>como se soubesse que eu estava quebrando as regras escondido</p><p>quando os garotos que ele ja pegou me procuravam,<br>ent&#xE3;o,<br>a&#xED; que ele ficava uma fera</p><p>&#xC0;s vezes eu gostava de subir as escadas com um deles<br>sumir em algum c&#xF4;modo</p><p>ir atr&#xE1;s de uma &#xE1;rvore<br>debaixo de qualquer sombra na noite<br>o lu vendo tudo<br>e eu me fazendo de dissimulado</p><p>O final era inevit&#xE1;vel<br>minha emancipa&#xE7;&#xE3;o estava declarada</p><p>Deixei de ser amigo do Lu<br>T&#xF4; sempre pegando o resto de algu&#xE9;m</p><p></p><div class="kg-card kg-cta-card kg-cta-bg-blue kg-cta-minimal    " data-layout="minimal">
-            
-                <div class="kg-cta-sponsor-label-wrapper">
-                    <div class="kg-cta-sponsor-label">
-                        <span style="white-space: pre-wrap;">BEDA</span>
-                    </div>
-                </div>
-            
-            <div class="kg-cta-content">
-                
-                
-                    <div class="kg-cta-content-inner">
-                    
-                        <div class="kg-cta-text">
-                            <p dir="ltr"><span style="white-space: pre-wrap;">Fazia tempo que eu n&#xE3;o publicava poesia. Lembrei desse rascunho e, pra ele n&#xE3;o ficar esperando alguns anos, resolvi publicar do jeito que est&#xE1; como miss&#xE3;o da semana do </span><a href="https://entreblogs.com.br/beda/2026?ref=cosmoliko.com" class="cta-link-color"><span style="white-space: pre-wrap;">BEDA</span></a><span style="white-space: pre-wrap;">. A inspira&#xE7;&#xE3;o foi outro poema que segue o mesmo formato (com outro tema), cujo autor desconhe&#xE7;o e nunca mais vi.</span></p>
-                        </div>
-                    
-                    
-                    </div>
-                
-            </div>
-        </div>]]></description>
-  </item>
-
-  <item>
     <title>Leandro Maciel — </title>
     <link>https://leandromaciel.blog/2026/08/02/timo-trecho-de-um-artigo.html</link>
     <guid isPermaLink="true">https://leandromaciel.blog/2026/08/02/timo-trecho-de-um-artigo.html</guid>
@@ -15471,6 +16035,145 @@ O meme não tem regras, aparentemente. Achei esse rascunho mofando, então vai s
   e que eu mais achei que fazia sentido com meu momento atual — se bem que eu
   estou sempre falando do quanto eu sou apaixonada pelas coisas, ou acho
   importante se apaixonar por viver. depressivos também amam, etc etc!!! também ando bem apaixonada por estar perto de amandinha não nos últimos tempos — deitar junto na cama e ficar falando abobrinha junto é bom demais :^) e vocês, andam se apaixonando por alguma coisa por aí?</p>
+]]></description>
+  </item>
+
+  <item>
+    <title>JENIFFER GERALDINE — As coisas boas de julho/2026</title>
+    <link>https://jeniffergeraldine.com/as-coisas-boas-de-julho-2026/</link>
+    <guid isPermaLink="true">https://jeniffergeraldine.com/as-coisas-boas-de-julho-2026/</guid>
+    <pubDate>Sat, 01 Aug 2026 15:23:26 GMT</pubDate>
+    <description><![CDATA[
+<p class="wp-block-paragraph">É tempo de lembrar/compartilhar as coisas boas de julho/2026!</p>
+
+
+
+<p class="wp-block-paragraph"><strong>Passear por Igatu (Chapada Diamantina/BA)</strong> | Uma curiosidade: Igatu ganhou mais notoriedade depois que divulgaram que algumas cenas do filme <strong>O filho de mil homens</strong> (Netflix) foram gravadas por lá! </p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/igatu_jeniffergeraldine_2026-scaled.jpeg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="768" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/igatu_jeniffergeraldine_2026.jpeg?resize=768%2C1024&#038;ssl=1" alt="" class="wp-image-20266" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/igatu_jeniffergeraldine_2026-scaled.jpeg?resize=768%2C1024&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/igatu_jeniffergeraldine_2026-scaled.jpeg?resize=225%2C300&amp;ssl=1 225w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/igatu_jeniffergeraldine_2026-scaled.jpeg?resize=1152%2C1536&amp;ssl=1 1152w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/igatu_jeniffergeraldine_2026-scaled.jpeg?resize=1536%2C2048&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/igatu_jeniffergeraldine_2026-scaled.jpeg?w=1920&amp;ssl=1 1920w" sizes="auto, (max-width: 768px) 100vw, 768px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph"><br><strong>Ter arte e incenso da Chapada aqui em casa</strong> | A arte do pôr do sol é de um artista local chamado Robson</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/arte_jeniffergeraldine-1.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/arte_jeniffergeraldine-1.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20269" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/arte_jeniffergeraldine-1.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/arte_jeniffergeraldine-1.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/arte_jeniffergeraldine-1.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/arte_jeniffergeraldine-1.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/arte_jeniffergeraldine-1.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph"><br><strong>Saborear um delicioso licor caseiro direto do <a href="https://www.instagram.com/sitiodogalera/" target="_blank" rel="noreferrer noopener">Sítio do Galera</a> (Chapada Diamantina)</strong></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/licor_amora_sitiodogalera_blog_jeniffergeraldine-scaled.jpeg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="576" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/licor_amora_sitiodogalera_blog_jeniffergeraldine.jpeg?resize=576%2C1024&#038;ssl=1" alt="" class="wp-image-20268" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/licor_amora_sitiodogalera_blog_jeniffergeraldine-scaled.jpeg?resize=576%2C1024&amp;ssl=1 576w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/licor_amora_sitiodogalera_blog_jeniffergeraldine-scaled.jpeg?resize=169%2C300&amp;ssl=1 169w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/licor_amora_sitiodogalera_blog_jeniffergeraldine-scaled.jpeg?resize=768%2C1365&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/licor_amora_sitiodogalera_blog_jeniffergeraldine-scaled.jpeg?resize=864%2C1536&amp;ssl=1 864w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/licor_amora_sitiodogalera_blog_jeniffergeraldine-scaled.jpeg?resize=1152%2C2048&amp;ssl=1 1152w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/licor_amora_sitiodogalera_blog_jeniffergeraldine-scaled.jpeg?w=1440&amp;ssl=1 1440w" sizes="auto, (max-width: 576px) 100vw, 576px" /></a></figure>
+</div>
+
+
+<p class="wp-block-paragraph"><strong>Comemorar o início de mais um ano novo pessoal </strong>| Meu aniversário foi no dia 8 de julho <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jg_julho_2026.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="819" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jg_julho_2026.png?resize=1024%2C819&#038;ssl=1" alt="" class="wp-image-20270" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jg_julho_2026.png?resize=1024%2C819&amp;ssl=1 1024w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jg_julho_2026.png?resize=300%2C240&amp;ssl=1 300w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jg_julho_2026.png?resize=768%2C614&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jg_julho_2026.png?resize=1536%2C1229&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jg_julho_2026.png?w=2000&amp;ssl=1 2000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Terça-feira, 14 de julho de 2026, no meio do caminho tinha um gato</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/gato_alagoinhas_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/gato_alagoinhas_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20271" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/gato_alagoinhas_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/gato_alagoinhas_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/gato_alagoinhas_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/gato_alagoinhas_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/gato_alagoinhas_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/gato2_alagoinhas_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/gato2_alagoinhas_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20272" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/gato2_alagoinhas_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/gato2_alagoinhas_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/gato2_alagoinhas_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/gato2_alagoinhas_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/gato2_alagoinhas_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Um mês com várias voltas literária pela região nordeste</strong> | <a href="https://amzn.to/4yJFbNQ" target="_blank" rel="noreferrer noopener">A palavra que resta</a> foi o meu favorito!</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/apalavraqueresta_blog_jeniffergeraldine-scaled.jpeg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="576" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/apalavraqueresta_blog_jeniffergeraldine.jpeg?resize=576%2C1024&#038;ssl=1" alt="" class="wp-image-20279" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/apalavraqueresta_blog_jeniffergeraldine-scaled.jpeg?resize=576%2C1024&amp;ssl=1 576w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/apalavraqueresta_blog_jeniffergeraldine-scaled.jpeg?resize=169%2C300&amp;ssl=1 169w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/apalavraqueresta_blog_jeniffergeraldine-scaled.jpeg?resize=768%2C1365&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/apalavraqueresta_blog_jeniffergeraldine-scaled.jpeg?resize=864%2C1536&amp;ssl=1 864w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/apalavraqueresta_blog_jeniffergeraldine-scaled.jpeg?resize=1152%2C2048&amp;ssl=1 1152w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/apalavraqueresta_blog_jeniffergeraldine-scaled.jpeg?w=1440&amp;ssl=1 1440w" sizes="auto, (max-width: 576px) 100vw, 576px" /></a></figure>
+</div>
+
+
+<p class="wp-block-paragraph"><strong>Livros novos: presentes, comprados e recebidos</strong></p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/coracaosemmedo_blogjeniffergeraldine-scaled.jpeg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="768" height="1024" data-id="20274" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/coracaosemmedo_blogjeniffergeraldine.jpeg?resize=768%2C1024&#038;ssl=1" alt="" class="wp-image-20274" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/coracaosemmedo_blogjeniffergeraldine-scaled.jpeg?resize=768%2C1024&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/coracaosemmedo_blogjeniffergeraldine-scaled.jpeg?resize=225%2C300&amp;ssl=1 225w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/coracaosemmedo_blogjeniffergeraldine-scaled.jpeg?resize=1152%2C1536&amp;ssl=1 1152w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/coracaosemmedo_blogjeniffergeraldine-scaled.jpeg?resize=1536%2C2048&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/coracaosemmedo_blogjeniffergeraldine-scaled.jpeg?w=1920&amp;ssl=1 1920w" sizes="auto, (max-width: 768px) 100vw, 768px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/minhasqueridas-blog_jeniffergeraldine-scaled.jpeg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="768" height="1024" data-id="20276" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/minhasqueridas-blog_jeniffergeraldine.jpeg?resize=768%2C1024&#038;ssl=1" alt="" class="wp-image-20276" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/minhasqueridas-blog_jeniffergeraldine-scaled.jpeg?resize=768%2C1024&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/minhasqueridas-blog_jeniffergeraldine-scaled.jpeg?resize=225%2C300&amp;ssl=1 225w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/minhasqueridas-blog_jeniffergeraldine-scaled.jpeg?resize=1152%2C1536&amp;ssl=1 1152w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/minhasqueridas-blog_jeniffergeraldine-scaled.jpeg?resize=1536%2C2048&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/minhasqueridas-blog_jeniffergeraldine-scaled.jpeg?w=1920&amp;ssl=1 1920w" sizes="auto, (max-width: 768px) 100vw, 768px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/recebidos_companhiadasletras.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="576" height="1024" data-id="20275" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/recebidos_companhiadasletras.png?resize=576%2C1024&#038;ssl=1" alt="" class="wp-image-20275" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/recebidos_companhiadasletras.png?resize=576%2C1024&amp;ssl=1 576w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/recebidos_companhiadasletras.png?resize=169%2C300&amp;ssl=1 169w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/recebidos_companhiadasletras.png?resize=768%2C1365&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/recebidos_companhiadasletras.png?resize=864%2C1536&amp;ssl=1 864w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/recebidos_companhiadasletras.png?w=1080&amp;ssl=1 1080w" sizes="auto, (max-width: 576px) 100vw, 576px" /></a></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Voltar a me dedicar à produção da tese (doutorado)</strong></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/doutorado_jeniffergeraldine-scaled.jpg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="576" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/doutorado_jeniffergeraldine.jpg?resize=576%2C1024&#038;ssl=1" alt="" class="wp-image-20277" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/doutorado_jeniffergeraldine-scaled.jpg?resize=576%2C1024&amp;ssl=1 576w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/doutorado_jeniffergeraldine-scaled.jpg?resize=169%2C300&amp;ssl=1 169w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/doutorado_jeniffergeraldine-scaled.jpg?resize=768%2C1365&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/doutorado_jeniffergeraldine-scaled.jpg?resize=864%2C1536&amp;ssl=1 864w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/doutorado_jeniffergeraldine-scaled.jpg?resize=1152%2C2048&amp;ssl=1 1152w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/doutorado_jeniffergeraldine-scaled.jpg?w=1440&amp;ssl=1 1440w" sizes="auto, (max-width: 576px) 100vw, 576px" /></a></figure>
+</div>
+
+
+<p class="wp-block-paragraph"><strong>Gente que presenteia com arte e papelaria artesanal </strong></p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/papelariaartesanal_-1-scaled.jpeg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="768" height="1024" data-id="20281" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/papelariaartesanal_-1.jpeg?resize=768%2C1024&#038;ssl=1" alt="" class="wp-image-20281" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/papelariaartesanal_-1-scaled.jpeg?resize=768%2C1024&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/papelariaartesanal_-1-scaled.jpeg?resize=225%2C300&amp;ssl=1 225w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/papelariaartesanal_-1-scaled.jpeg?resize=1152%2C1536&amp;ssl=1 1152w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/papelariaartesanal_-1-scaled.jpeg?resize=1536%2C2048&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/papelariaartesanal_-1-scaled.jpeg?w=1920&amp;ssl=1 1920w" sizes="auto, (max-width: 768px) 100vw, 768px" /></a></figure>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/artechapada_blog_jeniffergeraldine-scaled.jpeg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="579" height="1024" data-id="20280" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/artechapada_blog_jeniffergeraldine.jpeg?resize=579%2C1024&#038;ssl=1" alt="" class="wp-image-20280" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/artechapada_blog_jeniffergeraldine-scaled.jpeg?resize=579%2C1024&amp;ssl=1 579w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/artechapada_blog_jeniffergeraldine-scaled.jpeg?resize=170%2C300&amp;ssl=1 170w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/artechapada_blog_jeniffergeraldine-scaled.jpeg?resize=768%2C1359&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/artechapada_blog_jeniffergeraldine-scaled.jpeg?resize=868%2C1536&amp;ssl=1 868w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/artechapada_blog_jeniffergeraldine-scaled.jpeg?resize=1157%2C2048&amp;ssl=1 1157w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/artechapada_blog_jeniffergeraldine-scaled.jpeg?w=1447&amp;ssl=1 1447w" sizes="auto, (max-width: 579px) 100vw, 579px" /></a></figure>
+</figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Encontro do <a href="https://www.instagram.com/p/DbPMoczjpj2/?img_index=1" target="_blank" rel="noreferrer noopener">Clube do Livro Alagoinhas</a> em 25 de julho de 2026</strong> | Edição do projeto Uma volta literária nas regiões do Brasil: Nordeste</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/clubedolivroalagoinhas_julho_2026-scaled.jpg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="768" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/clubedolivroalagoinhas_julho_2026.jpg?resize=1024%2C768&#038;ssl=1" alt="" class="wp-image-20282" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/clubedolivroalagoinhas_julho_2026-scaled.jpg?resize=1024%2C768&amp;ssl=1 1024w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/clubedolivroalagoinhas_julho_2026-scaled.jpg?resize=300%2C225&amp;ssl=1 300w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/clubedolivroalagoinhas_julho_2026-scaled.jpg?resize=768%2C576&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/clubedolivroalagoinhas_julho_2026-scaled.jpg?resize=1536%2C1152&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/clubedolivroalagoinhas_julho_2026-scaled.jpg?resize=2048%2C1536&amp;ssl=1 2048w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldine_julho_2026.jpg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="526" height="701" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldine_julho_2026.jpg?resize=526%2C701&#038;ssl=1" alt="" class="wp-image-20283" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldine_julho_2026.jpg?w=526&amp;ssl=1 526w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/jeniffergeraldine_julho_2026.jpg?resize=225%2C300&amp;ssl=1 225w" sizes="auto, (max-width: 526px) 100vw, 526px" /></a><figcaption class="wp-element-caption">Fernanda: &#8220;Tirando foto de quem sempre está por trás das câmeras&#8221;.</figcaption></figure>
+</div>
+
+
+<p class="wp-block-paragraph"><strong>Um trecho da Poesia Orí, do livro <a href="https://amzn.to/455VM0O" target="_blank" rel="noreferrer noopener">Mulher raio</a>, da Cândida Andrade Moraes</strong> | Encontrei no livro <a href="https://amzn.to/4g71FB3" target="_blank" rel="noreferrer noopener">Comunicação Antirracista</a>, de Midiã Noelle</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/poesiaori_blog_jeniffergeraldine-scaled.jpeg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="576" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/poesiaori_blog_jeniffergeraldine.jpeg?resize=576%2C1024&#038;ssl=1" alt="" class="wp-image-20284" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/poesiaori_blog_jeniffergeraldine-scaled.jpeg?resize=576%2C1024&amp;ssl=1 576w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/poesiaori_blog_jeniffergeraldine-scaled.jpeg?resize=169%2C300&amp;ssl=1 169w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/poesiaori_blog_jeniffergeraldine-scaled.jpeg?resize=768%2C1365&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/poesiaori_blog_jeniffergeraldine-scaled.jpeg?resize=864%2C1536&amp;ssl=1 864w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/poesiaori_blog_jeniffergeraldine-scaled.jpeg?resize=1152%2C2048&amp;ssl=1 1152w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/08/poesiaori_blog_jeniffergeraldine-scaled.jpeg?w=1440&amp;ssl=1 1440w" sizes="auto, (max-width: 576px) 100vw, 576px" /></a></figure>
+</div>
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<p class="wp-block-paragraph">E como foi julho por aí?</p>
+
+
+
+<p class="wp-block-paragraph">Bom agosto para nós! </p>
+
+
+
+<p class="wp-block-paragraph"></p>
+<p>O post <a href="https://jeniffergeraldine.com/as-coisas-boas-de-julho-2026/">As coisas boas de julho/2026</a> apareceu primeiro em <a href="https://jeniffergeraldine.com">Jeniffer Geraldine | Vida &amp; Cultura</a>.</p>
 ]]></description>
   </item>
 
@@ -17174,6 +17877,67 @@ Se vocês já assistiram a esse filme, me contem o que acharam!&nbsp;<div>Eu ado
   </item>
 
   <item>
+    <title>JENIFFER GERALDINE — A palavra que resta, O Segredo de Widow’s Bay e mais séries e livros</title>
+    <link>https://jeniffergeraldine.com/a-palavra-que-resta-o-segredo-de-widows-bay-e-mais-series-e-livros/</link>
+    <guid isPermaLink="true">https://jeniffergeraldine.com/a-palavra-que-resta-o-segredo-de-widows-bay-e-mais-series-e-livros/</guid>
+    <pubDate>Sat, 18 Jul 2026 19:07:33 GMT</pubDate>
+    <description><![CDATA[
+<p class="wp-block-paragraph">Oie! Tudo bem por aí? Hoje estou aqui para abrir o caderno e compartilhar <strong>3 séries, 3 leituras e alguns livros novos</strong>.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="A palavra que resta, O Segredo de Widow’s Bay e mais séries e livros • Jeniffer Geraldine" width="500" height="281" src="https://www.youtube.com/embed/_--wqQ0wZD4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p class="wp-block-paragraph"><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/25b6.png" alt="▶" class="wp-smiley" style="height: 1em; max-height: 1em;" /> <strong>Neste vídeo</strong>:</p>
+
+
+
+<p class="wp-block-paragraph">Série &#8211; Ainda vou te encontrar (Netflix)</p>
+
+
+
+<p class="wp-block-paragraph">Série &#8211; O Segredo de Widow&#8217;s Bay (Apple TV)</p>
+
+
+
+<p class="wp-block-paragraph">Série &#8211; Acima de qualquer suspeita (Apple TV)</p>
+
+
+
+<p class="wp-block-paragraph">Livro &#8211; <a href="https://link.amazon/B0efGjiqq" target="_blank" rel="noreferrer noopener">Primeiro eu tive que morrer</a></p>
+
+
+
+<p class="wp-block-paragraph">Livro &#8211; <a href="https://link.amazon/B06fNJxqZ" target="_blank" rel="noreferrer noopener">Ladeira da preguiça</a></p>
+
+
+
+<p class="wp-block-paragraph">Livro &#8211; <a href="https://link.amazon/B04r2HgJU" target="_blank" rel="noreferrer noopener">A palavra que resta</a></p>
+
+
+
+<p class="wp-block-paragraph">Livro &#8211; <a href="https://link.amazon/B0el9rWzY" target="_blank" rel="noreferrer noopener">Água fresca para as flores</a></p>
+
+
+
+<p class="wp-block-paragraph">Livro &#8211; <a href="https://link.amazon/B078h10wg" target="_blank" rel="noreferrer noopener">Capitalismo da atenção</a></p>
+
+
+
+<p class="wp-block-paragraph">Até mais!</p>
+
+
+
+<p class="wp-block-paragraph"></p>
+<p>O post <a href="https://jeniffergeraldine.com/a-palavra-que-resta-o-segredo-de-widows-bay-e-mais-series-e-livros/">A palavra que resta, O Segredo de Widow’s Bay e mais séries e livros</a> apareceu primeiro em <a href="https://jeniffergeraldine.com">Jeniffer Geraldine | Vida &amp; Cultura</a>.</p>
+]]></description>
+  </item>
+
+  <item>
     <title>✶ — [tag] 10 curiosidades sobre mim </title>
     <link>https://kxthar.blogspot.com/2026/06/tag-10-curiosidades-sobre-mim.html</link>
     <guid isPermaLink="true">https://kxthar.blogspot.com/2026/06/tag-10-curiosidades-sobre-mim.html</guid>
@@ -17438,6 +18202,97 @@ Até a próxima!
   </item>
 
   <item>
+    <title>JENIFFER GERALDINE — As coisas boas de junho/2026</title>
+    <link>https://jeniffergeraldine.com/as-coisas-boas-de-junho-2026/</link>
+    <guid isPermaLink="true">https://jeniffergeraldine.com/as-coisas-boas-de-junho-2026/</guid>
+    <pubDate>Thu, 16 Jul 2026 22:21:03 GMT</pubDate>
+    <description><![CDATA[
+<p class="wp-block-paragraph">É tempo de lembrar/compartilhar as coisas boas de junho/2026!<br></p>
+
+
+
+<p class="wp-block-paragraph"><strong>Finalizar o 2026.1 do trabalho como professora com uma <a href="https://jeniffergeraldine.com/notas-da-professora-pesquisadora-feira-de-troca-de-livros-e-orientacao-de-tcc/" target="_blank" rel="noreferrer noopener">defesa excelente de TCC</a></strong></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/defesa_tcc_adm_fsss_junho2026.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="819" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/defesa_tcc_adm_fsss_junho2026.png?resize=1024%2C819&#038;ssl=1" alt="" class="wp-image-20223" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/defesa_tcc_adm_fsss_junho2026.png?resize=1024%2C819&amp;ssl=1 1024w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/defesa_tcc_adm_fsss_junho2026.png?resize=300%2C240&amp;ssl=1 300w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/defesa_tcc_adm_fsss_junho2026.png?resize=768%2C614&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/defesa_tcc_adm_fsss_junho2026.png?resize=1536%2C1229&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/defesa_tcc_adm_fsss_junho2026.png?w=2000&amp;ssl=1 2000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph"><strong>A trezena de Santo Antônio da minha cidade</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/trezenadesantoantonio_blog_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="819" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/trezenadesantoantonio_blog_jeniffergeraldine.png?resize=1024%2C819&#038;ssl=1" alt="" class="wp-image-20237" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/trezenadesantoantonio_blog_jeniffergeraldine.png?resize=1024%2C819&amp;ssl=1 1024w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/trezenadesantoantonio_blog_jeniffergeraldine.png?resize=300%2C240&amp;ssl=1 300w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/trezenadesantoantonio_blog_jeniffergeraldine.png?resize=768%2C614&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/trezenadesantoantonio_blog_jeniffergeraldine.png?resize=1536%2C1229&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/trezenadesantoantonio_blog_jeniffergeraldine.png?w=2000&amp;ssl=1 2000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Entrar no clima da copa e torcer para nossa seleção hipotética </strong></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/jeniffergeraldine_junho2026.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="819" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/jeniffergeraldine_junho2026.png?resize=1024%2C819&#038;ssl=1" alt="" class="wp-image-20238" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/jeniffergeraldine_junho2026.png?resize=1024%2C819&amp;ssl=1 1024w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/jeniffergeraldine_junho2026.png?resize=300%2C240&amp;ssl=1 300w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/jeniffergeraldine_junho2026.png?resize=768%2C614&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/jeniffergeraldine_junho2026.png?resize=1536%2C1229&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/jeniffergeraldine_junho2026.png?w=2000&amp;ssl=1 2000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Comer comida gostosa com amigos e comemorar mais um mesversário de AnaB</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/comidas_blog_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="819" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/comidas_blog_jeniffergeraldine.png?resize=1024%2C819&#038;ssl=1" alt="" class="wp-image-20239" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/comidas_blog_jeniffergeraldine.png?resize=1024%2C819&amp;ssl=1 1024w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/comidas_blog_jeniffergeraldine.png?resize=300%2C240&amp;ssl=1 300w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/comidas_blog_jeniffergeraldine.png?resize=768%2C614&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/comidas_blog_jeniffergeraldine.png?resize=1536%2C1229&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/comidas_blog_jeniffergeraldine.png?w=2000&amp;ssl=1 2000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Encontro de junho de 2026 do Clube do Livro Alagoinhas</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/clubedolivroalagoinhas_junho_2026-scaled.jpeg?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="768" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/clubedolivroalagoinhas_junho_2026.jpeg?resize=768%2C1024&#038;ssl=1" alt="" class="wp-image-20240" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/clubedolivroalagoinhas_junho_2026-scaled.jpeg?resize=768%2C1024&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/clubedolivroalagoinhas_junho_2026-scaled.jpeg?resize=225%2C300&amp;ssl=1 225w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/clubedolivroalagoinhas_junho_2026-scaled.jpeg?resize=1152%2C1536&amp;ssl=1 1152w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/clubedolivroalagoinhas_junho_2026-scaled.jpeg?resize=1536%2C2048&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/clubedolivroalagoinhas_junho_2026-scaled.jpeg?w=1920&amp;ssl=1 1920w" sizes="auto, (max-width: 768px) 100vw, 768px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Melhor época do ano em dobro &#8211; Copa no São João | Receber amigos em casa e ir na casa dos amigos #saudades</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/saojoao_copa2026_blogjeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="819" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/saojoao_copa2026_blogjeniffergeraldine.png?resize=1024%2C819&#038;ssl=1" alt="" class="wp-image-20241" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/saojoao_copa2026_blogjeniffergeraldine.png?resize=1024%2C819&amp;ssl=1 1024w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/saojoao_copa2026_blogjeniffergeraldine.png?resize=300%2C240&amp;ssl=1 300w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/saojoao_copa2026_blogjeniffergeraldine.png?resize=768%2C614&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/saojoao_copa2026_blogjeniffergeraldine.png?resize=1536%2C1229&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/saojoao_copa2026_blogjeniffergeraldine.png?w=2000&amp;ssl=1 2000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Finalizar a série principal de Off Campus</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/leituras_junho_2026_blog_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="819" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/leituras_junho_2026_blog_jeniffergeraldine.png?resize=1024%2C819&#038;ssl=1" alt="" class="wp-image-20242" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/leituras_junho_2026_blog_jeniffergeraldine.png?resize=1024%2C819&amp;ssl=1 1024w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/leituras_junho_2026_blog_jeniffergeraldine.png?resize=300%2C240&amp;ssl=1 300w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/leituras_junho_2026_blog_jeniffergeraldine.png?resize=768%2C614&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/leituras_junho_2026_blog_jeniffergeraldine.png?resize=1536%2C1229&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/leituras_junho_2026_blog_jeniffergeraldine.png?w=2000&amp;ssl=1 2000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph"><strong>A preguiça de Nino</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/nino_blog_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="576" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/nino_blog_jeniffergeraldine.png?resize=576%2C1024&#038;ssl=1" alt="" class="wp-image-20244" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/nino_blog_jeniffergeraldine.png?resize=576%2C1024&amp;ssl=1 576w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/nino_blog_jeniffergeraldine.png?resize=169%2C300&amp;ssl=1 169w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/nino_blog_jeniffergeraldine.png?resize=768%2C1365&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/nino_blog_jeniffergeraldine.png?resize=864%2C1536&amp;ssl=1 864w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/nino_blog_jeniffergeraldine.png?w=1152&amp;ssl=1 1152w" sizes="auto, (max-width: 576px) 100vw, 576px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Viajar para Mucugê e Igatu (Chapada Diamantina/BA)</strong></p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/mucuge_ba_foto_jeniffergeraldine.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="731" height="1024" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/mucuge_ba_foto_jeniffergeraldine.png?resize=731%2C1024&#038;ssl=1" alt="" class="wp-image-20243" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/mucuge_ba_foto_jeniffergeraldine.png?resize=731%2C1024&amp;ssl=1 731w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/mucuge_ba_foto_jeniffergeraldine.png?resize=214%2C300&amp;ssl=1 214w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/mucuge_ba_foto_jeniffergeraldine.png?resize=768%2C1075&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/mucuge_ba_foto_jeniffergeraldine.png?resize=1097%2C1536&amp;ssl=1 1097w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/mucuge_ba_foto_jeniffergeraldine.png?w=1200&amp;ssl=1 1200w" sizes="auto, (max-width: 731px) 100vw, 731px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph">E como foi junho por aí?</p>
+
+
+
+<p class="wp-block-paragraph">Bom julho para nós! </p>
+<p>O post <a href="https://jeniffergeraldine.com/as-coisas-boas-de-junho-2026/">As coisas boas de junho/2026</a> apareceu primeiro em <a href="https://jeniffergeraldine.com">Jeniffer Geraldine | Vida &amp; Cultura</a>.</p>
+]]></description>
+  </item>
+
+  <item>
     <title>DAILY SOH — TAG dos 50% — 2026 </title>
     <link>https://dailysoh.blogspot.com/2026/07/tag-dos-50-2026.html</link>
     <guid isPermaLink="true">https://dailysoh.blogspot.com/2026/07/tag-dos-50-2026.html</guid>
@@ -17552,6 +18407,61 @@ Até a próxima!
     <guid isPermaLink="true">https://quaseaurora.blogspot.com/2026/07/euescrevopraservista.html</guid>
     <pubDate>Tue, 14 Jul 2026 22:41:36 GMT</pubDate>
     <description><![CDATA[<p style="text-align: justify;"><i>"A melhor parte de escrever é descobrir que tem alguém do outro lado lendo"</i>. Li essa frase em uma nota da <b><span style="color: #f6b26b;"><a href="https://substack.com/@biibiblioteca" target="_blank">Bee</a>&nbsp;</span></b>no Substack. Fazia tempos que não entrava lá e nem tenho acompanhado com afinco as news que recebo por e-mail. Bateu um cansaço pela leitura, sabe?</p><p></p><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijPME5zn0zP-AhZpk2uvfXDu0yv-_ZpVWCXUGM2Zy9C_esHQO-GLZwNK3Db7EbQp7tAwGDedzSajx4DKSZ7oxgJsUfe9HFDN05m3CtjDtkP0Fem5W3O21nQfTfEqCQ456h0vj4V_vw3f6KMaUltuVcjm-gD_Er2OZ-ux9xF9zC7sIk_YAXdXSBEvN_zU-T/s4077/national-gallery-of-art-2UqlLMEDwmQ-unsplash.jpg" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="3217" data-original-width="4077" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijPME5zn0zP-AhZpk2uvfXDu0yv-_ZpVWCXUGM2Zy9C_esHQO-GLZwNK3Db7EbQp7tAwGDedzSajx4DKSZ7oxgJsUfe9HFDN05m3CtjDtkP0Fem5W3O21nQfTfEqCQ456h0vj4V_vw3f6KMaUltuVcjm-gD_Er2OZ-ux9xF9zC7sIk_YAXdXSBEvN_zU-T/s1600/national-gallery-of-art-2UqlLMEDwmQ-unsplash.jpg" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><a href="Foto de &lt;a href=&quot;https://unsplash.com/pt-br/@nationalgallery?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;National Gallery of Art&lt;/a&gt; na &lt;a href=&quot;https://unsplash.com/pt-br/fotografias/um-vaso-de-rosas-brancas-sobre-fundo-verde-2UqlLMEDwmQ?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;       " target="_blank">imagem</a></td></tr></tbody></table><p></p><p style="text-align: justify;">Tenho refletido bastante nos últimos meses sobre os motivos que me levam a criar algo, principalmente sobre escrever neste espaço. Sendo bem honesta, como sempre sou, <i>eu escrevo para ser vista</i>. Oculto são apenas meus diários.</p><p style="text-align: justify;">Eu gosto de criar e sei que isso faz parte de mim assim como as crises que acompanham esse processo. Porém, escrever e achar que não tem ninguém para ler é algo que me incomoda. E isso parte de um sentimento: <i>tudo bem me acharem feia, mas burra já é demais.</i></p><p style="text-align: justify;">Sim, pode parecer algo superficial, mas dói minha alma quando penso que as pessoas podem achar minha escrita vazia e irrelevante ao ponto de pensarem que sou burra.</p><p style="text-align: justify;">Mas veja bem, não quero e nem tento ser a pessoa mais inteligente. Não me comparo com grandes escritoras ou blogueiras – não me aproximo nem da sombra delas. E quando sonho, minha imaginação não me leva para o ambiente da comparação, mas ao desejo de que as pessoas no futuro falem <i>"esse é o jeito Karina de escrever/ a Karina tem uma característica que é só dela"</i>.&nbsp;</p><p style="text-align: justify;">São muitos anos escrevendo, mas não tenho ~ainda~ a confiança de que já me encontrei nesse ponto. Só espero que estas palavras sejam suficientemente boas.</p><p style="text-align: center;">★</p><p style="text-align: justify;">Minhas reflexões me levaram para esse lugar porque bisbilhotei tudo que escrevi ao longo desses 10 anos e, sei lá por qual motivo, analisei as visualizações dos posts dos primeiros anos. Quando algo não desempenhava bem, eu ficava ali entre 300-800 leituras por posts. Hoje em dia...&nbsp;</p><p style="text-align: justify;">Parte de mim quer sentir vergonha, mas a outra parte me traz a clareza de que os tempos são outros e as pessoas não leem mais como antigamente, ainda mais se tratando de blogs. Infelizmente há um pensamento de que eles morreram – e sempre que navego pela&nbsp;<i>world wide web</i>, deixo minha manifestação nos comentários de que isso é mentira. Eu ainda estou aqui, assim como meus colegas do <a href="https://entreblogs.com.br/" target="_blank"><b>entreblogs</b></a> e muitos outros blogueiros que ainda não conheço.</p><p style="text-align: justify;">E independente do que acham ou deixam de achar sobre blogs, faço ser necessário que minha régua do passado não seja a mesma de agora, pois, assim como os leitores passaram por mudanças, adaptações e amadurecimentos que já não conversam mais com o passado, eu também.</p><p style="text-align: justify;">Enfimmmm...</p><p style="text-align: justify;">Antes de escrever aqui, saibam que maturei por muito tempo. Sou uma criatura melancólica, então tenho esse jeito de passar semanas, meses e até mesmo um ano inteiro processando algo antes de vir escrever/desabafar sobre. Às vezes acontece de vomitar as palavras quando elas mal chegaram ao estômago? Sim, mas é raro.&nbsp;</p><p style="text-align: justify;">Encontrei a paz sobre tudo isso e chego à conclusão de que construir uma comunidade é muito mais legal. Além disso, ainda que sejam poucas, tem gente que gosta do Quase Aurora e se não fosse esse o caso, nem visitas eu receberia, correto?&nbsp;</p><p style="text-align: justify;">E como falei para uma das minhas melhores amigas, <i>o blog é meu maior e mais antigo portfólio</i>. Isso daqui nasceu de um hobby, se tornou uma escola de escrita e criatividade pessoal, mas também já me garantiu uma vaga de emprego! E atualmente é meu relacionamento mais antigo, meu xodó. Posso abrir mão do Instagram, mas não abro mão daqui de forma alguma.</p><p style="text-align: center;">★</p><p style="text-align: justify;">Agora que já estou navegando por mares tranquilos e contemplo a terra firme, posso dizer que estou serena com o ato de voltar a escrever sem me prender em paranoias descabidas. O que mais importa é que tem gente aí do outro que&nbsp;<i>talvez não me ache burra kkkk</i>.</p><p style="text-align: justify;">No fim, acho que preciso seguir o conselho de uma das personagens da Ali Hazelwood em A Hipótese do Amor:&nbsp;<i>"Tenha a mesma confiança que um homem branco medíocre".</i></p>]]></description>
+  </item>
+
+  <item>
+    <title>JENIFFER GERALDINE — Notas da professora-pesquisadora: feira de troca de livros e orientação de TCC</title>
+    <link>https://jeniffergeraldine.com/notas-da-professora-pesquisadora-feira-de-troca-de-livros-e-orientacao-de-tcc/</link>
+    <guid isPermaLink="true">https://jeniffergeraldine.com/notas-da-professora-pesquisadora-feira-de-troca-de-livros-e-orientacao-de-tcc/</guid>
+    <pubDate>Tue, 14 Jul 2026 22:13:11 GMT</pubDate>
+    <description><![CDATA[
+<p class="wp-block-paragraph">No meio das férias da rotina de professora, venho aqui para compartilhar dois destaques do meu 1º semestre nessa área da vida: a Feira de Troca de Livros como projeto de extensão e orientação de TCC no curso de Administração sobre liderança negra.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>6ª Feira de Troca de Livros</strong></h2>
+
+
+
+<p class="wp-block-paragraph">A <strong>Troca de Livros</strong> é uma ação do <a href="https://jeniffergeraldine.com/projeto-clube-do-livro-alagoinhas/" target="_blank" rel="noreferrer noopener">Clube do Livro Alagoinhas</a> que acontece desde setembro de 2019. Mas realizar um evento como esse demanda tempo, energia, espaço e colaboração, porque é um projeto com caráter social e voluntário. Paramos um tempo de realizar, principalmente, por falta de espaço e de pessoas.</p>
+
+
+
+<p class="wp-block-paragraph">Em 2026, resolvi juntar o projeto social com o meu trabalho CLT, transformando <strong>a Troca de Livros em ação de extensão universitária</strong>. Foi uma das melhores decisões que tomei. Aproximou ainda mais a minha atuação como professora-pesquisadora da prática comunitária, otimizou meu tempo e me trouxe uma paz maravilhosa. A edição de 2026, realizada em 26 de maio, já como projeto de extensão, envolveu estudantes dos 1º e 6º semestres de Administração, além dos 1º e 2º semestres de Ciências Contábeis. E a experiência foi extremamente positiva. Fiquei muito feliz com o envolvimento dos(as) alunos(as) e tivemos uma estrutura confortável e segura ao utilizar as instalações da faculdade. Também contamos com a colaboração do profissional de logística e eventos da faculdade, Dariel Ramos, da coordenação de Administração, professor Edvan Souza, de colegas docentes de ADM &#8211; professora Lorenna Mattos e professor Tailson Paim, e de todos os funcionários de apoio da FSSS.</p>
+
+
+
+<p class="wp-block-paragraph">Trocar livros significa desapegar daqueles títulos guardados e empoeirados em casa e fazer o exercício, nada fácil, de se perguntar: eu vou mesmo ler esse livro que comprei por impulso na black friday ou aquele que li quando tinha 20 anos? Mais do que isso, trocar livros é fazer circular novas ideias e se abrir para novas possibilidades de aventuras e conhecimento através da leitura.<br></p>
+
+
+
+<div class="wp-block-jetpack-tiled-gallery aligncenter is-style-rectangular"><div class=""><div class="tiled-gallery__gallery"><div class="tiled-gallery__row"><div class="tiled-gallery__col" style="flex-basis:39.00079%"><figure class="tiled-gallery__item"><img decoding="async" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros4_alagoinhas_maio2026-1024x768.jpg?strip=info&#038;w=600&#038;ssl=1 600w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros4_alagoinhas_maio2026-1024x768.jpg?strip=info&#038;w=900&#038;ssl=1 900w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros4_alagoinhas_maio2026-1024x768.jpg?strip=info&#038;w=1024&#038;ssl=1 1024w" alt="" data-height="960" data-id="20220" data-link="https://jeniffergeraldine.com/feiradetrocadelivros4_alagoinhas_maio2026/" data-url="https://jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros4_alagoinhas_maio2026-1024x768.jpg" data-width="1280" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros4_alagoinhas_maio2026-1024x768.jpg?ssl=1" data-amp-layout="responsive"/></figure></div><div class="tiled-gallery__col" style="flex-basis:21.99841%"><figure class="tiled-gallery__item"><img decoding="async" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros2_alagoinhas_maio2026-768x1024.jpg?strip=info&#038;w=600&#038;ssl=1 600w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros2_alagoinhas_maio2026-768x1024.jpg?strip=info&#038;w=768&#038;ssl=1 768w" alt="" data-height="1280" data-id="20218" data-link="https://jeniffergeraldine.com/feiradetrocadelivros2_alagoinhas_maio2026/" data-url="https://jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros2_alagoinhas_maio2026-768x1024.jpg" data-width="960" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros2_alagoinhas_maio2026-768x1024.jpg?ssl=1" data-amp-layout="responsive"/></figure></div><div class="tiled-gallery__col" style="flex-basis:39.00079%"><figure class="tiled-gallery__item"><img decoding="async" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros3_alagoinhas_maio2026-1024x768.jpeg?strip=info&#038;w=600&#038;ssl=1 600w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros3_alagoinhas_maio2026-1024x768.jpeg?strip=info&#038;w=900&#038;ssl=1 900w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros3_alagoinhas_maio2026-1024x768.jpeg?strip=info&#038;w=1024&#038;ssl=1 1024w" alt="" data-height="1920" data-id="20219" data-link="https://jeniffergeraldine.com/feiradetrocadelivros3_alagoinhas_maio2026/" data-url="https://jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros3_alagoinhas_maio2026-1024x768.jpeg" data-width="2560" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros3_alagoinhas_maio2026-1024x768.jpeg?ssl=1" data-amp-layout="responsive"/></figure></div></div><div class="tiled-gallery__row"><div class="tiled-gallery__col" style="flex-basis:63.77235%"><figure class="tiled-gallery__item"><img decoding="async" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros1_alagoinhas_maio2026-1024x768.jpg?strip=info&#038;w=600&#038;ssl=1 600w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros1_alagoinhas_maio2026-1024x768.jpg?strip=info&#038;w=900&#038;ssl=1 900w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros1_alagoinhas_maio2026-1024x768.jpg?strip=info&#038;w=1024&#038;ssl=1 1024w" alt="" data-height="960" data-id="20217" data-link="https://jeniffergeraldine.com/feiradetrocadelivros1_alagoinhas_maio2026/" data-url="https://jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros1_alagoinhas_maio2026-1024x768.jpg" data-width="1280" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros1_alagoinhas_maio2026-1024x768.jpg?ssl=1" data-amp-layout="responsive"/></figure></div><div class="tiled-gallery__col" style="flex-basis:36.22765%"><figure class="tiled-gallery__item"><img decoding="async" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros5_alagoinhas_maio2026-1024x768.jpg?strip=info&#038;w=600&#038;ssl=1 600w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros5_alagoinhas_maio2026-1024x768.jpg?strip=info&#038;w=900&#038;ssl=1 900w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros5_alagoinhas_maio2026-1024x768.jpg?strip=info&#038;w=1024&#038;ssl=1 1024w" alt="" data-height="960" data-id="20221" data-link="https://jeniffergeraldine.com/feiradetrocadelivros5_alagoinhas_maio2026/" data-url="https://jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros5_alagoinhas_maio2026-1024x768.jpg" data-width="1280" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros5_alagoinhas_maio2026-1024x768.jpg?ssl=1" data-amp-layout="responsive"/></figure><figure class="tiled-gallery__item"><img decoding="async" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros6_alagoinhas_maio2026-1024x576.jpg?strip=info&#038;w=600&#038;ssl=1 600w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros6_alagoinhas_maio2026-1024x576.jpg?strip=info&#038;w=900&#038;ssl=1 900w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros6_alagoinhas_maio2026-1024x576.jpg?strip=info&#038;w=1024&#038;ssl=1 1024w" alt="" data-height="617" data-id="20222" data-link="https://jeniffergeraldine.com/feiradetrocadelivros6_alagoinhas_maio2026/" data-url="https://jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros6_alagoinhas_maio2026-1024x576.jpg" data-width="1097" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros6_alagoinhas_maio2026-1024x576.jpg?ssl=1" data-amp-layout="responsive"/></figure></div></div><div class="tiled-gallery__row"><div class="tiled-gallery__col" style="flex-basis:100.00000%"><figure class="tiled-gallery__item"><img decoding="async" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros_alagoinhas_maio2026-1024x768.jpg?strip=info&#038;w=600&#038;ssl=1 600w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros_alagoinhas_maio2026-1024x768.jpg?strip=info&#038;w=900&#038;ssl=1 900w,https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros_alagoinhas_maio2026-1024x768.jpg?strip=info&#038;w=1024&#038;ssl=1 1024w" alt="" data-height="960" data-id="20216" data-link="https://jeniffergeraldine.com/feiradetrocadelivros_alagoinhas_maio2026/" data-url="https://jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros_alagoinhas_maio2026-1024x768.jpg" data-width="1280" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/feiradetrocadelivros_alagoinhas_maio2026-1024x768.jpg?ssl=1" data-amp-layout="responsive"/></figure></div></div></div></div></div>
+
+
+
+<p class="wp-block-paragraph"></p>
+
+
+
+<h2 class="wp-block-heading"><strong>Orientação de TCC sobre liderança negra</strong></h2>
+
+
+
+<p class="wp-block-paragraph">Em 2026.1, também tive a alegria e o desafio de orientar uma dupla do<strong> bacharelado em Administração</strong>, <strong>Bárbara Sthefany Araújo dos Santos e Carlson Vagner Nogueira da Silva</strong>, com o trabalho de conclusão de curso intitulado <strong>Desafios enfrentados por pessoas negras em posição de liderança</strong>. A dupla fez um excelente trabalho e, desde o início, se comprometeu a passar por um letramento racial crítico para desenvolver um artigo embasado teoricamente em nomes importantes da crítica negra.</p>
+
+
+
+<p class="wp-block-paragraph">Como disse no dia da defesa, em 17 de junho de 2026, Bárbara e Vagner deram uma verdadeira aula de letramento racial. Fico feliz e grata por participar e contribuir com a formação dos dois, acompanhando de perto um processo de escrita que se alinha a uma perspectiva antirracista no campo da Administração.</p>
+
+
+
+<figure class="wp-block-image size-large"><a href="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/defesa_tcc_adm_fsss_junho2026.png?ssl=1"><img data-recalc-dims="1" loading="lazy" decoding="async" width="1024" height="819" src="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/defesa_tcc_adm_fsss_junho2026.png?resize=1024%2C819&#038;ssl=1" alt="" class="wp-image-20223" srcset="https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/defesa_tcc_adm_fsss_junho2026.png?resize=1024%2C819&amp;ssl=1 1024w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/defesa_tcc_adm_fsss_junho2026.png?resize=300%2C240&amp;ssl=1 300w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/defesa_tcc_adm_fsss_junho2026.png?resize=768%2C614&amp;ssl=1 768w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/defesa_tcc_adm_fsss_junho2026.png?resize=1536%2C1229&amp;ssl=1 1536w, https://i0.wp.com/jeniffergeraldine.com/wp-content/uploads/2026/07/defesa_tcc_adm_fsss_junho2026.png?w=2000&amp;ssl=1 2000w" sizes="auto, (max-width: 1000px) 100vw, 1000px" /></a></figure>
+
+
+
+<p class="wp-block-paragraph">Que venha 2026.2! <img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f64f-1f3fc.png" alt="🙏🏼" class="wp-smiley" style="height: 1em; max-height: 1em;" /><img src="https://s.w.org/images/core/emoji/17.0.2/72x72/1f33b.png" alt="🌻" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>O post <a href="https://jeniffergeraldine.com/notas-da-professora-pesquisadora-feira-de-troca-de-livros-e-orientacao-de-tcc/">Notas da professora-pesquisadora: feira de troca de livros e orientação de TCC</a> apareceu primeiro em <a href="https://jeniffergeraldine.com">Jeniffer Geraldine | Vida &amp; Cultura</a>.</p>
+]]></description>
   </item>
 
   <item>
@@ -22165,6 +23075,55 @@ Apenas deixou para trás alguém que nunca soube enxergar o valor que ele sempre
     <guid isPermaLink="true">https://meumuseuparticular.blogspot.com/2026/06/dez-curiosidades-sobre-mim.html</guid>
     <pubDate>Sat, 13 Jun 2026 15:06:49 GMT</pubDate>
     <description><![CDATA[1 - Eu poderia comer pão de queijo todos os dias da minha vida sem enjoar (de verdade).<br /><br />2 - Já me mudei de casa 11x durante toda a minha vida. A maioria delas foram na época da faculdade.<br /><br />3 - Eu já quebrei ou fraturei as duas pernas e os dois braços (mais de uma vez) quando eu era criança. Todo ano sem falta acontecia, e foi muito estranho no ano que não quebrei nada e não precisei colocar gesso, lembro de ficar triste e sentir falta (maluca kkkk).<br /><br />4 - Nunca fui muito de filmes e nunca vi alguns dos grandes clássicos que todo mundo já viu, tipo Titanic, Nemo, ou Rei Leão (entre muitos outros). <br /><br />5 - Sempre fui fissurada por flores, desde que nasci. Com 3 anos de idade eu consegui uma cicatriz por conta de uma flor. Fui pra igreja com a minha avó e em algum momento saí de fininho e fui no banheiro. No caminho eu vi algumas flores de um casamento que teria lá no dia seguinte, quis muito pegar uma que estava em cima de uma cômoda dentro de um vaso de cerâmica. Então, quietinha, abri a terceira gaveta da cômoda e subi em cima pra pegar. Não preciso dizer que caiu tudo em cima de mim né, cerâmica e tudo. A cerâmica caiu em cima do meu pé e começou a jorrar sangue, papo da igreja inteira parar pra ver o que tinha acontecido. No fim fui pro hospital, deu tudo certo e carrego comigo a cicatriz até hoje. <br /><br />6 - Tenho orelhinha de elfo. Uma só, mas ela tem aquele formato pontudinho das orelhas de elfo. <br /><br />7 - Recentemente comecei uma mini coleção de patos (sem motivo nenhum). E uma outra de ET's com meu namorado, é quase nosso mascote, temos vários espalhados pela casa.<br /><br />8 - Sou obcecada por registrar a minha vida. Eu registro em fotos (muitas fotos), em vídeos, tenho diários desde 2010 (com alguns intervalos nesse meio tempo em que eu não quis escrever), tenho o blog, desde 2013 faço listas de absolutamente tudo da minha vida, sobre coisas que aconteceram, lugares que eu conheci, livro que eu li, e por aí vai. <br /><br />9 - Sempre tive medo de cachorro, desde criança. Pra ser sincera eu não considero nem medo, era pavor mesmo. E minha mãe também, brinco que ela passou pra mim na gravidez. Mas uns 8 anos atrás adotamos uma Shih Tzu e o medo simplesmente sumiu, parece que somos outras pessoas.<div><br /></div><div>10 - Nunca tive medo de dentista, mas em 2021 precisei tirar os sisos e por algum motivo a ideia me apavorou demais. Por conta do medo decidi tirar os quatro de uma vez, pra passar o sufoco uma vez só. Eu precisei ir sozinha, e lembro que na sala de espera eu estava com tanto medo que eu escrevi no bloco de notas do celular uma carta pra cada pessoa que eu amo porque eu estava com medo de ***morrer*** (kkkkkkk maluca). No fim o dentista era maravilhoso, a cirurgia não durou 40min e foi super tranquila, a recuperação foi perfeita, nem inchado ficou. Mas eu carrego o trauma até hoje, e toda vez que vou no dentista é uma tremedeira diferente (sem motivo nenhum).&nbsp;</div><div><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQk-kYjFrItXIGVPZ15ODhQKfdnWByI2hyphenhyphengTeaTZpnYU4I-xsFFT4j3CBKpLkhKqEGYzV79h90S5u0QAEizh5cWQa5cGvoebxR-mgp43RUfr7kSaBw4YEH96LRGK4J1FPtCnt7yzqKfUzuQZ0H7yUc34GwoOMEUfzF4eyDz6llVftiNFL5M2NBOd2GmRc/s2000/Tezza_2026_06_13_115413389.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="1333" data-original-width="2000" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQk-kYjFrItXIGVPZ15ODhQKfdnWByI2hyphenhyphengTeaTZpnYU4I-xsFFT4j3CBKpLkhKqEGYzV79h90S5u0QAEizh5cWQa5cGvoebxR-mgp43RUfr7kSaBw4YEH96LRGK4J1FPtCnt7yzqKfUzuQZ0H7yUc34GwoOMEUfzF4eyDz6llVftiNFL5M2NBOd2GmRc/s16000/Tezza_2026_06_13_115413389.jpg" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhG_cJ3scTLzl_PvoxXMae03X95bDGQiee2MgbNhAqVM55QY6zFbMUEeIyIjJXe2ctZK2ZN5vFo-kQZPQwPxwWRry_AjmmjpCaDwSbLS1gnNC0LFZ_p2RKdyAbPu0OwBdCGrjm-bQqhAhiq7NyDS7MJamfZtflwnEmiQQMbq4jnjt1X27_WSlIBRvs3dH8/s2000/Tezza_2026_06_13_115518719.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="1333" data-original-width="2000" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhG_cJ3scTLzl_PvoxXMae03X95bDGQiee2MgbNhAqVM55QY6zFbMUEeIyIjJXe2ctZK2ZN5vFo-kQZPQwPxwWRry_AjmmjpCaDwSbLS1gnNC0LFZ_p2RKdyAbPu0OwBdCGrjm-bQqhAhiq7NyDS7MJamfZtflwnEmiQQMbq4jnjt1X27_WSlIBRvs3dH8/s16000/Tezza_2026_06_13_115518719.jpg" /></a></div>]]></description>
+  </item>
+
+  <item>
+    <title>JENIFFER GERALDINE — Resista: não faça nada, livros de Off Campus, série From e mais</title>
+    <link>https://jeniffergeraldine.com/resista-nao-faca-nada-livros-de-off-campus-serie-from-e-mais/</link>
+    <guid isPermaLink="true">https://jeniffergeraldine.com/resista-nao-faca-nada-livros-de-off-campus-serie-from-e-mais/</guid>
+    <pubDate>Sat, 13 Jun 2026 10:22:03 GMT</pubDate>
+    <description><![CDATA[
+<p class="wp-block-paragraph">Nesta edição das minhas <strong>notas da semana</strong>, compartilho a leitura de <strong>Resista: não faça nada</strong>, os livros da série <strong>Off Campus,</strong> a <strong>série From</strong>, o <strong>mimo literário e o livro que recebi da Companhia das Letras</strong>, meu <strong>caderno</strong> argolado para o 2º semestre e uma <strong>fotografia </strong>que fiz recentemente.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Resista: não faça nada, livros de Off Campus, série From e mais • Jeniffer Geraldine" width="500" height="281" src="https://www.youtube.com/embed/GZgWT3JMeqo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p class="wp-block-paragraph"><strong>Livros e produtos na Amazon: </strong></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://amzn.to/4eppNwU" target="_blank" rel="noreferrer noopener">Noite negra </a></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://amzn.to/4e7Q0RK" target="_blank" rel="noreferrer noopener">O erro: Amores Improváveis vol. 2  </a></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://amzn.to/3S5EVbb" target="_blank" rel="noreferrer noopener">O jogo: Amores Improváveis vol. 3 </a></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://amzn.to/4eH6Xm0" target="_blank" rel="noreferrer noopener">Resista não faça nada: A Batalha pela Economia da Atenção </a></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://amzn.to/49VJRFH" target="_blank" rel="noreferrer noopener">A máquina de fazer espanhóis </a></p>
+
+
+
+<p class="wp-block-paragraph"><a href="https://amzn.to/3Qc73ZH" target="_blank" rel="noreferrer noopener">Caderno criativo argolado colegial </a></p>
+
+
+
+<p class="wp-block-paragraph">Me conta nos comentários: o que você leu ou assistiu de interessante nos últimos dias?<br></p>
+<p>O post <a href="https://jeniffergeraldine.com/resista-nao-faca-nada-livros-de-off-campus-serie-from-e-mais/">Resista: não faça nada, livros de Off Campus, série From e mais</a> apareceu primeiro em <a href="https://jeniffergeraldine.com">Jeniffer Geraldine | Vida &amp; Cultura</a>.</p>
+]]></description>
   </item>
 
   <item>
