@@ -6,14 +6,12 @@ description: Onde as coisas são decididas.
 A comunidade no whatsapp é dividida em alguns grupos:
 
 <h4>Avisos</h4>
-> Único grupo da comunidade com participação automática e obrigatória. Nele centralizamos as enquetes, resultados das votações e outros avisos importantes sobre o projeto ENTREBLOGS.
+> Nele centralizamos as enquetes, resultados das votações e outros avisos importantes sobre o projeto ENTREBLOGS.
 
-<h4>Chat</h4>
+<h4>Chat & Posts</h4>
 > Onde acontece a maior parte das conversas e papeamos sobre qualquer coisa. 
 >
-> Se quiser participar mas se assustar com a quantidade de mensagens, não tenha dó e silencie sem medo. Mas se quiser papear, compartilhar seus centavos no tribunal de pequenas causas, encher a caixinha de mensagens do colega, fique a vontade.  
->
-> A galera se empolga. É raro mas acontece muito.   
+> Fique a vontade para papear, compartilhar seus posts ou outros links que ache interessante.   
 >
 <blockquote class="fleabag"> DICA 🔮 No grupo Chat usamos a ETIQUETA DE MEMBRO para facilitar a identifcação entre os outros participantes. Para adicionar a sua etiqueta, basta abrir o chat em grupo que você deseja e toque no nome do grupo no topo. Na tela de "Dados do grupo", role para baixo até a sua foto e toque na opção "Adicionar etiqueta de membro". Digite o url do seu blog e salve.</blockquote>
 >
@@ -24,13 +22,7 @@ A comunidade no whatsapp é dividida em alguns grupos:
 >
 > Ah, quer fofocar enquanto lê o livro da vez? Temos também um outro grupinho de fofocas para compartilhar todo seu estoque de figurinhas, demonstrar o tanto de raiva que passou, personagens que quis desviver, lágrimas derramadas por personagens que não existem. 
 
-<h4>Posts</h4>
-> Espaço para compartilhamos nossas participações dos temas e também outros posts que quisermos. 
->
-> Fez um post bacana que não tem relação com o projeto e quer compartilhar? Liberadíssimo! 
-
 <h4>Tech</h4>
 > Espaço para papearmos sobre ferramentas, tutorais e qualquer troca que nos ajude a aperfeiçoar nossas casinhas virtuais. Vale pedir socorro e vale ajudar os colegas também.
 
-<h4>Indicações</h4>
-> Espaço para indicarmos filmes, séries, livros, eventos, cursos... O que quiser indicar aos amigos da comunidade vale 😉
+
