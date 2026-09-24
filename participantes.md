@@ -295,7 +295,7 @@ function carregarParticipacoes(csv) {
       return {
         blog: cols[1]?.trim(),
         temaPrincipal: tema,
-        link: cols[6]?.trim(),
+        link: cols[10]?.trim(),
         codigo: codigoOriginal
       };
 
