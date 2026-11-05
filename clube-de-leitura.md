@@ -4,70 +4,16 @@ title: Clube de leitura
 description: lista com todos os livros lidos em grupo.
 ---
 
-O clube de leitura é um projeto paralelo onde escolhemos um livro por mês para depois de lido virar um post no seu blog contando como foi a experiência. **Clique** no livro abaixo para saber o que cada um achou a respeito:
+O clube de leitura é um projeto paralelo onde escolhemos um livro por mês para depois de lido virar um post no seu blog contando como foi a experiência. 
 
-<section class="listas-livros">
-<ul class="link-livros">
-
-  <li>
-    <figure class="capa-do-livro" livro-numero="07/26">
-      <a href="{{ site.baseurl }}/clube-de-leitura/o-perfume">
-        <img src="{{ site.baseurl }}/assets/livros/o-perfume.jpg">
-      </a>
-      <figcaption>O Perfume • Patrick Suskind</figcaption>
-    </figure>
-  </li>
-  
-  
-  <li>
-    <figure class="capa-do-livro" livro-numero="06/26">
-      <a href="{{ site.baseurl }}/clube-de-leitura/com-amor-felicia-gilbert-luly-lage">
-        <img src="{{ site.baseurl }}/assets/livros/com-amor-felicia-gilbert-luly-lage.jpg">
-      </a>
-      <figcaption>Com amor, Felicia Gilbert • Luly Lage</figcaption>
-    </figure>
-  </li>
-  
-
-  <li>
-    <figure class="capa-do-livro" livro-numero="05/26">
-      <a href="{{ site.baseurl }}/clube-de-leitura/memorias-do-subsolo-fiodor-dostoievski">
-        <img src="{{ site.baseurl }}/assets/livros/memorias-do-subsolo-fiodor-dostoievski.jpg">
-      </a>
-      <figcaption>Memórias do Subsolo • Fiódor Dostoiévski</figcaption>
-    </figure>
-  </li>
-  
-  <li>
-    <figure class="capa-do-livro" livro-numero="04/26">
-      <a href="{{ site.baseurl }}/clube-de-leitura/a-vegetariana-han-kang">
-        <img src="{{ site.baseurl }}/assets/livros/a-vegetariana-han-kang.jpg">
-      </a>
-      <figcaption>A Vegetariana • Han Kang</figcaption>
-    </figure>
-  </li>
-
-  <li>
-    <figure class="capa-do-livro" livro-numero="03/26">
-      <a href="{{ site.baseurl }}/clube-de-leitura/tres-valerie-perrin">
-        <img src="{{ site.baseurl }}/assets/livros/tres-valerie-perrin.jpg">
-      </a>
-      <figcaption>Três • Valérie Perrin </figcaption>
-    </figure>
-  </li>
-
-  <li>
-    <figure class="capa-do-livro" livro-numero="02/26">
-      <a href="{{ site.baseurl }}/clube-de-leitura/a-cabeca-do-santo-socorro-acioli">
-        <img src="{{ site.baseurl }}/assets/livros/a-cabeca-do-santo-socorro-acioli.jpg">
-      </a>
-      <figcaption>A Cabeça do Santo • Socorro Acioli</figcaption>
-    </figure>
-  </li>
-
-</ul>
-</section>
++ 10/2026 — As vacas não me olham mais na cara (Dora Freind)
++ 09/2026 — O ato criativo (Rick Rubin)
++ 07/2026 — O Perfume (Patrick Suskind)
++ 06/2026 — Com amor, Felicia Gilbert (Luly Lage)
++ 05/2026 — Memórias do Subsolo (Fiódor Dostoiévski)
++ 04/2026 — A Vegetariana (Han Kang)
++ 03/2026 — Três (Valérie Perrin)
++ 02/2026 — A Cabeça do Santo (Socorro Acioli)
 
 *Importante: 
-- A votação é feita no 15 dia de cada mês para sortear a leitura do mês seguinte.
 - As resenhas podem ser postadas a qualquer momento.
