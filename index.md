@@ -22,8 +22,10 @@ O intuito desse projeto ⭐ _além de manter a blogosfera viva_ ⭐ é criar um 
 
 <h2>IDEALIZADORES</h2>
 
-**BARBARA MORETTI**, do blog [BMRTT](https://bamoretti.com).
-**IGOR MEDEIROZ**, do blog [Histórico Infame](https://igormedeiroz.com). 
+**BARBARA MORETTI**, do blog [BMRTT](https://bamoretti.com); mais de duas décadas compartilhando aleatoriedades da vida na blogosfera. 
+**IGOR MEDEIROZ**, do blog [Histórico Infame](https://igormedeiroz.com); escrevendo desabafos e besteiras a tempo demais na internet, mas até que alguns são sérios. 
+
+Veem no projeto uma forma de fazer mais pessoas compartilharem suas coisinhas, explorarem criatividade e criarem conexões sem deixar a blogosfera morrer.
 
 >
 >A vida muda, mas o blog persiste. **A blogosfera persiste.**
