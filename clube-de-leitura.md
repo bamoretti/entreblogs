@@ -15,5 +15,4 @@ O clube de leitura é um projeto paralelo onde escolhemos um livro por mês para
 + 03/2026 — Três (Valérie Perrin)
 + 02/2026 — A Cabeça do Santo (Socorro Acioli)
 
-*Importante: 
-- As resenhas podem ser postadas a qualquer momento.
+✷ As resenhas podem ser postadas a qualquer momento.
