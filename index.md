@@ -20,11 +20,11 @@ O intuito desse projeto ⭐ _além de manter a blogosfera viva_ ⭐ é criar um 
 + 🪴 [Sinta-se a vontade também para participar da nossa tag entreblogs]({{ site.baseurl }}/extras/por-tras-do-blog/)
 
 <h2>IDEALIZADORES</h2>
->
+
 **BARBARA MORETTI**, do blog [BMRTT](https://bamoretti.com).
-> 
 **IGOR MEDEIROZ**, do blog [Histórico Infame](https://igormedeiroz.com). 
 
-A vida muda, mas o blog persiste. **A blogosfera persiste.**
+>
+>A vida muda, mas o blog persiste. **A blogosfera persiste.**
 
 {% include arquivo-secreto.html %}
