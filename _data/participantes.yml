@@ -259,10 +259,6 @@
   url: "https://ararinhaaazul.bearblog.dev"
   feed: "https://ararinhaaazul.bearblog.dev/feed/"
 
-- blog: "Post Literal"
-  url: "https://www.postliteral.com.br/"
-  feed: "https://www.postliteral.com.br/feeds/posts/default"
-
 - blog: "Garota de Canela"
   url: "https://garotadecanela.blogspot.com/"
   feed: "https://garotadecanela.blogspot.com/feeds/posts/default"
