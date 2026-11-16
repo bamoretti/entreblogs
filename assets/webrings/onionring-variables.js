@@ -4,7 +4,6 @@ var websites = [
   "https://diario-otome.blogspot.com/",
   "https://julietheblog.blogspot.com/",
   "https://ararinhaaazul.bearblog.dev/",
-  "https://www.postliteral.com.br/",
   "https://garotadecanela.blogspot.com/",
   "https://www.ventodoleste.com.br/",
   "https://cosmoliko.com/",
