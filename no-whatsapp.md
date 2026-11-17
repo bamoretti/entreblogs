@@ -3,7 +3,7 @@ layout: default
 title: Comunidade no WhatsApp
 description: Onde as coisas são decididas.
 ---
-A **comunidade no whatsapp** é dividida da seguinte forma:
+A **comunidade no whatsapp** é dividida da seguinte forma:<br>
 
 <h2> Subgrupos </h2>
 <h4>Chat & Posts</h4>
@@ -23,7 +23,10 @@ A **comunidade no whatsapp** é dividida da seguinte forma:
 <h4>Tech</h4>
 > Espaço para papearmos sobre ferramentas, tutorais e qualquer troca que nos ajude a aperfeiçoar nossas casinhas virtuais. Vale pedir socorro e vale ajudar os colegas também.
 
+<br>
+
 <h2>Grupo AVISOS</h2>
+<br>
 <blockquote class="fleabag">O grupo <b>avisos</b> é único "obrigatório" enquanto participante da comunidade no whatsapp. Usamos eles para avisos importantes de novos projetos, enquetes, resultado das enquetes e afins.<br>
 Você pode entrar e sair dos demais grupos quantas vezes achar necessário, sabemos que grupos muito movimentados as vezes nos sobrecarregam.
 </blockquote>
