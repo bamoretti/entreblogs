@@ -31,6 +31,6 @@ Em [temas]({{ site.baseurl }}/temas/) você poder ver quais os temas que já tiv
 
 **Outros links úteis:**
 
-+ 🗓 Apareça no calendário de aniversariantes _(apenas dentro da comunidade)_(<a href="https://forms.gle/NyxJ9yG2Awdi1Qbd8">clique aqui para cadastrar</a>) 
++ 🗓 Se quiser, apareça no calendário de aniversariantes (<a href="https://forms.gle/NyxJ9yG2Awdi1Qbd8">clique aqui para cadastrar</a>) 
 + 📜 [Coloque algum selo de participante no seu blog]({{ site.baseurl }}/selos) 
 + 🪴 [Sinta-se a vontade para participar da nossa tag entreblogs]({{ site.baseurl }}/extras/por-tras-do-blog/)
