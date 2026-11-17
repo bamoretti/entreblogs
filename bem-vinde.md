@@ -10,9 +10,8 @@ YAY!
 
 Parece que agora você é ENTREBLOGGER!!! Te damos as boas-vindas!  </blockquote>
 
-Comece adicionado o link do seu blog em nosso formulário, na opção **participantes**:
-- ✷ <a href="https://forms.gle/q7RHYKHAo7R83hsL8">Clique aqui para acessar formulário</a>!<br>
-*Você usará esse mesmo formulário para subir link dos seus posts quando participar de algum **tema** ou **leitura**.* 
+Comece adicionado o link do seu blog em nosso formulário (<a href="https://forms.gle/q7RHYKHAo7R83hsL8">Clique aqui para acessar</a>), na opção **participantes**.
+- ✷ *Você usará esse mesmo formulário para subir link dos seus posts quando participar de algum **tema** ou **leitura**.* 
 
 O Entreblogs é uma comunidade para trocar experiências e desafios mensais.
 
