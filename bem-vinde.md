@@ -17,7 +17,7 @@ O Entreblogs é uma comunidade para trocar experiências e desafios mensais.
 
 Somos uma **comunidade no whatsapp** (<a href="https://chat.whatsapp.com/K2Z3qQVCMr60iIHkdUuwaW">clique aqui para participar</a>) com vários sub-grupos [(acesse aqui para saber mais)]({{ site.baseurl }}/no-whatsapp).
 
-Em [temas]({{ site.baseurl }}/temas/) você poder ver quais os temas que já tivemos, fique a vontade para participar dos que quiser; e em [clube de leitura]({{ site.baseurl }}/clube-de-leitura/) temos os livros já lidos no clube de leitura do Entreblogs. 
+Em [temas]({{ site.baseurl }}/temas/) você poder ver quais os temas que já selecionamos, fique a vontade para participar dos que quiser; e em [clube de leitura]({{ site.baseurl }}/clube-de-leitura/) temos os livros do clube de leitura do Entreblogs. 
 
 - *Os temas e livros são definidos mensalmente, geralmente via enquete.*
 
