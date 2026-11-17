@@ -11,12 +11,12 @@ YAY!
 Parece que agora você é ENTREBLOGGER!!! Te damos as boas-vindas!  </blockquote>
 
 Comece adicionado o link do seu blog em nosso formulário, na opção **participantes**:
-- ✷ <a href="https://forms.gle/q7RHYKHAo7R83hsL8">Clique aqui para acessar formulário</a>!
+- ✷ <a href="https://forms.gle/q7RHYKHAo7R83hsL8">Clique aqui para acessar formulário</a>!<br>
 *Você usará esse mesmo formulário para subir link dos seus posts quando participar de algum **tema** ou **leitura**.* 
 
 O Entreblogs é uma comunidade para trocar experiências e desafios mensais.
 
-Somos uma comunidade no whatsapp (<a href="https://chat.whatsapp.com/K2Z3qQVCMr60iIHkdUuwaW">clique aqui para participar</a>) com vários sub-grupos [(acesse aqui para saber mais)]({{ site.baseurl }}/no-whatsapp).
+Somos uma **comunidade no whatsapp** (<a href="https://chat.whatsapp.com/K2Z3qQVCMr60iIHkdUuwaW">clique aqui para participar</a>) com vários sub-grupos [(acesse aqui para saber mais)]({{ site.baseurl }}/no-whatsapp).
 
 Em [temas]({{ site.baseurl }}/temas/) você poder ver quais os temas que já tivemos, fique a vontade para participar dos que quiser; e em [clube de leitura]({{ site.baseurl }}/clube-de-leitura/) temos os livros já lidos no clube de leitura do Entreblogs. 
 
@@ -27,7 +27,7 @@ Em [temas]({{ site.baseurl }}/temas/) você poder ver quais os temas que já tiv
   <b>Sinta-se livre pra participar do que quiser e quando puder.</b><br>
   Sua carteirinha de participante não será confiscada 🫰🏻 </blockquote>
 
-A vida já é cheia de cobranças e obrigações demais para tornarmos esse projeto mais um 😉 
+- *A vida já é cheia de cobranças e obrigações demais para tornarmos esse projeto mais um* 😉 
 
 **Outros links úteis:**
 
