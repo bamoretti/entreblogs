@@ -3,7 +3,8 @@ layout: default
 title: Comunidade no WhatsApp
 description: Onde as coisas são decididas.
 ---
-A **comunidade no whatsapp** é dividida da seguinte forma:<br>
+A **comunidade no whatsapp** é dividida da seguinte forma:
+<br><br>
 
 <h2> Subgrupos </h2>
 <h4>Chat & Posts</h4>
