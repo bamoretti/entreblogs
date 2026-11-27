@@ -6,6 +6,106 @@
 #   feed: "https://exemplo.com/feed"
 #   added: "2025-03-22"
 
+- blog: "mrclmlt"
+  url: "https://mrclmlt.com.br/"
+  feed: "https://mrclmlt.com.br/feed.xml"
+  added: "2026-11-27"
+
+- blog: "Marina Bonela"
+  url: "https://marinabonela.com/"
+  feed: "https://marinabonela.com/feed"
+  added: "2026-11-27"
+
+- blog: "ERRO 418"
+  url: "https://erro418.blogspot.com/"
+  feed: "https://erro418.blogspot.com/feeds/posts/default"
+  added: "2026-11-27"
+
+- blog: "Lua de Marte"
+  url: "https://marina-menezes.blogspot.com/"
+  feed: "https://feeds.feedburner.com/31demarco"
+  added: "2026-11-27"
+
+- blog: "Oi, Tô no Tédio"
+  url: "https://oitonotedio.blogspot.com/"
+  feed: "https://oitonotedio.blogspot.com/feeds/posts/default?alt=rss"
+  added: "2026-11-27"
+
+- blog: "doce ⋆⁺₊⋆ ☾⋆⁺₊⋆ vampira"
+  url: "https://doce-vampira.blogspot.com/"
+  feed: "https://doce-vampira.blogspot.com/feeds/posts/default"
+  added: "2026-11-27"
+
+- blog: "Stay Gold ✦"
+  url: "https://staygoldden.blogspot.com/"
+  feed: "https://staygoldden.blogspot.com/feeds/posts/default?alt=rss"
+  added: "2026-11-27"
+
+- blog: "falo demais"
+  url: "https://falodemais.neocities.org/"
+  feed: "https://falodemais.neocities.org/feed-conteudo.xml"
+  added: "2026-11-27"
+
+- blog: "O Guardião de Histórias"
+  url: "https://www.oguardiaodehistorias.com.br/"
+  feed: "https://www.oguardiaodehistorias.com.br/feeds/posts/default"
+  added: "2026-11-27"
+
+- blog: "🛌 Eu não quero sair da cama."
+  url: "https://heyimbriel.bearblog.dev/"
+  feed: "https://heyimbriel.bearblog.dev/feed/"
+  added: "2026-11-27"
+
+- blog: "Book Selfie"
+  url: "https://book-selfie.blogspot.com/"
+  feed: "https://book-selfie.blogspot.com/feeds/posts/default"
+  added: "2026-11-27"
+
+- blog: "Surtos"
+  url: "https://status.igormedeiroz.com/"
+  feed: "https://status.igormedeiroz.com/feeds/posts/default"
+  added: "2026-11-27"
+
+- blog: "Fina Literatura"
+  url: "https://finaliteratura.blogspot.com/"
+  feed: "https://finaliteratura.blogspot.com/feeds/posts/default"
+  added: "2026-11-27"
+
+- blog: "Nana's Commonplace"
+  url: "https://nanascommonplace.blogspot.com/"
+  feed: "https://nanascommonplace.blogspot.com/feeds/posts/default"
+  added: "2026-11-27"
+
+- blog: "Solaris Ateliê"
+  url: "https://solarisatelie.com/"
+  feed: "https://solarisatelie.com/feed/"
+  added: "2026-11-27"
+
+- blog: "Conforme o Inesperado"
+  url: "https://conformeoinesperado.blogspot.com/"
+  feed: "https://conformeoinesperado.blogspot.com/feeds/posts/default"
+  added: "2026-11-27"
+
+- blog: "Blog com Natália"
+  url: "https://blogcomnatalia.blogspot.com/"
+  feed: "https://blogcomnatalia.blogspot.com/feeds/posts/default"
+  added: "2026-11-27"
+
+- blog: "Blog do FJNET"
+  url: "https://fjnet.neocities.org/blog/"
+  feed: "https://fjnet.neocities.org/blog/feed.xml"
+  added: "2026-11-27"
+
+- blog: "Daniel Santos"
+  url: "https://danielsantos.org/"
+  feed: "https://danielsantos.org/blog/feed.xml"
+  added: "2026-11-27"
+
+- blog: "☕︎ Inteligência Natural 🖋"
+  url: "https://inteligencianatural.social.br/"
+  feed: "https://inteligencianatural.social.br/feed.xml"
+  added: "2026-11-27"
+
 - blog: "Story by Lano"
   url: "https://storybylano.blogspot.com/"
   feed: "https://storybylano.blogspot.com/feeds/posts/default"
@@ -103,7 +203,7 @@
 
 - blog: "dudalog"
   url: "https://dudalog.neocities.org/"
-  feed: "https://dudalog.neocities.org/en/feed.xml"
+  feed: "https://dudalog.neocities.org/feed.xml"
   added: "2026-08-03"
 
 - blog: "Diletante Di.Leituras"
@@ -329,7 +429,7 @@
 
 - blog: "CLANDESTINI"
   url: "https://clandestini.org"
-  feed: "https://clandestini.org/feed"
+  feed: "https://clandestini.org/?feed=rss2"
 
 - blog: "DAILY SOH"
   url: "https://dailysoh.blogspot.com"
